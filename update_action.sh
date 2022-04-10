@@ -53,7 +53,7 @@ sed -i "s/^\(127.0.0.1\|0.0.0.0\)//g" $t
 sed -i "/^\.\|^\*/d" $t
 
 # 使用声明
-statement="# $(date '+%Y-%m-%d %T')\n# 小贝塔自用，请勿商用\n\n"
+statement="# $(date '+%Y-%m-%d %T')\n# 请勿商用\n\n"
 
 # 获得标准去重版 host
 sort -u $t -o $t
