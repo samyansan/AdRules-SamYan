@@ -1,7 +1,7 @@
 #!/bin/bash
 # 下载去广告hosts合并并去重
 
-t=host       hn=hosts       an=adguard
+t=ad-global.txt       hn=ad-global.txt       an=adaway.txt
 # f=host-full  hf=hosts-full  af=adguard-full
 
 # 转换为 adguard 格式函数
@@ -25,11 +25,14 @@ https://raw.githubusercontent.com/E7KMbb/AD-hosts/master/system/etc/hosts
 https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
 https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
 https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts
+https://hosts.nfz.moe/127.0.0.1/full/hosts
 https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/xiaobeita/hosts
-https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts
+https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt
 https://raw.githubusercontent.com/ilpl/ad-hosts/master/hosts
 https://gitee.com/lhzgl6587/hosts/raw/master/hosts
 https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/iPv4Hosts.txt
+https://raw.githubusercontent.com/521xueweihan/GitHub520/master/hosts
+https://raw.githubusercontent.com/neodevpro/neodevhost/master/adblocker
 EOF
 
 # Github520 hosts
