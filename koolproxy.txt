@@ -1,7 +1,7 @@
-!x  -----------------------------------------------------------------------------------------------------------------
+﻿!x  -----------------------------------------------------------------------------------------------------------------
 !x  -----[KoolProxy 3.8.5]
-!x  -----update[rules]: 2022-03-05 17:16
-!x  -----update[video]: 2022-03-18 21:00
+!x  -----update[rules]: 2022-05-07 20:00
+!x  -----update[video]: 2022-05-07 22:02
 !x  -----Thanks: From lvba Rule Group
 !x  -----Thanks for help: <yiclear> <adbyby> <adm> <adblock> <adguard>
 !x  -----------------------------------------------------------------------------------------------------------------
@@ -499,6 +499,7 @@
 @@@@|https://dldir1v6.qq.com
 @@@@|https://ef-dongfeng.tanx.com
 @@@@|https://emoticon-sns.iqiyi.com
+@@@@|https://errlog.umeng.com
 @@@@|https://e-p4p.163.com
 @@@@|https://frodo.douban.com
 @@@@|https://game.163.com
@@ -553,6 +554,7 @@
 @@@@|https://passport.mydrivers.com
 @@@@|https://image.xingyan.panda.tv
 @@@@|https://pv.sohu.com
+@@@@|https://play.googleapis.com
 @@@@|https://qosp.iqiyi.com
 @@@@|https://qici.iqiyi.com
 @@@@|https://qnmob3.doubanio.com
@@ -584,13 +586,17 @@
 @@@@|https://time.video.iqiyi.com
 @@@@|https://txt.go.sohu.com
 @@@@||https://twitter.com
+@@@@|https://ulogs.umeng.com
+@@@@|https://ulogs.umengcloud.com
 @@@@|https://uop.umeng.com
+@@@@|https://utoken.umeng.com
 @@@@|https://v2.sohu.com
 @@@@||https://video.iqiyi.com
 @@@@|https://vthumb.youku.com
 @@@@|https://vals.atm.youku.com/dot/video?
 !@@@@|https://vv6.video.qq.com
 @@@@|https://www.google.com
+@@@@|https://www.googleapis.com
 !@@@@|https://youtubei.googleapis.com
 !@@@@|https://www.qidian.com/Javascript/ChapterPageHeader.js?t
 !@@@@|https://www.qidian.com/Javascript/qidian.bookchannel.js?
@@ -4159,6 +4165,7 @@
 |https://cmstool.youku.com/cms/tool/pub/get_putdata.json?
 |https://crt.comodoca.com
 |https://d1.sina.com.cn^
+|https://dlswbr.baidu.com/heicha/mw/abclite-*.js
 |https://d2.sina.com.cn^
 |https://d3.sina.com.cn^
 |https://d4.sina.com.cn^
@@ -4172,6 +4179,7 @@
 |https://dm.aizhan.com^
 |https://dup.baidustatic.com/js/ds.js
 |https://dvs.china.com/js/chinaadclientV2.0.js
+|https://eclick.baidu.com
 |https://ehg-youtube.hitbox.com
 |https://erebor.douban.com^
 |https://e.stat.ykimg.com/
@@ -4182,6 +4190,7 @@
 |https://fp.fraudmetrix.cn/fp/clear.png?
 |https://file.ithome.com/js/money/pc/$script
 |https://file.ithome.com/js/recommend.js$script
+|https://files.jb51.net/image/
 |https://fff1208.supfree.net/stat.asp
 |https://fff1208.supfree.net/$script
 !|https://g.alicdn.com/ad-product/h5sdk/1.3.17/sdk/yksdk.js
@@ -4276,6 +4285,7 @@
 |https://scss-prod-ue1-notif-22.adobesc.com/
 |https://share.acgnx.se/images/gDqF4N4b.png
 |https://share.acgnx.se/images/cjTQH5PQ.png
+|https://show-3.mediav.com
 |https://ss.sysad.cn
 |https://static.oschina.net/uploads/cooperation/
 |https://statics.woozooo.com/img/p1091.js
@@ -4293,6 +4303,7 @@
 |https://static.ettoday.net/ad/
 |https://static.ettoday.net/dfp/dfp-
 |https://static.jiuwei.com/js/adextend.js
+|https://static.mediav.com/js/
 |https://su.bdimg.com/static/dspui/js/
 |https://sb.scorecardresearch.com^$third-party
 |https://securepubads.g.doubleclick.net
@@ -11832,6 +11843,7 @@ zznews.cn##.ad:not([style="margin-top:0px;padding-top:0px;"]),.ad1000-60
 |https://g.pconline.com.cn##DIV#pc-aptgA,div[class="m-header-top"],#JucLogin,#pTit-5,DIV.m-more + UL.news
 |https://hao.360.cn###large2small,#left_float
 |https://hao.360.cn##DIV.small-obj.animate,a[href$="src=hao_ncad_yule"],a[href$="src=hao_ncad_yule "],#corner-flash,.plane-hd
+|https://haokan.baidu.com##.share-icon,.ec-ads-containe,div[class^="mediago-ad-haokan-rightrail-wrapper"],div[class*="mediago-ad-wrapper"],.landrightbanner.landrightbanner-mediago
 |https://hb.ifeng.com###leftdl,#rightdl
 |https://hn.ifeng.com##.couplet,.fixed_ad
 |https://ks.shangxueba.com###rightfloatdiv
@@ -11949,7 +11961,6 @@ zznews.cn##.ad:not([style="margin-top:0px;padding-top:0px;"]),.ad1000-60
 ||https://hqew.com##.pop-banner
 ||https://ifeng.com##.ad640x90,.h_top_box,.foot_top_box,.newbagicon,[class^="adList"],div[class^="ad200"],div[id^="padhide_"],div[id^="couplet3_"],div.ad980,DIV.ad950,div.ad300,div.topAd,div.adArea,div#smExtObj,DIV.block_ad,DIV.pic1000,DIV.recommend > DIV.picNews,DIV.eduList.cGray.lh22,DIV[class^="ad1000"],div[id^="ArpAdPro_"],DIV[id^="index_top_banner_newbanner_ad_"],div.ad300x250,DIV.games_right_side,div.col_ad,DIV.adbox,DIV.ad.bd.ss_none,UL.list022,div.an,div.ad90,div.ad600,div#ifengAehovering_small,div.ad.mt20,div.ad.mt32,div.gg298,div.col_w1000.mt38,DIV[id^="_AdSame_DIV"],div.leftpopad,img[src^="http://y1.ifengimg.com/mappa/201"],div[class^="FNewRAvt"],div.FNewLAvt,div[class^="Col"][class$="Avt"],div[class^="ad0"],div.box_08.mt08,div.adbest,div.trade,.Avt01,div.Avt02,div.js_lh_ad,div.col_pc.IphoneNone,div[class^="ad_"],div[class^="adv"],div.ad2,span#StreamMediaWrap,div.vAdImg,div.v_ad_btm,div.acAdLis,div.iggLine,div.v-adbox,.adarea2,.flashAd,#tcldivtf1_1,#tcldivtf1_2,.right_gg,.gg,[id^="ad"],#video_p,.double_l,.double_r,.ad.mt15,[id^="div-gpt-ad-"],.ad-position,.ad1,.ad8,.newAdImg,#questionDialogBox,[id^="mobile_gg"],[class^="acAd"],[id^="cl3"].threepics,.mr_top_box,[id^="bigContent"],.yc_con_r,iframe[src^="http://p0.ifengimg.com/a/20"],iframe[src^="http://y1.ifengimg.com/a/20"],#swiper-container_bottom,.jctj,#iis_yw0,.yy_right_bottom,.yiyuan,[class^="cont_bottom_Yy"],.gg4,.advmark,.bomAd,.bomBox,.embedHzh,.videoPausePosition,[id^="cl1"],[class^="gg_"],li[id^="dl1"][style],[class^="games_ad_20"]
 ||https://ifeng.com##div[class^="pplive"],[class^="commentAd"],[class^="hardAd"],[class^="commomAd"]
-||https://iqiyi.com##div[id^="100000"]
 ||https://loldytt.com##div[id^="qj960"],div[id^="qj300"],div#xinxi,div#gouwu,div#xinnxi,div#xinxii,div#xinxin
 ||https://loldytt.com###ad_rightBottom > A:last-child > IMG
 ||https://mydrivers.com##div#code_lb.code_lb,TABLE[width="998"][height="90"],TABLE[width="1000"][height="90"],DIV.menu + DIV.baidu_box,#hsb_go,#dangbei_down,[id^="a_showhotnews_list"],[style^="width:1100px; height:90px;"],[class^="ad"],[style^="width:468px; height:60px;"],#recommend.news_xg,[width="1100"][height="90"],[src^="//icons.mydrivers.com/2018/ad"]
@@ -11965,6 +11976,7 @@ zznews.cn##.ad:not([style="margin-top:0px;padding-top:0px;"]),.ad1000-60
 ||https://ithome.com##DIV#hl960 + A > IMG[src^="http://t3.qpic.cn/"]:first-child,IMG[src^="http://ww2.sinaimg.cn/large/"],DIV#bbs_hl,div.a_pb,LI.sb_list > DIV.bx,ins.adsbygoogle,div[id^="a"][id$="g"],DIV#lagouData,DIV#hl-head,DIV#hl960,DIV#con > DIV#hl,IFRAME[src="http://www.ithome.com/block/headerline.htm"],div#side_pos1,div#hd_float,li#side_pos1,div#tt1,div[id$="hlindex"],div#hla,A[href^="http://e.cn.miaozhen.com"],div#tt5,li[style="padding-bottom:0;height:90px"],#hl-toutiao
 ||https://ithome.com##[href^="http://go.ruanmei.com/"]
 ||https://javbus7.com##.ad-list
+||https://jb51.net###txtlink,.topimg,.mainlr,.dxy776,.dxy370,img[src^="//files.jb51.net/image/"]
 ||https://jb51.net###down1,.adsbygoogle,#gaosu,[id^="gg_"],#con_all,#logo_m,#logo_r,#contsec,#contbot,.topk2
 ||https://kafan.cn###content_top,#content_bottom,[href^="https://vip.iqiyi.com/"]
 ||https://kafan.cn###categories-4[style],ins.adsbygoogle,div[id^="ad_"].ad,.header_gg,DIV.wp.gg,div.comeing_index_wad,div.comeing_mu,#content_top,#content_bottom,[href^="https://vip.iqiyi.com/"]
@@ -12067,6 +12079,7 @@ zznews.cn##.ad:not([style="margin-top:0px;padding-top:0px;"]),.ad1000-60
 |https://www.bilibili.com##.slide-gg,#slide_ad
 |https://www.bilibili.com##.adpos,div#b_app_link,div.goto-mobile,[data-id="68"],.live-ad-full,.index-promote,.ad-f,[data-id^="490"],[data-ad-type],.data-id-ad,.ad-e1,.bilibili-player-promote-wrap
 |https://www.bnext.com.tw##.col.view_sidebar.d-none.d-lg-block,.ad_box,.ad_space,div[id^="div-gpt-ad"],.ytp-ad-progress-list
+|https://www.chiphell.com##.drag
 |https://www.cmhello.com##.gpost-above
 |https://www.douyu.com##[class^="room-ad"]
 |https://www.douyu.com##.chat-ad
@@ -12947,6 +12960,7 @@ zznews.cn##.ad:not([style="margin-top:0px;padding-top:0px;"]),.ad1000-60
 !x  --------------------------------------------- redirect rules -------------------------------------------------------
 |https://91mjw.com/$r@/https:\/\/91mjw\.com.*?\?ad.*/@https://127.0.0.1@
 |https://91mjw.com/$r@/https:\/\/91mjw\.com.*?\.php.*/@https://127.0.0.1@
+|https://js.ttredian.com/$r@https://js.ttredian.com/con/ad*@https://cdn.jsdelivr.net/gh/houzi-/CDN/KP-/hide.js@
 !|https://api.rr.tv$r@https://api.rr.tv/user/privilege/list@https://cdn.jsdelivr.net/gh/houzi-/CDN/5.0/renren.js@
 !|https://api.rr.tv$r@https://api.rr.tv/ad/getAll@https://cdn.jsdelivr.net/gh/houzi-/CDN/5.0/renren.js@
 !|https://api.rr.tv$r@https://api.rr.tv/rrtv-video/v4plus/season/detail@https://cdn.jsdelivr.net/gh/houzi-/CDN/5.0/renren.js@
