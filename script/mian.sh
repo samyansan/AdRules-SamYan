@@ -18,10 +18,7 @@ curl -o i-14.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_2
 curl -o i-15.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_38.txt
 curl -o i-16.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_5.txt
 curl -o i-17.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_24.txt
-curl -o i-18.txt https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall-dns.txt
-curl -o i-19.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt
-curl -o i-20.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_21.txt
-curl -o i-21.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock.txt
+curl -o i-18.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock.txt
 
 # 合并规则并去除重复项
 cat i*.txt > i-mergd.txt
