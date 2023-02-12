@@ -4,11 +4,11 @@
 <strong>🌐 基础规则 规则地址</strong><br/><br/>
 Github raw
 ```
-https://raw.githubusercontent.com/samyansan/sam/main/Rules/adguardhome.txt
+https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/Rules/adguardhome.txt
 ```
 
 <strong>🌐 增强规则 规则地址</strong><br/><br/>
 Github raw
 ```
-https://raw.githubusercontent.com/samyansan/sam/main/ad.txt
+https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/ad.txt
   
