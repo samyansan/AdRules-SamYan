@@ -39,7 +39,7 @@ echo "! Title: AdGuard Rules" >> i-tpdate.txt
 echo "! Description: 该规则合并自各位大神规则，以及补充的一些规则，自用规则，勿商用" >> i-tpdate.txt
 echo "! Version: `date +"%Y-%m-%d %H:%M:%S"`" >> i-tpdate.txt
 echo "! Total count: $num" >> i-tpdate.txt
-cat i-tpdate.txt i-tmp.txt > abpmerge.txt
+cat i-tpdate.txt i-tmp.txt > adb.txt
 
 cat "abpmerge.txt" | grep \
 -e "\(^\|\w\)#@\?#" \
