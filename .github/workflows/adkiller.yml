@@ -15,7 +15,7 @@ jobs:
         with:
           python-version: '3.x'
       - uses: actions/checkout@main           
-      - name: Update Rules
+      - name: Update Rule
         run: |
           bash ./script/adguardhome.sh
       - name: Git push assets to Github
