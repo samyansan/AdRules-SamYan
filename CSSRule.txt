@@ -14684,7 +14684,6 @@
 ##div[data-wzb="CookieNotification"]
 ##div[element-structure-cookiemonster]
 ##div[id*="upCookiesLaw"]
-##div[id*='ad'][class*='text']
 ##div[id*='cat_'][id*='_ad']
 ##div[id="cm:cookieWrapper"]
 ##div[id][style="position: fixed; bottom: 40%; z-index: 19999 !important; right: 2px;"]
@@ -25757,6 +25756,7 @@ himsa.com##.cookieApprove
 hinata.me##div[class*="AdManager__AdWrapper"]
 hindimetoons.net##+js(aopw, adBlockDetected)
 hindustantimes.com##.FirstAd
+hindustantimes.com##.bottomStickyAds
 hindustantimes.com##.m_ads_unit
 hinet.net###media_ad_popup_overlay
 hinet.net###pop_media_ad
@@ -28927,9 +28927,9 @@ litv.tv##.internal_bn
 litv.tv##body > .right_float_poster_container
 live-tv-channels.org##+js(aopr, adBlockDetected)
 live-tv-channels.org##+js(nostif, adBlocked)
-live-tv-channels.org##._ads-in-player
 live-tv-channels.org##.adsense-player
 live-tv-channels.org##.adsense-player-2
+live-tv-channels.org##[class^="_ads-"]
 live.bilibili.com##.container-wrapper[style="height:446px;min-width:1280px"]
 live.kufu.co.jp##.banner_sp
 live.kufu.co.jp##.float_banner_wrapper
