@@ -24029,13 +24029,14 @@ exponea.com##.exp-cookies
 exporterhub.io##main > div > section > [style*="fixed"]
 exposition-osiris.com##.notice
 expozdrowie.pl###alert_popup
-expres.cz,idnes.cz###alM-wwp
+expres.cz#$#hide-if-contains-visible-text /[a-zA-Z]/ '*[class][id]' span[id][data-resize]
 expres.cz,idnes.cz##[class^="rma"]
 expres.cz,idnes.cz##a[href*="area=preroll_"]
 expres.cz,idnes.cz##a[href*="click?xai="]
 expres.cz,idnes.cz##a[href*="preroll"]
 expres.cz,idnes.cz##div[data-redistribute="ad"]
 expres.cz,idnes.cz##videoplayer>video[data-io-video-title*="_idnestv_"]
+expres.cz,idnes.cz,blesk.cz###alN-wwp
 express.co.uk###mobile_floating_test
 express.co.uk##.ampad
 express.de,mopo.de###nativendo-marginal
@@ -27598,6 +27599,7 @@ huarenjie.com###LeftAd2
 huarenjie.com###RightAd2
 huarenjie.com###cftoutiao
 huarenjie.net##div[style*="top: 50px;"]
+huarenjie.net##div[style*="top: core201
 huawei.com##.huawei-convergent-cookie, #cookieTipOut, .hwid-bannerBox-portal, .privacy-dialog.is-show, .browsehappy.ReadPolicy, .huawei-app-cookie, .huawei-bootom-cookie
 huawei.ru###cookie__panel-help
 huaweipolska.pl##.huawei-cookie
@@ -28062,7 +28064,7 @@ ijiandao.com###index_top_ad
 ijiandao.com##div[class^="banner_h_"]
 ik123.com###aa960a
 ikalender.se##body > center > table[style*="F0F0F0"]
-ikan6.vip##IMG[src$='.gif']
+ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 ikaza.net##+js(aopr, showAds)
 ikea.es##.toast-container
 ikea.gr##.cookies
@@ -43730,6 +43732,7 @@ wsis.pt###termosdiv
 wsj.com###AD_RAIL1.wsj-ad
 wsj.com###cx-notification
 wsj.com##.wsj-16h9qyj-Box:style(min-height: auto !important;)
+wsj.com##.wsj-ad
 wsj.com##[class*="sponsored"]
 wsj.com##div[class^="WSJTheme__adWrapper_"][style="min-width: 300px; min-height: 250px;"]
 wsj.com##div[class^="style--column--"] > div[class=""] > div[id^="wrapper-AD_NATIVE"]:upward(2)
