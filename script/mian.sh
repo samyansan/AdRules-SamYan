@@ -8,11 +8,14 @@ curl -o i-4.txt https://www.i-dont-care-about-cookies.eu/abp/
 curl -o i-5.txt https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
 curl -o i-6.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock.txt
 curl -o i-7.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_2.txt
-curl -o i-8.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_38.txt
-curl -o i-9.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_5.txt
+curl -o i-8.txt https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/filters/filters.txt
+curl -o i-9.txt https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/filters/resource-abuse.txt
 curl -o i-10.txt https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall.txt
-curl -o i-11.txt https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/adgh.txt
+curl -o i-11.txt https://raw.githubusercontents.com/timlu85/AdGuard-Home_Youtube-Adfilter/master/Youtube-Adfilter-Web.txt
 curl -o i-12.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/Rules/dns.txt
+curl -o i-13.txt https://filters.adtidy.org/extension/ublock/filters/11.txt
+curl -o i-14.txt https://raw.githubusercontent.com/zsakvo/AdGuard-Custom-Rule/master/rule/zhihu.txt
+curl -o i-15.txt https://raw.githubusercontents.com/91ajames/ublock-filters-ulist-youtube/main/blocklist.txt
 
 # 合并规则并去除重复项
 cat i*.txt > i-mergd.txt
