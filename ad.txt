@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: AdGuard Rules
 ! Description: 该规则合并自各位大神规则
-! Version: 2023-02-13 17:08:44
-! Total count: 146105
+! Version: 2023-02-13 20:11:55
+! Total count: 146118
 
  @@||dailymotion.com^$ghide 
 ###ACCsmallCookieLayer
@@ -2692,6 +2692,7 @@
 ###cookieManagerDialog
 ###cookieMelding
 ###cookieMeldung
+###cookieMessage
 ###cookieMessageBanner
 ###cookieMessageBar
 ###cookieMessageContainer
@@ -12411,6 +12412,7 @@
 ##.notification[data-nots-uid*="gdpr"]
 ##.notification[ng-if*="cookieHint"]
 ##.notification__box--persistentcookie
+##.notification__cookies
 ##.notification__item--cookie
 ##.notification__message.cookies
 ##.notification__wrapper[data-id="cookies"]
@@ -16869,7 +16871,6 @@ $websocket,domain=5nj.com|cechi8.com
 /moneymaker/js/videoplayer.js
 /mq_cookieconsent/*
 /mshow.aspx?AID=
-/msifestiwal/Scripts/cookies.js
 /msmCookieConsent.js$domain=moneysupermarket.com
 /msow.aspx?AID=
 /mws-cookie-solution.min.js
@@ -28301,6 +28302,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||otakusave.com^$ghide
 @@||ovagames.com^$ghide
 @@||owllink.net^$ghide
+@@||ozabc.com^$generichide
 @@||p.jwpcdn.com/player/plugins/vast/$xhr,domain=doramasmp4.com
 @@||p2xfxd.com^$ghide
 @@||pagead2.googlesyndication.com/pagead/$script,domain=forum.release-apk.com
@@ -34581,7 +34583,6 @@ deviantart.com##.mobile_adhesion
 deviantart.com##.mobile_instream_ad_resizable
 deviantart.com#$#div[class*="dp-ad-"] {height: 0!important; width: 0!important; }
 deviantart.com#@#.mobile-ad
-devicespecifications.com###cookie-consent
 deview.co.jp###meerkat-wrap
 deview.co.jp##.news-swad
 devilpage.pl##body > div:not([id]):not([class])
@@ -38044,6 +38045,7 @@ gesundheitsterminal.de##.jmg-googlemaps-dsgvo-notification
 get-click2.blogspot.com##[href^="http://bit.ly"]
 get-digital-help.com##.adthrive-ad
 get-digital-help.com##.ezoic-ad
+get-in-it.de###GetIn_CookieConsentBox
 get-notes.com###SITE_ROOT ~ div[data-reactid*="siteAspectsContainer"]
 get-to.link##+js(aopr, document.dispatchEvent)
 get-to.link##+js(aopr, exoJsPop101)
@@ -40422,6 +40424,7 @@ inporn.com##.wrapper > article
 inporn.com##[style="display:flex !important"] > div > div:not(:last-child)
 inporn.com##section[is-footer-banners]
 inqnable.es###kgc-consent
+inserv.lv###cookie-consent
 inside-digital.de##.content-contentad
 inside-digital.de##.social-share-mobile + #sonder-ueber-content
 inside-digital.de##.spo-marker
@@ -41111,6 +41114,7 @@ jenksgroup.co.uk##body > div[class^="cookie"], #mySidenav
 jeshoots.com##+js(set, google_jobrunner, true)
 jesse.trade###app > section > div > .fixed, #app > section > .fixed
 jetbrains.com##.jba-agreement-panel
+jetfilmizle.*##div[class^="col-"] > div[class^="col-"] > a[href][target="_blank"]
 jetload.net##+js(acis, document.createElement, script)
 jetload.net##+js(aopr, AaDetector)
 jetzendorf.de###privacy-container
@@ -46032,7 +46036,7 @@ nordpass.com###gatsby-focus-wrapper > div > .fixed
 nordschleswiger.dk##.TopAdvertising-Content-Wrapper > .Seeems-CollapsibleArea
 nordseecamping.de###SITE_ROOT ~ .siteAspectsContainer
 nordusdecospan.com##.gdprForm
-nordvpn.com##.CookieConsentExperiment
+nordvpn.com##div[class*="CookieConsent"]
 norgesgruppen.no###coco
 noritake-itron.jp###gdpr_nav
 norma-ammunition.com##.on-screen-messages
@@ -46690,6 +46694,8 @@ ostufer.net##div[id^="popdown"]
 ostuninotizie.it##.adsbygoogle
 osuskinner.com##+js(nostif, height)
 osuskinner.com##.ad-300-250, .ad-billboard
+osusume.mynavi.jp##div[data-myanalysis="home-widget"]
+osusume.mynavi.jp##div[data-myanalysis="sidemenu-ad"]
 osxinfo.net##+js(acis, $, btoa)
 oszkar.com###footerbar
 ot-boutique.fr#@##publicite
@@ -49029,6 +49035,7 @@ repelisgoo.*,repelisgooo.*,repelisgt.*,repelisxd.*,pelisplusgo.*,pelisplusxd.*##
 repelisgoo.*,repelisgooo.*,repelisgt.*,repelisxd.*,pelisplusgo.*,pelisplusxd.*##div[class]:has(> div[class] > iframe[src*="/srv-pv/tag-"])
 replika.ai##div[class*="GdprPopup"]
 replika.com##div[class*="GdprPopup"]
+report.iko-yo.net#?#main > div.c-container--l:has(> div[id^="gpt_sp"])
 reportscam.com##[href^="https://click.reportscam.com/"]
 reportz.io##.rp-CookiesConsent
 repostuj.pl##.jumbotron
@@ -49216,6 +49223,7 @@ rockstarenergy.com##.disclaimer
 rockstargames.com##main ~ footer ~ div
 rockthetraveller.com##.pie_cookie
 rockymountainatvmc.com##.cookieText, .cookieMon
+rockymountaineer.com##.l-page__cookies
 rocva.nl##.brochure-overlay, .brochure-overlay-bg
 rodadas.net##.faldonCookies
 rode.com###gdpr
@@ -52906,6 +52914,7 @@ tudogamesbr.com##+js(nano-stb, /.?/, , 0.02)
 tudogamesbr.com##+js(nowoif)
 tudogostoso.com.br###disclaimer
 tudorwatch.com##.tdr-ribbon
+tue.nl###cookie-consent
 tuenti.es##.cookies
 tugaflix.*##+js(aopr, open)
 tugramy.pl###cookies
@@ -55808,6 +55817,7 @@ zentica-global.com##.gdpr-settings
 zepass.com##.bloc-notifications
 zepsute.pl###overlay_uv, #ov_panel
 zer.gr###emgcookie
+zero-to-nix.com###app > ile-root > .fixed
 zerochan.net##body > div:not([id]):not([class])[style*="fixed"], body > div:not([id]):not([class])[style*="absolute"]
 zeroco2.eco###loadingShadow
 zerohedge.com##iframe[src^="//www.dianomi.com"]
@@ -65308,6 +65318,7 @@ zzzyk.com###Tinfo
 ||albeitinflame.com^
 ||albercascorse.com^
 ||alberguecasaanita.com^
+||albertabelen.com^
 ||albertapunjabinews.com^
 ||albertgently.com^
 ||albertonne.com^
@@ -91413,6 +91424,7 @@ zzzyk.com###Tinfo
 ||geilicdn.com/img*_960_60.
 ||geisslerbuildingcare.com^
 ||geistm.com^
+||gejulm1314.com^
 ||gekko.spiceworks.com^
 ||gelatinefengrease.com^
 ||geldantgrins.com^
@@ -104468,6 +104480,7 @@ zzzyk.com###Tinfo
 ||liunxgroup.top^
 ||liupan.asia^
 ||liushuaib.xyz^
+||liutou20230203.live^
 ||liutt.online^
 ||liuxiangxiang.top^
 ||liuxue86.com/css/liuxue_output.js
@@ -144710,6 +144723,7 @@ zzzyk.com###Tinfo
 ||zazufi.com^
 ||zb.516624.com^
 ||zb7b.top^
+||zbc6hyepls.xyz^
 ||zbfiupq.cn^
 ||zbjimg.com/static/union/
 ||zblz.me^
@@ -145636,7 +145650,6 @@ zzzyk.com###Tinfo
 ~birdpix.nl,~nederpix.nl##.CookieContainer:not(body):not(html):not(.contentpanel)
 ~birdpix.nl,~nederpix.nl##.cookiecontainer:not(body):not(html)
 ~bizkaia.eus###barraaceptacion
-~blackboard.com,~litebit.eu,~tiger.nl##.CookieConsent:not(body):not(html)
 ~blukit.com.br##.footer-cookie:not(body):not(html)
 ~blukit.com.br##.header-cookie:not(body):not(html)
 ~bmw-motorrad.com,~bmw-motorrad.gr,~bmw-motorrad.de,~bmw-motorrad.fr,~bmw-motorrad.at,~bmw-motorrad.be,~bmw-motorrad.bg,~bmw-motorrad.cz,~bmw-motorrad.dk,~bmw-motorrad.fi,~bmw-motorrad.hu,~bmw-motorrad.it,~bmw-motorrad.lu,~bmw-motorrad.nl,~bmw-motorrad.pt,~bmw-motorrad.ro,~bmw-motorrad.sk,~bmw-motorrad.si,~bmw-motorrad.es,~bmw-motorrad.se,~bmw-motorrad.co.uk##.cookielayer:not(body):not(html)
@@ -145762,7 +145775,6 @@ zzzyk.com###Tinfo
 ~generali.at##.cookies-container:not(body):not(html)
 ~gesundheit-nordhessen.de###tarteaucitronRoot
 ~get-in-engineering.de##.cookie-consent-widget
-~get-in-it.de###__next div[class*="CookieConsent"]
 ~gg.pl,~gadu-gadu.pl##.pum[data-popmake*="cookie-policy"]
 ~gift.be###div_cookiespolicy_notification
 ~global.commerce-connector.com##.no-cookies:not(body):not(html)
@@ -145981,6 +145993,8 @@ zzzyk.com###Tinfo
 ~search.itaa.be###cookieWrapper
 ~seatris.ai##.cookie_container:not(body):not(html)
 ~seb.lt,~seb.ee,~seb.lv###cookiesMessage
+~senda.pl,~blackboard.com##.CookieConsent:not(body):not(html)
+~senda.pl,~get-in-it.de###__next div[class*="CookieConsent"]
 ~senec.com,~taschenhirn.de,~pyroweb.de,~fussballgucken.info###klaro div[class*="cookie-notice"]
 ~senec.com,~taschenhirn.de,~pyroweb.de,~fussballgucken.info##.klaro div[class*="cookie-modal"]
 ~shop4tesla.com,~warpedsense.com###cookie-consent-dialogBox
@@ -146029,7 +146043,6 @@ zzzyk.com###Tinfo
 ~tf1.fr,~tf1info.fr###popin_tc_privacy
 ~tf1.fr,~tf1info.fr###tc-privacy-wrapper
 ~thsrc.com.tw##.ui-dialog[aria-labelledby*="CookieInfo"]
-~tiger.nl###cookieMessage
 ~tiki.org,~openstm32.org,~coseleurope.eu,~hillwig.de###cookie_consent_div
 ~timeout.com,~timeout.fr,~timeout.cat##.xs-fixed[data-module="cookie_banner"]
 ~tiwag.at##app-accept-cookies
