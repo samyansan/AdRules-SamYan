@@ -47272,7 +47272,6 @@ nrj-games.fr###cookies
 nrj-play.fr##+js(set, adBlockDetector.isEnabled, falseFunc)
 nrjmobile.fr###ei_cookie
 nrk.no##.nrk-masthead__info-banner--cookie
-nrl.com##[id^="publift-ad-"]
 nsfw247.to##+js(acis, document.querySelectorAll, popMagic)
 nsfw247.to##+js(nostif, mdpDeBlocker)
 nsfwalbum.com#$#abort-current-inline-script document.getElementsByTagName body
@@ -48357,7 +48356,6 @@ paraphraser.io#$?##adngin-incontent_1-0 { remove: true; }
 paraphrasing-tool.com##+js(abort-current-script, angular, /whiteListRequestMessage|canRunAds/)
 paraphrasing-tool.com#@#.ezoic-ad
 parapolitika.gr#@#iframe[width="100%"][height="120"]
-parasitipedia.net##.ezoic-ad
 parasol.com.pl###black_background, #black_background_panel
 parat.com##.cookie
 parc-marais-poitevin.fr###aci
@@ -48376,7 +48374,9 @@ paris.fr##.paris-cookies-banner
 parismatch.com##.lmn-habmob
 park-skocjanske-jame.si###all ~ div
 park.ajinomoto.co.jp##.bottomMenu
+parkers.co.uk##.advert
 parkers.co.uk##.inline-leaderboard-ad-wrapper
+parkers.co.uk##.site-header-ad-notification
 parkers.co.uk#@#.plainAd
 parkguell.cat###fixdiv
 parkiet.com##.advertOuter
@@ -52230,7 +52230,6 @@ safeframe.googlesyndication.com#@#div[id^="ad_position_"]
 safeku.com##+js(window.open-defuser, passeura)
 safelinku.net##.adsbygoogle
 safelinkunited.blogspot.com##.ADS
-safelinkunited.blogspot.com##.adsbygoogle
 safemaru.blogspot.com##+js(aeld, load, 2000)
 safetydetectives.com###best_deals_widget
 safetydetectives.com##.coupons-list
@@ -60575,6 +60574,7 @@ wordreference.com##body #ad1
 wordreference.com#?#.rightcolumn > tbody > .adtitle + tr[style]:has(> td:only-child > div[id^="adright"])
 work-discount.de##body > div:not([id]):not([class])
 work.ink###overlay
+work.ink##.desc:upward([class*="adb"])
 work.ink##body > div[style*="width: 100%; height: 100%;"] > a[target="_blank"]
 work.ink#?#.wk-container:has(> div.container-content > div[id^="waldo-tag-"]:first-child)
 work.ink#@#.waldo-display-unit
