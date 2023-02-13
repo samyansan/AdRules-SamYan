@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: AdGuard Rules
 ! Description: 该规则合并自各位大神规则
-! Version: 2023-02-13 20:47:40
-! Total count: 146118
+! Version: 2023-02-13 21:11:06
+! Total count: 146119
 
  @@||dailymotion.com^$ghide 
 ###ACCsmallCookieLayer
@@ -55052,6 +55052,7 @@ www.wenxuecity.com##.col > ul:not([id]) > li > a[href^="http"]:not([href*=".wenx
 www.xvideos.com###ad-footer
 www.xvideos.com##.thumb-ad
 www.yahoo.com###act-ad-parallax
+www.ydyse.com##.left,.bottom,.right,.ad,.adimage
 www.youtube.com###video-masthead
 www.youtube.com##ytd-carousel-ad-renderer
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has( > div#contents > ytd-promoted-sparkles-text-search-renderer )
