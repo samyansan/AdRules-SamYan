@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # 下载规则
-curl -o i-1.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock.txt
+curl -o i-1.txt https://raw.githubusercontent.com/ookangzheng/dbl-oisd-nl/master/abp_light.txt
 curl -o i-2.txt https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall.txt
 curl -o i-3.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_2.txt
 curl -o i-4.txt https://filters.adtidy.org/extension/ublock/filters/224.txt
@@ -9,7 +9,7 @@ curl -o i-5.txt https://www.i-dont-care-about-cookies.eu/abp/
 curl -o i-6.txt https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
 curl -o i-7.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
 curl -o i-8.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
-curl -o i-9.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/Rules/dns.txt
+curl -o i-9.txt https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt
 curl -o i-10.txt https://raw.githubusercontents.com/timlu85/AdGuard-Home_Youtube-Adfilter/master/Youtube-Adfilter-Web.txt
 curl -o i-11.txt https://filters.adtidy.org/extension/ublock/filters/11.txt
 curl -o i-12.txt https://raw.githubusercontent.com/zsakvo/AdGuard-Custom-Rule/master/rule/zhihu.txt
