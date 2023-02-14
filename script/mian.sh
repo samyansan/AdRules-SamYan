@@ -23,8 +23,8 @@ num=`cat i-tmp.txt | wc -l`
 
 # 添加标题和时间
 echo "[Adblock Plus 2.0]" >> i-tpdate.txt
-echo "! Title: AdGuard Rules" >> i-tpdate.txt
-echo "! Description: 该规则合并自各位大神规则" >> i-tpdate.txt
+echo "! Title: ABP Merge Rules" >> i-tpdate.txt
+echo "! Description: 该规则为合并规则" >> i-tpdate.txt
 echo "! Version: `date +"%Y-%m-%d %H:%M:%S"`" >> i-tpdate.txt
 echo "! Total count: $num" >> i-tpdate.txt
 cat i-tpdate.txt i-tmp.txt > ad.txt
