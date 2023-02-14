@@ -5,12 +5,10 @@ curl -o i-1.txt https://raw.githubusercontent.com/ookangzheng/dbl-oisd-nl/master
 curl -o i-2.txt https://code.gitlink.org.cn/damengzhu/abpmerge/raw/branch/main/abpmerge.txt
 curl -o i-3.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt
 curl -o i-4.txt https://code.gitlink.org.cn/api/v1/repos/keytoolazy/adblock/raw/adblock_lite
-curl -o i-5.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
-curl -o i-6.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
-curl -o i-7.txt https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/regex.txt
-curl -o i-8.txt https://raw.githubusercontent.com/zsakvo/AdGuard-Custom-Rule/master/rule/zhihu.txt
-curl -o i-9.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/Rules/adguardhome.txt
-curl -o i-10.txt https://raw.githubusercontent.com/samyansan/Ad-hosts/master/adguard
+curl -o i-5.txt https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/domain.txt
+curl -o i-6.txt https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/regex.txt
+curl -o i-7.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/Rules/adguardhome.txt
+curl -o i-8.txt https://raw.githubusercontent.com/samyansan/Ad-hosts/master/adguard
 
 # 合并规则并去除重复项
 cat i*.txt > i-mergd.txt
