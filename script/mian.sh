@@ -2,18 +2,14 @@
 
 # 下载规则
 curl -o i-1.txt https://raw.githubusercontent.com/ookangzheng/dbl-oisd-nl/master/abp_light.txt
-curl -o i-2.txt https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall.txt
+curl -o i-2.txt https://code.gitlink.org.cn/damengzhu/abpmerge/raw/branch/main/abpmerge.txt
 curl -o i-3.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt
-curl -o i-4.txt https://filters.adtidy.org/extension/ublock/filters/224.txt
-curl -o i-5.txt https://www.i-dont-care-about-cookies.eu/abp/
-curl -o i-6.txt https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
-curl -o i-7.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
-curl -o i-8.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
-curl -o i-9.txt https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt
-curl -o i-10.txt https://raw.githubusercontents.com/timlu85/AdGuard-Home_Youtube-Adfilter/master/Youtube-Adfilter-Web.txt
-curl -o i-11.txt https://filters.adtidy.org/extension/ublock/filters/11.txt
-curl -o i-12.txt https://raw.githubusercontent.com/zsakvo/AdGuard-Custom-Rule/master/rule/zhihu.txt
-curl -o i-13.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt
+curl -o i-4.txt https://code.gitlink.org.cn/api/v1/repos/keytoolazy/adblock/raw/adblock_lite
+curl -o i-5.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
+curl -o i-6.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
+curl -o i-7.txt https://o0.pages.dev/Pro/adblock.txt
+curl -o i-8.txt https://raw.githubusercontent.com/zsakvo/AdGuard-Custom-Rule/master/rule/zhihu.txt
+curl -o i-9.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/Rules/adguardhome.txt
 
 # 合并规则并去除重复项
 cat i*.txt > i-mergd.txt
