@@ -26,7 +26,7 @@ echo "[Adblock Plus 3.0]" >> i-tpdate.txt
 echo "! Title: AdGuard Rules" >> i-tpdate.txt
 echo "! Powerd by SamSan" >> i-tpdate.txt
 echo "! Description: Just a merged Adblock rule. Nothing more" >> i-tpdate.txt
-echo "！Expires: 6 hours (update frequency)" >> i-tpdate.txt
+echo "! Expires: 6 hours (update frequency)" >> i-tpdate.txt
 echo "! Version: `date +"%Y-%m-%d %H:%M:%S"`" >> i-tpdate.txt
 echo "! Total count: $num" >> i-tpdate.txt
 cat i-tpdate.txt i-tmp.txt > ad.txt
