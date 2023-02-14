@@ -22,9 +22,11 @@ python rule.py i-tmp.txt
 num=`cat i-tmp.txt | wc -l`
 
 # 添加标题和时间
-echo "[Adblock Plus 2.0]" >> i-tpdate.txt
+echo "[Adblock Plus 3.0]" >> i-tpdate.txt
 echo "! Title: AdGuard Rules" >> i-tpdate.txt
-echo "! Description: 该规则为合并规则，自用，请勿商用。每6个小时更新一次" >> i-tpdate.txt
+echo "! Powerd by SamSan" >> i-tpdate.txt
+echo "! Description: Just a merged Adblock rule. Nothing more" >> i-tpdate.txt
+echo "！Expires: 6 hours (update frequency)" >> i-tpdate.txt
 echo "! Version: `date +"%Y-%m-%d %H:%M:%S"`" >> i-tpdate.txt
 echo "! Total count: $num" >> i-tpdate.txt
 cat i-tpdate.txt i-tmp.txt > ad.txt
