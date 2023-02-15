@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-02-15 23:12:12
-! Total count: 111602
+! Version: 2023-02-16 02:08:01
+! Total count: 111601
 
 ###################################   合并/去重自以下规则   ####################################
 ###############################################################################################
@@ -6355,7 +6355,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||fumblingselection.com^$script,xmlhttprequest
 @@||functionalcrown.com^$script,xmlhttprequest
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument
-@@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument$script,xmlhttprequest
+@@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocumentb
 @@||funnyairplane.com^$script,xmlhttprequest
 @@||furryfork.com^$script,xmlhttprequest
 @@||furryhorses.com^$script,xmlhttprequest
@@ -68246,7 +68246,6 @@ zzzyk.com###Tinfo
 ||letv.com/pzt/hyhmzq/index.shtml
 ||letv.com/s?ark=
 ||letvcdn.com/js/*_focus_flash.js
-||letvcdn.com^
 ||letvertise.com^
 ||letvimg.com/$object,xhr
 ||letvimg.com/*_gugwl/$image
