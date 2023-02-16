@@ -8,7 +8,7 @@ curl -o i-4.txt https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kal
 curl -o i-5.txt http://sub.adtchrome.com/adt-chinalist-easylist.txt
 curl -o i-6.txt https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad.txt
 curl -o i-7.txt https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/regex.txt
-curl -o i-8.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_24.txt
+curl -o i-8.txt https://raw.githubusercontent.com/neodevpro/neodevhost/master/adblocker
 
 # 合并规则并去除重复项
 cat i*.txt > i-mergd.txt
