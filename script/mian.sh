@@ -8,7 +8,7 @@ curl -o i-4.txt https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kal
 curl -o i-5.txt https://raw.githubusercontent.com/zsakvo/AdGuard-Custom-Rule/master/rule/zhihu.txt
 curl -o i-6.txt https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
 curl -o i-7.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
-curl -o i-8.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
+curl -o i-8.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2023.txt
 curl -o i-9.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/Rules/allowlite.txt
 curl -o i-10.txt https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/regex.txt
 
