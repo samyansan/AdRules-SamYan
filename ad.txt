@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-02-16 21:11:03
-! Total count: 147952
+! Version: 2023-02-17 02:07:11
+! Total count: 147968
 
 ###################################   合并/去重自以下规则   ####################################
 ###############################################################################################
@@ -1172,6 +1172,7 @@
 ##DIV[data-text-ad]
 ##DIV[style*='.xyz/gif/']
 ##DIV[style^='width:100%;height:100%;line-height: 100%;overflow:hidden; margin:auto;border:1px #']
+##IFRAME[src^='https://mydisplay.ctfile.com/popview.php']
 ##IMG.cupfox[src$='gif']
 ##IMG[alt='155.fun']
 ##IMG[alt^='kaiybet']
@@ -1756,6 +1757,7 @@
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"]
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"][src*="hdslb.com"]
 ##div[class^="ps_"][value="20"]
+##div[id$='ad1'][class^='text'],div[id$='ad2'][class^='text'],div[id$='ad3'][class^='text'],div[id$='ad4'][class^='text'],div[id$='ad5'][class^='text'],div[id$='ad6'][class^='text']
 ##div[id*='cat_'][id*='_ad']
 ##div[id][style="position: fixed; bottom: 40%; z-index: 19999 !important; right: 2px;"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -2338,6 +2340,7 @@ $websocket,domain=5nj.com|cechi8.com
 /\.(com|cn|top|xyz)\/(j|K)\/[0-9]{6}$/$script,third-party
 /\.(cyou|ink)\/[a-z]{4}_[0-9]{5}_[a-z]{5}js\?/$script,third-party
 /\/assets\/jquery\/jquery-\d\.\d\.(?:\d\.)?min\.js\?(?:v=2)?&?type=(?:adult|mainstream)$/$script,1p
+/\/js\/\d{2,3}eka\d{2,3}\.js$/$script,1p,domain=com
 /\/theme\/js\/[a-z0-9]{5,}\.js\?v=/$domain=novipnoad.com
 /\/upload\/[a-z0-9]{7}\/[0-9]+-[0-9]?\/[a-z0-9]{32}\.gif/$domain=higu.tv
 /^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com)).*$/$third-party,script,domain=yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top
@@ -4667,7 +4670,6 @@ $websocket,domain=5nj.com|cechi8.com
 91danji.com##.zlVideTowNav
 91duba.com###leftBar
 91duba.com##.m_guess_like
-91duba.com,iduba.com###m_hot_rec_main > div > .noLikeList
 91duba.com,iduba.com###topBanner
 91duba.com,iduba.com##.jq_notice
 91hs.top,hsex.men##.col-xs-12 > a[target="_blank"]
@@ -4850,6 +4852,7 @@ $websocket,domain=5nj.com|cechi8.com
 ?*=*=*=$subdocument,domain=00cha.com|01fy.cn|06ps.com|08160.cn|0s.net.cn|10000xing.cn|100how.com|1010jiajiao.com|1024sj.com|11467.com|114piaowu.com|120ask.com|16xx8.com|192ly.com|1ppt.com|1ting.com|201980.com|21hubei.com|23yy.com|263y.com|2hanju.com|2liang.net|315hyw.com|32r.com|32xp.com|360changshi.com|360doc.cn|360zuowen.com|39.net|4aqq.com|5000yan.com|515fa.com|51edu.com|51sxue.com|51test.net|51zxw.net|52wubi.com|52zxw.com|5djiaren.com|5h.com|5nd.com|5seestar.com|64foot.com|66law.cn|7y7.com|800400.net|86huoche.com|8794.cn|911cha.com|91jucai.com|91zhongkao.com|949949.com|9553.com|99.com.cn|9939.com|9ht.com|ab126.com|admin5.com|aihami.com|aiyangedu.com|aizhan.com|ankangwang.com|annhe.net|apple886.com|arpun.com|askci.com|aspku.com|atobo.com|b2b168.com|b2b6.com|babihu.com|baicaolu.net|baotang5.com|baoxianzx.com|bbdj.com|bendibao.com|bianzhile.com|blog.sina.cn|boosj.com|bu-shen.com|bytravel.cn|c1km4.com|chajiaotong.com|chazidian.com|china.com|chinacar.com.cn|chinakaoyan.com|chinawj.com.cn|chuiyue.com|cidianwang.com|cjcp.com.cn|cnbanbao.cn|cncn.com|cnkang.com|cnlinfo.net|coozhi.com|cr173.com|csai.cn|cyyangqiguan.com|d17.cc|d1xz.net|daquan.com|dayfund.cn|dgzj.com|diangon.com|ditiezu.com|diyifanwen.com|diyju.com|dugoogle.com|dxsbb.com|eastday.com|enterdesk.com|exam58.com|fangdaijisuanqi.com|faxingzhan.com|friok.com|fun48.com|game234.com|gaosan.com|gaotie.cn|gucheng.com|gugu5.com|guidaye.com|gulongbbs.com|gushiwen.cn|hc23.com|hqhot.com|huangye88.com|hxnews.com|hydcd.com|icauto.com.cn|idongde.com|isanxia.com|ixinwei.com|ixiunv.com|jeasyui.net|jf258.com|jianbihua.com|jianbihuadq.com|jinbaodm.com|jingdianlaoge.com|jintang114.org|jj20.com|jy135.com|latiaozixun.net|liuxue86.com|m.douban.com|makepolo.com|mama.cn|meishij.net|mipcache.bdstatic.com|miyudaquan.com|mmyuer.com|nanhuwang.com|oh100.com|pansoso.com|phb123.com|pig66.com|pikacn.com|pingguolv.com|pingshu8.com|ppzuowen.com|qcrx.cn|qcwxjs.com|qizuang.com|qm120.com|qncye.com|qqzhi.com|quwenqushi.com|riji.cn|riji100zi.com|rr95.com|ruiwen.com|sc115.com|shadafang.com|shangc.net|shenchuang.com|souid.com|ssqzj.com|szdushi.com.cn|szhk.com|tvmao.com|uzuzuz.com|weather.com.cn|webshu.net|wenkuxiazai.com|wenshenxiu.com|wenzhangba.com|wmxa.cn|woyaogexing.com|xiachufang.com|xiangha.com|xiao84.com|xiaole8.com|xiegw.cn|xywy.com|xzbu.com|yanyue.cn|yaozui.com|yellowurl.cn|yiqig.cn|yiyouliao.com|yjbys.com|yuwenmi.com|yxlady.com|yyrtv.com|zdface.com|zhifure.com|zhongyoo.com|zixuntop.com|ziyuanm.com|zjbiz.net|zuowen8.com|zuowenku.net|zuowenwang.net
 ?ad_ids=
 ?ad_type=
+?adl=1&id=$frame,script,1p
 ?adspot_
 ?adunit_id=
 ?adunitid=
@@ -6173,8 +6176,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||fumblingselection.com^$script,xmlhttprequest
 @@||functionalcrown.com^$script,xmlhttprequest
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument
-@@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument.com,xxxonline.cc,xxxopenload.com,xxxputas.net,xxxrapid.com,xxxtor.com,xxxtubeset.com,xxxxselfie.com,y-porn.com,yaoiscan.com,yona-yethu.co.za,yongfucknaked.com,youngbelle.net,youngerasiangirl.net,youngerporn.mobi,youngselfpics.net,youngsexygfs.com,youpornfm.com,yourbitches.com,youvideoporno.mobi,ytanime.tv#$#abort-current-inline-script document.querySelectorAll popMagic
-@@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocumentb
+@@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocumentline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 @@||funnyairplane.com^$script,xmlhttprequest
 @@||furryfork.com^$script,xmlhttprequest
 @@||furryhorses.com^$script,xmlhttprequest
@@ -7321,6 +7323,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||resonantbrush.com^$script,xmlhttprequest
 @@||resonantrock.com^$script,xmlhttprequest
 @@||respectrain.com^$script,xmlhttprequest
+@@||restrainstorm.com^$script,xmlhttprequest
 @@||rhetoricalloss.com^$script,xmlhttprequest
 @@||rhetoricalveil.com^$script,xmlhttprequest
 @@||rhtag.com^$image,subdocument,domain=bitzfree.com
@@ -7706,6 +7709,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||stream4free.eu/modules/mod_jpayday/js/doubleclick.js$script,domain=stream4free.eu
 @@||streaming-foot.me/js/adblock.js$script
 @@||stretchsister.com^$script,xmlhttprequest
+@@||stretchsquirrel.com^$script,xmlhttprequest
 @@||stringsmile.com^$script,xmlhttprequest
 @@||stripedburst.com^$script,xmlhttprequest
 @@||strivesidewalk.com^$script,xmlhttprequest
@@ -7914,6 +7918,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||unarmedindustry.com^$script,xmlhttprequest
 @@||unbecomingbikes.com^$script,xmlhttprequest
 @@||unbecominghall.com^$script,xmlhttprequest
+@@||unbecominglamp.com^$script,xmlhttprequest
 @@||uncoveredcircle.com^$script,xmlhttprequest
 @@||uncoveredexpert.com^$script,xmlhttprequest
 @@||understoodocean.com^$script,xmlhttprequest
@@ -10621,7 +10626,6 @@ duba.com##.taobao_search
 duba.com##.tempAd
 duba.com##a[w="topad"]
 duba.com#?#.newslist  > .news_ctm_wrap:has(> .ctm_ad)
-duba.com,iduba.com,newduba.cn###J_sideFooter
 duba.com,iduba.com,newduba.cn##.left_slidebar_con
 duba.com,iduba.com,newduba.cn,uu114.cn##.fav_box
 duba.com,newduba.cn###J_FloorWave
@@ -17238,6 +17242,9 @@ trakt.tv##DIV[id$='-wrapper']
 translate.google.*##div[jsname]:has( > div[jsname] > [role="button"][aria-label="iOS"])
 translate.google.cn###gt-cn
 tree.tv#@##adverts
+tribuna.com##+js(nostif, (!0))
+tribuna.com##[class^="BannerAlternative_banner"]
+tribuna.com##body:style(overflow: auto !important;)
 tropica.cn##.bm.a_c1
 tropica.cn##.wp1.a_t
 trovesaurus.com###blocked
@@ -18417,6 +18424,9 @@ xoilac21.tv#$#abort-current-inline-script jQuery overlay
 xoilac21.tv#$#abort-current-inline-script jQuery popupBanners
 xoilac21.tv#$#abort-on-property-read adsRedirectPopups
 xtgreat.com
+xtremetop100.com###sidebanner
+xtremetop100.com###sidebannerleft
+xtremetop100.com###topbanner
 xtuan.com###foot_zhaobiao_bar
 xueqiu.com##.ad-right-aside
 xueqiu.com##.widget__download-app
@@ -83117,7 +83127,6 @@ zzzyk.com###Tinfo
 ||kilkiva.ru^
 ||killbot.org^
 ||killcovid2021.com/*.mp4
-||killcovid2021.com/thumb/*.mp4
 ||killcovid2021.com^*.mp4
 ||killerwebstats.com^
 ||killitpro.com.br^
@@ -133335,6 +133344,7 @@ zzzyk.com###Tinfo
 ||tuberis.com^
 ||tuberise.com^
 ||tuberosebd.com^
+||tubesex.me/js/eribi.js
 ||tubestrap.com^
 ||tubesupreme.com^
 ||tubesweet.com^
@@ -133342,6 +133352,7 @@ zzzyk.com###Tinfo
 ||tubetob.com^
 ||tubetry.com^
 ||tubeultra.com^
+||tubevintageporn.com/js/bkcwe.js
 ||tubeviral.com/Webservices/jsParseLinks.aspx$script,third-party
 ||tubeviral.com/visitScript/$script,third-party
 ||tubewalk.com^
@@ -144215,6 +144226,9 @@ zzzyk.com###Tinfo
 ||xtrememarinespain.com^
 ||xtremepush.com^
 ||xtremeserve.xyz^
+||xtremetop100.com/horizontalBanner.jpg
+||xtremetop100.com/images/UWSidebanner.gif
+||xtremetop100.com/images/right_adspot2.jpg
 ||xtremetop100.com^
 ||xtremline.com^
 ||xts-pay.ru^
@@ -144404,6 +144418,7 @@ zzzyk.com###Tinfo
 ||xxx.arabsex1.com^
 ||xxx18.ucoz.com^
 ||xxxa.aikeapp.com^
+||xxxadd.com/js/hrqst.js
 ||xxxadv.com^
 ||xxxbannerswap.com^
 ||xxxblackbook.com^
@@ -144429,6 +144444,7 @@ zzzyk.com###Tinfo
 ||xxxrevpushclcdu.com^
 ||xxxtarget.com^
 ||xxxtoolbar.com^
+||xxxtubedot.com/js/skvkl.js
 ||xxxvideosss.info^
 ||xxxviijmp.com^
 ||xxxvipporno.com^
