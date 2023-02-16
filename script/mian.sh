@@ -9,8 +9,7 @@ curl -o i-5.txt https://raw.githubusercontent.com/zsakvo/AdGuard-Custom-Rule/mas
 curl -o i-6.txt https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
 curl -o i-7.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
 curl -o i-8.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2023.txt
-curl -o i-9.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/Rules/allowlite.txt
-curl -o i-10.txt https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/regex.txt
+curl -o i-9.txt https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/regex.txt
 
 # 合并规则并去除重复项
 cat i*.txt > i-mergd.txt
