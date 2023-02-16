@@ -6,7 +6,7 @@ curl -o i-2.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock
 curl -o i-3.txt https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad.txt
 curl -o i-4.txt https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall.txt
 curl -o i-5.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
-curl -o i-6.txt https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/domain.txt
+curl -o i-6.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/Rules/adguardhome.txt
 curl -o i-7.txt https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/regex.txt
 
 # 合并规则并去除重复项
