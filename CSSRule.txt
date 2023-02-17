@@ -9026,6 +9026,7 @@ m.mgtv.com##.mg-dcross
 m.mi.com##.download-app-go
 m.mydrivers.com###content > .ab
 m.mydrivers.com###content > .bb
+m.mydrivers.com##div[style$="px 0px 0px 0phineStar
 m.mydrivers.com##div[style$="px 0px 0px 0px;text-align:center;"]
 m.nownews.com##.ui-footer-fixed
 m.nownews.com##a[href^="http://ad1.nownews.com"]
@@ -12168,7 +12169,10 @@ trakt.tv##DIV[id$='-wrapper']
 translate.google.cn###gt-cn
 tree.tv#@##adverts
 tribuna.com##+js(nostif, (!0))
+tribuna.com##.banner
+tribuna.com##.footer-helper__min-height-after-header
 tribuna.com##[class^="BannerAlternative_banner"]
+tribuna.com##[class^="Main_main-layout__fixed-banners"]
 tribuna.com##body:style(overflow: auto !important;)
 tropica.cn##.bm.a_c1
 tropica.cn##.wp1.a_t
@@ -12985,6 +12989,7 @@ www.epinv.com##iframe
 www.facebook.com###pagelet_side_ads
 www.facebook.com##.egoOrganicColumn+*
 www.facebook.com,web.facebook.com##span a[aria-labelledby][role="link"][target="_blank"][tabindex="0"]
+www.facebook.com,web.facebook.com#$#hide-if-has-and-matches-style * 'div[class]~* h3+div>div' 'div[class]~* h3+div>div span>a[href="#"]:first-of-type *>svg' '/./' '/(width: [4-6])/'
 www.facebook.com,web.facebook.com#$#hide-if-has-and-matches-style * 'span[id="ssrb_feed_start"]~* h3+div>div' 'span[id="ssrb_feed_start"]~* h3+div>div span>a[href="#"]:first-of-type *>svg' '/./' '/(width: [4-6])/'
 www.facebook.com,web.facebook.com#$#hide-if-has-and-matches-style * 'span[id="ssrb_feed_start"]~* h3+div>div' 'span[id="ssrb_feed_start"]~* h3+div>div span>a[href="#"]:first-of-type div>svg' '/./' '/(margin-right: -[3-5][0-9].*width: 10)|(margin-right: -[4-6][0-9].*width: 11)|(margin-right: -[5-7][0-9].*width: 12)|(margin-right: -[6-8][0-9].*width: 13)/'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="feed"]//div[@role="article"]//a[@target="_blank"][contains(@href,"doubleclick.net") or contains(@href,"Paid") or contains(@href,"paid") or contains(@href,"ad.atdmt.com") or contains(@href,"adform.net") or contains(@href,"serving-sys.com") or contains(@href,"adition.com") or contains(@href,"flashtalking.com") or contains(@href,"bid=") or contains(@href,"Advertising") or contains(@href,"click") or contains(@href,"utm_medium=cpc") or contains(@href,"onversions") or contains(@href,"ad_name") or contains(@href,"utm_content=promo") or contains(@href,"ad_id") or contains(@href,"social_ads") or contains(@href,"socialads")]/ancestor::div[@role="article"]'; hide-if-matches-xpath './/div[@role="feed"]//div[@role="article"]//a[@target="_blank"][not(starts-with(@href,"https://l.facebook"))][contains(@href,"fbclid=")][not(text())]//div[@style="display: flex;"][count(./div) = 60]/ancestor::div[@role="article"]'; hide-if-matches-xpath './/div[@role="feed"]//div[@role="article"]//div[@aria-labelledby][@role="button"]/ancestor::div[@role="article"]';
@@ -13158,9 +13163,9 @@ www.wp.pl##div[class][style="margin-bottom: 20px;"]:has(> div + div + div > img[
 www.wp.pl##div[class][style="margin-bottom: 20px;"]:has(div > div > a#undefined-0)
 www.wp.pl##div[data-cover] > div > div > div > div[style="width:100%;height:100%"]
 www.wp.pl#$#abort-on-property-read SlotRegistrar; abort-current-inline-script PRELOAD randvar
+www.wp.pl#$#abort-on-property-write Object.prototype.directOnly
 www.wp.pl#$#hide-if-matches-xpath './/div[@id][@data-st-area]/div[1]/div/parent::div[@class]'
-www.wp.pl#$#hide-if-matches-xpath '//div[@class]/a[contains(@href,"wp.pl/")]/div[1]/following::div[3]/preceding::img[contains(@src,"v.wpimg.pl/")]/parent::div[@style="height: 60px;"]'
-www.wp.pl#$#hide-if-matches-xpath '//div[@class]/a[contains(@href,"wp.pl/")]/img[contains(@src,"v.wpimg.pl/")]/following::div[1]/parent::div[@class][not(@data-st-area)]'
+www.wp.pl#$#hide-if-matches-xpath './/span[contains(text(),"Okazje")]/parent::div/ancestor-or-self::div[2]'
 www.xiami.com###qrcode
 www.xiami.com##.promotion-block
 www.xilinjie.com###xlj-da-block-overlay
