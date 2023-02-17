@@ -8,7 +8,7 @@ curl -o i-4.txt https://raw.githubusercontent.com/sjhgvr/oisd/main/abp_basic.txt
 curl -o i-5.txt https://raw.githubusercontent.com/samyansan/Ad-hosts/master/adguard
 curl -o i-6.txt https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
 curl -o i-7.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/Rules/adguardhome.txt
-curl -o i-8.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/Rules/allowlite.txt
+curl -o i-8.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/Rules/regex.txt
 
 # 合并规则并去除重复项
 cat i*.txt > i-mergd.txt
