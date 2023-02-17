@@ -7,12 +7,12 @@ curl -o i-3.txt https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad.tx
 curl -o i-4.txt https://raw.githubusercontent.com/sjhgvr/oisd/main/abp_basic.txt
 curl -o i-5.txt https://raw.githubusercontent.com/samyansan/Ad-hosts/master/adguard
 curl -o i-6.txt https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
-curl -o i-7.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt
+curl -o i-7.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/Rules/adguardhome.txt
 curl -o i-8.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/Rules/allowlite.txt
 
 # 合并规则并去除重复项
 cat i*.txt > i-mergd.txt
-cat i-mergd.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' > i-tmpp.txt
+cat i-mergd.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | grep -v '^@' | grep -v '^@ ' > i-tmpp.txt
 sort -n i-tmpp.txt | uniq > i-tmp.txt
 
 python rule.py i-tmp.txt
