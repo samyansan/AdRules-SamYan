@@ -1,16 +1,14 @@
 #!/bin/sh
 
 # 下载规则
-curl -o i-1.txt https://raw.githubusercontent.com/sjhgvr/oisd/main/abp_basic.txt
+curl -o i-1.txt https://raw.githubusercontent.com/DoingDog/XXKiller/main/w.txt
 curl -o i-2.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt
 curl -o i-3.txt https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad.txt
-curl -o i-4.txt https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall.txt
+curl -o i-4.txt https://raw.githubusercontent.com/sjhgvr/oisd/main/abp_basic.txt
 curl -o i-5.txt https://raw.githubusercontent.com/samyansan/Ad-hosts/master/adguard
 curl -o i-6.txt https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
-curl -o i-7.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
-curl -o i-8.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2023.txt
-curl -o i-9.txt https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/regex.txt
-curl -o i-10.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/Rules/allowlite.txt
+curl -o i-7.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt
+curl -o i-8.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/Rules/allowlite.txt
 
 # 合并规则并去除重复项
 cat i*.txt > i-mergd.txt
