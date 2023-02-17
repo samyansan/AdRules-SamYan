@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-02-17 11:16:32
-! Total count: 130467
+! Version: 2023-02-17 12:05:10
+! Total count: 130477
 
 ###################################   合并/去重自以下规则   ####################################
 ###############################################################################################
@@ -4974,10 +4974,13 @@ $websocket,domain=5nj.com|cechi8.com
 @@_cpa_cpm_$domain=52xkdy.com
 @@_cpc_cpm/$domain=youranshare.com
 @@_cpc_cpm_$domain=fydy8.com|saraba1st.com
+@@bit.ly
 @@mp4.ts^
 @@playtv.fr$object-subrequest,domain=play.tv|playtv.fr
 @@plugins/blockalyzer-adblock-counter/img/ads/$image
-@@qlogo.cn^
+@@sh.st
+@@t.cn
+@@url.cn
 @@|http*/crossdomain.xml$object-subrequest,domain=vercanalestv.com
 @@|http://$image,domain=socketloop.com
 @@|http://$script,domain=sport1.de
@@ -5348,6 +5351,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||api.bilibili.com/*^$removeparam
 @@||api.browser.yandex.
 @@||api.captchme.net/api/media$image
+@@||api.io.mi.com^$important
 @@||api.sec.miui.com^$important
 @@||api.yjllq.com^
 @@||apis.google.com^$domain=openload.co|oload.tv|javno.me|imagebam.com|imagevenue.com|playvid.com|4horlover.com|linkshrink.net
@@ -5692,6 +5696,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||cmoney.tw/finance/js/googleanalytics.js
 @@||cmoney.tw/vt/js/google_analytics.js
 @@||cn.app.chat.xiaomi.net^$important
+@@||cn.ekg.riotgames.com^$important
 @@||cnki.com.cn/cnki/images/ad/2020/1112_45711271.jpg
 @@||cnprint.org^$generichide
 @@||cnr.cn/gg/
@@ -6627,8 +6632,10 @@ $websocket,domain=5nj.com|cechi8.com
 @@||lobi.co/1/track/event/
 @@||local.adguard.org^
 @@||logcg.content-delivery.top/wp-content/plugins/bwp-minify/min/?f=
+@@||logs.game.qq.com^$important
 @@||loi1901.com^$generichide
 @@||loksatta.com/*/ads$script
+@@||lol.qq.com^$important
 @@||loltmcheck.com/js/ads.js
 @@||longinglettuce.com^$script,xmlhttprequest
 @@||lorenzourban.com^$script,xmlhttprequest
@@ -6639,6 +6646,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||loxtk.com/gLoader.php?GID=$script,third-party
 @@||loxtk.com/gTemplate.php?GID=$subdocument,third-party
 @@||lp3tdqle.com^$script,xmlhttprequest
+@@||lpl.qq.com^$important
 @@||ludicrousarch.com^$script,xmlhttprequest
 @@||lumberamount.com^$script,xmlhttprequest
 @@||lumload.com/pop.js$script
@@ -7208,6 +7216,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||qingcheng.com^*/ad
 @@||qingdaoport.net/adv/random.jsp
 @@||qiyipic.com/common/fix/pub_images/
+@@||qlogo.cn^$important
 @@||qpython.club^$generichide
 @@||qq.com/ads/js/$domain=privacy.qq.com
 @@||qq.com/bossweb/jifen/
@@ -7904,6 +7913,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||unwieldyhealth.com^$script,xmlhttprequest
 @@||unwrittenspot.com^$script,xmlhttprequest
 @@||upaiyun.com^*.js$domain=cilimao.co|cilimao.one
+@@||update.miui.com^$important
 @@||upf.co.il/advertisment.js$script
 @@||uploaded-premium.ru/ads/ad.js$script
 @@||uploadrocket.net/advertising/ads.js$script
