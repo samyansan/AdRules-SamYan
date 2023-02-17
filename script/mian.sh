@@ -2,8 +2,8 @@
 
 # 下载规则
 curl -o i-1.txt https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/domain.txt
-curl -o i-2.txt https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt
-curl -o i-3.txt https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad.txt
+curl -o i-2.txt https://code.gitlink.org.cn/api/v1/repos/keytoolazy/adblock/raw/adblock_lite
+curl -o i-3.txt https://code.gitlink.org.cn/damengzhu/abpmerge/raw/branch/main/abpmerge.txt
 curl -o i-4.txt https://raw.githubusercontent.com/sjhgvr/oisd/main/abp_basic.txt
 curl -o i-5.txt https://raw.githubusercontent.com/samyansan/Ad-hosts/master/adguard
 curl -o i-6.txt https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
