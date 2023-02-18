@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-02-18 21:00:41
-! Total count: 120015
+! Version: 2023-02-19 02:07:29
+! Total count: 120062
 
 ###AdBlockDialog
 ###Ad_windows
@@ -1256,6 +1256,7 @@
 ##.zone_wap_banner2
 ##.zozoads
 ##A[href*=".com/?Agent="]
+##A[href*="/x7673.cc"]
 ##A[href*='.com:'][target='_blank'] > IMG[src][width='100%'][height='60px']
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href='/?'][target='_blank']
@@ -1865,6 +1866,7 @@
 ##a[href*="/x5092.com"]
 ##a[href*="/x5123.cc"]
 ##a[href*="/x7458.cc"]
+##a[href*="/x8345.cc"]
 ##a[href*="/x9658.cc"]
 ##a[href*="/xapps5.xyz"]
 ##a[href*="/xchina.fun/redirect/ad"]
@@ -8147,6 +8149,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 99.com.cn##.hzh_botleft
 99114.com##.indexcjgg
 996dm.com,dandanzan.com,dandanzan10.top,nunuyy5.org,btnull.*##+js(m3u-prune, /^http/, /^https:\/\/vip\.lz-?cdn\d*\./)
+996dm.com,dmlaa.com,dandanzan.*,dandanzan10.top,nunuyingyuan.com,nunuyy5.org,btnull.*##+js(m3u-prune, /^http/, /^https:\/\/vip\.lz-?cdn\d*\./)
 998wangye.com##[width="1440"][height="345"]
 999hdhd.com##[width="300"][height="300"],.top_box
 99a21.com##.wrap-head-spots
@@ -15670,6 +15673,7 @@ ooopn.com###ab-left
 ooopn.com##a[href*="/jump.html"]
 oops.udn.com#?##wrapper > #mainbar > .area:not(#story):not(#comments):has(> h3 > a[href]:contains(商品推薦))
 op.gg##.vm-placement,[class^="ads"]
+opdown.com##.cq-recom
 opdown.com##.gxxz-btn
 opdown.com##.listaddrs
 open-open.com##[src^="http://www.open-open.com/gg_images/"]
@@ -19996,6 +20000,7 @@ zzzyk.com###Tinfo
 |https:$subdocument,domain=nodkey.xyz
 |https:$third-party,domain=linkshrink.net
 |https://$script,subdocument,popup,3p,domain=btsow.beauty|dandanzan10.top|nunuyy5.org|rarbgprx.org
+|https://$script,subdocument,popup,3p,domain=btsow.mom|dandanzan10.top|dandanzan.*|nunuyingyuan.com|nunuyy5.org|rarbgprx.org
 |https://dd-static.jd.com/ddimg/jfs/t1/173245/15/28822/346324/62fcb4b0Eb437d047/136a1e04890320b8.jpg$image,domain=subaibaiys.com
 |https://imgcache.qq.com/qzone/biz/comm/js/qbs.js
 |https://m.frgls.com/js/*.js?v=1.3
@@ -26013,6 +26018,7 @@ zzzyk.com###Tinfo
 ||abiaobai.cn^
 ||abiaobai.cn^$third-party
 ||abid.w38store.ru^
+||abiderestless.com^
 ||abieaoa.cn^
 ||abjectionblame.com^
 ||abjectionremarksdisarm.com^
@@ -31379,6 +31385,7 @@ zzzyk.com###Tinfo
 ||aeg32y.top^
 ||aegis.qq.com^
 ||aehudh.rakumachi.jp^
+||aeifpqfijosfd.com^
 ||aeimmmj.cn^
 ||aem-collector-*.kgslb.com^
 ||aem-collector-22ylcwym.kgslb.com^
@@ -32147,6 +32154,7 @@ zzzyk.com###Tinfo
 ||aivalabs.com^
 ||aivento.cn^
 ||aiviy.com/assets/js/union.js
+||aivoonsa.xyz^
 ||aiwanma99.com^
 ||aiwanma99.com^$popup
 ||aiwei365.net^
@@ -38141,6 +38149,7 @@ zzzyk.com###Tinfo
 ||bcd7ad4271.com^
 ||bcdn-god.we-stats.com^
 ||bceapp.com/jj/1716mid.js
+||bcebos.com/725c659194eeebb8c6b970e52e2dc8aa.
 ||bcebos.com/ad/
 ||bcebos.com/contentAdSecend_
 ||bcf8fbea24.com^
@@ -40929,6 +40938,7 @@ zzzyk.com###Tinfo
 ||btschool.net/images/*/HDYGR
 ||btserve.com^
 ||btsow.beauty/app/jav$image
+||btsow.mom/app/jav$image
 ||btspread.com/app/bts/View/js/base.js
 ||btspread.com/script/$script
 ||btstatic.com^
@@ -42153,6 +42163,7 @@ zzzyk.com###Tinfo
 ||carisoprodol.shengen.ru^
 ||carl.pubsvs.com^
 ||carlingquerent.com^
+||carmeleanurous.com^
 ||carmenfloral.com^
 ||carmuffler.net^
 ||carnataldez.ml^
@@ -47645,6 +47656,7 @@ zzzyk.com###Tinfo
 ||culiglsm.space^
 ||cullligan.fr^
 ||culmedmaumee.com^
+||culsaids.xyz^
 ||cultay.com^
 ||cultergoy.com^
 ||culturalfoundation.fr^
@@ -48454,6 +48466,7 @@ zzzyk.com###Tinfo
 ||d2l3f1n039mza.cloudfront.net^
 ||d2lahoz916es9g.cloudfront.net^
 ||d2lp70uu6oz7vk.cloudfront.net^
+||d2ltukojvgbso5.cloudfront.net^
 ||d2lv4zbk7v5f93.cloudfront.net^
 ||d2lxammzjarx1n.cloudfront.net^
 ||d2lxztepvo7ma1.cloudfront.net^
@@ -52303,6 +52316,7 @@ zzzyk.com###Tinfo
 ||dutravisne.com^
 ||dutuo4.top^
 ||duu8lzqdm8tsz.cloudfront.net^
+||duwabchhdgkqc.com^
 ||duwsikdimo.com^
 ||duxmhcj.cn^
 ||duyixpy.top^
@@ -56121,6 +56135,7 @@ zzzyk.com###Tinfo
 ||f709c496d6.com^
 ||f775.thehour.com^
 ||f77j6t2b.com^
+||f77xv3.top^
 ||f78f9d3fc2.com^
 ||f7ds.liberation.fr^
 ||f7e8aa0821.com^
@@ -58477,6 +58492,7 @@ zzzyk.com###Tinfo
 ||fxclix.com^
 ||fxdepo.com^
 ||fxdwdwv.cn^
+||fxdxnbwmbcka.com^
 ||fxfezg.bodylab24.de^
 ||fxfhjs.com^
 ||fxhpaoxqyajvmdg.
@@ -60215,6 +60231,7 @@ zzzyk.com###Tinfo
 ||gnenuelnn.com^
 ||gneunbiy.rest^
 ||gnezdo.ru^
+||gnfoltsbaocw.com^
 ||gnfoxcsgk.com^
 ||gnfqtz.smartphoto.se^
 ||gnfunbiz.rest^
@@ -60763,6 +60780,7 @@ zzzyk.com###Tinfo
 ||govxinjiang.cn^
 ||govyunfu.cn^
 ||gowadogo.com^
+||gowhutho.com^
 ||gowinxp.com^
 ||gowinxp.com^$third-party
 ||gowoman.ru^
@@ -60882,6 +60900,7 @@ zzzyk.com###Tinfo
 ||gratlfyingdates.net^
 ||graucoay.net^
 ||graungie.net^
+||graungig.xyz^
 ||grauroocm.com^
 ||grauwaiw.com^
 ||gravatkitysol.com^
@@ -61234,6 +61253,7 @@ zzzyk.com###Tinfo
 ||guang.sdsgwy.com^
 ||guang1.zhakao.cn/common/ni_h/common/ffx_f/ek.js
 ||guang1.zhakao.cn^
+||guangdongtaiji.com^
 ||guanggao*.*^
 ||guanggao1257.com^
 ||guanggao28.xyz^
@@ -61769,6 +61789,7 @@ zzzyk.com###Tinfo
 ||handbrake.es^
 ||handcraftedformat.com^
 ||handleteeth.com^
+||handlingblare.com^
 ||handlingfaster.com^
 ||handll.com^
 ||handred.ru^
@@ -61779,6 +61800,7 @@ zzzyk.com###Tinfo
 ||handsomelyhealth.com^$third-party
 ||handspiketha.xyz^
 ||handtub.com^
+||handuwl.top^
 ||handy-ads.de^
 ||handy-tab.com^
 ||handycam.alicdn.com^
@@ -62290,6 +62312,7 @@ zzzyk.com###Tinfo
 ||hedvid.com^
 ||heebauch.com^
 ||heedenglish.com^
+||heedsbedeaf.guru^
 ||heelseparateddistinguished.com^
 ||heeteefu.com^
 ||heevaush.com^
@@ -62729,6 +62752,7 @@ zzzyk.com###Tinfo
 ||hikvar.ru^
 ||hilarioussewingartsy.com^
 ||hilariouszinc.com^
+||hilded.com^
 ||hildly.com^
 ||hildr-zah.com^
 ||hildry.com^
@@ -65797,12 +65821,14 @@ zzzyk.com###Tinfo
 ||inethoster.org^
 ||inetinteractive.com^
 ||inetlog.ru^
+||ineuntkilnman.digital^
 ||inexorabledemocracycurly.com^
 ||inexpedienttributereschedule.com^
 ||inexperiencedfuture.pro^
 ||inextlink.com^
 ||inextricableaugmentcompelling.com^
 ||inf.wqa.ru^
+||infamouslimit.pro^
 ||infamousstream.com^
 ||infamylists.com^
 ||infaustsecond.com^
@@ -65829,6 +65855,7 @@ zzzyk.com###Tinfo
 ||inflectedminimalbits.com^
 ||inflectionpointmedia.com^
 ||inflectionquake.com^
+||inflictmistycarlos.com^
 ||influads.com^
 ||influencer2020.com^
 ||influenzahabit.com^
@@ -68437,6 +68464,7 @@ zzzyk.com###Tinfo
 ||jrclick.jd.com^
 ||jrdkc.com^
 ||jrfa.net^
+||jrfkurohvql.xyz^
 ||jrhaigou.com^
 ||jrhbhz.com^
 ||jrj.com.cn/h5Ad?
@@ -70241,6 +70269,7 @@ zzzyk.com###Tinfo
 ||koyi.pub/wp-content/plugins/dh-anti-adblocker/
 ||kozoysnsx.com^
 ||kozszolgalat.com^
+||kozuyzcciaygg.com^
 ||kpcyic.sportisimo.cz^
 ||kpdn.ru^
 ||kpkgkkbs.xyz^
@@ -70328,6 +70357,7 @@ zzzyk.com###Tinfo
 ||ksdarprt.reseguiden.se^
 ||ksdayhtj.shop^
 ||ksdayhtl.xyz^
+||ksdqhiaythajdv.com^
 ||ksdr.xyz^
 ||ksehinkitw.hair^
 ||kshp.com/uploads/banners/
@@ -78756,6 +78786,7 @@ zzzyk.com###Tinfo
 ||moksoxos.com^
 ||mokuz.ru^
 ||mol18.biz^
+||moldingruching.com^
 ||moldyicicle.com^
 ||moleconcern.com^
 ||molefefiseranis.ru^
@@ -79685,6 +79716,7 @@ zzzyk.com###Tinfo
 ||mwa.meanwellaustralia.com.au^
 ||mwbilx.pisos.com^
 ||mwcvu.com^
+||mwdwepok.xyz^
 ||mwefgc.pazolini.com^
 ||mwogldx.top^
 ||mwor.gq^
@@ -79783,6 +79815,7 @@ zzzyk.com###Tinfo
 ||myad24.de^
 ||myadcash.com^
 ||myadrotate.ru^
+||myads.cc^
 ||myads.ru^
 ||myadstats.com^
 ||myadsystem.com^
@@ -80153,6 +80186,7 @@ zzzyk.com###Tinfo
 ||nabaza.shop^
 ||nabbr.com^
 ||nablabee.com^
+||nableemblems.com^
 ||nabobketupa.com^
 ||nabucuo.com^
 ||nacfuns.com^
@@ -83439,6 +83473,7 @@ zzzyk.com###Tinfo
 ||ophoadee.xyz^
 ||ophwrh.cn^
 ||opienetwork.com^
+||opikervop.xyz^
 ||opinary.com^
 ||opiniac.com^
 ||opinionbar.com^
@@ -84277,6 +84312,7 @@ zzzyk.com###Tinfo
 ||p2.ykauto.cn^
 ||p23jac.top^
 ||p24.hu^
+||p26.gejulm*.com^
 ||p2cdn.com^
 ||p2p.$xhr,websocket,ping,domain=~huya.com|~binance.com
 ||p2p.bz^
@@ -87464,6 +87500,7 @@ zzzyk.com###Tinfo
 ||pred.7mmtv.top^
 ||predataclient.b-cdn.net^
 ||predicamentdisconnect.com^
+||predicamentprestige.com^
 ||predicta.net^
 ||predictad.com^
 ||predictiondexchange.com^
@@ -91078,6 +91115,7 @@ zzzyk.com###Tinfo
 ||releasedgrievedeye.com^
 ||releasedverge.com^
 ||releinemaoff.pro^
+||releph.com^
 ||relept.com^
 ||relestar.com^
 ||relevant-digital.com^
@@ -101604,6 +101642,7 @@ zzzyk.com###Tinfo
 ||sudupan.com^*.gif
 ||suedai.com^
 ||sueed.love^
+||suescollum.com^
 ||sufferingslippery.com^
 ||suffertreasureapproval.com^
 ||suffeteinset.com^
@@ -104584,6 +104623,7 @@ zzzyk.com###Tinfo
 ||thuanmimamsa.com^
 ||thuary.com^
 ||thujo.com^
+||thulrlidos.com^
 ||thumbeks.com^
 ||thumbnail-galleries.net^
 ||thumeezy.xyz^
@@ -105488,6 +105528,7 @@ zzzyk.com###Tinfo
 ||topbucks.com^
 ||topcashvibes.com^
 ||topclickguru.com^
+||topclips.today^
 ||topconsumergifts.com^
 ||topcpa.ru^
 ||topcto.ru^
@@ -116506,6 +116547,7 @@ zzzyk.com###Tinfo
 ||xingyou64.xyz^
 ||xingyou65.xyz^
 ||xingyou69.asia^
+||xingyou70.asia^
 ||xingyou71.asia^
 ||xingyuanaigaowei.love^
 ||xingzhu.top^
@@ -117750,6 +117792,7 @@ zzzyk.com###Tinfo
 ||yicpx.com^
 ||yidaweb.com^
 ||yidded.com^
+||yiddiquitejuk.com^
 ||yidengfe.com/launches/01/yd.png
 ||yidiansurong.com^
 ||yidianzixun.com/home/q/get_activity_girls_progress
@@ -117813,6 +117856,7 @@ zzzyk.com###Tinfo
 ||yihubaiying.com^
 ||yihubaiying.com^$third-party
 ||yihuifu.cn^
+||yiigoijho.com^
 ||yiihuu.com/assets/common/yh/js/yh.ad.
 ||yiiwoo.com^
 ||yiiwoo.com^$third-party
@@ -117924,6 +117968,7 @@ zzzyk.com###Tinfo
 ||yizhongyi.info^
 ||yjcf360.com/ad.
 ||yjegf.com^
+||yjgkcbvmnqnicep.xyz^
 ||yjiaj.com^
 ||yjkyj.cn^
 ||yjqiqi.com^
@@ -117960,6 +118005,7 @@ zzzyk.com###Tinfo
 ||yl89.cn^
 ||yladm.com^
 ||ylads.yaolan.com^
+||ylasthepoityelthenl.xyz^
 ||ylasthepoityelthens.com.ua^
 ||ylavjbljpt.com^
 ||ylbb-vipjs.com^
@@ -118829,6 +118875,7 @@ zzzyk.com###Tinfo
 ||zakladka.org.ua^
 ||zalanado.fr^
 ||zalandon.fr^
+||zalawqsahn.com^
 ||zalo-ads-240-td.zadn.vn^
 ||zalo-ads-240.zadn.vn^
 ||zalo-ads-480-td.zadn.vn^
