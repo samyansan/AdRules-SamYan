@@ -4,13 +4,18 @@
 curl -o i-1.txt https://raw.githubusercontent.com/sjhgvr/oisd/main/abp_basic.txt
 curl -o i-2.txt https://code.gitlink.org.cn/api/v1/repos/keytoolazy/adblock/raw/adblock_lite
 curl -o i-3.txt https://code.gitlink.org.cn/damengzhu/abpmerge/raw/branch/main/abpmerge.txt
-curl -o i-4.txt https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
-curl -o i-5.txt https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall.txt
-curl -o i-6.txt https://raw.githubusercontent.com/hacamer/Adblist/master/dns.txt
-curl -o i-7.txt https://raw.githubusercontent.com/hacamer/Adblist/master/adp.txt
-curl -o i-8.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_21.txt
-curl -o i-9.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_29.txt
-curl -o i-10.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
+curl -o i-4.txt https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall.txt
+curl -o i-5.txt https://raw.githubusercontent.com/hacamer/Adblist/master/dns.txt
+curl -o i-6.txt https://raw.githubusercontent.com/hacamer/Adblist/master/adp.txt
+curl -o i-7.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_21.txt
+curl -o i-8.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_29.txt
+curl -o i-9.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
+curl -o i-10.txt https://raw.githubusercontent.com/samyansan/Ad-hosts/master/adguard
+curl -o i-11.txt https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
+curl -o i-12.txt https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/Ad.txt
+curl -o i-13.txt https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/app.txt
+curl -o i-14.txt https://raw.githubusercontent.com/DivineEngine/AdGuardFilter/master/filter.txt
+curl -o i-15.txt https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Formats/GoodbyeAds-AdBlock-Filter.txt
 
 # 合并规则并去除重复项
 cat i*.txt > i-mergd.txt
