@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # 下载规则
-curl -o i-1.txt https://raw.githubusercontent.com/ookangzheng/dbl-oisd-nl/master/abp.txt
+curl -o i-1.txt https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad.txt
 curl -o i-2.txt https://code.gitlink.org.cn/api/v1/repos/keytoolazy/adblock/raw/adblock_lite
 curl -o i-3.txt https://code.gitlink.org.cn/damengzhu/abpmerge/raw/branch/main/abpmerge.txt
 curl -o i-4.txt https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall.txt
@@ -16,6 +16,9 @@ curl -o i-12.txt https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalF
 curl -o i-13.txt https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/app.txt
 curl -o i-14.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/Rules/adguardfilter.txt
 curl -o i-15.txt https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Formats/GoodbyeAds-AdBlock-Filter.txt
+curl -o i-16.txt https://sub.adtchrome.com/adt-chinalist-easylist.txt
+curl -o i-17.txt https://filters.adtidy.org/extension/ublock/filters/11_optimized.txt
+curl -o i-18.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/Rules/adblock.txt
 
 # 合并规则并去除重复项
 cat i*.txt > i-mergd.txt
