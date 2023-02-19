@@ -1986,6 +1986,7 @@
 ##bkveng
 ##body .has-ad
 ##body > A[ontouchstart='this.click();'][href]
+##body > DIV[class][style^='bottom: '][style$='vw; display: block;']
 ##body > [id][style*='width:100%'][style*='min-height:120px']
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body > div[style="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important;"]
