@@ -19,7 +19,7 @@ curl -o i-15.txt https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Fo
 
 # 合并规则并去除重复项
 cat i*.txt > i-mergd.txt
-cat i-mergd.txt | grep -v '^!' | grep -v '^！' | grep -v '^#' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | grep -v '^@' | grep -v '^@ ' > i-tmpp.txt
+cat i-mergd.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | grep -v '^@' | grep -v '^@@' > i-tmpp.txt
 sort -n i-tmpp.txt | uniq > i-tmp.txt
 
 python rule.py i-tmp.txt
