@@ -15,7 +15,7 @@ curl -o i-11.txt https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalF
 curl -o i-12.txt https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/Ad.txt
 curl -o i-13.txt https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/app.txt
 curl -o i-14.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/Rules/adguardfilter.txt
-curl -o i-15.txt https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Formats/GoodbyeAds-AdBlock-Filter.txt
+curl -o i-15.txt https://www.i-dont-care-about-cookies.eu/abp/
 curl -o i-16.txt https://sub.adtchrome.com/adt-chinalist-easylist.txt
 curl -o i-17.txt https://filters.adtidy.org/extension/ublock/filters/11_optimized.txt
 curl -o i-18.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/Rules/adblock.txt
