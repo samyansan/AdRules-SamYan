@@ -14,7 +14,7 @@ curl -o i-10.txt https://raw.githubusercontent.com/samyansan/Ad-hosts/master/adg
 curl -o i-11.txt https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
 curl -o i-12.txt https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/Ad.txt
 curl -o i-13.txt https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/app.txt
-curl -o i-14.txt https://raw.githubusercontent.com/DivineEngine/AdGuardFilter/master/filter.txt
+curl -o i-14.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/Rules/adguardfilter.txt
 curl -o i-15.txt https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Formats/GoodbyeAds-AdBlock-Filter.txt
 
 # 合并规则并去除重复项
