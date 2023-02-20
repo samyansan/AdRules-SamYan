@@ -3799,6 +3799,8 @@
 ###cookiesApprobation
 ###cookiesBanner
 ###cookiesBannerContainer
+###cookiesBanner_background
+###cookiesBanner_wrapper
 ###cookiesBar
 ###cookiesBarAnnouncement
 ###cookiesBox
@@ -14069,6 +14071,7 @@
 ##DIV#video-player-ads-wrap
 ##DIV.JS_mid_ad
 ##DIV.ad-area.ad-area-fix-bottom
+##DIV.advertisingConfiguration
 ##DIV.appdownload_ad
 ##DIV.bot-per-context[data-width='728'][data-height='90']
 ##DIV.box-width.ec-ad
@@ -14077,6 +14080,7 @@
 ##DIV.col-lg-3.col-md-3.col-sm-4.col-12.item.p-0.px-1
 ##DIV.ec-ad.tim-box
 ##DIV.fixed-bottom.d-block.d-sm-none.movies_ad
+##DIV.footer-appload.js-footer-appload
 ##DIV.module-adslist
 ##DIV.myui-content__acc[style='position: relative;padding: 0 10px']
 ##DIV.sptable_do_not_remove f_one
@@ -14086,6 +14090,8 @@
 ##DIV[data-text-ad]
 ##DIV[id*="BAIDU_SSP__wrapper_"]
 ##DIV[style*='.xyz/gif/']
+##DIV[style*='px; top: 0px; left: 0px; z-index: '][style*='http']
+##DIV[style='position: fixed; color: transparent; line-height: 100vh; width: 100vw; z-index: 288; top: 0px; left: 0px;']
 ##DIV[style^='width:100%;height:100%;line-height: 100%;overflow:hidden; margin:auto;border:1px #']
 ##IFRAME[src*="//pos.baidu.com/"]
 ##IFRAME[src^='https://mydisplay.ctfile.com/popview.php']
@@ -14101,6 +14107,7 @@
 ##IMG[style='width: 100%;'][src^='https://ad.']
 ##IMG[url][onclick='window.open(this.url)'][src$='.gif'][width='100%']
 ##P[style$='transparent !important; font-size: 0px !important; text-indent: -10000px !important; height: 125px !important;']
+##P[style*='background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important;']
 ##SPAN#qdSZ2
 ##SPAN[style$='font-size: 6vw; color:#fff; text-align: center; transform: rotate(-90deg);']
 ##SPAN[style="position: fixed; bottom: 30vh; z-index: 2147483647; right: 0px; margin-right: 6vw; padding: 0px; text-decoration: none; background-color: red; width: 7vw; height: 7vw; border-radius: 7vw; font-size: 6vw; color: rgb(255, 255, 255); text-align: center; transform: rotate(-90deg);"]
@@ -21420,6 +21427,7 @@ cumlouder.com##.banner-frame
 cumlouder.com,pornodiamant.com##.sticky-banner
 cupfox.app###page-wrap > div:nth-child(3)
 cupfox.app##.banner-box
+cupfox.app##.swiper
 cupfox.app##IMG.cupfox-img[width='100%']
 cupfox.app#?##outer-container > .model:has(> .model-content > a[href*=".jd.com"])
 cupfox.app#?#.model:-abp-has(> .model-content > a[href*=".jd.com"])
@@ -22835,7 +22843,6 @@ eiga.com##.adBox-a
 eiga.com##.dvd
 eiga.com##.yads_infeed
 eiga.com##div[id^="rect_ad"]
-eika.no##.no-eika-cookieconsent
 eikaiwa.dmm.com###container_bottom_overlay
 eikaiwa.dmm.com##.sp-main-banner
 einbuergerungstest-online.eu##.alert-info, .alert-warning, .alert-box
@@ -24757,7 +24764,6 @@ gizchina.com#@#.header-ad
 gizchina.com,01net.com,ghacks.net,sagligabiradim.com##.mrf-adv
 gizmobolt.com#@#.custom-ad
 gizmobolt.com#@#.header-ad
-gizmodo.com###privacypolicy .privacy-box
 gizmodo.com##div[data-inset-category="CommerceInsetMobile"]
 gizmodo.com#?#.js_post-content > div[class]:has(> div.swappable-mobile-ad-container)
 gizmodo.com#?#div[data-inset-category="CommerceInsetMobile"] + div:has(> div.ad-container)
@@ -29754,6 +29760,7 @@ m.thewire.in##.header_adcode
 m.thewire.in##div[id^="mercury_adcode_"]
 m.thisisgame.com##div[id^="ad_layer"]
 m.tianya.cn##a[href^="http://dol.tianya.cn/c?z=tianya"]
+m.timesofindia.com###app > div.nonAppView  > div#g_id_onload + div[class^="_"]
 m.timesofindia.com###app > div.nonAppView > div.ATF_container_min_height + div[class^="_"]
 m.timesofindia.com###di_iframe
 m.timesofindia.com###s_rhs
@@ -31986,7 +31993,6 @@ nordicnest.no###container > footer ~ div
 nordicnest.se###container > footer ~ div
 nordictelecom.cz##.kukhorni
 nordiskporselen.com###kjeks
-nordkurier.de###nk-cookie-consent
 nordnet.dk##.cookie-consent
 nordnet.fi##.cookie-consent
 nordnet.no##.cookie-consent
@@ -36033,7 +36039,6 @@ spotic.net##.App > footer ~ div
 spotify.com###main > .Root > section, .mh-message-bar
 spotlight.pl##.statement-container
 spoutible.com##.cookie-alert-modal, .modal-backdrop
-spox.com##.spxcib.open
 spp.com.tw##.banners
 sprashivalka.com##.ad
 sprawdzonyfizjoterapeuta.pl##.cookie
@@ -36414,6 +36419,7 @@ swedroid.se##.externalTopMobile
 swedroid.se##div[id$="_ad_mobile"]
 swedroid.se##div[id^="swedroid_mobil"] > iframe
 sweet.tv###privacy_policy
+sweez.ch###cookies-adviser
 swiat-agd.com.pl##body > div:not([id]):not([class])
 swiat-laptopow.pl##body > div:not([id]):not([class])[style*="fixed"], body > div:not([id]):not([class])[style*="absolute"]
 swiat-sypialni.pl###box_alert
@@ -39984,9 +39990,7 @@ xgrb.cn##.d_2016_ggw
 xgrb.cn##div#MyMoveAd,DIV.ad_zhsh,DIV.tac.mb5,DIV.textMes,DIV[id^="ads_c_"],div.warp_ad,DIV.bl_2,div[class^="liebiao_ad"],div#aa,div.bl_gg,div.new_gg1,div.gsgg_gg,div.advert div[style],.d_2016_ggw
 xgroovy.com,xxxshake.com,jizzberry.com##.in.is_mobile
 xgw5.com,gw54.com#?#li:-abp-has(>.ads)
-xhadult2.com,xhmoon5.com,xhwide8.com,xhamster3.com,xhamster18.desi,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.com,xhamster14.com,xhamster15.com,xhamster17.com,xhamster18.com,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster500.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##.premium-overlay
 xhadult2.com,xhmoon5.com,xhwide8.com,xhamster3.com,xhamster18.desi,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.com,xhamster14.com,xhamster15.com,xhamster17.com,xhamster18.com,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster500.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##.thumb-list-mobile-item--widget
-xhadult2.com,xhmoon5.com,xhwide8.com,xhamster3.com,xhamster18.desi,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.com,xhamster14.com,xhamster15.com,xhamster17.com,xhamster18.com,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster500.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##.wih-banner-container
 xhadult2.com,xhmoon5.com,xhwide8.com,xhamster3.com,xhamster18.desi,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.com,xhamster14.com,xhamster15.com,xhamster17.com,xhamster18.com,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster500.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##div[class*="banner-container"]
 xhamster.com##.pop-advertise
 xhamster.com##.sponsorBottom
@@ -41094,7 +41098,7 @@ zzzyk.com###Tinfo
 ~alexanderhall.co.uk,~foxtons.co.uk###cookie_compliance
 ~alicdn.com##a > img[width="960"][src*=".alicdn.com/"]
 ~amara.org,~filmmakers.de,~kh.hu##.cookie-consent-container
-~anadibank.com,~itextpdf.com,~otpbank.ro###sliding-popup.sliding-popup-bottom
+~anadibank.com,~itextpdf.com###sliding-popup.sliding-popup-bottom
 ~analog.com###cookie-consent-container
 ~ankerkraut.de,~openfoodnetwork.org.uk##.cookies-banner:not(body):not(html)
 ~aptoide.com###__next div[class*="cookie-notice"]
@@ -41150,7 +41154,7 @@ zzzyk.com###Tinfo
 ~cbachina.sports.sohu.com,sohu.com##sohuadcode
 ~cdu-fraktion.berlin.de###cookie-disclaimer:not(.modal)
 ~cexpr.es,~correosexpress.com,~correosexpress.pt##.message-cookie:not(body):not(html)
-~cgi.com,~anadibank.com,~itextpdf.com,~otpbank.ro##.eu-cookie-compliance-banner
+~cgi.com,~otpbank.ro,~anadibank.com,~itextpdf.com##.eu-cookie-compliance-banner
 ~cityheaven.net###gg1
 ~clasohlson.com###js-cookie-notification
 ~clasohlson.com##.cookie-bar__container
@@ -41298,7 +41302,7 @@ zzzyk.com###Tinfo
 ~ionity.eu##.gdpr-cookieconsent-container
 ~ionity.eu##.gdpr-cookieconsent-settings
 ~istore.com.hr,~spielzeug-paradies.de###cookiesplus-basic
-~itextpdf.com,~otpbank.ro###cookie_dialog
+~itextpdf.com###cookie_dialog
 ~ivaucher.pt,~verpackungsregister.org,~leoprinting.fr,~bosch-climate.be,~argenta.be,~essent.nl,~energiewonen.nl###cookieConsentModal
 ~ivolta.pl##.cookies_footer:not(body):not(html)
 ~ix8.la##div[class^="ADTOPLB_"]
