@@ -14086,7 +14086,6 @@
 ##.zpconsentinfo ~ div[id^="consent"]
 ##.zuzcookieouter:not(body):not(html)
 ##A[href*=".com/?Agent="]
-##A[href*="/x7673.cc"]
 ##A[href*='.com:'][target='_blank'] > IMG[src][width='100%'][height='60px']
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href='/?'][target='_blank']
@@ -14297,6 +14296,7 @@
 ##[onclick*="trackEvent', 'ad"]
 ##[onclick*='https://i.opiwb.com:']
 ##[onclick*='www.l4lui.com'],.col-12.position-relative>b
+##[onclick="ga('send', 'event', { eventCategory: 'tlavban', eventAction: 'mobile', eventLabel: '台灣情趣用品'});"]
 ##[onclick="window.open('http://682kg.com/')"]
 ##[onclick="window.open('https://docs.qq.com/doc/DZGtmWUxpamJGTnNY');"]
 ##[onclick="window.open(this.url)"][src]
@@ -14435,6 +14435,7 @@
 ##a[href*=".com/?p="][target="_blank"] > img[src$=".gif"]
 ##a[href*=".com/Register.aspx?aid="]
 ##a[href*=".com/Register/?a="]
+##a[href*=".com/av.html?"] > img[src]
 ##a[href*=".com/register/?i_code="] > img
 ##a[href*=".com/tg.html?id="]
 ##a[href*=".com:"] > img[src]
@@ -14818,6 +14819,7 @@
 ##a[href*="?register="] > img[width="100%"]
 ##a[href*="a2g-secure.com"]
 ##a[href*="ad2upapp.com/"]
+##a[href*="b2pk.com/b/a/d/"][href*=".php?"] > img
 ##a[href*="delivery.trafficfabrik.com"]
 ##a[href*="emprestimo.eu"]
 ##a[href*="googleme.eu"]
@@ -14864,6 +14866,7 @@
 ##a[href][target="_blank"] > img[referrerpolicy="no-referrer"][src*=".yximgs.com/"]
 ##a[href][target="_blank"] > img[src="https://vip2.loli.io"]
 ##a[href][target="_blank"] > img[src][class="topline"]
+##a[href][target="_blank"] > img[src^="images/gg/"][alt]
 ##a[href][target="_blank"][rel="external nofollow"] > img[src]
 ##a[href][target="_blank"][rel="nofollow noopenner"][class="text-ad-link" ]
 ##a[href^=" http://ads.ad-center.com/"]
@@ -15169,6 +15172,7 @@
 ##a[href^="http://www.linkbucks.com/referral/"]
 ##a[href^="http://www.liutilities.com/"]
 ##a[href^="http://www.liversely.net/"]
+##a[href^="http://www.lovetoytw.com/"][onclick]
 ##a[href^="http://www.menaon.com/installs/"]
 ##a[href^="http://www.mobileandinternetadvertising.com/"]
 ##a[href^="http://www.mrskin.com/tour"]
@@ -15882,6 +15886,7 @@
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[id^="proadszone-"]
 ##div[id^="q1-adset-"]
+##div[id^="rfads"]
 ##div[id^="sticky_ad_"]
 ##div[id^="tms-ad-dfp-"]
 ##div[id^="traffective-ad-"]
@@ -16266,7 +16271,6 @@
 1024pz.com###header > center
 1024pz.com##.leftd
 1024pz.com##.t[style="margin-top:8px"]
-1024pz.com,2cycomic.com,dmh8.me,xcyy.tv,yemancomic.com##body > a
 1024pz.com,2cycomic.com,dmh8.me,yemancomic.com##body > a
 1024pz.com,2cycomic.com,xcyy.tv,yemancomic.com##body > a
 1024pz.com,99syy1.com##div[class^="ps_"]
@@ -17711,6 +17715,8 @@
 69story.com##.table-striped > tbody > tr:not([class]):not([id])
 69story.com##aside#secondary > section[id="text-2"]
 69vj.com###nta
+69vj.com###vban
+69vj.com##[href^="https://b2pk.com/b/a/d/ck.php"]
 69xx.one,8mav.cc,theav.xyz,thep178.com,theporn.cc#?#div[class]:-abp-has(>a>.q-responsive)
 6hck.co##[class^="shade_layer"],#f_huodong,[id$="_top"],.simulate_bet_ad,#lhc_bottom_columns_ad,.shck_APPDownload,[id^="lhck_"]
 6kk.tv###sponsorAdDiv
@@ -31341,8 +31347,10 @@ manwa.me#$#.ad-area { position: absolute !important; left: -3000px !important; }
 manwa.me#@#.ad-area
 manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa.fun##.index-banner > [class*="swiper-container"]
 manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa.fun##[class^="swiper-slide"] > a[target="blank"][rel="nofollow noopenner"]
+manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa.fun##[data-group="ad_common_tool_bar_top"]
 manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa.fun##[data-group^="ad_chapter_top"]
-manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa.fun##input
+manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa.fun##input[alt][src*="/static/custom/files/300x"][src$=".gif"]
+manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa.fun##input[alt][src^="/static/custom/files/"][type="image"]
 manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa.fun#@#.ad-area
 manwa1.me,manwa2.me,manwa.me##DIV.swiper-container.swiper-container-horizontal
 manwa1.me,manwa2.me,manwa.me##[data-group^='ad_chapter'][data-width='300'][data-height='250']
@@ -34575,8 +34583,9 @@ porn5f.com#?#.row:has(> div.col-lg-3 > div[style] > div.carousel-inner > p.ad-ti
 porn87.com##.pc_instant
 pornbest.org,ptt.sex##.btn-group + .row
 porndoe.com##.-up-mobile
-pornfind.org,pornbest.org,ptt.sex##div.links.row
-pornfind.org,pornbest.org,ptt.sex##div.row.links
+pornfind.org,pornbest.org,ptt.sex,pornlulu.com##[id^="bottom-ads"]
+pornfind.org,pornbest.org,ptt.sex,pornlulu.com##div.links.row
+pornfind.org,pornbest.org,ptt.sex,pornlulu.com##div.row.links
 pornhd.com###adhesionZone
 pornhd.com##+js(abort-on-property-read, popUnderUrl)
 pornhd.com##.leaderboard-container
