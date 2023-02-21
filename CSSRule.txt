@@ -14233,6 +14233,7 @@
 ##[onclick*="trackEvent', 'ad"]
 ##[onclick*='https://i.opiwb.com:']
 ##[onclick*='www.l4lui.com'],.col-12.position-relative>b
+##[onclick="ga('send', 'event', { eventCategory: 'tlavban', eventAction: 'mobile', eventLabel: '台灣情趣用品'});"]
 ##[onclick="window.open('http://682kg.com/')"]
 ##[onclick="window.open('https://docs.qq.com/doc/DZGtmWUxpamJGTnNY');"]
 ##[onclick="window.open(this.url)"][src]
@@ -14345,6 +14346,7 @@
 ##a[href*=".com/?Extend="]
 ##a[href*=".com/Register.aspx?aid="]
 ##a[href*=".com/Register/?a="]
+##a[href*=".com/av.html?"] > img[src]
 ##a[href*=".com/tg.html?id="]
 ##a[href*=".com:"] > img[src]
 ##a[href*=".com?aff="]
@@ -14669,6 +14671,7 @@
 ##a[href*="?invite_code="] > img[src*=".com"]
 ##a[href*="?register="] > img[src*=".douyinpic.com"]
 ##a[href*="?register="] > img[width="100%"]
+##a[href*="b2pk.com/b/a/d/"][href*=".php?"] > img
 ##a[href*="https://go.live.missav.com/?"][target="_blank"]
 ##a[href*="mdapp01.com/"]
 ##a[href*="nnqp.vip"]
@@ -14702,6 +14705,7 @@
 ##a[href][target="_blank"] > img[referrerpolicy="no-referrer"][src*=".yximgs.com/"]
 ##a[href][target="_blank"] > img[src="https://vip2.loli.io"]
 ##a[href][target="_blank"] > img[src][class="topline"]
+##a[href][target="_blank"] > img[src^="images/gg/"][alt]
 ##a[href][target="_blank"][rel="external nofollow"] > img[src]
 ##a[href][target="_blank"][rel="nofollow noopenner"][class="text-ad-link" ]
 ##a[href^="/ad/"] > img[id][src*="hdslb.com"]
@@ -14716,6 +14720,7 @@
 ##a[href^="http://go.gotourl.xyz/"]
 ##a[href^="http://intent.bingads.com/"]
 ##a[href^="http://pic.gunqiu.com/"]
+##a[href^="http://www.lovetoytw.com/"][onclick]
 ##a[href^="http://yunbofangbt."]
 ##a[href^="https://adm.beimg.com/"]
 ##a[href^="https://l.hyenadata.com"]
@@ -15167,6 +15172,7 @@
 ##div[id^="div-gpt-ad"]
 ##div[id^="em"] > a[onclick^="em"][max-width]
 ##div[id^="photo-header-title-content-text-dall"]
+##div[id^="rfads"]
 ##div[js-cookies]
 ##div[ng-show="hasCookieAlert"] .cookies__container
 ##div[onclick*=".8tse9.com"]
@@ -16917,6 +16923,8 @@
 69story.com##.table-striped > tbody > tr:not([class]):not([id])
 69story.com##aside#secondary > section[id="text-2"]
 69vj.com###nta
+69vj.com###vban
+69vj.com##[href^="https://b2pk.com/b/a/d/ck.php"]
 69xx.one,8mav.cc,theav.xyz,thep178.com,theporn.cc#?#div[class]:-abp-has(>a>.q-responsive)
 6hck.co##[class^="shade_layer"],#f_huodong,[id$="_top"],.simulate_bet_ad,#lhc_bottom_columns_ad,.shck_APPDownload,[id^="lhck_"]
 6kk.tv###sponsorAdDiv
@@ -30130,8 +30138,10 @@ manwa.me#$#.ad-area { position: absolute !important; left: -3000px !important; }
 manwa.me#@#.ad-area
 manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa.fun##.index-banner > [class*="swiper-container"]
 manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa.fun##[class^="swiper-slide"] > a[target="blank"][rel="nofollow noopenner"]
+manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa.fun##[data-group="ad_common_tool_bar_top"]
 manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa.fun##[data-group^="ad_chapter_top"]
-manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa.fun##input
+manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa.fun##input[alt][src*="/static/custom/files/300x"][src$=".gif"]
+manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa.fun##input[alt][src^="/static/custom/files/"][type="image"]
 manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa.fun#@#.ad-area
 manwa1.me,manwa2.me,manwa.me##DIV.swiper-container.swiper-container-horizontal
 manwa1.me,manwa2.me,manwa.me##[data-group^='ad_chapter'][data-width='300'][data-height='250']
@@ -33315,8 +33325,9 @@ porn5f.com#?#.row:has(> div.col-lg-3 > div[style] > div.carousel-inner > p.ad-ti
 porn87.com##.pc_instant
 pornbest.org,ptt.sex##.btn-group + .row
 porndoe.com##.-up-mobile
-pornfind.org,pornbest.org,ptt.sex##div.links.row
-pornfind.org,pornbest.org,ptt.sex##div.row.links
+pornfind.org,pornbest.org,ptt.sex,pornlulu.com##[id^="bottom-ads"]
+pornfind.org,pornbest.org,ptt.sex,pornlulu.com##div.links.row
+pornfind.org,pornbest.org,ptt.sex,pornlulu.com##div.row.links
 pornhd.com###adhesionZone
 pornhd.com##+js(abort-on-property-read, popUnderUrl)
 pornhd.com##.leaderboard-container

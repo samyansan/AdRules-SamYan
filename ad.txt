@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-02-21 08:37:30
-! Total count: 152199
+! Version: 2023-02-21 10:10:07
+! Total count: 152208
 
 ###ACCsmallCookieLayer
 ###AF_GDPR
@@ -14241,6 +14241,7 @@
 ##[onclick*="trackEvent', 'ad"]
 ##[onclick*='https://i.opiwb.com:']
 ##[onclick*='www.l4lui.com'],.col-12.position-relative>b
+##[onclick="ga('send', 'event', { eventCategory: 'tlavban', eventAction: 'mobile', eventLabel: '台灣情趣用品'});"]
 ##[onclick="window.open('http://682kg.com/')"]
 ##[onclick="window.open('https://docs.qq.com/doc/DZGtmWUxpamJGTnNY');"]
 ##[onclick="window.open(this.url)"][src]
@@ -14353,6 +14354,7 @@
 ##a[href*=".com/?Extend="]
 ##a[href*=".com/Register.aspx?aid="]
 ##a[href*=".com/Register/?a="]
+##a[href*=".com/av.html?"] > img[src]
 ##a[href*=".com/tg.html?id="]
 ##a[href*=".com:"] > img[src]
 ##a[href*=".com?aff="]
@@ -14677,6 +14679,7 @@
 ##a[href*="?invite_code="] > img[src*=".com"]
 ##a[href*="?register="] > img[src*=".douyinpic.com"]
 ##a[href*="?register="] > img[width="100%"]
+##a[href*="b2pk.com/b/a/d/"][href*=".php?"] > img
 ##a[href*="https://go.live.missav.com/?"][target="_blank"]
 ##a[href*="mdapp01.com/"]
 ##a[href*="nnqp.vip"]
@@ -14710,6 +14713,7 @@
 ##a[href][target="_blank"] > img[referrerpolicy="no-referrer"][src*=".yximgs.com/"]
 ##a[href][target="_blank"] > img[src="https://vip2.loli.io"]
 ##a[href][target="_blank"] > img[src][class="topline"]
+##a[href][target="_blank"] > img[src^="images/gg/"][alt]
 ##a[href][target="_blank"][rel="external nofollow"] > img[src]
 ##a[href][target="_blank"][rel="nofollow noopenner"][class="text-ad-link" ]
 ##a[href^="/ad/"] > img[id][src*="hdslb.com"]
@@ -14724,6 +14728,7 @@
 ##a[href^="http://go.gotourl.xyz/"]
 ##a[href^="http://intent.bingads.com/"]
 ##a[href^="http://pic.gunqiu.com/"]
+##a[href^="http://www.lovetoytw.com/"][onclick]
 ##a[href^="http://yunbofangbt."]
 ##a[href^="https://adm.beimg.com/"]
 ##a[href^="https://l.hyenadata.com"]
@@ -15175,6 +15180,7 @@
 ##div[id^="div-gpt-ad"]
 ##div[id^="em"] > a[onclick^="em"][max-width]
 ##div[id^="photo-header-title-content-text-dall"]
+##div[id^="rfads"]
 ##div[js-cookies]
 ##div[ng-show="hasCookieAlert"] .cookies__container
 ##div[onclick*=".8tse9.com"]
@@ -22210,6 +22216,8 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 69story.com##.table-striped > tbody > tr:not([class]):not([id])
 69story.com##aside#secondary > section[id="text-2"]
 69vj.com###nta
+69vj.com###vban
+69vj.com##[href^="https://b2pk.com/b/a/d/ck.php"]
 69xx.one,8mav.cc,theav.xyz,thep178.com,theporn.cc#?#div[class]:-abp-has(>a>.q-responsive)
 6hck.co##[class^="shade_layer"],#f_huodong,[id$="_top"],.simulate_bet_ad,#lhc_bottom_columns_ad,.shck_APPDownload,[id^="lhck_"]
 6kk.tv###sponsorAdDiv
@@ -36154,8 +36162,10 @@ manwa.me#$#.ad-area { position: absolute !important; left: -3000px !important; }
 manwa.me#@#.ad-area
 manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa.fun##.index-banner > [class*="swiper-container"]
 manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa.fun##[class^="swiper-slide"] > a[target="blank"][rel="nofollow noopenner"]
+manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa.fun##[data-group="ad_common_tool_bar_top"]
 manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa.fun##[data-group^="ad_chapter_top"]
-manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa.fun##input
+manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa.fun##input[alt][src*="/static/custom/files/300x"][src$=".gif"]
+manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa.fun##input[alt][src^="/static/custom/files/"][type="image"]
 manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa.fun#@#.ad-area
 manwa1.me,manwa2.me,manwa.me##DIV.swiper-container.swiper-container-horizontal
 manwa1.me,manwa2.me,manwa.me##[data-group^='ad_chapter'][data-width='300'][data-height='250']
@@ -39382,8 +39392,9 @@ porn5f.com#?#.row:has(> div.col-lg-3 > div[style] > div.carousel-inner > p.ad-ti
 porn87.com##.pc_instant
 pornbest.org,ptt.sex##.btn-group + .row
 porndoe.com##.-up-mobile
-pornfind.org,pornbest.org,ptt.sex##div.links.row
-pornfind.org,pornbest.org,ptt.sex##div.row.links
+pornfind.org,pornbest.org,ptt.sex,pornlulu.com##[id^="bottom-ads"]
+pornfind.org,pornbest.org,ptt.sex,pornlulu.com##div.links.row
+pornfind.org,pornbest.org,ptt.sex,pornlulu.com##div.row.links
 pornhat.*##.bn-title-mobile
 pornhat.com$$script[tag-content="initCustomEvent(""getexoloader"""][min-length="500"][max-length="1000"]
 pornhd.com###adhesionZone
@@ -64950,7 +64961,6 @@ zzzyk.com###Tinfo
 ||aybnn.cn^
 ||ayboll.com^
 ||ayc0zsm69431gfebd.info^
-||ayc0zsm69431gfebd.xyz^
 ||ayelpacle.com^
 ||ayhereabit.xyz^
 ||ayhjukc.cn^
@@ -67970,6 +67980,7 @@ zzzyk.com###Tinfo
 ||blockchaintop.nl^
 ||blockdetector.org^
 ||blockedadulatoryhotel.com^
+||blockedsituation.net^
 ||blockingdarlingshrivel.com^
 ||blockmetrics.com^
 ||blockscoolest.com^
@@ -73054,6 +73065,7 @@ zzzyk.com###Tinfo
 ||clicktrack.onlineemailmarketing.com^
 ||clicktrack.premium-shops.net^
 ||clicktrack.ziyu.net^
+||clicktrack247.com^
 ||clicktracker.alloymarketing.com^
 ||clicktracker.iscan.nl^
 ||clicktracklink.com^
@@ -73070,6 +73082,7 @@ zzzyk.com###Tinfo
 ||clickwallads.s3.amazonaws.com^
 ||clickwedkeys.com^
 ||clickwinks.com^
+||clickwith.bid^
 ||clickx.autohome.com.cn^
 ||clickx.io^
 ||clickxchange.com^
@@ -76243,7 +76256,6 @@ zzzyk.com###Tinfo
 ||curbimpress.com^
 ||curdiercoffee.com^
 ||curdlecobiron.com^
-||curdpdnav.com^
 ||cure.trueface.org^
 ||curedonswab.com^
 ||curemedia.se^
@@ -78316,7 +78328,6 @@ zzzyk.com###Tinfo
 ||dddwz.cn^
 ||dde.jishengjc.com^
 ||dde43a2d7d.com^
-||ddedfearin.buynticarkab.com^
 ||ddedfearin.buzz^
 ||ddenknowl.com^
 ||ddeyi.cn^
@@ -79574,6 +79585,7 @@ zzzyk.com###Tinfo
 ||discuteeves.com^
 ||discuz.fit^
 ||discuz.gtimg.cn/cloud/scripts/discuz_tips.js
+||discuz.gtimg.cn^
 ||disembarkadmonishment.com^
 ||disembarkappendix.com^
 ||disembroildisembroilassuredwitchcraft.com^
@@ -80098,6 +80110,7 @@ zzzyk.com###Tinfo
 ||dnset.com^
 ||dnskuu.com^
 ||dnslogs.net^
+||dnsprotector.net^
 ||dnsri.com^
 ||dnsseed.bitcoin.dashjr.org^
 ||dnsseed.bluematt.me^
@@ -84741,7 +84754,6 @@ zzzyk.com###Tinfo
 ||exportspring.com^
 ||exposebox.com^
 ||exposuremixed.com^
-||expresi.com^
 ||express-submit.de^
 ||expressalike.com^
 ||expressmovers.com^
@@ -93850,6 +93862,7 @@ zzzyk.com###Tinfo
 ||icptrack.com^
 ||icq-window.
 ||icqwindow.
+||icrcworld.com^
 ||ics0.com^
 ||icsamghkxdv.com^
 ||icstats.nl^
@@ -100648,6 +100661,7 @@ zzzyk.com###Tinfo
 ||latentcreeper.com^
 ||later-analytics-reports.s3-accelerate.amazonaws.com^
 ||lateralphonesecurity.xyz^
+||latest-songs.com^
 ||latestgrace.com^
 ||latgqaolitkli.com^
 ||latinnathathem.com^
@@ -102339,6 +102353,7 @@ zzzyk.com###Tinfo
 ||loadmoney.ru^
 ||loadsfalladz.casa^
 ||loadsource.org^
+||loadthatpage.com^
 ||loaglait.com^
 ||loajawun.com^
 ||loan.aol.msk.su^
@@ -110817,6 +110832,7 @@ zzzyk.com###Tinfo
 ||news-mars.com^
 ||news-muheji.com^
 ||news-network.ru^
+||news-news.co^
 ||news-server17-yahoo.com^
 ||news-tesla.com^
 ||news-tesla.org^
@@ -112270,7 +112286,6 @@ zzzyk.com###Tinfo
 ||oas.repubblica.it^
 ||oas.roanoke.com^
 ||oas.sciencemag.org^
-||oas.startribune.com^
 ||oas.toronto.com^
 ||oas.uniontrib.com^
 ||oas.villagevoice.com^
@@ -114212,7 +114227,6 @@ zzzyk.com###Tinfo
 ||oxrendflare.com^
 ||oxrm.com^
 ||oxrm.com^$third-party
-||oxseintegralproduced.com^
 ||oxsng.com^
 ||oxtracking.com^
 ||oxtrmw.marinarinaldi.com^
@@ -117571,7 +117585,6 @@ zzzyk.com###Tinfo
 ||ppro.de^
 ||pprq7.com^
 ||pps-log.op-mobile.opera.com^
-||ppsch1hount1hf.com^
 ||ppshk.com^*banner/
 ||ppsimg.com/apd/img/
 ||ppsj.com.cn/images/ppsj300.gif
@@ -117921,7 +117934,6 @@ zzzyk.com###Tinfo
 ||pro-accesssoires.fr^
 ||pro-ads.club^
 ||pro-advert.de^
-||pro-advertising.com^
 ||pro-market.net^
 ||pro-pro-go.com^
 ||pro-web-metrics.alias.s24cloud.net^
@@ -119971,6 +119983,7 @@ zzzyk.com###Tinfo
 ||qq61.com^
 ||qq745.com/m/ad/
 ||qq78da.com^
+||qq8.ag^
 ||qq86tbqodk.ru^
 ||qq937.com^
 ||qqa.miaozhu823.com^
@@ -123051,7 +123064,6 @@ zzzyk.com###Tinfo
 ||rum.kobo.com^
 ||rum.layer0.co^
 ||rum.marquardmedia.hu^
-||rum.minutemediaservices.com^
 ||rum.nccgroup-webperf.com^
 ||rum.perfops.net^
 ||rum.uptime.com^
@@ -125415,6 +125427,7 @@ zzzyk.com###Tinfo
 ||sedretonhar.ru^
 ||seduceobscure.com^
 ||seductivegirls.cyou^
+||see-back.com^
 ||see-what-is-trending.com^
 ||see-work.info^
 ||see.xxx/pccznwlnrs/
@@ -129588,7 +129601,6 @@ zzzyk.com###Tinfo
 ||spcode.baidu.cn^
 ||spcode.baidu.com^
 ||spdfkvk.pro^
-||speaeagleapi.io^
 ||speai.com^
 ||speaknews.cn^
 ||speakol.com^
@@ -130163,7 +130175,6 @@ zzzyk.com###Tinfo
 ||ssl2anyone3.com^
 ||ssl2anyone5.com^
 ||ssl86.pjshw.cn^
-||sslbind.com^
 ||sslcheckerapi.com^
 ||ssliivuqpm.ru^
 ||sslstats.deltavacations.com^
@@ -130379,10 +130390,8 @@ zzzyk.com###Tinfo
 ||stampseizeidly.com^
 ||stampsmindlessscrap.com^
 ||stan.xing.com^
-||stanbridgeestate.com^
 ||standadv.com^
 ||standardscaldexcessive.com^
-||standartsheet.com^
 ||standingnest.com^
 ||standingsack.com^
 ||standroogly.com^
@@ -134853,7 +134862,6 @@ zzzyk.com###Tinfo
 ||testimonypersuadedclinic.com^
 ||testin.cn^
 ||testingmetriksbre.ru^
-||testisalike.com^
 ||testnet.nl^
 ||testsbox.ru^
 ||testsite34.com^
@@ -137837,7 +137845,6 @@ zzzyk.com###Tinfo
 ||tracking.affiliateclub.cz^
 ||tracking.aita.gov.vn^
 ||tracking.aktuellhallbarhet.se^
-||tracking.alarabiya.net^
 ||tracking.aldi-international.com^
 ||tracking.allehanda.se^
 ||tracking.allopneus.com^
@@ -141498,6 +141505,7 @@ zzzyk.com###Tinfo
 ||validclick.com^
 ||validsquatcyber.com^
 ||valipl.cp31.ott.cibntv.net/$media
+||valium.este.ru^
 ||valium.hut1.ru^
 ||valium.ourtablets.com^
 ||valiumvalium.3xforum.ro^
@@ -148797,6 +148805,7 @@ zzzyk.com###Tinfo
 ||yawnspuker.com^
 ||yaxujiancai.cn^
 ||yazcash.com^
+||yazhouse*.com/images/gg/$image
 ||yazhouyu.
 ||yb6.me/img/VY9F^
 ||yb6.me^$app=com.xxx.svideo
