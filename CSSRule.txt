@@ -2818,6 +2818,7 @@
 ###cookieNotificationBannerWrapper
 ###cookieNotificationBar
 ###cookieNotificationBootstrap
+###cookieNotificationContainer
 ###cookieNotificationDialog
 ###cookieNotificationDialog ~ .modal-backdrop
 ###cookieNotificationLayer
@@ -6858,6 +6859,7 @@
 ###root div[class*="GdprAcceptance"]
 ###root div[class*="GdprOffer_block"]
 ###root div[class*="PrivacyPolicyNotice"]
+###root div[class*="SmallCookieModal"]
 ###root div[class*="cookie-banner"]
 ###root div[class*="cookie-disclaimer"]
 ###root div[class*="cookieBox"]
@@ -14298,6 +14300,7 @@
 ##[onclick*="app"]
 ##[onclick*="trackEvent', 'ad"]
 ##[onclick*='https://i.opiwb.com:']
+##[onclick*='pypyj.com']
 ##[onclick*='www.l4lui.com'],.col-12.position-relative>b
 ##[onclick="ga('send', 'event', { eventCategory: 'tlavban', eventAction: 'mobile', eventLabel: '台灣情趣用品'});"]
 ##[onclick="window.open('http://682kg.com/')"]
@@ -29313,6 +29316,7 @@ koolhydratentabel.nl###loading, #loading + .noblur
 kopalniasrebra.com##.configMessages
 kopland.pl###message, .message
 kora.fr##.cookie
+koreaporn.net##div[class^="bb_mobile"]
 korewaeroi.com##div[class^="blogroll-"]
 korisnaknjiga.com###kukiji
 koro-pokemon.com##.ad_int
@@ -30973,6 +30977,7 @@ m.timesofindia.com##.ad1
 m.timesofindia.com##.adCLSPlaceholder
 m.timesofindia.com##.adsinview
 m.timesofindia.com##.adspacing
+m.timesofindia.com##.adspacingtop
 m.timesofindia.com##.amazon_placeholder
 m.timesofindia.com##.amz-box.shop
 m.timesofindia.com##.aroundthewebconatiner
@@ -30988,6 +30993,7 @@ m.timesofindia.com##.mid_ads
 m.timesofindia.com##.nonAppView > div[class^="_"]:first-child:empty
 m.timesofindia.com##.play-qureka
 m.timesofindia.com##.toi-amazon
+m.timesofindia.com##amp-layout[id^="inpage_interstitial_layout"]
 m.timesofindia.com##div[class^="ATF_wrapper"]
 m.timesofindia.com##div[data-primead]
 m.timesofindia.com##figure + div[style="height:undefined"]
@@ -32605,8 +32611,6 @@ mydrivers.com#?#.news_info > p:nth-last-of-type(2):-abp-has(> br + a)
 mydrivers.com,wmzhe.com##a[href*=".jd.com/"]
 myexception.cn##.c_a_3
 myexception.cn##.m_a
-myfitnesspal.cn##.MuiSnackbar-anchorOriginBottomCenter
-myfitnesspal.com##.MuiSnackbar-anchorOriginBottomCenter
 myfitnessplace.pl###cookies, #backdrop
 myg21.com###policymodal
 mygame.co.uk###footer ~ div[id]
@@ -32791,7 +32795,6 @@ ndwww.cn##div.indexAdsbot,div.rigad,div.topAd,div.ad,div.r-ad1
 ndzperformance.com##.footer #myModal
 neatorobotics.com###neato_cp_notice
 neatstudio.com##a[href*="&cps_key="]
-nebenan.de##.c-layout-wrap ~ article
 nebo.app##.app-notifications
 nec.com##.func-cookie
 necgroup.co.uk##.cookie
@@ -33023,7 +33026,6 @@ newsmth.net###ban_ner
 newsmth.net##.Smthtwenty_float
 newsmth.net##.b-content > #sogou_banner:nth-child(3)
 newsmth.net##.ns-ad
-newsnow.co.uk###pmbar
 newsoku.blog##div[style="width:100%;height:500px; overflow: hidden;"]
 newsoku.blog##footer > div.widget_mobile_ad ~ div[class^="widget"]
 newspaperdirect.com###dialog_cookies
@@ -33043,6 +33045,7 @@ newxue.com##.left336280
 newyx.net,veryhuo.com,yxbao.com##.gs
 newyx.net,yxbao.com##.gs
 newzit.com##div[class^="staticMobileBanner"]
+nexcess.net##div[class*="CookieAcceptance"]
 next-decision.fr##.activebar-container
 next-gamer.de###ingameCookie
 nextapple.com###lrec01
@@ -37486,7 +37489,6 @@ startupnamecheck.com##.snotify-confirm
 starwalk.space###button-actions-container ~ div
 starwindsoftware.com###privacyPopup
 stasonline.ro###form_cookie
-stayfriends.de##.cookie
 stayinwales.co.uk##.ckinfo-panel
 stc.gov.cn###mov
 steachs.com##.adsense,[id^="div-gpt-ad-"],.adsbygoogle
@@ -40729,7 +40731,6 @@ wsieciprawdy.pl###rdModal
 wsim.de###dataPrivacyPolicy
 wsis.pt###termosdiv
 wsj.com###AD_RAIL1.wsj-ad
-wsj.com###cx-notification
 wsj.com##.wsj-ad
 wsj.com##div[class^="WSJTheme__adWrapper_"][style="min-width: 300px; min-height: 250px;"]
 wsj.com##p > #deloitte_column > [data-module-zone="deloitte_insights"] > .deloitte-insights
