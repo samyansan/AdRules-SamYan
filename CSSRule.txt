@@ -8234,6 +8234,7 @@
 ##.adsblocked
 ##.adsbyexoclick
 ##.adsbygoogle
+##.adsbytrafficjunky
 ##.adsense160
 ##.adsense200
 ##.adsoho
@@ -21902,7 +21903,6 @@ clipper-teas.com##.v--modal-overlay[data-modal="cookie"]
 cliquojeux.com###cook_aff
 cliveemson.co.uk###cookie-consent-form
 cliverton.co.uk##.popup-wrapper
-clo3d.com##.banner, #banner
 close-up.it##.stickyFooter
 closermag.fr##div[id^="detection-block"]
 closermag.fr,grazia.fr,topsante.com##.dfp-slot
@@ -22692,6 +22692,7 @@ daffer.sk##footer + div + div
 dafmuseum.com##.page-overlay
 dafmuseum.nl##.modal-backdrop, .page-overlay
 daft.ie###notify-container, .strapline-container
+daftsex.com,pornhub.com,pornhubpremium.com,pstargif.com,spankbang.com,sxyprn.com,tube8.com,tube8vip.com,xozilla.com,xxxymovies.com##a[href*="?ats="]
 dafy-moto.com##.js-cookie-headband
 dagelijksestandaard.nl##.dgd_stb_box
 dagenssamhalle.se###__next > div:last-child
@@ -35090,7 +35091,9 @@ pornhd.com##+js(abort-on-property-read, popUnderUrl)
 pornhd.com##.leaderboard-container
 pornhd.com##.listing-zone
 pornhd.com##ul.thumbs.inside-row > li:not([data-thumbindexes])
+pornhub-com.appspot.com,pornhub.com,pornhub.net,pornhubthbh7ap3u.onion,youporn.com###pb_template
 pornhub.com###hd-rightColVideoPage>none
+pornhub.com###singleFeedSection > .emptyBlockSpace
 pornhub.com##.hd.clear
 pornhub.com##.inesuch
 pornhub.com##.videos-morepad.videos.full-row-thumbs.videos-being-watched.logInHotContainer+*
@@ -35099,7 +35102,16 @@ pornhub.com##DIV.topAdContainter
 pornhub.com##div.adContainer.clearfix
 pornhub.com##div.topAdContainter
 pornhub.com,pornhub.org,pornhub.net,pornhubthbh7ap3u.onion##+js(set-constant, abp1, 0)
+pornhub.com,pornhubthbh7ap3u.onion##[srcdoc]
+pornhub.com,pornhubthbh7ap3u.onion##figure > [id][style="display: block;"]
 pornhub.com,pornhubthbh7ap3u.onion#@#div > [style*="width: 100%;"]:first-child
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[href*="base64"]
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[href*="data:"]
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[src^="bLob:"]
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[style*="base64"]
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[style*="blob:"]
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##a[href^="http://ads.trafficjunky.net/"]
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##div[onclick*="bp1.com"]
 pornlulu.com##.container-fluid > .links
 pornlulu.com##.row.links
 pornone.com##div[class^="flex-initial"]
@@ -39414,7 +39426,6 @@ treinaweb.com.br##.c_anim
 treinenweb.nl###cb
 trekking-koenig.de##.cookie5
 trendmicro.com##.cookie_verif, c-dcx-cookie
-trendsales.dk###main > .inner ~ div[class]
 trendsmap.com###header_message
 treningspartner.no##.top > .container > .sd-surface > .sd-object-if
 trennung.de###allowCookie
@@ -40128,6 +40139,7 @@ uwants.bonbonme.com##[src^="http://i.imgur.com/"],.light
 uwants.com###foruminfo + div[align="center"]
 uwants.com##.showpx1
 uwants.com##[id^="ad_type_"]
+uwartsonline.nl###cookie-consent-modal
 uwec.edu###_pc
 uzdrowisko-wieniec.pl###statement
 uzshare.com###left-panel
@@ -40522,7 +40534,6 @@ vod.warszawa.pl###footer ~ div
 vod1769.com##.banner_img
 vod1769.com##div[id^="a"]
 vodafone.hu##.cookie_fix
-vodafonemail.de###cmpWrapper
 vodi.cc###cookies
 vodjk.com###advertise_baidu
 vodjk.com##.ggkuang,[class$="-ad"],.tw3,[class^="tjgg_"]
@@ -40971,6 +40982,7 @@ weibo.com##div[class^="HotTopic_doticon_"] + div[class^="HotTopic_tit_"]
 weibo.com##div[data-mark*=reallog_mark_ad]
 weibo.com##div[feedtype="ad"]
 weibo.com##div[feedtype=ad]
+weibo.com#$?#.card-wrap:has(> .card-top > .s-fr:contains(广告)) { remove: true; }
 weibo.com#?#.card-content > ul > li:-abp-has(> p > .icon-txt-recommend)
 weibo.com#?#.card-content > ul > li:-abp-has(>a[action-type="realtimehot_ad"])
 weibo.com#?#.card-wrap:-abp-has(> .card-film > .card-head > .title:-abp-contains(广告))
@@ -41332,6 +41344,7 @@ woniupai.net##.wnp-adbox
 wooclap.com##span[aria-labelledby*="cookie-banner"]
 woolrich.eu##.firstvisit
 woolworth.de###CybotCookiebotDialog
+woolworth.pl###CybotCookiebotDialog
 woquge.com###adt1
 worditout.com##body > #g
 wordlm.com##div.ad.mt1
@@ -42899,6 +42912,7 @@ yhgou.cc##.ch1
 yhgou.cc##.col-lg-12 + .row
 yhgou.cc##.col-lg-12 > a
 yhpdm.com,yhdmp.net,d53px.com##[class$="_b"]
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com##canvas
 yibian.hopto.org###no-adblock-box
 yicai.com##.dfb-ad
 yicai.com##.gg_loadpage
@@ -44220,7 +44234,6 @@ zzzyk.com###Tinfo
 ||yy.com##.v-footer-tipsbox-show.v-footer-tipsbox^
 ||yy.com##.v-head-show.v-head^
 ||yy.com##.v-player-widget-hudong^
-||zaobao.com#@#div[class*="adv"]^
 ||zhanqi.tv##.footer^
 ||zhanqi.tv##.js-btn-open-app.footer-suspend^
 ||zhidao.baidu.com##.conference-banner-all^
@@ -44339,6 +44352,8 @@ zzzyk.com###Tinfo
 ~cityheaven.net###gg1
 ~clasohlson.com###js-cookie-notification
 ~clasohlson.com##.cookie-bar__container
+~clo3d.com,~fimfiction.net##.cookie-consent-popup
+~clo3d.com,~uktv.co.uk###app .cookie-consent:not(.lightbox)
 ~cloud.im,~ikb.at,~wolters-rundreisen.de,~schulze-immobilien.de,~harry-gerlach.de,~veygo.com,~hotelsbarriere.com,~ufz.de,~voltadol.at,~gsk-gebro.at,~shop.halebop.se,~icould.com,~evaair.com,~formula1.com###cookie-banner:not(a)
 ~compravo.de,~perpedale.de###cookie-jar
 ~compravo.de,~perpedale.de##.cookiefooter:not(body):not(html)
@@ -44377,7 +44392,7 @@ zzzyk.com###Tinfo
 ~eam.de,~eam-netz.de##.tx-om-cookie-consent
 ~easyswimportal.com##.cookiepopup:not(body):not(html)
 ~easyticket.de###cookie_consent_popup
-~easyticket.de,~barnardos.org.uk,~stromnetz.berlin,~vattenfall.com,~nsinternational.com,~nintendo.com,~dawonia.de,~tyg.se,~stoffe.de,~myfabrics.co.uk,~rittal.com##.cookie-overlay:not(body):not(html)
+~easyticket.de,~barnardos.org.uk,~stromnetz.berlin,~vattenfall.com,~nsinternational.com,~nintendo.com,~tyg.se,~stoffe.de,~myfabrics.co.uk,~rittal.com##.cookie-overlay:not(body):not(html)
 ~eboo.lu##.cookies-dialog:not(body):not(html)
 ~eboo.lu,~developer.ing.com###cookiesDialog
 ~educhel.ru,~eduface.ru,~edumsko.ru##.cookies_popup:not(body):not(html)
@@ -44401,7 +44416,6 @@ zzzyk.com###Tinfo
 ~ffm.to,~orcd.co,~ditto.fm,~backl.ink##.privacy-notice-gdpr
 ~fiftysix.nl,~wuestenrot.at##.cookiePopup:not(body):not(html):not(.reveal)
 ~fil-luge.org##.CookieBar:not(body):not(html)
-~fimfiction.net##.cookie-consent-popup
 ~finnair.com,~barnardos.org.uk,~rapidonline.com,~fotopuzzle.de,~monpuzzlephoto.fr,~newpharma.be,~markets.com,~bmihealthcare.co.uk,~puzzleyou.be,~fotondo.cz##.cookie-policy:not(body):not(html)
 ~finom.co##.cookie-info__container
 ~finom.co,~lmt.lv,~dish.co,~pagetiger.com,~bynco.com,~bakken.nl##.cookie-info:not(body):not(html)
@@ -44726,7 +44740,6 @@ zzzyk.com###Tinfo
 ~ubiwayretail.be##.mod-cookiewarning:not(body):not(html)
 ~ubiwayretail.be,~vaillant.com,~vaillant.info,~vaillant.co.uk,~vaillant.com.ro,~vaillant.no,~vaillant.pl,~vaillant.nl,~vaillant.de,~vaillant.it,~vaillant.fr,~vaillant.es,~vaillant.be,~vaillant.hr,~vaillant.sk,~vaillant.se,~vaillant.ua,~vaillant.at,~vaillant.cz,~vaillant.fi,~vaillant.si,~vaillant.dk,~vaillant.hu,~vaillant.rs##.cookiewarning:not(body):not(html):not(.main)
 ~ugenr.dk###gdpr-consent
-~uktv.co.uk###app .cookie-consent:not(.lightbox)
 ~uktv.co.uk,~airam.fi###__nuxt .cookie-consent
 ~umeng.com##a[href*=".umeng.com"]:not([href="http://www.umeng.com/"]) > img
 ~unicredit.it##.infocookie:not(body):not(html)
