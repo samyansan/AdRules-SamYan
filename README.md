@@ -2,4 +2,3 @@
 Github raw
 ```
 https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/ad.txt
-  
