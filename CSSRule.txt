@@ -711,6 +711,7 @@
 ##.adcontent
 ##.add-gg
 ##.addddddwarp
+##.adhesion.orange.horizontal.sporcle-promo
 ##.adisclaimer
 ##.adline
 ##.adlist
@@ -1952,6 +1953,7 @@
 ##a[href^="/ad/"] > img[id][src*="hdslb.com"]
 ##a[href^="/dasp.php?a="]
 ##a[href^="/hy-"][ontouchstart]
+##a[href^="/redirect?tid="]
 ##a[href^="http"] > img[src*="pic.rmb.bdstatic.com/"][src$=".gif"]
 ##a[href^="http"][onclick^="setCookie"][style^="width:100%;height:100"]
 ##a[href^="http://ad-apac.doubleclick.net/"]
@@ -2145,7 +2147,6 @@
 ##div[style="display:none;"] + script + #container.container
 ##div[style="position: fixed; top: 0px; overflow: hidden; z-index: 2147483647; background-color: rgba(0, 0, 0, 0.5); height: 110%;"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
-##div[style="position:absolute;top:0;left:0;width: 100%;height: 100%;z-index:2147483647"]
 ##div[style="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style^="padding:16px 16px 20px;border-radius:50%;background-color:red;margin:10px;"]
 ##div[style^="pointer-events: none; position: absolute; top: 0px; left: 0px; width: 960px; height: 515px; z-index: 2147483647;"]
@@ -2154,7 +2155,7 @@
 ##div[style^="position:absolute;top:0;left:0;width: 100%;height: 100%;z-index:2147483647"]
 ##div[style^="position:fixed;inset:0px;z-index:100000;height:100%;width:100%"]
 ##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
-##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01;height:421px;width:748px"]
+##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01;"][style*="cursor:pointer"]
 ##div[style^="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]:not([allowfullscreen])
 ##div[style^="width: 100%;"][style$="display: block;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style^="width: 100%;"][style$="margin: 0px;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -3219,21 +3220,14 @@
 3g.163.com##.bottom.widget-slider-article.widget-slider
 3g.163.com##.comment-link > .js-open-app
 3g.163.com##.comment_bot
-3g.163.com##.floatMenu-logo
 3g.163.com##.hotSearch-box
-3g.163.com##.js-area-aboveTieList.area-above
-3g.163.com##.js-area-topBanner.area-topBanne
 3g.163.com##.js-new-relative-doc.new_relative_doc
-3g.163.com##.js-open-app
 3g.163.com##.js-open-app.backflow-floating
 3g.163.com##.js-open-app.main-openApp
 3g.163.com##.js-open-app.open-btn
 3g.163.com##.js-open-app.s-tip
 3g.163.com##.js-open-app.sec-more-link
-3g.163.com##.js-open-newsapp.widget-slider-article-simple
 3g.163.com##.js-recommend-wrap
-3g.163.com##.js-recommend-wrap.recommend
-3g.163.com##.js-recommend.recommend
 3g.163.com##.js-replylink.reply_count
 3g.163.com##.js-wakeupclient.wakeup_client
 3g.163.com##.m_pbpb_img,.m_pbpb_m1,.m_pbpb_m0,[id^="yx-"],div.a_topad,.article_ad,div.bottombanner-contain,div.fuck-qq-1,.a_adtemp,.m_papa_m1,.m_papa.papa-item
@@ -3241,7 +3235,6 @@
 3g.163.com##.open-modal-mask
 3g.163.com##.s-openApp
 3g.163.com##.widget-floatMenu
-3g.163.com##[src^="//ymjs.adutp.com/kjivriyd?"]
 3g.163.com##article.card-type-news.news-card:-abp-contains(打开APP)
 3g.163.com##div.big_boom
 3g.163.com##div.doc-footer-wrapper
@@ -3251,6 +3244,17 @@
 3g.163.com##div[class*=hot-news]
 3g.163.com##footer > span
 3g.163.com##iframe[id*=open_newsapp_iframe]
+3g.163.com,m.163.com##.floatMenu-logo
+3g.163.com,m.163.com##.js-area-aboveTieList.area-above
+3g.163.com,m.163.com##.js-area-topBanner.area-topBanne
+3g.163.com,m.163.com##.js-open-app
+3g.163.com,m.163.com##.js-open-app.backflow-floating
+3g.163.com,m.163.com##.js-open-app.main-openApp
+3g.163.com,m.163.com##.js-open-newsapp.widget-slider-article-simple
+3g.163.com,m.163.com##.js-recommend-wrap.recommend
+3g.163.com,m.163.com##.js-recommend.recommend
+3g.163.com,m.163.com##.s-openApp
+3g.163.com,m.163.com##[src^="//ymjs.adutp.com/kjivriyd?"]
 3g.ali213.net##.common-3g-block
 3g.baidu.com,m.baidu.com,m5.baidu.com###header > div > div
 3g.baidu.com,m.baidu.com,m5.baidu.com##.blank-frame
@@ -7570,6 +7574,7 @@ fqlook.cn##.main_tonglan,.main_center_z,.pro_baidu,[href^="http://www.fqlook.cn/
 fqlook.com##.mmver.w-1200,.head_ad,#leftfloatad1,.definit
 fqsousou.com,kengso.com#@#.user-share
 fqxsw.com##.dahengfu,[src^="http://news.9377bh.com/"]
+fqzww.net##a[onclick="qinlintes11t2()"]
 fr.hujiang.com###regModule
 fr.hujiang.com###uzt-mask
 fr2135.com###friendLink_contents
@@ -14690,6 +14695,7 @@ tv.sohu.com###miaozhenad
 tv.sohu.com###referr_bd_box
 tv.sohu.com##.ad-vbox,.x-download-panel
 tv.sohu.com##.x-dl-shake.x-download-panel, #playerBar > div.area ~a
+tv.sohu.com##DIV.actv-banner.js-app-topbanner,DIV.banner_yunying,DIV.js-oper-pos,IMG.vrs-banner-act-img
 tv.sohu.com##a.us_left.abs,a.us_right.abs,div#comicRecomm.comics-recomm,div.adv_960,.skyAD,#cp_sohuv_100_1,.lux_left,.lux_right,[href^="http://c.admaster.com.cn/c/"],#vippromotion
 tv.tugastvs.com###adtugas1
 tv.tugastvs.com###adtugas2
@@ -16234,6 +16240,10 @@ yangtse.com##BODY > DIV.nav_head:first-child
 yangtse.com##[src^="http://www.cndzys.com/huanlian/"],[style$="height: 250px;"],[id^="ad"],[class^="ad"],#yztjad
 yantuchina.com##div[style="width:618px;height:150px;margin: 0 auto; display:block;"]
 yaochanglai.com##.banner
+yaociyuan.bid##+js(set-constant, killads, true)
+yaociyuan.bid##.board a[target="_blank"] > img
+yaociyuan.bid##.content a[target="_blank"] > img
+yaociyuan.bid##.w-ad
 yaofangwang.com###bottomApp,.bj-baner,.adinfo,[href="http://www.yaofangwang.com/coupons.html"]
 yaofangwang.com##.bad
 yaojingweiba.com##[style^="width:300px;height:250px;"],[src^="http://baiduyun.modelelement.com/afiles/"]
