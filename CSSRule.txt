@@ -1874,6 +1874,7 @@
 ##a[href*="/register/?i_code="] > img
 ##a[href*="/shishangta.cn"]
 ##a[href*="/sm003r.tv"]
+##a[href*="/sm010k.xyz"]
 ##a[href*="/sm033v.tv"]
 ##a[href*="/sm27z.net"]
 ##a[href*="/smch7.com"]
@@ -1906,6 +1907,7 @@
 ##a[href*=":7888/?register="]
 ##a[href*=":8701/?register="]
 ##a[href*="?channelCode="] > img[src*=".com"]
+##a[href*="?channelCode="] > img[src*=".xyz"]
 ##a[href*="?channelCode="] > img[src]
 ##a[href*="?invite_code="] > img[src*=".com"]
 ##a[href*="?register="] > img[src*=".douyinpic.com"]
@@ -4938,8 +4940,7 @@ bbs.my5600.com##img[src^="http://a.ajaj.be/img/"]
 bbs.ncar.cc##div[style^="background-color:#F"],[width="500"][height="90"],[width="234"][height="375"]
 bbs.ngacn.cc###postsign0,.adsc.adsch
 bbs.pcbeta.com###diynavtop + style + div[class]
-bbs.pcbeta.com#?##toptb ~ #wp > div[class] > ul ~ div[class]:has(> div[class] > div > .adsbygoogle)
-bbs.pcbeta.com#?##toptb ~ #wp > div[class]:matches-css(height : /170px/)
+bbs.pcbeta.com#?##toptb ~ #wp > *:not(div):not(style):not(ul):not(script) + div[class][id]:has(div[style="display:none"])
 bbs.pinggu.org##div#mama_tips_right_bottom
 bbs.qieerxi.com##DIV.wp.a_t,DIV.a_pb
 bbs.qyer.com##iframe[src^="http://ad.qyer.com/www/delivery/afr.php?zoneid="]
@@ -5367,6 +5368,7 @@ brushes8.com###flxgg
 brushes8.com##.baidugg580
 brushes8.com##.zjianad
 bs.to,burningseries.co#$#abort-current-inline-script Object
+bstudy.net,studbooks.net,studme.org,studref.com,studwood.net,vuzlit.com,xstud.org#$#abort-on-property-read abl
 bstzcs.com##iframe
 bt.cn##.left_wrap:nth-child(3)
 bt.cn,lotour.com##.btad
@@ -15748,6 +15750,7 @@ www.rmdown.com##a[href^="\*alicdn.com/"]
 www.runbt.com##img[width="760"][height="60"]
 www.safecn.net##ins.adsbygoogle
 www.santaihu.com##ins.adsbygoogle
+www.sbdm.net##.ads_all:remove()
 www.sbdm.net##.dplayer-web-fullscreen-fix .billhao-head-image, .dplayer-web-fullscreen-fix #topnav
 www.sd173.com##ins.adsbygoogle,div#ads_c_tpc,div.carousel
 www.sdzbcg.com##table[height="41"],img[width="590"][height="120"],img[width="592"][height="119"],img[width="900"][height="40"],img[width="300"][height="100"]
