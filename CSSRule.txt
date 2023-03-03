@@ -1500,6 +1500,7 @@
 ##[style^="pointer-events: none;background-image:url('https://33789.qqqwww987.site"],[style^='z-index: 2147483647; height: 123px; ']
 ##[style^='bottom: 0px; width: 100%; height: 50vw; position: fixed; left: 0px; right: 0px; margin: 0px; background: url("https://']
 ##a > I.gg-icon
+##a > IMG.img-responsive[src*='.gif']
 ##a > IMG[src$='.gif'][wapsrc][style^='width: 100%']
 ##a#wrapper_left_bg[target="_blank"]
 ##a#wrapper_right_bg[target="_blank"]
@@ -3617,7 +3618,6 @@
 3gsc.com.cn##.ad,.advbox,.banner,#right_ad
 3gsc.com.cn##.tipsA
 3h3.com###gaosu_down_bt
-3h3.com##.ga##div[id^="ad_bd_"] + .ad-mark
 3h3.com##.gaosu_div
 3h3.com,downxia.com##.gaosu_down_div
 3h3.com,downxia.com,rsdown.cn##.bendown
@@ -3923,6 +3923,7 @@
 58.com#?#LI[sortid]:-abp-has(.jinico)
 58.com#?#TR[logr]:-abp-has(> .t > .mt-p-tit > .jingpin)
 58.com#?#tr[sortid]:-abp-has(> .t > .ico.accurate)
+58.com,pcpop.com,phpernote.com##div[id^="a> img[src*=".sinaimg."]
 58.com,pcpop.com,phpernote.com##div[id^="ad_"]
 5857.com###b_downfile
 5888.tv###code_img
@@ -5955,6 +5956,7 @@ chaomi.cc##.cm-ads
 chaomi.cc,cpnn.com.cn,cs.com.cn,dyhjw.com,kkj.cn,my0538.com,mydrivers.com,ofweek.com,silver.org.cn,ttzmz.vip,wendu.cn,y1118.com##.duilian
 chapaofan.com##[class^="pf-ad-"],.details-ad
 chapaofan.com##a[href^="http"]:not([href*=".chapaofan."]) > img[src*=".sinaimg."]
+chapaofan.com##a[href^="http"]:not([href*=".chapaofan."]) ba.com,xingqu.baidu.com##.wanle_tab_tip
 chasedream.com##.a_h,.a_f,[id^="diycd-board"]
 chashebao.com##.ad960
 chaturbate.com##.ad,.banner,[href^="/external_link/?"]
