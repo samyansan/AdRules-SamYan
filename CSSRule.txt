@@ -1291,6 +1291,7 @@
 ##A[href*="emprestimo.eu"]
 ##A[href*="googleme.eu"]
 ##A[href*='.com:'][target='_blank'] > IMG[src][width='100%'][height='60px']
+##A[href*='//v.wanfumei.net']
 ##A[href="http://goo.gl/jQ9bcz"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href='/?'][target='_blank']
@@ -1335,6 +1336,7 @@
 ##DIV#div1.div-relative[style='display:block;']
 ##DIV#links.links.my-1.row[style='font-size:20px']
 ##DIV#mhbottom_ad_box
+##DIV#recommend-float.player-recommend-float > a
 ##DIV#tads
 ##DIV#video-player-ads-wrap
 ##DIV.JS_mid_ad
@@ -1368,6 +1370,7 @@
 ##DIV[style*='display: block; width: 100%; left: 0px; position: fixed; z-index:'][style*='height: 25px; top: 133px;']
 ##DIV[style*='height: 33.25px; top:'][style*='background-size: 400px 133px !important;']
 ##DIV[style*='px; top: 0px; left: 0px; z-index: '][style*='http']
+##DIV[style='position: fixed; bottom: 0px; left: 0px; width: 100%; height: 5.85rem; z-index: 99999;']
 ##DIV[style='position: fixed; color: transparent; line-height: 100vh; width: 100vw; z-index: 288; top: 0px; left: 0px;']
 ##DIV[style='width: 100%;background-color: black;color: white;padding: 15px 0;']
 ##DIV[style^='position: fixed; bottom: 50%; z-index: 19999 !important; ']
@@ -2150,6 +2153,8 @@
 ##body.chapter > div.container div.slide-baidu *
 ##body.no_overflow strong
 ##body.page > .popup
+##body.page.player > DIV.shortcuts-mobile-overlay
+##body.page.player > div.popup.popup-tips.popup-icon.open
 ##body[onload*="u()"] > #x
 ##body[ontouchstart] > #topBox
 ##button[data-openuri="|BTN_URL|"]
@@ -2191,6 +2196,7 @@
 ##div.page.player > div.main > div.content > div.module.module-player DIV[style='width:100%;height:180px']
 ##div.page.view > div.main > div.content > DIV[style='width:100%;height:100px']
 ##div.play_boxbg div[class$='_acmsd']
+##div.player-rm.rm-two.rm-list > a
 ##div.post_list_ajax > A[target='_blank']
 ##div.row > DIV.md-r-panel
 ##div.row.abs-text
@@ -6728,6 +6734,8 @@ btime.com##DIV[id^="f21ac82b21eeb7322631b6aa94e17f"],.ad_baidu1,.ad_content,.ad_
 btks.me##img[height="60"],.agssp_ad_ins
 btmovi.in##body > span[style]
 btmulu.com#?#.item:-abp-has(> a[target="_blank"])
+btnull.com,btnull.org,btnull.to,btnull.si,btnull.in,btnull.nu,btnull.fun##[href$=".apk"]
+btnull.com,btnull.org,btnull.to,btnull.si,btnull.in,btnull.nu,btnull.fun##[style*="position: fixed; bottom:"][style*="z-index: 99999;"]
 btnull.org###ly
 btring.com##.card[target="_blank"]
 bts.to##.dl_blue[href^="/goto_.php?url="]
@@ -18134,6 +18142,7 @@ repaik.com##div.a_cn,DIV.a_mu,.a_pt,.a_pr
 repelis.net##+js(aopr, popTimes)
 reportscam.com##[href^="https://click.reportscam.com/"]
 reqlinks.net##+js(aopr, app_vars.force_disable_adblock)
+reshuct.by,reshuolymp.ru,sdamgia.ru#@#.googlead
 reshuct.by,sdamgia.ru##div[class$="-BlockDetect"]
 retinaboys.com###screen_block
 reuters.com###spacerElement
@@ -18440,7 +18449,6 @@ sd.ifeng.com##div[style="width:1000px; margin:10px auto 0 auto;"]
 sd.xinhuanet.com##.hfgg,div[style^="height: 100px;"]
 sdamgia.ru##div[style^="text-align:center; color:red;"][style*="font-size:16px"]
 sdamgia.ru##main > div[class*=" "]:nth-child(-n+2) > div ~ div
-sdamgia.ru#@#.googlead
 sdmy168.com##+js(set, judge, noopFunc)
 sdo.com##.mod-public-ads
 sdo.com##a[class^="side-nav-box-daoyu"]
