@@ -1288,6 +1288,7 @@
 ##A.toptxt[target='_blank']
 ##ASIDE[id^='custom_html-']
 ##A[href*=".com/?Agent="]
+##A[href*="/ky55004.com"]
 ##A[href*="emprestimo.eu"]
 ##A[href*="googleme.eu"]
 ##A[href*='.com:'][target='_blank'] > IMG[src][width='100%'][height='60px']
@@ -1386,6 +1387,7 @@
 ##IMG[src$='.dl'][style='width:100% !important;height:90px'][onclick]
 ##IMG[src*='.xyz/tupian/'][src$='/h5.gif']
 ##IMG[src*='/gg/'][src$='180.gif'][src*='800']
+##IMG[src='/js/imgs/taote.jpg']
 ##IMG[style='width: 100%;'][src^='https://ad.']
 ##IMG[url][onclick='window.open(this.url)'][src$='.gif'][width='100%']
 ##P[style$='transparent !important; font-size: 0px !important; text-indent: -10000px !important; height: 125px !important;']
@@ -7023,6 +7025,7 @@ cctime.com##.nav_banner
 cctv.com###bgAd_div
 cctv.com##.anime_ewm
 cctv.com##[id^="div-gpt-ad-"],[src^="http://pubads.g.doubleclick.net/gampad/"],.adv
+cctv.com,www.douyu.com##+js(aeld,/visibilitychange|pagehide/)
 cda-hd.cc##+js(aopr, AaDetector)
 cda.pl##.pb-ad-video-player
 cda.pl##.pb-video-click
@@ -17247,6 +17250,10 @@ pornbimbo.com##[href^="https://ca.clcknads.pro"]
 pornbimbo.com##[src^="http://pornbimbo.com/player/html.php"]
 pornblade.com###e_v + aside[id]
 pornbraze.com##+js(popads-dummy)
+pornclassic.tube,tubepornclassic.com##.content > div > .container + div
+pornclassic.tube,tubepornclassic.com##.video-page__content > div.left + div[class]:last-child
+pornclassic.tube,tubepornclassic.com##.video-page__player + div[class] > div[class]
+pornclassic.tube,tubepornclassic.com##div[style="display:flex !important"] > div
 porncomics.me##+js(aopr, open)
 porndaa.com##+js(acis, document.querySelectorAll, popMagic)
 porndaa.com##+js(aeld, getexoloader)
@@ -20555,12 +20562,8 @@ tubepornclassic.com##+js(aeld, , window.open)
 tubepornclassic.com##+js(aopr, preadvercb)
 tubepornclassic.com##+js(nosiif, complete, 50)
 tubepornclassic.com##+js(nosiif, document.readyState)
-tubepornclassic.com##.content > div > .container + div
 tubepornclassic.com##.video-page__adv
-tubepornclassic.com##.video-page__content > div.left + div[class]:last-child
-tubepornclassic.com##.video-page__player + div[class] > div[class]
 tubepornclassic.com##a[href^="http://www.theclassicporn.com/"]:upward(1)
-tubepornclassic.com##div[style="display:flex !important"] > div
 tuberel.com##+js(aeld, , open)
 tubesex.me##+js(aopr, Aloader.serve)
 tubesex.me##+js(noeval)
@@ -22032,7 +22035,6 @@ www.dmh8.me,dm88.me##DIV[style^='position: fixed; bottom: 0px; display: block; o
 www.dmh8.me,dm88.me##DIV[style^='width:300px;height:300px;position:fixed;bottom:0;left:0;']
 www.dnpz.net##[id^="dnpz_ad"]
 www.dodo8.com##td[height="82"]
-www.douyu.com##+js(aeld,/visibilitychange|pagehide/)
 www.down.cc##div.article_ad,div.test-240,div.search-test,div.test-60,div#ad_phone1,div#ad_phone2,div.img-220.md10,.dl-test,.test_80_href
 www.downcc.com##div#gaosuxiazai,.mg-t5
 www.downkr.com##[id^="union_"]
