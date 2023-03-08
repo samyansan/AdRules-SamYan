@@ -3538,7 +3538,7 @@
 24k99.com,fx168.com##.yy_guangao
 24kplus.com###custom_html-3
 24pornvideos.com,2japaneseporn.com,xxxvideor.com,youngleak.com,zhlednito.cz##+js(aopr, ExoLoader.serve)
-24smi.org#$#abort-on-property-read Object.prototype.setAdbCookie
+24smi.org#$#abort-on-property-write document.cookie; cookie-remover /^/
 24tv.ua##.b_reklama
 24video.xxx##.adt
 2500sz.com##div.tl-focus,div#wx,a[href="http://www.szaist.cn/zhuanti/lama/?mcgg"],div[class^="aline-"],div[class^="banner-"],div#js_ads_banner_top_slide,DIV.tl,embed[src^="http://www.2500sz.com/site/"]
@@ -21020,6 +21020,7 @@ v-wb.youku.com##+js(set-constant, Object.prototype.adData, {})
 v.163.com###v_shapeLeft_divId
 v.163.com###v_shapeRight_divId
 v.163.com##div[id^="v_shape"].bg
+v.163.com##div[style^="width: 140pr.js
 v.163.com##div[style^="width: 140px; height: 199px;"]
 v.17173.com##DIV#playAdLeftTop.adbox,DIV.txt-ad,DIV.list-beauty,div.js-lol-ad,span.js-lol-adtime,div.ad03.col-r,DIV[id^="liveAdMiddle"],DIV.focus_ad,div.side-ad,.frontAd
 v.2345.com##div.mt10,div.baiduSearchIvy
@@ -22243,6 +22244,7 @@ www.sbdm.net##.dplayer-web-fullscreen-fix .billhao-head-image, .dplayer-web-full
 www.sd173.com##ins.adsbygoogle,div#ads_c_tpc,div.carousel
 www.sdzbcg.com##table[height="41"],img[width="590"][height="120"],img[width="592"][height="119"],img[width="900"][height="40"],img[width="300"][height="100"]
 www.seznam.cz##div[class*="mol-repeater-container__sticky-content"]
+www.seznam.cz##div[class^="gadget-container--full-width-item"]
 www.seznam.cz#$#cookie-remover adform
 www.seznam.cz#$#cookie-remover pubmatic
 www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"gadget-container")]/div[@id and @class]/div[@*="animated-height"]//span[text()]/following-sibling::a[contains(text(),"reklamu")]//following::div[@*="gadget__content"]//div[@class and @style]/ancestor::div[7][@class]/ancestor::div[contains(@class,"gadget-container")]'; hide-if-matches-xpath './/div[starts-with(@class,"d-flex")]/div[contains(@class,"flex-column")]/div[@class and @style]//div[2]/div[@class and @style]/parent::div/ancestor-or-self::div[contains(@style,"flex-basis:")]'; hide-if-matches-xpath './/div[@*="mainFeed"]//div[@class="overflow-hidden"]/div[contains(@class,"atm-text-placeholder")]/parent::div[@class][1]/ancestor::div[3]/parent::div[@class and @*]/ancestor::li[@data-analytics-first-item]';
@@ -22390,7 +22392,6 @@ www.zreading.cn##aside#text-3.widget.widget_text,aside#text-5.widget.widget_text
 www.zxiazai.com##div.r1,div.lay1038,div.indexad,div.adv,div.lay230
 www.zydh123.com##div.room-box
 www.zyzhan.com##.banneradv,#adNewLeft,#adNewRight,.botAd,.adPosition,.topAd
-wwww.seznam.cz##div[class^="gadget-container--full-width-item"]
 wx.sina.com.cn###artibody > .article-video
 wxguan.com##.dahengfu,.con_ad
 wxphp.com##.ad_a,.ad_d,.ads1,.ads
