@@ -2,7 +2,7 @@
 
 # 下载规则
 curl -o i-1.txt https://raw.githubusercontent.com/samyansan/AdGuardRules/main/adguard.txt
-curl -o i-2.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt
+curl -o i-2.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock.txt
 curl -o i-3.txt https://raw.githubusercontent.com/samyansan/AdHosts/master/adguard
 curl -o i-4.txt https://code.gitlink.org.cn/api/v1/repos/keytoolazy/adblock/raw/adblock_lite
 curl -o i-5.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/Rules/adgk.txt
