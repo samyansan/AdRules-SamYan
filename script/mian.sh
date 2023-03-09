@@ -6,8 +6,8 @@ curl -o i-2.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock
 curl -o i-3.txt https://raw.githubusercontent.com/samyansan/AdHosts/master/adguard
 curl -o i-4.txt https://code.gitlink.org.cn/api/v1/repos/keytoolazy/adblock/raw/adblock_lite
 curl -o i-5.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/Rules/adgk.txt
-curl -o i-6.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
-curl -o i-7.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
+curl -o i-6.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_24.txt
+curl -o i-7.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
 curl -o i-8.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_5.txt
 
 # 合并规则并去除重复项
