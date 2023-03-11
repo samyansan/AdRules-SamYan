@@ -3,7 +3,8 @@
 # 下载规则
 curl -o i-1.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock.txt
 curl -o i-2.txt https://code.gitlink.org.cn/api/v1/repos/keytoolazy/adblock/raw/adblock_lite
-curl -o i-3.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
+curl -o i-3.txt https://raw.githubusercontent.com/samyansan/AdGuardRules/main/adguard.txt
+
 
 # 合并规则并去除重复项
 cat i*.txt > i-mergd.txt
