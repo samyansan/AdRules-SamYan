@@ -1953,6 +1953,7 @@
 ##a[href^="http://go.gotourl.xyz/"]
 ##a[href^="http://intent.bingads.com/"]
 ##a[href^="http://pic.gunqiu.com/"]
+##a[href^="http://s.73xx.icu/xgmn"]
 ##a[href^="http://www.lovetoytw.com/"][onclick]
 ##a[href^="http://yunbofangbt."]
 ##a[href^="https://adm.beimg.com/"]
@@ -9721,6 +9722,8 @@ macdaxue.com##.content > div.asb
 macfans.org###portal_block_180
 macos-app.com#@##adsense
 macwk.com#@#.adBanner
+madou.club##a[href*="//www.pssy.xyz"]
+madou.club##a[href][target="_blank"][rel="nofollow noopener"]
 madouqu.com,madouqu.tk#$#abort-current-inline-script document.querySelectorAll popMagic
 mafengwo.cn###ad1
 mafengwo.cn###ad2
@@ -11506,6 +11509,7 @@ samsclub.com#$#hide-if-matches-xpath '//span[@class="sc-specials-label"]/parent:
 samsung.com###operationBanner
 samsung.com#?#.template-item:-abp-has(> .wrap-sub-title > div > .ad)
 sanhao.com###reg-bar
+sanstv.ru###adblock
 sanv.org##.main-nav
 sanv.org##.p_left
 sasadown.cn###float_mask
@@ -13415,15 +13419,22 @@ xc6b.com##a[href="http://61.160.236.52"]
 xcar.com.cn###eMeng
 xcar.com.cn###show_car
 xcar.com.cn##div[class^="adset"]
-xchina.co##.exoclick_300x250
-xchina.co##.push-bottom
 xchina.co##.push-top
-xchina.co##[class*="ad"]
-xchina.co##[href*="#"]
-xchina.co##div[class*="jquery-modal"]
-xchina.co##div[class*="modalAd"]
 xchina.co##div[style*="width: 300px;"][style*="height: 455px;"]
 xchina.co,xchina.fun#@#.banner_ad
+xchina.co,xchina.fun,xchina.tv##.exoclick_300x250
+xchina.co,xchina.fun,xchina.tv##.push-bottom
+xchina.co,xchina.fun,xchina.tv##.push-top
+xchina.co,xchina.fun,xchina.tv##[adid]
+xchina.co,xchina.fun,xchina.tv##[class*="ad"]
+xchina.co,xchina.fun,xchina.tv##[class*="fa-ban"]
+xchina.co,xchina.fun,xchina.tv##[class^="photoMask"]
+xchina.co,xchina.fun,xchina.tv##[class^="playerMask"]
+xchina.co,xchina.fun,xchina.tv##[href*="#"]
+xchina.co,xchina.fun,xchina.tv##a[href*="/redirect/ad-"]
+xchina.co,xchina.fun,xchina.tv##div[class*="jquery-modal"]
+xchina.co,xchina.fun,xchina.tv##div[class*="modalAd"]
+xchina.co,xchina.fun,xchina.tv##div[style*="width: 300px;"][style*="height: 455px;"]
 xchina.fun##a[href*="/redirect/ad-"]
 xchina.fun##div[adid]
 xclient.info###pop_business
@@ -13523,6 +13534,7 @@ xitongzhijia.net###top_gg
 xitongzhijia.net##.btn-dl_swift
 xitongzhijia.net##.m_swift
 xiuren.org###menur
+xiuren5.com,xgmn02.com##a[href] > img[src$=".gif"]
 xiushuang.com##.fix_app
 xixik.com###news_contents_left > .left_gg
 xmfish.com###pw_content > .forum_panel:nth-child(4)
