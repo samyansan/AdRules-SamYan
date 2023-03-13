@@ -4163,7 +4163,7 @@ alu.cn##.Tg_290x60
 alu.cn##.Tg_390x60
 alu.cn##.Tg_590x60
 amazon.cn#?#.s-result-item:-abp-has(> .s-item-container > h5 .s-sponsored-info-icon)
-amedia.online#$#override-property-read Object.prototype.renderTo undefined; prevent-listener beforeunload '0x'; prevent-listener pagehide '0x';
+amedia.online#$#override-property-read Object.prototype.renderTo undefined; prevent-listener /beforeunload|DOMContentLoaded|pagehide|readystatechange/ '0x';
 amyscans.com##div[class*="code-block"]
 ana1.me##.videopos
 ananvod.com##.rbPicAll
@@ -10689,6 +10689,7 @@ papalah.com##+js(abort-on-property-read, adBlockDetected)
 papergeek.fr##[id^="padb_widget_"]
 parenting.pl#$#abort-on-property-read slot
 parenting.pl,echirurgia.pl,dobreprogramy.pl,abczdrowie.pl,wp.pl#$#override-property-read rekid 0
+partnerkin.com#$#override-property-read Object.prototype.autoPopups undefined
 passiontimes.hk##.rectAd680
 pastenow.ru###google-block
 patrioty.org.ua###ad_pu_modal
