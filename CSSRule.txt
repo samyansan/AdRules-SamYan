@@ -1350,6 +1350,7 @@
 ##[class*="chp_ads_blocker_detector-show"]
 ##[class*="floating_ads"]
 ##[class*="juicyads"]
+##[class*="skip-ad"]
 ##[class*="slick-"][style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"]
 ##[class*="synopsisAd ReadAd ReadAd2"]
 ##[class*="th-ad"]
@@ -1438,6 +1439,7 @@
 ##[href^='https://www.qlspx.com:']
 ##[href^='https://xcc.'][href*='cn/']
 ##[href^='https://xxx.nunxun.com']
+##[id*="theAd_slider"]
 ##[id] > .wrap > .clearfix.mod
 ##[id^="ad-index"]
 ##[id^="adDisabledBtn"][onclick][href]
@@ -1725,6 +1727,8 @@
 ##a[href*=".yyk2.com/"]
 ##a[href*=".yypls.com/"]
 ##a[href*=".zhongguogaokaozongpingwang.com/"]
+##a[href*="//go.xlivrdr.com"][target="_blank"]
+##a[href*="//go.xlrdr.com"][target="_blank"]
 ##a[href*="/0996916.com/"]
 ##a[href*="/10093813.com"]
 ##a[href*="/1015219.com/"]
@@ -1938,6 +1942,8 @@
 ##a[href][target="_blank"] > img[src="https://vip2.loli.io"]
 ##a[href][target="_blank"] > img[src][class="topline"]
 ##a[href][target="_blank"] > img[src^="images/gg/"][alt]
+##a[href][target="_blank"][onclick*="横幅"][onclick*="'value': 500"]
+##a[href][target="_blank"][onclick*="点击"][onclick*="'value': 500"]
 ##a[href][target="_blank"][rel="external nofollow"] > img[src]
 ##a[href][target="_blank"][rel="nofollow noopenner"][class="text-ad-link" ]
 ##a[href^="/ad/"] > img[id][src*="hdslb.com"]
@@ -2164,6 +2170,8 @@
 ##iframe.ad-frame
 ##iframe[src*=".xxmh"][src*="?u="]
 ##iframe[src*=".xxmh891.com/"]
+##iframe[src*="//a.adtng.com"]
+##iframe[src*="//go.goaserv.com"]
 ##iframe[src*="//syndication.exosrv.com/"]
 ##iframe[src="/ad.html"]
 ##iframe[width="320"][height="50"]
@@ -2176,6 +2184,7 @@
 ##img[alt="天下布魔"]
 ##img[alt="官方APP"]
 ##img[alt="新太阳城"]
+##img[alt="时光约炮"]
 ##img[alt="極樂夜王"]
 ##img[alt="櫻境物語"]
 ##img[alt="賢者同盟"]
@@ -2213,6 +2222,7 @@
 ##img[src*="/gg/"][src$=".gif"]
 ##img[src*="/upload/ad/"]
 ##img[src*="_advertising_"]
+##img[src*="ads.bullionyield.com"]
 ##img[src*="https://p.qlogo.cn/qqmail_head"]
 ##img[src^="/uploads/aidou/adlist/"]
 ##img[src^="https://static.missav"][data-src^="https://static.missav"][alt][class="lozad"][data-loaded="true"]
@@ -6496,6 +6506,7 @@ efu.com.cn##.banners-top-b
 efu.com.cn##.banners-top-x2
 efu.com.cn##.zs_banner_a
 efu.com.cn##div[class*="banner-"]
+efukt.com##[data-ad-type]
 egame.qq.com###inner-container
 egame.qq.com##.left-menu-footer
 egame.qq.com##.live-list-guess
@@ -7103,6 +7114,7 @@ galacg.me##.sidebar-top
 galacg.me##a[href*="/game"]
 galacg.me,unecne.com##.metaslider
 gamaniak.com#@#.adsbygoogle
+gamcore.com##[class*="adn-"]
 game.macx.cn#@##google-ad
 game2.baifumeiba.com###gotoPlay
 game2.cn###pop-flash
@@ -9762,7 +9774,6 @@ malekal.com##.topad
 malimali5.com##a[href^="https://www.odancool.com/"]
 malimali5.com#?#.container > .section:has(> a[href^="https://www.odancool.com/"])
 mamaslatinas.com##.top-bar-content
-mambaru###adblock-in-browser
 mamecn.com##.jjMain_bg
 mamecn.com##.njjGsxzLeft > dl > .cont1
 mamecn.com##.njjGsxzRight
@@ -13461,9 +13472,10 @@ xhamster.com#$#abort-on-property-read wig-popunder; abort-on-property-write wit-
 xhamster.one#$#abort-on-property-read wih-popunder; abort-on-property-write dataPopUnder
 xhamster2.com,xhamster.one#$#abort-current-inline-script document.createElement initTabUnder
 xhd.cn##.xinad
-xhofficial.com,xhamster.com##[class*="video-view-ads"]
-xhofficial.com,xhamster.com##[class*="view-ads"]
-xhofficial.com,xhamster.com##[class*="wio-"]
+xhofficial.com,xhamster.com,xhamster2.com##[class*="video-view-ads"]
+xhofficial.com,xhamster.com,xhamster2.com##[class*="view-ads"]
+xhofficial.com,xhamster.com,xhamster2.com##[class*="wio-"]
+xhofficial.com,xhamster.com,xhamster2.com##[class*="wixx-"]
 xhzyw.com###HtmlMoKua_752383
 xhzyw.com##.ads_bottom
 xia1ge.com##.wsappad
