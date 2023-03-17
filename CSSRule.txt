@@ -3651,7 +3651,7 @@
 52pk.com##span[style*="gaosu"]
 52pk.com,downmsn.com##.bzClick
 52pk.com,hao.rising.cn,vpgame.com##.add
-52solution.com##div[class*="banner"]
+52solution.com,imydl.com##div[class*="banner"]
 52tian.net##.sidebar960
 52tian.net,starbaby.cn##.bdad
 52vfx.com#@##head_ad
@@ -6086,6 +6086,7 @@ dlouha-videa.cz#$#abort-on-property-read _0x4c29
 dm010.com##a[href*=".apk"]
 dm5.com###youce
 dm5.com##.index-side-code
+dm5.com#$#body[style*="overflow"] { overflow: auto !important; }
 dm5.com,dm5.hk##.cl760
 dm5.com,dm5.hk##.cl970
 dm5.com,dm5.hk##a[href*=".wannaplay.cn"]
@@ -8301,8 +8302,7 @@ imgse.com##.ad-banner
 imkan.tv##.bottom__card
 imooc.com##.redrain-bg-shade
 imydl.com###enhancedtextwidget-5
-imydl.com##DIV[class*="banner"]
-imydl.com##DIV[id*="banner"]
+imydl.com##div[id*="banner"]
 in-trend.biz##body > [id][style^="z-index"]
 indiatimes.com##a[onclick*="timesofindia.indiatimes.com/tilockbk/"]
 indiatimes.com##a[onclick][rel*="nofollow"]
@@ -10175,6 +10175,8 @@ music.163.com##.topfr
 music.163.com##.u-ft
 music.yandex.by,music.yandex.kz,music.yandex.ru,music.yandex.uz##body > div[style^="min-height"] > .notify
 music.yandex.by,music.yandex.kz,music.yandex.ru,music.yandex.uz##body > div[style^="min-height"] > .notify *
+musichq.cc###hgiks-top
+musichq.cc#$#abort-on-property-write rotationUrl; override-property-read changeServer undefined; abort-current-inline-script document.createElement /script/
 musify.club#$#abort-current-inline-script $ get_ya_browser
 musify.club#$#abort-on-property-read get_ya_browser
 muve.org.tw#@#.sponsor-area
@@ -11567,8 +11569,10 @@ se.pl###adb_popup
 se533.com##div[style="width:960px;margin:0 auto;text-align:center;"]
 se8u.cc##.footAdv
 sea-group.org###text-7
-search.seznam.cz#$#hide-if-matches-xpath './/div/span[contains(@class,"a3cddc")][@data-e-b-ae]/parent::div/ancestor::div[@data-dot-data]/parent::div[1]'
-search.seznam.cz#$#hide-if-matches-xpath './/picture[@class]/img[contains(@src,"https://d25-a.sdn.cz")]/ancestor::div[contains(@data-dot-data,"reporter_pos")]'
+search.seznam.cz#$#hide-if-matches-xpath './/div/span[contains(@class,"a3cddc")][@data-e-b-ae]/ancestor::div[@data-e-b-n]'
+search.seznam.cz#$#hide-if-matches-xpath './/div[@class][contains(@data-dot-data,"zpi")]/parent::div[@data-e-b-n][1]'
+search.seznam.cz#$#hide-if-matches-xpath './/picture[@class]/img[contains(@src,"https://d25-a.sdn.cz")]/ancestor::div[contains(@class,"SuperCarousel")]/parent::div[1]'
+search.seznam.cz#$#hide-if-matches-xpath './/picture[@class]/img[contains(@src,"https://d25-a.sdn.cz")]/ancestor::div[contains(@class,"SuperCarousel")]/preceding::div[contains(@class,"Ze2dfbec313")]'
 search.smzdm.com###elevator > LI:first-child
 searchenginereports.net#$#abort-on-property-read adsbygoogle
 secretmine.net###main-content > br
@@ -13142,6 +13146,7 @@ weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(.wbpro-ad-tag:-abp-contain
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(.wbpro-auth-tag>div:-abp-contains(热推))
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(div[class^="head-info_authtag_"]>img[src^="data"])
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(img[class^="head-info_authicon_"][src^="data"])
+weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(span[class^="wbpro-icon-search"]:-abp-contains(/商|上新|好物/))
 weibo.com#?#.wbpro-side-panel:-abp-has(span[class^="wbpro-icon-search"]:-abp-contains(商))
 weibo.com#?#tr:-abp-has(> .td-03 > .icon-txt-recommend)
 weihemenye.com###popup_bottom
@@ -13364,11 +13369,11 @@ www.sbdm.net##.ads_all:remove()
 www.sbdm.net##.dplayer-web-fullscreen-fix .billhao-head-image, .dplayer-web-fullscreen-fix #topnav
 www.seznam.cz#$#cookie-remover adform
 www.seznam.cz#$#cookie-remover pubmatic
-www.seznam.cz#$#hide-if-matches-xpath './/div[@class="banner-wrapper"]/a[contains(@href,"click?")]/div/img/ancestor::div[@id]'
-www.seznam.cz#$#hide-if-matches-xpath './/div[@class][@style="flex-basis: 1800px; height: 1800px;"]/div[@class][@style="top: 62px;"]'
+www.seznam.cz#$#hide-if-matches-xpath './/div[@class="banner-wrapper"]/a[contains(@href,"utm_campaign")]/div/img/ancestor::div[@id]'
+www.seznam.cz#$#hide-if-matches-xpath './/div[@class]/preceding::div[contains(@class,"mol-advert-header__source")]/parent::div[@class]/ancestor::div[@id][1]'
+www.seznam.cz#$#hide-if-matches-xpath './/div[@class][contains(@style,"flex-basis:")]/div[@class][@style="top: 62px;"]'
 www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"gadget-container")]/div[@id and @class]/div[@*="animated-height"]//span[text()]/following-sibling::a[contains(text(),"reklamu")]//following::div[@*="gadget__content"]//div[@class and @style]/ancestor::div[7][@class]/ancestor::div[contains(@class,"gadget-container")]'; hide-if-matches-xpath './/div[starts-with(@class,"d-flex")]/div[contains(@class,"flex-column")]/div[@class and @style]//div[2]/div[@class and @style]/parent::div/ancestor-or-self::div[contains(@style,"flex-basis:")]'; hide-if-matches-xpath './/div[@*="mainFeed"]//div[@class="overflow-hidden"]/div[contains(@class,"atm-text-placeholder")]/parent::div[@class][1]/ancestor::div[3]/parent::div[@class and @*]/ancestor::li[@data-analytics-first-item]';
-www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"mol-advert-header__advert-label")]/preceding::div[contains(@class,"mol-advert-header__source")]/parent::div[@class]/ancestor::div[@id][1]'
-www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@style,"height: 300px; width: 480px;")]/div[@style]/div/ancestor::div[@class="gadget__content"]'
+www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@style,"height: 300px; width: 480px;")]/div[@style]/ancestor::div[@class][2]'
 www.seznam.cz#$#override-property-read sssp noopFunc
 www.sina.com.cn###SI_EDU_AD
 www.sina.com.cn##.mod-01
