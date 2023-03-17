@@ -255,6 +255,7 @@
 ###fnbt
 ###fondAdblock
 ###footAd
+###footads
 ###footer_fix_ggw
 ###frameS8CyqB
 ###fuck-adb-enabled
@@ -576,6 +577,7 @@
 ##.ad-shine-panel
 ##.ad-site
 ##.ad-text
+##.ad-title
 ##.ad-top
 ##.ad.mi_btcon
 ##.ad01
@@ -759,6 +761,7 @@
 ##.article-pop-up-ad
 ##.article_ad
 ##.article_ad_top
+##.articleads
 ##.asb-index
 ##.asb-post
 ##.assort-ad
@@ -780,6 +783,7 @@
 ##.banner-cctv-A2
 ##.banner-cctv-Topping
 ##.bannerliststyle[style^="min-height"]
+##.bdads
 ##.bdyp-sygg-ul
 ##.below_ads
 ##.bg_ad
@@ -831,6 +835,7 @@
 ##.comiis_adbox
 ##.comiis_guanggao
 ##.comiis_guanggao_tit
+##.commentads
 ##.common-topad
 ##.common_ad
 ##.con_search + #carousel-example-generic[style^="max-width: 1170px;"]
@@ -892,6 +897,7 @@
 ##.floatAd
 ##.float_bot_right
 ##.fnwehjnc12
+##.footads
 ##.footer-ad
 ##.frAd
 ##.frontpageAdvM
@@ -1374,6 +1380,7 @@
 ##[class^="ad none"]
 ##[class^="appdownload_ad"]
 ##[class^="banner-grid-item"] > a[target="_blank"][rel="nofollow"][href][style="height:80px"]
+##[class^="bdads"]
 ##[class^="bfad"]
 ##[class^="chapter_"] > .baiduCenter
 ##[class^="naicon btn btn-raised"]
@@ -1945,6 +1952,7 @@
 ##a[href][target="_blank"] > img[src="https://vip2.loli.io"]
 ##a[href][target="_blank"] > img[src][class="topline"]
 ##a[href][target="_blank"] > img[src^="images/gg/"][alt]
+##a[href][target="_blank"][onclick*="广告"]
 ##a[href][target="_blank"][onclick*="横幅"][onclick*="'value': 500"]
 ##a[href][target="_blank"][onclick*="点击"][onclick*="'value': 500"]
 ##a[href][target="_blank"][rel="external nofollow"] > img[src]
@@ -2230,6 +2238,7 @@
 ##img[src*="ads.bullionyield.com"]
 ##img[src*="https://p.qlogo.cn/qqmail_head"]
 ##img[src^="/uploads/aidou/adlist/"]
+##img[src^="https://pic.lsddkd.com:"]
 ##img[src^="https://static.missav"][data-src^="https://static.missav"][alt][class="lozad"][data-loaded="true"]
 ##img[src^="https://vip2.loli.io"]
 ##img[src^="https://www.static04.top/data/images/"][src$=".gif"]
@@ -4943,6 +4952,7 @@ bing.com##.pa_carousel_mlo
 bing.com##.pa_sb
 bing.com##.productAd
 bing.com##.ra_car_block
+bing.com##.tile_grp
 bing.com##DIV#bnp_container
 bing.com##[id$="adsMvCarousel"]
 bing.com##a[h$=",Ads"]
@@ -9757,6 +9767,7 @@ maguays.cc##.animate-bounce-up
 mahua.com##.hidden_ab
 maiche.com##a.some-img
 maidi.me###diy15
+maigoo.com##[class*="ads"]
 mail.126.com,mail.163.com##.gWel-bottom
 mail.126.com,mail.163.com##div[id$="_AdDiv"]
 mail.126.com,mail.163.com##div[id$="_BannerDiv"]
@@ -10135,6 +10146,8 @@ msn.cn##div[class^="nativeAd-DS-card"]
 msn.com###displayAdCard
 msn.com###taboola-above-homepage-thumbnails
 msn.com##div[data--adqjyluqt]
+msn.com,msn.cn##[class^="nativeAd-"]
+msn.com,msn.cn##[data-t*="NativeAd"]
 mtrend.cn###morecontent > .morecontent_next[style]
 mtrend.cn###topictabs1
 mtrend.cn###toptabs1 > .kz_line
@@ -13317,6 +13330,7 @@ wurst-client.tk#@#.adsbygoogle
 wuyong.fun##.content-area .adsbygoogle
 wuyong.fun##.riplus_ads_wrap
 wuyong.fun#?#.sidebar-innter > section[id^="b2-widget-html-"]:has(.adsbygoogle)
+wuzhuiso.com###appMiddleBanner
 wuzhuiso.com##.download-app
 www.123pan.com##DIV.VipBanner,DIV[style='width:100%;position:fixed;bottom:80px'],DIV[style='width: 100%; position: fixed; bottom: 25px;']
 www.163.com##.float-bar
