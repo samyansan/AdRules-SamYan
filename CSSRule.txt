@@ -2040,8 +2040,11 @@
 ##bkveng
 ##body .has-ad
 ##body > A[ontouchstart='this.click();'][href]
+##body > DIV[class][style='top: 132px;']
 ##body > DIV[class][style='top: 133px;']
 ##body > DIV[class][style^='bottom: '][style$='vw; display: block;']
+##body > DIV[style*='height: 33px'][style*='132px !important;']
+##body > DIV[style='display: block; width: 100%; height: 132px;']
 ##body > DIV[style='display: block; width: 100%; height: 133px;']
 ##body > [id][style*='width:100%'][style*='min-height:120px']
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
