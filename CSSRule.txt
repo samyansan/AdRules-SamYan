@@ -1469,6 +1469,7 @@
 ##[onclick="window.open('https://docs.qq.com/doc/DZGtmWUxpamJGTnNY');"]
 ##[onclick="window.open(this.url)"][src]
 ##[onclick='gourl()'][src^='/images/bfq/']
+##[onclick^="playAd"]
 ##[onclick^="window.location.href"][onclick*=".biqu"]
 ##[onclick^="window.location.href='https://apps.apple.com/cn/app/%E9%80%9F%E9%98%85%E5%B0%8F%E8%AF%B4"]
 ##[poster^='https://dingbu.bj.bcebos.com/']
@@ -4828,7 +4829,6 @@ bdimg.com,tieba.baidu.com,tieba.com,wapp.baidu.com###pblist > li[class]:not(.j_p
 bdinfo.net###header_AD
 bdmbase.ru##html > .q1
 bdp.cn#@#.adv-list
-bdys03.com##+js(nano-setInterval-booster, _0x, , 0.02)
 beanfun.com#@#.ad-slider
 beauty321.com##.pc_ads
 beeg.com,oral-amateure.com,upornia.com,hotmovs.com,voyeurhit.com,hdzog.com#$#abort-on-property-write ads_priv
@@ -6610,6 +6610,7 @@ eol.cn##.listAd
 eol.cn##div[id^="s1_"]
 eol.cn,firefoxchina.cn,site.baidu.com##.popup
 eoof.net##.tableborder1[cellspacing="1"][cellpadding="3"]
+eoof.net##.tableborder1[cellspacing="1"][e.sogou.com^
 epinv.com##.epinv_b
 epinv.com##.epinv_f
 epinv.com##A[href="http://www.epinv.com/post/10450.html"]
@@ -6704,7 +6705,6 @@ expreview.com##.crossBa
 expreview.com##.mamaBox
 extmovie.com##.cd_listtop_pc
 extreme-down.in,extreme-down.link,extreme-down.live,extreme-down.ninja,extreme-down.one,extreme-down.pro,extreme-down.top,extreme-down.tv,extreme-down.work,extreme-down.xyz,extreme-download.im,extreme-download.ninja,extreme-down.video,extreme-download.xyz,voiranime.com#$#abort-on-property-read NativeAd
-extremetube.com,pornhub.com,redtube.com,redtube.com.br,tube8.com,tube8.es,tube8.fr,youporn.com,youporngay.com,youpornru.com#$#abort-cs__item"]:-abp-contains(/Sponsorisé|Sponsorizzato|Gesponsert|スポンサー|Promotie|Sponsorowany|Patrocinado/)
 extremetube.com,pornhub.com,redtube.com,redtube.com.br,tube8.com,tube8.es,tube8.fr,youporn.com,youporngay.com,youpornru.com#$#abort-current-inline-script Object.defineProperty trafficjunky
 eyny.com##span[id^="ads_ads_"]
 eyuyan.com##div[id^="ads_r_"]
@@ -8086,6 +8086,10 @@ idanmu.ee##aside > div[class="widget "]
 idanmu.ee##div[class^="g "]
 ideya-biznesa.ru##.admania_adblock_detector
 idiva.com#?#div:-abp-has(> h2:-abp-contains(More From Web))
+idmzj.com##.Introduct > div > div > div
+idmzj.com##.bottomDown
+idmzj.com##[class$="close"][href="javascript:;"]
+idmzj.com#@#[onclick*="app"]
 idnes.cz###foto-reklama
 idnes.cz,expres.cz##a[href*="/supertag=InstreamVideo/"]
 idnes.cz,expres.cz##a[href*=";cdata="]
@@ -12870,6 +12874,7 @@ unwire.hk###post-sidebar-ad
 uotan.cn###fuck-ads
 up.woozooo.com##.ves
 up01.cc###popad
+up01.cc##div[style="position:fixed;width:468cellpadding="3"]
 up01.cc##div[style="position:fixed;width:468px;left: 50%;transform:translate(-50%,0);height:60px;background:#fff;bottom:0px;text-align:center;z-index:9"]
 upload.ee,ianimes.co,ianimes.top#$#abort-on-property-read adcashMacros
 upmedia.mg###divider_ad

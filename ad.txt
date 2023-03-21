@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-03-21 14:14:15
-! Total count: 135926
+! Version: 2023-03-21 20:20:52
+! Total count: 135915
 
 ###AdBlockDialog
 ###Ad_windows
@@ -1477,6 +1477,7 @@
 ##[onclick="window.open('https://docs.qq.com/doc/DZGtmWUxpamJGTnNY');"]
 ##[onclick="window.open(this.url)"][src]
 ##[onclick='gourl()'][src^='/images/bfq/']
+##[onclick^="playAd"]
 ##[onclick^="window.location.href"][onclick*=".biqu"]
 ##[onclick^="window.location.href='https://apps.apple.com/cn/app/%E9%80%9F%E9%98%85%E5%B0%8F%E8%AF%B4"]
 ##[poster^='https://dingbu.bj.bcebos.com/']
@@ -3426,7 +3427,6 @@ $websocket,domain=5nj.com|cechi8.com
 /dibu.adadadad
 /dibun5nodnbmp.js
 /disable-adblock.
-/dist/common.js
 /dm78ad/*
 /dngz.net\/g\d+.js/$domain=dngz.net
 /dongaogg/*
@@ -3581,7 +3581,6 @@ $websocket,domain=5nj.com|cechi8.com
 /index.php?m=book/ad&
 /indexpc.html?agent=$popup,third-party
 /iscar.svc/getadvert?
-/j/142610
 /javhd-jp-970x170.jpg
 /jdzjgg/*
 /jfjs/ad.js
@@ -3613,7 +3612,6 @@ $websocket,domain=5nj.com|cechi8.com
 /js/an-scripts.js$script
 /js/an-scripts.min.js$script
 /js/axdd.js
-/js/basisc.js
 /js/bdgg/*
 /js/bocaiadv.
 /js/bpolknm.js
@@ -3630,7 +3628,6 @@ $websocket,domain=5nj.com|cechi8.com
 /js/cpv_fm_
 /js/customscript.js^$domain=pornwhite.com
 /js/db.js$script,third-party
-/js/detail.js
 /js/dj1ll*.js
 /js/dj2ll*.js
 /js/dyguosj/*
@@ -6425,7 +6422,6 @@ bdimg.com,tieba.baidu.com,tieba.com,wapp.baidu.com###pblist > li[class]:not(.j_p
 bdinfo.net###header_AD
 bdmbase.ru##html > .q1
 bdp.cn#@#.adv-list
-bdys03.com##+js(nano-setInterval-booster, _0x, , 0.02)
 beanfun.com#@#.ad-slider
 beauty321.com##.pc_ads
 beeg.com,oral-amateure.com,upornia.com,hotmovs.com,voyeurhit.com,hdzog.com#$#abort-on-property-write ads_priv
@@ -8223,6 +8219,7 @@ eol.cn##.listAd
 eol.cn##div[id^="s1_"]
 eol.cn,firefoxchina.cn,site.baidu.com##.popup
 eoof.net##.tableborder1[cellspacing="1"][cellpadding="3"]
+eoof.net##.tableborder1[cellspacing="1"][e.sogou.com^
 epinv.com##.epinv_b
 epinv.com##.epinv_f
 epinv.com##A[href="http://www.epinv.com/post/10450.html"]
@@ -8317,7 +8314,6 @@ expreview.com##.crossBa
 expreview.com##.mamaBox
 extmovie.com##.cd_listtop_pc
 extreme-down.in,extreme-down.link,extreme-down.live,extreme-down.ninja,extreme-down.one,extreme-down.pro,extreme-down.top,extreme-down.tv,extreme-down.work,extreme-down.xyz,extreme-download.im,extreme-download.ninja,extreme-down.video,extreme-download.xyz,voiranime.com#$#abort-on-property-read NativeAd
-extremetube.com,pornhub.com,redtube.com,redtube.com.br,tube8.com,tube8.es,tube8.fr,youporn.com,youporngay.com,youpornru.com#$#abort-cs__item"]:-abp-contains(/Sponsorisé|Sponsorizzato|Gesponsert|スポンサー|Promotie|Sponsorowany|Patrocinado/)
 extremetube.com,pornhub.com,redtube.com,redtube.com.br,tube8.com,tube8.es,tube8.fr,youporn.com,youporngay.com,youpornru.com#$#abort-current-inline-script Object.defineProperty trafficjunky
 eyny.com##span[id^="ads_ads_"]
 eyuyan.com##div[id^="ads_r_"]
@@ -9705,6 +9701,10 @@ idanmu.ee##aside > div[class="widget "]
 idanmu.ee##div[class^="g "]
 ideya-biznesa.ru##.admania_adblock_detector
 idiva.com#?#div:-abp-has(> h2:-abp-contains(More From Web))
+idmzj.com##.Introduct > div > div > div
+idmzj.com##.bottomDown
+idmzj.com##[class$="close"][href="javascript:;"]
+idmzj.com#@#[onclick*="app"]
 idnes.cz###foto-reklama
 idnes.cz,expres.cz##a[href*="/supertag=InstreamVideo/"]
 idnes.cz,expres.cz##a[href*=";cdata="]
@@ -14529,6 +14529,7 @@ unwire.hk###post-sidebar-ad
 uotan.cn###fuck-ads
 up.woozooo.com##.ves
 up01.cc###popad
+up01.cc##div[style="position:fixed;width:468cellpadding="3"]
 up01.cc##div[style="position:fixed;width:468px;left: 50%;transform:translate(-50%,0);height:60px;background:#fff;bottom:0px;text-align:center;z-index:9"]
 upload.ee,ianimes.co,ianimes.top#$#abort-on-property-read adcashMacros
 upmedia.mg###divider_ad
@@ -17298,7 +17299,6 @@ zzzyk.com###Tinfo
 ||2021.dxsbb.com^
 ||2021.mge.cl^
 ||2021new.lietuzhe.com^
-||2022.hizetnet.xyz^
 ||2022aaa.xyz^
 ||2022facaiabc9.xyz^
 ||2022fada1028.xyz^
@@ -22174,7 +22174,6 @@ zzzyk.com###Tinfo
 ||abeacon.com^
 ||abedbudgetserenity.com^
 ||abedwest.com^
-||abee.yeeowl.xyz^
 ||abeehing.net^
 ||abeets.ru^
 ||abema-adx.ameba.jp^
@@ -27936,6 +27935,7 @@ zzzyk.com###Tinfo
 ||adzerk.com^
 ||adzerk.net^
 ||adzerk.s3.amazonaws.com^
+||adzfree-watch.net^
 ||adzfun.info^
 ||adzfun.me^
 ||adzhub.com^
@@ -37083,7 +37083,6 @@ zzzyk.com###Tinfo
 ||best-top.de^
 ||best-top.ro^
 ||best-vpn.click^
-||best.gobiga.xyz^
 ||best.prizedeal0919.info^
 ||best.s5live.com^
 ||best2017games.com^
@@ -38052,7 +38051,6 @@ zzzyk.com###Tinfo
 ||blackbass.mx^
 ||blackbird.docstation.co^
 ||blackbird.everythinginmoderation.co^
-||blackbird.marcelgil.com^
 ||blackbird.stickerclub.org^
 ||blackbrake.com^
 ||blackcurrantspent.com^
@@ -38565,7 +38563,6 @@ zzzyk.com###Tinfo
 ||boatobservefreshman.com^
 ||boayipids.com^
 ||bob-recs.com^
-||bob.bezucai.com^
 ||bob.gitclear.com^
 ||bob4885.com^
 ||bob4915.com^
@@ -57668,7 +57665,6 @@ zzzyk.com###Tinfo
 ||exaltationinsufficientintentional.com^
 ||examswrath.com^
 ||examtestbanksolution.com^
-||exandtokes.top^
 ||exapi-apac.rubiconproject.com^
 ||exapi-eu.rubiconproject.com^
 ||exapi-us-east.rubiconproject.com^
@@ -57839,6 +57835,7 @@ zzzyk.com###Tinfo
 ||experteerads.com^
 ||expertland.net^
 ||expertnifg.com^
+||expertrader.me^
 ||experts.cutter.com^
 ||expertspanel.in^
 ||expertvaz.ru/wp-content/plugins/helper/inc/jquery.mobileInterestial
@@ -59836,6 +59833,7 @@ zzzyk.com###Tinfo
 ||fldoai.municipal.com^
 ||flea.artisan.school^
 ||flea.elbertsnaturalfoods.com^
+||fleecejacketsshop.com^
 ||fleenaive.com^
 ||fleet-eml.postmates.com^
 ||fleettechcomputers.com^
@@ -65427,7 +65425,6 @@ zzzyk.com###Tinfo
 ||hamyar-parsi.ir^
 ||hanaa.cn^
 ||hanaana.socialblade.com^
-||hanamorastore.com^
 ||hananokai.tv^
 ||hanastudio.vn^
 ||handanxinkai.com^
@@ -66950,7 +66947,6 @@ zzzyk.com###Tinfo
 ||hjc1990.com^
 ||hjcbehchdddcegcfaaei.ru^
 ||hjfile.cn/analytics/site/TrackEvent.js
-||hjfile.cn/analytics/site/TrackEvent.jsp/js/gg/*
 ||hjfile.cn/lib/hui/footer/0.1.0/footer.js
 ||hjfile.cn/lib/uzhi/uzt.
 ||hjfile.cn/site/hj-lzs/
@@ -68127,7 +68123,6 @@ zzzyk.com###Tinfo
 ||huayiav.cn^
 ||huayiyuan.hk^
 ||huazitupian.oss-cn-hongkong.aliyuncs.com^
-||hub.bazboy.club^
 ||hub.com.pl^
 ||hub.fghtem.com^
 ||hub.firestonecompleteautocare.com^
@@ -68551,6 +68546,7 @@ zzzyk.com###Tinfo
 ||hyjdz.cn^
 ||hyjss.tkshyp.com^
 ||hyjxtz.com^
+||hyk9.xyz^
 ||hykerewasn.xyz^
 ||hykrrersrl.com^
 ||hylmfeifei.com^
@@ -69542,7 +69538,6 @@ zzzyk.com###Tinfo
 ||ijaabm.telemundo.com^
 ||ijaabm.telemundodeportes.com^
 ||ijacgw.com^
-||ijderu.tr.af^
 ||ijdl.hbyongwan.cn^
 ||ijeu.pdkzyy.cn^
 ||ijfcm7bu6ocerxsfq56ka3dtdanunyp4ytwk745b54agtravj2wr2qqd.onion.pet^
@@ -76851,6 +76846,7 @@ zzzyk.com###Tinfo
 ||laifupal.com^
 ||lailer.cn^
 ||laim.tv^
+||laimroll.ru^
 ||lainaumi.com^
 ||lainmpatoio.xyz^
 ||laiququan.com^
@@ -77824,6 +77820,7 @@ zzzyk.com###Tinfo
 ||levelpay.ru^
 ||levelsteelwhite.com^
 ||levemyiasis.tech^
+||leverage-btc.com^
 ||leveragetypicalreflections.com^
 ||leveryone.club^
 ||levexis.com^
@@ -91813,6 +91810,7 @@ zzzyk.com###Tinfo
 ||onlinefitnessboost.com^
 ||onlineflashlight.org^
 ||onlineformfinder.com^
+||onlinehome.us^
 ||onlinekey.biz^
 ||onlinelaudos.com.br^
 ||onlinepbx.ru^
@@ -94416,7 +94414,6 @@ zzzyk.com###Tinfo
 ||people.com.cn/rmrb/tplimg/new.js
 ||people.mbtionline.com^
 ||peoplefinders.fr^
-||pep.s2online.xyz^
 ||pep929.mom^
 ||pepebalance.com^
 ||pepepush.net^
@@ -98182,7 +98179,6 @@ zzzyk.com###Tinfo
 ||pubfruitlesswording.com^
 ||pubfuture.com^
 ||pubfuture.com^$third-party
-||pubg.remiitano.xyz^
 ||pubgears.com^
 ||pubgenius.io^
 ||pubghio.fun^
@@ -102192,6 +102188,7 @@ zzzyk.com###Tinfo
 ||rhiospsea.one^
 ||rhkyufodw8ochdr3ogsite.com^
 ||rhlxm.top^
+||rhm-fxtrading.online^
 ||rhoeomanid.space^
 ||rholi.ru^
 ||rhombicsomeday.com^
@@ -104951,7 +104948,6 @@ zzzyk.com###Tinfo
 ||saouknatst.com^
 ||sapdealtsalary.com^
 ||sape.ru^
-||sape.veriplan.xyz^
 ||sapgodep.com^
 ||sapha.com^
 ||sapiaostremma.com^
@@ -110873,7 +110869,6 @@ zzzyk.com###Tinfo
 ||space-x2022.com^
 ||space-x2023.net^
 ||space-x22.org^
-||space.facebiz.xyz^
 ||space2022x.com^
 ||space2023x.com^
 ||space2023x.online^
@@ -111489,7 +111484,6 @@ zzzyk.com###Tinfo
 ||sroork.mrmarvis.nl^
 ||srpimpex.in^
 ||srpx.net^
-||srs.targetpokanalytics.com^
 ||srsihavelearn.xyz^
 ||srsorvete.com.br^
 ||srtb.msn.com^
@@ -114382,6 +114376,7 @@ zzzyk.com###Tinfo
 ||suppressparticular.com^
 ||suprama.online^
 ||supranarchy.com^
+||supreme-adblocker.net^
 ||supreme-hunter.com^
 ||supremeadblocker.info^
 ||suprimax.vet.br^
@@ -115006,8 +115001,6 @@ zzzyk.com###Tinfo
 ||syndication.realsrv.com^
 ||syndication.trafficreps.com^
 ||syndication.twitter.com^
-||syndication.whibd.com^
-||syndication.whibp.com^
 ||syndicpop.com^
 ||syndid.com^
 ||syndiesserged.xyz^
@@ -115127,7 +115120,6 @@ zzzyk.com###Tinfo
 ||szimh.com^
 ||szipkp.com^
 ||szisyin.com^
-||szj.boombay.xyz^
 ||szjianxin.net^
 ||szjjzs.com/js/cs*.js
 ||szjjzs.com/js/d*.js
@@ -118642,7 +118634,6 @@ zzzyk.com###Tinfo
 ||toluenemoody.guru^
 ||tolyafbnjt9dedjj10.com^
 ||tom*.com/js/advment.js
-||tom.beclin.xyz^
 ||tom.com/*TomFlashAd
 ||tom.com/adsender/
 ||tomadamsenergy.com^
@@ -122146,7 +122137,6 @@ zzzyk.com###Tinfo
 ||turbanmadman.com^
 ||turbo-cdn.net^
 ||turbo.adsbynimbus.com^
-||turbo.binande.xyz^
 ||turbo2sdk-push.oupeng.com^
 ||turboads.de^
 ||turboadv.com^
@@ -125368,7 +125358,6 @@ zzzyk.com###Tinfo
 ||video.flashiest-vacation.win^
 ||video.inskinad.com^
 ||video.itxueyuan.com/1672473525178992.mp4
-||video.jokanime.online^
 ||video.market-place.su^
 ||video.market.xiaomi.com^
 ||video.new-eve.com^
@@ -126578,7 +126567,6 @@ zzzyk.com###Tinfo
 ||w3.w3docsdropapi.application-legacying.net.zooplus.de^
 ||w3.yinyuehu.cn^
 ||w3.zooplusmail-aws.payzooplusmail-aws.zooplusmail-aws.net.zoossl.net.zooplus.es^
-||w33.hikanalytics.com^
 ||w38ju82bano4.cv.gerardbosch.xyz^
 ||w3administratormail.nettesting.zooplusmail-nettesting.net.zoossl.net.zooplus.es^
 ||w3c.5txs.com^
@@ -129705,6 +129693,7 @@ zzzyk.com###Tinfo
 ||www.bjhdrx.com^
 ||www.bjjabc.com^
 ||www.bl2030.com^
+||www.bliss91.com^
 ||www.blocwhite7.com^
 ||www.blogtoplist.se^
 ||www.blossomtel.com^
