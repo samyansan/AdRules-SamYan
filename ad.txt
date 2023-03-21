@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-03-21 20:20:52
-! Total count: 135915
+! Version: 2023-03-22 02:13:43
+! Total count: 135941
 
 ###AdBlockDialog
 ###Ad_windows
@@ -4520,6 +4520,10 @@ $websocket,domain=5nj.com|cechi8.com
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#?#:-abp-has(>script+ins)
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#@?#:-abp-has(>script[src*=".realsrv.com"])
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[class^="bot-"]
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##a[target="_blank"] > img[alt][src$=".gif"]
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jmcomic1.group##[class$="_b"]
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jmcomic1.group##a[target="_self"] > img[alt][src]
 18comic.vip##.bot-per-context
 18comic.vip##DIV.bot-per-times
 18comic.vip##DIV.col-lg-3.col-md-3
@@ -5543,6 +5547,7 @@ _300x250.
 _468.gif
 _728_90.
 _728_90_
+_728x90_
 _ad.php?
 _ad01.
 _ad1.$~stylesheet
@@ -21980,6 +21985,7 @@ zzzyk.com###Tinfo
 ||aamt.today.com^
 ||aan.amazon.com^
 ||aanalytics.adelaide.edu.au^
+||aanetwork.vn^
 ||aanqylta.com^
 ||aanvtlmx.page.link^
 ||aaotpokaquathii.com^
@@ -25586,6 +25592,7 @@ zzzyk.com###Tinfo
 ||ads-router-noneu.truecaller.com^
 ||ads-sdk-cn.upltv.com^
 ||ads-sdk.upltv.com^
+||ads-server.mxplay.com^
 ||ads-sg.tiktok.com^
 ||ads-stats.com^
 ||ads-t.ru^
@@ -37408,6 +37415,7 @@ zzzyk.com###Tinfo
 ||bhcumsc.com^
 ||bhcwr.cn^
 ||bhduan.xyz^
+||bhhkmzn.cn^
 ||bhhpo9xbgry3.www.cybernetman.com^
 ||bhi.co.id^
 ||bhicxb.cn^
@@ -46054,6 +46062,7 @@ zzzyk.com###Tinfo
 ||convertsial.com^
 ||convertsocial.com^
 ||convertwordtoexcel.com^
+||conveysvelure.life^
 ||conviva.com^
 ||convlatbmp.taboola.com^
 ||convnjmp.taboola.com^
@@ -46945,6 +46954,7 @@ zzzyk.com###Tinfo
 ||crane.thegardenroomguide.co.uk^
 ||crane.trescolori.cloud^
 ||crankyderangeabound.com^
+||crantscopart.com^
 ||cranyundue.com^
 ||crapka.ru^
 ||crarealtors.com^
@@ -50541,6 +50551,7 @@ zzzyk.com###Tinfo
 ||demo1.lerian-nti.be^
 ||democracyendlesslyzoo.com^
 ||democracyherebyinapptitudeinapptitude.com^
+||democracysuperintend.com^
 ||democraticnews.in^
 ||democratplayful.com^
 ||democrattransportationirrational.com^
@@ -58428,6 +58439,7 @@ zzzyk.com###Tinfo
 ||famousletterss.online^
 ||famousquarter.com^
 ||famousremainedshaft.com^
+||fampfage.com^
 ||famre.cyou^
 ||famvir.1.p2l.info^
 ||famwillems.nl^
@@ -60779,6 +60791,7 @@ zzzyk.com###Tinfo
 ||friendlybcs.pro^
 ||friendlybulb.com^
 ||friendlyduck.com^
+||friendlyfold.com^
 ||friends.totallynsfw.com^
 ||friends2follow.com^
 ||friendshipmale.com^
@@ -61847,6 +61860,7 @@ zzzyk.com###Tinfo
 ||gaspra.iad-03.braze.com^
 ||gass.top^
 ||gastdn.wolfandbadger.com^
+||gastingitea.com^
 ||gastrointestinal.1.p2l.info^
 ||gastronomiartistica.com^
 ||gastrors.com^
@@ -75186,6 +75200,7 @@ zzzyk.com###Tinfo
 ||kelyphafe.com^
 ||kembuck.homes^
 ||kemilaumarmer.com^
+||kempitepterin.com^
 ||ken.kenxq.com^
 ||ken9.lol^
 ||kena9.mom^
@@ -82473,6 +82488,7 @@ zzzyk.com###Tinfo
 ||marathondulacduder.fr^
 ||marathongenerositypremiere.com^
 ||marazma.com^
+||marbct.xyz^
 ||marbil24.co.za^
 ||marblecaution.com^
 ||marboconinc.com^
@@ -85757,6 +85773,7 @@ zzzyk.com###Tinfo
 ||mn.mn.co.cu^
 ||mn123cass.xyz^
 ||mn1nm.com^
+||mn230126pb.com^
 ||mn586.com^
 ||mnbfs.xyz^
 ||mnbootcamp.com^
@@ -87406,6 +87423,7 @@ zzzyk.com###Tinfo
 ||mx6.3pornhere.com^
 ||mx98.xyz^
 ||mxapis.com^
+||mxaserver.mxplay.com^
 ||mxauevhape.xyz^
 ||mxc87.org^
 ||mxcdjcbssmdok.com^
@@ -96763,6 +96781,7 @@ zzzyk.com###Tinfo
 ||pourbaiser.com^
 ||pourcentfilers.com^
 ||pourdear.com^
+||pourersdammer.guru^
 ||pourmajeurs.com^
 ||pousadaportaldasestrelas.com.br^
 ||poushanak.com^
@@ -97139,6 +97158,7 @@ zzzyk.com###Tinfo
 ||prettyvirgin.com/images/banners/
 ||prettyvirgin.com/js/show.html
 ||prevacid.1.p2l.info^
+||prevailinsolence.com^
 ||preventedcaptivate.com^
 ||preventionbitten.com^
 ||preverhse.com.ar^
@@ -99660,6 +99680,7 @@ zzzyk.com###Tinfo
 ||qqbook.ru^
 ||qqc.co/Webservices/jsParseLinks.aspx$script,third-party
 ||qqc.co/visitScript/$script,third-party
+||qqcdnpictest.mxplay.com^
 ||qqcf.com/js/Content_Get.js
 ||qqdata.ab.qq.com^
 ||qqddc.com/homeSite/news/js/newsad.js
@@ -100424,6 +100445,7 @@ zzzyk.com###Tinfo
 ||rainyhand.com^
 ||rainyrule.com^
 ||rainystretch.com^
+||raiphoos.com^
 ||raisedmanatee.com^
 ||raisentotic.uno^
 ||rajabets.xyz^
@@ -100627,6 +100649,7 @@ zzzyk.com###Tinfo
 ||rawjeansadvertising.com^
 ||rawmealsusa.com^
 ||rawoarsy.com^
+||raxfracid.com^
 ||rayat.pk^
 ||rayjump.com/openapi/ad/
 ||rayjump.com^
@@ -122080,6 +122103,7 @@ zzzyk.com###Tinfo
 ||tuitionpancake.com^
 ||tuituigui19999.com^
 ||tuituiyoo999.com^
+||tujajnatzbmo.com^
 ||tujidao.com^
 ||tujina.cl^
 ||tujourda.net^
@@ -128957,6 +128981,7 @@ zzzyk.com###Tinfo
 ||wordc.ga^
 ||wordego.com^
 ||worden.samenresultaat.nl^
+||wordierkonak.com^
 ||wordisgod.cn^
 ||wordkeyhelper.com^
 ||wordlockdown.com^
@@ -129212,6 +129237,7 @@ zzzyk.com###Tinfo
 ||writewealth.com^
 ||writingservicess.com^
 ||writingwhine.com^
+||writshackman.com^
 ||writsteespas.com^
 ||writtenanonymousgum.com^
 ||writtenlistened.com^

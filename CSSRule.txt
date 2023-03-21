@@ -3098,6 +3098,10 @@
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#?#:-abp-has(>script+ins)
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#@?#:-abp-has(>script[src*=".realsrv.com"])
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[class^="bot-"]
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##a[target="_blank"] > img[alt][src$=".gif"]
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jmcomic1.group##[class$="_b"]
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jmcomic1.group##a[target="_self"] > img[alt][src]
 18comic.vip##.bot-per-context
 18comic.vip##DIV.bot-per-times
 18comic.vip##DIV.col-lg-3.col-md-3
