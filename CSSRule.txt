@@ -1387,6 +1387,7 @@
 ##[class^="bdads"]
 ##[class^="bfad"]
 ##[class^="chapter_"] > .baiduCenter
+##[class^="col"][class*="padding-0"] > [style]
 ##[class^="naicon btn btn-raised"]
 ##[class^="player-advertising"]
 ##[class^="stsxxgtv_"]
@@ -2159,6 +2160,7 @@
 ##div[id^="em"] > a[onclick^="em"][max-width]
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[id^="rfads"]
+##div[id^="test"][style*="fixed"][style*="position:"]
 ##div[onclick*=".8tse9.com"]
 ##div[onclick*=".lyty49.com"]
 ##div[onclick*=".open"][onclick*="leyu"]
@@ -3102,13 +3104,13 @@
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#?#:-abp-has(>script+ins)
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#@?#:-abp-has(>script[src*=".realsrv.com"])
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##DIV.col-lg-3.col-md-3
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[class^="bot-"]
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='photo_center_']
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##a[target="_blank"] > img[alt][src$=".gif"]
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jmcomic1.group##[class$="_b"]
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jmcomic1.group##a[target="_self"] > img[alt][src]
-18comic.vip##.bot-per-context
-18comic.vip##DIV.bot-per-times
-18comic.vip##DIV.col-lg-3.col-md-3
 18comic.vip##div[data-group^="skyscraper_"]
 18comic.vip#?#.thumb-overlay-albums > div[class][data-group^="photo_center_games_"]:has(> a[target="_blank"] > img)
 18comic.vip,18comic.org##div[data-height="250"][data-width="300"]
@@ -3266,6 +3268,7 @@
 24k99.com##.jy_24k99_suspended_ad
 24k99.com,fx168.com##.ny2018_txtLink
 24k99.com,fx168.com##.yy_guangao
+24k99.fastadmin.net##body > a[target="_blank"]
 24kplus.com###custom_html-3
 24smi.org#$#abort-on-property-write document.cookie; cookie-remover /^/
 24tv.ua##.b_reklama
@@ -3836,6 +3839,7 @@
 77mh.cc###bdcotopnew
 7808.cn###float-chat
 7808.cn###force-popup
+789ys.com##div[style*="important"]
 789ys.com,domp4.cc##h1[style]
 789ys.com,fffdm.com##ul[style]
 78dm.net###qpgg
@@ -4822,7 +4826,6 @@ bcbay.com##table[id] + table[style="margin:3px auto;"]
 bcbay.com,creaders.net##.syzx
 bccn.net##div[style*="height:90"]
 bccn.net##img[src*="data:"]
-bccn.net,dmh8.me##img[src*="data:"]
 bcquan.me##.bcqad
 bd-sanctuary.com,cine-sanctuary.com,comics-sanctuary.com,manga-sanctuary.com##div[style^="background:#444;"]
 bd2020.co###fmtdiv
@@ -6126,13 +6129,13 @@ dm5.com,dm5.hk##.cl970
 dm5.com,dm5.hk##a[href*=".wannaplay.cn"]
 dm530p.net##DIV[style$='; display: block;']
 dm590.com##.external
-dmh8.me##.padding-0 > ul[style]
-dmh8.me##div[id^="test"]
-dmh8.me##div[style="width:300px;height:300px;position:fixed;bottom:0;left:0;z-index:2147483647;"]
-dmh8.me##h1
+dmh8.me,dm88.me##.padding-0 > ul[style]
 dmh8.me,dm88.me##DIV[style='display: flex;']
 dmh8.me,dm88.me##DIV[style^='background: url("http']
 dmh8.me,dm88.me##H2[style='display: block;']
+dmh8.me,dm88.me##div[id^="test"]
+dmh8.me,dm88.me##div[style^="width:300px;height:300px;position:fixed;bottom:0;left:0;z-index:2147483647;"]
+dmh8.me,dm88.me,bccn.net##img[src*="data:"]
 dmhy.anoneko.com##div[id$="_adv"]
 dmhy.b168.net##div[align="center"] > a[href^="https://www.baidu.com/?mm_sycmid="] > img
 dmhy.b168.net##div[align="center"] > a[onclick*="'ad'"] > img
@@ -8371,12 +8374,14 @@ inmywordz.com,ants.tw##.acca-block
 instacart.com##a[href*="category_hero_id_"]
 instacart.com##div[data-testid="ads-promoted-aisle"]
 instacart.com##div[data-testid="storefront-category-hero-banner"]
+instacart.com#$#hide-if-matches-xpath './/a[contains(@href,"interaction_id=")]/ancestor::div[contains(@class,"ShoppppableList")]/parent::div'
 instacart.com#$#hide-if-matches-xpath './/div[2][starts-with(@class,"css")]//span[text()="Sponsored"]/ancestor::div[2][starts-with(@class,"css")]'
-instacart.com#$#hide-if-matches-xpath './/div[@data-sp-eligible]/span/ancestor::div[contains(@class,"ItemCardHoverProvider")]'
-instacart.com#$#hide-if-matches-xpath './/div[contains(@class,"ItemsList")]/ancestor::div[contains(@class,"ShoppablePlacement")]'
+instacart.com#$#hide-if-matches-xpath './/div[@class][@aria-hidden="true"]/span/preceding::a[contains(@href,"interaction_id=")]/parent::div/ancestor::div[@id]'
+instacart.com#$#hide-if-matches-xpath './/div[@data-ssp-eligible]/span/ancestor::div[contains(@class,"ItemCardHoverProvider")]'
 instacart.com#$#hide-if-matches-xpath './/div[contains(@class,"SearchResultsEngagementTracker") or contains(@class,"ItemCardHoverProvider")]/div[concat(normalize-space(.//div[1][contains(@style,"display: inline-block;")]/text()),normalize-space(.//div[2][contains(@style,"display: inline-block;")]/text()))="Sponsored"]/ancestor::div[contains(@class,"SearchResultsEngagementTracker") or contains(@class,"ItemCardHoverProvider")]'
 instacart.com#$#hide-if-matches-xpath './/div[contains(@class,"ShoppableList")]//span[text()="Sponsored"]/ancestor::div[contains(@class,"ShoppableList")]'
 instacart.com#$#hide-if-matches-xpath './/picture/following::div[@aria-hidden="true"][text()="Sponsored"]/parent::div[@id]/ancestor::div[@class][1]'
+instacart.com#$#hide-if-matches-xpath './/span[contains(@class,"AddItemButtonExpandingAdd")]/preceding::section[contains(@class,"ListHeaderDisclaimer")]/ancestor::div[contains(@class,"SearchLazyLoader")][1]'
 instantmanga.com###notice
 instrument.com.cn###leftFlash
 instrument.com.cn,tool.lu##.swiper-container
@@ -8913,6 +8918,8 @@ jitashe.org##.bc_side_250
 jitashe.org,mumujita.com##a[href*=".makeding.com/"]
 jiumodiary.com###forum-panel
 jiuse390.xyz##.container-fluid.p-0[class*="mb-"]
+jiuse710.com###main > div[class]:not([class*="block"]):not([class*="container"])
+jiuse710.com#?##main div.row > div.colVideoList:has(> div.video-elem > a[href][target="_blank"])
 jiyingdm.com###otherWindowBox
 jiyingdm.com##.abcde
 jiyingw.vip##.textwidget > p > a > img
@@ -9760,6 +9767,8 @@ m.you.163.com##.m-userTypeModal
 m.you.163.com##.mask
 m.you.163.com##.modal
 m.you.163.com##.w-button
+m.youdao.com##.banner-item
+m.youdao.com##.top-download
 m.youku.com###banner
 m.youku.com##.cmt-more
 m.youku.com##.cmt-more-cont
@@ -9945,6 +9954,7 @@ me360.com##.footer-booking-open
 med66.com##.banner
 med66.com##.coach_pic
 mediafire.com###abnotify
+mediafire.com#$#abort-current-inldomain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 mediafire.com#$#abort-current-inline-script isWithinRect Pop
 mediafire.com#$#abort-on-property-read UAParser
 medical-club.net##.blocker-notice,.blocker-overlay
@@ -12967,6 +12977,7 @@ vansky.com##.liAds
 vansky.com##.safari_pop
 vansky.com##.scol-banner
 vansky.com##.top-ad-link
+vaoroi13.online#$#override-property-read adsTvcs ''
 vardembed.xyz,videovard.sx###MyDickIsFat
 vardembed.xyz,videovard.sx###NotReallyYouHaveSmallOne
 vardembed.xyz,videovard.sx#$#json-prune ads_mode
@@ -13376,6 +13387,7 @@ www.dmh8.me,dm88.me##DIV[style^='position: fixed; bottom: 0px; display: block; o
 www.dmh8.me,dm88.me##DIV[style^='width:300px;height:300px;position:fixed;bottom:0;left:0;']
 www.duba.com##.tiyan_a
 www.e1.ru#$#abort-on-property-read Object.prototype.brandingBlock
+www.e1.ru#$#abort-on-property-read Ya; cookie-remover jtnews_adblock;
 www.elektroda.pl#$#abort-on-property-read popupStatus; abort-on-property-write welcomeAdContainer
 www.facebook.com,web.facebook.com##span a[aria-labelledby][role="link"][target="_blank"][tabindex="0"]
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/object[@type="nested/pressable"]/a[@role="link"]/span[contains("|Sponsoreret|Sponsrad|Patrocinado|Sponsa|Bersponsor|Commandité|Ditaja|Gesponsert|Gesponsord|Publicidad|Sponset|Sponsored|Sponsorisé|Sponsorizat|Sponsorizzato|Sponsorlu|Sponsorowane|Реклама|ממומן|تمويل شوي|دارای پشتیبانی مالی|سپانسرڈ|مُموَّل|प्रायोजित|সৌজন্যে|ได้รับการสนับสนุน|内容|贊助|Sponsoroitu|May Sponsor|Được tài trợ|", concat("|", text(), "|"))]/ancestor::span[2]'
@@ -13658,6 +13670,9 @@ xxx-indian-porn.com#$#abort-current-inline-script popunder
 xxxdownloadsfree.blogspot.com##DIV[style*="position:fixed;width:100%;top:0px;height:100%;background-color:black;z-index:100;"]
 xxxsm.vip##.ad280x165
 xxxsm.vip##a[href="ilupian8.html"]
+xxxtik.com###app-container
+xxxtik.com###app-popup
+xxxtik.com#$#abort-on-property-read decodeURI; abort-on-property-read fromCharCode;
 xxxxx520.com##.ripro_gg_wrap
 xydai.cn##.deanad4s
 xyg39.xyz###__top_header + script + div
