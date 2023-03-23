@@ -3268,7 +3268,6 @@
 24k99.com##.jy_24k99_suspended_ad
 24k99.com,fx168.com##.ny2018_txtLink
 24k99.com,fx168.com##.yy_guangao
-24k99.fastadmin.net##body > a[target="_blank"]
 24kplus.com###custom_html-3
 24smi.org#$#abort-on-property-write document.cookie; cookie-remover /^/
 24tv.ua##.b_reklama
@@ -3842,6 +3841,7 @@
 789ys.com##div[style*="important"]
 789ys.com,domp4.cc##h1[style]
 789ys.com,fffdm.com##ul[style]
+789ys.com,ruanyifeng.com##div[style*="important"]
 78dm.net###qpgg
 78dm.net##.ad_logor
 78dm.net##.add-980
@@ -9954,7 +9954,6 @@ me360.com##.footer-booking-open
 med66.com##.banner
 med66.com##.coach_pic
 mediafire.com###abnotify
-mediafire.com#$#abort-current-inldomain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 mediafire.com#$#abort-current-inline-script isWithinRect Pop
 mediafire.com#$#abort-on-property-read UAParser
 medical-club.net##.blocker-notice,.blocker-overlay
@@ -13386,8 +13385,7 @@ www.dmh8.me,dm88.me##CENTER
 www.dmh8.me,dm88.me##DIV[style^='position: fixed; bottom: 0px; display: block; opacity:']
 www.dmh8.me,dm88.me##DIV[style^='width:300px;height:300px;position:fixed;bottom:0;left:0;']
 www.duba.com##.tiyan_a
-www.e1.ru#$#abort-on-property-read Object.prototype.brandingBlock
-www.e1.ru#$#abort-on-property-read Ya; cookie-remover jtnews_adblock;
+www.e1.ru#$#abort-on-property-read Object.prototype.brandingBlock; abort-on-property-read Ya; cookie-remover jtnews_adblock;
 www.elektroda.pl#$#abort-on-property-read popupStatus; abort-on-property-write welcomeAdContainer
 www.facebook.com,web.facebook.com##span a[aria-labelledby][role="link"][target="_blank"][tabindex="0"]
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/object[@type="nested/pressable"]/a[@role="link"]/span[contains("|Sponsoreret|Sponsrad|Patrocinado|Sponsa|Bersponsor|Commandité|Ditaja|Gesponsert|Gesponsord|Publicidad|Sponset|Sponsored|Sponsorisé|Sponsorizat|Sponsorizzato|Sponsorlu|Sponsorowane|Реклама|ממומן|تمويل شوي|دارای پشتیبانی مالی|سپانسرڈ|مُموَّل|प्रायोजित|সৌজন্যে|ได้รับการสนับสนุน|内容|贊助|Sponsoroitu|May Sponsor|Được tài trợ|", concat("|", text(), "|"))]/ancestor::span[2]'
