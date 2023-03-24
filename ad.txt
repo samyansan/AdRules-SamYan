@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-03-24 14:14:26
-! Total count: 132893
+! Version: 2023-03-24 20:19:46
+! Total count: 132912
 
 ###AdBlockDialog
 ###Ad_windows
@@ -710,6 +710,7 @@
 ##.adisclaimer
 ##.adline
 ##.adlist
+##.adlistcss
 ##.adp-popup
 ##.ads
 ##.ads > a > img[src*=".sinaimg."]
@@ -1347,6 +1348,7 @@
 ##IMG[src$='.dl'][style='width:100% !important;height:90px'][onclick]
 ##IMG[src*='.xyz/tupian/'][src$='/h5.gif']
 ##IMG[src*='/gg/'][src$='180.gif'][src*='800']
+##IMG[src*='qmfcybwbf']
 ##IMG[src='/js/imgs/taote.jpg']
 ##IMG[style='width: 100%;'][src^='https://ad.']
 ##IMG[url][onclick='window.open(this.url)'][src$='.gif'][width='100%']
@@ -1947,7 +1949,6 @@
 ##a[href="/ad2.html"]
 ##a[href="/baidu/index.html"]
 ##a[href="/bbs/"] > img[src*=".bcebos.com"]
-##a[href="/dngiauwbeib/"]
 ##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
 ##a[href="/forum/"] > img[src*=".bcebos.com"]
 ##a[href="/gghtml/tyc.html"]
@@ -2155,9 +2156,10 @@
 ##div[class^="hengfu"] > a[href][target="_blank"]
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"]
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"][src*="hdslb.com"]
-##div[class^="popup-ts"][style^="display:"]
+##div[class^="popup-t"][class*="open"][class*="-icon"]
+##div[class^="popup-t"][style^="display:"]
 ##div[class^="ps_"][value="20"]
-##div[class^="shortcuts-m-overlay"]
+##div[class^="shortcuts-"][class$="-overlay"]
 ##div[id$='ad1'][class^='text'],div[id$='ad2'][class^='text'],div[id$='ad3'][class^='text'],div[id$='ad4'][class^='text'],div[id$='ad5'][class^='text'],div[id$='ad6'][class^='text']
 ##div[id*="playerAdvLayer"][class="adv-layer"]
 ##div[id*='cat_'][id*='_ad']
@@ -6858,7 +6860,6 @@ caikuu.com##.photo_abv
 caixin.com##.course_box
 caixin.com##.incubator
 calidadcine.net,seriesmetro.net#$#abort-on-property-read afStorage
-calmlab.com##[style="position:relative;z-index:2147483647"]
 calmlab.com##div[style*="important"]
 cam4.tw###newTippingViewer + div[data-ab]
 cam4.tw##.hbanner
@@ -8782,7 +8783,6 @@ g.huya.com
 gaara-fr.com###ga-skin-left
 gaara-fr.com###ga-skin-right
 gaara-fr.com###ga-skin-top
-gaara-fr.com###ga-skin-topl
 gaara-fr.com###pub01
 gaijin.at##.box_error.box_error_icon
 galacg.me##.sidebar-top
@@ -15880,6 +15880,7 @@ zzzyk.com###Tinfo
 ||*xav.*/guang/*.jpg
 ||0-000.store^
 ||0-owazo4.net.zooplus.de^
+||0.0.0.0cworldwide.com^
 ||0.code.cotsta.ru^
 ||0.data.net.zooplus.de^
 ||0.net.zooplus.nl^
@@ -27636,6 +27637,7 @@ zzzyk.com###Tinfo
 ||advertising.a2z.com^
 ||advertising.aol.com^
 ||advertising.apple.com^
+||advertising.bb^
 ||advertising.bbcworldwide.com^
 ||advertising.com^
 ||advertising.hiasys.com^
@@ -39426,6 +39428,7 @@ zzzyk.com###Tinfo
 ||bursulasnags.com^
 ||burt.io^
 ||burtlanmedical.com^
+||burtonrefund.info^
 ||burydibase.com^
 ||bus-offer.com^
 ||buscascolegios.diit.cl^
@@ -47260,6 +47263,7 @@ zzzyk.com###Tinfo
 ||cwnfkbio.xyz^
 ||cwnobcbbywfsy.com^
 ||cwobgp.cn^
+||cworldwide.com^
 ||cwpbohx.cn^
 ||cwphgqu.cn^
 ||cwpush.com^
@@ -51665,6 +51669,7 @@ zzzyk.com###Tinfo
 ||dogolurkr.com^
 ||dogparadiseshop.com^
 ||dogparadisestore.com^
+||dogpile.112.2o7.netndsetnetwork.com^
 ||dogry.fr^
 ||dogshipuniate.live^
 ||dogsshoes.com^
@@ -59656,7 +59661,6 @@ zzzyk.com###Tinfo
 ||free.srcdn.xyz^
 ||free.thesocialsexnetwork.com^
 ||free.videodownloadconverter.com^
-||free.xjs.lol^
 ||free247downloads.com^
 ||free3dgame.xyz^
 ||free4faucet.com^
@@ -61049,6 +61053,7 @@ zzzyk.com###Tinfo
 ||gcirm.theolympian.com^
 ||gcirm.thespectrum.com^
 ||gcirm2.indystar.com^
+||gcirmma-kaeser.ch^
 ||gcjehafhajjhcdicaeb.ru^
 ||gclambathach.in^
 ||gclbtcloh.com^
@@ -65820,6 +65825,7 @@ zzzyk.com###Tinfo
 ||hj217.com^
 ||hjaorx.ginatricot.com^
 ||hjapi.com/v1/pageSoftText?
+||hjbqnwb.com^
 ||hjc1990.com^
 ||hjcbehchdddcegcfaaei.ru^
 ||hjfile.cn/analytics/site/TrackEvent.js
@@ -77121,6 +77127,7 @@ zzzyk.com###Tinfo
 ||lisaerp.com^
 ||lisafnil.space^
 ||lisaiservice.top^
+||lisatillhon.de^
 ||lishi.yxbao.com^
 ||lishi1.yxbao.com^
 ||lishibu.com^
@@ -89406,6 +89413,7 @@ zzzyk.com###Tinfo
 ||okoy.top^
 ||okpoiione.com^
 ||okqapmnpyox.com^
+||okqwidvnsk.net^
 ||oksep.vn^
 ||okshuwu.top^
 ||okt.to^
@@ -94065,6 +94073,7 @@ zzzyk.com###Tinfo
 ||pmd-vp-aka.canal-plus.com^
 ||pmdatabase.xyz^
 ||pmddby.com^
+||pme.clarionledger.com^
 ||pmelon.com^
 ||pmensrl.cn^
 ||pmetorealiukze.xyz^
@@ -96991,6 +97000,7 @@ zzzyk.com###Tinfo
 ||qdvavs.trademax.se^
 ||qdvideo.xyz^
 ||qdwght.com^
+||qdwnlkdw.com^
 ||qdxrhg.com^
 ||qdxrhg.com^$third-party
 ||qdxsodq.cn^
@@ -97389,6 +97399,7 @@ zzzyk.com###Tinfo
 ||qm92.com^
 ||qmbnkdh.cn^
 ||qmdllqv.cn^
+||qmfcybwbf12.com^
 ||qmfcybwbf19.com^
 ||qmihajdixr.com^
 ||qmin.xin^
@@ -108955,6 +108966,7 @@ zzzyk.com###Tinfo
 ||sroork.mrmarvis.nl^
 ||srpimpex.in^
 ||srpx.net^
+||srs.targetpolon.com^
 ||srsihavelearn.xyz^
 ||srsorvete.com.br^
 ||srtb.msn.com^
@@ -114194,6 +114206,7 @@ zzzyk.com###Tinfo
 ||tesla-make.com^
 ||tesla-model4.com^
 ||tesla-network.net^
+||tesla-online.net^
 ||tesla-promo.com^
 ||tesla-qr.com^
 ||tesla-rich.net^
@@ -121347,6 +121360,7 @@ zzzyk.com###Tinfo
 ||usounoul.com^
 ||usp1.baidu.com^
 ||uspostalservice11.d74r.co^
+||uspsglobalexpress.com^
 ||usr.trava.io^
 ||usrlock.cn^
 ||ussdns01.heketwe.com^
@@ -123664,6 +123678,7 @@ zzzyk.com###Tinfo
 ||w3.w3docsdropapi.application-legacying.net.zooplus.de^
 ||w3.yinyuehu.cn^
 ||w3.zooplusmail-aws.payzooplusmail-aws.zooplusmail-aws.net.zoossl.net.zooplus.es^
+||w33.hi0seasonale.1.p2l.info^
 ||w38ju82bano4.cv.gerardbosch.xyz^
 ||w3administratormail.nettesting.zooplusmail-nettesting.net.zoossl.net.zooplus.es^
 ||w3c.5txs.com^
@@ -131562,6 +131577,7 @@ zzzyk.com###Tinfo
 ||zd518.cn/statics/js/home.js
 ||zd518.cn/template/qpg6080/baidufx/baidufx.js
 ||zdabnt.*$third-party
+||zdabnt.buzz^
 ||zdabnt.live^
 ||zdabnt.live^$third-party
 ||zdads.e-media.com^
@@ -131570,12 +131586,14 @@ zzzyk.com###Tinfo
 ||zdama.xyz^
 ||zdama.xyz^$third-party
 ||zdambl.*$third-party
+||zdamybi.xyz^
 ||zdbb.net^
 ||zdcj.net/html/weibo
 ||zdcj.net^*/ad
 ||zdd-9.com^
 ||zdenochary.com^
 ||zdfjas.top^
+||zdfl.xyz^
 ||zdhfff.xyz^
 ||zdktgps.cn^
 ||zdlogs.sphereup.com^
@@ -132170,6 +132188,7 @@ zzzyk.com###Tinfo
 ||zjlv.top^
 ||zjo0tjqpm1.com^
 ||zjqhyx.cn^
+||zjrua.site^
 ||zjsdsports.cn^
 ||zjst.net/3.gif
 ||zjsyawqj.cn^

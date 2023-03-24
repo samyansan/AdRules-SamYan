@@ -702,6 +702,7 @@
 ##.adisclaimer
 ##.adline
 ##.adlist
+##.adlistcss
 ##.adp-popup
 ##.ads
 ##.ads > a > img[src*=".sinaimg."]
@@ -1339,6 +1340,7 @@
 ##IMG[src$='.dl'][style='width:100% !important;height:90px'][onclick]
 ##IMG[src*='.xyz/tupian/'][src$='/h5.gif']
 ##IMG[src*='/gg/'][src$='180.gif'][src*='800']
+##IMG[src*='qmfcybwbf']
 ##IMG[src='/js/imgs/taote.jpg']
 ##IMG[style='width: 100%;'][src^='https://ad.']
 ##IMG[url][onclick='window.open(this.url)'][src$='.gif'][width='100%']
@@ -1939,7 +1941,6 @@
 ##a[href="/ad2.html"]
 ##a[href="/baidu/index.html"]
 ##a[href="/bbs/"] > img[src*=".bcebos.com"]
-##a[href="/dngiauwbeib/"]
 ##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
 ##a[href="/forum/"] > img[src*=".bcebos.com"]
 ##a[href="/gghtml/tyc.html"]
@@ -2147,9 +2148,10 @@
 ##div[class^="hengfu"] > a[href][target="_blank"]
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"]
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"][src*="hdslb.com"]
-##div[class^="popup-ts"][style^="display:"]
+##div[class^="popup-t"][class*="open"][class*="-icon"]
+##div[class^="popup-t"][style^="display:"]
 ##div[class^="ps_"][value="20"]
-##div[class^="shortcuts-m-overlay"]
+##div[class^="shortcuts-"][class$="-overlay"]
 ##div[id$='ad1'][class^='text'],div[id$='ad2'][class^='text'],div[id$='ad3'][class^='text'],div[id$='ad4'][class^='text'],div[id$='ad5'][class^='text'],div[id$='ad6'][class^='text']
 ##div[id*="playerAdvLayer"][class="adv-layer"]
 ##div[id*='cat_'][id*='_ad']
@@ -5251,7 +5253,6 @@ caikuu.com##.photo_abv
 caixin.com##.course_box
 caixin.com##.incubator
 calidadcine.net,seriesmetro.net#$#abort-on-property-read afStorage
-calmlab.com##[style="position:relative;z-index:2147483647"]
 calmlab.com##div[style*="important"]
 cam4.tw###newTippingViewer + div[data-ab]
 cam4.tw##.hbanner
@@ -7161,7 +7162,6 @@ g-years.com,ghoffice.com,gpsuu.com,mydigit.cn###main > .textMes
 gaara-fr.com###ga-skin-left
 gaara-fr.com###ga-skin-right
 gaara-fr.com###ga-skin-top
-gaara-fr.com###ga-skin-topl
 gaara-fr.com###pub01
 gaijin.at##.box_error.box_error_icon
 galacg.me##.sidebar-top
