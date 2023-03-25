@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-03-25 20:18:48
-! Total count: 132570
+! Version: 2023-03-26 02:12:06
+! Total count: 132575
 
 ###AdBlockDialog
 ###Ad_windows
@@ -6313,6 +6313,8 @@ baidu.com##[class*="na-ec-"]
 baidu.com##[class^="ad-"]
 baidu.com##[class^="fc-"]
 baidu.com##[class^='ball-wrapper']
+baidu.com##[srcid*="_ad"]
+baidu.com##[srcid^="recommend_video"]
 baidu.com##[style^="bottom:"][class^="ball-wrapper__"]
 baidu.com##a.ball-wrapper__3BTBO.c-blocka
 baidu.com##div#J-super-layer-promote
@@ -16808,6 +16810,7 @@ zzzyk.com###Tinfo
 ||156.233.32.123^$third-party
 ||156.246.162.2^
 ||157776.com^
+||15823f12-289e-4189-9e51-e2de1bf1a105.online^
 ||158779.com^
 ||1588aa.com^
 ||158aq.com^
@@ -93970,6 +93973,7 @@ zzzyk.com###Tinfo
 ||poisonencouragement.com^
 ||poisonoustrolleyenhance.com^
 ||poiuy12.com^
+||pojihfnkbllg.net^
 ||pojjtt.xyz^
 ||pojkhufef.xyz^
 ||pojulo.com^
@@ -101811,6 +101815,7 @@ zzzyk.com###Tinfo
 ||saat.dow.com^
 ||saatwitted.com^
 ||sabafon.info^
+||sabaidea.cloud^
 ||sabaricards.com^
 ||sabavision.com^
 ||saber.srvcs.tumblr.com^
