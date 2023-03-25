@@ -338,7 +338,7 @@
 ###lovexin2
 ###lt-ad-radio
 ###magneturlpost + .movie + .movie[style="padding:12px; margin-top:15px"]
-###main.site-main > div > div > a[href] > img[src*=".bcebos.com"]
+###main.site-main > div > div > a[href] > img
 ###mainbody:nth-child(5) > .mylist
 ###mdp-deblocker-js-disabled
 ###menu + #topBox
@@ -1396,6 +1396,7 @@
 ##[class^="col"][class*="padding-0"] > [style]
 ##[class^="naicon btn btn-raised"]
 ##[class^="player-advertising"]
+##[class^="player-rm"][class*="rm-two"][class*="rm-list"] > a
 ##[class^="stsxxgtv_"]
 ##[class^="vertical_mobile_ad"]
 ##[class^="videoad"]
@@ -13140,11 +13141,11 @@ wacowla.com###home-top-narrow
 waerfa.com##section > div.article-gg
 waerfa.com##section > div.content > p > a[href*="taobao.com/coupon/"] > img
 waerfa.com#?#.content-area > div#content > div > div.item:has(> a:not([href*="waerfa.com/"]) > img)
-waipian17.com,waipian5.com##.open.popup-icon.popup-tips.popup
-waipian17.com,waipian5.com##.player-rm rm-two rm-list
-waipian17.com,waipian5.com##.shortcuts-mobile-overlay
-waipian17.com,waipian5.com##[href^="https://at.umtrack.com"]
-waipian17.com,waipian5.com##[src^="data:image/png;base64,"]
+waipian17.com,waipian5.com,waipian13.com##.open.popup-icon.popup-tips.popup
+waipian17.com,waipian5.com,waipian13.com##.player-rm rm-two rm-list
+waipian17.com,waipian5.com,waipian13.com##[href^="https://at.umtrack.com"]
+waipian17.com,waipian5.com,waipian13.com##[src^="data:image/png;base64,"]
+waipian17.com,waipian5.com,waipian13.com##div[class^="shortcuts-"][class$="-overlay"]
 waipian5.com##.popup
 waipian5.com##.shortcuts-mobile-overlay
 waipian5.com#@#a[href*=".umtrack.com/"]
