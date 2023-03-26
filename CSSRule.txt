@@ -3496,8 +3496,8 @@
 3g.163.com,m.163.com##.js-recommend.recommend
 3g.163.com,m.163.com##.s-openApp
 3g.163.com,m.163.com##[src^="//ymjs.adutp.com/kjivriyd?"]
-3g.baidu.com,m.baidu.com,m5.baidu.com###header > div > div
 3g.baidu.com,m.baidu.com,m5.baidu.com##.blank-frame
+3g.baidu.com,m.baidu.com,m5.baidu.com##div[style="overflow: hidden;background: #fff;position: relative;"]
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com###banner_call + div[id]
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com#?#div:-abp-has(>.openBox-container)
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com#?#div:-abp-has(>div[id$="_1"]+div[id$="_5"])
@@ -4546,6 +4546,7 @@ baidu.com###fengchaoad
 baidu.com###gamePromo
 baidu.com###ggbtm
 baidu.com###header > div:last-child
+baidu.com###header > div:last-child > div > a:first-child
 baidu.com###index_banner_top
 baidu.com###index_right_float
 baidu.com###index_right_top
@@ -4591,6 +4592,7 @@ baidu.com##.banner-cover
 baidu.com##.banner-wrapper-defensive
 baidu.com##.banner_center_adv2
 baidu.com##.bannerdown
+baidu.com##.barea-ad
 baidu.com##.bds-list-ads
 baidu.com##.bottom-guide
 baidu.com##.bottom-right-dsp-ad-wrap
@@ -4703,6 +4705,7 @@ baidu.com##.wgt-union
 baidu.com##.wgt-union-wapqbyoux-ads
 baidu.com##.yitiao-box
 baidu.com##DIV.c-result.result[srcid='mkt_ad_space']
+baidu.com##[class$="-ad"]
 baidu.com##[class$="-ads"]
 baidu.com##[class*="na-ec-"]
 baidu.com##[class^="ad-"]
