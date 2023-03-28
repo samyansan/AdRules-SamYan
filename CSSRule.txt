@@ -570,6 +570,7 @@
 ##.ad-left
 ##.ad-left-down
 ##.ad-mod
+##.ad-placement
 ##.ad-r
 ##.ad-right
 ##.ad-right-down
@@ -8395,18 +8396,11 @@ inmywordz.com,ants.tw##.acca-block
 instacart.com##a[href*="category_hero_id_"]
 instacart.com##div[data-testid="ads-promoted-aisle"]
 instacart.com##div[data-testid="storefront-category-hero-banner"]
-instacart.com#$#hide-if-matches-xpath './/a[contains(@href,"interaction_id=")]/ancestor::div[contains(@class,"ShopppableList")]/parent::div'
-instacart.com#$#hide-if-matches-xpath './/a[contains(@href,"interaction_id=")]/ancestor::div[contains(@class,"ShopppppableList")]/parent::div'
 instacart.com#$#hide-if-matches-xpath './/div[2][starts-with(@class,"css")]//span[text()="Sponsored"]/ancestor::div[2][starts-with(@class,"css")]'
-instacart.com#$#hide-if-matches-xpath './/div[@data-sp-eligible]/span/ancestor::div[contains(@class,"ItemCardHoverProvider")]'
-instacart.com#$#hide-if-matches-xpath './/div[@data-ssp-eligible]/span/ancestor::div[contains(@class,"ItemCardHoverProvider")]'
 instacart.com#$#hide-if-matches-xpath './/div[contains(@class,"SearchResultsEngagementTracker") or contains(@class,"ItemCardHoverProvider")]/div[concat(normalize-space(.//div[1][contains(@style,"display: inline-block;")]/text()),normalize-space(.//div[2][contains(@style,"display: inline-block;")]/text()))="Sponsored"]/ancestor::div[contains(@class,"SearchResultsEngagementTracker") or contains(@class,"ItemCardHoverProvider")]'
 instacart.com#$#hide-if-matches-xpath './/div[contains(@class,"ShoppableList")]//span[text()="Sponsored"]/ancestor::div[contains(@class,"ShoppableList")]'
 instacart.com#$#hide-if-matches-xpath './/picture/following::div[@aria-hidden="true"][text()="Sponsored"]/parent::div[@id]/ancestor::div[@class][1]'
-instacart.com#$#hide-if-matches-xpath './/section[@class][@aria-hidden="true"]/span/preceding::a[contains(@href,"interaction_id")]/parent::div/ancestor::div[contains(@id,"a/")]'
-instacart.com#$#hide-if-matches-xpath './/span[@class][@aria-hidden="true"]/span/preceding::a[contains(@href,"interaction_id")]/parent::div/ancestor::div[contains(@id,"a/")]'
-instacart.com#$#hide-if-matches-xpath './/span[contains(@class,"AddItemButtonExpandingAdd")]/preceding::div[contains(@class,"ListHeaderDisclaimer")]/ancestor::div[contains(@class,"SearchLazyLoader")][1]'
-instacart.com#$#hide-if-matches-xpath './/span[contains(@class,"AddItemButtonExpandingAdd")]/preceding::section[contains(@class,"ListHeaderDisclaimer")]/ancestor::div[contains(@class,"SearchLazyLoader")][1]'
+instacart.com#$#race start; hide-if-matches-xpath './/a[contains(@href,"interaction_id=")]/ancestor::div[contains(@class,"ShopppableList")]/parent::div'; hide-if-matches-xpath './/a[contains(@href,"interaction_id=")]/ancestor::div[contains(@class,"ShopppppableList")]/parent::div'; hide-if-matches-xpath './/a[contains(@href,"interaction_id=")]/ancestor::div[contains(@class,"ShoppppppableList")]/parent::div'; hide-if-matches-xpath './/div[@data-sp-eligible]/span/ancestor::div[contains(@class,"ItemCardHoverProvider")]'; hide-if-matches-xpath './/div[@data-ssp-eligible]/span/ancestor::div[contains(@class,"ItemCardHoverProvider")]'; hide-if-matches-xpath './/div[@data-sssp-eligible]/span/ancestor::div[contains(@class,"ItemCardHoverProvider")]'; hide-if-matches-xpath './/span[@class][@aria-hidden="true"]/span/preceding::a[contains(@href,"interaction_id")]/parent::div/ancestor::div[contains(@id,"a/")]'; hide-if-matches-xpath './/section[@class][@aria-hidden="true"]/span/preceding::a[contains(@href,"interaction_id")]/parent::div/ancestor::div[contains(@id,"a/")]'; hide-if-matches-xpath './/span[contains(@class,"AddItemButtonExpandingAdd")]/preceding::div[contains(@class,"ListHeaderDisclaimer")]/ancestor::div[contains(@class,"SearchLazyLoader")][1]'; hide-if-matches-xpath './/span[contains(@class,"AddItemButtonExpandingAdd")]/preceding::section[contains(@class,"ListHeaderDisclaimer")]/ancestor::div[contains(@class,"SearchLazyLoader")][1]'; race stop;
 instantmanga.com###notice
 instrument.com.cn###leftFlash
 instrument.com.cn,tool.lu##.swiper-container
@@ -10916,6 +10910,7 @@ pic4you.ru,pic5you.ru##.centerdiv
 pic4you.ru,pic5you.ru##body > #bb
 pifansubs.com#$#abort-on-property-read adProvider
 pigai.org###newnotice
+pikabu.ru#$#abort-current-inline-script addAnlTracker minHeight
 pilifx.com##.alltop
 pilifx.com##.home_row_1
 pilifx.com##.imoney
@@ -12177,6 +12172,7 @@ spanishdict.com##.whitelist
 spankbang.com###interstitial_div_v2
 spankbang.com###interstitial_div_v3
 spankbang.com##.ptgncdn_holder
+spankbang.com##[class*="_ad"]
 spankbang.com##[class="thumb is_live"]
 spankbang.com##[class^="lv_cm_int_"]
 spankbang.com##div[class*="top"] > img[src][class*="cls"]
