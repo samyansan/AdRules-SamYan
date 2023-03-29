@@ -4728,7 +4728,6 @@ baidu.com#$##content_left > div[style*="display:block !important;"]:not(.result)
 baidu.com#$#hide-if-contains 广告 #content_left>div .ec-tuiguang
 baidu.com#$#hide-if-contains 广告 #content_right>div .ec-tuiguang
 baidu.com#?#.c-gap-bottom-small:-abp-has(>a>div>div[class^="jr-stock-open-account-"])
-baidu.com#?#.ec_wise_ad
 baidu.com#?#.rec-item:-abp-has(> .vbox > div > .appad-relate-rectpl)
 baidu.com#@##header > div:last-child
 baidu.com#@##page-pre
@@ -4744,6 +4743,7 @@ baidu.com,bdimg.com#?#.thread_item_box:-abp-has(div[class*=" fc-"])
 baidu.com,cntour2.com##.topBanner
 baidu.com,comefromchina.com#@#.ad-block
 baidu.com,youdao.com,yun.cn#@#.share-content
+baidu.com,~m.baidu.com##.ec_wise_ad
 baidu.dj###ETE
 baiduyun.wiki##.tecent-adsense
 baihe.com##.scrollULeft
@@ -4808,7 +4808,7 @@ baofeng.com##.ad-pop-wrap
 baofeng.com##.play-ads
 baoliny.com,gasaq.com,hgitv.com,ifooday.cn,nen.com.cn##.guanggao
 baomidou.com##.sidebar-slot-top
-baomoi.com,zingnews.vn#$#abort-current-inline-script document.createElement script
+baomoi.com,zingnews.vn#$#abort-on-property-read _ssdz
 bato.to#$#abort-current-inline-script document.createElement _vwmso
 batporno.com#$#abort-on-property-read decodeURI
 baytorrent.eu.org,europixhd.com,europixhd.net,file-up.org,force-download.com,force-download.es,force-download.fr,force-download.net,gledajonline.net,hdeuropix.io,loadsubs.net,novom.ru,pirateproxy.earth,pirateproxy.live,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay10.org,topeuropix.net,tpb.party,uploadproper.com,uploadproper.net#$#abort-on-property-read atob
@@ -5118,6 +5118,7 @@ bombardir.ru#$#abort-on-property-read alert
 bombaytimes.com##a[onclick*="click"][rel="nofollow,noindex"]
 bombaytimes.com#?#div:-abp-has(> h4 > span:-abp-contains(Ad: ))
 bonbonme.com##.topbannerer
+bongda365a.net#$#override-property-read isSkipAds true
 bongdahomnay.tech#$#abort-on-property-read $
 boniu123.cc##.left_side
 boniu123.cc##.right_side
@@ -6215,7 +6216,6 @@ douguo.com##.mbs
 doupe.zive.cz#@##adblock-leaderboard
 doupocangqiong1.com##div[style="margin:10px auto;width: 930px;height: 250px;"]
 douxie.com##.ndxBanner
-douxie.com##.ndxChdjBo[style="padding- bottom:5px;width:960px;height:60px;"]
 douxie.com##.ndxChdjBox
 douyu.com###FansFestival2003Tips
 douyu.com###douyu_room_normal_player_danmuDom > .ani-base-hover.DanmuEffectBC.ani-broadcast
@@ -10918,8 +10918,7 @@ pic4you.ru,pic5you.ru##.centerdiv
 pic4you.ru,pic5you.ru##body > #bb
 pifansubs.com#$#abort-on-property-read adProvider
 pigai.org###newnotice
-pikabu.ru#$#abort-current-inline-script addAnlTracker minHeight
-pikabu.ru#$#abort-on-property-read AdFox_getCodeScript
+pikabu.ru#$#abort-on-property-read yaContextCb
 pilifx.com##.alltop
 pilifx.com##.home_row_1
 pilifx.com##.imoney
@@ -13439,7 +13438,7 @@ www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[
 www.facebook.com,web.facebook.com#$#race start; hide-if-has-and-matches-style * 'span[id="ssrb_feed_start"]~* h3+div>div' 'span[id="ssrb_feed_start"]~* h3+div>div span>a[href="#"]:first-of-type div>svg' '/./' '/(margin-right: -[3-5][0-9].*width: 10)|(margin-right: -[4-6][0-9].*width: 11)|(margin-right: -[5-7][0-9].*width: 12)|(margin-right: -[6-8][0-9].*width: 13)/'; hide-if-has-and-matches-style * 'span[id="ssrb_feed_start"]~* h3+div>div' 'span[id="ssrb_feed_start"]~* h3+div>div span>a[href="#"]:first-of-type *>svg' '/./' '/(width: [4-6])/'; hide-if-has-and-matches-style * 'div[class]~* h3+div>div' 'div[class]~* h3+div>div span>a[href="#"]:first-of-type *>svg' '/./' '/(width: [4-6])/'; hide-if-has-and-matches-style * 'div[class]~* h3+div>div' 'div[class]~* h3+div>div span>a[href^="/ads/about/?"]:first-of-type *>svg' '/./' '/(width: [4-6])/'; hide-if-has-and-matches-style * 'span[id="ssrb_feed_start"]~* h3+div>div' 'span[id="ssrb_feed_start"]~* h3+div>div span>a[href][target="_blank"]:first-of-type *>svg' '/./' '/(width: [4-6])/'; hide-if-has-and-matches-style * 'div[class]~* h3+div>div' 'div[class]~* h3+div>div span>a[href^="#"]:last-of-type *>svg' '/./' '/(width: [4-6])/'; hide-if-has-and-matches-style * 'div[class]~* h3+div>div' 'div[class]~* h3+div>div span>a[href^="#"][tabindex="0"] span:first-of-type *>svg' '/./' '/(width: [4-6])/'; hide-if-has-and-matches-style * 'div[class]~* h3+div>div' 'div[class]~* h3+div>div span *>a[href="#"]:first-of-type *>svg' '/./' '/(width: [4-6])/'; hide-if-has-and-matches-style * 'span[id="ssrb_feed_start"]~* h3~div>div' 'span[id="ssrb_feed_start"]~* h3~div>div span>a[href^="#"]:first-of-type *>svg' '/./' '/(width: [4-6])/'; race stop;
 www.ghxi.com##DIV.wpcom_ad_wrap
 www.ghxi.com##DIV[style^='padding:10px;position: fixed;bottom: 0;left: 0;right:0;z-index: ']
-www.goha.ru,3dnews.ru,avtovzglyad.ru,baby.ru,dni.ru,relax-fm.ru,pikabu.ru,ura.news#$#abort-on-property-read Ya
+www.goha.ru,3dnews.ru,avtovzglyad.ru,baby.ru,dni.ru,relax-fm.ru,ura.news#$#abort-on-property-read Ya
 www.google.com,www.google.com.hk,www.google.co.jp##DIV[data-sokoban-container]:has([href*='%E2%9C%94%EF%B8%8F%E2%96%9B']),DIV[data-sokoban-container]:has([href*='%E3%80%90%E2%9C%94%EF%B8%8F']),DIV[data-sokoban-container]:has([href*='%E2%9E%BF%E3%80%91']),DIV[data-sokoban-container]:has([href*='%E2%8F%AA%29']),DIV[data-sokoban-container]:has([href*='%E2%9A%BD%E3%80%91']),DIV[data-sokoban-container]:has([href*='-%E3%80%90']),DIV[data-sokoban-container]:has([href*='%E2%9C%94%EF%B8%8F'][href*='%E2%98%80%EF%B8%8F']),DIV[data-sokoban-container]:has([href*='-('][href*='%E2%9C%94%EF%B8%8F']),DIV[data-sokoban-container]:has([href*='%E2%9C%94%EF%B8%8F%29']),DIV[data-sokoban-container]:has([href*='-%E2%9C%94%EF%B8%8F']),DIV[data-sokoban-container]:has([href*='%E2%9C%94%EF%B8%8F']),DIV[data-sokoban-container]:has([href*='%E2%9C%85%EF%B8%8F']),DIV[data-sokoban-container]:has([href*='%E2%9E%A1%EF%B8%8F']),DIV[data-sokoban-container]:has([href*='%E2%AD%90']),DIV[data-sokoban-container]:has([href*='%E3%8A%99%EF%B8%8F'])
 www.haijiao.com##DIV.addbox,DIV.bannerliststyle,DIV.van-swipe-item,DIV.crossbutton
 www.hbhtyl.com##P[style^='width: 100% !important; margin: 0p']
@@ -14080,7 +14079,6 @@ zhujiwiki.com##.msg
 zhujiwiki.com##.ssrtop
 zhuna.cn##a[href*="quchuchai."]
 zi.media##body > div[style="height: 300px;"]
-zingnews.vn#$#abort-on-property-read atob
 ziqiangxuetang.com###tutorial_btm
 ziqiangxuetang.com##a[href="/j/coding/"]
 ziyuanyo.com##.index-ad-text
