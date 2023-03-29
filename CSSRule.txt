@@ -1343,8 +1343,10 @@
 ##IMG[src*='/gg/'][src$='180.gif'][src*='800']
 ##IMG[src*='qmfcybwbf']
 ##IMG[src='/js/imgs/taote.jpg']
+##IMG[src^='http://socos.gitee.io/ss/poster'][alt][style='width: 100%;']
 ##IMG[style='width: 100%;'][src^='https://ad.']
 ##IMG[url][onclick='window.open(this.url)'][src$='.gif'][width='100%']
+##INS.adsbygoogle
 ##P[style$='transparent !important; font-size: 0px !important; text-indent: -10000px !important; height: 125px !important;']
 ##P[style*='background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important;']
 ##SPAN#qdSZ2
@@ -8398,14 +8400,14 @@ inmywordz.com,ants.tw##.acca-block
 instacart.com##a[href*="category_hero_id_"]
 instacart.com##div[data-testid="ads-promoted-aisle"]
 instacart.com##div[data-testid="storefront-category-hero-banner"]
+instacart.com#$#hide-if-matches-xpath './/a[contains(@href,"interaction_id=")]/ancestor::div[contains(@class,"Shop")]/parent::div[contains(@id,"a/")]' 
 instacart.com#$#hide-if-matches-xpath './/div[2][starts-with(@class,"css")]//span[text()="Sponsored"]/ancestor::div[2][starts-with(@class,"css")]'
 instacart.com#$#hide-if-matches-xpath './/div[contains(@class,"SearchResultsEngagementTracker") or contains(@class,"ItemCardHoverProvider")]/div[concat(normalize-space(.//div[1][contains(@style,"display: inline-block;")]/text()),normalize-space(.//div[2][contains(@style,"display: inline-block;")]/text()))="Sponsored"]/ancestor::div[contains(@class,"SearchResultsEngagementTracker") or contains(@class,"ItemCardHoverProvider")]'
 instacart.com#$#hide-if-matches-xpath './/div[contains(@class,"ShoppableList")]//span[text()="Sponsored"]/ancestor::div[contains(@class,"ShoppableList")]'
 instacart.com#$#hide-if-matches-xpath './/picture/following::div[@aria-hidden="true"][text()="Sponsored"]/parent::div[@id]/ancestor::div[@class][1]'
-instacart.com#$#race start; hide-if-matches-xpath './/a[contains(@href,"interaction_id=")]/ancestor::div[contains(@class,"ShopppableList")]/parent::div'; hide-if-matches-xpath './/a[contains(@href,"interaction_id=")]/ancestor::div[contains(@class,"ShopppppableList")]/parent::div'; hide-if-matches-xpath './/a[contains(@href,"interaction_id=")]/ancestor::div[contains(@class,"ShoppppppableList")]/parent::div'; race stop; 
-instacart.com#$#race start; hide-if-matches-xpath './/div[@data-sp-eligible]/span/ancestor::div[contains(@class,"ItemCardHoverProvider")]'; hide-if-matches-xpath './/div[@data-ssp-eligible]/span/ancestor::div[contains(@class,"ItemCardHoverProvider")]'; hide-if-matches-xpath './/div[@data-sssp-eligible]/span/ancestor::div[contains(@class,"ItemCardHoverProvider")]'; race stop;
+instacart.com#$#hide-if-matches-xpath './/span[contains(@class,"AddItemButtonExpandingAdd")]/preceding::*[contains(@class,"ListHeaderDisclaimer")]/ancestor::div[contains(@class,"SearchLazyLoader")][1]'
+instacart.com#$#race start; hide-if-matches-xpath './/div[@data-sp-eligible]/span/ancestor::div[contains(@class,"ItemCardHoverProvider")]'; hide-if-matches-xpath './/div[@data-ssp-eligible]/span/ancestor::div[contains(@class,"ItemCardHoverProvider")]'; hide-if-matches-xpath './/div[@data-sssp-eligible]/span/ancestor::div[contains(@class,"ItemCardHoverProvider")]'; hide-if-matches-xpath './/div[@data-ssssp-eligible]/span/ancestor::div[contains(@class,"ItemCardHoverProvider")]'; race stop;
 instacart.com#$#race start; hide-if-matches-xpath './/span[@class][@aria-hidden="true"]/span/preceding::a[contains(@href,"interaction_id")]/parent::div/ancestor::div[contains(@id,"a/")]'; hide-if-matches-xpath './/section[@class][@aria-hidden="true"]/span/preceding::a[contains(@href,"interaction_id")]/parent::div/ancestor::div[contains(@id,"a/")]'; race stop;
-instacart.com#$#race start; hide-if-matches-xpath './/span[contains(@class,"AddItemButtonExpandingAdd")]/preceding::div[contains(@class,"ListHeaderDisclaimer")]/ancestor::div[contains(@class,"SearchLazyLoader")][1]'; hide-if-matches-xpath './/span[contains(@class,"AddItemButtonExpandingAdd")]/preceding::section[contains(@class,"ListHeaderDisclaimer")]/ancestor::div[contains(@class,"SearchLazyLoader")][1]'; race stop;
 instantmanga.com###notice
 instrument.com.cn###leftFlash
 instrument.com.cn,tool.lu##.swiper-container
@@ -12638,7 +12640,7 @@ tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz,fights.cz##.wra
 tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz,fights.cz##[href*=";cdata="]
 tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz,fights.cz##[id*="tmAdVideo"], [class=" pe-banner"]
 tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz,fights.cz,spisovatele.cz##.SC_TBlock
-tiscali.it#$#hide-if-matches-xpath './/a[@class="slides-next"]/preceding::a[contains(@title,"eBay")]/ancestor::div[@*="ebay"]/parent::div[1]'
+tiscali.it#$#hide-if-matches-xpath './/a[@class="slides-next"]/preceding::div[contains(@class,"active")]/ancestor::div[@data-active]/parent::div[1]'
 tiscali.it#$#hide-if-matches-xpath './/a[@data-merchant="ebay"]/ancestor::div[starts-with(@class,"product-cnt")]/ancestor::div[contains(@class,"eby-cnt")]'
 tiscali.it#$#hide-if-matches-xpath './/a[@target="_blank"][contains(@*,"https://www.ebay.it")][not(contains(@href,"utm_campaign=lucegas"))]/preceding::div[contains(@style,"height: ")][@id][2]'
 tiscali.it#$#hide-if-matches-xpath './/a[contains(@*,"ebay")]/img[@id]/ancestor::div[@id][@style]'
