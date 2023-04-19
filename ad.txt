@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-04-19 14:14:01
-! Total count: 131659
+! Version: 2023-04-19 20:20:40
+! Total count: 131682
 
 ###AdBlockDialog
 ###Ad_windows
@@ -5690,6 +5690,7 @@ adageindia.in,bombaytimes.com#?#a:-abp-has(> div > p:-abp-contains(Ad: ))
 adblockplustape.com,adblockstreamtape.art,adblockstreamtape.site,adblockeronstreamtape.xyz,shavetape.cash,stapadblockuser.xyz,stapewithadblock.monster,strcloud.club,strcloud.link,streamadblockplus.com,streamadblocker.xyz,streamadblockplus.xyz,streamtape.to,streamtape.cc,streamtape.net,streamtape.xyz,streamtape.com,streamta.pe,strtapeadblock.me,strtape.cloud,strtape.site,strtape.tech,mixdrop.co#$#abort-on-property-write _pao
 adbuck.cc###col_publi
 adbug.cn#@#.google_ads
+adguard.com,adguard.app##.hello_from_adguard_chinese
 admaimai.com##.in16_w01 > div[class*="_ad0"]
 admin.rainbow-online.ru,fastpic.ru,gitjournal.tech,logist.uxxo.ru,maxpark.com,meteoservice.ru,newsland.com,pawno-info.ru,smolensk-auto.ru,smolensk-auto.site##body > div[id]:not([class])[style="display: block;"]
 admin5.com##.float_both_index
@@ -10051,9 +10052,9 @@ inmywordz.com,ants.tw##.acca-block
 instacart.com##a[href*="category_hero_id_"]
 instacart.com##div[data-testid="ads-promoted-aisle"]
 instacart.com##div[data-testid="storefront-category-hero-banner"]
-instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::section[@id][@class]'
+instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::aside'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::section[@class]'
-instacart.com#$#race start; hide-if-matches-xpath './/div[@data-sp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-ssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-sssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-ssssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-sssssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-spp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-sppp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-spppp-eligible]/ancestor::div[@aria-label="Product"]'; hide-if-matches-xpath './/div[@data-sppppp-eligible]/ancestor::div[@aria-label="Product"]'; race stop;
+instacart.com#$#race start; hide-if-matches-xpath './/div[@data-sp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-ssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-sssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-ssssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-sssssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-spp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-sppp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-spppp-eligible]/ancestor::div[@aria-label="Product"]'; hide-if-matches-xpath './/div[@data-spppppp-eligible]/ancestor::div[@aria-label="Product"]'; race stop;
 instantmanga.com###notice
 instrument.com.cn###leftFlash
 instrument.com.cn,tool.lu##.swiper-container
@@ -11591,7 +11592,7 @@ marketrealist.com,kansas.com,thenewstribune.com#$#abort-on-property-read $aproxy
 masahub.net,sbanh.com,sbembed.com,sblongvu.com,streamsb.com,streamsb.net,vidplay.ch#$#abort-on-property-read decodeURI; abort-on-property-read mm
 masok.cn###bottomLayer
 masturbation22.com,playallvideos.com,pron.co,ratedxbiz.com,taporn.com##.ima
-match.tdping.com##P[style='text-align:left;margin:0;']
+match.tdping.com##P[style='text-align:left;margin:0;'],td.livetitle > L
 materialtools.com#@#.ad-center
 math-prosto.ru###requestShutOfBlocker
 mathportal.org###noSenseCalculatorTop
@@ -17018,6 +17019,7 @@ zzzyk.com###Tinfo
 ||18pluspics.com^
 ||18plusstore.com^
 ||18rm.com^
+||18so.vip^
 ||18teengirl.com^
 ||18teensex.com^
 ||18xtube.com^
@@ -22146,6 +22148,7 @@ zzzyk.com###Tinfo
 ||absolutelytowns.com^
 ||absoluteroute.com^
 ||absolutewrite.fr^
+||absolutionexpert.com^
 ||absolvecarriagenotify.com^
 ||absolvehostkilled.com^
 ||absolveparticlesanti.com^
@@ -30911,6 +30914,7 @@ zzzyk.com###Tinfo
 ||anioz3b.cc^
 ||aniq-tenda.com^
 ||aniqfwz.cc^
+||aniqgsz.cc^
 ||aniruyt.ru^
 ||aniview.com.edgekey.net^
 ||aniview.com^
@@ -31030,6 +31034,7 @@ zzzyk.com###Tinfo
 ||antelope.u3a.com.au^
 ||antena1sj.com.ar^
 ||antennaoverload.com^
+||antennarollcellar.com^
 ||anteroomcrap.com^
 ||antevenio.com^
 ||antheladixy.com^
@@ -39461,6 +39466,7 @@ zzzyk.com###Tinfo
 ||bwtsrv.com^
 ||bwwlw.cn^
 ||bwwrovgwdfe.xyz^
+||bx-cloud.com^
 ||bx.khedivaormond.com^
 ||bx.neolabs.kz^
 ||bx5.tubemaximum.com^
@@ -39990,6 +39996,7 @@ zzzyk.com###Tinfo
 ||caboclonymphly.com^
 ||cabord.com^
 ||cabotinbesnare.com^
+||cabotsmuskit.com^
 ||cabrerapelaez.com^
 ||cabreu.dev^
 ||cacaca.0571yy.com^
@@ -56697,6 +56704,7 @@ zzzyk.com###Tinfo
 ||evkkbkolsvado.xyz^
 ||evlega.ru^
 ||evlsn.com^
+||evmnlpv.cn^
 ||evnt.iol.it^
 ||evogarage.com^
 ||evokeowedangers.com^
@@ -57529,6 +57537,7 @@ zzzyk.com###Tinfo
 ||fam-ad.com^
 ||famartil.com^
 ||famdataconnect.com^
+||fameailmentcircumstantial.com^
 ||famelandfittings.co.ke^
 ||fameministervia.com^
 ||famesa.com.ar^
@@ -59397,6 +59406,7 @@ zzzyk.com###Tinfo
 ||forjoiyvid.space^
 ||forjoiyvids.online^
 ||forjoiyvids.pics^
+||forjoiyvidspics.online^
 ||fork.ink^
 ||forkcdn.com^
 ||forkjork12.com^
@@ -60012,6 +60022,7 @@ zzzyk.com###Tinfo
 ||fsqwdj.live-tennis.eu^
 ||fsqwmnyjkyjnio.com^
 ||fssuqbylk.com^
+||fssxyiq.cn^
 ||fstats.xyz^
 ||fstaw.com^
 ||fstredirr.com^
@@ -65701,6 +65712,7 @@ zzzyk.com###Tinfo
 ||hjc1990.com^
 ||hjcbehchdddcegcfaaei.ru^
 ||hjfile.cn/analytics/site/TrackEvent.js
+||hjfile.cn/analytics/site/TrackEvent.js.com^$third-party
 ||hjfile.cn/lib/hui/footer/0.1.0/footer.js
 ||hjfile.cn/lib/uzhi/uzt.
 ||hjfile.cn/site/hj-lzs/
@@ -67295,6 +67307,7 @@ zzzyk.com###Tinfo
 ||i.logrocket.com^
 ||i.media.cz^
 ||i.mmcdn.cn^
+||i.moshimo.com^
 ||i.mxplayer.j2inter.com^
 ||i.now.ru/*/MobileBannerView.js
 ||i.onthe.io^
@@ -72540,6 +72553,7 @@ zzzyk.com###Tinfo
 ||judicialwisdomdisadvantage.com^
 ||judicious-feed.pro^
 ||judiciousbloke.com^
+||judium.com^
 ||judjetheminos.com^
 ||judruwough.com^
 ||judynaimo.com^
@@ -75044,6 +75058,7 @@ zzzyk.com###Tinfo
 ||lansrv070.com^
 ||lansrv080.com^
 ||lansrv090.com^
+||lansukse.xyz^
 ||lanternpossibly.com^
 ||lantian.love^
 ||lantocha.ru^
@@ -78138,6 +78153,7 @@ zzzyk.com###Tinfo
 ||luckyads.com^
 ||luckyads.pro^
 ||luckyads.tech^
+||luckydino.ren^
 ||luckyforbet.com^
 ||luckyforworlds.com^
 ||luckyoilpk.com^
@@ -91232,6 +91248,7 @@ zzzyk.com###Tinfo
 ||pat.farvd.com^
 ||patagonias.com.se^
 ||patalogs.com^
+||patariatoolman.com^
 ||patchovercome.com^
 ||patchwerx.com.au^
 ||patechtechnology.com^
@@ -92738,6 +92755,7 @@ zzzyk.com###Tinfo
 ||pitchedfurs.com^
 ||pitchedsprout.com^
 ||pites.cc/js/top.php
+||pithjpf.cn^
 ||piti.bplaced.net^
 ||pitiersamara.com^
 ||pitomcydoma.ru^
@@ -100776,6 +100794,7 @@ zzzyk.com###Tinfo
 ||ruslx.top^
 ||rusnext.ru/advar.js$script
 ||rusrestbest.
+||russellseemslept.com^
 ||russian-cuties.info^
 ||russian-sex.com^
 ||russianballoons.com^
@@ -102316,6 +102335,7 @@ zzzyk.com###Tinfo
 ||scanmedios.com^
 ||scannapp.xyz^
 ||scanscout.com^
+||scantlyvedette.com^
 ||scanunderstiff.com^
 ||scanverify.com^
 ||scapfloored.space^
@@ -104669,6 +104689,7 @@ zzzyk.com###Tinfo
 ||shqmetrics.sony.com^
 ||shr.fyi^
 ||shredassortmentmood.com^
+||shredvealdone.com^
 ||shreekunjbiharijigroup.com^
 ||shreeombuildcon.com^
 ||shreesaiseva.org^
@@ -110756,6 +110777,7 @@ zzzyk.com###Tinfo
 ||strollcurepinching.com^
 ||strollspread.com^
 ||strongergames.com^
+||strongestboxerscrupulous.com^
 ||stronglygathering.com^
 ||strongmanstructures.com^
 ||strossle.com^
@@ -124614,6 +124636,7 @@ zzzyk.com###Tinfo
 ||whiterodsurfacing.com^
 ||whitewingsbaking.com^
 ||whitor.com^
+||whittenchorded.com^
 ||whizduly.com^
 ||whizista.xyz^
 ||whizzco.com^
