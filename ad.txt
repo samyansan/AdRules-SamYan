@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-04-29 08:54:04
-! Total count: 162449
+! Version: 2023-04-29 14:12:30
+! Total count: 162458
 
 ###AdBlockDialog
 ###Ad_windows
@@ -4274,6 +4274,7 @@ $websocket,domain=5nj.com|cechi8.com
 .cc/ads/
 .cc/api/getPos?jspath=/$~third-party
 .cc/js/ads/
+.cc/o.js$third-party
 .cc/s.gif?
 .cc/s.php?id=$script,third-party
 .cdn-tracking.js
@@ -4515,6 +4516,7 @@ $websocket,domain=5nj.com|cechi8.com
 .com/myjs/omg_alljs.js
 .com/ntfc.php?$script
 .com/o.gif?
+.com/o.js$third-party
 .com/obj/ad-pattern^
 .com/obj/ad-tetris-site
 .com/p.gif?
@@ -5119,6 +5121,7 @@ $websocket,domain=5nj.com|cechi8.com
 .xyz/xling_*_*.js?
 .xyz/xling_*_*_*.js?*
 .xyz/xtub_
+.xyz/xxbbliffng
 .za/ads.
 .za/ads/$domain=~ananzi.co.za
 .zm/ads/
@@ -20813,6 +20816,7 @@ baidu.com##.rec-feeditem
 baidu.com##.recommend-goods-card
 baidu.com##.redenvelope-small
 baidu.com##.rel-exp-feed-ad-item
+baidu.com##.result-op[tpl="b2b_prod"] > div > .c-border
 baidu.com##.result-op[tpl="pc-education-fs"]
 baidu.com##.result-op[tpl="sp_hot_sale"]
 baidu.com##.rightAd-skin
@@ -55294,6 +55298,7 @@ zzzyk.com###Tinfo
 ||beam.mjhlifesciences.com^
 ||beam.remp.impresa.pt^
 ||beam.remp.nv.ua^
+||beam.telex.hu^
 ||beambroth.com^
 ||beamedshipwreck.com^
 ||beamfastcleaning.ae^
@@ -88307,7 +88312,6 @@ zzzyk.com###Tinfo
 ||hjcbehchdddcegcfaaei.ru^
 ||hjfile.cn/analytics/site/TrackEvent.js
 ||hjfile.cn/analytics/site/TrackEvent.js!
-||hjfile.cn/analytics/site/TrackEvent.js_
 ||hjfile.cn/lib/hui/footer/0.1.0/footer.js
 ||hjfile.cn/lib/uzhi/uzt.
 ||hjfile.cn/site/hj-lzs/
@@ -90996,6 +91000,7 @@ zzzyk.com###Tinfo
 ||igroropu.com^
 ||igrs.ca^
 ||igryshka.com^
+||igtchzp.cn^
 ||igtqora.cn^
 ||iguana.delbaoliveira.com^
 ||iguana.indigospot.com^
@@ -93572,6 +93577,7 @@ zzzyk.com###Tinfo
 ||ip138.com/banner/
 ||ip138.com/banner^
 ||ip138.com/idc/
+||ip1398.com^
 ||ip193.cn^
 ||ip2c.landscape.co.jp^
 ||ip2c.org^
@@ -96992,6 +96998,7 @@ zzzyk.com###Tinfo
 ||kabokc.webuy.com^
 ||kabookk.fr^
 ||kabsfarm.com^
+||kabuto.pro^
 ||kadam.net^
 ||kadam.ru^
 ||kadan.one^
@@ -110353,7 +110360,6 @@ zzzyk.com###Tinfo
 ||mupads.de^
 ||mups-journal.com^
 ||muradtextile.com^
-||muralshelvesdep1a50.com^
 ||muralshelvesdeposition.com^
 ||murcia-ban.es^
 ||murcs.org^
@@ -123349,7 +123355,9 @@ zzzyk.com###Tinfo
 ||qmbnkdh.cn^
 ||qmdllqv.cn^
 ||qmfcybwbf12.com^
+||qmfcybwbf16.com^
 ||qmfcybwbf19.com^
+||qmfcybwbf28.com^
 ||qmihajdixr.com^
 ||qmiiln.tower.jp^
 ||qmin.xin^
@@ -136123,6 +136131,7 @@ zzzyk.com###Tinfo
 ||stat.tiara.
 ||stat.tiara.daum.net^
 ||stat.tiara.kakao.com^
+||stat.tiara.tistory.com^
 ||stat.tildacdn.com^
 ||stat.timedg.com^
 ||stat.to.cupidplc.com^$third-party
