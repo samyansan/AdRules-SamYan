@@ -6,10 +6,11 @@ curl -o i-2.txt https://code.gitlink.org.cn/api/v1/repos/keytoolazy/adblock/raw/
 curl -o i-3.txt https://raw.githubusercontent.com/samyansan/AdGuardRules/main/adguard.txt
 curl -o i-4.txt https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall.txt
 curl -o i-5.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_5.txt
+curl -o i-6.txt https://raw.githubusercontent.com/xndeye/adblock_list/main/rule/dns.txt
 
 # 合并规则并去除重复项
 cat i*.txt > i-mergd.txt
-cat i-mergd.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | grep -v '^@' | grep -v '$ghide' > i-tmpp.txt
+cat i-mergd.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^## ' | grep -v '^## ' | grep -v '^\[' | grep -v '^\【' | grep -v '^@' | grep -v '$ghide' > i-tmpp.txt
 sort -n i-tmpp.txt | uniq > i-tmp.txt
 
 python rule.py i-tmp.txt
