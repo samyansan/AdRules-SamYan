@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-05 14:13:46
-! Total count: 113856
+! Version: 2023-05-05 20:19:21
+! Total count: 113861
 
 ###AdBlockDialog
 ###Ad_windows
@@ -1598,6 +1598,7 @@
 ##[style="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##[style="text-align: center; margin: 20px 0; color: blue; font-size: larger;"]
 ##[style="text-align: center; margin: 40px 0; color: blue; font-size: larger;"]
+##[style='box-sizing: border-box; position: relative; left: 0px; z-index: 912944; text-indent: -10em;']
 ##[style='text-align: center; margin: 40px 0; color: blue; font-size: larger;']
 ##[style='top: 0vw; display: block;']
 ##[style='top: 16.4vw; display: block;']
@@ -2759,6 +2760,7 @@
 ##body#nr_body font > [id]
 ##body#nr_body.nr_all.c_nr > div > div[id][class] > [href]
 ##body#nr_body.nr_all.c_nr > div[class] > DIV[style='height:90px;width:100%;']
+##body#nr_body.nr_all.c_nr > section[id]
 ##body.active > div.myui-panel > DIV#home_slide
 ##body.bg_xin > A[href*='com:'][target='_blank']
 ##body.chapter > div.container div.slide-baidu *
@@ -5078,6 +5080,7 @@ $websocket,domain=5nj.com|cechi8.com
 .xyz/*.sdk?$script,third-party
 .xyz/*0*0*==$third-party
 .xyz/*?16$third-party
+.xyz/*_*_*.js$third-party
 .xyz/99x/
 .xyz/?ch=ssmh
 .xyz/?channelCode=$csp=script-src
@@ -38157,6 +38160,7 @@ zzzyk.com###Tinfo
 ||01tn.cn^
 ||01u.net/js/tj.js
 ||021jf.com^*.gif
+||022003xs.com^
 ||022aifang.com^
 ||022hfxx.cn^
 ||023hysj.com^
@@ -42387,6 +42391,7 @@ zzzyk.com###Tinfo
 ||9ku.com/aaa/
 ||9kvnwwkj.pandasuite.io^
 ||9kz9cttz76.antonsten.com^
+||9miwo.com^
 ||9nwg9sib9e.com^
 ||9odes.ltd^
 ||9purdfe9xg.com^
