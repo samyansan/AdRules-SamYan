@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-06 14:12:50
-! Total count: 113831
+! Version: 2023-05-06 20:18:27
+! Total count: 113840
 
 ###AdBlockDialog
 ###Ad_windows
@@ -1477,6 +1477,7 @@
 ##[class^="col"][class*="padding-0"] > [style]
 ##[class^="footer-ad"]
 ##[class^="naicon btn btn-raised"]
+##[class^="navi"] > [class^="appico"]
 ##[class^="player-advertising"]
 ##[class^="player-rm"][class*="rm-two"][class*="rm-list"] > a
 ##[class^="stsxxgtv_"]
@@ -2176,9 +2177,11 @@
 ##a[href="紳士冒險"][target="_blank"]
 ##a[href="賢者同盟"][target="_blank"]
 ##a[href] > img[id][src*="hdslb.com"]
+##a[href][target="_blank"] > img[id*="GGADIMG"]
 ##a[href][target="_blank"] > img[referrerpolicy="no-referrer"][src*=".yximgs.com/"]
 ##a[href][target="_blank"] > img[src*="img.souche.com"][src$=".gif"]
 ##a[href][target="_blank"] > img[src="https://vip2.loli.io"]
+##a[href][target="_blank"] > img[src][alt="xxx"]
 ##a[href][target="_blank"] > img[src][class="topline"]
 ##a[href][target="_blank"] > img[src^="images/gg/"][alt]
 ##a[href][target="_blank"][onclick*="广告"]
@@ -25967,13 +25970,13 @@ $websocket,domain=5nj.com|cechi8.com
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#@?#:-abp-has(>script[src*=".realsrv.com"])
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[class^="bot-"]
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='photo_center_']
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##a[target="_blank"] > img[alt][src$=".gif"]
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group#DIV.bot-per-times
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jmcomic1.group##[class$="_b"]
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jmcomic1.group##a[target="_self"] > img[alt][src]
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jm-comic1.cc,jm-comic2.cc##[class$="_b"]
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jm-comic1.cc,jm-comic2.cc##[class^="bot-"]
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jm-comic1.cc,jm-comic2.cc##a[target="_blank"] > img[alt][src$=".gif"]
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jm-comic1.cc,jm-comic2.cc##a[target="_self"] > img[alt][src]
 18comic.vip##IMG[src^='//18comic.vip/media/albums/']
 18comic.vip##div[data-group^="skyscraper_"]
 18comic.vip#?#.thumb-overlay-albums > div[class][data-group^="photo_center_games_"]:has(> a[target="_blank"] > img)
@@ -30655,6 +30658,7 @@ daz3d.ru,portfel.info##body > div[id][style="display: block;"]
 dazhutizi.net$$script[tag-content="onkeydown"]
 dbz-fantasy.com#@##adTeaser
 dc.console.aliyun.com###root > div.console-frame > div.new-product-small:first-child > img:last-child
+dc.fsecity.com#@#[onclick*="app"]
 dcard.tw#?##comment-anchor > section > div[style] > div[data-index]:has(> div[class] > div > div[id^="div-gpt-ad"])
 dcard.tw#?#div[data-index] > article:contains(贊助活動)
 dcfever.com##.col-md-right > div[style^="margin-bottom: 20px; text-align: center;"]
@@ -53186,6 +53190,7 @@ zzzyk.com###Tinfo
 ||bjbrsfh.cn^
 ||bjc.hrm.healthgrades.com^
 ||bjcathay.com/s?z=
+||bjcpjab.cn^
 ||bjcwwsc.xyz^
 ||bjdianyue.com^
 ||bjdqxt.com^
@@ -60643,8 +60648,6 @@ zzzyk.com###Tinfo
 ||ddwant.cn^
 ||ddxfhpuhfroier.com^
 ||ddxs.xyz^
-||ddyueshu.com/js/dj
-||ddyueshu.com/js/pfad
 ||de-de.siemensplmevents.com^
 ||de-go.experian.com^
 ||de-mi-nis-ner.info^
@@ -69911,6 +69914,7 @@ zzzyk.com###Tinfo
 ||gwertyuadf.com^
 ||gwf0.icu^
 ||gwg51.com^
+||gwide.xyz^
 ||gwmaajp.cn^
 ||gwmeinq.cn^
 ||gwmrb.cn^
@@ -76099,6 +76103,7 @@ zzzyk.com###Tinfo
 ||jxlida.ink^
 ||jxlqgs.com^
 ||jxmzyg.com^
+||jxncs1.com^
 ||jxnews.com.cn/assets/js/dspshow.js
 ||jxnews.com.cn/first/js/home/index_ad
 ||jxnews.com.cn^*_ad_
@@ -79812,6 +79817,7 @@ zzzyk.com###Tinfo
 ||lwddrhp.cn^
 ||lwfcipd.cn^
 ||lwgadm.com^
+||lwh147.xyz^
 ||lwhqa.xyz^
 ||lwjvyd.com^
 ||lwlqsgr.cn^
@@ -91284,6 +91290,7 @@ zzzyk.com###Tinfo
 ||recesslikeness.com^
 ||recesssignary.com^
 ||rechampouinerai.website^
+||recheatputs.com^
 ||recipe.rakuten.co.jp/webinfo/sp/ads/
 ||recipesunny.com^
 ||recipient-branch.staging.worldremit.com^
@@ -94978,6 +94985,7 @@ zzzyk.com###Tinfo
 ||shootplanesgos.com^
 ||shop.anu-cosme.com^
 ||shop.iwantclips.com^
+||shop.kicker.de^
 ||shop.simsim.in^
 ||shop.yipanhaocai.com^
 ||shopboxshopping.com^
@@ -96875,6 +96883,7 @@ zzzyk.com###Tinfo
 ||spaces.martela.com^
 ||spaces.martela.fi^
 ||spaceshipads.com^
+||spacetraveldin.com^
 ||spaciouslanentablelanentablepigs.com^
 ||spade.twitch.tv^
 ||spadeballroom.com^
