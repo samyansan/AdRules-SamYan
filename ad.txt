@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-11 02:16:46
-! Total count: 109908
+! Version: 2023-05-11 08:55:27
+! Total count: 109918
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -399,6 +399,7 @@
 ##.addddddwarp
 ##.adlistcss
 ##.adpc > .module
+##.adpc > .promote-link
 ##.ads
 ##.ads > #video_playr_sider
 ##.ads > a > img[src*=".sinaimg."]
@@ -8070,6 +8071,7 @@ $websocket,domain=5nj.com|cechi8.com
 /app_ad?_unused=
 /appendOmnitureTracking.
 /appier-track-
+/appnei-huodong.oss-
 /apps/misc.php?action=advert&
 /apstag.js
 /aptads/*
@@ -31681,7 +31683,8 @@ pc841.com,zol.com.cn##.today-hot-layer
 pcauto.com.cn##.ivy-250
 pcauto.com.cn##div[id^="middle_ad_"]
 pcbeta.com##+js(abort-on-stack-trace, document.createElement, make_rand_div)
-pcbeta.com#?##toptb ~ #wp > *:not(div):not(style):not(ul):not(script) + div[class][id]:has(div[style="display:none"])
+pcbeta.com#?#:matches-path(/^((?!forum.php).)*$/)#toptb ~ #wp > *:not(div):not(style):not(ul):not(script) + div[class][id]:has(div[style="display:none"])
+pcbeta.com#@?##toptb ~ #wp > *:not(div):not(style):not(ul):not(script) + div[class][id]:-abp-has(div[style="display:none"])
 pcbeta.com$$script[tag-content="window.slotbydup"]
 pcbeta.com$$script[wildcard="*!window.BAIDU_DUP*!window.BAIDU_DUP.load"]
 pcdown.net##.bzxz
@@ -32145,6 +32148,7 @@ rgmechanicsgames.com*VPN.exe
 ri1.site,www.wenxuecity.com###leftside
 ri1.site,www.wenxuecity.com###rightside
 riaway.com##.info_message_container
+right.com.cn###hd > div.wp > div.hdc > h2
 right.com.cn##a[href^="https://jd.dangbei.com/"]
 rijutv.co###JU
 rijutv.co##.container > div[style="height: 128px;"]
@@ -36388,6 +36392,7 @@ zzzyk.com###Tinfo
 ||3298834.notifysrv.com^
 ||329a540736.com^
 ||32c7e8d9a1.com^
+||32fi.com^
 ||32jiang.com^
 ||32xp.com/upimg/
 ||3300890.notifysrv.com^
@@ -52791,6 +52796,7 @@ zzzyk.com###Tinfo
 ||chenyanjiao.cn^
 ||chenyaxin.xyz^
 ||chenyt.club^
+||chenyuhuan.icu^
 ||chenyuzhou1.cn^
 ||chenze1.cn^
 ||cheon2buy.xyz^
@@ -57727,6 +57733,7 @@ zzzyk.com###Tinfo
 ||devlink.sprive.com^
 ||devlink.thebpr.com^
 ||devlinks.slicepay.in^
+||devofei.xyz^
 ||devoidsagacious.com^
 ||devotedfootprintsinterstate.com^
 ||devotedvarnish.com^
@@ -76183,6 +76190,7 @@ zzzyk.com###Tinfo
 ||ludesthat.club^
 ||ludicrousarch.com^
 ||ludicroussignify.com^
+||ludie.xyz^
 ||ludied.com^
 ||ludocsbho.com^
 ||ludwigreseise.tech^
@@ -88298,6 +88306,7 @@ zzzyk.com###Tinfo
 ||rhvdsplm.com^
 ||rhxdsplm.com^
 ||rhxshop.com^
+||rhxwnd.xyz^
 ||rhymezebra.com^
 ||rhythmmoney.com^
 ||rhythmxchange.com^
@@ -88342,6 +88351,7 @@ zzzyk.com###Tinfo
 ||riftindexesyourself.com^
 ||rigengjihua.cn/banner/
 ||rigfoxcup.site^
+||right.com.cn/forum/static/image/common/logo
 ||right.com.cn/forum/static/image/common/logo*.gif
 ||right.com.cn/logo/*.gif
 ||right.com.cn/logo/yyb.png

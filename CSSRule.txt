@@ -391,6 +391,7 @@
 ##.addddddwarp
 ##.adlistcss
 ##.adpc > .module
+##.adpc > .promote-link
 ##.ads
 ##.ads > #video_playr_sider
 ##.ads > a > img[src*=".sinaimg."]
@@ -8355,7 +8356,8 @@ pc841.com,zol.com.cn##.today-hot-layer
 pcauto.com.cn##.ivy-250
 pcauto.com.cn##div[id^="middle_ad_"]
 pcbeta.com##+js(abort-on-stack-trace, document.createElement, make_rand_div)
-pcbeta.com#?##toptb ~ #wp > *:not(div):not(style):not(ul):not(script) + div[class][id]:has(div[style="display:none"])
+pcbeta.com#?#:matches-path(/^((?!forum.php).)*$/)#toptb ~ #wp > *:not(div):not(style):not(ul):not(script) + div[class][id]:has(div[style="display:none"])
+pcbeta.com#@?##toptb ~ #wp > *:not(div):not(style):not(ul):not(script) + div[class][id]:-abp-has(div[style="display:none"])
 pcdown.net##.bzxz
 pcdown.net##.sort_list > .clearfix:first-child
 pcdown.net,xz7.com##.bzxz
@@ -8788,6 +8790,7 @@ rfidworld.com.cn##div[style="width: 100%;position: fixed;top: 0;margin:0;"]
 ri1.site,www.wenxuecity.com###leftside
 ri1.site,www.wenxuecity.com###rightside
 riaway.com##.info_message_container
+right.com.cn###hd > div.wp > div.hdc > h2
 right.com.cn##a[href^="https://jd.dangbei.com/"]
 rijutv.co###JU
 rijutv.co##.container > div[style="height: 128px;"]
