@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-14 08:58:42
-! Total count: 110065
+! Version: 2023-05-14 14:12:41
+! Total count: 110078
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -90,6 +90,7 @@
 ###bottom-gg1
 ###bottomAD
 ###bottomNavad
+###bottom_ads.hl_bottom_ads
 ###bottombanner
 ###breadCrumb + .c + .t[style="margin-top:8px"]
 ###breadCrumb + .t[style="margin-top:8px"]
@@ -816,6 +817,7 @@
 ##A[href*='//v.wanfumei.net']
 ##A[href*='/adjump/?']
 ##A[href*='com:'] > IMG[src],A[href*='cc:'] > IMG[src]
+##A[href*='jialu6699h.vip']
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href='/?'][target='_blank']
 ##A[href='/hth.html']
@@ -855,6 +857,7 @@
 ##DIV.JS_mid_ad
 ##DIV.ad-area.ad-area-fix-bottom
 ##DIV.ad_js
+##DIV.adj
 ##DIV.advertisingConfiguration
 ##DIV.appdownload_ad
 ##DIV.bot-per-context[data-width='728'][data-height='90']
@@ -3223,6 +3226,7 @@ $websocket,domain=5nj.com|cechi8.com
 .cn/gg/*?x=$script,third-party
 .cn/jc.gif?
 .cn/js/ads/
+.cn/o.js$third-party
 .cn/pv.gif?
 .cn/r.gif?
 .cn/s.gif?
@@ -41083,6 +41087,7 @@ zzzyk.com###Tinfo
 ||aag.yahooapis.jp^
 ||aagbvpgc.com^
 ||aagm.link^
+||aagomsi.xyz^
 ||aahimxmfr.com^
 ||aajmmd.aireuropa.com^
 ||aajxkw.mootoon.co.kr^
@@ -44159,6 +44164,7 @@ zzzyk.com###Tinfo
 ||akwiqx.jdsports.be^
 ||akwxtceohbmu.xyz^
 ||akxml.nativeadsfeed.com^
+||akyei.xyz^
 ||akzvponimot.com^
 ||al.airtel.in^
 ||al.autohome.com.cn^
@@ -61684,6 +61690,7 @@ zzzyk.com###Tinfo
 ||eudoxia-myr.com^
 ||euizhltcd6ih.com^
 ||eujxqgh.cn^
+||eulaliadoradl.com^
 ||eule1.pmu.fr^
 ||eule3.pmu.fr^
 ||eule4.pmu.fr^
@@ -67870,6 +67877,7 @@ zzzyk.com###Tinfo
 ||hl.jinchaovetoer.com^
 ||hladalliance.com^
 ||hlalliances.com^
+||hldwdz.xyz^
 ||hldxvloxsxqqg.com^
 ||hlggimg.com^
 ||hlgglm.com^
@@ -69186,6 +69194,7 @@ zzzyk.com###Tinfo
 ||ifaeqvt.cn^
 ||ifaupsoo.com^
 ||ifautzg.cn^
+||ifbqves.cn^
 ||ifc-edu.cn^
 ||ifc-edu.cn^$third-party
 ||ifdilptsw.com^
@@ -72289,6 +72298,7 @@ zzzyk.com###Tinfo
 ||jrtwi.xyz^
 ||jrucbb.guestreservations.com^
 ||jrysogsia.uno^
+||jrzaht.xyz^
 ||jrzj.com/images/bgright_ad.jpg
 ||jrzj.com/img_index/*adv
 ||jrzj.com/img_index/guanggao
@@ -101120,6 +101130,7 @@ zzzyk.com###Tinfo
 ||u98l6o.online^
 ||u98ql6o.top^
 ||ua.indianexpress.com^
+||uaaftpsy.com^
 ||uacabilqlgpw.cdnvideo3.com^
 ||uads.cc^
 ||uads.shop^
@@ -103416,6 +103427,7 @@ zzzyk.com###Tinfo
 ||waitressdivisionspring.com^
 ||waituo.ren^
 ||waiwodemanila.com^
+||waixinren.ren^
 ||waiyuyou.com^
 ||waizongguan.net^
 ||wake-up-neo.com/bnet/
@@ -107038,6 +107050,7 @@ zzzyk.com###Tinfo
 ||xpst0kx.cn^
 ||xpxmpf.cn^
 ||xpyccf.jdsports.fi^
+||xpynqq.com^
 ||xpysozb.cn^
 ||xq12.com^$third-party
 ||xqcjfcb.cn^
