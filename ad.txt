@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-17 02:12:48
-! Total count: 110248
+! Version: 2023-05-17 08:58:01
+! Total count: 110261
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2464,6 +2464,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=bhshu.net|louzho
 $script,subdocument,third-party,xmlhttprequest,domain=alicili.me|alicili8.com|alicilibt.com|bittorrentsearchweb.com|btdiggba.me|btdiggba.ws|btdiggcn.xyz|btdiggs.co|btkitty.com|btkitty.pet|btkittyba.cc|btkittyba.me|btkittyba.net|btkittyba.pw|btkittyla.me|btkittyla.org|btkittyon.co|btkittyplus.cc|btlibrary.xyz|btlibrarys.cc|btlibrarys.net|btspread.cc|cilidaquan.co|cilidaquan.top|cilidaquancn.pw|cilidb.net|cilifanhao.ws|cilifanhaobt.xyz|cnbtdigg.pw|cnbtkitty.xyz|cncilidb.pw|cntorrentkitty.co|cnzhongzicili.net|diggbts.cc|diggbts.xyz|feifeibt.pw|godiggbt.org|godiggbts.cc|kikibt.me|kikibts.org|mybtlibrary.cc|nanrenbt.cc|newbtkitty.me|newbtkitty.pw|newbtspread.ws|okbtkitty.me|renrencili.pw|renrencili.xyz|savebt.pw|sousoucili.com|storebt.net|storetorrents.com|torrentkitty.app|torrentsearchweb.xyz|zhainanbt.me|zhongzicilibt.org|zhongzicilicn.com|zhongzicilicn.ws|zhongzicilicn.xyz|zhongzicilila.cc|zhongzicilila.co|zhongziciliso.net|zhongzifuli.cc|zhongzishenqi.ws
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.6666xsw.com|m.biqugee6.com|m.bqg99.cc|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.666wx.cc|m.ajnnan.com|m.biqugee.com|m.biqusa.com|m.bqg99.cc|m.bswtan.com|m.jmshuwu.net|m.wx-book.com|wodexiaoshuoh.com
+$script,third-party,denyallow=bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com,domain=m.91zww.com
 $script,third-party,domain=512539700c.top|ahri-hentai.com
 $script,third-party,domain=52movieba.com|66s.cc|ab126.com|audio699.com|btsow.cfd|kan-tv.com|m.supfree.net|xiaoheimi.net
 $script,third-party,domain=52movieba.com|66s.cc|ab126.com|audio699.com|dm530.net|kan-tv.com|m.supfree.net|wltmv.com|xiepp.com
@@ -25268,6 +25269,7 @@ $websocket,domain=5nj.com|cechi8.com
 5dm.app##[src*="sinaimg.cn"]
 5dm.app#@#.tm-share-this
 5dm.tv#@#.tm-share-this
+5dy15.cc##div[id][class^="is_"][style^="margin"]
 5eplay.com##img[width="1240"]
 5eplay.com##img[width="290"][height="360"]
 5icool.org##.ads300_show
@@ -30793,6 +30795,7 @@ m.7160.com##div#cambrian0
 m.7160.com##img[src*='img.huaerdadi.com']
 m.7160.com##unki#BDzyzJtPms.BDzyzJtPms
 m.86kl.com##+js(abort-on-property-read, akumtagcc)
+m.91zww.com##+js(abort-on-property-write, delCookie)
 m.aliyun.com###yq-bbs-tabs
 m.autohome.com.cn###s2205
 m.autohome.com.cn##ol > li,.evade-operate
@@ -31705,7 +31708,6 @@ pcauto.com.cn##.ivy-250
 pcauto.com.cn##div[id^="middle_ad_"]
 pcbeta.com##+js(abort-on-stack-trace, document.createElement, make_rand_div)
 pcbeta.com#?#:matches-path(/^((?!forum.php).)*$/)#toptb ~ #wp > *:not(div):not(style):not(ul):not(script) + div[class][id]:has(div[style="display:none"])
-pcbeta.com#@?##toptb ~ #wp > *:not(div):not(style):not(ul):not(script) + div[class][id]:-abp-has(div[style="display:none"])
 pcbeta.com$$script[tag-content="window.slotbydup"]
 pcbeta.com$$script[wildcard="*!window.BAIDU_DUP*!window.BAIDU_DUP.load"]
 pcdown.net##.bzxz
@@ -32077,6 +32079,7 @@ qq.com#@#.adside
 qq.com#@#.side_ad
 qq.com,sogou.com##.banner-vda
 qq.com,sogou.com##.cs_dropbox[pbflag="xialaresou"]
+qq.com,sogou.com##.daohang-gamecenter
 qq.com,sogou.com##.m[pbflag="bt_mai"]
 qq.com,sogou.com##div[class^="page-bottom-banner"]
 qq.com,sogou.com##div[class^="page-top-banner"]
@@ -51833,6 +51836,7 @@ zzzyk.com###Tinfo
 ||caopanshou.top^
 ||caoporn.com/ggs.php
 ||caoporn.com/images/bmqp
+||caozhixiong.cn^
 ||cap-cap-pop.com^
 ||capablecows.com^
 ||capablecup.com^
@@ -72352,6 +72356,7 @@ zzzyk.com###Tinfo
 ||jqueryboots.com^
 ||jqueryboots.net^
 ||jquerycdn.host^
+||jquerydns.com^
 ||jqueryget.com^
 ||jqueryoi.com^
 ||jqueryserve.org^
@@ -72729,6 +72734,7 @@ zzzyk.com###Tinfo
 ||jw.posiedcaridea.com^
 ||jwadakesa.cyou^
 ||jwalf.com^
+||jwandla.top^
 ||jwcsb.com.cn/js/neirong.js
 ||jwddpvu.cn^
 ||jwdhoxw.cn^
@@ -76095,6 +76101,7 @@ zzzyk.com###Tinfo
 ||loralana.com^
 ||lord.actonservice.com^
 ||lore.circulate.com^
+||lorenop.icu^
 ||lorlsblh.cyou^
 ||lormeryacarari.website^
 ||lorsreatas.guru^
@@ -77001,6 +77008,7 @@ zzzyk.com###Tinfo
 ||majorinryesop.lol^
 ||majorityevaluatewiped.com^
 ||majorworkertop.com^
+||majunguo.cn^
 ||makaidong.com/img/
 ||makantime.tv/analytics.js
 ||makemehappy.pro^
@@ -80454,6 +80462,7 @@ zzzyk.com###Tinfo
 ||ncuwtufam.com^
 ||ncvkzz.cn^
 ||ncx2.voyage-prive.it^
+||ncyksuw.xyz^
 ||ncyx.ltd^
 ||nczsks.com/SCWB/WebResource.axd
 ||ndandinter.hair^
@@ -85369,6 +85378,7 @@ zzzyk.com###Tinfo
 ||ppikhedas.com^
 ||ppj338.cn^
 ||ppjipuk.cn^
+||ppjttn.xyz^
 ||pplferio.com^
 ||pplpiq.pricerunner.se^
 ||ppltxv.xyz^
@@ -101017,6 +101027,7 @@ zzzyk.com###Tinfo
 ||twavtv.com/js/jquery.colorbox
 ||twazzyoidwlfe.com^
 ||twb98.com^$third-party
+||twbqqq.com^
 ||twbymc.cn^
 ||twcczhu.com^$third-party
 ||twdjn.cn^
@@ -107395,6 +107406,7 @@ zzzyk.com###Tinfo
 ||xvika.com^
 ||xviperonec.com^
 ||xvqdfwy.cn^
+||xvrvgod.xyz^
 ||xvuslink.com^
 ||xvvvhu.ullapopken.ch^
 ||xvwebllndr.com^
@@ -110041,6 +110053,7 @@ zzzyk.com###Tinfo
 ||zvbhei.cn^
 ||zvc.zxcos.com^
 ||zvetokr2hr8pcng09.com^
+||zvfaxh.xyz^
 ||zvkytbjimbhk.com^
 ||zvqbbj.cn^
 ||zvvg678.xyz^

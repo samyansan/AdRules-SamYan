@@ -3360,6 +3360,7 @@
 5dm.app##[src*="sinaimg.cn"]
 5dm.app#@#.tm-share-this
 5dm.tv#@#.tm-share-this
+5dy15.cc##div[id][class^="is_"][style^="margin"]
 5eplay.com##img[width="1240"]
 5eplay.com##img[width="290"][height="360"]
 5icool.org##.ads300_show
@@ -7526,6 +7527,7 @@ m.7160.com##div#cambrian0
 m.7160.com##img[src*='img.huaerdadi.com']
 m.7160.com##unki#BDzyzJtPms.BDzyzJtPms
 m.86kl.com##+js(abort-on-property-read, akumtagcc)
+m.91zww.com##+js(abort-on-property-write, delCookie)
 m.aliyun.com###yq-bbs-tabs
 m.autohome.com.cn###s2205
 m.autohome.com.cn##ol > li,.evade-operate
@@ -8371,7 +8373,6 @@ pcauto.com.cn##.ivy-250
 pcauto.com.cn##div[id^="middle_ad_"]
 pcbeta.com##+js(abort-on-stack-trace, document.createElement, make_rand_div)
 pcbeta.com#?#:matches-path(/^((?!forum.php).)*$/)#toptb ~ #wp > *:not(div):not(style):not(ul):not(script) + div[class][id]:has(div[style="display:none"])
-pcbeta.com#@?##toptb ~ #wp > *:not(div):not(style):not(ul):not(script) + div[class][id]:-abp-has(div[style="display:none"])
 pcdown.net##.bzxz
 pcdown.net##.sort_list > .clearfix:first-child
 pcdown.net,xz7.com##.bzxz
@@ -8726,6 +8727,7 @@ qq.com#@#.adside
 qq.com#@#.side_ad
 qq.com,sogou.com##.banner-vda
 qq.com,sogou.com##.cs_dropbox[pbflag="xialaresou"]
+qq.com,sogou.com##.daohang-gamecenter
 qq.com,sogou.com##.m[pbflag="bt_mai"]
 qq.com,sogou.com##div[class^="page-bottom-banner"]
 qq.com,sogou.com##div[class^="page-top-banner"]
