@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-27 08:58:14
-! Total count: 110598
+! Version: 2023-05-27 14:12:29
+! Total count: 110607
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -511,6 +511,7 @@
 ##.couplet_9cb0d
 ##.ctm_ad
 ##.cui-pt-item[data-qhb]
+##.cupfox-content.right,.cupfox-content.left
 ##.customSlideshow-ad-below
 ##.d_banner_inner
 ##.davwheat-ad
@@ -3504,6 +3505,7 @@ $websocket,domain=5nj.com|cechi8.com
 .com:12289/$script,third-party
 .com:2516/code/
 .com:8001/*/*?t=$3p
+.com:8010/cc/
 .com:91/Runtime/js/psCreat.js
 .com:9120/discor_list.js
 .composeTrack.htm
@@ -27117,7 +27119,11 @@ baidu.com##.wgt-bottom-union
 baidu.com##.wgt-income-money
 baidu.com##.wgt-union
 baidu.com##.yitiao-box
+baidu.com##DIV#page-copyright.se-page-copyright.se-copyright-zbios[style='margin-bottom: 50px;']
+baidu.com##DIV.barea-ad
 baidu.com##DIV.c-result.result[srcid='mkt_ad_space']
+baidu.com##DIV[data-module='rec:undefined-undefined']
+baidu.com##DIV[data-module='swan-ad-fc-feed'] DIV[sid][posid][prank]
 baidu.com##[class^='ball-wrapper']
 baidu.com##a.ball-wrapper__3BTBO.c-blocka
 baidu.com##div#J-super-layer-promote
@@ -30857,12 +30863,8 @@ m.baidu.com##.square-banner-bgicon.index-banner
 m.baidu.com##.square-enterance
 m.baidu.com##.suggest-hot
 m.baidu.com##DIV#page-copyright.se-page-copyright.se-copyrig
-m.baidu.com##DIV#page-copyright.se-page-copyright.se-copyright-zbios[style='margin-bottom: 50px;']
-m.baidu.com##DIV.barea-ad
 m.baidu.com##DIV.brand-entry
 m.baidu.com##DIV[class='egg-red-envelope']
-m.baidu.com##DIV[data-module='rec:undefined-undefined']
-m.baidu.com##DIV[data-module='swan-ad-fc-feed'] DIV[sid][posid][prank]
 m.baidu.com##DIV[style='display:flex;flex:1;']
 m.baidu.com##DIV[style='flex:1;color:#333;font-family:PingFangSC-Regular;text-align:left;padding:9px 0 0 6px;']
 m.baidu.com##DIV[style='position: fixed; display: block; bottom: 0px; left: 0px; z-index: 300; width: 100%; height: 52px; background: rgb(255, 255, 255); opacity: 1; border-top: 1px solid rgb(224, 224, 224);']
@@ -49146,6 +49148,7 @@ zzzyk.com###Tinfo
 ||bdnvklavbklabl.com^
 ||bdoaustralia.bdo.com.au^
 ||bdpuaw.com^
+||bdpxghphiwykioy.com^
 ||bdqjqfqyw.xyz^
 ||bdrzxp.xyz^
 ||bdstatic.com/5bVYsj_p_tVS5dKfpU_Y_D3/data/5e4103a342883a925a81aea7fe356bef
@@ -51198,6 +51201,7 @@ zzzyk.com###Tinfo
 ||bugs2022.com^
 ||buhatfjrk9dje10eme.com^
 ||buhftxfmqxdww.xyz^
+||buhlvain.com^
 ||buikolered.com^
 ||buildinghygienicfloating.com^
 ||buildingknife.com^
@@ -67097,6 +67101,7 @@ zzzyk.com###Tinfo
 ||handanxinkai.com^
 ||handbagadequate.com^
 ||handbagcordial.com^
+||handbaggather.com^
 ||handingfama.com^
 ||handjob.tw/ad/
 ||handkerchiefpersonnel.com^
@@ -72918,6 +72923,7 @@ zzzyk.com###Tinfo
 ||juzi6.com/js/gd.js
 ||juzwrl.xyz^
 ||jv.curiousuraemia.com^
+||jv0rlf.com^
 ||jvkckeg.cn^
 ||jvmxrug.xyz^
 ||jvpook.cn^
@@ -78916,6 +78922,7 @@ zzzyk.com###Tinfo
 ||mfjpwroy.com^
 ||mfk-cpm.com^
 ||mfmkpjkivpbvr.com^
+||mfoevvy.com^
 ||mftracking.com^
 ||mfvspw.munchkin.com^
 ||mfwlis.xyz^
@@ -85872,6 +85879,7 @@ zzzyk.com###Tinfo
 ||primevalrespectful.com^
 ||primevalstork.com^
 ||primevalsymphonymuttering.com^
+||princesinistervirus.com^
 ||princessallotgather.com^
 ||princesses.asia^
 ||principles.wang^
@@ -98413,6 +98421,7 @@ zzzyk.com###Tinfo
 ||tipcupids.com^
 ||tippcom01.tipp24.com^
 ||tipstats.onepagelove.com^
+||tiptoesstbd.com^
 ||tiptoptube.com^
 ||tiqu.io^
 ||tiredbishop.com^
