@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-30 14:13:09
-! Total count: 110725
+! Version: 2023-05-30 20:23:10
+! Total count: 110728
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -32616,6 +32616,7 @@ so.com$$div[id="remind_container"]
 so.com$$script[tag-content="realTimeNewsData"]
 so.com$$script[wildcard="*realTimeNewsData*"]
 so.lenovo.com.cn##.AdSite
+so.toutiao.com##DIV[id^='ad_']
 so.toutiao.com##section.commonbox.hasfooter
 sobaigu.com##a[href^="https://cloud.tencent.com/redirect.php?"][target="_blank"][rel="noopener"] > img
 sockscap64.com#@#.adsbygoogle
@@ -38173,6 +38174,7 @@ zzzyk.com###Tinfo
 ||668559.com^$third-party
 ||6686bb.app^
 ||66885aaa.com^
+||6696q.com^
 ||66993.top^
 ||66996.top^
 ||66997.top^
@@ -41289,6 +41291,7 @@ zzzyk.com###Tinfo
 ||abc.rwpt.top^
 ||abc.yebaike.com^
 ||abc2.mobile-10.com^
+||abc748596aaa.vip^
 ||abc88866.com^
 ||abc98.cc^
 ||abcache.com/tg/
