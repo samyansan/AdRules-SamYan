@@ -3704,6 +3704,7 @@ aiyuke.com##.igamead
 aizhan.com###all_text_content
 aizhan.com###home_text_content
 aizhan.com##.btn
+ala.baidu.com##.tbui_aside_float_bar + .clearfix
 alexa.cn##.importantList
 alexa.cn##.importantTop
 ali213.net###ali-js-4
@@ -9387,7 +9388,7 @@ t.qq.com###homeBannerNew
 t.qq.com###talkList > li[ispopula="1"][tv="2"]
 t66y.com##+js(nano-setTimeout-booster, adhtml, 10005)
 t66y.com##+js(nano-setTimeout-booster, blockText, 1005)
-t66y.com##+js(no-setTimeout-if, tpcHtml)
+t66y.com##+js(no-setTimeout-if, /tpc[0-9]?Html/)
 t66y.com##.sptable_do_not_remove
 t66y.com##.tips
 t66y.com##.tpc_content.do_not_catch > a[target="_blank"]

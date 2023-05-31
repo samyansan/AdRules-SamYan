@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-31 02:12:55
-! Total count: 110755
+! Version: 2023-05-31 09:03:51
+! Total count: 110765
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -26775,6 +26775,7 @@ aizhan.com###all_text_content
 aizhan.com###home_text_content
 aizhan.com##.btn
 aizhange.com$$a[href="http://www.aizhange.com/"]
+ala.baidu.com##.tbui_aside_float_bar + .clearfix
 alexa.cn##.importantList
 alexa.cn##.importantTop
 ali213.net###ali-js-4
@@ -32832,7 +32833,7 @@ t.qq.com###homeBannerNew
 t.qq.com###talkList > li[ispopula="1"][tv="2"]
 t66y.com##+js(nano-setTimeout-booster, adhtml, 10005)
 t66y.com##+js(nano-setTimeout-booster, blockText, 1005)
-t66y.com##+js(no-setTimeout-if, tpcHtml)
+t66y.com##+js(no-setTimeout-if, /tpc[0-9]?Html/)
 t66y.com##.sptable_do_not_remove
 t66y.com##.tips
 t66y.com##.tpc_content.do_not_catch > a[target="_blank"]
@@ -58037,6 +58038,7 @@ zzzyk.com###Tinfo
 ||dfdbz2tdq3k01.cloudfront.net^
 ||dfdjilnzqgtow.com^
 ||dfearinglestpeople.com^
+||dfec2.com^
 ||dfepm.xyz^
 ||dfes68.com^
 ||dffpxg.targus.com^
@@ -62830,6 +62832,7 @@ zzzyk.com###Tinfo
 ||fbu8.montecarloseasonalsale.com^
 ||fbu8.ticket-online.montecarlolive.com^
 ||fbwvly.cn^
+||fbzmrgf.xyz^
 ||fc.gaizong.cn^
 ||fc.tiepan.cn^
 ||fc.vodafone.de^
@@ -74650,6 +74653,7 @@ zzzyk.com###Tinfo
 ||laorncp.xyz^
 ||laowang81.com/getfuolist
 ||laoyg.com^
+||laozuo.org/banner/
 ||laozuo.org/banner/linode
 ||laozuo.org/wp-content/themes/weisaysimple/js/*-bottom.js
 ||laozuo.org/wp-content/themes/weisaysimple/js/banner.js
@@ -75873,6 +75877,7 @@ zzzyk.com###Tinfo
 ||livku.com/g1000/
 ||livorbarbes.com^
 ||liweidianqi.com/a*.js
+||liweiling.xyz^
 ||liwq.club^
 ||liwupuba.com/livead/
 ||liwxfq.customink.com^
@@ -81821,6 +81826,7 @@ zzzyk.com###Tinfo
 ||nubseech.com^
 ||nubvetsag.com^
 ||nucgsx.indestructibleshoes.com^
+||nucld.xyz^
 ||nucleo.online^
 ||nude.hu/html/track.js
 ||nudgedfardel.com^
@@ -89907,6 +89913,7 @@ zzzyk.com###Tinfo
 ||ruiwen.com/css_
 ||ruiwen.com/js/a/p.js
 ||ruiwen.com/js/p.js
+||ruiwen.com/jscss/
 ||ruiwen.com/sp/
 ||ruiy.shop^
 ||ruiyijy.xyz^
@@ -91887,6 +91894,7 @@ zzzyk.com###Tinfo
 ||shenkun.xyz^
 ||shenlinlive.cn^
 ||shenouth.com^
+||shentongjiakao.ren^
 ||shentupk85.com^
 ||shenwupower.com.cn^
 ||shenyunkeji.com^
@@ -101149,6 +101157,7 @@ zzzyk.com###Tinfo
 ||tseywo.com^
 ||tsguozikeji.cn^
 ||tsgyg.cn^
+||tshtbh.xyz^
 ||tshuxi.bbqguys.com^
 ||tsia1114.top^
 ||tsiwoulukdli.xyz^
@@ -108554,6 +108563,7 @@ zzzyk.com###Tinfo
 ||yingge.fun^
 ||yinghuacd.com/bar/
 ||yingjiawm.com^
+||yingnanyqq.com^
 ||yingnanyyds.com^
 ||yingshidaquan.cc^$third-party
 ||yingshizxw.com/js/tc/
