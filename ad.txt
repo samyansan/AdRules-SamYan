@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-31 09:03:51
-! Total count: 110765
+! Version: 2023-05-31 14:14:25
+! Total count: 110780
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1052,6 +1052,7 @@
 ##[style^='bottom: 0px; width: 100%; height: 50vw; position: fixed; left: 0px; right: 0px; margin: 0px; background: url("https://']
 ##[style^='position: fixed; bottom: 20%; z-index: 19999 !important; ']
 ##[style^='position: fixed; color: transparent; line-height: 100vh; width: 100vw; z-index: '][style*='; top: 0px; left: 0px;']
+##[style^='position: fixed; z-index: 2147483616; width: 10%; height: 32.5px;']
 ##a > I.gg-icon
 ##a > IMG[src$='.gif'][wapsrc][style^='width: 100%']
 ##a > img[src*="pic.rmb.bdstatic.com/"][src$=".gif"]
@@ -2118,6 +2119,7 @@
 ##body > DIV[class][style='top: 133px;']
 ##body > DIV[class][style^='bottom: '][style$='vw; display: block;']
 ##body > DIV[style*='height: 33px'][style*='132px !important;']
+##body > DIV[style='bottom: 130px;']
 ##body > DIV[style='display: block; width: 100%; height: 132px;']
 ##body > DIV[style='display: block; width: 100%; height: 133px;']
 ##body > [id][style*='width:100%'][style*='min-height:120px']
@@ -2130,6 +2132,7 @@
 ##body#nr_body.nr_all.c_nr > div > div[id][class] > [href]
 ##body#nr_body.nr_all.c_nr > div[class] > DIV[style='height:90px;width:100%;']
 ##body#nr_body.nr_all.c_nr > section[id]
+##body#wrapper A[ontouchstart='this.click();']
 ##body.active > div.myui-panel > DIV#home_slide
 ##body.bg_xin > A[href*='com:'][target='_blank']
 ##body.chapter > div.container div.slide-baidu *
@@ -2334,6 +2337,7 @@
 ##header + #main:nth-child(n+4) .container-fluid.mb-0.p-0
 ##header + #main:nth-child(n+4) .container-fluid.mb-3.p-0
 ##header + #main:nth-child(n+4) > div[id^="po-s"]:not(#po-shd)
+##html.wap [style='left: 40%;']
 ##iframe.ad-frame
 ##iframe[id^="google_ads_frame"]
 ##iframe[id^="google_ads_iframe"]
@@ -3976,6 +3980,7 @@ $websocket,domain=5nj.com|cechi8.com
 .xyz/js/ads/
 .xyz/mithril?$third-party
 .xyz/o.js
+.xyz/o.js$third-party
 .xyz/st?gp=*$third-party
 .xyz/svelte?$third-party
 .xyz/ui_
@@ -54041,6 +54046,7 @@ zzzyk.com###Tinfo
 ||cmdy5.com/js/waptbplay2.js
 ||cmfads.com^
 ||cmgjqqu.cn^
+||cmh2pw.com^
 ||cmhokiknvamu.xyz^
 ||cmkxvhgtgonfglg.xyz^
 ||cmm.xmfish.com^
@@ -64331,6 +64337,7 @@ zzzyk.com###Tinfo
 ||fultraightdec.xyz^
 ||fulvenebocca.com^
 ||fumanhua.*/images/g_js/$subdocument
+||fumanhua88.info^
 ||fumarinpest.com^
 ||fumblingform.com^
 ||fumblingselection.com^
@@ -73853,6 +73860,7 @@ zzzyk.com###Tinfo
 ||kmlxlkz.cn^
 ||kmmgoogle.oss-ap-southeast-1.aliyuncs.com^
 ||kmmsfoqbhc.xyz^
+||kmn1sk.com^
 ||kmnhbr.xyz^
 ||kmpjrjz.cn^
 ||kmpl.rnqxp.cn^
@@ -79687,6 +79695,7 @@ zzzyk.com###Tinfo
 ||mojing.xyz^
 ||mojiva.com^
 ||mojoaffiliates.com^
+||mojoplain.com^
 ||mokeylife.cn^
 ||mokibill.com^
 ||mokierokiloki.com^
@@ -85350,6 +85359,7 @@ zzzyk.com###Tinfo
 ||plkatdmeje.com^
 ||plkjia.top^
 ||plkmd.com^
+||plmn5.com^
 ||plocap.com^
 ||plokr.com^
 ||plosaztduojwbe.com^
@@ -85807,6 +85817,7 @@ zzzyk.com###Tinfo
 ||ppyibei.com^
 ||pq.carlingquerent.com^
 ||pqciix.busuu.com^
+||pqd.org^
 ||pqfgtp.cn^
 ||pqjprom.cn^
 ||pqldzp.xyz^
@@ -101165,6 +101176,7 @@ zzzyk.com###Tinfo
 ||tsiyun.cn^
 ||tsj0.madeindesign.com^
 ||tsk5.com/17*?*=ex-
+||tslianm.com^
 ||tslomhfys.com^
 ||tsmirk.xyz^
 ||tsml.fun^
@@ -101555,6 +101567,7 @@ zzzyk.com###Tinfo
 ||tybfxw.puma.com^
 ||tycc.info^
 ||tydouke.com^
+||tyed6.top^
 ||tyessulfone.com^
 ||tygeygrvvpjpcbr.com^
 ||tygotwakinrollet.xyz^
@@ -103003,6 +103016,7 @@ zzzyk.com###Tinfo
 ||vbieu.com^
 ||vbillplus.cn^
 ||vbinu.com^
+||vbnmjjda.xyz^
 ||vbsjdd.olx.pt^
 ||vbtrax.com^
 ||vbvpkdwucilopuw.xyz^
@@ -103881,6 +103895,7 @@ zzzyk.com###Tinfo
 ||vx.azuresjukes.com^
 ||vx2e.top^
 ||vx4n.icu^
+||vxhsj.cn^
 ||vxjcalk.cn^
 ||vxjjky.n-pri.jp^
 ||vxjoxg.jayjays.com.au^
