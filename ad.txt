@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-07 02:12:41
-! Total count: 111128
+! Version: 2023-06-07 09:06:26
+! Total count: 111142
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -28379,6 +28379,7 @@ douyu.com##.vcode9-sign
 douyu.com##a[href*=".miaozhen.com"]
 douyu.com##a[href*=".youzan.com"]
 douyu.com##a[href^="http://tracking.ad-survey.com/"]
+douyu.com##div[class^="ChargeTask"]
 douyu.com##div[id^="sign_p_"]
 douyu.com#?#.SharePanel:-abp-has(> .SharePanel-content > .SharePanel-contentTitle:-abp-contains(福利))
 douyu.com#?#.bc-wrapper:-abp-has(>.wm-view>div>.isLink[href*=".qualtrics.com/"])
@@ -31408,6 +31409,7 @@ mydrivers.com$$script[tag-content="a_showhotnews_list"]
 mydrivers.com,wmzhe.com##a[href*=".jd.com/"]
 myexception.cn##.c_a_3
 myexception.cn##.m_a
+myfreax.com#?#main > div.w-full:has(> ins.adsbygoogle)
 myhack58.com##.adv32
 myk3.com##a[href*="?aid="]
 mypianku.net##div[style*="background:url"]
@@ -32026,6 +32028,8 @@ qiushibaike.com##.shopwindow
 qiuw.com##.con > a:nth-child(n+2)
 qiuziti.com##.popularize
 qiuziti.com##.search_wordimg
+qiuziti.com##a[href^="https://www.hellofont.cn/"] > img
+qiuziti.com#@#.banner
 qixingquan.com##.zdm
 qixingquan.com##div[style="float:right;margin-bottom:6px;"]
 qiyeku.com###gg2_box
@@ -35802,6 +35806,7 @@ zzzyk.com###Tinfo
 ||1papa.top^
 ||1phads.com^
 ||1porp.top^
+||1ppt.com/ads.
 ||1pwx.com/js/ck.js
 ||1qlgi.top^
 ||1qm5.top^
@@ -63390,6 +63395,7 @@ zzzyk.com###Tinfo
 ||filgzukroj.com^
 ||filiatefinbone.uno^
 ||filippiwilled.uno^
+||fillhr.xyz^
 ||fillidutt.tw^
 ||fillsitsy.cam^
 ||filmaster.tv^*/flm.tracker.min.js
@@ -64810,6 +64816,7 @@ zzzyk.com###Tinfo
 ||g792337343.co^
 ||g8715710740.co^
 ||g8913795075.co^
+||g89zum.zaiceyjjqq.com^$domain=5yydstxt178.com
 ||g8ld.fun^
 ||g9111879410.co^
 ||g91games.com^
@@ -67035,6 +67042,7 @@ zzzyk.com###Tinfo
 ||guzaosf.com^
 ||guzhimian.fun^
 ||guzijie.top^
+||guzsjdl.cn^
 ||gv4e.top^
 ||gvcmiz3vze3n.com^
 ||gvhmoascwa.xyz^
@@ -73663,6 +73671,7 @@ zzzyk.com###Tinfo
 ||kefeng56.com^$third-party
 ||kegsandremembrance.com^
 ||kehalim.com^
+||kehbcv.top^
 ||keidweneth.com^
 ||keihel.com^
 ||keika.cyou^
@@ -77213,6 +77222,8 @@ zzzyk.com###Tinfo
 ||m.d11.io^
 ||m.da-gym.co.kr^
 ||m.danmeixsw.com/js/mwap.js
+||m.daomutxt.cc/dist/common.js
+||m.daomutxt.cc/js/
 ||m.data.mob.com^
 ||m.dglscm.cn^$third-party
 ||m.do.downcdn.top^
@@ -87119,6 +87130,7 @@ zzzyk.com###Tinfo
 ||pyhszs.cn^
 ||pyhuiyu.com^
 ||pyirw.xyz^
+||pyjqhb.xyz^
 ||pyk.in-neo.cn^
 ||pykgnuujfuq.com^
 ||pylon.micstatic.com^
@@ -89798,6 +89810,7 @@ zzzyk.com###Tinfo
 ||rsftjj.cn^
 ||rshi.club^
 ||rshrpmk.xyz^
+||rsinnxoe.com^
 ||rskillsplu.club^
 ||rsmdlk.cn^
 ||rsnignsz.xyz^
@@ -103040,6 +103053,7 @@ zzzyk.com###Tinfo
 ||ux.sapoaix.com^
 ||ux.withinshobbist.com^
 ||uxbd4id.xyz^
+||uxcnhsf.cn^
 ||uxdse.sugarshape.de^
 ||uxdwhatijun.xyz^
 ||uxlidt.ink^
