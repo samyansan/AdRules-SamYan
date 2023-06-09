@@ -2492,6 +2492,8 @@
 1090ys8.com,rouman5.com##a[href*="tyrantdb.com"]
 10co.biz,10co.xyz,10co.co,10co.me###popad
 10co.biz,10co.xyz,10co.co,10co.me#$##myTestAd { height: 1px!important; }
+10co.biz,10co.xyz,10co.co,10co.me#@#.ads-top
+10co.biz,10co.xyz,10co.co,10co.me#@#iframe[width="728"][height="90"]
 10fang.com##.botad
 10fang.com##.foldcss
 10fang.com##.pro-item
@@ -5192,6 +5194,7 @@ doubibackup.com##.guangg
 doubibackup.com##.new_zixun
 doubibackup.com##.widgetRoller
 doubibackup.com##a[href*="/rightad"]
+doubibackup.com##body div.guangg
 doudoudm.site##a[href*=".kxyike.com/"]
 doudoudm.site,ezdmw.com##.public_ad
 douguo.com##.mbs
@@ -5469,6 +5472,7 @@ efu.com.cn##div[class*="banner-"]
 ekamus.info##+js(no-setTimeout-if, ins.adsbygoogle)
 ekamus.info##+js(set-constant, isAdsDisplayed, true)
 ekamus.info#$#.adsbygoogle { height: 1px !important; }
+ekamus.info#@#.adsbygoogle
 elecfans.com###AdHtmlRight
 elecfans.com###MiddleLeaderboard
 elecfans.com###company-ad
@@ -6930,6 +6934,8 @@ itdog.cn##div[style="border: 1px solid #dadada;padding: 6px 10px 5px 5px;backgro
 itdog.cn#$#.left_link { height: 1px !important; }
 itdog.cn#$#.right-pic { height: 1px !important; }
 itdog.cn#?#.card:-abp-has(.partner>a[href*=".jimcloud.net"])
+itdog.cn#@#.div-top > div:last-child
+itdog.cn#@#.top_contents
 itheat.com##.hot_ad
 ithome.com###con > div[style="text-align:center"]
 ithome.com###hd_float1
@@ -7573,6 +7579,10 @@ m.86kl.com##+js(abort-on-property-read, akumtagcc)
 m.91zww.com##+js(abort-on-property-write, delCookie)
 m.aliyun.com###yq-bbs-tabs
 m.autohome.com.cn###s2205
+m.autohome.com.cn##.recommend-envelope
+m.autohome.com.cn##body > div[class]:first-child:not(.wrapper):not(.nav):not([id]):not([style])
+m.autohome.com.cn##body > section[class]:nth-child(4) > .assist
+m.autohome.com.cn##body > section[class]:nth-child(4) > .assist + i.icon-cross
 m.autohome.com.cn##ol > li,.evade-operate
 m.baidu.com###bottom
 m.baidu.com###header > div:nth-of-type(6)
@@ -7713,6 +7723,7 @@ m.weather.com.cn##html > body > div.main > div.ggModel.sixd-box-ad
 m.weather.com.cn##html > body > div.main > div.part-sk > div.vip-ad
 m.weather.com.cn##html > body > div.sixd-box-ad
 m.weather.com.cn##li:nth-of-type(4) > div
+m.xigua110.com##.ui-detail-info > div[style*="line-height:35px; text-align:center;"]
 m.youku.com##.Corner-container
 m.youku.com##.h5-detail-ad
 m.youku.com##body > [style="width: 100px; height: 100px; position: fixed; top: auto; right: 0px; bottom: 0px; left: auto; z-index: 188;"]:not([class]):not([id])
@@ -7774,6 +7785,7 @@ manhuagui.com##div[style^="width: 300px; height: 250px;"]
 manhuaren.com###lb-win
 manmanw.net##.tlads
 manwa.me##.ad-area > a
+manwa.me##.ad-area > a[target="_blank"]
 manwa.me#$#.ad-area { position: absolute !important; left: -3000px !important; }
 manwa.me#@#.ad-area
 manwa1.me,manwa2.me,manwa.me##DIV.swiper-container.swiper-container-horizontal
@@ -8191,6 +8203,7 @@ nfmovies.com##+js(no-setTimeout-if, /document\.getElementById[\s\S]*?\.style\.di
 nfmovies.com##.container > div.row > div.hy-layout > div.clearfix > a[href][target="_blank"] > img
 nfmovies.com##[onclick^="openurl()"]
 nfmovies.com##a[href][onclick^="openurl()"] img[src^="/static/"]
+nfmovies.com##body div[id^="aaaDiv"]
 nfmovies.com##div[id]:has(:scope >img[onclick="openurl()"])
 nfmovies.com##div[id^="sponsorAdDiv"]
 nfmovies.com##picture
@@ -8909,6 +8922,7 @@ ruanyifeng.com##div[style*="important"]
 ruanyifeng.com#?#.asset-content > p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p + p > img
 ruanyifeng.com#?#.asset-content > p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p > img
 ruanyifeng.com#@#a > img[src*="wangbase.com/blogimg/asset/"]
+ruanyifeng.com#@#a[href*="?utm_source="]
 ruanyifeng.com#@?#.asset-content > p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p + p > img
 ruanyifeng.com#@?#.asset-content > p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p > img
 ruian.com##.ad_opera
@@ -9413,6 +9427,8 @@ t66y.com##a[href^="http://www.viidii.info/?https://po88_"]
 t66y.com##a[href^="http://www.viidii.info/?https://po88_"] ~ :nth-child(-n+115)
 t66y.com#$?#.sptable_do_not_remove { display: block !important; visibility: hidden !important; }
 t66y.com#$?#.sptable_do_not_remove { visibility: hidden !important; }
+t66y.com#@#.sptable_do_not_remove
+t66y.com#@#.tips
 tahua.net###frameJjnBIp
 taian.com##.ggtp
 taihainet.com##.top-info
@@ -9603,7 +9619,24 @@ tsubasa.im##+js(no-setInterval-if, /home/?adblock=)
 tsubasa.im##+js(no-setTimeout-if, /home/?adblock=)
 tsubasa.im##+js(remove-class, d-none, body)
 tsubasa.im##+js(set-constant, compare_post, noopFunc)
+tsubasa.im#$#.adsbygoogle { position: absolute!important; left: -3000px!important; }
 tsubasa.im#?#.alert-adblock
+tsubasa.im#@#.ad_container
+tsubasa.im#@#.adholder2
+tsubasa.im#@#.adsbygoogle
+tsubasa.im#@#.adsbygoogle-noablate
+tsubasa.im#@#.pub_130x10
+tsubasa.im#@#.pub_300x250
+tsubasa.im#@#.pub_300x250m
+tsubasa.im#@#.pub_520x950
+tsubasa.im#@#.pub_728x90
+tsubasa.im#@#.pub_900x400
+tsubasa.im#@#.text-ad
+tsubasa.im#@#.text-ad-links
+tsubasa.im#@#.text-ads
+tsubasa.im#@#.textAd
+tsubasa.im#@#.text_ad
+tsubasa.im#@#.text_ads
 tt1069.com#@##adbrite
 tt776.com##iframe[src="/app/ad.html"]
 ttrar.com##.new_xzq
@@ -10083,6 +10116,15 @@ windowszj.com###system_type
 winning11cn.com##.eis_topad
 winning11cn.com##.hdc > div > div[align="center"]
 winshang.com##.ggwrap
+winwk.com#@#.pub_300x250
+winwk.com#@#.pub_300x250m
+winwk.com#@#.pub_728x90
+winwk.com#@#.text-ad
+winwk.com#@#.text-ad-links
+winwk.com#@#.text-ads
+winwk.com#@#.textAd
+winwk.com#@#.text_ad
+winwk.com#@#.text_ads
 wishdown.com##img[href*=".41gw.com/"]
 witcp.com##.global_ifmobile_mask
 wjx.cn###ctl01_ContentPlaceHolder1_divProMsg
