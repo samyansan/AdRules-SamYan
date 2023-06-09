@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # 下载规则
-curl -o i-1.txt https://code.gitlink.org.cn/api/v1/repos/keytoolazy/adblock/raw/adblock_lite
+curl -o i-1.txt https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt
 curl -o i-2.txt https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall.txt
 curl -o i-3.txt https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt
 curl -o i-4.txt https://raw.githubusercontent.com/xndeye/adblock_list/main/rule/dns.txt
