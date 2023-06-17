@@ -7555,7 +7555,6 @@ g.pconline.com.cn##DIV.jcz-brand
 gaara-fr.com###ga-skin-left
 gaara-fr.com###ga-skin-right
 gaara-fr.com###ga-skin-top
-gaara-fr.com###ga-skin-topdblock-killer/issues/635
 gaara-fr.com###pub01
 gaijin.at##.box_error.box_error_icon
 galacg.me##.sidebar-top
@@ -10756,6 +10755,9 @@ miercn.com##.show-img-box
 mihan.cc##.dpzihvkc
 mikanani.me##a[href][onclick*="'ad'"] > img[src^="/images/Masha/"]
 miliav.com##.b300
+military.china.com##.item_list > .medialist
+military.china.com##.slide_doubleimg > .baiBox
+military.china.com#$?#.slide_doubleimg > .baiBox { remove: true; }
 mimark1.wordpress.com##div#atatags-26942-5decd6c529f6e
 minecraftzw.com##.e3lan-top
 mingpao.com###photo_transition
@@ -14201,6 +14203,7 @@ wbiao.cn##.wb-panel
 wbzol.com##.sg
 wcjbb.com###frame37boCx
 wcjbb.com###frameo834m9
+wd.znds.com##.dxb_bc
 wdzj.com###footbanner
 wdzj.com###ggao-article-bottom
 wdzj.com##.adv-img
