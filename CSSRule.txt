@@ -977,6 +977,7 @@
 ##A.toptxt[target='_blank']
 ##ASIDE[id^='custom_html-']
 ##A[href*=".com/?Agent="]
+##A[href*=".taobao.com"] > .top1
 ##A[href*="emprestimo.eu"]
 ##A[href*="googleme.eu"]
 ##A[href*='//v.wanfumei.net']
@@ -3794,6 +3795,7 @@
 5dm.app##.top1
 5dm.app##[src*="sinaimg.cn"]
 5dm.app#@#.tm-share-this
+5dm.link#@#.tm-share-this
 5dm.tv#@#.tm-share-this
 5dy15.cc##div[id][class^="is_"][style^="margin"]
 5eplay.com##img[width="1240"]
@@ -6093,6 +6095,7 @@ ctwant.com##.l-ad__wrapper
 ctwant.com##.m-adpopup
 cupfox.app###page-wrap > div:nth-child(3)
 cupfox.app##.a2-box[class^="jsx-"]
+cupfox.app##.a3-box[class^="jsx-"]
 cupfox.app##.banner > div.banner-content.right
 cupfox.app##.banner-box
 cupfox.app##.cupfox-box
