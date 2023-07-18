@@ -582,6 +582,7 @@ yatu.tv,yhdm15.com##+js(set,document.oncontextmenu,trueFunc)
 yemancomic.com##div > center > strong > button[onclick^="window.location.href"]
 yhdmp.net##[style^='bottom:'][style$='block;']
 youtube.com##.masthead-ad-control, .ad-div, .pyv-afc-ads-container, #promotion-shelf
+youtube.com##AD-SLOT-RENDERER
 youtube.com##ytd-video-masthead-ad-advertiser-info-renderer, ytm-promoted-sparkles-web-renderer, ytd-promoted-sparkles-web-renderer
 youtube.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
