@@ -306,7 +306,7 @@
 ##div#content.content div[id] > DIV[style*='z-index: 2147483647']
 ##div#detail.selector-zero > div > DIV[style]
 ##div#gmright
-##div#h2_player_prevideo > A[href][target='_blank']!
+##div#h2_player_prevideo > A[href][target='_blank']
 ##div#header-wrapper.header_b > div#header
 ##div#hengfu_wap_vod_xia > a
 ##div#liveline > l,div#liveline > ll
@@ -436,9 +436,6 @@ dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,webkitRTCPeerConnection,null)
 dandanzan.com,dandanzan10.top,nunuyy5.org##.gm-fp-body video:style(max-height:100%!important)
 dandanzan.com,dandanzan10.top,nunuyy5.org#@#+js(nowebrtc)
 dm530p.net##DIV[style$='; display: block;']
-dmh8.me,dm88.me##DIV[style='display: flex;']
-dmh8.me,dm88.me##DIV[style^='background: url("http']
-dmh8.me,dm88.me##H2[style='display: block;']
 dongmanhuayuan.myheartsite.com##.card-body
 douyu.com##+js(set, RTCPeerConnection.prototype.addTrack, noopFunc)
 douyu.com##.Title-ad, .DropMenuList-ad, .DropPane-ad
@@ -470,6 +467,7 @@ le.com##.hv_wm_logo
 le.com##.min_pause_img
 luoqiuzw.com##DIV[id^="a-loading-"]
 m.autohome.com.cn##ol > li,.evade-operate
+m.douban.com##div.center [style*='padding: 4px;']
 m.guancha.cn##.g_header.go-to-app
 m.hupu.com##A[href^='https://mobile.yangkeduo.com/duo_transfer_channel.html']
 m.hupu.com##IMG[alt='NBA英雄'][width='94%']
@@ -485,7 +483,6 @@ m.qidian.com##P.text-content
 m.qilishusong.cn##[style*='display: block'],[style*='position: absolute; width: 100%;'],[style*='height:120px;']
 m.sm.cn##DIV[ad_seid],.dl-banner-lg.card
 m.youku.com,v.youku.com##+js(m3u-prune,'',/^https:\/\/[\w\.]+ott\.cibntv\.net.+?\.m3u8\?/)
-m.zzzfun.com###show-2415689770463175004-8179
 manwa.me#@#.ad-area
 manwa1.me,manwa2.me,manwa.me##.ad-area-close
 manwa1.me,manwa2.me,manwa.me##.swiper-container.swiper-container-horizontal
@@ -553,9 +550,6 @@ www.apkmirror.com##.ains.ains-has-label
 www.apkmirror.com##DIV[style$=' display: flex; justify-content: center; font-family: Roboto, Arial;']
 www.baidu.com###content_left > *:not([id]) *,[class="result c-container new-pmd"][id="1"][tpl="se_com_default"][data-click]
 www.dbbqb.com##.MuiPaper-root
-www.dmh8.me,dm88.me##CENTER
-www.dmh8.me,dm88.me##DIV[style^='position: fixed; bottom: 0px; display: block; opacity:']
-www.dmh8.me,dm88.me##DIV[style^='width:300px;height:300px;position:fixed;bottom:0;left:0;']
 www.ghxi.com##.wpcom_ad_wrap
 www.ghxi.com##DIV[style^='padding:10px;position: fixed;bottom: 0;left: 0;right:0;z-index: ']
 www.google.com,www.google.com.hk,www.google.co.jp##DIV[data-sokoban-container]:has([href*='%E2%9C%94%EF%B8%8F%E2%96%9B']),DIV[data-sokoban-container]:has([href*='%E3%80%90%E2%9C%94%EF%B8%8F']),DIV[data-sokoban-container]:has([href*='%E2%9E%BF%E3%80%91']),DIV[data-sokoban-container]:has([href*='%E2%8F%AA%29']),DIV[data-sokoban-container]:has([href*='%E2%9A%BD%E3%80%91']),DIV[data-sokoban-container]:has([href*='-%E3%80%90']),DIV[data-sokoban-container]:has([href*='%E2%9C%94%EF%B8%8F'][href*='%E2%98%80%EF%B8%8F']),DIV[data-sokoban-container]:has([href*='-('][href*='%E2%9C%94%EF%B8%8F']),DIV[data-sokoban-container]:has([href*='%E2%9C%94%EF%B8%8F%29']),DIV[data-sokoban-container]:has([href*='-%E2%9C%94%EF%B8%8F']),DIV[data-sokoban-container]:has([href*='%E2%9C%94%EF%B8%8F']),DIV[data-sokoban-container]:has([href*='%E2%9C%85%EF%B8%8F']),DIV[data-sokoban-container]:has([href*='%E2%9E%A1%EF%B8%8F']),DIV[data-sokoban-container]:has([href*='%E2%AD%90']),DIV[data-sokoban-container]:has([href*='%E3%8A%99%EF%B8%8F'])
@@ -588,7 +582,6 @@ ximalaya.com##.change-logo.S_q,.packet-container._PC,.less-tips._PC *
 yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
 yatu.tv,yhdm15.com##+js(set,document.oncontextmenu,trueFunc)
 yemancomic.com##div > center > strong > button[onclick^="window.location.href"]
-yhdmp.net##[style^='bottom:'][style$='block;']
 youtube.com##.masthead-ad-control, .ad-div, .pyv-afc-ads-container, #promotion-shelf
 youtube.com##AD-SLOT-RENDERER
 youtube.com##ytd-video-masthead-ad-advertiser-info-renderer, ytm-promoted-sparkles-web-renderer, ytd-promoted-sparkles-web-renderer
