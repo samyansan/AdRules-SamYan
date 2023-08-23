@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-08-23 14:13:23
-! Total count: 114301
+! Version: 2023-08-23 20:19:15
+! Total count: 114310
 ###AD_G
 ###AD_L
 ###AD_Top
@@ -17142,6 +17142,7 @@ dstar.pzk.pl#@#.adsbygoogle
 dt.no##.am-bazaar-ad
 dtbps3games.com##+js(set-constant, penci_adlbock, undefined)
 dtf.ru,vc.ru##.layout__right-column > div[class*=" "][style] > div[class*=" "] > div:only-child
+dualeotruyenk.com#$#abort-current-inline-script document.addEventListener popunder
 dualeotruyenz.com#$#abort-current-inline-script document.addEventListener popunder
 duangks.com###a_d_sidebar
 duanwenxue.com##.qgzdwx
@@ -17843,6 +17844,7 @@ eticket.gsc.com.my##+js(set-constant, googletag, {})
 etnet.com.cn##.firstAD
 etr.fr##.no_block
 etsy.com##a[href*="listing_page_ad_row"]
+etsy.com#$#hide-if-matches-xpath '//span[text()="vertisement" and "by"]/ancestor::a[contains(@class,"bc")][@data-palette-listing-image]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
 etsy.com#$#hide-if-matches-xpath '//span[text()="vertisement" and "by"]/ancestor::a[contains(@class,"c7")][@data-palette-listing-image]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
 ettoday.net###adsense-matched-content
 ettoday.net###for-ec
@@ -18209,6 +18211,7 @@ feet9.com##+js(abort-on-property-read, __ADX_URL_U)
 feiwan.net##div[id*="_"][style]
 feixiaohao.com##.TopHomeLink
 fembed.com##+js(window.open-defuser)
+fembed.com,femax20.com,zo3x.lol,mrdhan.com,m.blogtruyen.vn,viettoons.tv,vinaurl.net#$#abort-on-property-read open
 fembed.com,femax20.com,zo3x.ml,mrdhan.com,m.blogtruyen.vn,viettoons.tv#$#abort-on-property-read open
 fembed9hd.com##+js(window.open-defuser)
 femina.hu##+js(set-constant, ado, undefined)
@@ -26671,6 +26674,7 @@ phillyvoice.com##.native-sponsor
 phimdacap.net##+js(abort-on-property-read, sizeAdsCatFish)
 phimdinhcao.net,phimlongtieng.net,phimdinhcao.com,ophim.vip#$#abort-on-property-read localStorage
 phimgi.tv##+js(window.open-defuser)
+phimgi1.net#$#abort-current-inline-script jQuery popurl;abort-current-inline-script document.createElement script
 phimgivn.net#$#abort-current-inline-script jQuery popurl;abort-current-inline-script document.createElement script
 phimgiz.net##+js(set-constant, open, noopFunc)
 phimlau.online#$#abort-current-inline-script atob /Y1/
@@ -32046,6 +32050,7 @@ vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort
 vidsrc.me###pop_asdf
 vidsvidsvids.com##+js(window.open-defuser)
 vidtome.stream##+js(window.open-defuser)
+viet69.vc,ungtycomicsvip.com,vlxx.info,truyengihotday.net,dualeotruyenk.com#$#abort-current-inline-script WebAssembly instantiate
 viet69.vc,ungtycomicsvip.com,vlxx.info,truyengihotday.net,dualeotruyenz.com#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com##div[class^="new-hot-comment_subText"]
 view.inews.qq.com##div[class^="normal_buttonWrap"]
@@ -33290,6 +33295,10 @@ xoilac78.tv##.modal.fade.show
 xoilac78.tv#$#abort-current-inline-script jQuery overlay
 xoilac78.tv#$#abort-current-inline-script jQuery popupBanners
 xoilac78.tv#$#abort-on-property-read adsRedirectPopups
+xoilac79.tv##.modal.fade.show
+xoilac79.tv#$#abort-current-inline-script jQuery overlay
+xoilac79.tv#$#abort-current-inline-script jQuery popupBanners
+xoilac79.tv#$#abort-on-property-read adsRedirectPopups
 xoivo7.info,vaoroi13.online#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 xozilla.com##.banner-top
 xozilla.com##.right-video-dvertisement
