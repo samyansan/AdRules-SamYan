@@ -7607,6 +7607,7 @@
 18comic.vip##div[data-group^="skyscraper_"]
 18comic.vip#?#.thumb-overlay-albums > div[class][data-group^="photo_center_games_"]:has(> a[target="_blank"] > img)
 18comic.vip,18comic.org##div[data-height="250"][data-width="300"]
+18h.animezilla.com###manga-bottom
 18h.avmimi.com##body > p[align="center"]:first-child
 18h.avmimi.com##body > table[width="100%"]:nth-child(2)
 18moe.org##.alignnone[alt="恰饭广告"]
@@ -9260,6 +9261,8 @@ alu.cn##.Tg_390x60
 alu.cn##.Tg_590x60
 alypw.com##.adbkk
 alypw.com##.ceadd
+am730.com.hk#?#.newslist-row > li.newslist-item:has(> div.adbox)
+am730.com.hk,downsx.net##.adbox
 amateur-couples.com##+js(abort-on-property-read, exoNoExternalUI38djdkjDDJsio96)
 amateur-couples.com,slutdump.com,pxrnxx.xyz##+js(set-constant, dclm_ajax_var.disclaimer_redirect_url, '')
 amateur8.com##.is-av
@@ -20636,6 +20639,7 @@ lz13.cn##.left_box3
 lz13.cn##.left_box4
 lz13.cn##.left_box5
 lzacg.one##.content-layout .zib-widget > .textwidget > a[target="blank"]
+lzacg.one##.custom-html-widget
 lzacg.one##.sidebar .zib-widget > .textwidget > a[target="blank"]
 lzacg.one#?#.content-layout .zib-widget:has(> .textwidget:only-child > a[target="blank"])
 lzacg.one#?#.sidebar .zib-widget:has(> .textwidget:only-child > a[target="blank"])
@@ -27041,7 +27045,6 @@ ssr.tools,woniupai.net,zhujiwiki.com##.asb-post-footer
 ssr.tools,zhujiwiki.com##.asb-post-footer
 sssam.com##+js(set-constant, ads, '')
 sssam.com##.widget_html_ad
-sstv.fun##.container > a[target="_blank"] > img
 sstv.pw##.container > a > img[style="width: 100%;"]
 ssuip.com###mask
 ssyoutube.com##+js(window.open-defuser)
@@ -29736,6 +29739,7 @@ walmart.com##div[id*="Sponsored"]
 walmart.com##div[id^="SEARCH-SponsoredProductCarousel"]
 walmart.com#$#hide-if-contains-visible-text /Sponsored/ 'section div[data-item-id]' div span
 walmart.com#?#.flex > div[class]:has(> div[class][style*="contain-intrinsic-size"] > div[data-item-id] > a[href^="https://wrd.walmart.com/track?adUid"])
+wandhi.com##.table-bordered
 wandhi.com##a[style="display: inline-block;position: relative"]
 wangfz.com##div[class^="my-ad-"]
 wanghualang.com###cx_tag_cloud-2 ~ aside[id^="php_text-"]
