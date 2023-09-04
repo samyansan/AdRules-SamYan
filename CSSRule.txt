@@ -6306,6 +6306,7 @@
 ##a[href^="http://z1.zedo.com/"]
 ##a[href^="http://zevera.com/afi.html"]
 ##a[href^="https://91keep.tv"]
+##a[href^="https://STaRTgamINg.net/tienda/"]
 ##a[href^="https://StarTGAminG.net/tienda/"]
 ##a[href^="https://a-ads.com/"]
 ##a[href^="https://a.adtng.com/"]
@@ -6453,6 +6454,7 @@
 ##a[href^="https://s.optzsrv.com/"]
 ##a[href^="https://s.zlinkc.com/"]
 ##a[href^="https://sTARtgamIng.net/tienda/"]
+##a[href^="https://sTaRTgamInG.net/tienda/"]
 ##a[href^="https://sTaRtGAMing.net/tienda/"]
 ##a[href^="https://sTartGAMiNG.net/tienda/"]
 ##a[href^="https://sTartgAminG.net/tienda/"]
@@ -6465,6 +6467,7 @@
 ##a[href^="https://squren.com/rotator/?atomid="]
 ##a[href^="https://staRTgaming.net/tienda/"]
 ##a[href^="https://startgAming.net/tienda/"]
+##a[href^="https://startgamIng.Net/tienda/"]
 ##a[href^="https://streamate.com/landing/click/"]
 ##a[href^="https://syndication.exoclick.com/splash.php?"]
 ##a[href^="https://syndication.optimizesrv.com/"]
@@ -9117,9 +9120,7 @@ alientube.co###adblockContainer
 aliexpress.com#$#hide-if-contains-visible-text /AD/ 'a[class][target][style^="width"]' 'span[class][style]'
 aliexpress.com#$#hide-if-contains-visible-text /AD/ 'div[data-index][style] div[style]>a[target^="_blank"]' 'span[class][style]'
 aliexpress.com#$#hide-if-matches-xpath './/div[contains(text(),"sponsored")]/parent::div[@class][@id]/ancestor::div[contains(@class,"spin")]'
-aliexpress.com,aliexpress.us##a[href*="&ad_pvid="]
-aliexpress.com,aliexpress.us##a[href*="&p4p_pvid="]
-aliexpress.com,aliexpress.us#?#a[class*="manhattan--container"]:-abp-has(span[class^="manhattan--ad"])
+aliexpress.com,aliexpress.us###card-list > a.search-card-item[href*="&aem_p4p_detail="][href*="&search_p4p_id="][target="_blank"]
 aliez.tv,aliez.me###adbtm
 aliez.tv,aliez.me###ads
 alipay.com###J-cooperant-banner
@@ -14861,6 +14862,7 @@ fbdownloader.app#$#body { overflow: auto !important; }
 fbdownloader.app#$#div#dlModal[style="display: flex;"] { display: none !important; }
 fbref.com,basketball-reference.com,onmsft.com,softperfect.com##.adblock
 fbsub.de,freer.in#@#.advertiser
+fc-lc.xyz,tophostingapp.com###iframe_id
 fc-lc.xyz,tophostingapp.com,cravesandflames.com,encurtandourl.com,codesnse.com,hdrez.com,uploady.io,oii.io,xpicture.ru,uploadydl.com,prz.pw,btvsports.lol,novelsapps.com,novelssites.com,altblogger.net,freecoursesonline.me,ftuapps.dev,shortx.net,techydino.net,toutes-les-solutions.fr,bclikeqt.com,pikafile.com,shortlink.prz.pw,webhostingpost.com,telefullenvivo.com,futbolfullenvivo.com,uploadmx.com,leet365.cc,rosefile.net,shuajota.com,xn--swqq1zt9i.net,markipli.com,celebjared.net,katflys.com,gagaltotal666.my.id,fc-lc.com,streamzz.*,moviesrush.in,toonvideos.*,pythonmatplotlibtips.blogspot.com,dqmsl-search.net,khlinks.buzz,nobinbarta.com,webserver.one,blograffo.net,channelstream.club,bitfly.io,kiwiexploits.com,4horlover.com,hesgoal.com,chuppito.fr,streamz.*,shorterall.com,reifenrechner.at,baltasar5010purohentai.com,jumpmanclubbrasil.com.br,fearonlineifsa.blogspot.com,ozbeceriksizler.com,livestreamgamess.blogspot.com,ear-phone-review.com,adshrink.it,rapnation.org,vmc.org.pl,anime-extremo.com,azvideo.net,dictionnaire-medical.net,forum-pokemon-go.fr,getinmac.com,hdbox.ws,in-trend.biz,links4u.me,megafilmestorrents.net,mp3fiber.com,sharecool.us,studizba.com,up-load.io,vivotvhd.com,wehellas.gr,xbox360torrent.com##+js(abort-current-script, document.addEventListener, displayMessage:)
 fc.lc##+js(window.open-defuser)
 fc.lc#@##adContext
@@ -15823,6 +15825,7 @@ gaadiwaadi.com##div[id^="gaadi-"]
 gaara-fr.com###ga-skin-left
 gaara-fr.com###ga-skin-right
 gaara-fr.com###ga-skin-top
+gaara-fr.com###ga-skin-topfairweb.com/api/$xmlhttprequest,domain=hulkusc.com
 gaara-fr.com###pub01
 gab.com##[aria-label*="Sponsored:"]
 gab.com##[data-comment="gab-ad-comment"]
@@ -21310,6 +21313,7 @@ masrawy.com##.waya
 masseurporn.com#@#.ad-body
 masseurporn.com#@#.advertisement
 masstamilan.im##+js(window.open-defuser)
+mastercomfig.com#?#.card:-abp-contains(S):-abp-contains(p):-abp-contains(o)
 mastersclub.jp#@#.ads.widget
 masturbation22.com,playallvideos.com,pron.co,ratedxbiz.com,taporn.com##.ima
 masuit.com###bootstrap-touch-slider
