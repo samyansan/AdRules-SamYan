@@ -9425,6 +9425,8 @@ animeflv.cc#$#abort-current-inline-script JSON.parse
 animeflv.net,estrenosdoramas.net#$#abort-on-property-read __DOMAIN
 animegalaxy.live##+js(abort-current-script, document.createElement, adblock)
 animegalaxy.online##+js(abort-current-script, document.createElement, adblock)
+animehay.city##+js(set-constant, adsCatFish, noopFunc)
+animehay.city##body > div[style^="position: fixed; bottom: 0px; z-index:"]
 animeheaven.pro,animepahe.*,animeplanet.cc##+js(abort-on-property-write, __C)
 animeheaven.pro,emturbovid.com,sexlivesex.net,spankbang.com,supjav.com#$#abort-on-property-write window.open
 animehentaihub.com,youporntube.net,bestjavporn.com,hentaiasmr.moe##.happy-header
@@ -11572,6 +11574,7 @@ caoporn.com##div[style="height:160px; max-width:100%; width:945px; padding-top:1
 capital.fr,voici.fr,gala.fr##+js(set-constant, DD_RUM.addTiming, noopFunc)
 capital.gr##body #top72890Banner
 capital.gr##div[id^="RECS_WIDGET_"]
+captainaltcoin.com##.single_banner_image
 captainaltcoin.com,dailyboulder.com,lostintechnology.com,ripplecoinnews.com,utahgunexchange.com,webkinznewz.ganzworld.com##.widget_text
 carandbike.com#@#.ad300
 cararegistrasi.com##+js(window.open-defuser)
@@ -12711,8 +12714,6 @@ crossword-solver.io##div[id^="crossword-solver-io_incontent_"]
 crosswordsolver.org##+js(nano-setInterval-booster, game will, , 0.02)
 crosswordsolver.org##body > .super[style^="background-color:"]
 crosswordsolver.org#@#display-ad-component
-croxyproxy.net,croxyproxy.com###croxyExtraZapper
-croxyproxy.net,croxyproxy.com###zapperSquare
 crsky.com##.Adown_v_gs
 crsky.com##.adowGright
 crsky.com##.banner-leader
@@ -13082,6 +13083,8 @@ datacenterdynamics.com,fansshare.com,hairboutique.com,iconarchive.com,imagetwist
 dataguru.cn###bg
 dataguru.cn###popDiv
 datapps.org##+js(remove-attr, onclick, a[href][onclick^="setpos"])
+datatech.icu,croxyproxy.net,croxyproxy.com###croxyExtraZapper
+datatech.icu,croxyproxy.net,croxyproxy.com###zapperSquare
 dataversity.net,sakshi.com,songlyrics.com,yallamotor.com##.adblock
 datingsitespot.com,gfxdrug.com,tips-and-tricks.co,celebjared.net###text-10
 datingsitespot.com,tips-and-tricks.co,rlsbb.to###text-11
@@ -14117,6 +14120,7 @@ eddiekidiw.com##+js(abort-current-script, $, #modal_ads)
 eddiekidiw.com##+js(set-constant, itools, true)
 edealinfo.com##+js(abort-on-property-write, detectAdBlock)
 edeka.de##+js(addEventListener-defuser, bugfix, fix)
+edgegamers.com##[style="padding-bottom:10px;height:90px;"]
 edh.tw###caas-vm-container
 edh.tw###fix-corner
 edh.tw##.close-corner
@@ -14335,6 +14339,8 @@ embedupload.com#@#.text_ad
 embedupload.com#@#.text_ads
 emoji.gg###yousuck
 emojicombos.com##.a-ctn
+emojipedia.org##.h-\[112px\]
+emojipedia.org##.h-\[282px\]
 emojiphrasebook.com##.adBottom
 emojiterra.com###adz-header
 emome.net##.source_advertising
@@ -14502,6 +14508,7 @@ eticket.gsc.com.my##+js(set-constant, googletag, {})
 etnet.com.cn##.firstAD
 etr.fr##.no_block
 etsy.com##a[href*="listing_page_ad_row"]
+etsy.com#$#hide-if-contains-visible-text '/[aA]d(\\s)*by/' li 'div li[class] .wt-text-caption>span[aria-hidden="true"]' 'width: 0px'
 etsy.com#$#hide-if-contains-visible-text '/[aA]d(\\s)*by/' li 'li div.wt-text-caption' 'width: 0px'
 ettoday.net###adsense-matched-content
 ettoday.net###for-ec
@@ -14750,6 +14757,7 @@ fanatik.ro##.strawberry-ads-manager-container
 fandom.com###featured-video__player-container
 fandom.com##+js(set-constant, optimizely, {})
 fandom.com##+js(set-constant, optimizely.initialized, true)
+fandomwire.com##[style="height: 120px; width: 100%; margin: 5px auto; display: block; clear: both; text-align: center;"]
 fanfics.me##.red.nodata
 fanfiktion.de###ad-leaderboard-inner
 fanfox.net##.detail-main-list-ad
@@ -14932,6 +14940,7 @@ fhm.com.tw###add-box
 fiatclub.eu##+js(abort-on-property-read, gaFailedToLoad)
 fiatclub.eu#@#.reklama
 fichier.net#@##contentAd
+fieldandstream.com##.mtc-unit-prefill-container
 fieldandstream.com,popphoto.com##body .empire-unit-prefill-container
 fifa.com##+js(json-prune, ads.breaks.*.ads.*)
 fifa.com##+js(set-constant, google.ima.AdsManagerLoadedEvent.prototype.getAdsManager, noopFunc)
@@ -18081,6 +18090,7 @@ ign.com##.adunit-wrapper
 ign.com##.bobble
 ign.com##.wiki-bobble
 ign.com##.zad.native
+ign.com##div[class^="adkitmrec"]
 ign.com#$#.zad.billboard { min-height: 1px !important; }
 ign.com#$#.zad.top { min-height: 1px !important; }
 ign.com#$#abort-current-inline-script clearTimeout load
@@ -18450,7 +18460,7 @@ inspiredot.net##.banner_ad
 insta-stories-viewer.com#?#.context__caption > .context__title:contains(/^Advertising$/)
 instacart.ca,instacart.com###store-wrapper img[alt^="• Sponsored:"]
 instacart.ca,instacart.com#?#header ~ div > div ul > li:has(div[aria-label="Product"] > div > div[data-sp-elllllligible] > span:contains(Sponsor))
-instacart.com#$#hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' li[data-testid] 'li div[aria-label]>div>div'
+instacart.com#$#hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' li 'li div[aria-label]>div>div'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")][@data-testid]/ancestor::a[contains(@href,"interaction_id")]/ancestor::section[@id][@class][not(@id="store-wrapper") and not(@id="js-app")]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"cloudfront.net/uploads/image_display_")][@alt]/parent::div[@class][1]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::header'
@@ -19285,6 +19295,7 @@ jin10.com##div[id^="J_wdgg_"]
 jin10.com#?#.jin-timeline:-abp-has(.jin-tag)
 jin115.com#?#.plugin-memo > div.side > script[src*="ziyu.net/"]:upward(2)
 jinbaodm.com##div[id^="a-loading"]
+jinbaodm.com##div[style^="position:fixed; top"]
 jingangjing.com##.free
 jingangjing.com##.free-popup
 jingdianlaoge.com##.baidu
@@ -19972,6 +19983,7 @@ kupi.cz##[data-sssp]
 kupi.cz##iframe[frameborder][scrolling][src^="https://www.kupi.cz/"]
 kupi.cz#@#+js(cookie-remover, /^_?adb/)
 kuponigo.com,cybermania.ws,gplastra.com,tv0800.com,bethaniebu.com,coursesghar.com,mhdtvworld.org,souq-design.com##+js(abort-on-stack-trace, document.getElementsByTagName, adsBlocked)
+kupujemprodajem.com#?##__next div[class^="Banner"]:has(a[href^="https://novi.kupujemprodajem.com/bClick.php"])
 kupujemprodajem.com#@#.ad-title
 kurakura21.space##+js(noeval-if, UserCustomPop)
 kurnik.pl##+js(abort-on-property-read, abask)
@@ -19998,6 +20010,7 @@ kwongwah.com.my##.kp-adv-widget
 kxdw.com###downloadTop
 kxmusic.cn,kxmusic.top##a[href*="smsf8.com"]
 kxxzz.com##.sidebar
+kyivindependent.com###popup-banner-subscription-support
 kzstock.blogspot.com#@##ad-target
 l-a-w.ru,mhelp.kz##.swal2-container
 l2db.info##body > a[onclick^="captureOutboundLink"][rel="noopener"]
@@ -20976,6 +20989,7 @@ m.xiaomiyoupin.com###download-bar
 m.xiaomiyoupin.com##.download-bar-container
 m.xiaomiyoupin.com##.lib10-opapp-wrap
 m.xiaomiyoupin.com##[src="//m.xiaomiyoupin.com/shopcenter/erised/index.html"]
+m.xiaomiyoupin.com#@#[style*="mi-img.com"]
 m.yicai.com###app1
 m.yicai.com##.linkapp
 m.yicai.com##.m-float-appopen
@@ -22421,6 +22435,7 @@ n.fcd.su##+js(abort-current-script, $, #push-allow-modal)
 n.fcd.su##+js(remove-attr, disabled, #submitbutton[disabled])
 n.fcd.su##+js(set-constant, open_href, noopFunc)
 n1info.hr##.banner-promotion
+n1info.rs##.banner-promotion
 n3ro.live##.card > .row
 n4g.com#?#.f-grid > div.f-item > div.f-item-ad:upward(1)
 n4g.com,techspy.com##.top-ads-container-outer
@@ -26481,6 +26496,7 @@ smaker.pl##.block--adv--padding
 smallnetbuilder.com##div[id^="snb-"]
 smallpopo.com##.fabox
 smallseo.tools##+js(no-setTimeout-if, testAd.offsetHeight === 0)
+smallseotools.com###discount-calculator-form > .mxutoo.text_senter
 smallseotools.com##+js(no-fetch-if, /firebase-messaging.js)
 smallseotools.com##+js(no-fetch-if, pagead2.googlesyndication.com)
 smallseotools.com##.b
