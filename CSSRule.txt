@@ -18513,6 +18513,7 @@ inspiredot.net##.banner_ad
 insta-stories-viewer.com#?#.context__caption > .context__title:contains(/^Advertising$/)
 instacart.ca,instacart.com###store-wrapper img[alt^="• Sponsored:"]
 instacart.ca,instacart.com#?#header ~ div > div ul > li:has(div[aria-label="Product"] > div > div[data-sp-elllllligible] > span:contains(Sponsor))
+instacart.com#$#hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' li 'li div[aria-label="Product"] span>div'
 instacart.com#$#hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' li 'li div[aria-label]>div>div'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")][@data-testid]/ancestor::a[contains(@href,"interaction_id")]/ancestor::section[@id][@class][not(@id="store-wrapper") and not(@id="js-app")]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"cloudfront.net/uploads/image_display_")][@alt]/parent::div[@class][1]'
