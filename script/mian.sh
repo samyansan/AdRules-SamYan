@@ -1,9 +1,9 @@
 #!/bin/sh
 
 # 下载规则
-curl -o i-1.txt https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt
-curl -o i-2.txt https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall.txt
-curl -o i-3.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock.txt
+curl -o i-1.txt https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall.txt
+curl -o i-2.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock.txt
+curl -o i-3.txt https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad.txt
 curl -o i-4.txt https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
 curl -o i-5.txt https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt 
 
