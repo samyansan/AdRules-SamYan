@@ -123,6 +123,7 @@
 ###ad-bar
 ###ad-bg
 ###ad-billboard
+###ad-billboard01
 ###ad-block
 ###ad-block-2
 ###ad-bottom
@@ -8505,6 +8506,7 @@
 58pic.com##.activitySettings-Fixed
 58pic.com##.activitySettings-fixedBottom
 58pic.com##.xyyh
+590m.com,jdxiazai.cn,089u.com,306t.com,ctfile.com,474b.com,u062.com#?#.card:has(div[id="760ad"])
 591hx.com##.banner_w
 5dm.app##[src*="sinaimg.cn"]
 5dm.app#@#.tm-share-this
@@ -12350,6 +12352,7 @@ clanky.seznam.cz,search.seznam.cz##.Result.Result--organic > .Result-ico:not([cl
 clanky.seznam.cz,search.seznam.cz##.Result.Result--organic > :not(.Result-contentContainer):not(.Result-ico):not(.Result-title)
 clanky.seznam.cz,search.seznam.cz#?#.Result:-abp-has(.Result--organic [class^="Result-contentContainer _"])
 clanky.seznam.cz,search.seznam.cz#?#:-abp-has(> .Result--organic .Result-title-link:not([class="Result-title-link"]))
+clarin.com#?#div[class]:has(> div[id^="div-gpt-ad"]:only-child)
 classcentral.com##body .cmpt-ad
 classicreload.com##+js(set-constant, aawChunk, true)
 classy-online.jp,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se#@#.ad_container
@@ -14286,7 +14289,7 @@ easymc.io##+js(addEventListener-defuser, /np\..*detect/)
 easymc.io##+js(set-constant, nitroAds.abp, true)
 easymp3converter.com##+js(window.open-defuser, adfpoint)
 easypet.com##.kadence-conversion-inner
-easypet.com##div.kt-inside-inner-col>div.wp-block-kadence-rowlayout
+easypet.com##div.kt-inside-inner-col > div.wp-block-kadence-rowlayout
 easyzw.com##.on.fabu_img
 eatthis.com##[id^="gm_karmaadunit_widget"]
 eatwell101.com##.adsenseright
@@ -14792,6 +14795,7 @@ eva.vn#@##right_ads
 event.biotherm.com.tw#@##ad1
 event.biotherm.com.tw#@##ad2
 everest.picturedent.org##.imgblock ~ center > a[href][target="_blank"]:not([class])
+everest.picturedent.org##[href^="/dent.php"]
 everia.club##+js(abort-current-script, atob, push)
 evertiq.com,mediamanager.co.za##.bnr
 everyeye.it###topskin_clicktag
@@ -15239,6 +15243,7 @@ files.im##+js(json-prune, *, ppuClicks)
 fileshut.biz##.download_item2
 filetram.com###triangle-border
 filext.com##[id^="billboard_"]
+filext.com#@#[id^="billboard_"]
 filfan.com##div[class^="c-"] > .mr
 filgoal.com##.ads
 filgoal.com##iframe[src*="sarmady.net/"]
@@ -19443,7 +19448,6 @@ jdbbs.com##.adyihifi
 jdbbs.com##div[id^="archy_ad"]
 jdbbs.com##div[style="margin: 0 auto 10px; width: 1000px;"]
 jdwx.info,motobuy.com.tw##.other
-jdxiazai.cn,089u.com,306t.com,ctfile.com,474b.com,u062.com#?#.card:has(div[id="760ad"])
 jdyou.com###contentSlide
 jdyou.com###popWrap
 jeepgladiatorforum.com##.fa-share-alt
@@ -19868,6 +19872,7 @@ juxia.com##.index_bttg
 juxiangyou.com,juxiangzuan.com,senao.com.tw#@#.ad-img
 juxiangzuan.com,senao.com.tw#@#.ad-img
 jw.org#@#.adsBlock
+jwcuriosidades.com##+js(set-cookie, adSystem, 1)
 jwearn.com##+js(abort-current-script, tabUnder, popup)
 jx.la##[onclick*="apk"]
 jx3pve.com##.m-banner-tool
@@ -23872,8 +23877,8 @@ opticsky.cn###head > .tac
 opticsky.cn##.p83_gridC > .cc
 optifine.net##+js(remove-attr, onclick, a[href^="download"][onclick="onDownload()"])
 optifine.net#@#.tableAds
-optimyz.com##.elementor-shortcode
 optimyz.com##.widget_smartslider3
+optimyz.com,ringsidenews.com##.elementor-shortcode
 opvid.co,opvid.net,opvid.org#$#abort-on-property-read setInterval; abort-on-property-read setTimeout; abort-on-property-read Math.random
 orangespotlight.com##+js(abort-on-property-read, adBlockDetected)
 orbispatches.com##+js(no-fetch-if, services.vlitag.com/adv)
@@ -31414,8 +31419,6 @@ xhamster.com##+js(set-constant, history.replaceState, noopFunc)
 xhamster.com##.bottom-widget-section
 xhamster.com##.sponsorBottom
 xhamster.com##.thumb-list > div:not(.thumb-list__item)
-xhamster.com##.wit-sponsor-banner
-xhamster.com##.xplayer-banner-bottom
 xhamster.com##.xplayer-hover-menu
 xhamster.com##div[class$="no-ts-initiailize"]
 xhamster.com##div[class*="containerBottomSpot"]
