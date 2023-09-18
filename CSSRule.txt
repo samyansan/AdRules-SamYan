@@ -7643,6 +7643,11 @@
 17yy.com###addiv
 17yy.com##.t2_3
 17yy.com##.t2r_3
+18-comic.work,18comic.org,18comic.vip###guide-modal
+18-comic.work,18comic.org,18comic.vip##.modal-backdrop
+18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img
+18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img + [style]
+18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > span[style*="back"]
 180gadgets.com,247media.com.ng,academicful.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,asurascans.com,australiangeographic.com.au,autodaily.com.au,bigleaguepolitics.com,boxingnews24.com,browserhow.com,charlieintel.com,chillinghistory.com,chromeunboxed.com,conservativebrief.com,cookingwithdog.com,corrosionhour.com,crimereads.com,cryptobriefing.com,cryptopotato.com,cryptoreporter.info,cryptoslate.com,dcenquirer.com,dexdotexe.com,eurweb.com,exeo.app,fandomwire.com,flickeringmyth.com,flyingmag.com,freemagazines.top,gameinfinitus.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,goodyfeed.com,greekreporter.com,hard-drive.net,hollywoodunlocked.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,journeybytes.com,linuxfordevices.com,lithub.com,medievalists.net,mpost.io,nationalfile.com,nintendoeverything.com,notalwaysright.com,organicfacts.net,patriotfetch.com,protrumpnews.com,pureinfotech.com,quickanswer.blog,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,rezence.com,roadaheadonline.co.za,rok.guide,sdnews.com,simscommunity.info,small-screen.co.uk,storypick.com,streamingbetter.com,superwatchman.com,talkers.com,techpp.com,techrounder.com,techviral.net,theautopian.com,thecinemaholic.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thegeekpage.com,thenipslip.com,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,videogamer.com,walletinvestor.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,win.gg,wisden.com,zerohanger.com##.code-block
 18183.com###gsBtn
 18183.com##.down_url
@@ -7686,6 +7691,9 @@
 18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > img
 18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > img + [style]
 18comic.org,18comic.vip#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
+18comic.org,18comic.vip,18-comic.work#?#:-abp-has(>ins+script)
+18comic.org,18comic.vip,18-comic.work#?#:-abp-has(>script+ins)
+18comic.org,18comic.vip,18-comic.work#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 18comic.org,18comic.vip,18comic1.art,18comic2.art###guide-modal
 18comic.org,18comic.vip,18comic1.art,18comic2.art##.modal-backdrop
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href*=".taobao.com"]
@@ -11898,7 +11906,9 @@ cctv.com##.anime_ewm
 cctv.com,www.douyu.com##+js(aeld,/visibilitychange|pagehide/)
 cda.pl##.siddeAd
 cda.pl##.top-anonco-cont
+cdiscount.com#$#hide-if-contains-visible-text  /partenaires/ 'div[class]>div[id]>div[class="h2"]'
 cdiscount.com#$#hide-if-matches-xpath './/a[@href]/img[@title]/ancestor::div[contains(@class,"resultbox--pub")][1]'; hide-if-matches-xpath './/a[@target][@aria-label="bannerlink"]/parent::div[@class][1]'; hide-if-matches-xpath './/ul[@id]//a[contains(@rel, "sponsored")]/ancestor::li[1]';
+cdiscount.com#$#hide-if-matches-xpath './/div[@class and @id]/div[@class="h2"][contains(text(),"offre")]//following::div//p/following-sibling::a[@style]/img[contains(translate(@title, "OFFERT", "offert"), "offert")]//ancestor::div[@class="o-block"]'; hide-if-matches-xpath './/div[@style]//span[contains(@data-template,"Sponsored")]/following::div[contains(@id,"Sponsored")]/parent::div[@style]/ancestor::div[contains(@data-action,"AdsDisplay")][1]'; hide-if-matches-xpath './/div[style]//*[name()="svg"][contains(@style,"width:60px")]/parent::div[contains(@style, "margin-top")]/ancestor::div[@id][@data-autoplay]/parent::div[@class="o-block__content"]';
 cdkeyit.it,allkeyshop.com##body > a[class^="blc-"]
 cdkeyit.it,allkeyshop.com#$#body { background-image: none!important; }
 cdkeys.com#$#body .wrapper { background: none!important; }
@@ -18721,10 +18731,10 @@ instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[conta
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::section[@class="e-wbvail"]'
 instacart.com#$#hide-if-matches-xpath './/a[@href]//img[@data-testid]/following::div[.//span[text()]/following-sibling::span[text()]][1]/parent::div[@class]/parent::a[@href]/ancestor::div[@class and @id][1]'
 instacart.com#$#hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
-instacart.com#$#hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
 instacart.com#$#hide-if-matches-xpath './/source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/parent::picture/ancestor::div[@class][1]'
 instacart.com#$#hide-if-matches-xpath './/span[starts-with(@class,"e-1r5")][contains(text(),"d")]/parent::div[1]'
 instacart.com#$#hide-if-matches-xpath '//img[@alt="Sponsored"][contains(@src,".svg")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
+instacart.com#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
 instagram.com#$#hide-if-contains-visible-text '/Anzeige|Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/' 'article[class]>div[class]'
 instagram.com#$?#article:has(> div[style*="display: none !important;"]:only-child) { padding-bottom: 0px !important; border-bottom: none !important; border: none !important; }
 instagram.com#$?#main > div div[style*="flex-direction: column;"] > article > div:has(span:contains(/(Sponsored|Gesponsert|Sponsorlu|Sponsorowane|Ispoonsara godhameera|Geborg|Bersponsor|Ditaja|Disponsori|Giisponsoran|Sponzorováno|Sponsoreret|Publicidad|May Sponsor|Sponsorisée|Oipytyvôva|Ɗaukar Nayin|Sponzorirano|Uterwa inkunga|Sponsorizzato|Imedhaminiwa|Hirdetés|Misy Mpiantoka|Gesponsord|Sponset|Patrocinado|Patrocinado|Sponsorizat|Sponzorované|Sponsoroitu|Sponsrat|Được tài trợ|Χορηγούμενη|Спонсорирано|Спонзорирано|Ивээн тэтгэсэн|Реклама|Спонзорисано|במימון|سپانسرڈ|دارای پشتیبانی مالی|ስፖንሰር የተደረገ|प्रायोजित|ተደረገ|प|प्रायोजित|স্পনসর্ড|ਪ੍ਰਯੋਜਿਤ|પ્રાયોજિત|ପ୍ରାୟୋଜିତ|செய்யப்பட்ட செய்யப்பட்ட|చేయబడినది చేయబడినది|ಪ್ರಾಯೋಜಿಸಲಾಗಿದೆ|ചെയ്‌തത് ചെയ്‌തത്|ලද ලද ලද|สนับสนุน สนับสนุน รับ สนับสนุน สนับสนุน|ကြော်ငြာ ကြော်ငြာ|ឧបត្ថម្ភ ឧបត្ថម្ភ ឧបត្ថម្ភ|광고|贊助|内容 内容|贊助|告 告|広告|സ്‌പോൺസർ ചെയ്‌തത്)/)) { height: 1px !important; visibility: hidden !important; }
@@ -19516,6 +19526,7 @@ jiaodong.net###leftBanner
 jiaodong.net###rightBanner
 jiayongluyou.com##.widget_image_myimg
 jiayongluyou.com#?#.widget_html_myimg:has(> ins.adsbygoogle)
+jiayongluyou.com,tmioe.com##.widget_image_myimg
 jieav.com##.b300
 jieav.com##ul[id^="jieav_"]
 jieav.com#$##comment { margin-bottom: 0 !important; }
@@ -28801,7 +28812,6 @@ tmearn.com##+js(window.open-defuser)
 tmioe.com##.__single_0
 tmioe.com##.ad_single_0
 tmioe.com##.entry-copyright
-tmioe.com##.widget_image_myimg
 tmioe.com##a[target="_blank"] > img[src*=".sinaimg.cn"]
 tmonews.com##.sponsor-dfp
 tmtpost.com##.open-app
