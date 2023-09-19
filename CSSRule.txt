@@ -7680,11 +7680,6 @@
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="920"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="950"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width^="72"]
-18comic.org,18comic.vip###guide-modal
-18comic.org,18comic.vip##.modal-backdrop
-18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > img
-18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > img + [style]
-18comic.org,18comic.vip#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 18comic.org,18comic.vip,18-comic.work#?#:-abp-has(>ins+script)
 18comic.org,18comic.vip,18-comic.work#?#:-abp-has(>script+ins)
 18comic.org,18comic.vip,18-comic.work#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
@@ -7695,7 +7690,6 @@
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="250"][data-width="300"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="264"][data-width="956"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[style^="position: fixed; top:"]
-18comic.org,18comic.vip,jm-comic2.club#?#:-abp-has(>script+ins)
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#@?#:-abp-has(>script[src*=".realsrv.com"])
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
@@ -19529,7 +19523,6 @@ jianshu.com#?#div[id]:-abp-has(> .ad-badge)
 jianshu.com#?#div[role="button"]:-abp-contains(抽奖)
 jiaodong.net###leftBanner
 jiaodong.net###rightBanner
-jiayongluyou.com##.widget_image_myimg
 jiayongluyou.com#?#.widget_html_myimg:has(> ins.adsbygoogle)
 jiayongluyou.com,tmioe.com##.widget_image_myimg
 jieav.com##.b300
@@ -19660,8 +19653,6 @@ jkpan.cc##+js(abort-current-script, jQuery, \u)
 jkpan.cc##+js(set-constant, killads, true)
 jlmhk.com##.bn
 jlpcn.net##.vodAd
-jm-comic2.club##a[href*="//"]:not([href*="jm-comic"]) > img
-jm-comic2.club##a[href*="//"]:not([href*="jm-comic"]) > img + [style]
 jmbbs.com###xjj_jmbbs2015_01
 jmbbs.com##.middle_guanggao
 jmbbs.com##img[width="1100"]
