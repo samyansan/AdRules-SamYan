@@ -2413,9 +2413,6 @@
 ##.ad_right_2
 ##.ad_row
 ##.ad_scroll
-##.ad_sd #a_d1
-##.ad_sd #ad1
-##.ad_sd > .container > a > img[src*=".qhimg.com"]
 ##.ad_side
 ##.ad_sidebar
 ##.ad_sidebar_bigbox
@@ -5526,7 +5523,6 @@
 ##a > img[src*="pic.rmb.bdstatic.com/"][src$=".gif"]
 ##a#wrapper_left_bg[target="_blank"]
 ##a#wrapper_right_bg[target="_blank"]
-##a.ad_links
 ##a.gggg[href^="https"]
 ##a.hengfu > img.hengfu
 ##a[clickmode="ad"]
@@ -7060,7 +7056,6 @@
 ##script + #strl + div[style]
 ##script + [id][style="width:100%;height:auto;min-height:120px;position:relative;display:block;"]
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
-##script + a[href^="https://l.hyenadata.com/"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
 ##script + div[id^="a-loading-"]
 ##script[src$="/base.js"] + #couplet
@@ -7201,11 +7196,6 @@
 1024pb.com##.t[style="margin-top:8px"]
 1024pb.com,2cycomic.com,yemancomic.com##body > a
 1024pb.com,99syy1.com##div[class^="ps_"]
-1024pz.com###header > center
-1024pz.com##.leftd
-1024pz.com##.t[style="margin-top:8px"]
-1024pz.com,2cycomic.com,whnyd.com,yemancomic.com##body > a
-1024pz.com,99syy1.com##div[class^="ps_"]
 104.com.tw###aidma-job
 104.com.tw###aidma_128
 104.com.tw###aidma_588
@@ -10228,7 +10218,6 @@ axutongxue.com##DIV[style*='px;position:relative;box-shadow:rgb(0 0 0/24%)0px 3p
 axutongxue.com##DIV[style*='z-index: 9999999;display: flex;justify-content: center;align-items: center;']
 axutongxue.com##DIV[style='text-align:center']
 axutongxue.com,axutongxue.net###ccccc
-axutongxue.com,axutongxue.net###kkkkbbb
 axutongxue.net###uuuui
 axutongxue.net##+js(no-setTimeout-if, getCookie(")
 axutongxue.net##body > article[style]
@@ -15038,7 +15027,6 @@ fantasyfootballscout.co.uk##div[style*="min-height: 250px;"][style*="text-align:
 fantrax.com##.placeholder--300
 fantrax.com##.placeholder--leaderboard
 fantuan.tv##.app-guide
-fantuanhd.com###t-img-box
 fanyi.baidu.com###app-read
 fanyi.baidu.com###sideBannerContainer
 fanyi.baidu.com##.appbanner
@@ -30225,9 +30213,7 @@ vpsgo.com##body > div.container
 vpsmm.com###featured1
 vpsmm.com###media
 vpsmm.com###uc
-vpsmm.com##.top_a1
 vpsmm.com##div[class*="xx"]
-vpsmm.com#?#.sidexbar div:-abp-has(>a>img)
 vpswp.com##html > body.home.blog.custom-background > section.container > code > div.content-wrap > div.content > div.slick.slick-initialized.slick-slider
 vpswp.com##section.container:nth-child(2) > code:last-child > div.content-wrap:nth-child(2) > div.content:last-child > div.slick.slick-initialized.slick-slider:nth-child(2) > div.slick-list.draggable:nth-child(2) > div.slick-track > div.slick-slide.slick-active:nth-child(2) > a:last-child > img:first-child
 vrcmods.com##+js(abort-on-property-read, bruhded)
