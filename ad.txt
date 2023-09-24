@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-09-24 02:12:01
-! Total count: 128456
+! Version: 2023-09-24 08:50:55
+! Total count: 128464
 
  
 ###AdBlockDialog
@@ -2772,6 +2772,7 @@
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##div[style="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+##div[style^="line-height"][style*="http"][style$="fixed;"]
 ##div[style^="position"][onclick^="window.open"]
 ##div[style^="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]:not([allowfullscreen])
 ##div[style^="width: 100%;"][style$="margin: 0px;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -50444,6 +50445,7 @@ zzzyk.com###Tinfo
 ||ascend.ai^$third-party
 ||ascentcrm.actonservice.com^
 ||asci.freenet.de^
+||asclan.icu^
 ||ascpqnj-oam.global.ssl.fastly.net^
 ||asd.bauhaus.at^
 ||asd.bauhaus.es^
@@ -80171,6 +80173,7 @@ zzzyk.com###Tinfo
 ||jwhfkj.cn^
 ||jwjdpab.cn^
 ||jwl.hk.cn^
+||jwltpv.xyz^
 ||jwmfxp.xyz^
 ||jwmhqs.fsk.ru^
 ||jwmstats.com^$third-party
@@ -81841,6 +81844,7 @@ zzzyk.com###Tinfo
 ||lcs.naver.com^
 ||lcsopa.onamae.com^
 ||lct.salesforce.com^$third-party
+||lctcbtly.xyz^
 ||lctcw.top^
 ||lcttty.top^
 ||lcxw.cn/d/js/thea
@@ -89421,6 +89425,7 @@ zzzyk.com###Tinfo
 ||mlgp.xyz^
 ||mlgsoji.cn^
 ||mlgubn.autouncle.de^
+||mlhdvjv.xyz^
 ||mlhtmc.macnificos.com^
 ||mlinks.fluz.app^
 ||mlinks.helloalfred.com^
@@ -101022,6 +101027,7 @@ zzzyk.com###Tinfo
 ||sbdhdq.zeeman.com^
 ||sbdm.net/js/ad_
 ||sbdtds.com^$third-party
+||sbdvjsbjslkv.com^
 ||sbeacon.sina.com.cn^
 ||sbeaje.com^
 ||sbehgm.xyz^
@@ -121151,6 +121157,7 @@ zzzyk.com###Tinfo
 ||vought.removeads.workers.dev^
 ||vouky.com^
 ||vouninked.com^
+||voxirf.xyz^
 ||voxmedia.com/beacon-min.js
 ||voxus.com.br^$third-party
 ||voyagepotato.com^
@@ -127413,6 +127420,7 @@ zzzyk.com###Tinfo
 ||zents10.top^
 ||zents5.top^
 ||zents7.top^
+||zents8.top^
 ||zenwq.com^
 ||zeoknxp.cn^
 ||zeookuv.xyz^
