@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-09-25 02:12:02
-! Total count: 128468
+! Version: 2023-09-25 08:48:38
+! Total count: 128498
 
  
 ###AdBlockDialog
@@ -5648,9 +5648,8 @@ $websocket,domain=5nj.com|cechi8.com
 /KISSmetricsTrackCode.
 /KalahariAds.
 /Kelkooid?
-/KenticoActivityLogger/*
+/KenticoActivityLogger/Logger.js
 /KfAd/*
-/KochavaAnalytics.
 /L411_Ad_
 /LandingPageHitLog.aspx?
 /LastClick/js?
@@ -9314,6 +9313,7 @@ $websocket,domain=5nj.com|cechi8.com
 /analytics.*/ping/?
 /analytics.*/track
 /analytics.ad.
+/analytics.analytics/*
 /analytics.ashx
 /analytics.asmx
 /analytics.bundled.js
@@ -12152,21 +12152,28 @@ $websocket,domain=5nj.com|cechi8.com
 /ga-integration-$script
 /ga-links.js
 /ga-lite.
+/ga-lite.min.js
 /ga-local.js
 /ga-multidomain.
+/ga-multidomain.js
 /ga-script.
+/ga-script.js
 /ga-scroll-events-
 /ga-scroll-events.
 /ga-scroll-events.js
 /ga-se-async.js
 /ga-socialtracker.
 /ga-targets.js
-/ga-track-
+/ga-track-code.js
+/ga-track-external.js
 /ga-track.
-/ga-tracker-
+/ga-track.js
+/ga-track.min.js
 /ga-tracker.
+/ga-tracker.js
 /ga-tracking-
-/ga-tracking.
+/ga-tracking.js
+/ga-tracking.min.js
 /ga-tracking/*
 /ga.aspx?
 /ga.gif?
@@ -12858,6 +12865,7 @@ $websocket,domain=5nj.com|cechi8.com
 /htmm/20*.php$popup
 /httpads/*
 /httpdns/v2/*
+/hubspot-ga-tracking.js
 /hubspot_tracking.
 /hubxt.*/js/eht.js?
 /hubxt.*/js/ht.js
@@ -13254,6 +13262,7 @@ $websocket,domain=5nj.com|cechi8.com
 /interad.$domain=~interad.gr
 /interadv/*
 /intercept.js
+/intercept/intercept.js
 /interface/ads/*
 /intermediate-ad-
 /internAds.
@@ -13569,6 +13578,7 @@ $websocket,domain=5nj.com|cechi8.com
 /jsplayerads-
 /jspopunder.
 /jsstat.
+/jsstat.cgi?
 /jstatphp.
 /jstats.php
 /jstats/js/*
@@ -13580,6 +13590,7 @@ $websocket,domain=5nj.com|cechi8.com
 /juicyads_
 /jump/?jl=
 /jump/clk1.
+/jump/clk1.php
 /jumpstartunpaidad.
 /jun0120211102193659.
 /jun0120211112090740.
@@ -13597,6 +13608,7 @@ $websocket,domain=5nj.com|cechi8.com
 /kaksvpopup.
 /kalturaevent?
 /kameleoon-iframe.
+/kameleoon-iframe.html
 /kameleoon.js
 /kameleoon.min.js
 /kameleoon/script.
@@ -13606,7 +13618,8 @@ $websocket,domain=5nj.com|cechi8.com
 /kantarmedia.
 /keen-tracker.
 /keen-tracking-
-/keen-tracking.
+/keen-tracking.js
+/keen-tracking.min.js
 /keen.min.js
 /keenio.min.js
 /kejobscounter.
@@ -13624,10 +13637,12 @@ $websocket,domain=5nj.com|cechi8.com
 /kill-adblock//js/function.js$script
 /kill-adblock/js/function.js$script
 /kissmetrics.
+/kissmetrics.js
 /kissmetrics/*
 /kitad.
 /kiwip.js
 /klaviyo_analytics.
+/klaviyo_analytics.js
 /klicks.nebenan.de/q/*$image
 /kogeePopupAd.
 /koko-analytics-collect.php
@@ -13736,6 +13751,7 @@ $websocket,domain=5nj.com|cechi8.com
 /lib/ad.js
 /lib/ads.
 /lib/analytics.
+/lib/analytics.js
 /lib/crlt.js$script,third-party
 /lib/snowplow-
 /lib/tracking/*
@@ -15960,7 +15976,10 @@ $websocket,domain=5nj.com|cechi8.com
 /rswebsiteads/*
 /rsya-tag-users/*
 /rt_tag.
+/rt_tag.js
+/rt_tag.ofs.js
 /rt_track.
+/rt_track.js
 /rt_track_
 /rtac/gif?
 /rtb/worker.php?
@@ -15970,12 +15989,15 @@ $websocket,domain=5nj.com|cechi8.com
 /rtm_etag.
 /rtoaster.js
 /rtracker.
+/rtracker.min.js
+/rtracker/ofs.rtt.js
 /rtt-log-data?
 /rtu-monitoring.
 /rubicon_blacklist.js
 /rubics_trk
 /rubicsimp/c.gif?
-/rudder-analytics.
+/rudder-analytics.js
+/rudder-analytics.min.js
 /rule34/ads/*
 /rule34v2/ads/*
 /rum-dytrc.
@@ -15984,13 +16006,11 @@ $websocket,domain=5nj.com|cechi8.com
 /rum.gif?
 /rum.js/*
 /rum.min.
+/rum.min.js
 /rum/events
 /rum/id?
 /rum/performance
-/rum?ddsource=
 /rum_analytics/*
-/rum_cmp?
-/rumcdn.
 /rumstat.
 /rumtag.
 /run/perf
@@ -55389,6 +55409,7 @@ zzzyk.com###Tinfo
 ||c.tvpixel.com^$third-party
 ||c.tvsou.com^
 ||c.tysjkw.cn^$third-party
+||c.vogue.com^
 ||c.vrt.be^
 ||c.webengage.com^
 ||c.wen.ru^
@@ -63590,6 +63611,7 @@ zzzyk.com###Tinfo
 ||ddla593ymz72o.cloudfront.net^
 ||ddlbr.timesclub.co^
 ||ddlipf.xyz^
+||ddlvpmt.xyz^
 ||ddm.io^$third-party
 ||ddomm.com^
 ||ddot.xyz^
@@ -66413,6 +66435,7 @@ zzzyk.com###Tinfo
 ||eclog*-*.cafe24.com^$third-party
 ||ecma.bdimg.com^
 ||ecmb.bdimg.com^
+||ecmwsx.icu^
 ||ecn-analytics.emc.com^
 ||ecn5.com^$third-party
 ||eco-tag.jp^$third-party
@@ -72604,6 +72627,7 @@ zzzyk.com###Tinfo
 ||gpzhcc.lapeyre.fr^
 ||gq.com.tw/event/$subdocument
 ||gqdfgyz.cn^
+||gqgfrgx.cn^
 ||gqhfjr.sizeofficial.es^
 ||gqhlrr.fragrancedirect.co.uk^
 ||gqjppj.rentcafe.com^
@@ -73301,6 +73325,7 @@ zzzyk.com###Tinfo
 ||haireig.com^
 ||hairoak.com^
 ||haise10.top^
+||haise2.top^
 ||haise8.top^
 ||haishengwh123.cn^
 ||haite.xyz^
@@ -91865,6 +91890,7 @@ zzzyk.com###Tinfo
 ||nopph.website^
 ||norauto.tt.omtrdc.net^
 ||nord-raum.com^$third-party
+||nordace.com/track.js
 ||nordea.tt.omtrdc.net^
 ||nordic.promo.skf.com^
 ||nordicresearch.com^$third-party
@@ -97203,6 +97229,7 @@ zzzyk.com###Tinfo
 ||qbtd.xyz^
 ||qbwkux.home24.at^
 ||qc.qualicocommunitieswinnipeg.com^
+||qc.vogue.com^
 ||qc1.cheshipin.com^
 ||qcaebg.nos.pt^
 ||qcb2xeg.icu^
@@ -99776,6 +99803,7 @@ zzzyk.com###Tinfo
 ||rtmark.net^$third-party
 ||rtmtgf.xyz^
 ||rtnigaz.cyou^
+||rtnuld.xyz^
 ||rtoaster.jp^$third-party
 ||rtox.net^$third-party
 ||rtp.pt^$cookie=/_gat_gtag_/
@@ -120057,6 +120085,7 @@ zzzyk.com###Tinfo
 ||usktcisef51013.tt.omtrdc.net^
 ||uslbaht.top^
 ||uslobr.valostore.no^
+||uslsjwnk.xyz^
 ||uslsxe.com^
 ||usmetric.rediff.com^
 ||usmlrs2623.tt.omtrdc.net^
@@ -120486,6 +120515,7 @@ zzzyk.com###Tinfo
 ||ventunotech.com/beacon/
 ||venturify.at/pixel/
 ||venulaevavs.com^
+||venum.top^
 ||venusgloria.com^
 ||venusgloria.com^$third-party
 ||venusrevival.com^
