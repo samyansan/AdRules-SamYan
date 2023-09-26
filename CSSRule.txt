@@ -7325,7 +7325,6 @@ etnet.com.cn##.firstAD
 etr.fr##.no_block
 etsy.com##a[href*="listing_page_ad_row"]
 etsy.com#$#hide-if-contains-and-matches-style '/[aA]d(.)*by/' 'li' 'li .wt-text-caption>span:not(.wt-screen-reader-only)' /./ 'display: inline-block' interactive
-etsy.com#$#hide-if-contains-and-matches-style '/[aA]d(.)*by/' 'li' 'li div.wt-text-caption>span:not(.wt-screen-reader-only)' /./ 'display: inline-block' interactive
 etsy.com#$#hide-if-matches-xpath '//span[@data-is-ad][@data-ad-label][contains(text(),"Ad by")]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
 ettoday.net###adsense-matched-content
 ettoday.net###for-ec
@@ -12214,6 +12213,7 @@ play44.net,videobug.net,videofun.me,vidzur.com,yucache.net##[style^="position: a
 playallvideos.com,pron.co##.rmedia
 player-cdn.com###playback-fake
 player-cdn.com#$#override-property-read detectAdBlockAll noopFunc; override-property-read detectAdBlock noopFunc
+player.hboav.com##+js(set-constant, player.VastADPlugin, noopFunc)
 playerapp1.pw###divPanel
 playerapp1.pw##[id^="total"]
 playerhd1.pw,playerhd2.pw###divPanel
@@ -15568,7 +15568,6 @@ yabeat.org#$#abort-on-property-read __meteor_runtime_config__
 yad2.co.il###sLightbox_container
 yad2.co.il###sLightbox_overlay
 yafud.pl###adsense_banner_top
-yahoo.co.jp#$#hide-if-matches-xpath './/div[@style]/div[@style]/ancestor::div[@style][1]/parent::div[contains(@style,"width: 990px")]'; hide-if-matches-xpath './/div[contains(@style,"yads")]/parent::div[@style][1]'; hide-if-matches-xpath './/div[@style]/a[@href][@target]/parent::div[@style][1]//parent::div[@style]/ancestor::div[@id][contains(@style,"width")]'; hide-if-matches-xpath './/iframe[@title="Ad Content"]/parent::div[@id]/ancestor::div[@id][@class][1]';
 yahoo.co.jp#$#hide-if-matches-xpath './/div[@style]/div[@style]/ancestor::div[@style][1]/parent::div[contains(@style,"width: 990px")]'; hide-if-matches-xpath './/div[contains(@style,"yads")]/parent::div[@style][1]'; hide-if-matches-xpath './/div[@style]/a[@href][@target]/parent::div[@style][1]//parent::div[@style][not(contains(@class,"map"))]/ancestor::div[@id][contains(@style,"width")]'; hide-if-matches-xpath './/iframe[@title="Ad Content"]/parent::div[@id]/ancestor::div[@id][@class][1]';
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
