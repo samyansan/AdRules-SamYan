@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-09-26 20:20:29
-! Total count: 131665
+! Version: 2023-09-27 02:13:33
+! Total count: 131682
 
  
 ###AdBlockDialog
@@ -11583,6 +11583,7 @@ $websocket,domain=5nj.com|cechi8.com
 /eht.js?site_
 /eis/diy/ad/*
 /elLOeonora=$xmlhttprequest,script,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
+/elastic-apm-rum.umd.min.js
 /elex.track.
 /eloqua.js
 /eloqua_
@@ -19089,6 +19090,8 @@ $websocket,domain=5nj.com|cechi8.com
 121xz.com###gsxzdz
 121xz.com##.btn + .btn
 121xz.com##.c_money
+123-bt.cn###mianze_fixed
+123-bt.cn###mianze_mask
 123-bt.cn##.sd
 123-movies.city,actvid.com,cineb.net,hdtoday.tv,moviesjoy.to,solarmovie.pe,vidbem.com,upload4earn.org,uploadbyte.com,watchseries.ma,yts.mx,zoechip.com#$#abort-on-property-read localStorage
 123-movies.sr,123movies-official.net,animefrenzy.net,apkmody.io,atomohd.app,atomtt.com,d123movies.to,f2movies.to,filmlinks4u.online,gogoanime.day,gogoanime.re,gogoanime.run,goyabu.com,hentai20.com,kimcartoon.li,kisstvshow.to,lalamanga.com,mangadna.com,mangahere.onl,manganato.com,manhwax.com,movies123.sbs,movies123.studio,prmovies.re,projectfreetv.space,readmanganato.com,soap2day.cloud,socialmediagirls.com,tinyzonetv.to,udvl.com,wiflix.bet,yomovies1.online#$#abort-on-property-read localStorage;
@@ -22010,6 +22013,8 @@ apkpure.com#%#//scriptlet('set-constant', '$$.analytics', 'emptyObj')
 apkpure.com#%#//scriptlet('set-constant', '$$.analytics.send', 'noopFunc')
 apowersoft.cn##.activity-poster
 app.c.bloomberg.com$image
+app.frontapp.com%2Fapi%2F1%2Fnoauth%2Fcompanies%2Falternstiveto%2Fseen%2Fmsg_$image
+app.frontapp.com/api/1/noauth/companies/alternstiveto/seen/msg_$image
 app.growave.io*statimg$image
 app.koinly.io##.login-page:style(-webkit-animation: none !important)
 app.outreach.io$image
@@ -24788,6 +24793,7 @@ email.mixmax.com/e/o$image
 email.nirandfar.com$image
 email.nirandfar.com*link-tracker$image
 email.send.aliyana.in$image
+email.updates.patreon.com$image
 email.wetransfer.com$image
 embed.rtl.hu#%#//scriptlet('set-constant', 'gemiusStream', 'emptyObj')
 embed.rtl.hu#%#//scriptlet('set-constant', 'gemiusStream.event', 'noopFunc')
@@ -26826,7 +26832,6 @@ instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[conta
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::section[@class="e-wbvail"]'
 instacart.com#$#hide-if-matches-xpath './/a[@href]//img[@data-testid]/following::div[.//span[text()]/following-sibling::span[text()]][1]/parent::div[@class]/parent::a[@href]/ancestor::div[@class and @id][1]'
 instacart.com#$#hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-featured-")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
-instacart.com#$#hide-if-matches-xpath './/source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/parent::picture/ancestor::div[@class][1]'
 instacart.com#$#hide-if-matches-xpath './/span[starts-with(@class,"e-1r5")][contains(text(),"d")]/parent::div[1]'
 instacart.com#$#hide-if-matches-xpath './/span[text()]/preceding::div[@aria-hidden="true"]/preceding::source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/ancestor::header[@id][@class][1]'
 instacart.com#$#hide-if-matches-xpath '//img[@alt="Sponsored"][contains(@src,".svg")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
@@ -27194,6 +27199,7 @@ iyf.tv##.p-r > .ng-star-inserted
 iyf.tv##.player-right
 iyf.tv##.player-side > .block > *
 iyf.tv##.prr > .ng-star-inserted
+iyf.tv##.prrb > .ng-star-inserted
 iyf.tv##.video-player + div[class*=" "] > div.block
 iyf.tv##.video-player > app-gg-block.ng-star-inserted[style]
 iyf.tv##vg-pause-ads
@@ -28967,6 +28973,7 @@ mitbbs.ca,mitbbs.com##table[width="336"][height="280"]
 mitbbs.ca,mitbbs.com##table[width="915"] > tbody > tr:first-child > td[width]
 mix.dj###maskads
 mix.dj##.classAds
+mjt.lu$image
 mjzj.com##div[id^="sidebar-top-carouse"]
 mkvcage.com,pastehere.xyz,vidshare.tv,govid.me,hdvid.tv,ovid.pro#$#abort-on-property-read adcashMacros
 mltrk.io/pixel$image
@@ -37505,6 +37512,7 @@ zzzyk.com###Tinfo
 ||36dm.com/images/tb
 ||36dm.com/images/top
 ||36dm.com/js/nu
+||36gv.com^
 ||36htg.fun^
 ||36kr.com/pp/api/ap/plan?
 ||36ls.tt.omtrdc.net^
@@ -37527,6 +37535,7 @@ zzzyk.com###Tinfo
 ||3782b.art.tt.omtrdc.net^
 ||3798.com^$third-party
 ||37cs.com^$third-party
+||37dv.com^
 ||37qiqi.com/js/asp/
 ||37tek.fun^
 ||380.tw^$popup,third-party
@@ -65274,6 +65283,7 @@ zzzyk.com###Tinfo
 ||digitaltrends.com/wp-content/themes/dt-stardust/assets/scripts/js/dt-metrics.min.js
 ||digitalworkplace.ricoh.fr^
 ||digitru.st^$third-party
+||digiturk.com.tr/_Scripts/AnalyticsEvents.js
 ||dignityhealth.hrm.healthgrades.com^
 ||dignow.org^$third-party
 ||digrice.xyz^
@@ -67167,6 +67177,7 @@ zzzyk.com###Tinfo
 ||eastday.com/static/styles/*_gg.css
 ||eastday.com^$subdocument,~third-party
 ||easteat.com/templets/default/images/media-top.png
+||easter-analytics.com^
 ||eastman.tt.omtrdc.net^
 ||eastmoney.com/Extends/GetReferralLinkJavaScriptObj
 ||eastmoney.com/analysis/
@@ -82048,6 +82059,7 @@ zzzyk.com###Tinfo
 ||kan98.com/c.html
 ||kan98.com/images/*.gif
 ||kan98.com/statics/js/k2017/kan98.js
+||kanagi.xyz^
 ||kanbook.net/static/js_union/
 ||kancloud.cn/ad/
 ||kandaju.net/js/js2.
@@ -85255,6 +85267,7 @@ zzzyk.com###Tinfo
 ||log.adplex.co.kr^
 ||log.adtimaserver.vn^
 ||log.affiliate.rakuten.co.jp^
+||log.ahamo.com^
 ||log.aimtell.com^
 ||log.ajunews.com^
 ||log.aliyuncs.com^
@@ -99944,6 +99957,7 @@ zzzyk.com###Tinfo
 ||qpb0.sohu.com^
 ||qpb1.sohu.com^
 ||qpc4.visilab.ch^
+||qpcvlbp.cn^
 ||qpdyb.cn^
 ||qpgyy.com/add01.html
 ||qpic.cn/mblogpic/47a05e3dca9d6bc9e20e/2000
@@ -101958,6 +101972,7 @@ zzzyk.com###Tinfo
 ||ror12.cc^
 ||ros3d4dbs3px.salud-masculina.info^
 ||roseincome.com^
+||roseincome.com^$third-party
 ||rosenberg.appmetrica.webvisor.com^
 ||rosenberg.appmetrica.yandex.net^
 ||rosenovel.tt.omtrdc.net^
@@ -103814,7 +103829,7 @@ zzzyk.com###Tinfo
 ||scupio.net/kanglei/
 ||scupio.net^$third-party
 ||scuzgq.greencell.global^
-||scv.band.us/jackpotlog/*/logs
+||scv-cafe.io.naver.com/jackpotlog/*/logs$xmlhttprequest
 ||scvgzt.onequince.com^
 ||scvxgm.cn^
 ||scw.systems^$third-party
@@ -109382,6 +109397,7 @@ zzzyk.com###Tinfo
 ||solar.sunpower.com^
 ||solar.sunpowercorp.com^
 ||solar.tt.omtrdc.net^
+||solarislabyrinth.com^$third-party
 ||solaron.top^
 ||solarwinds.tt.omtrdc.net^
 ||solaseedairinc.tt.omtrdc.net^
@@ -109922,6 +109938,7 @@ zzzyk.com###Tinfo
 ||spacestation.tt.omtrdc.net^
 ||spade.twitch.tv^
 ||spadelocket.com^
+||spadsync.com^
 ||spain.thomsonreuters.com^
 ||spamanalyst.com^$third-party
 ||spamtitan.actonservice.com^

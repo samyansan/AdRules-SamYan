@@ -3115,6 +3115,8 @@
 121xz.com###gsxzdz
 121xz.com##.btn + .btn
 121xz.com##.c_money
+123-bt.cn###mianze_fixed
+123-bt.cn###mianze_mask
 123-bt.cn##.sd
 123-movies.city,actvid.com,cineb.net,hdtoday.tv,moviesjoy.to,solarmovie.pe,vidbem.com,upload4earn.org,uploadbyte.com,watchseries.ma,yts.mx,zoechip.com#$#abort-on-property-read localStorage
 123-movies.sr,123movies-official.net,animefrenzy.net,apkmody.io,atomohd.app,atomtt.com,d123movies.to,f2movies.to,filmlinks4u.online,gogoanime.day,gogoanime.re,gogoanime.run,goyabu.com,hentai20.com,kimcartoon.li,kisstvshow.to,lalamanga.com,mangadna.com,mangahere.onl,manganato.com,manhwax.com,movies123.sbs,movies123.studio,prmovies.re,projectfreetv.space,readmanganato.com,soap2day.cloud,socialmediagirls.com,tinyzonetv.to,udvl.com,wiflix.bet,yomovies1.online#$#abort-on-property-read localStorage;
@@ -9167,7 +9169,6 @@ instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[conta
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::section[@class="e-wbvail"]'
 instacart.com#$#hide-if-matches-xpath './/a[@href]//img[@data-testid]/following::div[.//span[text()]/following-sibling::span[text()]][1]/parent::div[@class]/parent::a[@href]/ancestor::div[@class and @id][1]'
 instacart.com#$#hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-featured-")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
-instacart.com#$#hide-if-matches-xpath './/source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/parent::picture/ancestor::div[@class][1]'
 instacart.com#$#hide-if-matches-xpath './/span[starts-with(@class,"e-1r5")][contains(text(),"d")]/parent::div[1]'
 instacart.com#$#hide-if-matches-xpath './/span[text()]/preceding::div[@aria-hidden="true"]/preceding::source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/ancestor::header[@id][@class][1]'
 instacart.com#$#hide-if-matches-xpath '//img[@alt="Sponsored"][contains(@src,".svg")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
@@ -9522,6 +9523,7 @@ iyf.tv##.p-r > .ng-star-inserted
 iyf.tv##.player-right
 iyf.tv##.player-side > .block > *
 iyf.tv##.prr > .ng-star-inserted
+iyf.tv##.prrb > .ng-star-inserted
 iyf.tv##.video-player + div[class*=" "] > div.block
 iyf.tv##.video-player > app-gg-block.ng-star-inserted[style]
 iyf.tv##vg-pause-ads
