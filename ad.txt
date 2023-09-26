@@ -3,7 +3,7 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-09-26 08:48:39
+! Version: 2023-09-26 14:14:17
 ! Total count: 131662
 
  
@@ -13374,7 +13374,6 @@ $websocket,domain=5nj.com|cechi8.com
 /jppolPrebid.
 /jqads.
 /jquery-ads.
-/jquery-ui.js?166$script,~third-party
 /jquery.ad.
 /jquery.adblock-detector.js|$script
 /jquery.adblock.js|$script
@@ -29275,7 +29274,7 @@ myptt.cc##+js(set-constant, adsbygoogle.loaded, true)
 myptt.cc##p[style="padding:0;margin: 5px 0;color:#ff0000;"] > a[href][target="_blank"][style^="display:inline-block;"] > img
 myptt.cc#%#//scriptlet("set-constant", "adsbygoogle.loaded", "true")
 myqqjd.com###advert_widget
-myqqjd.com##.adsbygoogle
+myqqjd.com##.adsbygoogl
 myqqjd.com##.qz-box
 myqqjd.com##aside[id^="sponsor-"]
 myqqjd.com$$aside[id="advert-"]
@@ -29877,6 +29876,8 @@ pan.baidu.com##.photo-banner
 pan.baidu.com##.swal2-backdrop-show.swal2-center.swal2-container
 pan.baidu.com##.swal2-show.swal2-modal.swal2-popup
 pan.baidu.com##.upload-bar.global-clearfix
+pan.baidu.com##A.active-msg
+pan.baidu.com##div.content DIV.photo-banner
 pan666.cn##.footer > .containerNarrow
 pansci.asia##body > section.hide-on-print.mt-5
 pansci.asia#$##firstSingle { padding: 0 !important; }
@@ -33417,6 +33418,7 @@ www.jianshu.com##header#jianshu-header.header-normal > div.header-download
 www.jianshu.com##header#jianshu-header.header-normal > div.logo-wrap
 www.jianshu.com##hr
 www.jianshu.com##section.ouvJEz:nth-of-type(2)
+www.jianshu.com#@#div[class$="_0"]
 www.jin10.com##.l-main_body > div[class]:not(.jin-timeline)
 www.jin10.com##.l-main_info > div[class]:not(.jin-declaration):not(.jin-qq-cooperation)
 www.jjtyss.com##ins[class],.myui-player.clearfix p,.container p
@@ -36317,7 +36319,6 @@ zzzyk.com###Tinfo
 ||1pluralsight.hb.tt.omtrdc.net^
 ||1porp.top^
 ||1ppt.com/ad$image
-||1ppt.com/ads.
 ||1ps6e7sort397gy9.edge46.testandtarget.omniture.com^
 ||1pt.trkrt.ptkk7tk.com^
 ||1pwx.com/js/ck.js
@@ -65867,7 +65868,6 @@ zzzyk.com###Tinfo
 ||dm530.net/js/ne10/
 ||dm530.net/js/newjs/
 ||dm530.net/pic/fgr/*.js
-||dm590.com/piao/
 ||dmanalytics1.com^$third-party
 ||dmarkconsulting.actonservice.com^
 ||dmbzdj.topvintage.nl^
