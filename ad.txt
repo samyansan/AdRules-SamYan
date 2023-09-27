@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-09-27 02:13:33
-! Total count: 131682
+! Version: 2023-09-27 08:48:50
+! Total count: 131690
 
  
 ###AdBlockDialog
@@ -15811,6 +15811,7 @@ $websocket,domain=5nj.com|cechi8.com
 /related-ads.
 /relatedads.
 /relay/events|$xmlhttprequest
+/release100009ts?$script,third-party
 /releases/ads/*
 /relevance_ad.
 /remix_banner.gif
@@ -31777,7 +31778,7 @@ t411.me##.ads
 t411.me##IMG[src="http://www.t411.me/images/external/usenet.jpg"]
 t66y.com##+js(nano-setTimeout-booster, adhtml, 10005)
 t66y.com##+js(nano-setTimeout-booster, blockText, 1005)
-t66y.com##+js(no-setTimeout-if, /tpc[0-9]?Html/)
+t66y.com##+js(no-setTimeout-if, /tpc.?[A-Z0-9].?tml/)
 t66y.com##.sptable_do_not_remove
 t66y.com##.tips
 t66y.com##.tpc_content.do_not_catch > a[target="_blank"]
@@ -31787,6 +31788,7 @@ t66y.com##a[href^="http://www.viidii.info/?https://po88_"]
 t66y.com##a[href^="http://www.viidii.info/?https://po88_"] ~ :nth-child(-n+115)
 t66y.com#$?#.sptable_do_not_remove { display: block !important; visibility: hidden !important; }
 t66y.com#$?#.sptable_do_not_remove { visibility: hidden !important; }
+t66y.com#%#//scriptlet('prevent-setTimeout', '/tpc.?[A-Z0-9].?tml/')
 t66y.com#%#//scriptlet('prevent-setTimeout', '/tpc[0-9]?Html/')
 t66y.com#%#AG_onLoad(function(){var a=document.querySelector(".tpc_content img");if(a){a=a.attributes;for(var b=0;b<a.length;b++)if(!a[b].name.startsWith("data-link")&&!a[b].name.match(/data-.?(h|i|s)|(a|o|f|b|c|d|v|\d)s?\d?z?t?-data/)&&!a[b].value.match(/:\/\/[\s\S]*?a\.?d?\/.?.?b(_)?l(0|o|)ck\.jpg/i)){var c=a[b].name;break}}$("img["+c+"]").each(function(){0<$(this).attr(c).indexOf("sinaimg")&&$(this).attr(c,$(this).attr(c).replace(/https:/,"http:"));$(this).attr("src",$(this).attr(c));$(this).css("cursor","pointer");$(this).click(function(){window.open($(this).attr("src"));return!1})})});
 t66y.com#%#AG_onLoad(function(){var a=document.querySelector(".tpc_content img");if(a){a=a.attributes;for(var c=0;c<a.length;c++)if(a[c].name.match("ess-data")){var b=a[c].name;break}}$("img["+b+"]").each(function(){0<$(this).attr(b).indexOf("sinaimg")&&$(this).attr(b,$(this).attr(b).replace(/https:/,"http:"));$(this).attr("src",$(this).attr(b));$(this).css("cursor","pointer");$(this).click(function(){window.open($(this).attr("src"));return!1})})});
@@ -54690,6 +54692,7 @@ zzzyk.com###Tinfo
 ||bnman.net^*/com2
 ||bnniof.247english.jp^
 ||bnofoabewd._tcp.aem.hb.tt.omtrdc.net^
+||bnpfdzp.xyz^
 ||bnpparibas.fr/JavascriptInsert.js
 ||bnpparibasfortis.tt.omtrdc.net^
 ||bnpppfro.tt.omtrdc.net^
@@ -58978,7 +58981,6 @@ zzzyk.com###Tinfo
 ||collection-endpoint-staging.herokuapp.com^
 ||collection.acromas.com^
 ||collection.saga.co.uk^
-||collections-api.realestate.com.au^
 ||collections.equifax.com^
 ||collections.mp.microsoft.com/*/collections/query
 ||collector-*.elb.amazonaws.com^$image,third-party
@@ -80924,6 +80926,7 @@ zzzyk.com###Tinfo
 ||jijidy.com/640x200down.
 ||jijikwfxeg.182nfl.hb.tt.omtrdc.net^
 ||jijistatic.duapp.com/Squall/1.jpg
+||jijozdrg.xyz^
 ||jijunlongchengxinxi.cn^
 ||jike001.top^
 ||jiktq0fr9hv6.meleton.ru^
@@ -91897,6 +91900,7 @@ zzzyk.com###Tinfo
 ||movieweb.com/strpixel.png
 ||movii-loft.cn^
 ||movshow.com/*portal/
+||mowec.xyz^
 ||mowenxi.com/1.png
 ||mowfruit.com^
 ||mowfruit.com^$third-party
@@ -92376,6 +92380,7 @@ zzzyk.com###Tinfo
 ||mwdwepok.xyz^
 ||mwefgc.pazolini.com^
 ||mwfgirvbgt.abcotv.hb.tt.omtrdc.net^
+||mwqucr.icu^
 ||mwrf.net/images/js/*mrf.js
 ||mwrf.net/images/mrf/
 ||mwstats.net^$third-party
@@ -93786,6 +93791,7 @@ zzzyk.com###Tinfo
 ||nlog.droid4x.cn^
 ||nlp-japan.life-and-mind.com^
 ||nlrpfpq.cn^
+||nlrsbd.xyz^
 ||nlrsq.com^*.js
 ||nlsynmlc.fun^
 ||nltihf.fashiondays.ro^
@@ -100909,6 +100915,7 @@ zzzyk.com###Tinfo
 ||rec1.smt.docomo.ne.jp/bcn_access_log/
 ||recapture.io^$third-party
 ||recart.com/tracking/
+||recds4.icu^
 ||recds7.icu^
 ||recds8.icu^
 ||receive.shamimomo.net/dream/dream.cgi
@@ -131193,6 +131200,7 @@ zzzyk.com###Tinfo
 ||znmtka.kikocosmetics.com^
 ||znnodl.xyz^
 ||znq9.destinia.mx^
+||znrtfj.xyz^
 ||znrttr.jaypore.com^
 ||znxidjrghi.thissubdomainshouldonlyresolveifwildcard.aem.hb.tt.omtrdc.net^
 ||znyjmbh.icu^
