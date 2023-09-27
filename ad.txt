@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-09-27 08:48:50
-! Total count: 131690
+! Version: 2023-09-27 14:14:19
+! Total count: 131684
 
  
 ###AdBlockDialog
@@ -10514,7 +10514,6 @@ $websocket,domain=5nj.com|cechi8.com
 /cgi-bin/ctasp-server.cgi?
 /cgi-bin/ctn?
 /cgi-bin/hits/*
-/cgi-bin/httpconn
 /cgi-bin/ivw-ssl/*
 /cgi-bin/ivw/*
 /cgi-bin/lcpnp/*
@@ -27196,10 +27195,8 @@ iyaxin.com##.Information
 iyaxin.com##.gr-ggtag
 iyaxin.com##.huand3
 iyf.tv##+js(set-constant, Object.prototype.ShouldPlayAds, 0)
-iyf.tv##.p-r > .ng-star-inserted
 iyf.tv##.player-right
 iyf.tv##.player-side > .block > *
-iyf.tv##.prr > .ng-star-inserted
 iyf.tv##.prrb > .ng-star-inserted
 iyf.tv##.video-player + div[class*=" "] > div.block
 iyf.tv##.video-player > app-gg-block.ng-star-inserted[style]
@@ -31789,7 +31786,6 @@ t66y.com##a[href^="http://www.viidii.info/?https://po88_"] ~ :nth-child(-n+115)
 t66y.com#$?#.sptable_do_not_remove { display: block !important; visibility: hidden !important; }
 t66y.com#$?#.sptable_do_not_remove { visibility: hidden !important; }
 t66y.com#%#//scriptlet('prevent-setTimeout', '/tpc.?[A-Z0-9].?tml/')
-t66y.com#%#//scriptlet('prevent-setTimeout', '/tpc[0-9]?Html/')
 t66y.com#%#AG_onLoad(function(){var a=document.querySelector(".tpc_content img");if(a){a=a.attributes;for(var b=0;b<a.length;b++)if(!a[b].name.startsWith("data-link")&&!a[b].name.match(/data-.?(h|i|s)|(a|o|f|b|c|d|v|\d)s?\d?z?t?-data/)&&!a[b].value.match(/:\/\/[\s\S]*?a\.?d?\/.?.?b(_)?l(0|o|)ck\.jpg/i)){var c=a[b].name;break}}$("img["+c+"]").each(function(){0<$(this).attr(c).indexOf("sinaimg")&&$(this).attr(c,$(this).attr(c).replace(/https:/,"http:"));$(this).attr("src",$(this).attr(c));$(this).css("cursor","pointer");$(this).click(function(){window.open($(this).attr("src"));return!1})})});
 t66y.com#%#AG_onLoad(function(){var a=document.querySelector(".tpc_content img");if(a){a=a.attributes;for(var c=0;c<a.length;c++)if(a[c].name.match("ess-data")){var b=a[c].name;break}}$("img["+b+"]").each(function(){0<$(this).attr(b).indexOf("sinaimg")&&$(this).attr(b,$(this).attr(b).replace(/https:/,"http:"));$(this).attr("src",$(this).attr(b));$(this).css("cursor","pointer");$(this).click(function(){window.open($(this).attr("src"));return!1})})});
 ta.alamo.com#%#(()=>{window.CQ_Analytics={SegmentMgr:{loadSegments(){}},ClientContextUtils:{init(){}}}})();
@@ -36156,9 +36152,6 @@ zzzyk.com###Tinfo
 ||182nfl.hb.tt.omtrdc.net^
 ||182pluralsight.hb.tt.omtrdc.net^
 ||182twctsg.hb-api.tt.omtrdc.net^
-||183.2.144.17/cgi-bin/httpconn^
-||183.47.99.21/cgi-bin/httpconn^
-||183.47.99.30/cgi-bin/httpconn^
 ||183abcnews.hb-api.tt.omtrdc.net^
 ||183yf.cn/img/nz.png
 ||184abcnews.hb-api.tt.omtrdc.net^
@@ -97807,6 +97800,7 @@ zzzyk.com###Tinfo
 ||pjtxmd.epool.ru^
 ||pjtymy.cn^
 ||pjy55d.com^
+||pjzmbhf.cn^
 ||pk1u.melanielyne.com^
 ||pk200.com/xb/tui.jpg
 ||pk331.cn^
