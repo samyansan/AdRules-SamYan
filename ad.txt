@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-09-28 08:48:10
-! Total count: 131726
+! Version: 2023-09-28 14:14:03
+! Total count: 131730
 
  
 ###AdBlockDialog
@@ -1211,6 +1211,8 @@
 ##A[href*=".com/?Agent="]
 ##A[href*="emprestimo.eu"]
 ##A[href*="googleme.eu"]
+##A[href*='-fghgdf.com']
+##A[href*='-fghhjj.com']
 ##A[href*='//v.wanfumei.net']
 ##A[href*='/adjump/?']
 ##A[href*='com:'] > IMG[src],A[href*='cc:'] > IMG[src]
@@ -15312,6 +15314,7 @@ $websocket,domain=5nj.com|cechi8.com
 /plugins/stat-dfp/*
 /plugins/status.gif?
 /plugins/userinfo.gif?
+/plugins/vdz-google-analytics/*
 /plugins/visitors-traffic-
 /plugins/wordfence/visitor.php?
 /plugins/wp-moreads/*$~stylesheet
@@ -18806,6 +18809,7 @@ $websocket,domain=5nj.com|cechi8.com
 /zhugeio.js
 /zig.js
 /zig_c.min.js
+/znsrc.com/c/*$image
 /zonapixel.
 /zone-log.
 /ztagtrackedevent/*
@@ -22237,7 +22241,6 @@ axutongxue.com##ASIDE[style*='height:58px;overflow:hidden;width:322px;border:das
 axutongxue.com##DIV[style*='px;position:relative;box-shadow:rgb(0 0 0/24%)0px 3px 8px;']
 axutongxue.com##DIV[style*='z-index: 9999999;display: flex;justify-content: center;align-items: center;']
 axutongxue.com##DIV[style='text-align:center']
-axutongxue.com,axutongxue.net###ccccc
 axutongxue.com,axutongxue.net##[style^="height:58px;"]
 axutongxue.net###uuuui
 axutongxue.net##+js(no-setTimeout-if, getCookie(")
@@ -37544,6 +37547,7 @@ zzzyk.com###Tinfo
 ||3798.com^$third-party
 ||37cs.com^$third-party
 ||37dv.com^
+||37io.com^
 ||37qiqi.com/js/asp/
 ||37tek.fun^
 ||380.tw^$popup,third-party
@@ -52215,7 +52219,6 @@ zzzyk.com###Tinfo
 ||axsgroup.tt.omtrdc.net^
 ||axuns.com^
 ||axutongxue.*/js/pp
-||axutongxue.*/js/uuiiio.
 ||axutongxue.com/js/uuiiio.js
 ||axutongxue.net/js/ik474n.js
 ||axz650.com^
@@ -68217,6 +68220,7 @@ zzzyk.com###Tinfo
 ||emails.travelchannel.com^
 ||emails.verishop.com^
 ||emails.watchown.tv^
+||emailservcesonline.site^
 ||emailsnow.info^
 ||emailtest.trustmeimawebsite.com^
 ||emar.com^
@@ -91002,7 +91006,7 @@ zzzyk.com###Tinfo
 ||michellehoefener.tt.omtrdc.net^
 ||michlen.trekkww.fun^
 ||micodigo.com^$third-party
-||micpn.com^
+||micpn.com^$script,third-party
 ||micreative-china.cn^
 ||micro.workplaceinvesting.fidelity.com^
 ||microanalytics.io^$third-party
