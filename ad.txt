@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-09-28 02:13:44
-! Total count: 131716
+! Version: 2023-09-28 08:48:10
+! Total count: 131726
 
  
 ###AdBlockDialog
@@ -22998,7 +22998,6 @@ bombardir.ru#$#abort-on-property-read alert
 bombaytimes.com##a[onclick*="click"][rel="nofollow,noindex"]
 bombaytimes.com#?#div:-abp-has(> h4 > span:-abp-contains(Ad: ))
 bonbonme.com##.topbannerer
-bongda365a.club#$#override-property-read isSkipAds true
 bongda365b.net#$#override-property-read isSkipAds true
 bongdahomnay.tech#$#abort-on-property-read $
 boniu123.cc##.left_side
@@ -24460,7 +24459,6 @@ dstar.pzk.pl#@#.adsbox
 dstar.pzk.pl#@#.adsbygoogle
 dsxys.com$$script[tag-content="disableDebugger"]
 dtf.ru,vc.ru##.layout__right-column > div[class*=" "][style] > div[class*=" "] > div:only-child
-dualeotruyenk.com#$#abort-current-inline-script document.addEventListener popunder
 dualeotruyenus.com#$#abort-current-inline-script document.addEventListener popunder
 duangks.com###a_d_sidebar
 duanwenxue.com##.qgzdwx
@@ -26174,8 +26172,12 @@ hexieshe.com,hexieshe.xyz,xxshe.info##.entry-title > p
 hexieshe.com,hexieshe.xyz,xxshe.info##.mh-sidebar img
 hexieshe.com,hexieshe.xyz,xxshe.info,xxshe.xyz##.mh-widget > .textwidget > p > a[href^="http"]:not([href*="she."]):first-child:last-child
 hexun.com###bottom_extension
+hexun.com###hexunCouplet01
 hexun.com###newsPopWin
 hexun.com###tonglan_1 + .layout
+hexun.com###videoLeftAd
+hexun.com###videoRightAd
+hexun.com##.lck-module
 hexun.com##.side618
 hexun.com,hexun.com.tw###hexunCouplet01
 hexun.com,hexun.com.tw###videoLeftAd
@@ -26830,6 +26832,7 @@ inmywordz.com,ants.tw##.acca-block
 ins$$[class="adsbygoogle"]
 inside-games.jp##.cx-subhead
 instacart.com#$#hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' li 'li div[aria-label="Product"]'
+instacart.com#$#hide-if-contains-visible-text '/Spons/' li 'li div[aria-label="Product"]'
 instacart.com#$#hide-if-contains-visible-text '/Sponsor/' li 'li div[aria-label="Product"]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")][@data-testid]/ancestor::a[contains(@href,"interaction_id")]/ancestor::section[@id][@class][not(@id="store-wrapper") and not(@id="js-app")]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"cloudfront.net/uploads/image_display_")][@alt]/parent::div[@class][1]'
@@ -30920,7 +30923,6 @@ samayam.com,indiatimes.com##a[onclick][rel="nofollow,noindex"]
 samehadaku.net#@##adsense
 samsclub.com##div[class="analytics"][data-strategy="Sponsored products"]
 samsclub.com#$#hide-if-labelled-by /Sponsored/ button div[class*="carousel-slide"]
-samsclub.com#$#hide-if-matches-xpath './/span[@class="sc-specials-label"]/following::a[@role="button"]/ancestor::div[@class="sc-sba-modules-logo"]/parent::div[@class="sc-sba-modules"]'
 samsclub.com#$#hide-if-matches-xpath './/span[@class="sc-specials-label"]/following::a[@role="button"]/ancestor::div[@class="sc-sba-modules-logo"]/parent::div[contains(@class,"sc-sba-modules")][1]'
 samsclub.com#$#hide-if-matches-xpath '//img[contains(@class,"sc-pc-image-small-controller")]/preceding::div[contains(@class,"sc-sponsored-simple")][contains(text(),"Sponsored")]/ancestor::div[contains(@class,"sc-product-carousel-canary-card-has-sponsored-product")]'
 samsung.com###operationBanner
@@ -32747,7 +32749,6 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gomovieshub.io,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.pw,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.vc,ungtycomicsvip.com,vlxx.info,truyengihotday.net,dualeotruyenk.com,yurineko.net#$#abort-current-inline-script WebAssembly instantiate
 viet69.vc,ungtycomicsvip.com,vlxx.info,truyengihotday.net,dualeotruyenus.com,yurineko.net#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com##div[class^="new-hot-comment_subText"]
 view.inews.qq.com##div[class^="normal_buttonWrap"]
@@ -33850,10 +33851,6 @@ xmh/200/200-*.gif
 xn--80aikhbrhr.net,кинокрад.net##.warning-adblock-box
 xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
-xoilac79.tv##.modal.fade.show
-xoilac79.tv#$#abort-current-inline-script jQuery overlay
-xoilac79.tv#$#abort-current-inline-script jQuery popupBanners
-xoilac79.tv#$#abort-on-property-read adsRedirectPopups
 xoilac84.tv##.modal.fade.show
 xoilac84.tv#$#abort-current-inline-script jQuery overlay
 xoilac84.tv#$#abort-current-inline-script jQuery popupBanners
@@ -48214,6 +48211,7 @@ zzzyk.com###Tinfo
 ||analytics.jazel.net^
 ||analytics.jodelapis.com^
 ||analytics.joincambridge.com^
+||analytics.jslib.win^
 ||analytics.jst.ai^
 ||analytics.jst.ai^$third-party
 ||analytics.kaggle.io^
@@ -57362,6 +57360,7 @@ zzzyk.com###Tinfo
 ||cheda10.icu^
 ||cheda7.icu^
 ||cheda8.icu^
+||cheda9.icu^
 ||cheerfulrange.com^
 ||cheerfulrange.com^$third-party
 ||cheers.com.tw/assets/js/fancyapps-
@@ -58093,6 +58092,7 @@ zzzyk.com###Tinfo
 ||clickclick.net^$third-party
 ||clickconversion.net^$third-party
 ||clickdensity.com^$third-party
+||clickdimensions.com/ts.js
 ||clickdimensions.com^$third-party
 ||clickening.com^$third-party
 ||clicker.com^*pageurl$third-party
@@ -66861,6 +66861,7 @@ zzzyk.com###Tinfo
 ||dytt.com/pc.js
 ||dytt.com^*yb.js
 ||dytt399.com/966.jpg
+||dytt8.com/js1y/
 ||dytt8.net/js1/
 ||dytt8.net/js2/
 ||dytt8.net/js3/
@@ -73378,6 +73379,7 @@ zzzyk.com###Tinfo
 ||goaww.com/stats.php
 ||goazlf.mytoys.de^
 ||gobali.cn^
+||gobankingrates.com/analytics/latest/ct.bundle.js
 ||gobankingrates.com/fp/
 ||gobest.news.tt.omtrdc.net^
 ||gobeyond.superiorgroup.com^
@@ -75403,6 +75405,8 @@ zzzyk.com###Tinfo
 ||hexun.com/inc/popbox.aspx
 ||hexun.com/js/att_count.js
 ||hexun.com/js/count.
+||hexun.com/pc/img/diversionToWXBottom_
+||hexun.com/pc/js/dataPopup.
 ||hexun.com/track/
 ||hexun.com/wxcms/ad/
 ||hexun.com^*/appDplus
@@ -91518,6 +91522,7 @@ zzzyk.com###Tinfo
 ||mobee.xyz^$third-party
 ||mobfox.com/ad_sdk.js
 ||mobil.hry.yt^
+||mobildev.in^
 ||mobile-collector.newrelic.com^
 ||mobile-dev.mystore.tt.omtrdc.net^
 ||mobile-event.cvent.me^
@@ -94329,6 +94334,7 @@ zzzyk.com###Tinfo
 ||nxnszu.ettoday.net^
 ||nxovay.fo-online.jp^
 ||nxrhs.com^
+||nxtxxcm.xyz^
 ||nxums.cn^
 ||nxwly.com^
 ||nxwniq.aboutyou.ie^
@@ -99504,6 +99510,7 @@ zzzyk.com###Tinfo
 ||qa-sub-account-webhooks.tt.omtrdc.net^
 ||qa13.tt.omtrdc.net^
 ||qa4-www.tt.omtrdc.net^
+||qaagib.icu^
 ||qaapp.forever21.com^
 ||qadiscovid19.tt.omtrdc.net^
 ||qagdczc.cn^
@@ -105521,6 +105528,7 @@ zzzyk.com###Tinfo
 ||siamcommercialbank.tt.omtrdc.net^
 ||siawswa.info^
 ||sibautomation.com^$third-party
+||sibehgtq.xyz^
 ||siberiantimes.com/counter/
 ||sibnet.ru/counter.php?
 ||sibulla.com^$third-party
@@ -131563,8 +131571,10 @@ zzzyk.com###Tinfo
 ||zxhstudy.online^
 ||zxip.com/2013_ad/
 ||zxjjzx.com^
+||zxjrbz.xyz^
 ||zxlmnet.com^
 ||zxopen.tech^
+||zxpgfl.xyz^
 ||zxptw.cn^
 ||zxptw.cn^$third-party
 ||zxrcfw.com^

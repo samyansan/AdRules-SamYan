@@ -5597,7 +5597,6 @@ bombardir.ru#$#abort-on-property-read alert
 bombaytimes.com##a[onclick*="click"][rel="nofollow,noindex"]
 bombaytimes.com#?#div:-abp-has(> h4 > span:-abp-contains(Ad: ))
 bonbonme.com##.topbannerer
-bongda365a.club#$#override-property-read isSkipAds true
 bongda365b.net#$#override-property-read isSkipAds true
 bongdahomnay.tech#$#abort-on-property-read $
 boniu123.cc##.left_side
@@ -6955,7 +6954,6 @@ dshangyan.com##.advHeader
 dstar.pzk.pl#@#.adsbox
 dstar.pzk.pl#@#.adsbygoogle
 dtf.ru,vc.ru##.layout__right-column > div[class*=" "][style] > div[class*=" "] > div:only-child
-dualeotruyenk.com#$#abort-current-inline-script document.addEventListener popunder
 dualeotruyenus.com#$#abort-current-inline-script document.addEventListener popunder
 duangks.com###a_d_sidebar
 duanwenxue.com##.qgzdwx
@@ -8539,8 +8537,12 @@ hexieshe.com,hexieshe.xyz,xxshe.info##.entry-title > p
 hexieshe.com,hexieshe.xyz,xxshe.info##.mh-sidebar img
 hexieshe.com,hexieshe.xyz,xxshe.info,xxshe.xyz##.mh-widget > .textwidget > p > a[href^="http"]:not([href*="she."]):first-child:last-child
 hexun.com###bottom_extension
+hexun.com###hexunCouplet01
 hexun.com###newsPopWin
 hexun.com###tonglan_1 + .layout
+hexun.com###videoLeftAd
+hexun.com###videoRightAd
+hexun.com##.lck-module
 hexun.com##.side618
 hexun.com,hexun.com.tw###hexunCouplet01
 hexun.com,hexun.com.tw###videoLeftAd
@@ -9167,6 +9169,7 @@ infoseek.co.jp#$#.co-Widget[style="min-height: 6000px;"] { min-height: auto !imp
 inmywordz.com,ants.tw##.acca-block
 inside-games.jp##.cx-subhead
 instacart.com#$#hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' li 'li div[aria-label="Product"]'
+instacart.com#$#hide-if-contains-visible-text '/Spons/' li 'li div[aria-label="Product"]'
 instacart.com#$#hide-if-contains-visible-text '/Sponsor/' li 'li div[aria-label="Product"]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")][@data-testid]/ancestor::a[contains(@href,"interaction_id")]/ancestor::section[@id][@class][not(@id="store-wrapper") and not(@id="js-app")]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"cloudfront.net/uploads/image_display_")][@alt]/parent::div[@class][1]'
@@ -12906,7 +12909,6 @@ samayam.com,indiatimes.com##a[onclick][rel="nofollow,noindex"]
 samehadaku.net#@##adsense
 samsclub.com##div[class="analytics"][data-strategy="Sponsored products"]
 samsclub.com#$#hide-if-labelled-by /Sponsored/ button div[class*="carousel-slide"]
-samsclub.com#$#hide-if-matches-xpath './/span[@class="sc-specials-label"]/following::a[@role="button"]/ancestor::div[@class="sc-sba-modules-logo"]/parent::div[@class="sc-sba-modules"]'
 samsclub.com#$#hide-if-matches-xpath './/span[@class="sc-specials-label"]/following::a[@role="button"]/ancestor::div[@class="sc-sba-modules-logo"]/parent::div[contains(@class,"sc-sba-modules")][1]'
 samsclub.com#$#hide-if-matches-xpath '//img[contains(@class,"sc-pc-image-small-controller")]/preceding::div[contains(@class,"sc-sponsored-simple")][contains(text(),"Sponsored")]/ancestor::div[contains(@class,"sc-product-carousel-canary-card-has-sponsored-product")]'
 samsung.com###operationBanner
@@ -14517,7 +14519,6 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gomovieshub.io,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.pw,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.vc,ungtycomicsvip.com,vlxx.info,truyengihotday.net,dualeotruyenk.com,yurineko.net#$#abort-current-inline-script WebAssembly instantiate
 viet69.vc,ungtycomicsvip.com,vlxx.info,truyengihotday.net,dualeotruyenus.com,yurineko.net#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com##div[class^="new-hot-comment_subText"]
 view.inews.qq.com##div[class^="normal_buttonWrap"]
@@ -15500,10 +15501,6 @@ xmfish.com##.readCon_right
 xn--80aikhbrhr.net,кинокрад.net##.warning-adblock-box
 xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
-xoilac79.tv##.modal.fade.show
-xoilac79.tv#$#abort-current-inline-script jQuery overlay
-xoilac79.tv#$#abort-current-inline-script jQuery popupBanners
-xoilac79.tv#$#abort-on-property-read adsRedirectPopups
 xoilac84.tv##.modal.fade.show
 xoilac84.tv#$#abort-current-inline-script jQuery overlay
 xoilac84.tv#$#abort-current-inline-script jQuery popupBanners
