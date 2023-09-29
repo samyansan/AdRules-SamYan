@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-09-29 08:48:16
-! Total count: 131755
+! Version: 2023-09-29 14:13:44
+! Total count: 131756
 
  
 ###AdBlockDialog
@@ -3349,7 +3349,6 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=bhshu.net|louzho
 $script,subdocument,third-party,xmlhttprequest,domain=alicili.me|alicili8.com|alicilibt.com|bittorrentsearchweb.com|btdiggba.me|btdiggba.ws|btdiggcn.xyz|btdiggs.co|btkitty.com|btkitty.pet|btkittyba.cc|btkittyba.me|btkittyba.net|btkittyba.pw|btkittyla.me|btkittyla.org|btkittyon.co|btkittyplus.cc|btlibrary.xyz|btlibrarys.cc|btlibrarys.net|btspread.cc|cilidaquan.co|cilidaquan.top|cilidaquancn.pw|cilidb.net|cilifanhao.ws|cilifanhaobt.xyz|cnbtdigg.pw|cnbtkitty.xyz|cncilidb.pw|cntorrentkitty.co|cnzhongzicili.net|diggbts.cc|diggbts.xyz|feifeibt.pw|godiggbt.org|godiggbts.cc|kikibt.me|kikibts.org|mybtlibrary.cc|nanrenbt.cc|newbtkitty.me|newbtkitty.pw|newbtspread.ws|okbtkitty.me|renrencili.pw|renrencili.xyz|savebt.pw|sousoucili.com|storebt.net|storetorrents.com|torrentkitty.app|torrentsearchweb.xyz|zhainanbt.me|zhongzicilibt.org|zhongzicilicn.com|zhongzicilicn.ws|zhongzicilicn.xyz|zhongzicilila.cc|zhongzicilila.co|zhongziciliso.net|zhongzifuli.cc|zhongzishenqi.ws
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.6666xsw.com|m.biqugee6.com|m.bqg99.cc|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.666wx.cc|m.ajnnan.com|m.biqugee.com|m.biqusa.com|m.bqg99.cc|m.bswtan.com|m.jmshuwu.net|m.wx-book.com|wodexiaoshuoh.com
-$script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io,_____,domain=wap.dmwenku.com|m.wfxs.tw|h.fkxs.net|wap.ishuquge.la|m.91zww.com|592mh.top|dubuxiaoshuo.com|clm410.buzz|bookbl.com|shuku99.com|qiyoudy2.com|1yydstxt178.com
 $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io,_____,domain=wap.dmwenku.com|m.wfxs.tw|h.fkxs.net|wap.ishuquge.la|m.91zww.com|592mh.top|dubuxiaoshuo.com|clm410.buzz|bookbl.com|shuku99.com|qiyoudy2.com|1yydstxt178.com|rouman5.com
 $script,third-party,domain=512539700c.top|ahri-hentai.com
 $script,third-party,domain=52movieba.com|66s.cc|ab126.com|audio699.com|dm530.net|kan-tv.com|m.supfree.net|wltmv.com|xiepp.com
@@ -4225,9 +4224,6 @@ $websocket,domain=5nj.com|cechi8.com
 .cn/v/*.xmtl?$third-party
 .cn/vs.php?id=$script,third-party
 .cn/z.gif?
-.cn:*/*/*?c=$third-party
-.cn:*/*/*?n=$third-party
-.cn:*/*/*?t=$third-party
 .cn:*/vh5$third-party
 .cn:8001/*/*?*=$third-party
 .cnzz.com/z_stat.php?id=
@@ -4498,9 +4494,6 @@ $websocket,domain=5nj.com|cechi8.com
 .com/zz/*2.txt$xmlhttprequest
 .com/zz/tcc2.js
 .com/zz/yd2.js
-.com:*/*/*?c=$third-party
-.com:*/*/*?n=$third-party
-.com:*/*/*?t=$third-party
 .com:10446/*/get*.html
 .com:12289/$script,third-party
 .com:2516/code/
@@ -43058,6 +43051,7 @@ zzzyk.com###Tinfo
 ||aanalytics.adelaide.edu.au^
 ||aanewsletter.hb-fa-dev.tt.omtrdc.net^
 ||aans.athome.com^
+||aaoffice.cn^
 ||aapass-np.tt.omtrdc.net^
 ||aapeople.cn^
 ||aapje-21-7.tt.omtrdc.net^
@@ -46396,6 +46390,7 @@ zzzyk.com###Tinfo
 ||agzxj8990.com^
 ||ah-schlehaider.hb-fa-dev.tt.omtrdc.net^
 ||ah-sentry.hb-fa-dev.tt.omtrdc.net^
+||ah.5l59k.com^
 ||ah.sina.com.cn/iframe/
 ||ah58tc.com^
 ||ah808.com^
@@ -54955,6 +54950,8 @@ zzzyk.com###Tinfo
 ||bose.tt.omtrdc.net^
 ||bosh.tt.omtrdc.net^
 ||boshao666.com^
+||boshishuwu.com/js/middlestyle.js
+||boshishuwu.com/js/zhuanhua.js
 ||bosiwangzi.cn^
 ||boss-www.com^
 ||boss.openapp.link^
@@ -56054,6 +56051,7 @@ zzzyk.com###Tinfo
 ||c6890.cn^
 ||c6890.cn^$third-party
 ||c6z85.cn^
+||c72w6.com^
 ||c917.pandasuite.io^
 ||c993.westport-news.com^
 ||c9cc.icu^
@@ -57841,6 +57839,7 @@ zzzyk.com###Tinfo
 ||cjdby.net/Public/home/images/advImg/
 ||cjde.xyz^
 ||cjgcedu.com^
+||cjgdch.com^
 ||cjhaoliao.xyz^
 ||cjhbkj.cn^
 ||cjhd.site^
@@ -95034,6 +95033,7 @@ zzzyk.com###Tinfo
 ||on.librestream.com^
 ||onaudience.com^$third-party
 ||oncahh.boxlunch.com^
+||oncgqzu.cn^
 ||oncinu.com^
 ||onclickads.net^
 ||onclickpredictiv.com^
@@ -126750,6 +126750,7 @@ zzzyk.com###Tinfo
 ||www.200ps.com^
 ||www.200summit.com^
 ||www.22-trk-srv.com^
+||www.288txt.com/da/*.js
 ||www.33-trk-srv.com^
 ||www.33infra-strat.com^
 ||www.3aym.cn^
