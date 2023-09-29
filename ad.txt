@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-09-29 02:13:14
-! Total count: 131738
+! Version: 2023-09-29 08:48:16
+! Total count: 131755
 
  
 ###AdBlockDialog
@@ -3350,6 +3350,7 @@ $script,subdocument,third-party,xmlhttprequest,domain=alicili.me|alicili8.com|al
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.6666xsw.com|m.biqugee6.com|m.bqg99.cc|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.666wx.cc|m.ajnnan.com|m.biqugee.com|m.biqusa.com|m.bqg99.cc|m.bswtan.com|m.jmshuwu.net|m.wx-book.com|wodexiaoshuoh.com
 $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io,_____,domain=wap.dmwenku.com|m.wfxs.tw|h.fkxs.net|wap.ishuquge.la|m.91zww.com|592mh.top|dubuxiaoshuo.com|clm410.buzz|bookbl.com|shuku99.com|qiyoudy2.com|1yydstxt178.com
+$script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io,_____,domain=wap.dmwenku.com|m.wfxs.tw|h.fkxs.net|wap.ishuquge.la|m.91zww.com|592mh.top|dubuxiaoshuo.com|clm410.buzz|bookbl.com|shuku99.com|qiyoudy2.com|1yydstxt178.com|rouman5.com
 $script,third-party,domain=512539700c.top|ahri-hentai.com
 $script,third-party,domain=52movieba.com|66s.cc|ab126.com|audio699.com|dm530.net|kan-tv.com|m.supfree.net|wltmv.com|xiepp.com
 $script,third-party,domain=52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoheimi.net
@@ -5128,6 +5129,7 @@ $websocket,domain=5nj.com|cechi8.com
 .xyz/vs.php?id=$script,third-party
 .xyz/xefeliffng_$third-party
 .xyz/xling_*_*_*.js?
+.xyz/z/*/code.js$script,third-party
 .za/ads.
 .za/ads/$domain=~ananzi.co.za
 .zalando.com/images/probe.png
@@ -32147,6 +32149,7 @@ titlovi.com#@#.text_ads
 tivi.fi#$#hide-if-matches-xpath '//div[contains(text(),"Kaupallinen yhteistyö")]/../../..'
 tj.xinhuanet.com##.xhdf_num1_col3
 tlanyan.me$$script[tag-content="id_ad_image"]
+tlr.stripocdn.email$image
 tmall.com###J_BottomSmartBanner
 tmall.com###J_Recommend
 tmall.com###J_smartloader
@@ -43770,7 +43773,6 @@ zzzyk.com###Tinfo
 ||aceosm-ch2-14-con.sys.sys.tt.omtrdc.net^
 ||acesanex.hb-fa-dev.tt.omtrdc.net^
 ||aceservices-everify.cbp.tt.omtrdc.net^
-||acesse.tc.com.br^
 ||aceswebprod-master-fw.psb.tt.omtrdc.net^
 ||aceswrm-ch-06-02-con.sys.sys.tt.omtrdc.net^
 ||aceswrm-ch-17-02.sys.sys.tt.omtrdc.net^
@@ -44850,6 +44852,7 @@ zzzyk.com###Tinfo
 ||admaster.com.cn
 ||admaster.com.cn^$third-party
 ||admatrix.jp^$third-party
+||admaxium.com^
 ||admd.housefun.com.tw^
 ||admd.yam.com^
 ||admddc.com^
@@ -55853,6 +55856,7 @@ zzzyk.com###Tinfo
 ||bytravel.cn/js/ad_
 ||bytravel.cn/js/b_
 ||bytravel.cn/js/s_
+||bytupkvc.xyz^
 ||byvlph.xyz^
 ||byxcbk.ipekevi.com^
 ||byyafieldschedule.tt.omtrdc.net^
@@ -68686,6 +68690,7 @@ zzzyk.com###Tinfo
 ||epson.tt.omtrdc.net^
 ||epsonukltd.tt.omtrdc.net^
 ||epwa.europarl.europa.eu^
+||epxprfk.xyz^
 ||epzpzmg.cn^
 ||eq-beacon.stream.co.jp^
 ||eq-player-log.cdnext.stream.ne.jp^
@@ -73627,6 +73632,7 @@ zzzyk.com###Tinfo
 ||googleapis.com^*/gen_204?$domain=tellows.de
 ||googlecode.com^*/tracker.js
 ||googleoptimize-cn.com^
+||googleoptimize.com/optimize.js$script,redirect=google-analytics,domain=winnicalidla.pl
 ||googleoptimize.com/optimize.js$third-party
 ||googleoptimize.com^
 ||googlerank.info^$third-party
@@ -74047,6 +74053,7 @@ zzzyk.com###Tinfo
 ||groceries.asda.com/px/PX1UGLZTko/init.js
 ||groceriesnewmedia.hb.tt.omtrdc.net^
 ||groove.so/unlocker.js
+||groovy-manul.pikapod.net^
 ||groovyornament.com^
 ||groovyornament.com^$third-party
 ||grouchypush.com^
@@ -75514,6 +75521,7 @@ zzzyk.com###Tinfo
 ||hhgongzi.net^
 ||hhhedv.luxauto.lu^
 ||hhhfe.cn^
+||hhlsxp.xyz^
 ||hhnvrht.cn^
 ||hhqqkk.top^
 ||hhrhl.vip^
@@ -85040,6 +85048,7 @@ zzzyk.com###Tinfo
 ||ljlg.xyz^
 ||ljlxy.cn^
 ||ljmei.com^
+||ljnrjt.xyz^
 ||ljrot.icu^
 ||ljte0.com^
 ||ljwckj.love^
@@ -85313,6 +85322,7 @@ zzzyk.com###Tinfo
 ||log.baomoi.com^
 ||log.bitauto.com^
 ||log.bloodsugars.live^
+||log.bunjang.co.kr^
 ||log.byteoversea.com^
 ||log.china.cn^
 ||log.cizion.com^
@@ -94566,6 +94576,7 @@ zzzyk.com###Tinfo
 ||oelco.cn^
 ||oende.cn^
 ||oeocriaq.cn^
+||oepce.xyz^
 ||oeqirr.com^$third-party
 ||oesonx.10000recipe.com^
 ||oessbi.yves-rocher.ru^
@@ -100510,6 +100521,7 @@ zzzyk.com###Tinfo
 ||ra1.xyz^
 ||ra5.xyz/z/*/code.
 ||ra5.xyz^
+||ra6.xyz^
 ||raac33.net^
 ||rabbit.radicalxchange.org^
 ||rabbit.thebestproductlist.com^
@@ -105053,6 +105065,7 @@ zzzyk.com###Tinfo
 ||sgegie.fun^
 ||sgekapkipo.aem.hb.tt.omtrdc.net^
 ||sgeth1.icu^
+||sgeth3.icu^
 ||sgeth7.icu^
 ||sgforex.americanexpress.com^
 ||sgg.southcn.com^
@@ -111762,6 +111775,7 @@ zzzyk.com###Tinfo
 ||statisfile.com^
 ||statisfy.net^$third-party
 ||statista.com/data/ptm.gif
+||statistic.audima.co^
 ||statistic.gamona.de^
 ||statistic.jac-systeme.de^
 ||statistic.qzone.qq.com^
@@ -115632,6 +115646,7 @@ zzzyk.com###Tinfo
 ||techopsstage-stage-stage.tt.omtrdc.net^
 ||techpowerup.com/__botcheck
 ||techprovider.intel.com^
+||techpump.com^
 ||techraptor.net/sites/default/files/google_analytics/gtag.js
 ||techritual.com/wp-content/uploads/*/HDcource_
 ||techservices.trapptechnology.com^
@@ -120334,6 +120349,7 @@ zzzyk.com###Tinfo
 ||tracking.sfitrucks.com^
 ||tracking.shaadi.com^
 ||tracking.sharplink.us^
+||tracking.shinycolors.enza.fun^
 ||tracking.shl.com^
 ||tracking.shop.verymobile.it^
 ||tracking.shopback.com^
@@ -122461,6 +122477,7 @@ zzzyk.com###Tinfo
 ||ukmarketing.sedgwick.com^
 ||ukmnlp.techbang.com^
 ||uknetguide.co.uk/user.js?
+||ukpsal.icu^
 ||ukri.innovateuk.org^
 ||uktgg.dev-tester.com^
 ||ukutuy.xyz^
