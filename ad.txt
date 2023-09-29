@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-09-29 20:19:50
-! Total count: 131760
+! Version: 2023-09-30 02:13:31
+! Total count: 131768
 
  
 ###AdBlockDialog
@@ -28911,6 +28911,7 @@ memexie.com##div[style^="width:9"][style$="#C8E4F0"]
 mengzhan521.com##a[href^="http"]:not([href*="mengzhan"]) > img[src^="http"]
 mensxp.com##a[onclick*="mensxp.com//asddjm/"]
 mensxp.com##a[onclick][rel*="nofollow"]
+mercadolibre.com.ar,mercadolibre.com.bo,mercadolivre.com.br,mercadolibre.cl,mercadolibre.com.co,mercadolibre.co.cr,mercadolibre.com.do,mercadolibre.com.ec,mercadolibre.com.gt,mercadolibre.com.hn,mercadolibre.com.mx,mercadolibre.com.ni,mercadolibre.com.pa,mercadolibre.com.py,mercadolibre.com.pe,mercadolibre.com.sv,mercadolibre.com.uy,mercadolibre.com.ve#$#hide-if-matches-xpath './/div[@class="andes-carousel-snapped__wrapper"]/preceding::section[@aria-label]/preceding::a[contains(@href,"https://ads.")][@rel="nofollow, sponsored" or @rel="nofollow,sponsored"]/ancestor-or-self::section[@class="ui-recommendations-carousel-wrapper-ref"][1]'
 mercadolibre.com.ar,mercadolibre.com.bo,mercadolivre.com.br,mercadolibre.cl,mercadolibre.com.co,mercadolibre.co.cr,mercadolibre.com.do,mercadolibre.com.ec,mercadolibre.com.gt,mercadolibre.com.hn,mercadolibre.com.mx,mercadolibre.com.ni,mercadolibre.com.pa,mercadolibre.com.py,mercadolibre.com.pe,mercadolibre.com.sv,mercadolibre.com.uy,mercadolibre.com.ve#$#hide-if-matches-xpath './/div[@class="ui-search-item__pub-container"]/preceding::a[@rel="nofollow,sponsored"]/ancestor::div[contains(@class,"ui-search-result__wrapper")]'
 mercadolibre.com.ar,mercadolibre.com.bo,mercadolivre.com.br,mercadolibre.cl,mercadolibre.com.co,mercadolibre.co.cr,mercadolibre.com.do,mercadolibre.com.ec,mercadolibre.com.gt,mercadolibre.com.hn,mercadolibre.com.mx,mercadolibre.com.ni,mercadolibre.com.pa,mercadolibre.com.py,mercadolibre.com.pe,mercadolibre.com.sv,mercadolibre.com.uy,mercadolibre.com.ve#$#hide-if-matches-xpath './/span[@class="ui-search-sidebar-advertising__title"][text()]/ancestor::div[@class="ui-search-sidebar-advertising title-advertising"]/parent::div[@class="ui-search-sidebar-advertising__display"]'
 mercedesclub.cz#@#.reklama
@@ -32877,7 +32878,9 @@ walmart.com##div[id*="Sponsored"]
 walmart.com##div[id^="SEARCH-SponsoredProductCarousel"]
 walmart.com#$#hide-if-contains-visible-text /Sponsored/ 'section div[data-item-id]' div span
 wan.douyu.com
+wandhi.com##.table
 wandhi.com##.table-bordered
+wandhi.com##.unit-100
 wandhi.com##a[style="display: inline-block;position: relative"]
 wangfz.com##div[class^="my-ad-"]
 wanghualang.com###cx_tag_cloud-2 ~ aside[id^="php_text-"]
@@ -38705,6 +38708,7 @@ zzzyk.com###Tinfo
 ||73354.tt.omtrdc.net^
 ||73652253191.com^$third-party
 ||7374.tt.omtrdc.net^
+||738atf.xyz^
 ||73aa2ef22.inst.aws.tt.omtrdc.net^
 ||73cm.com^
 ||74.55.82.102^$third-party
@@ -43023,6 +43027,7 @@ zzzyk.com###Tinfo
 ||aagomsi.xyz^
 ||aagon.actonservice.com^
 ||aahamarketing.hubinternational.com^
+||aaholidays.cn^
 ||aaiaa.hb-fa-dev.tt.omtrdc.net^
 ||aaidmboxedge23-tyo02.tt.tt.tt.omtrdc.net^
 ||aaidmboxedge28-alb02.tt.tt.tt.omtrdc.net^
@@ -45695,6 +45700,7 @@ zzzyk.com###Tinfo
 ||aeikhouse.blog.tt.omtrdc.net^
 ||aelca.tt.omtrdc.net^
 ||aeletheacd.com^
+||aelxock.cn^
 ||aelyncfe1303.tt.omtrdc.net^
 ||aem-collector.daumkakao.io^
 ||aem.hb.tt.omtrdc.net^
@@ -58759,6 +58765,7 @@ zzzyk.com###Tinfo
 ||cnscg.com/template/default/style/t6/other/
 ||cnsecurity.actonservice.com^
 ||cnshiw2.com^
+||cnskyline.top^
 ||cnstats.cdev.eu^
 ||cnstats.ru^$third-party
 ||cnstock.com/img/news/ad-
@@ -83892,6 +83899,7 @@ zzzyk.com###Tinfo
 ||letv.com/pzt/hyhmzq/index.shtml
 ||letv.com/s?ark=
 ||letvcdn.com/js/*_focus_flash.js
+||letvcdn.com/lc02_live/201803/18/23/40/1521387641261new.
 ||letvimg.com/$object,xhr
 ||letvimg.com/$object-subrequest
 ||letvimg.com/*_gugwl/$image
