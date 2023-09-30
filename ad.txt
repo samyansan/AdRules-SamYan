@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-09-30 02:13:31
-! Total count: 131768
+! Version: 2023-09-30 08:46:49
+! Total count: 131785
 
  
 ###AdBlockDialog
@@ -21666,6 +21666,10 @@ abc-people.com##div[style*="background-color"][style*="position"][style*="z-inde
 abczdrowie.pl#$#abort-on-property-read slot.parentElement
 abczdrowie.pl,parenting.pl,nerwica.com,twojeip.wp.pl,echirurgia.pl#$#abort-current-inline-script document.querySelector registerSlot
 ablink.hi.channel4.com$image
+abmedia.io###block-12
+abmedia.io##.pum
+abmedia.io##a[href^="https://ace.io/"]
+abmedia.io##a[href^="https://www.okx.com/"]
 abminbuy.com##body > a[rel="nofollow"] > img
 abp?type=js&session$domain=prosieben.de|sat1.de|kabeleins.de|sixx.de|prosiebenmaxx.de
 ac-room.cc##.ad.v-card
@@ -21840,7 +21844,6 @@ ajaxshowtime.com##div.leaderboard_ad + div
 ajaxshowtime.com#?#div:-abp-properties(content: "Advertentie";)
 akhbara24.news,anime4up.art,anime4up.com,arabseed.me,asia2tv.cn,asia2tv.com,baramjak.com,cima-club.cc,cima-club.in,cima-club.io,cima-club.lol,cima-club.vip,cima4u.cloud,cima4u.film,cima4u.ink,cima4u.tube,cima4u.tv,cima4u.ws,cimalina.me,cimalina.net,egy-live.online,egynow.cam,egynow.live,faselhd.ac,faselhd.co,faselhd.live,hawak.net,iegybest.co,lodynet.cloud,lodynet.co,lodynet.dev,lodynet.ink,lodynet.tv,lodynet.win,manga.ae,moshahda.net,movizland.com,movizland.cyou,movizland.online,egyanime.com,egydead.com,egydead.live,shahed4u.cafe,shahed4u.casa,shahed4u.cfd,shahed4u.cloud,shahed4u.fun,shahed4u.mba,shahed4u.red,shahed4u.site,shahed4u.tax,shahed4u.tips,shahed4u.vip,shahed4u.work,shahed4u.ws,shaheed4u.art,shaheed4u.autos,shaheed4u.beauty,shaheed4u.bond,shaheed4u.cfd,shaheed4u.click,shaheed4u.cyou,shaheed4u.fun,shaheed4u.hair,shaheed4u.icu,shaheed4u.lol,shaheed4u.makeup,shaheed4u.pics,shaheed4u.quest,shaheed4u.sbs,shaheed4u.yachts,shahid4uu.cam,tuktukcinema.co,tuktukcinema.net,witanime.com,yalla-shoot.today#$#abort-current-inline-script document.documentElement /atob|case|JSON.parse/; abort-current-inline-script String.fromCharCode /atob|break/; abort-on-property-write JSON.parse; abort-current-inline-script Math /atob|break/;
 akwam.cc,akoam.com,akoam.net,akwam.co,akwam.cx,akwam.net,akwam.org,akwam.us,gateanime.com,gocoo.co#$#abort-on-property-read String.fromCharCode
-albertsons.com#$#hide-if-matches-xpath './/div[contains(text(),"Sponsored")]/parent::div/ancestor::div[@style][1]'; hide-if-matches-xpath './/div/div[contains(@data-qa,"spnsrd")][text()="Sponsored"]/parent::div/ancestor::div[contains(@class,"placeholder")][1]';
 alensat.org,forummikrotik.ru###phpbb-ads-ab
 alexa.cn##.importantList
 alexa.cn##.importantTop
@@ -33137,6 +33140,7 @@ win0168.com##div.item
 win7w.com###xldz
 win7xzb.com##.four_box
 win7xzb.com##.ware_gs
+winandmac.com,nicekkk.com###custom_html-3
 windows7en.com###ad_btm_down
 windows7en.com###fu_box_logo
 windows7en.com###index_long_first
@@ -39268,6 +39272,7 @@ zzzyk.com###Tinfo
 ||91pk.love^
 ||91porri.org/fans/
 ||91rb.com/*x90.gif
+||91rb.com/fc/$image
 ||91rb.net/fc/
 ||91rb.net/js/gg.js
 ||91toon.com^$third-party
@@ -43428,6 +43433,7 @@ zzzyk.com###Tinfo
 ||abmail.test.iheart.com^
 ||abmail2.e.hungryjacks.com.au^
 ||abmask.tt.omtrdc.net^
+||abmedia.io/*/pum/
 ||abmeldung.information.o2.de^
 ||abmeldung.information.whatsappsim.de^
 ||abminbuy.com/*.mp4$media,redirect=noop-1s.mp4
@@ -55676,6 +55682,7 @@ zzzyk.com###Tinfo
 ||bursadabugun.com/haber/imp-
 ||burstbeacon.com^$third-party
 ||burstblade.com^
+||burstcloud.co/jwe?
 ||burt.io^$third-party
 ||burtsbeesbaby.tt.omtrdc.net^
 ||burungbatam.tt.omtrdc.net^
@@ -59603,6 +59610,7 @@ zzzyk.com###Tinfo
 ||consent.trustarc.com/bannermsg?
 ||consent.trustarc.com/noticemsg?
 ||consentag.eu^$third-party
+||consentmanager.net/delivery/info/$third-party
 ||consentservice-pre-production-u77yfm.tt.omtrdc.net^
 ||conservatives.tt.omtrdc.net^
 ||considermice.com^
@@ -72279,7 +72287,6 @@ zzzyk.com###Tinfo
 ||get.sidekick.health^
 ||get.simpleamericansavings.com^
 ||get.simplesavingsdaily.com^
-||get.smart-guide.org^
 ||get.snapask.com^
 ||get.somontreal.ca^
 ||get.speaky.com^
@@ -74665,6 +74672,7 @@ zzzyk.com###Tinfo
 ||hairoak.com^
 ||haise10.top^
 ||haise2.top^
+||haise6.top^
 ||haise8.top^
 ||haishengwh123.cn^
 ||haite.xyz^
@@ -76782,6 +76790,7 @@ zzzyk.com###Tinfo
 ||hyidlu.com^
 ||hyjdz.cn^
 ||hyk9.xyz^
+||hylaxngo.xyz^
 ||hylmfeifei.com^
 ||hylmimgg.com^
 ||hylmkele.com^
@@ -91543,6 +91552,7 @@ zzzyk.com###Tinfo
 ||mob11.heikkj.com^
 ||mob127.discountminds.com^
 ||mob288.cq9119.com^
+||mobadme.jp^$third-party
 ||mobads-logs.baidu.com^
 ||mobads.baidu.com^
 ||mobads.baidu.com^$third-party
@@ -92945,6 +92955,7 @@ zzzyk.com###Tinfo
 ||nadofunding.tt.omtrdc.net^
 ||nadula.tt.omtrdc.net^
 ||naemailom.fun^
+||nafqioj.cn^
 ||nagano-zenkouji-yosakoi.tt.omtrdc.net^
 ||nagmopd.cn^
 ||nahealth.hrm.healthgrades.com^
@@ -98846,6 +98857,7 @@ zzzyk.com###Tinfo
 ||prn-dc08.tt.omtrdc.net^
 ||prnetwork.de^$third-party
 ||prnewswireassociatio.tt.omtrdc.net^
+||prntvf.xyz^
 ||prnx.net^$third-party
 ||pro-web-metrics.alias.s24cloud.net^$third-party
 ||pro.adrofx.com^
@@ -99705,6 +99717,7 @@ zzzyk.com###Tinfo
 ||qguwoq.cn^$third-party
 ||qgydhjh.cn^
 ||qhapp.top^
+||qhbhlii.xyz^
 ||qhcksjb.com^
 ||qhdbfjx.com^
 ||qhdfxkj.com^
@@ -100531,7 +100544,6 @@ zzzyk.com###Tinfo
 ||r8sr4j.cn^
 ||ra.rockcontent.com^$third-party
 ||ra1.xyz^
-||ra5.xyz/z/*/code.
 ||ra5.xyz^
 ||ra6.xyz^
 ||raac33.net^
@@ -115101,6 +115113,7 @@ zzzyk.com###Tinfo
 ||tapad.com^$third-party
 ||tapdb.com^$third-party
 ||tapdb.net^$third-party
+||tapeblocker.com/stat/
 ||tapestry.tapad.com^
 ||tapewithadblock.com/stat/
 ||tapewithadblock.org/stat/
@@ -115775,6 +115788,7 @@ zzzyk.com###Tinfo
 ||telsmith.actonservice.com^
 ||telstracorporationlt.tt.omtrdc.net^
 ||telstrawholesale.tt.omtrdc.net^
+||teltarif.de/scripts/fb.js
 ||teltarif.de/scripts/ttt.js
 ||teltarif.de/ttt.go?
 ||teltarif.de/ttt.go?$image
@@ -115829,6 +115843,7 @@ zzzyk.com###Tinfo
 ||tequila-fe-smartpoint.tt.omtrdc.net^
 ||terabox.com/abdr?
 ||terabox.com/api/analytics
+||terabox.com/api/analytics?
 ||terabox.com/statistics^
 ||terabox.fun/api/analytics
 ||terabox.fun/api/getsyscfg?*web_share_ads_adsterra_config
@@ -122432,6 +122447,7 @@ zzzyk.com###Tinfo
 ||uid.mavencoalition.io^$cookie
 ||uid.mavencoalition.io^$xmlhttprequest,redirect=noopjson
 ||uid.mediacorp.sg^
+||uidapi.com^
 ||uidndas.cn^
 ||uie.data.cbc.ca^
 ||uifyeldt.top^
@@ -128356,6 +128372,7 @@ zzzyk.com###Tinfo
 ||xiazaiba.com/data/xzb_haha.js
 ||xiazaicdnapk.com^*.mp4
 ||xiazaizhijia.com/w2/js/wxzzj.js
+||xibfnb.xyz^
 ||xibpbov.cn^
 ||xibqq.xyz^
 ||xibxmpvbfs.bet.hb.tt.omtrdc.net^
