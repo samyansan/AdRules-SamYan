@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-10-01 20:18:04
-! Total count: 131798
+! Version: 2023-10-02 02:12:00
+! Total count: 131801
 
  
 ###AdBlockDialog
@@ -21670,6 +21670,7 @@ abczdrowie.pl,parenting.pl,nerwica.com,twojeip.wp.pl,echirurgia.pl#$#abort-curre
 ablink.hi.channel4.com$image
 abmedia.io###block-12
 abmedia.io##.pum
+abmedia.io##.widget_media_image
 abmedia.io##a[href^="https://ace.io/"]
 abmedia.io##a[href^="https://www.okx.com/"]
 abminbuy.com##body > a[rel="nofollow"] > img
@@ -33141,6 +33142,7 @@ win0168.com##div.item
 win7w.com###xldz
 win7xzb.com##.four_box
 win7xzb.com##.ware_gs
+winandmac.com##.widget_custom_html
 winandmac.com,nicekkk.com###custom_html-3
 windows7en.com###ad_btm_down
 windows7en.com###fu_box_logo
@@ -39455,6 +39457,7 @@ zzzyk.com###Tinfo
 ||999v.me/cs
 ||999xs.com/js/app_billing.js
 ||999xs.com/js^$replace=/document.write\(html\)//
+||999zz333zz.com^
 ||99btgc01.info/uploads/*.gif
 ||99click.com^$third-party
 ||99counters.com^$third-party
