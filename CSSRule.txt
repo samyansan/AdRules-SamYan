@@ -6174,14 +6174,9 @@ cnbeta.com#?#.item:-abp-has(> dL > a[href^="https://ad.doubleclick.net/"])
 cnbeta.com#?#.item:-abp-has(> dl > dt > a[href*=".greatroma.com"])
 cnbeta.com#?#.item:-abp-has(> dl > dt > a[href^="http://click.aliyun.com/"])
 cnbeta.com#?#.items-area > .item:-abp-has(> dl > dt > a[href^="http"]:not([href*="cnbeta."]))
-cnbeta.com,cnbeta.com.tw##.cbv:not(#cb_share)
-cnbeta.com,cnbeta.com.tw##.tks
-cnbeta.com,cnbeta.com.tw,qudong.com##a[href*=".ctyun."]
-cnbeta.com,editcode.net,itboth.com,itkeyword.com,ruyo.net,zhanzhangb.com##a[href*="cloud.tencent.com"]
 cnbeta.com,itboth.com,itkeyword.com,ruyo.net##a[href*="cloud.tencent."]
 cnbeta.com,qudong.com##a[href*=".ctyun."]
 cnbeta.com,sojson.com##a[href*=".upyun."]
-cnbeta.com,thinkphp.cn##.cooperation
 cnbeta.com.tw##.cbv:not(#cb_share)
 cnbeta.com.tw##.cbv:not(#cb_share) a
 cnbeta.com.tw##.tks
@@ -6318,6 +6313,7 @@ colamanga.com##iframe[style*="important"]
 colamanga.com#@#.gg_950
 com.tw###space > a[target="_blank"] > img[width="160"]
 com.tw#$#img[width="960"][height="90"] { height: 0 !important; }
+comedy-radio.ru,radioromantika.ru,veseloeradio.ru#$#abort-on-property-read yaContextCb
 comefromchina.com##.ad_navtext_11 > li:nth-child(n+2)
 comic.qq.com###fixed_right > div
 comicat.org,dapenti.com,douyu.com,iqiyi.com,jinti.com,kisssub.org,libvio.me,mvcat.com,mzh.ren,rufengso.net,v.qq.com##a[href*=".jd.com"]
@@ -7298,6 +7294,7 @@ eol.cn##.ad_490
 eol.cn##.listAd
 eol.cn##div[id^="s1_"]
 eol.cn,firefoxchina.cn,meiyida01.com,site.baidu.com##.popup
+eol.cn,firefoxchina.cn,myd666.tv,site.baidu.com##.popup
 eol.cn,firefoxchina.cn,site.baidu.com##.popup
 eoof.net##.tableborder1[cellspacing="1"][cellpadding="3"]
 epinv.com##.epinv_b
@@ -9541,6 +9538,7 @@ iyf.tv##+js(set-constant, Object.prototype.ShouldPlayAds, 0)
 iyf.tv##.player-right
 iyf.tv##.player-side > .block > *
 iyf.tv##.prrb > .ng-star-inserted
+iyf.tv##.ss-ctn
 iyf.tv##.video-player + div[class*=" "] > div.block
 iyf.tv##.video-player > app-gg-block.ng-star-inserted[style]
 iyf.tv##.video-player > div.ng-star-inserted > div#PB
@@ -11399,6 +11397,8 @@ my0511.com##table[bordercolor="#C0C0C0"][border="1"]
 my0832.com##.xx_div
 myanimelist.net##._unit
 mycq.qq.com##div[style^="width:960px;"]
+myd666.tv##.module-blocklist
+myd666.tv#?#.module-item:-abp-has(>.module-item-titlebox>a[href*="/download/"])
 myday.com.tw##.myday_ad_950
 myday.com.tw##.myday_ad_left
 myday.com.tw##.myday_ad_right
