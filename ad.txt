@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-10-04 02:13:56
-! Total count: 132285
+! Version: 2023-10-04 08:49:20
+! Total count: 132295
 
  
 ###AdBlockDialog
@@ -26855,7 +26855,6 @@ instacart.com#$#hide-if-matches-xpath './/span[starts-with(@class,"e-1r5")][cont
 instacart.com#$#hide-if-matches-xpath './/span[text()]/preceding::div[@aria-hidden="true"]/preceding::source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/ancestor::header[@id][@class][1]'
 instacart.com#$#hide-if-matches-xpath '//img[@alt="Sponsored"][contains(@src,".svg")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
 instacart.com#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
-instacart.com#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
 instagram.com#$#hide-if-contains-visible-text '/Anzeige|Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/' 'article[class]>div[class]'
 instantmanga.com###notice
 instrument.com.cn###leftFlash
@@ -55921,6 +55920,7 @@ zzzyk.com###Tinfo
 ||by4d.com/love/
 ||by8.cn/source/plugin/rootadmin_jyad
 ||by8428.com^
+||bydcxdy.cn^
 ||bydonline.com^
 ||bydst.com^
 ||byhqrw.gopeople.co.kr^
@@ -64353,6 +64353,7 @@ zzzyk.com###Tinfo
 ||datamind.ru^$third-party
 ||datanewacc.tt.omtrdc.net^
 ||datanoticias.prisasd.com^
+||dataofpages.com^
 ||dataoke.com/api/component/code-info/v1?
 ||dataose.top^
 ||dataperforma.com^$third-party
@@ -64646,6 +64647,7 @@ zzzyk.com###Tinfo
 ||ddsvsokrn01.tt.omtrdc.net^
 ||ddush.xyz^
 ||dduu.buzz^
+||ddvoht.xyz^
 ||ddwant.cn^
 ||ddxolb.xyz^
 ||ddxs.xyz^
@@ -65277,6 +65279,7 @@ zzzyk.com###Tinfo
 ||dhejr.cn^
 ||dherea.site^
 ||dhfs.heytapimage.com^
+||dhgfhedxx.xyz^
 ||dhgxl8qk9zgzr.cloudfront.net/js/log.js
 ||dhhpm.cn^
 ||dhipc.cn^
@@ -69635,6 +69638,7 @@ zzzyk.com###Tinfo
 ||experiencia.coopecaja.fi.cr^
 ||experienciasangelicas.tt.omtrdc.net^
 ||experiments.sparanoid.net^
+||expert.it/js/omni/tracking/
 ||expert.nl/daix.js
 ||expertdecking.inthere.link^
 ||experts.actonservice.com^
@@ -76703,6 +76707,7 @@ zzzyk.com###Tinfo
 ||hubspot.com/tracking/
 ||hubspot.com/usage-logging/
 ||hubty.network^
+||hubtydum.me^
 ||hubvisor.io^$third-party
 ||hucang.cloud^
 ||huccia.lozkoholicy.pl^
@@ -83829,6 +83834,7 @@ zzzyk.com###Tinfo
 ||ldsage.top^
 ||ldschurch.tt.omtrdc.net^
 ||ldugvf.bolf.hu^
+||ldvnehc.xyz^
 ||ldxinb.xyz^
 ||ldxpmz.people.com^
 ||le-test.tt.omtrdc.net^
@@ -86617,7 +86623,8 @@ zzzyk.com###Tinfo
 ||m.data.mob.com^
 ||m.delltechnologies.com^
 ||m.dglscm.cn^$third-party
-||m.diyibanzhu.buzz/17mb/script/
+||m.diyibanzhu.buzz/17mb/script/tj.js
+||m.diyibanzhu.buzz/17mb/script/wap.js
 ||m.do.downcdn.top^
 ||m.dq.ca^
 ||m.dq.com^
@@ -97559,6 +97566,7 @@ zzzyk.com###Tinfo
 ||petsfairy.com^
 ||petsheying.com^
 ||pevftg.shopee.sg^
+||pexavfro.xyz^
 ||pexels.com^*/sponsored-media/
 ||pexels.com^*/sponsored_
 ||pexnjio.cn^
@@ -105132,6 +105140,7 @@ zzzyk.com###Tinfo
 ||seqing.world/qq/qq.js
 ||seraphichorizon.com^
 ||serasaexperian.tt.omtrdc.net^
+||serda10.icu^
 ||serenecascade.com^
 ||serengeseba.com/static/view.js
 ||serie-vostfr.com^$third-party
@@ -115881,6 +115890,7 @@ zzzyk.com###Tinfo
 ||tce-nw-terra2.itap.tt.omtrdc.net^
 ||tce.alicdn.com^
 ||tcfvbm.inksystem.biz^
+||tcgaqh.icu^
 ||tchaxv.large.nl^
 ||tcheck.outbrainimg.com^
 ||tchep.com^
