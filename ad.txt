@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-10-05 02:13:58
-! Total count: 132298
+! Version: 2023-10-05 08:48:36
+! Total count: 132311
 
  
 ###AdBlockDialog
@@ -13643,7 +13643,7 @@ $websocket,domain=5nj.com|cechi8.com
 /kogeePopupAd.
 /koko-analytics-collect.php
 /koko-analytics/*/script.js
-/koko-analytics/assets/dist/js/*
+/koko-analytics/assets/dist/js/*script.js
 /kontera.js
 /konterayahoooo.
 /kooomo.tracker.
@@ -25239,6 +25239,7 @@ fm.douban.com##.left
 fmdisk.com##div[style="width: 960px; margin: 0 auto; height:900px; color: #F00; font-size: 14px; text-align:left;"] > p
 fmkorea.com#%#//scriptlet("set-constant", "link_url", "")
 fmovies.hn,hurawatch.cc,theflixer.tv#$#abort-on-property-read window.zfgstorage
+fmprc.gov.cn,mfa.gov.cn#@#.adbox2
 fnjiasu.com##.layui-layer
 fnjiasu.com##.sidebar_download
 fnjiasu.com##.swiper-container
@@ -26852,7 +26853,6 @@ instacart.com#$#hide-if-matches-xpath './/span[starts-with(@class,"e-1r5")][cont
 instacart.com#$#hide-if-matches-xpath './/span[text()]/preceding::div[@aria-hidden="true"]/preceding::source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/ancestor::header[@id][@class][1]'
 instacart.com#$#hide-if-matches-xpath '//img[@alt="Sponsored"][contains(@src,".svg")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
 instacart.com#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
-instacart.com#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
 instagram.com#$#hide-if-contains-visible-text '/Anzeige|Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/' 'article[class]>div[class]'
 instantmanga.com###notice
 instrument.com.cn###leftFlash
@@ -28932,6 +28932,7 @@ mf8.biz###media_image-2
 mf8.biz###media_image-3
 mf8.biz##.mb-md-4.mb-3.d-lg-block.d-none.block-sales
 mf8.biz##a[href="https://tb.g2h3.com/3UXap"]
+mfa.gov.cn,fmprc.gov.cn#@#.adbox2
 mfiles.pl###float_square
 mg21.com##a[href="https://www.mg21.com/zunjiazq"]
 mgbbs.cn##td[width="960"][height="60"]
@@ -39771,6 +39772,7 @@ zzzyk.com###Tinfo
 ||a.17.251comcastentertainmentgroup.hb.tt.omtrdc.net^
 ||a.17.251fortis.hb.tt.omtrdc.net^
 ||a.182adobecorp.hb-api.tt.omtrdc.net^
+||a.1gr.cz^
 ||a.20minutes.fr^
 ||a.241nbcume.hb.tt.omtrdc.net^
 ||a.241newscorpau.hb.tt.omtrdc.net^
@@ -72918,6 +72920,8 @@ zzzyk.com###Tinfo
 ||gmufag.starhit.ru^
 ||gmufag.woman.ru^
 ||gmx.net/monitoring/
+||gmx27.top^
+||gmx30.top^
 ||gmxcdm.vestel.com.tr^
 ||gn.informaengage.com^
 ||gnar.grammarly.com^
@@ -85437,6 +85441,7 @@ zzzyk.com###Tinfo
 ||lnwow.co/1.
 ||lnwow.net/1.gif
 ||lnxfgm.party-calendar.net^
+||lnxpdj.xyz^
 ||lnyolfdtqn.kihxuxuebc.test.att.hb.tt.omtrdc.net^
 ||lnz-aws-1124.tt.omtrdc.net^
 ||lnzjlr.xyz^
@@ -85563,6 +85568,7 @@ zzzyk.com###Tinfo
 ||log.dzen.ru^
 ||log.easy39.com^
 ||log.ecgh.dk^
+||log.edidomus.it^
 ||log.enuri.com^
 ||log.espn.com^
 ||log.estand.jp^
@@ -86569,6 +86575,7 @@ zzzyk.com###Tinfo
 ||m-t.io^$third-party
 ||m-unitedfree.tt.omtrdc.net^
 ||m-vali.cp31.ott.cibntv.net^$media,app=com.youku.phone|com.cibn.tv
+||m.1gr.cz^
 ||m.20mao.com/*/BOT.js
 ||m.20mao.com/*/Head.js
 ||m.20mao.com/*/TOP.JS
@@ -86878,6 +86885,7 @@ zzzyk.com###Tinfo
 ||madlineg.com^
 ||madmimi.com/view?id=$image
 ||madnet.ru^$third-party
+||mads7.icu^
 ||mafenggo.club^
 ||mafengow.club^
 ||mafengwo.cn/uva/i.gif?
@@ -119726,6 +119734,7 @@ zzzyk.com###Tinfo
 ||track.odinenergyut.com^
 ||track.officialflexup.com^
 ||track.ogrowthlabs.com^
+||track.olx.com.br^
 ||track.omg2.com^
 ||track.onlineappdesigncourses.com^
 ||track.onlinegoodoffers.com^
@@ -123921,6 +123930,7 @@ zzzyk.com###Tinfo
 ||vde1.voyage-prive.de^
 ||vdebtqm.xyz^
 ||vdedqoi.cn^
+||vdggsd005.com^
 ||vdianying.cc/img/youhuiquan250.gif
 ||vdianying.cc/img/zfbhb.png
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
@@ -126272,6 +126282,7 @@ zzzyk.com###Tinfo
 ||wfndponfd.com^
 ||wfpersonal.site^
 ||wfslj.cn^
+||wfthumty.pm^
 ||wftp101.tt.omtrdc.net^
 ||wfwpok.impressionen.de^
 ||wfyqc.com^
@@ -129410,6 +129421,7 @@ zzzyk.com###Tinfo
 ||xvrvgod.xyz^
 ||xvyljkr.com^
 ||xvyvknl.cn^
+||xvzfyra.xyz^
 ||xw1001.com^
 ||xwbspx.xyz^
 ||xwbxsw.com/js/app_wap.
@@ -129871,6 +129883,7 @@ zzzyk.com###Tinfo
 ||yenicaggazetesi.com.tr/stats/
 ||yenlm.com^
 ||yenyshy.com^
+||yepgdita.xyz^
 ||yerecpa.cn/uploadsb/app_adv/
 ||yes-24-go.cc^
 ||yes1.feng.com^$domain=feng.com
