@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-10-06 02:13:53
-! Total count: 132319
+! Version: 2023-10-06 08:48:17
+! Total count: 132339
 
  
 ###AdBlockDialog
@@ -22808,7 +22808,9 @@ bilibili.com#$?#.van-slide > .item:has(.bypb-icon) { remove: true; }
 bilibili.com#?#.bili-video-card:-abp-has(.bili-video-card__info--ad-img)
 bilibili.com#?#.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__wrap
 bilibili.com#?#.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__wrap
+bilibili.com#?#.bili-video-card:has(> div.bili-video-card__wrap[style="display: none !important;"])
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
+bilibili.com#?#.feed-card:has(> div.bili-video-card > div.bili-video-card__wrap[style="display: none !important;"])
 bilibili.com#?#.van-popover__reference:-abp-contains(下载)
 bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
 bilibili.com#?#.video-page-special-card-small:-abp-has(>.card-box>.info>a[href^="http"]:not([href*=".bilibili.com/"]))
@@ -32436,7 +32438,11 @@ tw.beanfun.com###flybeanfun
 tw.bid.yahoo.com###livePromote
 tw.mall.yahoo.com##.hpad-wrapper
 tw.news.yahoo.com###module-mktBanner
+tw.news.yahoo.com###mrt-node-Lead-1-Ad
+tw.news.yahoo.com###sda-LDRB-iframe
+tw.news.yahoo.com###sda-LREC2-iframe
 tw.news.yahoo.com###sda-MON
+tw.news.yahoo.com###sda-WPS-iframe
 tw.news.yahoo.com##.gn_sub_blue
 tw.news.yahoo.com##li[id^="ad-"]
 tw.nextapple.com##[class^="na-ad-"]
@@ -47894,6 +47900,7 @@ zzzyk.com###Tinfo
 ||an.yandex.ru/system/context.js^
 ||an.yandex.ru^
 ||an.yesnetwork.com^
+||ana*.inews24.com^
 ||ana.bandi.so^
 ||ana.e-ticket.co.jp^
 ||ana.gomtv.com^
@@ -48395,6 +48402,7 @@ zzzyk.com###Tinfo
 ||analytics.myfidevs.io^
 ||analytics.myfinance.com^
 ||analytics.myhermes.de^
+||analytics.myshoptago.com^
 ||analytics.mystream.com^
 ||analytics.mysynchrony.com^
 ||analytics.nascar.com^
@@ -48567,6 +48575,7 @@ zzzyk.com###Tinfo
 ||analytics.staticiv.com^
 ||analytics.stg.springboardvideo.com^
 ||analytics.strangeloopnetworks.com^
+||analytics.streamfab.
 ||analytics.studiodesignapp.com^
 ||analytics.styria.hr^
 ||analytics.suggestv.io^
@@ -69325,6 +69334,7 @@ zzzyk.com###Tinfo
 ||eventbus.intuit.com^
 ||eventcollectorv2-1131000179.us-east-1.elb.amazonaws.com^
 ||eventcom.api.np.km.playstation.net/event^
+||eventexistence.com^
 ||eventexistence.com^$third-party
 ||eventful.com/apps/generic/$image,third-party
 ||eventgateway.soundcloud.com^
@@ -72925,6 +72935,7 @@ zzzyk.com###Tinfo
 ||gmufag.woman.ru^
 ||gmx.net/monitoring/
 ||gmx27.top^
+||gmx28.top^
 ||gmx30.top^
 ||gmxcdm.vestel.com.tr^
 ||gn.informaengage.com^
@@ -76747,6 +76758,7 @@ zzzyk.com###Tinfo
 ||huhangkuaiji.cn^
 ||huhuhiiuio.com^
 ||huhumh.com/js/
+||huhwllvk.xyz^
 ||huibaihe.net/js/dddd.js
 ||huibaihe.net/static/730-580.
 ||huibaitiao.com^
@@ -81443,6 +81455,7 @@ zzzyk.com###Tinfo
 ||jncacp.cn^
 ||jndczg.com^
 ||jndfrqz.com^
+||jndxsuy.xyz^
 ||jngapkf.cn^
 ||jnhfex.diezauberscheren.de^
 ||jnhgm.com^
@@ -86465,6 +86478,7 @@ zzzyk.com###Tinfo
 ||lxwasy.tatragarden.ua^
 ||lxxy.xyz^
 ||lxyl66.cn^
+||lxznbz.xyz^
 ||ly.js.cn/adv/
 ||ly2si17.cn^
 ||ly5200.cn^
@@ -89080,6 +89094,7 @@ zzzyk.com###Tinfo
 ||mcdmetrics.aaa.com^
 ||mcdmetrics2.aaa.com^
 ||mcdp-*.outbrain.com^
+||mcds9.icu^
 ||mcdwfed.cn^
 ||mcfarland.cn^
 ||mcfpsn.xyz^
@@ -92708,6 +92723,7 @@ zzzyk.com###Tinfo
 ||mwdwepok.xyz^
 ||mwefgc.pazolini.com^
 ||mwfgirvbgt.abcotv.hb.tt.omtrdc.net^
+||mwfyab.icu^
 ||mwqucr.icu^
 ||mwrf.net/images/js/*mrf.js
 ||mwrf.net/images/mrf/
@@ -98869,6 +98885,7 @@ zzzyk.com###Tinfo
 ||pqd.org^
 ||pqdhda.bluepops.co.kr^
 ||pqghqs.eastcl.com^
+||pqjeoqa.cn^
 ||pqjprom.cn^
 ||pqlcpm.kindoh.co.kr^
 ||pqldzp.xyz^
@@ -102586,6 +102603,7 @@ zzzyk.com###Tinfo
 ||rtrk.com^$third-party
 ||rtrk.supremoaffiliates.com^
 ||rtrk.wealthyvibrations.com^
+||rts.ch^*/boreas_b01.js
 ||rts.mobula.sdk.duapps.com^
 ||rtsdfw44.com^
 ||rtt.campanja.com^
@@ -110751,6 +110769,7 @@ zzzyk.com###Tinfo
 ||srepdata.ydr.com^
 ||srepdata.yorkdispatch.com^
 ||sreport.mitsubishicars.com^
+||srf.ch/udp/tracking/
 ||srglobal.actonservice.com^
 ||srgwxvm.cn^
 ||srkfhl.cn^
@@ -123937,6 +123956,7 @@ zzzyk.com###Tinfo
 ||vdebtqm.xyz^
 ||vdedqoi.cn^
 ||vdggsd005.com^
+||vdggsd006.com^
 ||vdianying.cc/img/youhuiquan250.gif
 ||vdianying.cc/img/zfbhb.png
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
