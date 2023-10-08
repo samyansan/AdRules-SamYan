@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-10-08 20:18:25
-! Total count: 132394
+! Version: 2023-10-09 02:12:26
+! Total count: 132403
 
  
 ###AdBlockDialog
@@ -795,12 +795,14 @@
 ##.con_section > .da
 ##.conch-ads-box
 ##.container + .container > .warp > .cate
+##.container > #dhshtml
 ##.container > .index-ad
 ##.container > .slide-baidu
 ##.container > .t-img-box:first-child
 ##.container > a.mid-wrapper
 ##.container > a[href^="http"] > .ads
 ##.containeradvertising
+##.content > #dhxhtml
 ##.content > a > .topline
 ##.content-ads
 ##.content-video > .ads
@@ -959,6 +961,7 @@
 ##.main-ad-l
 ##.main-ad-r
 ##.main-ad-r + .topad
+##.main-container > #dhxhtml
 ##.main-content > .a2b3
 ##.main[style="border:#7D8C8E solid 1px;height: 23px;"]
 ##.main_adbalert
@@ -57987,6 +57990,7 @@ zzzyk.com###Tinfo
 ||cjkl.online^
 ||cjlenw.icasei.com.br^
 ||cjn.cn^*/ad/
+||cjndvoglik.xyz^
 ||cjrhml.snipes.ch^
 ||cjs-cdkeys.com/index.php?action=track
 ||cjw123.com/jx/static/picture/
@@ -60041,6 +60045,8 @@ zzzyk.com###Tinfo
 ||coolpc.com.tw/img/topweb.html
 ||cooltime.tt.omtrdc.net^
 ||cooltool.cc^
+||coomer.party/api/event
+||coomer.su/api/event
 ||coop.vmware.com^
 ||coopbank.tt.omtrdc.net^
 ||coope.cyou^
@@ -82555,6 +82561,7 @@ zzzyk.com###Tinfo
 ||kemira-io.tt.omtrdc.net^
 ||kemono.party/api/event
 ||kemono.party/onomek.js
+||kemono.su/api/event
 ||ken.kenxq.com^
 ||kendrarenee.tt.omtrdc.net^
 ||kenga.tech/heatmaps-
@@ -83377,6 +83384,7 @@ zzzyk.com###Tinfo
 ||kydb.xyz^
 ||kydcwp.landwirt.com^
 ||kygso.com/js/lrtk.js
+||kyikdee.cn^
 ||kyizzs.com^
 ||kyjoyk.modoza.com^
 ||kykcusq.cn^
@@ -89653,6 +89661,7 @@ zzzyk.com###Tinfo
 ||meilele.com/js/mll/baiduLabelRecommend.
 ||meiller-sed.tt.omtrdc.net^
 ||meilleur.comparatif-rencontre-coquine.com^
+||meilunsc.com^
 ||meimeijjenny88.tt.omtrdc.net^
 ||meinauto.de/js/vendor/criteo/criteo_ld.js
 ||meinauto.hdd-dienste.de^
