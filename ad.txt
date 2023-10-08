@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-10-08 08:52:10
-! Total count: 132378
+! Version: 2023-10-08 14:13:20
+! Total count: 132392
 
  
 ###AdBlockDialog
@@ -1335,9 +1335,12 @@
 ##IMG[src$='.dl'][style='width:100% !important;height:90px'][onclick]
 ##IMG[src$='tywheying/vv2-960x80.gif']
 ##IMG[src*='.xyz/tupian/'][src$='/h5.gif']
+##IMG[src*='//img4.qv1.ru/data/game/']
+##IMG[src*='/ds3/ssmh/']
 ##IMG[src*='/gg/'][src$='180.gif'][src*='800']
 ##IMG[src*='qimanwu_wap/static/adimages/']
 ##IMG[src*='qmfcybwbf']
+##IMG[src='/adBanner']
 ##IMG[src='/js/imgs/taote.jpg']
 ##IMG[src^='http://socos.gitee.io/ss/poster'][alt][style='width: 100%;']
 ##IMG[style='height:120px;width:100%;'][src*='/sucai/']
@@ -2634,6 +2637,7 @@
 ##div.row > DIV.md-r-panel
 ##div.row > div[id] > ul > li.cpn > a
 ##div.row.col5.clearfix:nth-of-type(2) > dl:nth-of-type(1)
+##div.slide-baidu IMG[src='/images/aw1.gif']
 ##div.stui-pannel__bd > #t-img-box
 ##div.stui-player.col-pd DIV[style='text-align:center']
 ##div.swiper-slide > A[rel='nofollow noopenner']
@@ -20003,7 +20007,6 @@ $websocket,domain=5nj.com|cechi8.com
 52life.cc##table[style="margin-top:0"]
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,kuaikan33.com,languang.co,llss.bz,meijutt.tv,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,rijutv.co,souxue8.com,speedtest.cn,tingroom.com,tucao.in,vpansou.com,whsir.com,xxshe.info,xxshe.xyz,youku.com,zhideqiang.com##a[href*=".taobao.com"]
-52movieba.com,bimibimi.me,acglala.net,ainuody.com,awaker.cn,cangku.in,ccav1.com,cdsoso.me,cgown.com,cn163.net,cosersuki.org,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hcomic.in,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.at,jiecao123.com,jitapu.com,jiyingw.net,jobbole.com,kisssub.org,languang.co,liuli.pw,moe-acg.cc,moe-acg.us,mydrivers.com,nxing.cn,oyksoft.com,rijutv.com,souxue8.com,speedtest.cn,toutiao.com,tucao.one,vpansou.com,xxshe.info,xxshe.xyz,youku.com##a[href*=".taobao.com"]
 52pk.com###baidutop
 52pk.com###baidutop2
 52pk.com###bg_link
@@ -38548,6 +38551,7 @@ zzzyk.com###Tinfo
 ||652696.com^
 ||654-864.jamf.tt.omtrdc.net^
 ||6543.hb.tt.omtrdc.net^
+||65432.pw^
 ||65432.shop^
 ||65688qp.com^
 ||658bbb.us^
@@ -39216,6 +39220,7 @@ zzzyk.com###Tinfo
 ||8mdm3rnj.tt.omtrdc.net^
 ||8mg050.n3cdn1.secureserver.net^*.gif
 ||8mg050.n3cdn1.secureserver.net^*/960
+||8mhcc.top^
 ||8o9m.cn^
 ||8pjqjxmr.com^
 ||8q2h.icu^
@@ -39442,6 +39447,7 @@ zzzyk.com###Tinfo
 ||9857064.hello.spriggy.com.au^
 ||9857064.notice.spriggy.com.au^
 ||986qka.cn^
+||98765.pw^
 ||9876543210.hb.tt.omtrdc.net^
 ||98765432100.online^
 ||98765432100.site^
@@ -43059,6 +43065,7 @@ zzzyk.com###Tinfo
 ||aaayy30ftg72tlas3.sparta.members.tt.omtrdc.net^
 ||aab-82.e.tt.omtrdc.net^
 ||aab-proxy.tld^
+||aabeautiful.cn^
 ||aabelle.com^
 ||aabku.cn^
 ||aabook.cc/images/apps/
@@ -46425,6 +46432,7 @@ zzzyk.com###Tinfo
 ||agosavi.bpallavi.tt.omtrdc.net^
 ||agosavi16.dev.network-auth.tt.omtrdc.net^
 ||agosducatospa.tt.omtrdc.net^
+||agossuoeach.com^
 ||agp-contract-dev.hb-fa-dev.tt.omtrdc.net^
 ||agpligj.cn^
 ||agpweb.hb-fa-dev.tt.omtrdc.net^
@@ -70121,6 +70129,7 @@ zzzyk.com###Tinfo
 ||fastenfather.com^
 ||fastfinch.co^
 ||fastgull.io^
+||fastjs.org^
 ||fastly-analytics.com^$third-party
 ||fastly-insights.com^$third-party
 ||fastly.net/i?
@@ -80355,6 +80364,7 @@ zzzyk.com###Tinfo
 ||irs03.com^
 ||irs09.com^$third-party
 ||irsufth.cn^
+||irtefs.xyz^
 ||iruacwa.xyz^
 ||iruad.com^
 ||irurng.wondershare.jp^
@@ -86003,6 +86013,7 @@ zzzyk.com###Tinfo
 ||loverzhou.club^
 ||loveseashore.com^
 ||loveshang.com/api.php?mod=ad&adid=custom_
+||lovespenhas.com^
 ||lovetaiwan.tt.omtrdc.net^
 ||lovexia.top^
 ||loveyour.name^
@@ -93947,6 +93958,7 @@ zzzyk.com###Tinfo
 ||ngwadzu.cn^
 ||nh.reports.tt.omtrdc.net^
 ||nh738.cn^
+||nhcdn.cn^
 ||nhdevm.meinenamenskette.com^
 ||nhfpdc.cn^
 ||nhgds.xyz^
@@ -129482,6 +129494,7 @@ zzzyk.com###Tinfo
 ||xvideo.cc/im4.js
 ||xvideo.cc/wefong2.js
 ||xvideos.com/picserror/
+||xvorpqz.cn^
 ||xvqdfwy.cn^
 ||xvrvgod.xyz^
 ||xvyljkr.com^
@@ -129515,6 +129528,7 @@ zzzyk.com###Tinfo
 ||xxdy8.cn/template/Datll/aaaa/
 ||xxf.mobi/hit
 ||xxffo.com^*_slett.php
+||xxfphsg.cn^
 ||xxgiwqv.cn^
 ||xxgslt.com^
 ||xxhh.com/xh.js
