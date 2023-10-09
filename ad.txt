@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-10-09 14:14:36
-! Total count: 132418
+! Version: 2023-10-09 20:22:04
+! Total count: 132426
 
  
 ###AdBlockDialog
@@ -21721,6 +21721,7 @@ acgnx.net,acgnx.se##a > img[src^="/images/"]
 acgnx.se$$div[class="banner"]
 acgnx.se$$div[class="clear intro_inner"]
 acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#$#hide-if-matches-xpath './/div[contains(text(),"Sponsored")]/parent::div/ancestor::div[@style][1]'; hide-if-matches-xpath './/div/div[contains(@data-qa,"spnsrd")][text()="Sponsored"]/parent::div/ancestor::div[contains(@class,"placeholder")][1]';
+acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#$#hide-if-matches-xpath './/div[contains(text(),"Sponsored")]/parent::div/ancestor::div[contains(@class,"slick-product")][1]'; hide-if-matches-xpath './/div/div[contains(@data-qa,"spnsrd")][text()="Sponsored"]/parent::div/ancestor::div[contains(@class,"placeholder")][1]';
 acomics.ru##div[style*="/design/common/pic/please"]
 acommunity.com.tw##.ai_widget
 actionz.tv,cimaclub.com,cimaclub.in,elmstba.com,hawak.net,hawak.tv,lodynet.cloud,lodynet.co,lodynet.dev,lodynet.ink,lodynet.tv,lodynet.win,rotana.video#$#abort-on-property-read decodeURIComponent
@@ -25083,6 +25084,7 @@ feeds.qq.com,lenovo.com.cn##.game
 feiwan.net##div[id*="_"][style]
 feixiaohao.com##.TopHomeLink
 fembed.com,femax20.com,zo3x.lol,mrdhan.com,m.blogtruyen.vn,viettoons.tv,vinaurl.net#$#abort-on-property-read open
+fembed.com,femax20.com,zo3x.lol,mrdhan.com,m.blogtruyen.vn,viettoons.tv,vinaurl.net,animet.net#$#abort-on-property-read open
 feng.com##.ad-aside
 feng.com##.dd305
 feng.com##.header
@@ -26869,6 +26871,7 @@ instacart.com#$#hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"d
 instacart.com#$#hide-if-matches-xpath './/span[starts-with(@class,"e-1r5")][contains(text(),"d")]/parent::div[1]'
 instacart.com#$#hide-if-matches-xpath './/span[text()]/preceding::div[@aria-hidden="true"]/preceding::source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/ancestor::header[@id][@class][1]'
 instacart.com#$#hide-if-matches-xpath '//img[@alt="Sponsored"][contains(@src,".svg")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
+instacart.com#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ss")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ap")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
 instacart.com#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ss")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
 instagram.com#$#hide-if-contains-visible-text '/Anzeige|Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/' 'article[class]>div[class]'
 instantmanga.com###notice
@@ -29107,6 +29110,7 @@ motobuy.com.tw##.AD1
 motobuy.com.tw##.adbig
 motocity.com.tw###rotator
 motorpage.ru#$#json-prune '0.BannerId 1.BannerId 2.BannerId 3.BannerId 4.BannerId 5.BannerId 6.BannerId'
+motphim3s.com#$#abort-current-inline-script document.addEventListener popupOpened
 mover.uz###oframeplayer > [class][style^="display: block"]
 movie.youku.com$$div[class="ad-banner-wrapper"]
 movieclassic.net###billboard-modal
@@ -31624,6 +31628,7 @@ sports.qq.com##.focus_con > .item > a[href^="http"]:not([href*=".qq."])
 sports.qq.com##.topBnaner
 sports.qq.com##a[href="http://teramont.svw-volkswagen.com/"]
 sports.qq.com##a[href^="http://market.1hai.cn/"]
+sports.ru#$#abort-on-property-read Sports.pageData.user_zones_config
 sports.sohu.com##.allsee-list > .bd-wrap
 sports4u.tv,sports4u.live#@##adblock
 sportschau.de#%#//scriptlet('set-constant', 'mediaTrackingOff', 'true')
@@ -31899,6 +31904,7 @@ tbtdg.com###adblockWarning
 tbtdg.com##.reveal-modal-bg
 tbtdg.com##.s11text
 tbxt.com###headad2
+tctruyen.com#$#abort-current-inline-script $ popup
 teachinghand.com##.actions__wrapper
 tech.qq.com##.kjad2
 tech.sina.com.cn##.clearfix.blk-zcapp
@@ -33939,6 +33945,7 @@ xuite.net##div[id^="index-ad-mid"]
 xunlei.com##.mini-pop
 xunyingwang.com###adModalLabel
 xuongphim18z.com,phimtopz.com,truyensieuhay.com,tvchill.org,quangcaoyenbai.com,khoaiphim.com#$#abort-on-property-read document.cookie
+xuongphim18z.com,phimtopz.com,truyensieuhay.com,tvchill.org,quangcaoyenbai.com,khoaiphim.com,phimmoi.im#$#abort-on-property-read document.cookie
 xvideo.cc##+js(set-constant, poped, true)
 xvideo.cc#%#//scriptlet("set-constant", "poped", "true")
 xvideos.com##div[id^="video-ad"]+div[class]
@@ -102809,6 +102816,7 @@ zzzyk.com###Tinfo
 ||rvlmpo.xyz^
 ||rvo-cohesion.healthline.com^
 ||rvpbdcf.cn^
+||rvreuxi.cn^
 ||rvsosm.cn^
 ||rvv.emol.com^
 ||rvyjbwr.cn^
