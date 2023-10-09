@@ -5612,6 +5612,7 @@ bombaytimes.com##a[onclick*="click"][rel="nofollow,noindex"]
 bombaytimes.com#?#div:-abp-has(> h4 > span:-abp-contains(Ad: ))
 bonbonme.com##.topbannerer
 bongda365b.net#$#override-property-read isSkipAds true
+bongda365c.com#$#override-property-read isSkipAds true
 bongdahomnay.tech#$#abort-on-property-read $
 boniu123.cc##.left_side
 boniu123.cc##.right_side
@@ -12434,6 +12435,7 @@ proplanta.de#@#.adsbygoogle
 proplanta.de#@#.searchad
 protege-liens.com,protege-torrent.com#$#abort-on-property-write JSON.parse; abort-current-inline-script Math /atob|break/;
 protonvideo.to#$#abort-on-property-read PlayerjsEvents
+protruyen.com,animevietsub.fan#$#abort-current-inline-script document.documentElement break;case
 protruyen.com,animevietsub.moe#$#abort-current-inline-script document.documentElement break;case
 provinceinfo.ru###header > .container > a[href="/menu"] ~ h2
 proxywiky.com###overlay-holder
@@ -15549,6 +15551,10 @@ xoilac85.tv##.modal.fade.show
 xoilac85.tv#$#abort-current-inline-script jQuery overlay
 xoilac85.tv#$#abort-current-inline-script jQuery popupBanners
 xoilac85.tv#$#abort-on-property-read adsRedirectPopups
+xoilac87.tv##.modal.fade.show
+xoilac87.tv#$#abort-current-inline-script jQuery overlay
+xoilac87.tv#$#abort-current-inline-script jQuery popupBanners
+xoilac87.tv#$#abort-on-property-read adsRedirectPopups
 xoivo7.info,vaoroi13.online#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 xsldh6.com##div[id^="slide"] > .pure-g:nth-child(3)
 xstud.org#$#abort-on-property-read _0xd07e

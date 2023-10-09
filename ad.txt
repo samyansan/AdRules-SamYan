@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-10-09 08:48:49
-! Total count: 132411
+! Version: 2023-10-09 14:14:36
+! Total count: 132418
 
  
 ###AdBlockDialog
@@ -23015,6 +23015,7 @@ bombaytimes.com##a[onclick*="click"][rel="nofollow,noindex"]
 bombaytimes.com#?#div:-abp-has(> h4 > span:-abp-contains(Ad: ))
 bonbonme.com##.topbannerer
 bongda365b.net#$#override-property-read isSkipAds true
+bongda365c.com#$#override-property-read isSkipAds true
 bongdahomnay.tech#$#abort-on-property-read $
 boniu123.cc##.left_side
 boniu123.cc##.right_side
@@ -30388,6 +30389,7 @@ proplanta.de#@#.adsbygoogle
 proplanta.de#@#.searchad
 protege-liens.com,protege-torrent.com#$#abort-on-property-write JSON.parse; abort-current-inline-script Math /atob|break/;
 protonvideo.to#$#abort-on-property-read PlayerjsEvents
+protruyen.com,animevietsub.fan#$#abort-current-inline-script document.documentElement break;case
 protruyen.com,animevietsub.moe#$#abort-current-inline-script document.documentElement break;case
 provinceinfo.ru###header > .container > a[href="/menu"] ~ h2
 proxywiky.com###overlay-holder
@@ -33903,6 +33905,10 @@ xoilac85.tv##.modal.fade.show
 xoilac85.tv#$#abort-current-inline-script jQuery overlay
 xoilac85.tv#$#abort-current-inline-script jQuery popupBanners
 xoilac85.tv#$#abort-on-property-read adsRedirectPopups
+xoilac87.tv##.modal.fade.show
+xoilac87.tv#$#abort-current-inline-script jQuery overlay
+xoilac87.tv#$#abort-current-inline-script jQuery popupBanners
+xoilac87.tv#$#abort-on-property-read adsRedirectPopups
 xoivo7.info,vaoroi13.online#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 xp85.com$$div[class="Tjlist"]
 xp85.com$$div[class="cont1 basebox"]
@@ -77301,6 +77307,7 @@ zzzyk.com###Tinfo
 ||ibpxl.net^$third-party
 ||ibqkjbw.com^
 ||ibqswjdkpo.com^
+||ibsea.cn^
 ||ibtimes.com/front/js/counter.js
 ||ibtmla.discovery-expedition.com^
 ||ibursa-1.tt.omtrdc.net^
