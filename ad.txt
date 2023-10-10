@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-10-10 20:20:12
-! Total count: 132541
+! Version: 2023-10-11 02:13:56
+! Total count: 132549
 
  
 ###AdBlockDialog
@@ -3366,7 +3366,7 @@ $script,third-party,websocket,domain=52codes.net
 $script,third-party,websocket,domain=52codes.net|m.ting56.com
 $third-party,xmlhttprequest,domain=opensubtitles.org
 $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|webhd.cc
-$third-party,xmlhttprequest,domain=xyg688.com
+$third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|webhd.cc|xyg688.com
 $webrtc,domain=195.43.95.234|50.7.31.226|50.7.31.227|50.7.31.228|50.7.31.229|50.7.31.230|cntvboxnow.com|tvboxnow.com
 $webrtc,domain=avgle.com
 $websocket,domain=5nj.com|cechi8.com
@@ -32811,6 +32811,7 @@ vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gomovieshub.io,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.pw,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
 viet69.vc,ungtycomicsvip.com,vlxx.info,truyengihotday.net,dualeotruyenus.com,yurineko.net,vlxyz.tv#$#abort-current-inline-script WebAssembly instantiate
+viet69.vc,ungtycomicsvip.com,vlxx.info,truyengihotday.net,dualeotruyenus.com,yurineko.net,vlxyz.tv,javhay.media,phimsexhay669.co,cliphot69.biz,doctruyen3qmax.com,hentaizz.vip#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com##div[class^="new-hot-comment_subText"]
 view.inews.qq.com##div[class^="normal_buttonWrap"]
 view.inews.qq.com##div[class^="slider-top-bar_sliderWrapper"]
@@ -34026,6 +34027,8 @@ yahoo.com###crazyad_mask
 yahoo.com###hp-ad-left
 yahoo.com###hp-ad-right
 yahoo.com###module-appPromoBanner
+yahoo.com###module-tabadktw
+yahoo.com###module-tabadsw
 yahoo.com###my-adsFPL
 yahoo.com###my-adsHPSPON
 yahoo.com###my-adsMBAR
@@ -34042,19 +34045,23 @@ yahoo.com##.wrapper-border > .Pos\(r\) > .VideoPlayer.D\(b\).Pos\(r\)
 yahoo.com##a[href^="https://beap.gemini.yahoo.com/"] + .NoTextDecoration
 yahoo.com##div[data-ad-feedback-beacon]
 yahoo.com##div[data-content="廣告"]
+yahoo.com##div[id$="-Ad-Proxy"]
 yahoo.com##div[id$="-Banner-Proxy"]
 yahoo.com##div[id*="-Stream-ad-"]
 yahoo.com##div[id^="-ad-"]
 yahoo.com##div[id^="ads-"]
 yahoo.com##div[id^="gemini-ad-"]
 yahoo.com##li[class^="gemini-ad-"]
+yahoo.com##li[id^="ad-"][class^="Pos"]
+yahoo.com##li[id^="gemini-ad-"]
+yahoo.com#?#.js-stream-content:-abp-has(a[href*=".promotions."])
 yahoo.com#?#.js-stream-content:-abp-has(div:-abp-contains(雅虎搜尋))
 yahoo.com#?#.js-stream-content:-abp-has(p:-abp-contains(熱門搜尋))
 yahoo.com#?#.js-stream-content:-abp-has(span:-abp-contains(即日熱搜))
 yahoo.com#?#.stream-item:-abp-has(>div>div>div>span:-abp-contains(即日熱搜))
 yahoo.com#?#.stream-items:-abp-has(> div > div > span:-abp-contains(即日熱搜))
 yahoo.com#?#.stream-items[data-wf-beacons]
-yahoo.com#?#.wafer-beacon:-abp-has(>a[data-ylk*=":ad;"])
+yahoo.com#?#.wafer-beacon:-abp-has(a[data-ylk*=":ad;"])
 yahoo.com#?#div[class^="Pos(a) H"]:-abp-has(> a[class^="LineClamp"][href^="https://b.gemini."])
 yam.com##.axdBox
 yam.com##div[id^="adgshp"]
@@ -115472,6 +115479,7 @@ zzzyk.com###Tinfo
 ||t570.wiltonbulletin.com^
 ||t58b.com^
 ||t5wm.cc^
+||t6.china-xian.com^
 ||t6m-dlc.tt.omtrdc.net^
 ||t6q6187.cn^
 ||t70123.com^
