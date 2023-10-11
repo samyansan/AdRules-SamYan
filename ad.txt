@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-10-11 08:48:08
-! Total count: 132560
+! Version: 2023-10-11 14:15:03
+! Total count: 132570
 
  
 ###AdBlockDialog
@@ -3365,7 +3365,6 @@ $script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrent
 $script,third-party,websocket,domain=52codes.net
 $script,third-party,websocket,domain=52codes.net|m.ting56.com
 $third-party,xmlhttprequest,domain=opensubtitles.org
-$third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|webhd.cc
 $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|webhd.cc|xyg688.com
 $webrtc,domain=195.43.95.234|50.7.31.226|50.7.31.227|50.7.31.228|50.7.31.229|50.7.31.230|cntvboxnow.com|tvboxnow.com
 $webrtc,domain=avgle.com
@@ -19297,6 +19296,7 @@ $websocket,domain=5nj.com|cechi8.com
 17yy.com##.t2_3
 17yy.com##.t2r_3
 18-comic.work,18comic.org,18comic.vip###guide-modal
+18-comic.work,18comic.org,18comic.vip##.div_sticky2
 18-comic.work,18comic.org,18comic.vip##.modal-backdrop
 18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img
 18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img + [style]
@@ -22255,6 +22255,7 @@ axutongxue.com##ASIDE[style*='height:58px;overflow:hidden;width:322px;border:das
 axutongxue.com##DIV[style*='px;position:relative;box-shadow:rgb(0 0 0/24%)0px 3px 8px;']
 axutongxue.com##DIV[style*='z-index: 9999999;display: flex;justify-content: center;align-items: center;']
 axutongxue.com##DIV[style='text-align:center']
+axutongxue.com,axutongxue.net###ccacc
 axutongxue.com,axutongxue.net##[style^="height:58px;"]
 axutongxue.net###uuuui
 axutongxue.net##+js(no-setTimeout-if, getCookie(")
@@ -29599,6 +29600,7 @@ niutuku.com##.listAD
 niutuku.com##.sideAD
 niutuku.com,sina.cn##.bannerAD
 nivod4.tv,nivod5.tv##.nav-ads
+nivod4.tv,nivod5.tv##.qy20-h-carousel__li:nth-child(-n+2)
 nivod5.tv,nivod4.tv##+js(set-constant, detailParams.is_ad_play, false)
 nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.0.commercial.jumpUrl, '')
 nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.0.commercial.mediaUrl, '')
@@ -34183,6 +34185,7 @@ yinyuetai.com##.focus_bottom_banner
 yinyuetai.com##.video_abl
 yinyuetai.com##.video_abr
 yipee.cc##.footer-sidebar-container
+yisu.com##.coupon-get-link
 yisu.com##.information-right-img
 yitaifang.com##.mod-da
 yivian.com##span[style^="color: #ff0000;"]
@@ -34793,6 +34796,8 @@ zzkdhb.com##li[style*="important"]
 zzkdhb.com##p[style^="width: 100%; margin: 0px;"]
 zznews.cn##.ad:not([style])
 zznews.cn#@#.ad-wrapper
+zztt24.com##.event-notice
+zztt24.com##.gotoclick
 zztt24.com##.no-mask
 zzzyk.com###Tinfo
 |.gif$domain=fashangji.com
@@ -36351,6 +36356,7 @@ zzzyk.com###Tinfo
 ||1abzar.ir/abzar/tools/stat/
 ||1amehwchx31.bloxdhop.io^
 ||1baq2nvd6n7.www.keevowallet.com^
+||1bctkn.xyz^
 ||1biqug.com/js/ajax.js
 ||1bpmtrvkqkj.pettoonies.com^
 ||1buu1.penyouw.com^
@@ -52428,6 +52434,7 @@ zzzyk.com###Tinfo
 ||axsgroup.tt.omtrdc.net^
 ||axuns.com^
 ||axutongxue.*/js/pp
+||axutongxue.*/js/yes.
 ||axutongxue.com/js/uuiiio.js
 ||axutongxue.net/js/ik474n.js
 ||axz650.com^
@@ -54598,6 +54605,7 @@ zzzyk.com###Tinfo
 ||bldr.mkt.samsung.com^
 ||ble.ubm-licensing.com^
 ||bleachbubble.com^
+||bleachmx.fr/wp-content/plugins/yeptmixnsykgrb/bjns-fcknj.js
 ||bleachscarecrow.com^
 ||bleachscarecrow.com^$third-party
 ||blend.com/event/
@@ -72886,6 +72894,7 @@ zzzyk.com###Tinfo
 ||givemesource.tt.omtrdc.net^
 ||givevacation.com^
 ||givevacation.com^$third-party
+||gixgav.icu^
 ||gixhlii.xyz^
 ||gixmo.dk^$third-party
 ||gizmodo.com/x-kinja-static/assets/*/trackers.
@@ -73074,6 +73083,7 @@ zzzyk.com###Tinfo
 ||gmufag.starhit.ru^
 ||gmufag.woman.ru^
 ||gmx.net/monitoring/
+||gmx22.top^
 ||gmx23.top^
 ||gmx24.top^
 ||gmx27.top^
