@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-10-11 02:13:56
-! Total count: 132549
+! Version: 2023-10-11 08:48:08
+! Total count: 132560
 
  
 ###AdBlockDialog
@@ -21725,7 +21725,6 @@ acgnx.net,acgnx.se##a > img[src^="/images/"]
 acgnx.se$$div[class="banner"]
 acgnx.se$$div[class="clear intro_inner"]
 acmemarkets.com,albertsons.com,andronicos.com,balduccis.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#$#hide-if-matches-xpath './/div[contains(text(),"Sponsored")]/parent::div/ancestor::div[contains(@class,"slick-product")][1]'; hide-if-matches-xpath './/div/div[contains(@data-qa,"spnsrd")][text()="Sponsored"]/parent::div/ancestor::div[contains(@class,"placeholder")][1]';
-acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#$#hide-if-matches-xpath './/div[contains(text(),"Sponsored")]/parent::div/ancestor::div[contains(@class,"slick-product")][1]'; hide-if-matches-xpath './/div/div[contains(@data-qa,"spnsrd")][text()="Sponsored"]/parent::div/ancestor::div[contains(@class,"placeholder")][1]';
 acomics.ru##div[style*="/design/common/pic/please"]
 acommunity.com.tw##.ai_widget
 actionz.tv,cimaclub.com,cimaclub.in,elmstba.com,hawak.net,hawak.tv,lodynet.cloud,lodynet.co,lodynet.dev,lodynet.ink,lodynet.tv,lodynet.win,rotana.video#$#abort-on-property-read decodeURIComponent
@@ -26875,7 +26874,6 @@ instacart.com#$#hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"d
 instacart.com#$#hide-if-matches-xpath './/span[starts-with(@class,"e-1r5")][contains(text(),"d")]/parent::div[1]'
 instacart.com#$#hide-if-matches-xpath './/span[text()]/preceding::div[@aria-hidden="true"]/preceding::source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/ancestor::header[@id][@class][1]'
 instacart.com#$#hide-if-matches-xpath '//img[@alt="Sponsored"][contains(@src,".svg")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
-instacart.com#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ss")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ap")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
 instacart.com#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ss")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-bp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
 instagram.com#$#hide-if-contains-visible-text '/Anzeige|Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/' 'article[class]>div[class]'
 instantmanga.com###notice
@@ -28225,7 +28223,6 @@ longzhu.com##.recommend-pop-up
 lookae.com##.zhongjian
 lostfilm.tv##div[class^="alarm"]
 loveshang.com##div[class^="float-ad-"]
-lowes.com#$#hide-if-matches-computed-xpath './/section[@id="listItems"]/div/div[@data-tile="{{}}"]/*' './/section[@id="listItems"]//div[@data-selector="prd-lormn-badge"]/..' '/data-tile="(.*?)"/'; hide-if-matches-computed-xpath './/section[@id="listItems"]/div/div[contains(@class,"InstallMsg")][following-sibling::node()[1][self::div and @data-tile="{{}}"]]/*' './/section[@id="listItems"]//div[@data-selector="prd-lormn-badge"]/..' '/data-tile="(.*?)"/'
 lowes.com#$#hide-if-matches-xpath './/div[@class="southdeep-badge"][contains(text(),"Sponsored")]/ancestor::div[@class="carousel-inner-container "]/preceding::h2[@class][@role][contains(text(),"Sponsored")]/ancestor-or-self::div[@class="scaf-rec"]'
 lowes.com#$#hide-if-matches-xpath './/section[@id="listItems"]/div/div[@data-tile=//section[@id="listItems"]/div/div[@data-tile][@order]//span[text()="Sponsored"]/ancestor::div[@data-tile][@order]/@data-tile]/*'
 lowes.com#$#hide-if-matches-xpath './/section[@id="listItems"]/div[count(child::div) = 3]/div/div[contains(@class,"LormnProductBadgeStyle")]/ancestor::div[contains(@class,"tile_group")]/*'
@@ -31314,6 +31311,7 @@ sinolub.com##[id^="xker"]
 sinolub.com##div[id^="bs_"]
 sinolub.com##div[style="float:left; padding-right:20px;"]
 sinoptik.ua###bigmirTop
+sinoptik.ua##img[src^="//counter.ukr.net/"]
 sinoptik.ua#$#abort-on-property-read SIN.globals.ADBLOCK_DETECTED
 sisixxb.com##.preflink
 site.baidu.com##.pstr.mt10
@@ -31912,7 +31910,6 @@ tbtdg.com###adblockWarning
 tbtdg.com##.reveal-modal-bg
 tbtdg.com##.s11text
 tbxt.com###headad2
-tctruyen.com#$#abort-current-inline-script $ popup
 tctruyen.com,tctruyen.net#$#abort-current-inline-script $ popup
 teachinghand.com##.actions__wrapper
 tech.qq.com##.kjad2
@@ -32810,7 +32807,6 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gomovieshub.io,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.pw,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.vc,ungtycomicsvip.com,vlxx.info,truyengihotday.net,dualeotruyenus.com,yurineko.net,vlxyz.tv#$#abort-current-inline-script WebAssembly instantiate
 viet69.vc,ungtycomicsvip.com,vlxx.info,truyengihotday.net,dualeotruyenus.com,yurineko.net,vlxyz.tv,javhay.media,phimsexhay669.co,cliphot69.biz,doctruyen3qmax.com,hentaizz.vip#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com##div[class^="new-hot-comment_subText"]
 view.inews.qq.com##div[class^="normal_buttonWrap"]
@@ -34626,6 +34622,9 @@ zhuji.net##td[valign="top"][height="96"]
 zhujiboke.com##.cjtz-border
 zhujiboke.com##.posts-top-cjtz
 zhujicankao.com##.sings-tops2.container.topsss-111
+zhujicankao.com##.topsss-111
+zhujicankao.com##div[style*="padding:0px"] > a[target="_blank"] > img
+zhujicankao.com#?##ez-toc-container > div.ez-toc-right-container:has(> div.ez-toc-rigth > ins.adsbygoogle)
 zhujiceping.com###footer-widget-box
 zhujiceping.com###hmtb-footer-bar
 zhujiceping.com###text-12
@@ -56179,6 +56178,7 @@ zzzyk.com###Tinfo
 ||c.sibnet.ru^
 ||c.snow.com^
 ||c.sssgbw.cn^$third-party
+||c.statcounter.com^
 ||c.tbex.ru^
 ||c.tgslww.cn^$third-party
 ||c.thredup.com^
@@ -56317,6 +56317,7 @@ zzzyk.com###Tinfo
 ||cadent.hb.tt.omtrdc.net^
 ||caderonline.bu.edu^
 ||cadessavoie.tt.omtrdc.net^
+||cadizer.com^
 ||cadke.xyz^
 ||cadreon.com^$third-party
 ||cadsuta.net^
@@ -57583,6 +57584,7 @@ zzzyk.com###Tinfo
 ||cheda1.icu^
 ||cheda10.icu^
 ||cheda2.icu^
+||cheda6.icu^
 ||cheda7.icu^
 ||cheda8.icu^
 ||cheda9.icu^
@@ -64211,7 +64213,9 @@ zzzyk.com###Tinfo
 ||data.devbmg.bancobmg.com.br^
 ||data.diagnostics.office.com^
 ||data.digital.costco.ca^
+||data.digital.costco.ca^$badfilter
 ||data.digital.costco.com^
+||data.digital.costco.com^$badfilter
 ||data.digitalks.az^
 ||data.digitalks.az^$third-party
 ||data.discover.ringcentral.com^
@@ -67703,6 +67707,7 @@ zzzyk.com###Tinfo
 ||ebistoppan1.kyowahakko-bio-campaign-1.com^
 ||ebjvu.cn^$app=com.yyets.pro
 ||eblnzoq.cn^
+||ebmlsvw.cn^
 ||ebnpqi.carrefourlocation.fr^
 ||ebook.tianya.cn/js/stat.js
 ||ebookers.com/cl/2x2.gif?
@@ -69803,6 +69808,7 @@ zzzyk.com###Tinfo
 ||explore-ft.agilent.com^
 ||explore-uat.agilent.com^
 ||explore.agilent.com^
+||explore.agilent.com^$badfilter
 ||explore.att.com^
 ||explore.broncos.com.au^
 ||explore.bytelab.uk^
@@ -69929,6 +69935,7 @@ zzzyk.com###Tinfo
 ||f.cdngeek.com^$domain=edugeek.net
 ||f.email.bjs.com^*/1x2.gif
 ||f.gm.mob.com^
+||f.revotas.com^
 ||f.sen.seg.br^$third-party
 ||f.zgbmw.com.cn^$third-party
 ||f02b61sgc617.es.themoneytizer.com^
@@ -82168,6 +82175,7 @@ zzzyk.com###Tinfo
 ||jvc.gg^*/traffic.js
 ||jvckenwoodcorporatio.tt.omtrdc.net^
 ||jvjlkih.com^
+||jvjmjt.xyz^
 ||jvkckeg.cn^
 ||jvljnb.xyz^
 ||jvmxrug.xyz^
@@ -83610,7 +83618,6 @@ zzzyk.com###Tinfo
 ||l1-spint.tt.omtrdc.net^
 ||l2.io/ip.js
 ||l2.io^$third-party
-||l2.revotas.com/trc/api/rvts*_tracker.js
 ||l23jhjfasd.xyz^
 ||l2k30jsa.theochu.com^
 ||l3r6p0d5.com^
@@ -102169,6 +102176,7 @@ zzzyk.com###Tinfo
 ||revistaadmmade.tt.omtrdc.net^
 ||revive-chat.io/js/tracking-min.js
 ||revlifter.io^$third-party
+||revocdn.revotas.com/trc/api/rvts*_tracker.js
 ||revoffers.com^$third-party
 ||revolvermaps.com^$third-party
 ||revprotect.com^$third-party
@@ -123024,6 +123032,7 @@ zzzyk.com###Tinfo
 ||uadx.com^$third-party
 ||uaemarketing.sedgwick.com^
 ||uaevivi.top^
+||uahozcfq.xyz^
 ||uai.com.br^*/analytics.js
 ||ualkzq.moobel1.ee^
 ||uandmyfuture.net.anwalt.de^
@@ -124261,6 +124270,7 @@ zzzyk.com###Tinfo
 ||vdggsd008.com^
 ||vdggsd009.com^
 ||vdggsd010.com^
+||vdggsd011.com^
 ||vdianying.cc/img/youhuiquan250.gif
 ||vdianying.cc/img/zfbhb.png
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
@@ -127334,6 +127344,7 @@ zzzyk.com###Tinfo
 ||wrongpotato.com^
 ||wrongpotato.com^$third-party
 ||wrpsouf.cn^
+||wrtjojn.xyz^
 ||wru795e.cn^
 ||wrvueo.mollis.ru^
 ||wryfinger.com^
