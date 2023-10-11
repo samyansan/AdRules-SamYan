@@ -4194,6 +4194,7 @@
 85wp.com###a3_diy2
 85wp.com##.top-ad-img
 8684.cn,8684.com##div[id*="adid"]
+8684.cn,8684.com,iyxdm.com,kugou.com,solarzoom.com,yesky.com##div[class^="adv"]
 8684.cn,8684.com,kugou.com,solarzoom.com,yesky.com##div[class^="adv"]
 8684.cn,8684.com,kugou.com,solarzoom.com,yesky.com,yxdmgo.com##div[class^="adv"]
 880sy.com##.foot_gg
@@ -7316,6 +7317,7 @@ eoof.net##.tableborder1[cellspacing="1"][cellpadding="3"]
 epinv.com##.epinv_b
 epinv.com##.epinv_f
 epinv.com##A[href="http://www.epinv.com/post/10450.html"]
+eprice.com.hk##div[id^="eprice-div-gpt-ad-"]
 eprice.com.hk#@#.one-ad
 eprice.com.tw###goldlink
 eprice.com.tw###popup-ad-overlay
@@ -9195,7 +9197,6 @@ informator.ua,kriminal.tv,4studio.com.ua,112ua.tv,newsoneua.tv,gorodkiev.com.ua,
 infoseek.co.jp#$#.co-Widget[style="min-height: 6000px;"] { min-height: auto !important; }
 inmywordz.com,ants.tw##.acca-block
 inside-games.jp##.cx-subhead
-instacart.com#$#hide-if-contains-visible-text '/(\\s)*sored/' li 'li div[aria-label="Product"]'
 instacart.com#$#hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' li 'li div[aria-label="Product"]'
 instacart.com#$#hide-if-contains-visible-text '/Sponsor/' li 'li div[aria-label="Product"]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")][@data-testid]/ancestor::a[contains(@href,"interaction_id")]/ancestor::div[@id][@class][not(@id="store-wrapper") and not(@id="js-app")]'
@@ -9209,7 +9210,6 @@ instacart.com#$#hide-if-matches-xpath './/span[starts-with(@class,"e-1r5")][cont
 instacart.com#$#hide-if-matches-xpath './/span[text()]/preceding::div[@aria-hidden="true"]/preceding::source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/ancestor::header[@id][@class][1]'
 instacart.com#$#hide-if-matches-xpath '//img[@alt="Sponsored"][contains(@src,".svg")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
 instacart.com#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ss")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ap-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
-instacart.com#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ss")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-bp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
 instagram.com#$#hide-if-contains-visible-text '/Anzeige|Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/' 'article[class]>div[class]'
 instantmanga.com###notice
 instrument.com.cn###leftFlash
@@ -9822,6 +9822,8 @@ jlpcn.net##.vodAd
 jmbbs.com###xjj_jmbbs2015_01
 jmbbs.com##.middle_guanggao
 jmbbs.com##img[width="1100"]
+jmcomic1.me##div[style^="max-height: 600px"]
+jmcomic1.me#?#.container > div.row:has(ins[data-width="300"])
 jmnews.com.cn##div[id^="couplet_"]
 jmw.com.cn##.coupon
 jmw.com.cn##.head_1b
@@ -10714,6 +10716,8 @@ m.jd.com###imk2FixedSideText
 m.jd.com###m_common_tip_div
 m.jd.com###pannelSeat
 m.jd.com##.download-pannel
+m.jd.com##DIV.modal__mask
+m.jd.com##DIV.modal__wrap
 m.jiemian.com###js-b-ad
 m.jiemian.com##.app-open
 m.jiemian.com##.box-home
@@ -16211,6 +16215,7 @@ zhujiboke.com##.cjtz-border
 zhujiboke.com##.posts-top-cjtz
 zhujicankao.com##.sings-tops2.container.topsss-111
 zhujicankao.com##.topsss-111
+zhujicankao.com##div[style$="padding:0px"]
 zhujicankao.com##div[style*="padding:0px"] > a[target="_blank"] > img
 zhujicankao.com#?##ez-toc-container > div.ez-toc-right-container:has(> div.ez-toc-rigth > ins.adsbygoogle)
 zhujiceping.com###footer-widget-box
