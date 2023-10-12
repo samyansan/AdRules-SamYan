@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-10-12 02:13:57
-! Total count: 132587
+! Version: 2023-10-12 08:46:05
+! Total count: 132604
 
  
 ###AdBlockDialog
@@ -27525,6 +27525,7 @@ jlpcn.net##.vodAd
 jmbbs.com###xjj_jmbbs2015_01
 jmbbs.com##.middle_guanggao
 jmbbs.com##img[width="1100"]
+jmcomic1.me##+js(remove-node-text, #text, 中間廣告)
 jmcomic1.me##div[style^="max-height: 600px"]
 jmcomic1.me#%#//scriptlet('remove-node-text', '#text', '中間廣告')
 jmcomic1.me#?#.container > div.row:has(ins[data-width="300"])
@@ -49282,6 +49283,7 @@ zzzyk.com###Tinfo
 ||api*.amplitude.com^
 ||api*.coolapk.com/*/feed/detail?$replace=/(\"detailSponsorCard\"|\"entities\"|\"include_goods\")/"userInfo"/
 ||api*.ipify.org/?format=
+||api-*.hismarttv.com^
 ||api-1-6.tt.omtrdc.net^
 ||api-1-74.onlineauth.prod.tt.omtrdc.net^
 ||api-1.eu-1.tt.omtrdc.net^
@@ -51802,6 +51804,7 @@ zzzyk.com###Tinfo
 ||autazklasa-jarocin-cars.tt.omtrdc.net^
 ||autchoog.net^
 ||auteurs49.ddns.tt.omtrdc.net^
+||auth-*.hismarttv.com^
 ||auth-14-5.tt.omtrdc.net^
 ||auth-auth.team.tt.omtrdc.net^
 ||auth-authz.he.he.tt.omtrdc.net^
@@ -60458,6 +60461,7 @@ zzzyk.com###Tinfo
 ||coyote.hopr.swiss^
 ||coyote.nickgurney.com^
 ||coyote.txet.ch^
+||cozyhillside.com^$third-party
 ||cp.7y7.com^
 ||cp.cp.twendee.jp^
 ||cp.deltadentalwa.com^
@@ -66736,6 +66740,7 @@ zzzyk.com###Tinfo
 ||dqs.actonservice.com^
 ||dqs3.darjeeling.fr^
 ||dqsft.com^
+||dqzehgha.xyz^
 ||dqzirj.xyz^
 ||dqzsteel.com/Website/Image/Index/ytgg.gif
 ||dr-ristic.tt.omtrdc.net^
@@ -73093,9 +73098,11 @@ zzzyk.com###Tinfo
 ||gmufag.starhit.ru^
 ||gmufag.woman.ru^
 ||gmx.net/monitoring/
+||gmx20.top^
 ||gmx22.top^
 ||gmx23.top^
 ||gmx24.top^
+||gmx26.top^
 ||gmx27.top^
 ||gmx28.top^
 ||gmx29.top^
@@ -75451,6 +75458,7 @@ zzzyk.com###Tinfo
 ||hcnegb.cn^
 ||hcomic.in/post/js/jquery
 ||hcomic.in/wp-content/themes/boomog/js/list
+||hcqumrjbx.xyz^
 ||hcsc.tt.omtrdc.net^
 ||hcsmec.decathlon.pt^
 ||hcu.actonservice.com^
@@ -83294,6 +83302,7 @@ zzzyk.com###Tinfo
 ||ksdayhtj.shop^
 ||ksdayhtl.xyz^
 ||ksdr.xyz^
+||kshrsf.icu^
 ||kshuiz.top^
 ||ksiwnx.pw/gg_html/
 ||kslbahd.top^
@@ -85899,6 +85908,7 @@ zzzyk.com###Tinfo
 ||logger.uol.com.br^
 ||logger.virgul.com^
 ||logger.yp.ca^
+||logger007.cam4.com^
 ||logging.api.intuit.com^
 ||logging.carambo.la^
 ||logging.e-himart.co.kr^
@@ -92646,6 +92656,7 @@ zzzyk.com###Tinfo
 ||msfvwi.sieuthiyte.com.vn^
 ||msg-intl.qy.net^
 ||msg-intl.qy.net^$image
+||msg-na.hismarttv.com^
 ||msg.71.am^
 ||msg.ettoday.net^
 ||msg.iqiyi.com^
@@ -94319,6 +94330,7 @@ zzzyk.com###Tinfo
 ||njq.net^
 ||njsbzc.cn^
 ||njslx.cn^
+||njtbiml.xyz^
 ||njtlemeyqj.bellmedia.hb.tt.omtrdc.net^
 ||njtprv.xyz^
 ||njtwub.schneider.de^
@@ -102702,6 +102714,7 @@ zzzyk.com###Tinfo
 ||rshrt.com^$cookie=app_visitor
 ||rsinnxoe.com^
 ||rslgzz.lance.com.br^
+||rslkhj.xyz^
 ||rsmdlk.cn^
 ||rsnignsz.xyz^
 ||rsotku.mitsui-shopping-park.com^
@@ -123502,6 +123515,7 @@ zzzyk.com###Tinfo
 ||unid.go.com^$third-party
 ||unidesk.alicdn.com^
 ||unidesk.alicdn.com^$app=com.ss.android.ugc.aweme
+||unified-ter-na.hismarttv.com^
 ||unifiedwfo.verintsystemsinc.com^
 ||unifilabs.actonservice.com^
 ||uniformadvantage.tt.omtrdc.net^
@@ -124296,6 +124310,7 @@ zzzyk.com###Tinfo
 ||vdggsd009.com^
 ||vdggsd010.com^
 ||vdggsd011.com^
+||vdggsd012.com^
 ||vdianying.cc/img/youhuiquan250.gif
 ||vdianying.cc/img/zfbhb.png
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
@@ -129893,6 +129908,7 @@ zzzyk.com###Tinfo
 ||y1.spreton.com^
 ||y1990.pw^
 ||y2ax5.y0tf2wp.online^$third-party
+||y341i.xyz^
 ||y3600.cc/20
 ||y3600.cc/js/jquery.min.js
 ||y3600.com/1
@@ -131522,6 +131538,7 @@ zzzyk.com###Tinfo
 ||zenki657.tt.omtrdc.net^
 ||zenmatefeedback.typeform.com/forms/*/insights/events/
 ||zents10.top^
+||zents2.top^
 ||zents5.top^
 ||zents7.top^
 ||zents8.top^
