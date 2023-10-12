@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-10-12 08:46:05
-! Total count: 132604
+! Version: 2023-10-12 14:14:27
+! Total count: 132606
 
  
 ###AdBlockDialog
@@ -3366,6 +3366,7 @@ $script,third-party,websocket,domain=52codes.net
 $script,third-party,websocket,domain=52codes.net|m.ting56.com
 $third-party,xmlhttprequest,domain=opensubtitles.org
 $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|webhd.cc|xyg688.com
+$third-party,xmlhttprequest,domain=zzzzz688.com|subhd.tv|subhdtw.com|webhd.cc|xyg688.com
 $webrtc,domain=195.43.95.234|50.7.31.226|50.7.31.227|50.7.31.228|50.7.31.229|50.7.31.230|cntvboxnow.com|tvboxnow.com
 $webrtc,domain=avgle.com
 $websocket,domain=5nj.com|cechi8.com
@@ -20243,7 +20244,6 @@ $websocket,domain=5nj.com|cechi8.com
 8684.cn,8684.com##div[id*="adid"]
 8684.cn,8684.com,iyxdm.com,kugou.com,solarzoom.com,yesky.com##div[class^="adv"]
 8684.cn,8684.com,kugou.com,solarzoom.com,yesky.com##div[class^="adv"]
-8684.cn,8684.com,kugou.com,solarzoom.com,yesky.com,yxdmgo.com##div[class^="adv"]
 880sy.com##.foot_gg
 880sy.com##.fot_btom
 88448.com###ad_forum_banner
@@ -41736,6 +41736,7 @@ zzzyk.com###Tinfo
 ||a45855.actonservice.com^
 ||a48505.cn^
 ||a4b-tracking.com^$third-party
+||a4bj6.xyz^
 ||a4cbec064cd989f2db4da900a22a3df2.hb-fa-dev.tt.omtrdc.net^
 ||a4sz.xyz^
 ||a53fc4c764ebccad9b2ff9b8d85d87d9.hb-fa-dev.tt.omtrdc.net^
@@ -52443,7 +52444,6 @@ zzzyk.com###Tinfo
 ||axqpn.cn^
 ||axsgroup.tt.omtrdc.net^
 ||axuns.com^
-||axutongxue.*/js/pp
 ||axutongxue.*/js/yes.
 ||axutongxue.com/js/uuiiio.js
 ||axutongxue.net/js/ik474n.js
@@ -93920,6 +93920,7 @@ zzzyk.com###Tinfo
 ||newlog.overwolf.com^
 ||newlook.tt.omtrdc.net^
 ||newmanchesterhigh.ga.dch.tt.omtrdc.net^
+||newpgqnfapkamg.xyz^
 ||newrelic.com^$third-party
 ||newrrb.bid^$third-party
 ||news-info.gcgfinancial.com^
@@ -105396,6 +105397,7 @@ zzzyk.com###Tinfo
 ||sensorsmile.com^
 ||sensorsmile.com^$third-party
 ||sentcss.com/get/cors/spread/
+||sentcss.com/get/showcase/
 ||sentifi.com^$third-party
 ||sentiment.icis.com^
 ||sentimentanalysisengine-pprd-zj1iit.tt.omtrdc.net^
