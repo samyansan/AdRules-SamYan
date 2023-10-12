@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-10-12 20:20:25
-! Total count: 132614
+! Version: 2023-10-13 02:13:52
+! Total count: 132617
 
  
 ###AdBlockDialog
@@ -3366,6 +3366,7 @@ $script,third-party,websocket,domain=52codes.net
 $script,third-party,websocket,domain=52codes.net|m.ting56.com
 $third-party,xmlhttprequest,domain=opensubtitles.org
 $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|webhd.cc|xyg688.com
+$third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|webhd.cc|xyg688.com|zzzzz688.com
 $third-party,xmlhttprequest,domain=zzzzz688.com|subhd.tv|subhdtw.com|webhd.cc|xyg688.com
 $webrtc,domain=195.43.95.234|50.7.31.226|50.7.31.227|50.7.31.228|50.7.31.229|50.7.31.230|cntvboxnow.com|tvboxnow.com
 $webrtc,domain=avgle.com
@@ -27240,6 +27241,7 @@ iyaxin.com##.Information
 iyaxin.com##.gr-ggtag
 iyaxin.com##.huand3
 iyf.tv##+js(set-constant, Object.prototype.ShouldPlayAds, 0)
+iyf.tv##.bb > .ng-star-inserted
 iyf.tv##.player-right
 iyf.tv##.player-side > .block > *
 iyf.tv##.prrb > .ng-star-inserted
@@ -78811,6 +78813,7 @@ zzzyk.com###Tinfo
 ||imrich.tt.omtrdc.net^
 ||imrk.net^$third-party
 ||imrtrack.com^$third-party
+||imrvyop.cn^
 ||imrworldwide.com^
 ||imrworldwide.com^$domain=cnet.com,important
 ||imrworldwide.com^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
