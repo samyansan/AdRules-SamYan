@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-10-13 08:50:21
-! Total count: 132629
+! Version: 2023-10-13 14:14:47
+! Total count: 132632
 
  
 ###AdBlockDialog
@@ -1227,6 +1227,7 @@
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href='/?'][target='_blank']
 ##A[href='/hth.html']
+##A[href='/iwagbwfiwehaeyh/']
 ##A[href='/statics/js/ky-a.html']
 ##A[href='http://8hgpro.vip/']
 ##A[href='http://95710.vip']
@@ -1345,6 +1346,7 @@
 ##IMG[src*='/gg/'][src$='180.gif'][src*='800']
 ##IMG[src*='qimanwu_wap/static/adimages/']
 ##IMG[src*='qmfcybwbf']
+##IMG[src*='tupian.guanggao']
 ##IMG[src='/adBanner']
 ##IMG[src='/js/imgs/taote.jpg']
 ##IMG[src^='http://socos.gitee.io/ss/poster'][alt][style='width: 100%;']
@@ -3366,7 +3368,6 @@ $script,third-party,websocket,domain=52codes.net
 $script,third-party,websocket,domain=52codes.net|m.ting56.com
 $third-party,xmlhttprequest,domain=opensubtitles.org
 $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|webhd.cc|xyg688.com|zzzzz688.com
-$third-party,xmlhttprequest,domain=zzzzz688.com|subhd.tv|subhdtw.com|webhd.cc|xyg688.com
 $webrtc,domain=195.43.95.234|50.7.31.226|50.7.31.227|50.7.31.228|50.7.31.229|50.7.31.230|cntvboxnow.com|tvboxnow.com
 $webrtc,domain=avgle.com
 $websocket,domain=5nj.com|cechi8.com
@@ -5772,7 +5773,7 @@ $websocket,domain=5nj.com|cechi8.com
 /RenderLapinBlock?
 /RequestTrackerServlet?
 /RequestVideoTag.
-/ResonateAnalytics.
+/ResonateAnalytics.min.js
 /RevenueScienceAPI.
 /RioTracking2.
 /RivistaGoogleDFP.
@@ -15773,30 +15774,30 @@ $websocket,domain=5nj.com|cechi8.com
 /redirect?tid=
 /redirect_awe.
 /redirectexittrack.php?
-/redis_stats/*
 /redx/c.gif?
-/reelevant.js
 /ref_analytics.
 /refads/*
 /refer-tracking.
 /referadd?
-/referal-cookie.
 /referer.gif?
 /referer/visitor/*
 /refererRecord.
 /referer_frame.
-/referral-tracking.
+/referral-tracking.js
 /referral_tracker.
 /referral_tracking.
+/referral_tracking.js
 /referrer.js
 /referrer.php?*http
+/referrer_invisible.js
 /referrer_invisible.js?
 /referrer_tracking.
+/referrer_tracking.js
 /refresh_uid?$script
 /refreshads-
 /refreshsyncbannerad?
 /refstats.asp?
-/reftracker.
+/reftracker.js
 /reg_stat.php?
 /register_pageview?
 /register_stats.php?
@@ -15839,6 +15840,7 @@ $websocket,domain=5nj.com|cechi8.com
 /report_ad.
 /report_ad_
 /report_visit.
+/report_visit.php
 /reporting.do?
 /reporting/analytics.js
 /reporting/campaignresolution/?
@@ -15872,11 +15874,12 @@ $websocket,domain=5nj.com|cechi8.com
 /restats_
 /restorationad-
 /resxclsa.
+/resxclsa.js
 /resxclsa_
 /resxclsx.js
 /ret_pixels/*
-/retarget_pixel.
-/retargeting-pixels.
+/retarget_pixel.php
+/retargeting-pixels.php
 /retargetingScript/*
 /retrad.
 /retrieve-ad.
@@ -27240,7 +27243,6 @@ iyf.tv##+js(set-constant, Object.prototype.ShouldPlayAds, 0)
 iyf.tv##.bb > .ng-star-inserted
 iyf.tv##.player-right
 iyf.tv##.player-side > .block > *
-iyf.tv##.prrb > .ng-star-inserted
 iyf.tv##.ss-ctn
 iyf.tv##.video-player + div[class*=" "] > div.block
 iyf.tv##.video-player > app-gg-block.ng-star-inserted[style]
@@ -72008,6 +72010,7 @@ zzzyk.com###Tinfo
 ||g11885060100.co^
 ||g12083144435.co^
 ||g12281228770.co^
+||g13eyx.com^
 ||g1584674682.co^
 ||g1782759015.co^
 ||g1782759016.co^
