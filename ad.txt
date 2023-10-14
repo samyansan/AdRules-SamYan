@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-10-14 14:13:11
-! Total count: 132673
+! Version: 2023-10-14 20:18:08
+! Total count: 132676
 
  
 ###AdBlockDialog
@@ -1121,6 +1121,7 @@
 ##.tmall_bg15
 ##.tooltip > #tp
 ##.top > a > .topline[src^="/photo/"]
+##.top > div[style="max-width: 1235px; width: 100%; text-align:center; margin-left: auto; margin-right: auto"]
 ##.top-ads
 ##.top-bar-adblock
 ##.top-gg
@@ -4388,6 +4389,7 @@ $websocket,domain=5nj.com|cechi8.com
 .com/js/a_d/
 .com/js/ad.
 .com/js/ad_
+.com/js/addp.js
 .com/js/ads/
 .com/js/adsense
 .com/js/alls_foot.js
@@ -5115,6 +5117,7 @@ $websocket,domain=5nj.com|cechi8.com
 .xyz/hm.html?s=
 .xyz/hm.js?$third-party
 .xyz/jque*.js?$third-party
+.xyz/js/addp.js
 .xyz/js/ads/
 .xyz/mithril?$third-party
 .xyz/o.js
