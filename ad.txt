@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-10-14 02:13:45
-! Total count: 132641
+! Version: 2023-10-14 08:46:44
+! Total count: 132666
 
  
 ###AdBlockDialog
@@ -25774,7 +25774,6 @@ gnula.nu,xpaja.net#$#abort-current-inline-script String.fromCharCode /atob|btoa|
 gnula.se,pelismart.com#$#abort-on-property-read localStorage
 go.10086.cn##.gaiPing
 go.lanet.click$image
-go.mail.ru##.js-adb-msg
 go.rjmetrics.com$image
 go.smartinsights.com*gif$image
 go.toutapp.com$image
@@ -26882,7 +26881,6 @@ instacart.com#$#hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"d
 instacart.com#$#hide-if-matches-xpath './/span[starts-with(@class,"e-1r5")][contains(text(),"d")]/parent::div[1]'
 instacart.com#$#hide-if-matches-xpath './/span[text()]/preceding::div[@aria-hidden="true"]/preceding::source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/ancestor::header[@id][@class][1]'
 instacart.com#$#hide-if-matches-xpath '//img[@alt="Sponsored"][contains(@src,".svg")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
-instacart.com#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ss")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ap-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-bp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
 instacart.com#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ss")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ap-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ep-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
 instagram.com#$#hide-if-contains-visible-text '/Anzeige|Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/' 'article[class]>div[class]'
 instantmanga.com###notice
@@ -34212,6 +34210,9 @@ yivian.com##span[style^="color: #ff0000;"]
 yixingjia.com###wp > table[width="960"]
 yiyouliao.com##.yyl-ads-swiper
 yiyouliao.com##.yyl-weiruan-ads-swiper
+yiyouliao.com##.yyl-weiruan-news-ad-item
+yiyouliao.com#?#.yyl-weiruan-ads-list-item:has(> div#small1)
+yiyouliao.com#?#.yyl-weiruan-video-list-item:has(> div#small2)
 yizhibo.com###J_reg_guide
 yjcf360.com##.side_box
 yjcf360.com##.side_box2
@@ -35660,6 +35661,7 @@ zzzyk.com###Tinfo
 ||11nux.com^$third-party
 ||11pluralsight.hb.tt.omtrdc.net^
 ||11px.cn/Style/js/jquery.min.js^$replace=/zz_//
+||11st.co.kr/st/
 ||11st.co.kr^$cookie=/RAKE_SID/
 ||11vvt.com^*tools/
 ||11www19.tt.omtrdc.net^
@@ -43915,6 +43917,7 @@ zzzyk.com###Tinfo
 ||accuterm.com/data/stat.js
 ||accutrain.actonservice.com^
 ||accuzip.actonservice.com^
+||accwww9.53kf.com^
 ||acdvmv7ofasbc02.tt.omtrdc.net^
 ||ace-sync.toast.com/sendid?sid=*&uid=
 ||ace.naver.com^
@@ -45323,6 +45326,7 @@ zzzyk.com###Tinfo
 ||adobetargetmobile.tt.omtrdc.net^
 ||adobetp.chegg.com^
 ||adobetps.chegg.com^
+||adoffice.11st.co.kr^
 ||adoftheyear.com^$third-party
 ||adomv.com^
 ||adondemand.com^$third-party
@@ -49840,6 +49844,7 @@ zzzyk.com###Tinfo
 ||apigwsystest.clearml-fallback.artifactory.prod.tt.omtrdc.net^
 ||apiimg.com/huaer/xiahe.
 ||apikuhd2.tt.omtrdc.net^
+||apilog-web.acfun.cn^
 ||apimii-dev.connect-dev.tt.omtrdc.net^
 ||apimii-test.gpdmigr-dev.tt.omtrdc.net^
 ||apimpbuat.tt.omtrdc.net^
@@ -49879,6 +49884,7 @@ zzzyk.com###Tinfo
 ||apiv2.moengage.com^
 ||apiv4-iyes.youku.com/reflect/ip^
 ||apiv6-dev.tt.omtrdc.net^
+||apiwmda.58.com.cn^
 ||apj5.tco.tt.omtrdc.net^
 ||apjiangte.com^
 ||apk-01.oss-cn-beijing.aliyuncs.com/dp/
@@ -56742,6 +56748,7 @@ zzzyk.com###Tinfo
 ||carreras.unisabana.edu.co^
 ||carriagecan.com^
 ||carriagecan.com^$third-party
+||carrick-ui.advoncommerce.com^
 ||carrierservices-business.vodafone.com^
 ||carry-hk12.tt.omtrdc.net^
 ||cars.autopia.com.au^
@@ -60725,6 +60732,7 @@ zzzyk.com###Tinfo
 ||cri.cn/a1.js
 ||cri.cn/js/a1.js
 ||cri.cn/wrating.js
+||crimsonmeadow.com^
 ||crimsonmeadow.com^$third-party
 ||crissbellini.espheredigital.com^
 ||cristinacordova.tt.omtrdc.net^
@@ -60836,6 +60844,7 @@ zzzyk.com###Tinfo
 ||cryptobara.com^$third-party
 ||cryptonoter.com^$third-party
 ||cryptorbitaldigital.tt.omtrdc.net^
+||crystalboulevard.com^
 ||cryweb.github.io^
 ||crywl.com^
 ||cryy.vip^
@@ -73117,6 +73126,7 @@ zzzyk.com###Tinfo
 ||gmufag.starhit.ru^
 ||gmufag.woman.ru^
 ||gmx.net/monitoring/
+||gmx16.top^
 ||gmx20.top^
 ||gmx21.top^
 ||gmx22.top^
@@ -75059,6 +75069,7 @@ zzzyk.com###Tinfo
 ||haise10.top^
 ||haise2.top^
 ||haise3.top^
+||haise5.top^
 ||haise6.top^
 ||haise8.top^
 ||haishengwh123.cn^
@@ -75540,6 +75551,7 @@ zzzyk.com###Tinfo
 ||he2d.com/crossdomain.xml
 ||he2d.com^$third-party
 ||he3kz8.com^
+||head4.net/ad_
 ||head4.net/ad_c_outlink.php
 ||headbox-hoon-laurdalite.tt.omtrdc.net^
 ||headshot.monster^$all
@@ -85520,6 +85532,7 @@ zzzyk.com###Tinfo
 ||llanalytics.com^$third-party
 ||llaxl.com^
 ||llbbcspfjz.abc.hb.tt.omtrdc.net^
+||llblwzg.xyz^
 ||lld.fordlease.fr^
 ||llguandongyan.com^
 ||llhhbb.top^
@@ -95897,6 +95910,7 @@ zzzyk.com###Tinfo
 ||oppositeparcel.com^$third-party
 ||opps.taboola.com^
 ||oppuz.com^
+||oprece.xyz^
 ||oproi.com^$third-party
 ||ops.sunpowercorp.com^
 ||ops2-wf.tt.omtrdc.net^
@@ -99029,6 +99043,7 @@ zzzyk.com###Tinfo
 ||pornozot.com/js/tracker.min.js
 ||porntube.com^*/track
 ||pornyoungtube.tv/kriss/cron.php
+||poro.58.com^
 ||porpoise.azettl.net^
 ||porpoise.deschtimes.com^
 ||porpoise.fruittreecottage.com.au^
@@ -103074,6 +103089,7 @@ zzzyk.com###Tinfo
 ||ryvexulg.xyz^
 ||rywnvzd.cn^
 ||rz261.cn^$third-party
+||rzflhxn.cn^
 ||rzgvdm5.com^
 ||rzgwpw.madeincookware.com^
 ||rzjslm.com^
@@ -106857,6 +106873,7 @@ zzzyk.com###Tinfo
 ||smeasurement.fcc-fac.ca^
 ||smeasurement.infiniti.ca^
 ||smeasurement.nissan.ca^
+||smelel.icu^
 ||smelt.allenpike.com^
 ||smelt.gautrowski.com^
 ||smemiltiontrk.com^
@@ -109807,6 +109824,7 @@ zzzyk.com###Tinfo
 ||smitionsory.co^
 ||smjydg.cartersoshkosh.ca^
 ||smkt.edm.globalsources.com^
+||smlpcz.icu^
 ||smmmqq.com^
 ||smn.dankore.jp^
 ||smncden.cn^
@@ -112150,6 +112168,7 @@ zzzyk.com###Tinfo
 ||stas.outbrain.com^
 ||stascorp.com/stat/
 ||stat*.1internet.tv^
+||stat-58home.58che.com^
 ||stat-feedot.ru^$third-party
 ||stat-in.dc.oppomobile.com^
 ||stat-ssl.akiba-souken.com^
@@ -112587,6 +112606,7 @@ zzzyk.com###Tinfo
 ||statistics.tattermedia.com^
 ||statistics.tuv.com^
 ||statistics.wibiya.com^
+||statisticsplatform.com^
 ||statistiek.rijksoverheid.nl^
 ||statistik-gallup.net^$third-party
 ||statistik.apartments-tirolerhaus.at^
@@ -121541,6 +121561,8 @@ zzzyk.com###Tinfo
 ||trail-001.schleich-s.com^
 ||trail-test.offers.tt.omtrdc.net^
 ||trail-web.com^$third-party
+||trail.53kf.com^
+||trail.71baomu.com^
 ||trail.dominiosistemas.com.br^
 ||trail.sweetandmaxwell.co.uk^
 ||trail.thomsonreuters.ca^
@@ -124346,6 +124368,7 @@ zzzyk.com###Tinfo
 ||vdggsd011.com^
 ||vdggsd012.com^
 ||vdggsd013.com^
+||vdggsd014.com^
 ||vdianying.cc/img/youhuiquan250.gif
 ||vdianying.cc/img/zfbhb.png
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
@@ -124508,6 +124531,7 @@ zzzyk.com###Tinfo
 ||vghnnh.xyz^
 ||vgijoh.com^
 ||vgimer.cn^
+||vgjaxnuw.xyz^
 ||vgo.vegaoo.com^
 ||vgo.vegaoo.de^
 ||vgo.vegaoo.es^
@@ -125224,7 +125248,6 @@ zzzyk.com###Tinfo
 ||vt.ipinyou.com^
 ||vt.mak.com^
 ||vt863.cn^
-||vtex.com.br/portal-ui/*/scripts/vtex-analytics.js
 ||vtex.com.br/rc/rc.js
 ||vteximg.com.br/scripts/track.js
 ||vteximg.com.br/scripts/vtex.tagmanager.helper.js
@@ -126732,6 +126755,7 @@ zzzyk.com###Tinfo
 ||whhepyd.cn^
 ||whhxnz.com^
 ||whichav.*/qq/qq.js
+||whimsicalgrove.com^$third-party
 ||whineattempt.com^
 ||whinfo.net.cn/ad20
 ||whinfo.net.cn/js/adDuiLian_
@@ -127107,6 +127131,7 @@ zzzyk.com###Tinfo
 ||wlkojk.orange.ro^
 ||wlmhdk.cn^
 ||wlog.ifdo.co.kr^
+||wlog.kuaishou.com^
 ||wlog.tmon.co.kr^
 ||wlp3.aegon.es^
 ||wlph417-voice2.tt.omtrdc.net^
