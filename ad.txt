@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-10-15 02:12:29
-! Total count: 132685
+! Version: 2023-10-15 08:52:17
+! Total count: 132715
 
  
 ###AdBlockDialog
@@ -17486,6 +17486,7 @@ $websocket,domain=5nj.com|cechi8.com
 /trackClickAsync.
 /trackClickEvent.js
 /trackContentViews.
+/trackEvent.js
 /trackEvent.js?
 /trackEvent.min.js?
 /trackGAEvents.
@@ -17568,7 +17569,6 @@ $websocket,domain=5nj.com|cechi8.com
 /tracker/trackView?
 /tracker/tracker-$domain=~bugs.chromium.org
 /tracker/tracker.js
-/tracker/visitor/*
 /tracker2.js
 /tracker?*=
 /trackerGif?
@@ -17577,6 +17577,7 @@ $websocket,domain=5nj.com|cechi8.com
 /tracker_activityStream.
 /tracker_article
 /tracker_async.
+/tracker_async.js
 /tracker_czn.tsp?
 /tracker_gif.
 /tracker_pageview.
@@ -17586,6 +17587,8 @@ $websocket,domain=5nj.com|cechi8.com
 /trackers/hp_conversion-
 /trackerstatistik.
 /trackga.
+/trackga.js
+/trackga.min.js
 /trackgablocked_
 /trackhandler.ashx?
 /trackimage/*
@@ -17593,8 +17596,10 @@ $websocket,domain=5nj.com|cechi8.com
 /tracking-active/*
 /tracking-ad/*
 /tracking-analytics-
+/tracking-analytics-events.js
 /tracking-aws.
 /tracking-cookie.
+/tracking-cookie.js
 /tracking-events.js
 /tracking-hits.
 /tracking-info.gif?
@@ -18304,7 +18309,6 @@ $websocket,domain=5nj.com|cechi8.com
 /web-js-telemetry-service/*
 /web-pixel-shopify-app-pixel@
 /web-pixel-shopify-custom-pixel@
-/web-vitals-
 /web-vitals.
 /web-vitals/*
 /web.business.image
@@ -22614,6 +22618,7 @@ baixing.com##.red-package
 baixing.com##.refashion-listing-banner
 baiyangzuo.xkyn.com##+js(set-constant, conone_lmg, noopFunc)
 baiyangzuo.xkyn.com#%#//scriptlet("set-constant", "conone_lmg", "noopFunc")
+baizhan.net$$script[tag-content="oriosTop"]
 bamxs.com##body > a
 bangtubevideos.com#$#override-property-read setTimeout noopFunc; abort-on-property-write location.replace
 banid.pl#@#.ga
@@ -29977,6 +29982,10 @@ passiontimes.hk##.rectAd680
 pastenow.ru###google-block
 patrioty.org.ua###ad_pu_modal
 pausecafein.fr###adb-pop
+pc.baizhan.net###gengduo
+pc.baizhan.net##.column_right.fl
+pc.baizhan.net$$div[class="carousel"]
+pc.baizhan.net$$div[class="tebie"]
 pc.qq.com##.detail-install-fast
 pc.yiyouliao.com##.yyl-ads-main > .yyl-ads-swiper:first-child + .yyl-ads-title
 pc.yiyouliao.com##.yyl-ads-swiper
@@ -34997,6 +35006,7 @@ zzzyk.com###Tinfo
 ||0012.blog.tt.omtrdc.net^
 ||001ahotcookie-8.api.tt.omtrdc.net^
 ||0024aaaa.com^
+||00257.com^
 ||002777.xyz^
 ||0032cbsinteractive.hb.tt.omtrdc.net^
 ||003store.com^
@@ -45617,6 +45627,7 @@ zzzyk.com###Tinfo
 ||adslvseed.qq.com^
 ||adsmart.yicha.cn^
 ||adsmatcher.com^$third-party
+||adsmediator.com^$third-party
 ||adsmetadata.mobileadexchange.net^
 ||adsmind.apdcdn.tc.qq.com^
 ||adsmind.gdtimg.com^
@@ -51502,6 +51513,7 @@ zzzyk.com###Tinfo
 ||ath-staging-jenkins.gp.tt.omtrdc.net^
 ||athanase.tt.omtrdc.net^
 ||athbck-m2m.tt.omtrdc.net^
+||athecsz.cn^
 ||athena-lwl.tt.omtrdc.net^
 ||athena-site.sso.unstable.tt.omtrdc.net^
 ||athenahealth.tt.omtrdc.net^
@@ -54127,6 +54139,7 @@ zzzyk.com###Tinfo
 ||bg.promo.skf.com^
 ||bg04y.xyz^
 ||bg4nxu2u5t.com^
+||bgbqfqwi.xyz^
 ||bgbyzv.xyz^
 ||bgdizsay.icu^
 ||bgelvy.cn^
@@ -66925,6 +66938,7 @@ zzzyk.com###Tinfo
 ||ds-read-a-gew1-lb.tt.omtrdc.net^
 ||ds.haaretz.co.il^
 ||ds.webprojectslab.com^
+||ds1.kaijia.com/static/js/vs2.m.js^
 ||ds1.kaijia.com^
 ||ds2.independer.nl^
 ||dsaber2.tt.omtrdc.net^
@@ -71991,10 +72005,7 @@ zzzyk.com###Tinfo
 ||g.3lian.com^
 ||g.aisouk.cn^
 ||g.alicdn.com/??dawn/user-tracker/*/js/index.js^$domain=~aliyun.com
-||g.alicdn.com/AWSC/AWSC/awsc.js^
-||g.alicdn.com/alilog/mlog/aplus_wap.js^
 ||g.alicdn.com/alimamaad^
-||g.alicdn.com/sd/baxia-entry/index.js^
 ||g.alicdn.com/youku-weex^
 ||g.analytics.versa-ai.com^
 ||g.bit.pt^
@@ -74006,6 +74017,7 @@ zzzyk.com###Tinfo
 ||google.*/maps/*/log
 ||google.*/pagead/
 ||google.*/search?$removeparam=sclient
+||google.*/url?$ping
 ||google.*^$removeparam=/^bi[a-z]*=/
 ||google.*^$removeparam=/^btn[a-z]*=/
 ||google.*^$removeparam=/^gfe_[a-z]*=/
@@ -74305,6 +74317,7 @@ zzzyk.com###Tinfo
 ||gowinxp.com^$third-party
 ||gownsmen-notorhizal-unsectarianizing.tt.omtrdc.net^
 ||goxob6wo.icu^
+||goya.rutube.ru^
 ||gozas2.tt.omtrdc.net^
 ||gozendata.com^ 
 ||gozqezh.cn^
@@ -74832,6 +74845,7 @@ zzzyk.com###Tinfo
 ||gvt.tt.omtrdc.net^
 ||gvwan.cn^
 ||gw-analytics.panasonic.com^
+||gw-dv.vip^
 ||gw.ganjing.com/v*/tracking-content
 ||gw069.com^
 ||gw1jvhs.com^
@@ -97581,6 +97595,10 @@ zzzyk.com###Tinfo
 ||pc-agency24.de^$third-party
 ||pc.assets-cosme.net/js/ga.js
 ||pc.assets-cosme.net/js/general/pc/cmn-pf-nav-google-analytics.js
+||pc.baizhan.net/js/136/content_turning_json*.js^
+||pc.baizhan.net/js/136/high_price360*.js^
+||pc.baizhan.net/js/136/jingyun_righttop.js^
+||pc.baizhan.net/js/layui/layui.js^
 ||pc.personalcreations.com^
 ||pc.qq.com^$domain=pianku.li
 ||pc.weizhenwx.com/pc/rich-tf.js$script,redirect=noop.js,domain=zhenbuka3.com|zhenbuka2.com|bukaivip.com
@@ -106043,6 +106061,7 @@ zzzyk.com###Tinfo
 ||sho9wbox.com^$third-party
 ||shoagooy.net^
 ||shoagooy.net^$third-party
+||shobiddak.com/logging/
 ||shockinggrass.com^
 ||shockinggrass.com^$third-party
 ||shockingship.com^
@@ -112580,6 +112599,7 @@ zzzyk.com###Tinfo
 ||staticiv.com^$third-party
 ||staticmoly.me/metric.php
 ||staticporn.cc/static/tmp/
+||statics.123pan.com/share-static/dist/umi*.js^$replace=/(adv-container-pc)//
 ||statics.foxsports.com/static/orion/js/segment-analytics.js
 ||statics.tuliu.com/stats/js/tb_prod_v1.js^
 ||statics.woozooo.com/img/*.js$domain=lanzous.com
@@ -112773,6 +112793,7 @@ zzzyk.com###Tinfo
 ||stats.bopomavillages.org^
 ||stats.bordspel.org^
 ||stats.boscabeatha.ie^
+||stats.bradmax.com^
 ||stats.breathly.app^
 ||stats.brennholzauktion.com^
 ||stats.brianlynnfeldenkrais.ca^
@@ -114191,6 +114212,11 @@ zzzyk.com###Tinfo
 ||stuttgarter-nachrichten.de/cre-1.0/tracking/device.js
 ||stuttgarter-zeitung.de/cms/hitcount
 ||stv.ptqy.gitv.tv
+||style.fkcaijing.com/css/py/ad_360_list.css^
+||style.fkcaijing.com/js/py/contentbd.js^
+||style.fkcaijing.com/js/py/firsecPicAd360_delay.js^
+||style.fkcaijing.com/js/py/listad.js^
+||style.fkcaijing.com/js/py/pc_three_center.js^
 ||style.hautelook.com^
 ||style.onvz.nl^
 ||style.stage-03.stage-39.tt.omtrdc.net^
@@ -115132,6 +115158,7 @@ zzzyk.com###Tinfo
 ||t.adlpo.com^
 ||t.adx.opera.com^
 ||t.afi-b.com^$third-party
+||t.airasia.com^
 ||t.allmodern.com^
 ||t.americanbenefitsurvey.com^
 ||t.americanshelpedtoday.com^
@@ -118265,6 +118292,7 @@ zzzyk.com###Tinfo
 ||tp.ambria.de^
 ||tp.baur.de^
 ||tp.content-score.com^
+||tp.convertiser.com^
 ||tp.creation-l.de^
 ||tp.frankonia.at^
 ||tp.frankonia.com^
@@ -124387,6 +124415,7 @@ zzzyk.com###Tinfo
 ||vdggsd012.com^
 ||vdggsd013.com^
 ||vdggsd014.com^
+||vdggsd015.com^
 ||vdianying.cc/img/youhuiquan250.gif
 ||vdianying.cc/img/zfbhb.png
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
@@ -129689,6 +129718,7 @@ zzzyk.com###Tinfo
 ||xqbjjh.xyz^
 ||xqblnei.cn^
 ||xqcjfcb.cn^
+||xqgduov.cn^
 ||xqigou.top^
 ||xqiyi.top^
 ||xqtcur.kirklands.com^
