@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-10-15 14:13:15
-! Total count: 132637
+! Version: 2023-10-15 20:18:27
+! Total count: 132641
 
  
 ###AdBlockDialog
@@ -24853,17 +24853,23 @@ eotrx.substackcdn.com$image
 epinv.com##.epinv_b
 epinv.com##.epinv_f
 epinv.com##A[href="http://www.epinv.com/post/10450.html"]
+eprice.com.hk##.ad-end-article
+eprice.com.hk##.article__content > div[style*="text-align"]
 eprice.com.hk##div[id^="eprice-div-gpt-ad-"]
 eprice.com.hk#@#.one-ad
 eprice.com.tw###goldlink
 eprice.com.tw###popup-ad-overlay
 eprice.com.tw##.ad-300x370
+eprice.com.tw##.ad-320x100
 eprice.com.tw##.ad-336x280-g
 eprice.com.tw##.ad-728x250-g
 eprice.com.tw##.ad-728x90-g
+eprice.com.tw##.ad-970x250
 eprice.com.tw##.ad-970x250-g
 eprice.com.tw##.ad-970x90-g
 eprice.com.tw##.emome-ad
+eprice.com.tw##.popup-adv
+eprice.com.tw##.section-content > div[style*="text-align"]
 eprice.com.tw##div[class*="-popup"]
 epubee.com##.reader-to-vip
 epubee.com##.vipNoteBar
@@ -32989,9 +32995,6 @@ wealth.com.tw#?##root div[class]:matches-css(position: relative) > div[class]:ma
 wealth.com.tw#?##root div[class]:matches-css(row-gap: 13px) > div[class]:matches-css(row-gap: 6px):has(> div[class]:matches-css(width: 300px))
 wealth.com.tw#?#div[class]:-abp-has(>div[class]>div[class*="-ad-manager-"])
 wealth.com.tw#?#div[class]:has(> div[class] > div[class^="rytass-ad-manager-"]:only-child)
-weather.com#%#//scriptlet('set-constant', 'DprSdk', 'emptyObj')
-weather.com#%#//scriptlet('set-constant', 'DprSdk.init', 'noopFunc')
-weather.com#%#//scriptlet('set-constant', 'DprSdk.setHooks', 'noopFunc')
 weather.com.cn###adtop_r
 weather.com.cn###ytc
 weather.com.cn###zdl
@@ -77527,6 +77530,7 @@ zzzyk.com###Tinfo
 ||idcot.com^
 ||idcqi.com^
 ||idcquan.com/linux/cio_new.html
+||idd1.com^
 ||iddhui.com^
 ||iddu1vvb7sk8-a.akamaihd.net^
 ||ideadevice.actonservice.com^
@@ -125843,7 +125847,6 @@ zzzyk.com###Tinfo
 ||weather-analytics-events.apple.com^
 ||weather.ca/counter.gif?
 ||weather.com.cn/a1.js
-||weather.com/api/v*/script/dprSdkScript.js$script,redirect=noopjs
 ||weather.com/weather/assets/omniture-app-measurement.*.js
 ||weather.com/weather/assets/omniture-visitorapi.*.js
 ||weather.go.kr/w/resources/js/logger
@@ -127393,6 +127396,7 @@ zzzyk.com###Tinfo
 ||wqnggnse.fun^
 ||wqshui.com^
 ||wqudcv.finnishdesignshop.com^
+||wqvbuj.icu^
 ||wqweiog.xyz^
 ||wqytxm.kurly.com^
 ||wr.yiyouliao.com^
