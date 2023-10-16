@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-10-16 02:12:40
-! Total count: 132646
+! Version: 2023-10-16 08:50:02
+! Total count: 132668
 
  
 ###AdBlockDialog
@@ -6024,6 +6024,7 @@ $websocket,domain=5nj.com|cechi8.com
 /_bm/bd-
 /_dts.gif?
 /_ga?send&
+/_ga?sponsor_pixel=
 /_global/ads/*
 /_gz/counter.php?
 /_hcms/perf
@@ -12204,6 +12205,7 @@ $websocket,domain=5nj.com|cechi8.com
 /ga_dpc_youtube.
 /ga_dualcode_tracking.
 /ga_event_frame?
+/ga_event_tracking.js
 /ga_events.js
 /ga_external.
 /ga_footer.
@@ -18505,6 +18507,7 @@ $websocket,domain=5nj.com|cechi8.com
 /wp-content/plugins/pb-ga-google-analytics/*$domain=~wordpress.org
 /wp-content/plugins/platinumpopup/*
 /wp-content/plugins/rm-gtm-google-analytics-for-wordpress/*
+/wp-content/plugins/s2f-referral-tracking/*
 /wp-content/plugins/sorry-adblocker/js/sab.js$script
 /wp-content/plugins/stat-analytics/*
 /wp-content/plugins/stat-dfp/*
@@ -21105,6 +21108,7 @@ _admarking_
 _admin/ads/
 _adminka/
 _adnetwork.
+_adobe_analytics.js
 _adobjects.
 _adoverride.
 _adpage=
@@ -43185,6 +43189,7 @@ zzzyk.com###Tinfo
 ||aajmmd.aireuropa.com^
 ||aajtech.actonservice.com^
 ||aakashapp.byjus.com^
+||aaknmt.icu^
 ||aaktao.entel.cl^
 ||aalawy.alanduanmu.tt.omtrdc.net^
 ||aaliyaheartha.com^
@@ -48291,6 +48296,7 @@ zzzyk.com###Tinfo
 ||analytics.digitalpfizer.com^
 ||analytics.directenergy.com^
 ||analytics.discountpowertx.com^
+||analytics.disney.go.com^
 ||analytics.disneyinternational.com^
 ||analytics.disneyplus.com^
 ||analytics.dns-shop.ru^
@@ -48951,6 +48957,7 @@ zzzyk.com###Tinfo
 ||anhuinews.com/include/
 ||anhuinews.com/zhuyeguanli/*ad/
 ||aniauu2.cc^
+||aniede.xyz^
 ||aniem44.cc^
 ||anifk71.cc^
 ||anijjm.winkelstraat.nl^
@@ -51466,6 +51473,7 @@ zzzyk.com###Tinfo
 ||athanase.tt.omtrdc.net^
 ||athbck-m2m.tt.omtrdc.net^
 ||athecsz.cn^
+||athena-event-provider.n11.com^
 ||athena-lwl.tt.omtrdc.net^
 ||athena-site.sso.unstable.tt.omtrdc.net^
 ||athenahealth.tt.omtrdc.net^
@@ -54238,6 +54246,8 @@ zzzyk.com###Tinfo
 ||bigsauron.ru^$third-party
 ||bigstats.net^$third-party
 ||bigtracker.com^$third-party
+||bigw.com.au/api/event/
+||bigw.com.au/events/
 ||bigw.com.au^$cookie=ir-clickid
 ||bihaipack.com^
 ||bihutg.com^
@@ -58441,6 +58451,7 @@ zzzyk.com###Tinfo
 ||client-code.tt.omtrdc.net^
 ||client-event-reporter.twitch.tv^
 ||client-log.box.com^
+||client-logger.beta.salemove.com^
 ||client-logger.salemove.com^
 ||client-metrics.chess.com^
 ||client-telemetry.roblox.com^
@@ -60844,6 +60855,7 @@ zzzyk.com###Tinfo
 ||cs12d.com^
 ||cs1863sbeda.glaucoma-arrest.net^
 ||cs2113sbeda.hokto-onlineshop.jp^
+||cs42.pikabu.ru^
 ||csad.cc^$third-party
 ||csaimall.com^$popup,third-party
 ||csalsylqx.com^
@@ -61649,6 +61661,7 @@ zzzyk.com###Tinfo
 ||d3jaymjyiads5d.cloudfront.net/tracker.js
 ||d3kyk5bao1crtw.cloudfront.net^
 ||d3l3lkinz3f56t.cloudfront.net^
+||d3lqotgbn3npr.cloudfront.net^
 ||d3m6sept6cnil5.cloudfront.net^
 ||d3mapax0c3izpi.cloudfront.net/lib/ajax/events.js
 ||d3mshiiq22wqhz.cloudfront.net^
@@ -67240,6 +67253,7 @@ zzzyk.com###Tinfo
 ||dzctkjj.cn^
 ||dzd9.cn^
 ||dzeyu.com^
+||dzgwautxzdtn9.cloudfront.net^
 ||dzhyp.tt.omtrdc.net^
 ||dzjzg.com^
 ||dzkwj0y.xyz^
@@ -74932,6 +74946,7 @@ zzzyk.com###Tinfo
 ||h.baminw.cn^
 ||h.cloudengage.com^$third-party
 ||h.imedia.cz^
+||h.n11.com^
 ||h.seznam.cz/hit/
 ||h.seznam.cz/hit/?
 ||h.seznam.cz/js/dot-small.js
@@ -81192,6 +81207,7 @@ zzzyk.com###Tinfo
 ||jessicalaurax.com^
 ||jessicarace.com^
 ||jessopsmarketing.tt.omtrdc.net^
+||jetbluevacations.com/apis/v2-analytics/
 ||jetfilmizle.*/wp-content/plugins/reduce-bounce-rate/js/analyticsjs.js
 ||jetlinx.actonservice.com^
 ||jetprivilege.tt.omtrdc.net^
@@ -83480,6 +83496,7 @@ zzzyk.com###Tinfo
 ||kwongwah.com.my/wp-content/plugins/dibs_engine/js/dibs_popup.js
 ||kwqpix.ravenna.gr^
 ||kwsjy9.oui.sncf^
+||kwtgntyu.xyz^
 ||kwvbhj.jcpenney.com^
 ||kwwgmv.tennistown.de^
 ||kwwvxn.uniqlo.com^
@@ -84004,7 +84021,6 @@ zzzyk.com###Tinfo
 ||ldjhlqr.cn^
 ||ldks.cc/static/js/common.
 ||ldlc.com/V4px/js/ldlcmachine.js
-||ldmnq.com/bbs/$third-party
 ||ldmnq.com^$third-party,badfilter
 ||ldms-lcms-uat.tt.omtrdc.net^
 ||ldnlyap.com^
@@ -96265,6 +96281,7 @@ zzzyk.com###Tinfo
 ||overstock.com/dlp?
 ||overstock.tt.omtrdc.net^
 ||ovexui.xyz^
+||ovfvkfc.xyz^
 ||ovhgmbtkzq.0.20dupont.hb.tt.omtrdc.net^
 ||ovkwiz.xyz^
 ||ovmrti.sassyclassy.de^
@@ -99539,6 +99556,7 @@ zzzyk.com###Tinfo
 ||programs.ironmountain.com^
 ||programs.mellanox.com^
 ||progressinvestment.actonservice.com^
+||progressive.com/Log/
 ||progressresidentiall.tt.omtrdc.net^
 ||progrexionasginc.tt.omtrdc.net^
 ||prohibited.cn^
@@ -102449,6 +102467,7 @@ zzzyk.com###Tinfo
 ||rkdms.com^
 ||rkdms.com^$third-party
 ||rkds10.icu^
+||rkds5.icu^
 ||rkohksa.cn^
 ||rksnqq.com^
 ||rktch.com^$third-party
@@ -102824,6 +102843,7 @@ zzzyk.com###Tinfo
 ||rtc.dymatrix.cloud^
 ||rtc.hibuwebsites.com/feature/metrics
 ||rtc.multiscreensite.com^
+||rtds.progressive.com^
 ||rtdxqq.com^
 ||rte.fuoo1.top^
 ||rtg-adroute.focas.jp^
@@ -120702,6 +120722,7 @@ zzzyk.com###Tinfo
 ||tracking-*.trnox.com^
 ||tracking-api-4lasu2nlcq-ew.a.run.app^
 ||tracking-api.hotmart.com^
+||tracking-api.mangopulse.net^
 ||tracking-api.sub100.com.br^
 ||tracking-config-service.glority.com^
 ||tracking-explore-uat.agilent.com^
@@ -124346,6 +124367,7 @@ zzzyk.com###Tinfo
 ||vdggsd013.com^
 ||vdggsd014.com^
 ||vdggsd015.com^
+||vdggsd016.com^
 ||vdianying.cc/img/youhuiquan250.gif
 ||vdianying.cc/img/zfbhb.png
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
