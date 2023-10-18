@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-10-18 02:14:14
-! Total count: 133260
+! Version: 2023-10-18 08:48:49
+! Total count: 133294
 
  
 ###AdBlockDialog
@@ -22275,6 +22275,9 @@ azulyblanco.co###vlay
 azulyblanco.co#@##adblock
 b-website.com#@##adsense
 b.kyodo.co.jp##.banner-area-entry + h3.category-title
+babesxworld.com##img[onclick*="spons"]
+babesxworld.com#$#abort-on-property-read ExoooLoooader
+babesxworld.com,lesbian8.com,older-women-porn.com,pifansubs.com,pimpandhost.com,silkengirl.net#$#abort-on-property-read adProvider
 baby-kingdom.com##.right5
 babytree.com##.side-text-slider
 bachtrack.com#@##adblock1
@@ -25638,6 +25641,10 @@ gasaq.com###guanggao_left
 gasaq.com###guanggao_right
 gasaq.com##.guanggao_ime_big
 gate.baidu.com,m.baidu.com###container
+gaytxxx.com,transtxxx.com,txxx.com#$#abort-current-inline-script adver
+gaytxxx.com,transtxxx.com,txxx.com#$#abort-current-inline-script setTimeout hommy.mutation.mutation
+gaytxxx.com,transtxxx.com,txxx.com#$#abort-on-property-read jwplayer.utils.Timer
+gaytxxx.com,transtxxx.com,txxx.com#$#hide-if-matches-xpath './/a[@href][text()="Advertising"]/ancestor::div[contains(@class,"undp")]'; hide-if-matches-xpath './/div[@id][@class]/parent::div[@class]/ancestor::div[@class="suggestion"]'; hide-if-matches-xpath './/div[@id][@class]/noscript/iframe[@width][@height]/ancestor-or-self::div[3]';
 gbyhn.com.tw##.footer-widget-column
 gcdsdk.appsflyersdk.com^
 gcxa.cn###edu_ad63
@@ -26125,6 +26132,8 @@ hcbbs.com##.a_cn_pb
 hcbbs.com##table[width="100%"][bordercolor="#CCCCCC"]
 hcbbs.com,isiyuan.net##.ke-zeroborder
 hclips.com#$#abort-on-property-read btoa
+hclips.com#$#abort-on-property-write adLoaded
+hclips.com#$#hide-if-matches-xpath './/*[contains(text(),"Advertisement")]/parent::div/ancestor::div[@class="right"][1]'
 hclips.com,hdzog.com,hotmovs.com,inporn.com,pornhits.com,porntop.com,senzuri.tube,thegay.com,thegay.tube,txxx.com,upornia.com,vjav.com,voyeurhit.com#$#abort-current-inline-script mz
 hclips.com,upornia.com#$#abort-on-property-read adver
 hcomic.net##.main-container > .swiper
@@ -26302,6 +26311,7 @@ hmog.me##.side_widget:last-child
 hmog.me##a[href^="http://www.masadora.net/"]
 hobbylog.jp##.pbancut
 holavid.com,liivideo.com#$#abort-on-property-read Math.sin
+holyphim.com#$#abort-current-inline-script window.addEventListener window.open
 home-learn.co.kr#%#//scriptlet("set-constant", "eglc", "noopFunc")
 home-learn.co.kr#%#//scriptlet("set-constant", "eglc.op", "noopFunc")
 home.firefoxchina.cn##.border-gray-200.tuijian
@@ -28058,6 +28068,8 @@ lenovo.com.cn#?#.imgNewText:-abp-has(>footer>.info>.source:-abp-contains(/广告
 lenovo.com.cn#?#a:-abp-has(>div>p:-abp-contains(广告))
 leo.org##div.floatRight.p.tf1
 lephoceen.fr,supertoinette.com#$#abort-on-property-read setInterval
+lesbian8.com#$#hide-if-matches-xpath './/div[contains(@class,"pignr")]/div[@style][contains(text(),"Advertisement")]/parent::div/ancestor::div[contains(@class,"sponsor") or contains(@class,"table")][1]'; hide-if-matches-xpath './/span[contains(text(),"Ad")]/ancestor::div[contains(@class,"pignr")][1]';
+lesbian8.com,older-women-porn.com,pimpandhost.com,silkengirl.net#$#prevent-listener getexoloader; abort-on-property-read ExoLoader; abort-on-property-read ExoLoader.addZone; abort-on-property-read ExoLoader.serve;
 letsjerk.tv#?#div[class*="widget_text"]:-abp-has(>div:-abp-contains(Advertisement))
 letv.com###JS_banner01
 letv.com###JS_banner02
@@ -30121,13 +30133,13 @@ piaotianxs.com##script ~ a
 pic.imgdb.cn/item/*.gif
 pic4you.ru,pic5you.ru##.centerdiv
 pic4you.ru,pic5you.ru##body > #bb
-pifansubs.com#$#abort-on-property-read adProvider
 pigai.org###newnotice
 pilifx.com##.alltop
 pilifx.com##.home_row_1
 pilifx.com##.imoney
 pilipali.cc##.tips-widget-weixin
 pilipili.site##.block-sales
+pimpandhost.com##div[class$="aablock_yes"]
 pinayvids.com#$#abort-current-inline-script decodeURIComponent; override-property-read D4zz undefined
 pincong.rocks##+js(no-setInterval-if, Ad Block)
 pincong.rocks##.a-a
@@ -31172,6 +31184,8 @@ signup.com$image
 sigure.tw##.Ads-Sidebar
 sigure.tw##.reds
 silisili.in##.play_ad
+silkengirl.net##a[href*="jaxofuna.com"]
+silkengirl.net#$#hide-if-matches-xpath './/a[@target][contains(@href,"playboy.com")]/img[@alt="playboy.com"]/ancestor-or-self::div[@class="block_row"][1]'
 silver.org.cn##.dl_lt
 silver.org.cn##.fix_bottom_position
 silver.org.cn##.fixbottom_wrap_small
@@ -32344,6 +32358,8 @@ tube8.com##.footerBanner
 tube8.com##.gridBanner_
 tube8.com#$#abort-on-property-write AdDelivery
 tubeload.co#$#abort-on-property-write BetterJsPop
+tubesafari.com#$#override-property-read initialize_page noopFunc
+tubesafari.com,youdbox.com#$#abort-on-property-read encodeURIComponent
 tucao.cam##.header_rmb
 tucao.in###t5
 tucao.in###t7_att
@@ -32812,7 +32828,11 @@ vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gomovieshub.io,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.pw,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
 viet69.vc,ungtycomicsvip.com,vlxx.info,truyengihotday.net,dualeotruyenpk.com,yurineko.net,vlxyz.tv,javhay.media,phimsexhay669.co,cliphot69.biz,doctruyen3qmax.com,hentaizz.vip,vl2.xvideos98.pro#$#abort-current-inline-script WebAssembly instantiate
+view.inews.qq.com##div[class^="infinite-comment-list_subText"]
+view.inews.qq.com##div[class^="interaction-bottom_interaction"]
+view.inews.qq.com##div[class^="main-video_"]
 view.inews.qq.com##div[class^="new-hot-comment_subText"]
+view.inews.qq.com##div[class^="new-recommend_wrapper"]
 view.inews.qq.com##div[class^="normal_buttonWrap"]
 view.inews.qq.com##div[class^="slider-top-bar_sliderWrapper"]
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
@@ -33960,6 +33980,7 @@ xvideo.cc#%#//scriptlet("set-constant", "poped", "true")
 xvideos.com##div[id^="video-ad"]+div[class]
 xvna.com##.articleAD
 xvna.com##.rctad
+xw.qq.com###opeApp
 xw.qq.com###recommend-modules
 xw.qq.com###taskTips
 xw.qq.com##.btn-ok
@@ -34238,7 +34259,6 @@ youdao.com##.dialog-guide-download
 youdao.com##.dict-dl
 youdao.com#@#.open-share
 youdao.com#@#.share-text
-youdbox.com#$#abort-on-property-read encodeURIComponent
 youdbox.com,vudeo.io,vudeo.co,vudeo.net#$#abort-current-inline-script String.fromCharCode XMLHttpRequest
 youivr.com##.header-widget-region
 youku.com###bt-banner
@@ -38097,6 +38117,8 @@ zzzyk.com###Tinfo
 ||4skd2j.cn^
 ||4sqt6jq.de^
 ||4stats.de^$third-party
+||4sysops.com/global/appear.js
+||4sysops.com/js/uni.js
 ||4takaixi.xyz^
 ||4taps.me/analytics/
 ||4tdbbs.cn^
@@ -58114,6 +58136,7 @@ zzzyk.com###Tinfo
 ||chromeba.net/wp-content/uploads/
 ||chronicle.com/_track
 ||chronometre.tt.omtrdc.net^
+||chrtds.xyz^
 ||chslwea.top^
 ||chtah.com/a/*/spacer-0.gif$third-party
 ||chtah.com^*/1x1.gif
@@ -59015,6 +59038,7 @@ zzzyk.com###Tinfo
 ||cmc.americanexpress.co.uk^
 ||cmcore.com^$third-party
 ||cmcpayperf-qdc.tt.omtrdc.net^
+||cmdcdacq.xyz^
 ||cmdy5.com/js/300.js
 ||cmdy5.com/js/waptbplay
 ||cmdy5.com/js/waptbplay2.js
@@ -68353,6 +68377,7 @@ zzzyk.com###Tinfo
 ||ehfjup.xyz^
 ||ehk.trenhdg.com^
 ||eht.endress.com^
+||eht116.com^
 ||ehtel.endress.com^
 ||ehtrack.lifebrandsdigital.com^
 ||ei-beans.tt.omtrdc.net^
@@ -70197,6 +70222,7 @@ zzzyk.com###Tinfo
 ||eycom.tt.omtrdc.net^
 ||eyd77s.com^
 ||eye.rd.services^
+||eye.targetads.io/web/pixel
 ||eyeem.tt.omtrdc.net^
 ||eyein.com^$third-party
 ||eyenox.eschuhe.de^
@@ -73407,6 +73433,7 @@ zzzyk.com###Tinfo
 ||gmufag.starhit.ru^
 ||gmufag.woman.ru^
 ||gmx.net/monitoring/
+||gmx11.top^
 ||gmx12.top^
 ||gmx13.top^
 ||gmx14.top^
@@ -75778,6 +75805,7 @@ zzzyk.com###Tinfo
 ||hcjpbc.okmagazine.com^
 ||hcjpbc.radaronline.com^
 ||hcjpbc.usmagazine.com^
+||hcjs.nv7s.com/xif*/*.js$domain=hclips.com
 ||hcmanager.swifteq.com/hc_events/
 ||hcmhqb.radpowerbikes.ca^
 ||hcmoo.com/mm.js
@@ -81117,6 +81145,7 @@ zzzyk.com###Tinfo
 ||iufjkdjmsm.xyz^
 ||iugbjkqwc.xyz^
 ||iughyy7919.com^
+||iujlwn.icu^
 ||iuou.myadobe.cn^
 ||iuou.ysw365.com^
 ||iupian.com/mstyle/js/topinfo.js
@@ -89669,6 +89698,7 @@ zzzyk.com###Tinfo
 ||mcdmetrics.aaa.com^
 ||mcdmetrics2.aaa.com^
 ||mcdp-*.outbrain.com^
+||mcds7.icu^
 ||mcds9.icu^
 ||mcdwfed.cn^
 ||mcfarland.cn^
@@ -91875,6 +91905,7 @@ zzzyk.com###Tinfo
 ||mfhiof.deporvillage.fr^
 ||mfifsux.xyz^
 ||mfjiaoyu.cn^
+||mfnfylx.xyz^
 ||mfoevvy.com^
 ||mfrmls.actonservice.com^
 ||mfs.tt.omtrdc.net^
@@ -95757,6 +95788,7 @@ zzzyk.com###Tinfo
 ||old.globalservices.arrow.com^
 ||old.tt.omtrdc.net^
 ||oldart.shop^
+||older-women-porn.com/black-credit-71cc^$domain=older-women-porn.com
 ||oldevent.togothermany.com^
 ||oldpig.org/live.html
 ||oldulgk.cn^
@@ -123156,6 +123188,7 @@ zzzyk.com###Tinfo
 ||tubemogul.com^$third-party
 ||tubepleasure.com/r_log.php
 ||tubepornstars.com/js/analytics
+||tubesafari.com/*/new_popunder.js$domain=tubesafari.com
 ||tubeviral.com/Webservices/jsParseLinks.aspx$script,third-party
 ||tubeviral.com/visitScript/$script,third-party
 ||tubi.io/datascience/logging?
@@ -123474,6 +123507,7 @@ zzzyk.com###Tinfo
 ||txv0.destinia.hu^
 ||txvoin.with2.net^
 ||txwhds.com.cn^
+||txxx.com/*x/*.js$domain=gaytxxx.com|transtxxx.com|txxx.com
 ||txyqik.jjshouse.fr^
 ||txzqw.*/js/float.js
 ||txzqw.me/attachment88txzqw/*.gif
