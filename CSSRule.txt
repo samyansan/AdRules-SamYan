@@ -4649,6 +4649,7 @@ animepahe.ru,animepahe.org,animepahe.com#$#abort-on-property-read document.query
 animesonline22.com#$#abort-current-inline-script JSON.parse /atob|btoa|break/
 animeunity.cc#$#abort-on-property-read zfgstorage; abort-current-inline-script document.documentElement break;case; abort-on-property-read decodeURI;
 animeunity.tv#$#abort-on-property-read localStorage
+animevietsub.fan#$#abort-current-inline-script document.documentElement break;case
 animewld.club##.header-img
 animeyt.tv##.ed-item > ul#filtro-letra-nuevo+div.bloque.bloque__descargas-centro.ed-container
 animezone.pl#@#.myTestAd
@@ -5619,7 +5620,6 @@ bombaytimes.com##a[onclick*="click"][rel="nofollow,noindex"]
 bombaytimes.com#?#div:-abp-has(> h4 > span:-abp-contains(Ad: ))
 bonbonme.com##.topbannerer
 bongda365c.com#$#override-property-read isSkipAds true
-bongdahomnay.tech#$#abort-on-property-read $
 boniu123.cc##.left_side
 boniu123.cc##.right_side
 boniu123.cc##.td_item
@@ -7507,7 +7507,7 @@ feed.baidu.com##a[data-type="ec_ad"]
 feeds.qq.com,lenovo.com.cn##.game
 feiwan.net##div[id*="_"][style]
 feixiaohao.com##.TopHomeLink
-fembed.com,femax20.com,zo3x.lol,mrdhan.com,m.blogtruyen.vn,viettoons.tv,vinaurl.net,animet.net#$#abort-on-property-read open
+fembed.com,femax20.com,m.blogtruyen.vn,viettoons.tv,vinaurl.net,animet.net#$#abort-on-property-read open
 feng.com##.ad-aside
 feng.com##.dd305
 feng.com##.header
@@ -9217,7 +9217,7 @@ instacart.com#$#hide-if-matches-xpath './/a[@href]//img[@data-testid]/following:
 instacart.com#$#hide-if-matches-xpath './/div[@class and count(child::span)=2 and normalize-space(span[1]/text())="Spons" and normalize-space(span[2]/text())="ored"]/ancestor::section/parent::div[@id="Featured Items"]'
 instacart.com#$#hide-if-matches-xpath './/div[count(child::span[@style and text()])=2]/parent::div//div[contains(text(),"Picked")]/ancestor::div[@data-testid][1]'
 instacart.com#$#hide-if-matches-xpath './/span[starts-with(@class,"e-1r5")][contains(text(),"d")]/parent::div[1]'
-instacart.com#$#hide-if-matches-xpath './/span[text()]/preceding::div[@aria-hidden="true"]/preceding::source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/ancestor::header[@id][@class][1]'
+instacart.com#$#hide-if-matches-xpath './/span[text()]/preceding::div[@aria-hidden="true"]/preceding::source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/ancestor::*[@id][@class][1]'
 instacart.com#$#hide-if-matches-xpath '//img[@alt="Sponsored"][contains(@src,".svg")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
 instacart.com#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ss")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ap-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ep-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-bp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-cp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]/ancestor::li[@data-testid]/parent::div[1]'; race stop;
 instagram.com#$#hide-if-contains-visible-text '/Anzeige|Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/' 'article[class]>div[class]'
@@ -12175,7 +12175,6 @@ pharmnet.com.cn##.ad9502
 phimdinhcao.net,phimlongtieng.net,phimdinhcao.com,ophim.vip#$#abort-on-property-read localStorage
 phimgigi.net#$#abort-current-inline-script jQuery popurl;abort-current-inline-script document.createElement script
 phimmoi4s.com#$#json-prune ads;abort-current-inline-script setTimeout click_time
-phimmoiiii123.com#$#abort-on-property-read matchMedia
 phimvuihd.org#$#override-property-read urlAds ''
 phonearena.com##.adblock_awareness
 photolessons.org###modal-adbmon-div
@@ -12472,7 +12471,6 @@ proplanta.de#@#.adsbygoogle
 proplanta.de#@#.searchad
 protege-liens.com,protege-torrent.com#$#abort-on-property-write JSON.parse; abort-current-inline-script Math /atob|break/;
 protonvideo.to#$#abort-on-property-read PlayerjsEvents
-protruyen.com,animevietsub.fan#$#abort-current-inline-script document.documentElement break;case
 provinceinfo.ru###header > .container > a[href="/menu"] ~ h2
 proxywiky.com###overlay-holder
 prts.wiki##.nomobile[style*="810px;height:240"]
@@ -14188,6 +14186,7 @@ truyen-hentai.com#$#hide-if-matches-xpath './/*[@class]/ancestor-or-self::div[co
 truyen2u.net#$#abort-current-inline-script eval
 truyen35.vn#$#abort-current-inline-script jQuery click_ads
 truyenqqvn.com#$#abort-current-inline-script document.addEventListener window.open
+truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.im,phimbom.net#$#abort-on-property-read document.cookie
 truyentuan.com#$#abort-current-inline-script $ btpop
 ts.cn##.tsggding
 tsdm.live###ts_sidebar_base
@@ -14610,7 +14609,7 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gomovieshub.io,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.pw,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.vc,ungtycomicsvip.com,vlxx.info,truyengihotday.net,dualeotruyenpk.com,yurineko.net,vlxyz.tv,javhay.media,phimsexhay669.co,cliphot69.biz,doctruyen3qmax.com,hentaizz.vip,vl2.xvideos98.pro#$#abort-current-inline-script WebAssembly instantiate
+viet69.tube,ungtycomicsvip.com,truyengihotday.net,dualeotruyenpk.com,yurineko.net,vlxyz.tv,javhay.media,phimsexhay669.co,cliphot69.biz,doctruyen3qmax.com,hentaizz.vip,vl2.xvideos98.pro#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com##div[class^="infinite-comment-list_subText"]
 view.inews.qq.com##div[class^="interaction-bottom_interaction"]
 view.inews.qq.com##div[class^="justify-text_showMore"]
@@ -15353,6 +15352,8 @@ www.ydyse.com##.left,.bottom,.right,.ad,.adimage
 www.yehes.com##.container.archive > .bottum.pc.site_abc_wrap
 www.yizhibo.com##.register_guide
 www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-event-poc click button.ytp-ad-skip-button
+www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
+www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
 www.zhihu.com##.HotBanner
 www.zhihu.com##.HotQuestions.Card
 www.zhihu.com##.KfeCollection-VipRecommendCard
@@ -15629,7 +15630,6 @@ xuite.net##[class^="ad-mid"]
 xuite.net##div[id^="index-ad-mid"]
 xunlei.com##.mini-pop
 xunyingwang.com###adModalLabel
-xuongphim18z.com,phimtopz.com,truyensieuhay.com,tvchill.org,quangcaoyenbai.com,khoaiphim.com,phimmoi.im,phimbom.net#$#abort-on-property-read document.cookie
 xvideo.cc##+js(set-constant, poped, true)
 xvideos.com##div[id^="video-ad"]+div[class]
 xvna.com##.articleAD
