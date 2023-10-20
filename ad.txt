@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-10-20 08:48:27
-! Total count: 133387
+! Version: 2023-10-20 14:14:09
+! Total count: 133419
 
  
 ###AdBlockDialog
@@ -1291,6 +1291,7 @@
 ##DIV.appdownload_ad
 ##DIV.bot-per-context[data-width='728'][data-height='90']
 ##DIV.bot-per.visible-xs.visible-sm *
+##DIV.bottom-ad.hidden-lg
 ##DIV.box-width.ec-ad
 ##DIV.code-block[style='margin: 8px 0; clear: both;']
 ##DIV.col-4.col-sm-2.col-xl-2.px-1.px-sm-2.pb-3.pt-3.pt-sm-0.d-block.d-sm-none
@@ -1318,6 +1319,7 @@
 ##DIV[style*='animation: 1s ease 0.2s infinite normal none running shakegwegs; z-index:'][style*='background: url']
 ##DIV[style*='display: block; width: 100%; left: 0px; position: fixed; z-index:'][style*='height: 25px; top: 133px;']
 ##DIV[style*='height: 33.25px; top:'][style*='background-size: 400px 133px !important;']
+##DIV[style*='px; bottom: 0px; left: 0px; animation: 1.5s ease 0.2s infinite normal none running shakegwegs; z-index:']
 ##DIV[style*='px; top: 0px; left: 0px; z-index: '][style*='http']
 ##DIV[style='background-color: rgb(249, 249, 249); display: flex; align-items: center; justify-content: center;']
 ##DIV[style='clear: both; position: relative; width: 396px; height: 130px;']
@@ -5737,6 +5739,7 @@ $websocket,domain=5nj.com|cechi8.com
 /PixelImg.asp
 /PixelNedstat.
 /PixelTracking.
+/PixelTracking.js
 /PlayerDashboardLoggingService.svc/json/StartSession?
 /PmsPixel?
 /PointRoll.
@@ -11377,6 +11380,7 @@ $websocket,domain=5nj.com|cechi8.com
 /diva-analytics.js
 /divad/*
 /divolte.js
+/dj*ll5c20ff.js
 /dl_counter.
 /dla_tracker.
 /dla_tracker.js
@@ -11726,6 +11730,7 @@ $websocket,domain=5nj.com|cechi8.com
 /event?eventType=
 /event?event_id=
 /event?pmo=
+/event?s=$ping
 /event?stat_
 /event?t=*&__seed=
 /event?t=view&
@@ -13329,6 +13334,7 @@ $websocket,domain=5nj.com|cechi8.com
 /istat.aspx?
 /ists.tag?
 /item/tracking/*
+/iterable/track/*
 /itgdtracksdk.
 /itmdp_code.
 /itrack.php?
@@ -15181,14 +15187,13 @@ $websocket,domain=5nj.com|cechi8.com
 /pix_st.php?
 /pix_st_v2.php?
 /pixall.min.js
-/pixel-caffeine/*
+/pixel-caffeine/build/frontend.js
 /pixel-events.
 /pixel-manager.js?
 /pixel-page.html
 /pixel-prod.
 /pixel-render/*
 /pixel-track.
-/pixel-track/*
 /pixel-tracking.
 /pixel.*/track/*
 /pixel.ashx?
@@ -15218,7 +15223,6 @@ $websocket,domain=5nj.com|cechi8.com
 /pixel/gtm-
 /pixel/img/*
 /pixel/impression/*
-/pixel/impression?
 /pixel/js/*$third-party
 /pixel/nvrwe?
 /pixel/sbs?
@@ -15237,12 +15241,14 @@ $websocket,domain=5nj.com|cechi8.com
 /pixelNew.js
 /pixelTargetingCacheBuster.
 /pixel_V2.
+/pixel_V2.js
 /pixel_event_data?
 /pixel_identifier.
 /pixel_iframe.
-/pixel_tag.
+/pixel_iframe.php
 /pixel_track.
 /pixel_tracking.
+/pixel_tracking.js
 /pixel_tracking?
 /pixelads/*
 /pixelappcollector.
@@ -35247,6 +35253,7 @@ zzzyk.com###Tinfo
 ||0mnopqr.com^
 ||0mr.cc^
 ||0myksyhuuz.cn^
+||0ns32h.com^
 ||0o0.ooo/2017/01/13/58787d42bbad6.jpg
 ||0ozo.cn^
 ||0p7w.cn^
@@ -46581,6 +46588,7 @@ zzzyk.com###Tinfo
 ||agefans.top/js/wap2-jm-ms.js
 ||agenciamagma.hb-fa-dev.tt.omtrdc.net^
 ||agenciatest.hb-fa-dev.tt.omtrdc.net^
+||agency360.io^$third-party
 ||agencyre.tt.omtrdc.net^
 ||agenda-6.idmapper.api.tt.omtrdc.net^
 ||agenda22.prod.cloud.prod.cloud.tt.omtrdc.net^
@@ -51754,6 +51762,7 @@ zzzyk.com###Tinfo
 ||attest.treats.edr.tt.omtrdc.net^
 ||atticus-nl.tt.omtrdc.net^
 ||attmx.tt.omtrdc.net^
+||attn.tv/impression?
 ||attn.tv^*/dtag.js
 ||attnautilus.hb.tt.omtrdc.net^
 ||attorney.findlaw.com^
@@ -52559,6 +52568,7 @@ zzzyk.com###Tinfo
 ||awstats.cloud^$third-party
 ||awstrack.me^$third-party
 ||awsuse1.dev0.secure-dev.tt.omtrdc.net^
+||awswaf.com^*/report
 ||awswaf.com^*/telemetry
 ||awsync.yandex.ru^
 ||awtewrqdfp.thissubdomainshouldonlyresolveifwildcard.aem.hb.tt.omtrdc.net^
@@ -57611,6 +57621,7 @@ zzzyk.com###Tinfo
 ||cechi8.com/images/appdown.gif
 ||cechi8.com/js/cnzz
 ||ceciliabeverly.com^
+||ceciliavenus.com^
 ||ced-ns.sascdn.com/diff/js/smart.js
 ||cedarfalls.tt.omtrdc.net^
 ||cedarssinaihealthsys.tt.omtrdc.net^
@@ -58785,6 +58796,7 @@ zzzyk.com###Tinfo
 ||clixcount.com^$third-party
 ||clixgalore.com^$third-party
 ||clixpy.com^$third-party
+||clixtell.com/track.js
 ||clixtrac.com^
 ||clk.aktr.info^
 ||clk.allaboutvibe.com^
@@ -60789,6 +60801,7 @@ zzzyk.com###Tinfo
 ||cp2.eastmoney.com^
 ||cp31.ott.cibntv.net/*.mp4^$app=com.youku.phone
 ||cp9.club^
+||cpa.hh.ru^
 ||cpaas-euc-relyingparty-okta-stablesmtp.tt.omtrdc.net^
 ||cpaaustralia.tt.omtrdc.net^
 ||cpaevent.ru^$third-party
@@ -64892,6 +64905,7 @@ zzzyk.com###Tinfo
 ||datev.tt.omtrdc.net^
 ||datum.appfleet.com^
 ||datvantage.com^$third-party
+||daughterstone.com^
 ||daughterstone.com^$third-party
 ||daumcdn.net/tiara/
 ||daumcdn.net^*/awsa.js
@@ -69670,6 +69684,7 @@ zzzyk.com###Tinfo
 ||etrigue.com^$third-party
 ||etro.tt.omtrdc.net^
 ||etrust.eu^$third-party
+||etrvfx.xyz^
 ||ets.easybrain.com^
 ||etscampaign.motorola.com^
 ||etsy-east.tt.omtrdc.net^
@@ -72058,6 +72073,7 @@ zzzyk.com###Tinfo
 ||fudezz.kontan.co.id^
 ||fudezz.motorplus-online.com^
 ||fudezz.sonora.id^
+||fudge.ai/metrics?
 ||fuel451.com^$third-party
 ||fueldeck.com^$third-party
 ||fuelx.com^$third-party
@@ -77285,6 +77301,7 @@ zzzyk.com###Tinfo
 ||huaweinnd.top^
 ||huawuhui.club^
 ||huaxia.name^
+||huaxiang.eastmoney.com^
 ||huaxiaozhang.club^
 ||huayancn.cn^
 ||huayange.com^
@@ -83923,6 +83940,7 @@ zzzyk.com###Tinfo
 ||kwdgudw.cn^
 ||kweaake.cyou^
 ||kwflvcdn.000dn.com^*.flv
+||kwgs.letudiant.fr^
 ||kwikmotion.com^*/videojs-kwikstat.min.js
 ||kwitvg.letudiant.fr^
 ||kwivb.cn^
@@ -91999,6 +92017,7 @@ zzzyk.com###Tinfo
 ||mgivkqk.cn^
 ||mgixgn.wittchen.com^
 ||mgm.tt.omtrdc.net^
+||mgmlcdn.com/stats/
 ||mgmotorindia.tt.omtrdc.net^
 ||mgn.ebis.xn--olsz5f0ufw02b.net^
 ||mgnb.xyz^
@@ -94181,6 +94200,7 @@ zzzyk.com###Tinfo
 ||nbsxazr.icu^
 ||nbtfbb.xyz^
 ||nbtree.cn^
+||nbxymdy.cn^
 ||nby360.com^
 ||nbyayu.cn/player.swf
 ||nbyggk.jocee.jp^
@@ -95217,6 +95237,7 @@ zzzyk.com###Tinfo
 ||nqyz.tw^
 ||nr-data.net^$third-party
 ||nr-events.taboola.com^
+||nr.static.mmcdn.com^
 ||nr1234.com^
 ||nr7.us^$third-party
 ||nra.locktonaffinity.net^
@@ -95612,6 +95633,7 @@ zzzyk.com###Tinfo
 ||ocs-pl.oktawave.com/v1/AUTH_*/Reklamy/$object-subrequest,domain=freedisc.pl|reseton.pl
 ||ocs.hagerty.com^
 ||ocsar.bracu.tt.omtrdc.net^
+||octaneai.com^*/utrk
 ||octannerco.tt.omtrdc.net^
 ||octarget.tt.omtrdc.net^
 ||octavius.rocks^$third-party
@@ -99512,6 +99534,7 @@ zzzyk.com###Tinfo
 ||pop.tt.omtrdc.net^
 ||pop.wioau.com^$third-party
 ||pop3.happ.social^
+||pop6serve.com^$third-party
 ||pop800.com^$third-party
 ||popads.net^$domain=nodkey.xyz
 ||popads.net^$third-party
@@ -106042,6 +106065,7 @@ zzzyk.com###Tinfo
 ||serpentshampoo.com^$third-party
 ||serpong.tt.omtrdc.net^
 ||serv-ac.com^$third-party
+||serv.letudiant.fr^
 ||serv.tooplay.com/analyse
 ||serv1swork.com^
 ||serv2.tooplay.com/b.gif
@@ -110700,6 +110724,7 @@ zzzyk.com###Tinfo
 ||softportal.com/js/metrika.js
 ||software.seek.intel.com^
 ||softwareag.tt.omtrdc.net^
+||sofunlib.com/assets/publish
 ||soggysponge.com^
 ||soggysponge.com^$third-party
 ||sogo.uc.continuefaf.top^
@@ -114479,6 +114504,7 @@ zzzyk.com###Tinfo
 ||stileproject.com/vhtk/
 ||stillgame.tt.omtrdc.net^
 ||stima.tt.omtrdc.net^
+||stimulatingsneeze.com^
 ||stingray.codecoolture.com^
 ||stingray.communityally.org^
 ||stingray.cryptovoxels.com^
@@ -115632,6 +115658,7 @@ zzzyk.com###Tinfo
 ||szpl0.com^
 ||szqifu.com^
 ||szqipin.cn^
+||szrpr.raen.com^
 ||szsbiw.xyz^
 ||szshss.com^
 ||szsmtk.com^$third-party
@@ -118016,6 +118043,7 @@ zzzyk.com###Tinfo
 ||tingchina.com/js/dp468
 ||tingfengyu.top^
 ||tingge123.com/attachment/js/mm
+||tinghao8.com/assets/publish/
 ||tinglian.com^
 ||tinglog.baidu.com^
 ||tingroom.com/file/A*.js
@@ -124133,6 +124161,7 @@ zzzyk.com###Tinfo
 ||ulutlv.esprit.fr^
 ||ulvnnuysex.32.17.241crackle.hb.tt.omtrdc.net^
 ||ulxypyg.cn^
+||ulyuom.xyz^
 ||ulzdk.com/Uploads/ulzdkgif/bfq.gif
 ||ulzdk.com/statics/v2/js/kulis.js
 ||um-public-panel-prod.s3.amazonaws.com^
@@ -125365,6 +125394,7 @@ zzzyk.com###Tinfo
 ||views.romaniatv.net^
 ||views.sikerlogistics.com^
 ||views.sikerproducts.com^
+||viewyentreat.guru^
 ||vifzrf.xyz^
 ||viglink.com/api/ping$third-party
 ||vigorbunny.tt.omtrdc.net^
@@ -131685,6 +131715,7 @@ zzzyk.com###Tinfo
 ||ytn.co.kr/_comm/ylog.php?
 ||ytop8.com^
 ||ytpae.xyz^
+||ytqlyw.xyz^
 ||ytse*.top/Static/Home/GongGao/img/
 ||yttz113.com^
 ||ytvwhbejc.com^
@@ -133341,6 +133372,7 @@ zzzyk.com###Tinfo
 ||zzxxli.club^
 ||zzycj.com^
 ||zzyonghao.com^
+||zzyy19.top^
 ||zzyytt.top^
 ||zzz4.com/JS_AD/
 ||zzzhuoxiaqu.online^
