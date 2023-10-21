@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-10-21 20:17:55
-! Total count: 133442
+! Version: 2023-10-22 02:12:29
+! Total count: 133469
 
  
 ###AdBlockDialog
@@ -3477,7 +3477,6 @@ $websocket,domain=5nj.com|cechi8.com
 &video_ads_
 &videoadid=
 &view=ad&
-&visitorUuid=
 &xhtml?$script,third-party
 &zoneid=*&direct=
 *$popup,third-party,domain=kimcartoon.li|kisscartoon.com|mreader.co|strtapeadblock.me|strtapeadblocker.art
@@ -3900,7 +3899,6 @@ $websocket,domain=5nj.com|cechi8.com
 -news-ad-
 -newsletter-ad-
 -online-advert.
--optimization-metrics.
 -optimost-
 -outsidersads-
 -page-ad.
@@ -3927,7 +3925,6 @@ $websocket,domain=5nj.com|cechi8.com
 -pri/adv-
 -printhousead-
 -publicidad.
--quantcast-measurement.
 -rail-ads.
 -rail-ads/
 -rectangle/ad-
@@ -5340,6 +5337,7 @@ $websocket,domain=5nj.com|cechi8.com
 /ADNet/*
 /ADV/Custom/*
 /AIT_Analytics.
+/AIT_Analytics.js
 /AIV-Ad-
 /ASPixel.js
 /AShow.aspx?AID=
@@ -9127,6 +9125,7 @@ $websocket,domain=5nj.com|cechi8.com
 /afrpt.gif?
 /afs/ads/*
 /aftrack.
+/aftrack.asp
 /aftrackingplugin.swf
 /agetsou.js
 /aggbug.aspx?
@@ -9263,7 +9262,6 @@ $websocket,domain=5nj.com|cechi8.com
 /analysis?t=
 /analysisTag.js
 /analytic-client.
-/analytic/context?
 /analytic/count.
 /analytic/pageview
 /analytic?publisher
@@ -9481,7 +9479,7 @@ $websocket,domain=5nj.com|cechi8.com
 /anapixel.
 /ancAdTrack.js
 /anchorad.
-/anclytic-ajax.
+/anclytic-ajax.html
 /angular-tag.
 /angular-tag.js
 /angular-tag_
@@ -11940,6 +11938,7 @@ $websocket,domain=5nj.com|cechi8.com
 /fetchJsAd.
 /fif.html?s=
 /fifligatus.
+/figanalytics-short-ttl.js
 /figanalytics.
 /figanalytics/*
 /file/ad.
@@ -15634,6 +15633,7 @@ $websocket,domain=5nj.com|cechi8.com
 /pvcounter?
 /pvcountup.
 /pvevent_
+/pvevents.gif?
 /pview?event
 /pvmax.js
 /pvnoju.js
@@ -29412,6 +29412,7 @@ nanfengyl.com##.top-ad-txt
 nanfengyl.com,ziyuanba.com##.top-ad-txt
 nani.baidu.com,ala.baidu.com##.tbui_aside_float_bar + .clearfix
 nanrenwo.net##div[id^="content"]
+naozhong.net.cn###pnl-ne0n
 naruto-base.su#$#abort-on-property-read njranu
 narutohentaidb.com#$#abort-on-property-write BackDropNar; hide-if-matches-xpath './/canvas[contains(@style,"padding")]/ancestor::div[contains(@style,"z-index")][1]';
 nasepenize.cz###side-offer-wrap
@@ -38021,6 +38022,7 @@ zzzyk.com###Tinfo
 ||4399.com/jss/*coup.js
 ||4399.com/loadimg/iframe_
 ||4399.com/loadimg/loading.htm
+||4399.com/plugins/tj/event?
 ||4399.space^
 ||4399sj.com^*/mask-ad
 ||4399stat.5054399.com^
@@ -39746,6 +39748,7 @@ zzzyk.com###Tinfo
 ||9gag.com/event/
 ||9gag.com/track/
 ||9gag.com^$removeparam=ref
+||9game.cn/stat/
 ||9go.mobi^
 ||9gustis.xyz^
 ||9h5qq.cn^$third-party
@@ -43975,6 +43978,7 @@ zzzyk.com###Tinfo
 ||accessmgmt.tt.omtrdc.net^
 ||accessnsoc.tt.omtrdc.net^
 ||accesstrade.net^$third-party
+||accesstrade.vn/js/trackingtag/
 ||accesswire.com/img.ashx
 ||accid.xyz^
 ||acclaro.actonservice.com^
@@ -48899,6 +48903,7 @@ zzzyk.com###Tinfo
 ||analytics.thingx.tv^
 ||analytics.threedeepmarketing.com^
 ||analytics.ticinolibero.ch^
+||analytics.ticketmaster.
 ||analytics.tiendaenoferta.com^$third-party
 ||analytics.tiktok.com^
 ||analytics.tio.ch^
@@ -49677,6 +49682,7 @@ zzzyk.com###Tinfo
 ||api.douban.com/v2/app_ads/splash_show
 ||api.dr.dao8.tt.omtrdc.net^
 ||api.dt.gl^
+||api.ea3w.com/hits.js
 ||api.earthly.dev/analytics|
 ||api.edkt.io/analytics
 ||api.eduki.com/*/track
@@ -57610,6 +57616,7 @@ zzzyk.com###Tinfo
 ||cdp.cifinancial.com^
 ||cdp.cloud.unity3d.com^
 ||cdp.vemt.com^$third-party
+||cdp.yna.co.kr^
 ||cdrhjt.com^
 ||cdrive.compellent.com^
 ||cdsa2.icu^
@@ -58503,6 +58510,7 @@ zzzyk.com###Tinfo
 ||clck.yandex.com^
 ||clck.yandex.ru/click
 ||clck.yandex.ru/counter/
+||clcmdie.com^
 ||clddpprod32.tt.omtrdc.net^
 ||cldmon.rbx2.vdc.tt.omtrdc.net^
 ||cldmonus-west-2aa.tt.omtrdc.net^
@@ -82383,6 +82391,7 @@ zzzyk.com###Tinfo
 ||js.brstke.top^$third-party
 ||js.chetan.com^
 ||js.duotegame.com^
+||js.ea3w.com/pv.js
 ||js.fhxiaoshuo.com^
 ||js.glossom.jp^$third-party
 ||js.go2sdk.com^
@@ -87411,6 +87420,7 @@ zzzyk.com###Tinfo
 ||m.ysxs8.com/js/content_db.js
 ||m.zwsteel.cn^$third-party
 ||m03dv.xyz^
+||m05ib.xyz^
 ||m09mm.xyz^
 ||m0mentum.net^$third-party
 ||m1.100how.com^
@@ -89839,6 +89849,7 @@ zzzyk.com###Tinfo
 ||mcs-va.tiktokv.com^
 ||mcs.snssdk.com^
 ||mcs.us.tiktokv.com^
+||mcs.zijieapi.com^
 ||mcs1-3f72.tt.omtrdc.net^
 ||mcssl.com^*/track.ashx?
 ||mcstest-as-17p.cable.tt.omtrdc.net^
@@ -94423,6 +94434,7 @@ zzzyk.com###Tinfo
 ||netjets.tt.omtrdc.net^
 ||netkantu.com^
 ||netlify-rum.netlify.app^
+||netlog.ru^$third-party
 ||netmailcsr11.net.anwalt.de^
 ||netmera-web.com^$third-party
 ||netminers.dk^$third-party
@@ -101485,6 +101497,7 @@ zzzyk.com###Tinfo
 ||qurl.f.360.cn^
 ||qursbq.berceaumagique.com^
 ||qusiwang.top^
+||quspga.xyz^
 ||quto.club^
 ||qutsgp.calif.cc^
 ||qutyan8848.com^
@@ -102546,6 +102559,7 @@ zzzyk.com###Tinfo
 ||report.*.qq.com^
 ||report.23video.com/api/analytics/
 ||report.apkpure.net^
+||report.botm.transparentedge.io^
 ||report.downloastar.com^
 ||report.iciba.com^
 ||report.iheartmedia.gbqofs.io^
@@ -103115,6 +103129,7 @@ zzzyk.com###Tinfo
 ||rnybul.gismeteo.kz^
 ||rnybul.gismeteo.lv^
 ||ro-go.experian.com^
+||ro.aiwan4399.com^
 ||ro.promo.skf.com^
 ||ro2.ro.trackrocasino.com^
 ||roadrunner.ausmv.com.au^
@@ -103365,6 +103380,7 @@ zzzyk.com###Tinfo
 ||rt.bookmakersreview.com^
 ||rt.booxai.com^
 ||rt.bunte.de^
+||rt.cdnmedia.tv^
 ||rt.chip.de/collect
 ||rt.compare24.net^
 ||rt.derikdavid.com.br^
@@ -104351,6 +104367,7 @@ zzzyk.com###Tinfo
 ||salsify-ecdn.com^
 ||saltanatmt2guncelhack.tt.omtrdc.net^
 ||salto.freeto.jp^
+||saluton.cizion.com^
 ||salvador.trekkeeee.space^
 ||salzwerk.viessmann.de^
 ||sam*.baby-kingdom.com^
@@ -111653,6 +111670,7 @@ zzzyk.com###Tinfo
 ||sqdgwx.jobrapido.com^
 ||sqdjg.cn^
 ||sqdljj.kijiji.ca^
+||sqevnrb.com^
 ||sqext.com^
 ||sqlb2bsystem.tt.omtrdc.net^
 ||sqmazf.workamajig.com^
@@ -112587,6 +112605,7 @@ zzzyk.com###Tinfo
 ||ssznrs.com^
 ||st-*.dynamicyield.com^
 ||st-5cva8vttppvjafpc7jvj.kodik.biz^
+||st-a.cdp.asia^
 ||st-a8.tscubic.com^
 ||st-nlyss1.plala.or.jp^
 ||st-offlinegame.vivo.com.cn^
@@ -118145,6 +118164,7 @@ zzzyk.com###Tinfo
 ||tj-yyy.cn^
 ||tj.21ic.com^
 ||tj.allcdn.vip^
+||tj.img4399.com^
 ||tj.playcvn.com^
 ||tj.sosomp.com^
 ||tj.youzanyun.com^
@@ -123484,6 +123504,7 @@ zzzyk.com###Tinfo
 ||tvdpebx.cn^
 ||tvfree2.me/ads_*.js$script
 ||tvfree2.me/pub/
+||tvgids.nl/collect
 ||tvid.in/log/
 ||tvid.in/log/logs
 ||tvid.in/sdk/loader.js
@@ -124777,6 +124798,7 @@ zzzyk.com###Tinfo
 ||uusimaa.viessmann.fi^
 ||uuu9.com/news/css/news_content_in.js
 ||uuu9.com/photolog.html
+||uuu9.com/s.php?
 ||uuu9.com/yoyo_
 ||uuu9.tieba.com^$subdocument
 ||uuuxyjh.cn^
@@ -127090,6 +127112,7 @@ zzzyk.com###Tinfo
 ||webstat.kuwo.cn^
 ||webstat.net^$third-party
 ||webstat.no^$third-party
+||webstat.qiumibao.com^
 ||webstat.se^$third-party
 ||webstat.vodafone.com^
 ||webstat.ws.126.net^
@@ -132092,6 +132115,7 @@ zzzyk.com###Tinfo
 ||za.qeeq.com^
 ||za.zalo.me/v*/brp?fts=
 ||za.zalo.me/v*/w/_zaf.gif
+||za.zalo.me^
 ||za.zdn.vn^
 ||za.zingnews.vn^
 ||zabdybod*.club^
@@ -132242,6 +132266,7 @@ zzzyk.com###Tinfo
 ||zcmnffq.cn^
 ||zcode11.me^
 ||zconfig.alibabausercontent.com^$app=com.youku.phone
+||zcool.com.cn/track/
 ||zcoolfc.com^
 ||zcpsc.top^
 ||zcqgsnn.cn^
@@ -132973,6 +132998,7 @@ zzzyk.com###Tinfo
 ||zol-img.com.cn/detail/js/module/app-download-float/script.js
 ||zol-img.com.cn/detail/js/module/shaung11/js/shuang11Pop.js
 ||zol-img.com.cn/star/image/star-banner2.gif
+||zol-img.com.cn^*/logger.js
 ||zol.com.cn/active/*guomei
 ||zol.com.cn/active/*tmall
 ||zol.com.cn/adrs/
@@ -133071,6 +133097,7 @@ zzzyk.com###Tinfo
 ||zooplus.io/static/js/tracking-min.js
 ||zooplus.tt.omtrdc.net^
 ||zooqle.unblockproject.uno^$popup
+||zoosk.com/cs/tp.png?
 ||zoosnet.net^$third-party
 ||zoossoft.cn^$third-party
 ||zoossoft.net^$third-party
