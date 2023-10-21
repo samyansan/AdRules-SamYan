@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-10-21 02:12:56
-! Total count: 133428
+! Version: 2023-10-21 08:46:38
+! Total count: 133433
 
  
 ###AdBlockDialog
@@ -2951,7 +2951,7 @@ $cookie=/^CaosGtag_ga/
 $cookie=/^KRTBCOOKIE_/
 $cookie=/^_chartbeat/
 $cookie=/^_dc_gtm_UA-/
-$cookie=/^_ga_/
+$cookie=/^_ga_/,domain=~nintendo.com
 $cookie=/^_gac_/
 $cookie=/^_gat_/
 $cookie=/^_gat_tracker\d+/
@@ -2977,7 +2977,7 @@ $cookie=/^mprtcl-prodv4_/
 $cookie=/^mprtcl-v4_/
 $cookie=/^uid-bp-\d+/
 $cookie=/^wisepops/
-$cookie=/dwac_/
+$cookie=/dwac_/,domain=~nintendo.com
 $cookie=/dwanonymous_/
 $cookie=/mp_.*_mixpanel/
 $cookie=ACac2,domain=wp.pl|money.pl|o2.pl|pudelek.pl|komorkomania.pl|gadzetomania.pl|fotoblogia.pl|autokult.pl|abczdrowie.pl|parenting.pl|videostar.pl|autocentrum.pl|benchmark.pl
@@ -18640,6 +18640,7 @@ $websocket,domain=5nj.com|cechi8.com
 /www/delivery/*
 /www/js/ad/*
 /www/xengine/*
+/www\.eldorado\.gg\/[a-zA-Z]{10}\.js/$script,~third-party,domain=eldorado.gg
 /wwwads.
 /wwwcount.cgi?
 /wxh.js$domain=1kkk.com|dm5.com|dm5.hk
@@ -27278,6 +27279,7 @@ iyf.tv##vg-pause-ads
 iyf.tv##vg-pause-p
 iyf.tv##vg-player.ng-star-inserted > vg-pause-ads + div.caption.show > .inner
 iyf.tv#$#.player-side > .block { visibility: hidden !important; min-height: 390px !important; }
+iyf.tv#?#.video-player + div.ps > div:has(div.gg-tips-text)
 iyf.tv#@#.share-top
 iyingdi.com##.downLoadApp
 iyingshi9.tv#$#override-property-read YZM.ads.state false
@@ -51305,6 +51307,7 @@ zzzyk.com###Tinfo
 ||aserve.directorym.com^
 ||asesmobile-nl.ride.tt.omtrdc.net^
 ||asfklgnbvx.com^
+||asfybkiy.xyz^
 ||asgard-farm.gm.tt.omtrdc.net^
 ||ash-cv.tt.omtrdc.net^
 ||ash002.oob.tt.omtrdc.net^
@@ -124702,6 +124705,7 @@ zzzyk.com###Tinfo
 ||usxpic.com/bit2019/upload/image/20191125/11251039541.gif
 ||usxpic.com/bit2019/upload/image/20191125/11251039542.gif
 ||usxpic.com/btimg/upload/image/20181018/101806323369.png
+||usxuyr.icu^
 ||usyyzz.winparts.nl^
 ||ut.dailyfx.com^
 ||ut.econnect.utexas.edu^
@@ -133382,6 +133386,7 @@ zzzyk.com###Tinfo
 ||zzycj.com^
 ||zzyonghao.com^
 ||zzyy19.top^
+||zzyy20.top^
 ||zzyytt.top^
 ||zzz4.com/JS_AD/
 ||zzzhuoxiaqu.online^
