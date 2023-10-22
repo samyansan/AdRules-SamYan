@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-10-22 08:52:09
-! Total count: 133477
+! Version: 2023-10-22 14:13:14
+! Total count: 133481
 
  
 ###AdBlockDialog
@@ -9272,18 +9272,19 @@ $websocket,domain=5nj.com|cechi8.com
 /analytics-assets/*
 /analytics-beacon-
 /analytics-cdn.
-/analytics-client-
+/analytics-client-identification/*
 /analytics-collector
 /analytics-core-bundle-
 /analytics-corp.js
-/analytics-data-collector.
+/analytics-data-collector.js
+/analytics-data-collector.min.js
 /analytics-dotcom/*
 /analytics-efukt.
 /analytics-endpoint.
 /analytics-event-
 /analytics-event-adapter.
 /analytics-event.
-/analytics-event/*
+/analytics-event.js
 /analytics-events-
 /analytics-facade.
 /analytics-gcp.
@@ -9292,7 +9293,6 @@ $websocket,domain=5nj.com|cechi8.com
 /analytics-hit?
 /analytics-ingestion/*
 /analytics-ingress-
-/analytics-initial-
 /analytics-js.
 /analytics-js/*
 /analytics-min.js
@@ -9302,18 +9302,16 @@ $websocket,domain=5nj.com|cechi8.com
 /analytics-ping.js
 /analytics-plugin/*
 /analytics-post-
-/analytics-pusher/*
-/analytics-reporter/*
 /analytics-reporter/*/event
 /analytics-savebt?
 /analytics-scripts.
 /analytics-sdk.
-/analytics-secure.
+/analytics-secure.js
 /analytics-sendEvent
 /analytics-social.
 /analytics-tag.
 /analytics-tracker/*
-/analytics-tracking.
+/analytics-tracking.js
 /analytics-v1.
 /analytics.*/event?
 /analytics.*/ping/?
@@ -9437,6 +9435,7 @@ $websocket,domain=5nj.com|cechi8.com
 /analyticsUnitaire?
 /analyticsUrlToDataMappings.
 /analytics_embed.
+/analytics_events.js
 /analytics_frame.
 /analytics_functions.
 /analytics_id.
@@ -13665,6 +13664,7 @@ $websocket,domain=5nj.com|cechi8.com
 /klicks.nebenan.de/q/*$image
 /kogeePopupAd.
 /koko-analytics-collect.php
+/koko-analytics-pro/assets/dist/js/script.js
 /koko-analytics/*/script.js
 /koko-analytics/assets/dist/js/*script.js
 /kontera.js
@@ -14567,11 +14567,9 @@ $websocket,domain=5nj.com|cechi8.com
 /newimages/ads/*
 /newimplugs.
 /newlog.php?
-/newrelic-browser.
-/newrelic-google-
+/newrelic-browser.js
+/newrelic-browser.min.js
 /newrelic-gpt.
-/newrelic.browser.
-/newrelic.iframe.
 /newrelic.js
 /newrelic.min.js
 /newrelicKpis-
@@ -14657,6 +14655,8 @@ $websocket,domain=5nj.com|cechi8.com
 /ntes-ad-cloud.
 /ntpagetag-
 /ntpagetag.
+/ntpagetag.gif
+/ntpagetag.js
 /ntpagetag_
 /ntpagetaghttps.
 /ntrack.asp?
@@ -14665,7 +14665,6 @@ $websocket,domain=5nj.com|cechi8.com
 /nuggad/*
 /null.gif?
 /numericAnalyticsFramework.
-/nv-loaded.js
 /nvr_bcknd.
 /nvrblck.
 /nx_stat.
@@ -14681,6 +14680,7 @@ $websocket,domain=5nj.com|cechi8.com
 /o2contentad.
 /o_code.js
 /o_tealium.
+/o_tealium.js
 /oa-tracking?
 /oas-config.
 /oas.aspx
@@ -14694,6 +14694,7 @@ $websocket,domain=5nj.com|cechi8.com
 /oas_ad_
 /oas_ads.
 /oas_analytics.
+/oas_analytics.js
 /oas_handler.
 /oas_home_
 /oas_mjx.
@@ -14725,6 +14726,7 @@ $websocket,domain=5nj.com|cechi8.com
 /observations/capture?
 /ocount.php
 /ocounter.
+/ocounter.php
 /odoscope.js
 /oewa_pixel_
 /oiopub-ads/*
@@ -14751,12 +14753,13 @@ $websocket,domain=5nj.com|cechi8.com
 /omniture/script.
 /omniture/sphere
 /omniture/tracking.
-/omniture/uuid.
+/omniture/uuid.js
 /omniture/visitorapi.
 /omniture/visitorapi.js
 /omniture?
 /omnitureAMP.
 /omniture_tracking.
+/omniture_tracking.js
 /omniunih.js
 /oms_analytics_
 /oncc-ad.
@@ -92625,6 +92628,7 @@ zzzyk.com###Tinfo
 ||mng.jiji.com/cookie.html
 ||mngjrn.cn^
 ||mnhknds.com^
+||mnhncf.cn^
 ||mnhs-app-nn02.mpc.tt.omtrdc.net^
 ||mnjrc1.tt.omtrdc.net^
 ||mnks.cn/jk/appAD_
