@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-10-23 20:20:40
-! Total count: 133506
+! Version: 2023-10-24 02:12:58
+! Total count: 133508
 
  
 ###AdBlockDialog
@@ -28171,6 +28171,7 @@ lihkg.com##iframe[src^="https://pb.lihkg.com/"][style^="height:"]
 lihkg.com##iframe[src^="https://pb.lihkg.com/primis?"]
 lihkg.com#?##rightPanel > div[class^="_"] > div[class^="_"] > div[class^="_"] > div[data-post-id] + div:not([data-post-id])
 lihkg.com#?##rightPanel div[id^="page-"] ~ div[class] > div > div[style^="display:"] ins.adsbygoogle:upward(div[style^="display:"])
+lihkg.com#?#div[class^="_"]:-abp-has(>div>div>.adsbygoogle)
 lihkg.com#?#div[data-body-portal] > div[class^="_"] > div[class^="_"] > div[class^="_"] > div[class]:has(> div[class^="_"] ins.adsbygoogle)
 lihkg.com#?#div[id][class][data-post-id] + div[class]:not([id]):not([data-post-id]):has( > div[class]:only-child > div > div[id^="gam-"]:only-child)
 liisex.com###apDiv22
@@ -39349,6 +39350,7 @@ zzzyk.com###Tinfo
 ||88lajs1.com^
 ||88lajs2.com^
 ||88lajs3.com^
+||88lajs4.com^
 ||88liu.com/data/attachment/portal/
 ||88p2p.com^$popup
 ||88rpg.net^
