@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-10-26 08:47:17
-! Total count: 134155
+! Version: 2023-10-26 14:13:53
+! Total count: 134178
 
  
 ###AdBlockDialog
@@ -4500,10 +4500,12 @@ $websocket,domain=5nj.com|cechi8.com
 .com:12289/$script,third-party
 .com:2516/code/
 .com:8001/*/*?*=$third-party
+.com:8003/d/*&n=$third-party
 .com:8004/*/*?*=$third-party
 .com:8005/*/2483?
 .com:8007/*/*?*=$third-party
 .com:8008/*/*?*=$third-party
+.com:8008/sc/*?n=$third-party
 .com:8010/cc/
 .com:91/Runtime/js/psCreat.js
 .com:9120/discor_list.js
@@ -5872,6 +5874,7 @@ $websocket,domain=5nj.com|cechi8.com
 /TrackClick.
 /TrackPageview?
 /TrackShopAnalytics.
+/TrackShopAnalytics.aspx?
 /TrackUser?callback=
 /TrackView/*$xmlhttprequest
 /TrackView/?track
@@ -5892,6 +5895,7 @@ $websocket,domain=5nj.com|cechi8.com
 /TrackingService.js
 /TradeAds/*
 /TrafficCookie.
+/TrafficCookie.js
 /TrafficHaus/*
 /TwitterTracking.
 /TwtAd_
@@ -14394,13 +14398,11 @@ $websocket,domain=5nj.com|cechi8.com
 /mmsAds.
 /mmt.gif?
 /mmt_ad.
-/mn-collector.
+/mn-collector.php
 /mnads1.
 /mngi/tracking/*
-/mnppixellibrary.
 /mnt/imp?
 /moapt-action-iq-analytics.
-/moat-tracker.
 /moat/yield.js
 /moatanalytics-
 /moatsdk.min.js
@@ -14459,6 +14461,7 @@ $websocket,domain=5nj.com|cechi8.com
 /monitor/v1/log
 /monitor?rtype=
 /monitor_analytic.
+/monitor_analytic.js
 /monitus.js
 /monsido.js
 /mont-min.js
@@ -14487,7 +14490,7 @@ $websocket,domain=5nj.com|cechi8.com
 /mrliteLogger.$image,script
 /mrskinleftside.
 /ms-widgets/tracking-cookies/*
-/ms.analytics-
+/ms.analytics-web-3.min.js
 /msftaudience.
 /msgads.
 /mshow.aspx?AID=
@@ -14514,6 +14517,7 @@ $websocket,domain=5nj.com|cechi8.com
 /mtp.*.gif?ref=
 /mtrack.nl/js/*
 /mtracking.
+/mtracking.gif?
 /mttag/*
 /mtvi_ads_
 /mtvi_reporting.js
@@ -15089,6 +15093,7 @@ $websocket,domain=5nj.com|cechi8.com
 /partnerbanner.
 /partnerbanner/*
 /partnermetrics.
+/partnermetrics.js
 /partners/ad-
 /partners/ads/*
 /partners/get-banner.
@@ -15329,6 +15334,7 @@ $websocket,domain=5nj.com|cechi8.com
 /pixel_V2.js
 /pixel_event_data?
 /pixel_identifier.
+/pixel_identifier.js
 /pixel_iframe.
 /pixel_iframe.php
 /pixel_track.
@@ -16040,22 +16046,22 @@ $websocket,domain=5nj.com|cechi8.com
 /rlvt-track/*
 /rm-gtm-google-analytics-for-wordpress/js/gtm-player.js
 /rm.gif?
-/rmntracking.
-/rntracking.
+/rmntracking.js
+/rntracking.js
 /roiTrax.
 /roi_tracker.
 /roiengine.
 /roitrack.
 /roitracker.
 /roitracker2.
+/roitracker2.js
 /rollad.
-/rollbar-snippet.
 /rollbar.js
 /rollbar.min.js
 /rolloverads/*
 /rolloverbannerad.
 /rolluptracker_
-/rook.tracking.
+/rook.tracking.min.js
 /root_ad.
 /rot_in.php
 /rotad/*
@@ -16662,6 +16668,8 @@ $websocket,domain=5nj.com|cechi8.com
 /smetrics.*/id?
 /smg_tracking/*
 /smi/fp.min.js
+/smmch-mine.js
+/smmch-own.js
 /smoozed-ad/*
 /sni-ads.
 /snowman.gif?p=
@@ -17890,7 +17898,6 @@ $websocket,domain=5nj.com|cechi8.com
 /trackpixel.
 /trackpixel?
 /trackpush.min.js
-/trackpush/*
 /trackpxl?
 /trackr.swf
 /tracksrk.
@@ -17926,9 +17933,13 @@ $websocket,domain=5nj.com|cechi8.com
 /trans_pixel.asp
 /transad.
 /transparent1x1.
-/transparent_pixel.
+/transparent1x1.gif
+/transparent1x1.png
+/transparent_pixel.gif
+/transparent_pixel.png
 /transpix.gif
 /travel-pixel-
+/travel-pixel-js/*
 /travidia/*
 /trax.gif?
 /traxis-logger.
@@ -17936,6 +17947,7 @@ $websocket,domain=5nj.com|cechi8.com
 /trck/eclick/*
 /trck/etms/*
 /trckUtil.
+/trckUtil.min.js
 /trcksp.
 /trclnk.js
 /tremoradrenderer.
@@ -17952,7 +17964,6 @@ $websocket,domain=5nj.com|cechi8.com
 /trk-off.
 /trk.*/impression/*
 /trk.*/open?$image
-/trk.*/tracking.
 /trk.gif?
 /trk.php?
 /trk/api/*
@@ -17962,6 +17973,7 @@ $websocket,domain=5nj.com|cechi8.com
 /trk_tb.
 /trk_zbo.
 /trkga.
+/trkga.js
 /trkpixel.gif
 /trkr.js
 /trkr/php?
@@ -18008,7 +18020,7 @@ $websocket,domain=5nj.com|cechi8.com
 /ucstat.
 /udctrack.
 /uds/stats?
-/uecomscore_
+/uecomscore_cmp_event_mundo.js
 /uedata?
 /uem-ep.js
 /uf-stat?
@@ -18024,13 +18036,13 @@ $websocket,domain=5nj.com|cechi8.com
 /uk/ads/*
 /ukc-ad.
 /ulpixel.
-/ulpixel?
 /ultra_track/*
 /umami.js
 /umg-analytics/*
 /umt.gif?
 /unagi.amazon.
 /unbxdAnalytics.
+/unbxdAnalytics.js
 /unbxdAnalyticsConfig.
 /unibluead.
 /unica.gif?
@@ -18047,8 +18059,8 @@ $websocket,domain=5nj.com|cechi8.com
 /updateBotStatus.do?
 /updateStats.
 /update_ads/*
-/update_hits3/*
 /update_layer/layer_os_new.php
+/updatestats.js
 /uplimg/ads/*
 /upload/ads/*
 /upload/ads/*$domain=~ads.ae
@@ -18603,6 +18615,8 @@ $websocket,domain=5nj.com|cechi8.com
 /wp-banners/*
 /wp-click-track/*
 /wp-clickmap/*
+/wp-coin-hive-util.js
+/wp-coin-hive.js
 /wp-content/ads/*
 /wp-content/cache/busting/google-tracking/*
 /wp-content/mbp-banner/*
@@ -18662,6 +18676,8 @@ $websocket,domain=5nj.com|cechi8.com
 /wp-includes/js/jwplayer.js?$script,image,domain=watchcartoonsonline.eu
 /wp-js/analytics.
 /wp-js/analytics.js
+/wp-monero-miner-class.js
+/wp-monero-miner.js
 /wp-pixels/*
 /wp-popup-scheduler/*
 /wp-power-stats.js
@@ -37330,6 +37346,7 @@ zzzyk.com###Tinfo
 ||2txt.cc:8862^
 ||2tyne.ic^
 ||2tyne.icu^
+||2u3v4w5x6y.com^
 ||2ujj.com/js/bo.js
 ||2wp-app.tt.omtrdc.net^
 ||2ww-www12.jamf.tt.omtrdc.net^
@@ -44485,6 +44502,7 @@ zzzyk.com###Tinfo
 ||activision.hb.tt.omtrdc.net^
 ||activisionblizzardin.tt.hb-fa-dev.tt.omtrdc.net^
 ||activisionblizzardin.tt.omtrdc.net^
+||activity-flow.vtex.com^
 ||activity.fiverr.com^
 ||activity.hnhnmg.com^
 ||activity.newlook.com^
@@ -70164,6 +70182,7 @@ zzzyk.com###Tinfo
 ||eventgateway.soundcloud.com^
 ||eventgw.twilio.com^
 ||eventiavversinews.it/wp-json/vinkmag/*/visitortrack/
+||eventlog.chatlead.com^
 ||eventlog.inspsearch.com^
 ||eventlog.inspsearchapi.com^
 ||eventlog.jackpot.de^
@@ -78578,6 +78597,7 @@ zzzyk.com###Tinfo
 ||igjytl.unice.com^
 ||igkgag.xyz^
 ||ignite.liftigniter.com^
+||ignulsniy.com^
 ||igo.cn/liuxue/js/slideBar
 ||igo99.cn/js/freetest.js
 ||igor.tt.omtrdc.net^
@@ -86197,6 +86217,7 @@ zzzyk.com###Tinfo
 ||liuyansha.vip^
 ||liuyi22.cn^
 ||liuyimin5.cn^
+||liuyingtv.com/common/api_getAcode.php
 ||liuyuhuaa.cn^
 ||liuyun.name^
 ||liuziqiu.cn^
@@ -117875,6 +117896,7 @@ zzzyk.com###Tinfo
 ||telemetry.tableausoftware.com^
 ||telemetry.tradingview.com^
 ||telemetry.voxeet.com^
+||telemetry.vtex.com^
 ||telenetgroup.tt.omtrdc.net^
 ||telenor.tt.omtrdc.net^
 ||telephoneapparatus.com^
@@ -126474,6 +126496,7 @@ zzzyk.com###Tinfo
 ||vole.sonicrida.com^
 ||vole.tsttechnology.com^
 ||volgograd-info.ru^$third-party
+||volgreal.com^
 ||volkswagen-italia.it^*/tracking/
 ||volkswagenag.tt.omtrdc.net^
 ||volkswagenfinancials.tt.hb-fa-dev.tt.omtrdc.net^
