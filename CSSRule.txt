@@ -8832,14 +8832,9 @@ gpcxw.com###ad_dl
 gpcxw.com###ad_dl2
 gpcxw.com##table[width="960"][height="90"]
 gplinks.co###link-btn:style(display:block !important;)
-gplinks.co##+js(aopr, app_vars.force_disable_adblock)
 gplinks.co##+js(aopr, clickCount)
-gplinks.co##+js(disable-newtab-links)
 gplinks.co##+js(set, blurred, false)
-gplinks.co##.box-main p
 gplinks.co##.exclude-popad
-gplinks.co##.smart-link-banner-ad-container
-gplinks.co##[href^="https://bit.ly/"]
 gpshk.cc,oneplusbbs.com,wstx.com,xiaot.com###diy4
 gpshk.cc,yxzp.net##img[width="770"]
 gpsuu.com##div[class^="top_96"]
@@ -12964,28 +12959,7 @@ mylust.com##.no_pop.centeredbox
 mylust.com##div[class^="span"] > div.box:has(> .title > div:has-text(Advertisement))
 mylust.com##iframe.clear_both
 myneobuxportal.com##+js(set, jQuery.adblock, false)
-mynewsmedia.co###download-ad-modal
-mynewsmedia.co##+js(aopw, AdBlockerDetected)
-mynewsmedia.co##+js(aost, String.prototype.charCodeAt, https)
-mynewsmedia.co##+js(disable-newtab-links)
 mynewsmedia.co##+js(no-fetch-if, googlesyndication)
-mynewsmedia.co##+js(set, count, 0)
-mynewsmedia.co##.show.modal-backdrop
-mynewsmedia.co##.smart-link-banner-ad-container
-mynewsmedia.co##[href^="https://mauchopt.net"]
-mynewsmedia.co,mynewspost.in###wpsafe-generate:style(display: block !important;)
-mynewsmedia.co,mynewspost.in###wpsafe-snp:style(display: block !important;)
-mynewsmedia.co,mynewspost.in###wpsafe-wait1,#container-countdown
-mynewsmedia.co,revadvert.com###VerifyBtn:style(display:block !important;)
-mynewsmedia.co,revadvert.com###footer-sticky-ad
-mynewsmedia.co,revadvert.com##+js(acs, navigator.brave)
-mynewsmedia.co,revadvert.com##+js(nano-sib, timer, *)
-mynewsmedia.co,revadvert.com##+js(no-fetch-if, googlesyndication)
-mynewsmedia.co,revadvert.com##+js(rmnt, script, fakeAd)
-mynewsmedia.co,revadvert.com##+js(set, AdBlockerDetected, noopFunc)
-mynewsmedia.co,revadvert.com##^script:has-text(fakeAd)
-mynewsmedia.co,revadvert.com##iframe[id^="google_ads_iframe"]:style(height: 1px !important;)
-mynewspost.in##.box-main > div[style]:not(:has(#wpsafe-snp))
 mypapercraft.net##+js(nofab)
 mypapercraft.net##.ezoic-ad
 mypianku.net##div[style*="background:url"]
@@ -13766,6 +13740,7 @@ p2pcast.tv#@##adblock
 p2peye.com###article_content a[ref="nofollow"]
 p2peye.com##.red-box
 p9.com.tw##.contentRightAd
+pagalworldnet.com,onlynewtab.com,howtoalll.com,jabigetjob.com,pagalmusiz.in,bser.in,summaryexpert.com##+js(acs, navigator.brave)
 paginadanoticia.com.br##+js(aopr, pareAdblock)
 paginadanoticia.com.br##.banner-img
 painart.ru##body > div[id][style^="display: block"][style*="background: red"]
