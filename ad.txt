@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-10-31 20:20:05
-! Total count: 109604
+! Version: 2023-11-01 02:13:20
+! Total count: 109608
 
  
 ###AdBlockDialog
@@ -8244,6 +8244,7 @@ $websocket,domain=5nj.com|cechi8.com
 423down.com##.content > a
 423down.com##.content > h3 > a[rel="external nofollow"][target="_blank"]
 423down.com##.content > p[style]
+423down.com##.entry > p[style^="color:red"]
 423down.com##.widget_d_banner
 423down.com##a[href*="/go."] > img
 423down.com##h3 > a[href^="https://mp.weixin.qq.com/s/"][target="_blank"] > span
@@ -9562,6 +9563,7 @@ axutongxue.com##ASIDE[style*='height:58px;overflow:hidden;width:322px;border:das
 axutongxue.com##DIV[style*='px;position:relative;box-shadow:rgb(0 0 0/24%)0px 3px 8px;']
 axutongxue.com##DIV[style*='z-index: 9999999;display: flex;justify-content: center;align-items: center;']
 axutongxue.com##DIV[style='text-align:center']
+axutongxue.com,axutongxue.net###qyuataaa
 axutongxue.com,axutongxue.net###tyrai
 axutongxue.com,axutongxue.net##[style^="height:58px;"]
 axutongxue.net###uuuui
@@ -15892,6 +15894,7 @@ netfly.fun,netfly.tv##div[class*="tt-"] > a[target="_blank"] + span.tt-icon-clos
 netfly.fun,netfly.tv##div[class*="tt-"] > a[target="_blank"] > img
 netfly.tv##.module-tglist
 netfly.tv##.player-box > [style^="display"]
+netfly.tv##[style^="display: flex; justify-content:"]
 nethunt.com/api/v1/track/email/$image
 nettiauto.com#%#//scriptlet("set-constant", "listingGoogleEETracking", "noopFunc")
 nettruyenai.com#$#abort-current-inline-script Promise break;case
@@ -22392,6 +22395,7 @@ zzzyk.com###Tinfo
 ||354iguess.trekkww.space^
 ||354places.trekkww.space^
 ||354thescore.trekkww.space^
+||3562wsgkbcm.xyz^
 ||3565433061881492849.academyofconsciousleadership.com^
 ||35659faweb.tt.omtrdc.net^
 ||356postges.trekkww.fun^
