@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-10-31 08:49:09
-! Total count: 109592
+! Version: 2023-10-31 14:13:57
+! Total count: 109601
 
  
 ###AdBlockDialog
@@ -2664,6 +2664,7 @@ $websocket,domain=5nj.com|cechi8.com
 .com/zz/yd2.js
 .com:10446/*/get*.html
 .com:12289/$script,third-party
+.com:7891/stats$third-party
 .com:8001/*/*?*=$third-party
 .com:8003/d/*&n=$third-party
 .com:8004/*/*?*=$third-party
@@ -9073,6 +9074,8 @@ acglala.net##.gg_img
 acglala.net,boke112.com,ruanyifeng.com##a[href^="http://t.cn/"]
 acglover.me##.myas
 acgnx.net,acgnx.se##a > img[src^="/images/"]
+achaec.cc##[style*='px; bottom: 0px; left: 0px; z-index: ']
+achaec.cc##[style*='px; top: 0px; left: 0px; z-index:']
 acmemarkets.com,albertsons.com,andronicos.com,balduccis.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#$#hide-if-matches-xpath './/div[contains(text(),"Sponsored")]/parent::div/ancestor::div[contains(@class,"slick-product")][1]'; hide-if-matches-xpath './/div/div[contains(@data-qa,"spnsrd")][text()="Sponsored"]/parent::div/ancestor::div[contains(@class,"placeholder")][1]';
 acomics.ru##div[style*="/design/common/pic/please"]
 acommunity.com.tw##.ai_widget
@@ -23726,6 +23729,7 @@ zzzyk.com###Tinfo
 ||88btbtt.com^
 ||88eg.cn^
 ||88kids.mobi^
+||88la.la^
 ||88lajs1.com^
 ||88lajs2.com^
 ||88lajs3.com^
@@ -39308,6 +39312,7 @@ zzzyk.com###Tinfo
 ||bvnx599app.com^
 ||bvr.ast.snva.jp^
 ||bvr.snva.jp^
+||bvsfv6.com^
 ||bvubje.leboncoin.fr^
 ||bvvb9.com^
 ||bvz5.destinia.com.tr^
@@ -51752,6 +51757,7 @@ zzzyk.com###Tinfo
 ||estatcounter.co.uk^$third-party
 ||estate-planning.wealthcounsel.com^
 ||estcruden.biz^
+||estixfl.cn^
 ||estore.biscoind.com^
 ||estore.interstatebatteries.com^
 ||estore.jp/beacon/
@@ -53016,6 +53022,7 @@ zzzyk.com###Tinfo
 ||fenxiangdashi.com/Res/js/detail_
 ||fenxiangdashi.com/img/banner/
 ||fepmpify.xyz^
+||feq853.com^
 ||feqbqn.rent.com^
 ||feraciumus.com^$third-party
 ||ferank.fr^$third-party
@@ -59460,6 +59467,7 @@ zzzyk.com###Tinfo
 ||iiikefu.com/wp-content/plugins/halfdata-green-popups/js/lepopup.js
 ||iiilab.com/sponsor
 ||iikanjiyanakanjide.wixsite.com^
+||iikrmw.xyz^
 ||iimahd-nocache2.tt.omtrdc.net^
 ||iiqtru.aunworks.jp^
 ||iirexhibitionslimite.tt.omtrdc.net^
@@ -75532,6 +75540,7 @@ zzzyk.com###Tinfo
 ||older-women-porn.com/black-credit-71cc^$domain=older-women-porn.com
 ||oldevent.togothermany.com^
 ||oldulgk.cn^
+||olelive.com/v1/pub/index/anchor/check/pc/e?
 ||olgame.tw/home/attachment/
 ||olgtex.com^$third-party
 ||olhqou.realsimple.com^
