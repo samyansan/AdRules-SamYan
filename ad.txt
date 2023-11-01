@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-11-01 08:52:07
-! Total count: 109604
+! Version: 2023-11-01 14:14:21
+! Total count: 109587
 
  
 ###AdBlockDialog
@@ -3086,13 +3086,10 @@ $websocket,domain=5nj.com|cechi8.com
 /AdblockDetector.js$script
 /AdblockDetector/handler.min.js$script
 /AdblockMessage.
-/AdobeAnalyticsAndTargetOverwrites.
 /AdsShow.
 /AdverJS/*
-/AffiliateClick.
 /Analytics/Tracking.js
-/Analytics/Visitor.
-/AnalyticsDataLayer.
+/AnalyticsDataLayer.min.
 /AnalyticsEvent.js
 /Api/Ad.
 /AppMeasurement.js
@@ -3155,6 +3152,7 @@ $websocket,domain=5nj.com|cechi8.com
 /HitTracker/*
 /HitTracking.
 /Hits/collect/*
+/IOL.Analytics.Tracking.min.js
 /IPbeacon.min.js
 /Images/ak47/*$domain=hanzify.net|hanzify.org
 /ImpressionsEvent.js
@@ -3502,6 +3500,7 @@ $websocket,domain=5nj.com|cechi8.com
 /adobe/target/*
 /adobe/visitor-
 /adobeAnalytics/*
+/adobeanalyticsandtargetoverwrites.min.
 /adpfile/*
 /adpic.
 /adpic/*
@@ -3576,15 +3575,8 @@ $websocket,domain=5nj.com|cechi8.com
 /afd/entry
 /aff_i?offer_id=
 /aff_land?referrer
-/affiliate-track.
-/affiliate-tracker.
-/affiliate.track?
-/affiliate/track?
-/affiliateTracking.
-/affiliatetracking/*
-/affilinetRetargeting.
-/afftrack.
-/afftracking.
+/affiliate-tracker.js
+/affiliatetracking.js
 /afr?auid=
 /aftrack.asp
 /agetsou.js
@@ -3593,6 +3585,7 @@ $websocket,domain=5nj.com|cechi8.com
 /ahoy/visits
 /aipai/player/game_video/videoAdvert_
 /ajax-hits-counter/*
+/ajax-hits-counter/increment-hits/index.php
 /ajax-track-page-view/*
 /ajax/ad/*
 /ajax/analytics/*
@@ -3668,6 +3661,7 @@ $websocket,domain=5nj.com|cechi8.com
 /analytics-minimal-v4.js
 /analytics-minimal.js
 /analytics-ping.js
+/analytics-prod.js
 /analytics-reporter/*
 /analytics-reporter/*/event
 /analytics-sdk.
@@ -3680,7 +3674,6 @@ $websocket,domain=5nj.com|cechi8.com
 /analytics.ad.
 /analytics.analytics/*
 /analytics.bundled.js
-/analytics.collect.
 /analytics.config.js
 /analytics.do
 /analytics.gif?
@@ -3691,47 +3684,31 @@ $websocket,domain=5nj.com|cechi8.com
 /analytics.prod.$domain=~fifteen.eu
 /analytics.sitecatalyst.js
 /analytics.v1.js
-/analytics/?event
+/analytics/?event=
 /analytics/abtest/*
 /analytics/adtags?
 /analytics/amp/*
 /analytics/analytics.$~xmlhttprequest
 /analytics/beacons/*
-/analytics/call-
+/analytics/call-tracking.js
 /analytics/capture/*
 /analytics/click?
 /analytics/collect?
-/analytics/collector.
-/analytics/collector/*
 /analytics/comscore.js
-/analytics/dist/*
+/analytics/dist/analytics.min.js
 /analytics/embed/*
-/analytics/engine/*
 /analytics/event
-/analytics/ga.
-/analytics/ga/*
-/analytics/ga?
-/analytics/geoip/*
-/analytics/inboundAnalytics.
-/analytics/initSession
+/analytics/ga.js
 /analytics/layer
-/analytics/mbox_
 /analytics/metric/*
-/analytics/page_view.
 /analytics/pageview
-/analytics/rt?
-/analytics/script/*
-/analytics/searches
+/analytics/searches?
 /analytics/smarttag-
-/analytics/tagx-
-/analytics/timing
-/analytics/track-
-/analytics/track?
-/analytics/track_
-/analytics/tracker.
+/analytics/track_event/*
+/analytics/tracker.js
 /analytics/trackers?
-/analytics/trackevent
-/analytics/visit/*
+/analytics/visit.jsp
+/analytics/visit.php
 /analytics?http_referer
 /analytics?token=
 /analyticsFooter.js
@@ -5089,6 +5066,7 @@ $websocket,domain=5nj.com|cechi8.com
 /in.php?referer=
 /in/track?data=
 /ina_ad_
+/inboundAnalytics.min.js
 /inbox.*/imp?$image
 /inc/antiblock.
 /include/ad/*
@@ -5578,6 +5556,7 @@ $websocket,domain=5nj.com|cechi8.com
 /mixpanel-init.
 /mixpanel.$domain=~mixpanel.com
 /mixpanel_tracker.
+/mlb-ml-analytics.min.js
 /mlopen_track.
 /mm_track/*
 /mmclient.js
@@ -9356,6 +9335,7 @@ apk.tw#@##google_ad
 apk.tw#@#.ad300
 apk.tw#@#.google_ad
 apkmirror.com##script:contains(canRunAds = false)
+apkmirror.com#%#//scriptlet('prevent-eval-if', 'https://07c225f3.online/loader.min.js')
 apkmirror.com#@#.adsbygoogle
 apkpure.com#%#//scriptlet('set-constant', '$$.analytics', 'emptyObj')
 apkpure.com#%#//scriptlet('set-constant', '$$.analytics.send', 'noopFunc')
@@ -74049,6 +74029,7 @@ zzzyk.com###Tinfo
 ||nbsxazr.icu^
 ||nbtfbb.xyz^
 ||nbxymdy.cn^
+||nbycjpo.cn^
 ||nbyggk.jocee.jp^
 ||nbyggk.matomame.jp^
 ||nbzabd.xyz^
@@ -90567,6 +90548,7 @@ zzzyk.com###Tinfo
 ||srf.ch/udp/tracking/
 ||srglobal.actonservice.com^
 ||srkl.pw^
+||srlhgo.cn^
 ||srm4.destinia.co.no^
 ||srmdata-eur.com^$third-party
 ||srmdata-us.com^$third-party
@@ -109235,6 +109217,7 @@ zzzyk.com###Tinfo
 ||zljnwzp.cn^
 ||zlm2.ecetech.fr^
 ||zlmapa.nestenn.com^
+||zlncvn.xyz^
 ||zlnmzc.top^
 ||zlongad.com^$third-party
 ||zlp6s.pw^
