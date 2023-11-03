@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-11-03 20:20:11
-! Total count: 108075
+! Version: 2023-11-04 02:13:30
+! Total count: 108077
 
  
 ###Ad_windows
@@ -7955,8 +7955,8 @@ $websocket,domain=5nj.com|cechi8.com
 423down.com##.content > a
 423down.com##.content > h3 > a[rel="external nofollow"][target="_blank"]
 423down.com##.content > p[style]
-423down.com##.entry > P[style="font-size: 20px;"]
 423down.com##.entry > p[style$="center;"]
+423down.com##.entry > p[style="font-size: 20px;"]
 423down.com##.entry > p[style^="color:red"]
 423down.com##.widget_d_banner
 423down.com##a[href*="/go."] > img
@@ -17234,6 +17234,7 @@ tmall.com##.mui-mbarp-qrcode-hd-d.mui-mbarp-qrcode-hd
 tmall.com##.mui-mbarp-qrcode-tip
 tmall.com##.sn-mobile
 tmall.com##div[style*="z-index: 99999; display: block;"]
+tmioe.com###custom_html-4
 tmioe.com##.__single_0
 tmioe.com##.ad_single_0
 tmioe.com##.entry-copyright
@@ -17289,8 +17290,11 @@ toutiao.com#?#.has_action:-abp-has(> .icon_ad)
 touzi.com##.pop720-bg
 touzi.com##.pop720-box
 touzi.com##.tck-cover
+toy-people.com##.article_insertAD
 toy-people.com##.good72890
 toy-people.com##.rightAd_300250
+toy-people.com##.rightAd_3002502
+toy-people.com##.right_bottom_bb
 tptoon.com##span[style^="position:fixed; bottom:30vh;"]
 track.canva.com$image
 track.customer.io$image
@@ -30035,6 +30039,7 @@ zzzyk.com###Tinfo
 ||allsafe-test.inthere.link^
 ||allsafe.inthere.link^
 ||allsft.info^
+||allsft.pro^
 ||allstarfg.actonservice.com^
 ||allstate.tt.omtrdc.net^
 ||alltracked.com^$third-party
@@ -39388,7 +39393,6 @@ zzzyk.com###Tinfo
 ||cheat-world.site^
 ||cheatdays-2.tt.omtrdc.net^
 ||cheaterboss.com^
-||cheatname.xyz^
 ||cheats.ink^
 ||check.ddos-guard.net^$third-party
 ||check.deadlinefunnel.com^$third-party
@@ -57048,7 +57052,6 @@ zzzyk.com###Tinfo
 ||hotel-marketing.hrs.com^
 ||hotel-samal.com^
 ||hotel.idealo.de/report
-||hotelbirlapalace.com^
 ||hotellerie.primagaz.fr^
 ||hotelreservationserv.tt.omtrdc.net^
 ||hotels.com/api/bucketing/v1/evaluateExperimentsAndLog
@@ -70596,7 +70599,6 @@ zzzyk.com###Tinfo
 ||mevents.tt.omtrdc.net^
 ||meware.tt.omtrdc.net^
 ||mewe.com/ubk4jrxn.js
-||mewteam.store^
 ||mex-mostls1msg.tt.omtrdc.net^
 ||mex2go.tt.omtrdc.net^
 ||mexico.balluff.com^
