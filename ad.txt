@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-11-04 02:13:30
-! Total count: 108077
+! Version: 2023-11-04 08:48:21
+! Total count: 107686
 
  
 ###Ad_windows
@@ -2236,24 +2236,19 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|webhd.cc|xyg688.com|zzzz
 $websocket,domain=5nj.com|cechi8.com
 %2Ftrack%2Fopen.php%3Fu%3D$image
 %2Fwf%2Fopen%3Fupn%3D$image
-&ADFAssetID=$media,domain=expres.cz|www.idnes.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz|iprima.cz
 &EventType=DataDealImpression&
 &EventType=Impression&
 &action=js_stats&
 &ad_type=
 &adsrc=
-&cmpState=$script,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz|expres.cz|www.idnes.cz
 &ev=PageView&
 &event=view&
 &hitType=pageview&
 &http_referer=$script,xmlhttprequest,domain=~biletomat.pl|~facebook.com|~jobscore.com
-&ifr=0|$script,domain=www.idnes.cz|expres.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz|iprima.cz
 &mi_ecmp=
 &pagegroup=*&url=$script
-&pssp1=$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz|www.idnes.cz|expres.cz
 &refer=http$script
 &t=pageview&
-&uid=ssp-$script,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 &xhtml?$script,third-party
 *$csp=worker-src 'none',domain=flashx.pw|vidoza.net
 *$csp=worker-src 'none',domain=lewd.ninja|milujivareni.cz
@@ -2270,7 +2265,6 @@ $websocket,domain=5nj.com|cechi8.com
 */widget/spage_game_tab/$domain=tieba.baidu.com
 *_ad_$media,domain=youtube.com,3p
 *tplv-noop.gif*
-,e8o,$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.as^$script,third-party
 -*-*-*-*.panda^$script,third-party
@@ -2529,9 +2523,6 @@ $websocket,domain=5nj.com|cechi8.com
 .cyou/*_*_u*js?$script,third-party
 .cyou/redbaiduct.com
 .cyou/xling_*_$third-party
-.cz/*,,*,|$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
-.cz/*/area=adblock$script,popup,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
-.cz/*/js/a.js|$script,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 .de/h.gif?
 .de/l.gif?
 .de/pt.gif?type=
@@ -2838,9 +2829,7 @@ $websocket,domain=5nj.com|cechi8.com
 .zippingcare.com/beacon/$image
 .zone/ads/
 /*/*.add.*.add
-/*Rek|$image,domain=animenova.org|animeplus.tv|gogoanimes.co|kiss-anime.ws|readcomicon
 /*_*_aubi.js$third-party
-/*gek|$image,domain=animenova.org|animeplus.tv|gogoanimes.co|kiss-anime.ws|readcomiconline.to|mangareader.net|animewow.org|animeland.us
 /.bootscripts/analytics.min.js
 /.webscale/rum?
 /.well-known/private-click-measurement
@@ -2909,7 +2898,6 @@ $websocket,domain=5nj.com|cechi8.com
 /9CCMSPC/images/*.gif
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /:\/\/rkn.gov.ru\/[a-g0-9]{30,}.gif/$domain=rkn.gov.ru
-/?bn=*&ord=$xmlhttprequest,script,domain=expres.cz|idnes.cz
 /?dm=*&blogid=$script
 /?essb_counter_
 /?imp_id=
@@ -3497,7 +3485,7 @@ $websocket,domain=5nj.com|cechi8.com
 /analytics.gif?
 /analytics.html?
 /analytics.js$domain=qunar.com
-/analytics.js$domain=tokyometro.jp|resumes.breakdownexpress.com|techcult.com|inbox.lv|kopeda.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|newsmax.com|bolgehastanesi.com|ewtc.de|newsdig.tbs.co.jp|imore.com|city.kushiro.lg.jp|emeraldbridal.com.au|emarat-news.ae|imobie.jp|tikla.com.tr|rusvideos.porn|jrkyushu.co.jp|amiunique.org
+/analytics.js$domain=tokyometro.jp|resumes.breakdownexpress.com|techcult.com|inbox.lv|kopeda.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|newsmax.com|bolgehastanesi.com|ewtc.de|newsdig.tbs.co.jp|imore.com|city.kushiro.lg.jp|emeraldbridal.com.au|emarat-news.ae|imobie.jp|tikla.com.tr|rusvideos.porn|jrkyushu.co.jp|amiunique.org|edit.ing
 /analytics.js/v1/*
 /analytics.prod.$domain=~fifteen.eu
 /analytics.sitecatalyst.js
@@ -3614,9 +3602,6 @@ $websocket,domain=5nj.com|cechi8.com
 /apricot.php?
 /aptrk.js
 /ard.png?
-/area=*/posid=*$subdocument,xmlhttprequest,script,domain=iprima.cz
-/area=branding$xmlhttprequest,domain=iprima.cz
-/area=halfpagead$xmlhttprequest,domain=iprima.cz
 /aria-web-telemetry-
 /art/stats/*
 /article/count?
@@ -4245,7 +4230,6 @@ $websocket,domain=5nj.com|cechi8.com
 /dooanalytics/*$script
 /dot.asp?
 /dot.gif?
-/doubleclick_dmm^*/file.mp4$media,domain=expres.cz|idnes.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz|iprima.cz
 /dow_analytics.js
 /download-link-js/?v=$script,~third-party
 /downloads/nmgg.mp4
@@ -4270,7 +4254,6 @@ $websocket,domain=5nj.com|cechi8.com
 /dygg_
 /dynaTraceMonitor?
 /dynamic.ziftsolutions.com/*
-/dynamic^$image,domain=kupi.cz
 /dynamicyield/*
 /dzwww/ad_dzw_inner.js
 /e.customeriomail.com/e/o/*$image
@@ -4293,7 +4276,6 @@ $websocket,domain=5nj.com|cechi8.com
 /efxanalytics.js
 /egcs/v2/collect
 /eis/diy/ad/*
-/elLOeonora=$xmlhttprequest,script,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 /elastic-apm-rum.umd.min.js
 /eloqua.js
 /elqcfg.js
@@ -4407,7 +4389,6 @@ $websocket,domain=5nj.com|cechi8.com
 /fage/sjad.js
 /fairfax_tracking.js
 /fake_app.mp4$domain=91porn.com
-/fal854heat^$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 /fans/*$domain=91porn.com|email.91dizhi.at.gmail.com.8h9.space
 /fawu999/*.js$script,third-party
 /fb-pixel-$script
@@ -4467,7 +4448,7 @@ $websocket,domain=5nj.com|cechi8.com
 /fp/tags.js
 /fp/top_fp.
 /fp2.compressed.js
-/fp2.min.js
+/fp2.min.js$domain=~spweb.auction.co.kr
 /fp_204?
 /fpc/cookie_js.php
 /fpcookie?
@@ -5066,7 +5047,6 @@ $websocket,domain=5nj.com|cechi8.com
 /keen.min.js
 /keypress.js$script
 /keywee.js
-/keyword*/area=$xmlhttprequest,domain=iprima.cz
 /kg2.oss-
 /kill-adblock//js/function.js$script
 /kill-adblock/js/function.js$script
@@ -5099,7 +5079,6 @@ $websocket,domain=5nj.com|cechi8.com
 /lead-tracking/*
 /leadgen/ga.js
 /leadtag.js
-/ledo2vnyce=$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 /lenovo/2021/all*.js
 /lenovo/pc/all*.js
 /lenovo/pc/piaofu2.js
@@ -5408,7 +5387,6 @@ $websocket,domain=5nj.com|cechi8.com
 /myzgg.
 /nForum/files/adv/*
 /nLoggerJB_
-/naChotina=$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 /naLogImpressions?
 /natero_analytics.min.js
 /nativendo.js
@@ -5577,11 +5555,8 @@ $websocket,domain=5nj.com|cechi8.com
 /partner-analytics/*
 /partner/gg_sogou.html
 /partner/transparent_pixel-$image
-/partnerJsApi/v3?previousZHashes=&hash=*&clbk=sklik$script,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 /partner_tracking_min.js
 /partnermetrics.js
-/past.js|$script,domain=expres.cz|www.idnes.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
-/pasta.js|$script,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 /paypic/*
 /pbasitetracker.min.js
 /pc/Tpl/baibaipc//js/*
@@ -5748,7 +5723,6 @@ $websocket,domain=5nj.com|cechi8.com
 /pm/pixel.
 /pmc-cxense.js
 /pmc-google-universal-analytics/*
-/poho0ze5nci=$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 /pointeur.gif?
 /pomegranate.js
 /pop_ads.
@@ -6028,7 +6002,6 @@ $websocket,domain=5nj.com|cechi8.com
 /scripts/snstyle.js?v=2$~third-party
 /scripts/statistics/*
 /scripts/xiti/*
-/scripts^$subdocument,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 /scroll-analytics-
 /scroll-track.js
 /scroll-tracker.
@@ -6047,7 +6020,6 @@ $websocket,domain=5nj.com|cechi8.com
 /search/log_requests/*
 /second-scroll~trackers.
 /secretmine_out.js
-/section=adblock_desktop^$domain=iprima.cz
 /secure-stats.
 /securepubads.
 /secureserver.net\/.*[-\/]\d+x\d+\.gif/$domain=h-ciyuan.com
@@ -6496,7 +6468,6 @@ $websocket,domain=5nj.com|cechi8.com
 /tiara/tracker/*
 /ticimax/analytics.js
 /tide_stat.js
-/tigatage:$script,domain=www.idnes.cz|expres.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz|iprima.cz|tiscali.cz|kinobox.cz|osobnosti.cz|karaoketexty.cz|nasepenize.cz|fights.cz|novinky.cz|super.cz|sport.cz|kupi.cz|horoskopy.cz
 /tigtag_custom/*_banner
 /tigtag_custom/include/couplet.
 /tigtag_custom/include/popup.
@@ -7188,7 +7159,6 @@ $websocket,domain=5nj.com|cechi8.com
 104.com.tw###aidma_588
 104.com.tw##.career-clinic-ad
 1090ys8.com#%#//scriptlet("abort-on-property-read", "adBlockDetected")
-10bestpornosites.com,123xxx.xyz,141tube.com,18-teen-porn.com,18-teen-sex.com,18-teen-tube.com,18doujin.com,18girlssex.com,18hqporn.com,18teen-tube.com,18teenporno.tv,18tubehd.com,18yed.net,1lesbiantube.com,1piecemanga.com,1teentubeporn.com,1xxx-tube.com,1youngteenporn.com,2017tube.com,2018tube.com,22pixx.xyz,24pornvideos.com,2japaneseporn.com,3devilattack.net,3gaytube.com,3movs.com,3naked.com,3prn.com,3sexporn.com,3xamatorszex.hu,3xfaktor.hu,429tube.com,4archive.org,4asianporn.com,4porn4.com,4tube.com,502porn.com,5299.tv,5star-boys.com,600bottles.com,69-lesbian-sex.com,69teentube.com,6indianporn.com,8asiansex.com,8boobs.com,8muses.xxx,8teenbay.net,8teenxxx.com,8teenz.info,9gag2.com,aagmaal.com,aarleen.com,ablefast.com,absolugirl.com,absoluporn.com,absolutube.com,activeporns.com,activevoyeur.com,acutetube.net,adult-sn.com,adultchatnetworks.com,adultdvdparadise.com,adultvideosjapanese.com,adultxpedia.com,aflamsexnek.com,agedtubeporn.com,agedvideos.com,ah-me.com,ahri-hentai.com,airsextube.com,al4a-archives.com,al4a.com,allafricangirls.net,allbbwtube.com,allcelebs.club,allfreepornsite.com,allindianporno.com,allmilftube.com,allporncartoons.com,allpussynow.com,allpussypics.com,allschoolboysecrets.com,allteensnude.net,alltstube.com,allureamateurs.net,alotporn.com,alrincon.com,amateur-twink.com,amateurandreal.com,amateurbeachspy.com,amateurbusters.com,amateurebonypics.com,amateurfun.net,amateurmaturewives.com,amateurmoms.net,amateurpicsporn.com,amateurporn1.com,amateurporntapes.com,amateurs-fuck.com,amateurstreams.pw,amateuryoungpics.com,amazingtrannies.com,anal-analsex-anal.com,analdin.com,analgoals.com,analratings.com,animeindo.cc,animeindo.fun,animejpg.com,animekage.net,animesfox.com.br,annoncesescorts.com,antarvasnastories.com,antavasnasexkahani.com,anusling.info,anynude.net,anyporn.com,anysex.com,arabxnx.com,area51.porn,ariestube.com,articlix.com,artium.org,arturia.com,asian-teen-sex.com,asianbabestube.com,asiancosplayporn.com,asianhamster.com,asianpornphoto.net,asianporntube69.com,asianstubefuck.com,asianteenagefucking.com,asianxxxvideo.net,asiashort.link,astucito.com,atdhe.cc,av-uncen.com,avyahoo.com,axporn.com,babesexpress.com,babesinporn.com,babesjoy.com,babesvagina.com,babeswp.com,babesxworld.com,bananamovies.net,banglachoti-story.com,banglasexstories.net,bangx.org,bangyourwife.com,barfuck.com,barurotero.net,baseballminsk.com,basiltube.com,bbw.com.es,bbw6.com,bbwfest.com,bbwfuckpic.com,bbwpussypics.com,bdsm-fuck.com,bdsm-photos.com,bdsm6tube.com,bdsmporn.cc,bdsmpornfilms.com,bdsmporntub.com,bdsmslavemovie.com,bdsmstreak.com,bdsmwaytube.com,beautyass.com,beegsexporn.com,befap.com,belloporno.com,best-free-sex-stories.com,best-xxxvideos.com,best18teens.com,bestanime-xxx.com,bestblackgay.com,bestfootfetishtube.com,bestgrannies.com,besthentaitube.com,besthugecocks.com,bestjapaneseporn.net,bestlist.top,bestmaturewomen.com,bestofpornreviews.com,bestpussypics.net,bestshemaleclips.com,betterhdporn.com,bigassphotos.com,bigasspictures.net,bigbangtube.com,bigboobs.com.es,bigcocker.com,bigcockgaytube.com,bigcockhub.com,biggestasspics.com,bigtitsxxxfree.com,bigtitsxxxsex.com,bioskop10.com,birdurls.com,bisexual-mmf-sex.com,bitearns.com,bitfly.io,bitporno.com,black-matures.com,black-porn-pics.org,blackamateursnaked.com,blackchubbymovies.com,blackedtube.com,blackmaturevideos.com,blackpornhq.com,blackpornset.com,blacksexmix.com,blackteen.link,blasensex.com,blowjobamateur.net,blowjobgif.net,blowjobpornset.com,blowxtube.com,blowxxxtube.com,bobolike.com,bobs-tube.com,bolly-tube.com,bollywoodx.org,boobsforfun.com,boolwowgirls.com,booru.eu,borwap.xxx,branitube.net,bravoerotica.com,bravoteens.info,brazzersbabes.com,breedingmoms.com,brokenteen.net,bucetaspeludas.com.br,buonaporno.com,bustmonkey.com,bustybloom.com,bustyfats.com,bustyshemaleporn.com,buttjuiceslurpers.com,callfuck.com,camarads.com,camarchive.tv,camcam.cc,camrouge.com,camuploads.com,camwebtown.com,canalporno.com,cartoonmonstersporn.com,cartoonporncomics.info,cartoonpornpedia.com,cartoonvideos247.com,carvetube.com,cbt-tube.net,cekc-tube.ru,celebrity-leaks.net,celebrityleakednudes.com,celebritynakeds.com,celebsnudeworld.com,centralboyssp.com.br,cercagirl.com,cerdas.com,cfwives.com,chicasdesnudas.xxx,chicoscam.com,chieftube.com,chopris.com,chubbyelders.com,chubbypornmpegs.com,chyoa.com,cinemabg.net,classicpornbest.com,classicpornvids.com,classicxmovies.com,clicporn.com,clipwatching.com,clothing-mania.com,club-flank.com,cockmeter.com,cockpornpics.com,cocksexpics.com,cocogals.com,cocoporn.net,collegeteentube.com,comic-porno.com,comicspornos.com,comicxxx.eu,coolpornblog.com,coquinetv.com,cosepermaschi.it,cosplaypornonline.com,couplevideos.net,crockotube.com,crossdresserhub.com,crybdsmporn.com,cryptoads.space,csrevo.com,cuckold-videos.org,cuckold.it,cuckoldmature.com,cumlouder.com,cumshotlist.com,cunnilingslist.com,cutieporno.com,czechsex.net,czechvideo.org,dads-banging-teens.com,daftporn.com,dailylesbianporn.com,daporngifs.com,datingfuckdating.com,dawntube.com,debridup.com,decorativemodels.com,deepthroat-porn.com,deliciousbabes.org,desihoes.com,desimms.co,desimmshd.com,deutschepornos-kostenlos.com,deutschsex.com,devilporn.org,digitalbeautybabes.com,dimtus.com,diniofollando.com,dirtyasiantube.com,dirtybadger.com,dirtyfox.net,dirtygangbangs.com,dirtyporn.cc,dirtytamil.com,dirtytubemix.com,dlouha-videa.cz,do-xxx.com,domahatv.com,domahi.net,domashka.tv,dominantwifeporn.com,donna-cerca-uomo.com,dorevitch.com.au,dosexybabes.com,dotfreesex.com,dotfreexxx.com,doujinshi.rocks,douxporno.com,dragon-ball-super.net,dreamamateurs.com,drsnysvet.cz,drumstube.com,drunkmoms.net,dump.xxx,dumpz.net,easymilftube.net,ebonyamateurphoto.com,ebonyassclips.com,efappy.com,efxx.ru,ehotpics.com,electsex.com,embedy.me,empflix.com,empowher.com,empressleak.biz,en.firstrowi.com,enjoyfuck.com,enormousbabes.net,entertubeporn.com,entrejuegosgratis.com,eporner.com,erett.sex.hu,ero18.cc,erobdsm.com,eroclips.org,erofus.com,erogen.su,eroprofile.com,erospots.info,erotichdworld.com,erotichun.com,eroticteen.com,eroticteensphoto.net,erowall.com,eroxia.com,escort-in-italia.com,escortconrecensione.com,eurocali.it,everysextube.com,exclusiveindianporn.com,exe.app,exgfamateurporn.com,exposedlyrics.com,extremetube.com,ezbit.co.in,faapy.com,family-incest-sex.com,familyporn.tv,familypornhd.com,famosas-desnudas.org,famousnipple.com,famuathletics.com,fantasti.cc,fapality.com,faperplace.com,fapset.com,fatblackmatures.com,fattubevideos.net,fatwhitebutt.com,fatxxxtube.com,favefreeporn.com,fc.lc,fcc.lc,femdom-joi.com,femdomporntubes.com,femdomtube.xxx,femdomworld.com,femjoybabes.com,fetish-bb.com,fetish-tv.com,fetishpornforum.com,fetishshrine.com,ffjav.com,fickenporno.com,fifisex.com,figtube.com,fileone.tv,filestore.to,filleagrosseins.com,filman.cc,filmpornofrancais.fr,filmstreamy.com,filth4you.com,filthydionizos.com,findtranny.com,fineretroporn.com,finevids.xxx,fireporns.com,firstrow1us.eu,firstrowsportes.net,firstsrowsports.com,firstsrowsports.tv,fisting-thumbs.com,fitteasatismerkezi.com,folgenporno.com,forced-porn-thumbs.com,free-gay-clips.com,free-sex-video.net,free-trannyporn.com,freeadultvideos.cc,freeboytwinks.com,freefatpornmovies.com,freegrannypornmovies.com,freegrannyvids.com,freehardpornhub.com,freehindisexstories.com,freehqporn.net,freehqtube.com,freeimagefap.com,freelatinapics.com,freematureasses.com,freematuresexpics.com,freeomovie.info,freepornasia.com,freepornhdonlinegay.com,freepornik.com,freepornjpg.com,freepornstream.cc,freepornstreams.org,freepornvideo.sex,freepornvintage.com,freesex-1.com,freesexgames1.com,freesexvideos24.com,freestreams.eu,freetubegalore.com,freevintageporn.net,freevintagetube.com,freexcelebs.com,freexmovs.com,freexxxvideos.pro,freeyounggayporn.com,freshbbw.com,freshebonytubes.com,freshmaturespussy.com,freshscat.com,freshsexxvideos.com,freshshemaleporn.com,freundinsex.com,freyalist.com,fromasstomouthpics.com,frostytube.com,frprn.com,ftopx.com,fuck-album.com,fuckedbyparents.com,fuckedporno.com,fuckhairygirls.com,fuckhardporn.com,fuckhottwink.com,fuckingsession.com,fuckmilf.net,fuckmimimi.com,fucknsex.com,fucksexybabes.com,fuckslutsonline.com,fuckvideos.adult,fuckvideoshot.com,fuckvideosxxx.com,fullhdxxx.com,fullpornmovies.net,fullxxxmovies.me,fullxxxmovies.net,fullyhd.com,funimg.net,fuqer.com,fuqporn.net,furryporn.xxx,futbolhoy.com.ar,fux.com,gallant-matures.com,gameofporn.com,gangbangasm.com,ganstamovies.com,gatasdatv.com,gay-boys-xxx.com,gay-dicks.com,gay-streaming.com,gayarrangement.com,gaybondagemale.com,gayboyshd.com,gayboystube.com,gayfuckingass.com,gayhardfuck.com,gayporndepot.com,gaypornlove.net,gaypornmasters.com,gaypornwave.com,gaystream.pw,gayteenshd.com,gayvideo.me,gayxxxtube.net,gayyoungporn.com,gcruise.com,generalpornmovies.com,germanxvids.com,get-to.link,getitinside.com,ghettopearls.com,ghostbabes.com,giantshemalecocks.com,giddyteens.com,gifcandy.net,gifsfor.com,gigporntube.com,gir18.com,girl-creampie.com,girl-directory.com,girlfuckgalleries.com,girlnude.link,girls-pron.com,girlsboom.ru,girlscanner.cc,girlssexxxx.com,glamourxxx-online.com,go-xxx-go.com,goatd.me,godjapan.com,gojav.co,goldesel.to,goloeporno.com,gonewild.co,gonzoporn.cc,good-babes.com,goodcomix.tk,gopornindian.com,gosexpod.com,gotporn.com,goxxxvideos.com,grandmatube.pro,grannybeautypics.com,grannycutepics.com,grannyfucko.com,grannyfuckxxx.com,grannypicsdaily.com,grannyporn.name,grannypornpics.com,grannypornpicture.com,grannypornpictures.com,grannysex.name,grannysexphoto.com,grannysexypics.com,grannysfucking.net,grannyslutphoto.com,grannyxxxtube.net,greatestshemales.com,greatnass.com,greensmut.com,greenstrapon.com,grouppornotube.com,grouppornxxx.com,guruofporn.com,guyswithiphones.com,haho.moe,hairy-amateurs.com,hairybeautyphoto.com,hairygirlnaked.com,hairytwat.org,hanimesex.com,hanimesubth.com,happyschlumpftag.com,hardanalsexvideos.com,hardcorehd.xxx,hardcorepornhot.com,hardfacefuck.com,hardsextube.com,hcbdsm.com,hclips.com,hd-analporn.com,hd-freeporn.com,hd-tube-porn.com,hd-world.org,hd-xxx.me,hdbigassporn.com,hdfuckxxx.com,hdgayporn.net,hdjavonline.com,hdmoza.com,hdpicsx.com,hdporn8.com,hdpornole.pl,hdpornpussy.com,hdpornt.com,hdpornteen.com,hdpornzap.com,hdtube.porn,hdtubesex.net,hdzog.com,hentai-hot.com,hentaiarena.com,hentaibrasil.info,hentaicore.org,hentaidream.org,hentaienglish.com,hentaifox.com,hentaifurryporn.com,hentaihand.com,hentaiporn.com.es,hentaiporno.xxx,hentaipulse.com,hentairider.com,hentaitk.net,hentaiwagon.com,hentaiyes.com,heroine-xxx.com,hiddencamhd.com,hindiporno.pro,hindisexkahaniyan.com,hitomi.la,home-made-videos.com,home-xxx-videos.com,homemature.net,homemoviestube.com,hoporno.net,hornbunny.com,hornybitches.org,hornyfanz.com,hornyhotmoms.com,hornyteenpussy.com,hot-sex-tube.com,hotasiadate.com,hotclips24.com,hotgayporn.pro,hotgirl.biz,hotgirlclub.com,hotgirlhub.com,hotjapantubes.com,hotmarathistories.com,hotmaturegirlfriends.com,hotmaturetubes.net,hotmilfgalleries.com,hotmilfpictures.com,hotmirrorpics.com,hotmomsnude.com,hotmomspussy.com,hotmovs.com,hotmoza.com,hotnakedteenporn.com,hotntubes.com,hotnudegirlporn.com,hotpornfile.org,hotpornlove.com,hotpussyhubs.com,hotsexlove.com,hotsexyteen.com,hotsexyteenspics.com,hotstep-mom.com,hotstunners.com,hotteenpornpics.com,hotteensexpics.com,hotvintagetube.net,hotxnxxporn.com,hotyounggirls.net,hqamateurtubes.com,hqhardcoreporno.com,hqsex-xxx.com,hqxxxmovies.com,i-analporn.com,ibradome.com,ideal-teens.com,idealhentai.com,ifreefuck.com,ileak.xyz,ilivestream.com,iluvtoons.com,imagedecode.com,imagenesmy.com,img2share.com,imgadult.com,imgbaron.com,imgclick.net,imgcloud.pw,imgdawgknuttz.com,imgdew.com,imgdew.pw,imgdone.com,imgdrive.net,imgking.xyz,imgkings.com,imgmaid.net,imgmaze.pw,imgnemo.com,imgoutlet.com,imgpeak.com,imgprime.com,imgrock.info,imgrock.net,imgrock.pw,imgsay.com,imgspice.com,imgstudio.org,imgtaxi.com,imgtornado.com,imgtorrnt.in,imgtown.net,imgtown.pw,imzog.com,incontri-in-italia.com,indecentvideos.com,indian-sex-porno-movies-stories.com,indianbestporn.com,indianpornnetwork.com,indianxxx.us,infinityerotic.com,ingyenszexvideok.hu,interflora.co.uk,interflora.ie,ipornia.com,ipornpictures.com,isohunt.lol,isohuntz.net,italianoxxx.com,itasshub.com,iteenpornpics.com,iwantgalleries.com,iwantmature.com,jadsex.net,japaneseasmr.com,japanesefuck.com,japanesemomsex.com,japaneseporndownload.com,japanesepornvideos.net,japanfuck.com.es,japanpornvideo.net,japanstubes.com,japansvids.com,japantaboo.com,japanxxxass.com,japon-porno.com,japornhd.com,jav-xx.com,jav380.com,jav688.com,jav789.com,javbest.xyz,javbix.com,javboys.com,javbuz.com,javfav.com,javgrab.com,javhdfree.net,javhihi.com,javhun.com,javix.net,javkiki.com,javlovers.club,javmelon.com,javnew.net,javonline.space,javpool.com,javrave.club,javteentube.com,javtiful.com,jemontremabite.com,jemontremasextape.com,jemontremonminou.com,jenpornuj.cz,jesseporn.xyz,jigglegifs.com,juicy3dsex.com,juicyflaps.com,juicygif.com,juicygranny.com,justababes.com,justsexpictures.com,kaboomtube.com,kak.xxx,kamasutra-sex-shop.com,kaotic.com,kelly-hu-nude.com,kendralist.com,kenzato.uk,kiaporn.com,kickporn.com,kiminime.com,kingsofteens.com,kinkyporn.cc,kisscartoon.pro,kissdoujin.com,kisshentai.net,kittyfuckstube.com,klaustube.com,klikmanga.com,komikstation.com,komiraw.com,kompoz2.com,korean-sex-video.com,koreancreampie.com,koreansexporn.com,kporno.com,krank.de,kropic.com,ks6col.com,labibledesastuces.com,lanasbigboobs.com,latexgirls.org,latinohentai.com,latinoweb-tv.com,lawanswers.com.au,lesbianic.com,lesbianloveclub.com,lesboluvin.com,letfap.com,lewdweb.net,lightxxxtube.com,likuoo.video,limetorrents.info,line25.com,linkdrop.net,lizardporn.com,ljcam.net,loanadministration.com,lonely-mature.com,longporn.xyz,lovelynudez.com,loverscum.com,lshunters.tv,luscious.net,lushdiaries.com,lustteens.net,lustylist.com,lustyspot.com,lux-teen-pics.com,luxmoms.com,luxviral.com,madchensex.com,mahalogrille.com,mainporno.com,majesticbabes.com,malehardcocks.com,malleys.com,mamisamateur.com,mamochki.info,manga18fx.com,mangamovil.net,mangaonline.fun,mangarussia.com,mangoparody.com,mangoporn.co,mangoporn.net,mangovideo.pw,manikusa.com,marchetravelling.com,massagecreepblog.com,massagefreetube.com,mature-chicks.com,mature-xxx-videos.com,mature4.net,maturegrannypics.com,maturemilfs.net,maturemomhot.com,maturemompics.com,maturemomspics.com,maturepicspussy.com,maturepornjungle.com,maturepornphoto.com,maturepornpics.me,maturesfuck.com,maturesinhd.com,maturewithyoung.com,maturexxxclips.com,maturexxxtube.net,maxcuckold.com,maxtubeporn.net,me-tube.com,meet-women-now.com,megaboobsgirls.com,megafreepics.com,megahugetits.com,megajapansex.com,megaliveporn.com,megapornfreehd.com,megasesso.com,megatube.xxx,meporno.com,miceay.com,miexnoviadesnuda.com,migliori-escort.com,milfhdvideos.com,milfjam.com,milfmomporn.com,milfpussy-sex.com,milfsaloon.com,milfshow.com,milfspics.com,milfspictures.com,milftoon.xxx,mimimiporn.com,misterboys.com,mmhiphopchannel.com,mobifuq.com,mobileasiantube.net,modelsxxxtube.com,mom-fuck.me,mom-pussy.com,mom-x.com,momandyoungboys.com,momjerk.com,mommy-pussy.com,mommyporntube.com,momsfuckdudes.com,momsoclock.com,momspost.com,momsprice.com,momstube-porn.com,momthumb.com,monporntube.com,monsterattack3dporn.com,moregirls.org,morexnxxporn.com,motherandboyvideos.com,movies18.net,moviesinspector.com,moviesxxx.cc,mp4-porn.net,mrcong.com,mrporngeek.com,mrsexe.com,muchfap.com,mujeres-desnudas.com,multporn.net,muschitube.com,musicatorrents.com,musvozimbabwenews.com,mybbwtube.com,mybestxtube.com,mycumx.com,mydesibaba.com,mydesiboobs.com,myfreeecams.mobi,myfreemoms.com,myfreesexpics.com,myfreevintageporn.com,mygalls.com,myhentai.tv,mylust.com,mynakedteens.com,mynudez.com,myp1p.eu,myp2p.biz,mypiratebay.best,mypiratebay.club,mypiratebay.co,mypiratebay.life,mypiratebay.live,mypiratebay.me,mypiratebay.surf,mypiratebay.win,mypiratebay.work,mypiratebay.wtf,mypiratebay.xyz,mypornpics.com,mypornstarbook.net,myreadingmanga.info,mystore.to,myteensexpics.com,myvintageporntube.com,myyoungbabe.com,mzansifun.com,nackte.com,nakedamateurs.link,nakedbbw-sex.com,nakedgirls.link,nakedgirlspornpics.com,nakedmature.sexy,nakedmaturemoms.com,nakedmaturestubes.com,nakedmilfs.sexy,nakedselfphotos.com,nakedteenporn.com,nakenprat.com,nangiphotos.com,nanoporns.com,narutohentaisexxx.com,narutohentaixxxpics.com,nastyhardporn.com,naughtyza.co.za,neatfreeporn.com,neatpornodot.com,needgayporn.com,netfapx.com,netflixporno.net,newchallenges.com.mm,newestxxx.com,newgrandmapictures.com,newretroporn.com,newsextv.com,newtorrentgame.com,newxxxvideos.net,newytstorrent.com,nicemilfpics.com,nicesexytoons.com,nicexxxtube.com,nicheporno.com,nightlifeporn.com,niknieg.com,novinhassafadinhas.com,novoboobs.com,novoerotica.com,novohot.com,nsfw247.to,nsfwalbum.com,nude-beach-tube.com,nude-teen-18.com,nudebabes.sexy,nudeblackgirlfriend.com,nudedxxx.com,nudehotmoms.com,nudematuremilfs.com,nudemomshots.com,nudeperfectgirls.com,nudesexymoms.com,nudeteenporn.com,nudeteenpornsex.com,nudeteenpussy.com,nudevista.at,nudevista.be,nudevista.com.br,nudevista.com.pl,nudevista.es,nudevista.net,nudevista.se,nudeyoungporn.com,nudeyoungteen.com,nudismteens.com,nudistbeach-pics.com,nudisteens.com,nudistic.com,nudistube.com,nurlesben.com,nylonbabez.net,ohueli.net,ok-gay.com,ok.xxx,okporn.com,olalatube.com,older-mature.net,oldgrannylovers.com,oldsluthardcore.com,oldwomanfuck.net,oldwomansex.net,oldwomensex.net,onepunch-manga.com,online-xxxmovies.com,onlinefetishporn.cc,onlinefucktube.com,onlinegrannyporn.com,onlineporn24.com,onlinepornushka.com,onlinesextube.com,onlineteenhub.com,onlinexxx.cc,onlybestxxx.com,onlyfullporn.com,onlygangbang.com,onlygayvideo.com,onlygoldmovies.com,onlyhgames.com,onlylesbianvids.com,onmpeg.com,ooo-maturesex.com,oosex.net,ooxxtube.com,openpirate.org,orgasmlist.com,orgyxxxhub.com,owllink.net,pages4adult.com,palimas.tv,pandamovies.me,pandamovies.pw,pandaporn.net,panduansaya.com,pantyhosecool.com,paralink.com,parapetite.info,parspack.com,passpix.com,pbabes.com,pbangels.com,peachytube.com,pearl-perm.com,pedant.ru,peetube.cc,pelisandseries.net,penis-milking.com,penisbuyutucum.net,perfectgirls.es,perfectgirls.net,perfectgirlspussy.com,perfectnudegirls.com,perfektdamen.co,pervclips.com,pervertedmilfs.com,petitegirlsnude.com,pezporn.com,phatdaddygayporn.com,pic-xxx.com,picbank.tk,pichaloca.com,picmoza.com,picsfuck.org,picspornamateur.com,pictoa.com,picturelol.com,piczki.pl,pinayot.com,pinayviralsexx.com,pinflix.com,pinkporno.com,pinkporno.xxx,pinkteenpics.com,piratebay.cloud,piratebay.live,piratebay.party,piratebay.world,piratebayproxy.live,piratebays.wtf,pirateproxy.live,pirateproxy.surf,pirateproxy.us,pixhost.to,playpornfree.xyz,pleasuregirl.net,plumpxxxtube.com,plusone8.com,poapan.xyz,polochka.net,pomelotube.com,popcorntimes.ws,poringa.net,porn-hd-tube.com,porn-image.net,porn-sexypics.com,porn-star101.com,porn.com,porn.goshow.tv,porn0.tv,porn18sex.com,porn300.com,porn555.com,porn613.net,pornabcd.com,pornbestdirectory.com,pornbestpics.com,pornchaos.org,pornchimp.com,pornclipshub.com,pornclipsxxx.com,porncomics.me,porndaa.com,porndavid.com,porndeva.com,pornditt.com,porndoe.com,porndollz.com,pornerbros.com,porneva.com,pornexpanse.com,pornforrelax.com,pornfreemom.com,porngayclips.com,porngem.com,porngirlstube.com,porngq.com,pornhail.com,pornhat.com,pornhd.com,pornhd8k.me,pornhd8k.net,pornhdin.com,pornhegemon.com,pornhugo.com,pornicom.com,pornj.com,pornkickme.com,pornkino.cc,pornl.com,pornlivehd.com,pornloupe.com,pornlovo.co,pornmaki.com,pornmam.com,pornmaniak.com,pornmaturetube.com,pornmom.net,pornmoms.org,pornnudexxx.com,porno-doma.com,porno-porno.net,porno-up.net,porno-zhena.com,porno01.net,porno666.com,pornoaid.com,pornoanimexxx.com,pornobae.com,pornobengala.com,pornobr.ninja,pornocolegialas.org,pornocrados.com,pornodoido.com,pornodom.tv,pornohaha.com,pornohotxxx.com,pornokeep.com,pornomanoir.com,pornomovies.com,pornone.com,pornonline.cc,pornonote.pro,pornoperra.com,pornoreino.com,pornoserver.eu,pornoteensex.com,pornovideoshub.com,pornovka.cz,pornozot.com,pornpapa.com,pornpy.com,pornrabbit.com,pornrox.com,pornsearchengine.com,pornsex-pics.com,pornsilo.net,pornstarsadvice.com,pornstarsluv.com,porntin.com,porntube.com,porntube18.cc,porntubeplace.net,porntubert.com,porntui.com,porntui.com,pornuploaded.net,pornv.porn,pornvideohunter.com,pornvideoj.com,pornvideos247.com,pornvideoslove.com,pornvideotop.com,pornwatch.ws,pornwatchers.com,pornwhite.com,pornxs.com,pornxxxplace.com,pornxxxvideos.net,pornyeah.com,pornyfap.com,pornzone.com,preggo-pics.com,pregnantsexvids.com,premiumjav.com,primewire.li,priva.us,privateindianmovies.com,pronworld.com,prostoporno.mobi,prostoporno.sexy,prostylex.com,pulandit.com,pure-nudists.com,pureandsexy.org,purenudismpics.com,pussygirls.com,pussyhothub.com,pussymaturephoto.com,pussymoms.com,pussyspace.com,pussyspot.net,pussystate.com,putainporno.com,pvideo.cz,pygodblog.com,pytube.org,qqxnxx.com,queenofmature.com,queerclick.com,queerdiary.com,quincetube.com,rabbitsfun.com,raccontimilu.com,raccontivietati.com,rainytube.com,rapidzona.tv,raptormovies.com,rawindianporn.com,rawofficethumbs.com,real-homemade-movies.com,realbbwsex.com,realbdsmpics.com,realfattube.com,realgfporn.com,realitybrazzers.com,reallatinaporn.com,realvoyeursex.com,reamporn.com,redamateurtube.com,reddflix.com,redgay.net,rednowtube.com,redpornblog.com,redpornnow.com,redtub3xxx.com,redwap.me,reefpiermont.com,regularshowporn.com,relatosdiarios.com,repairlinkshop.com,repicsx.com,retroporn.sexy,rexporn.com,ritzyamateursex.com,ritzyporn.com,ritzysex.com,rl-porevo.net,roma.escortsuper.com,rossoporn.com,rough-teen-sex.com,roughebonysex.com,roughsexpic.com,rounddreams.com,rranime.com,ruedux.com,ruenu.com,rule34hentai.net,rushporn.com,russianmaturetube.com,russkoevideoonline.com,rusteensex.com,saavndownload.com,salooope.com,santoinferninho.com,saradahentai.com,sassytube.com,sassytwinks.com,savelink.site,sawstory.com,scallyguy.com,scorpiotube.com,screenhumor.com,securemeters.com,see-xxx.com,see.xxx,seed69.com,seksrura.net,seneporno.com,sensibleendowment.com,sensualgirls.org,seqing.world,sesso-escort.com,sex-amateur-clips.com,sex-babki.com,sex-pic.info,sex-with-mom.com,sexato.com,sexgay18.com,sexgirlsfucking.com,sexgrandmapics.com,sexhardtubes.com,sexhayvc.com,sexhdtuber.com,sexiestpicture.com,sexlargetube.com,sexmadeathome.com,sexmilf.net,sexmoza.com,sexmv.com,sexoamadorcorno.com,sexocean.com,sexoparalelo.com,sexoverdose.com,sexpuss.org,sexrura.com,sexrura.pl,sextube-6.com,sextubedot.com,sextubent.com,sextubeset.com,sextubexxl.com,sexu.com,sexxxxteenvideo.com,sexy-games.eu,sexy-parade.com,sexy-streaming.com,sexy-youtubers.com,sexyasianteenspics.com,sexybabes.club,sexydilia.com,sexyebonyteen.com,sexyhotteens.com,sexyhub-tube.com,sexykittenporn.com,sexymature.net,sexymaturepussy.com,sexymilfsearch.com,sexynakedgirlspics.com,sexynakeds.com,sexynudetoons.com,sexyoungclips.com,sexyteengirlfriends.net,sexyteenspussy.com,sexytrunk.com,shameless.com,shelovesporn.com,shemalemovies.us,shemalepic.net,shemaleroom.com,shemalestreet.com,shemaletubz.com,shemalez.com,sheshaft.com,shockingmovies.com,short.croclix.me,shwemyanmar.com.mm,silvermilfs.com,simply-hentai.com,singlove.com,sissytube.net,sitarchive.com,skidrowcpy.com,skinnyhq.com,skygals.com,slaughtergays.com,sleazedepot.com,sluktoersten.dk,slutdump.com,sluttyblack.com,smatricom.net,smotret-porno-onlain.com,smplace.com,sokobj.com,sollan.co.il,solopornoitaliani.xxx,somulhergostosa.com,sonorousporn.com,soyoungteens.com,spankwire.com,speedporn.net,spermswapclips.com,spycamsexvideos.com,spycock.com,spyvoyeur.net,sss.xxx,stalkerbt.ru,stepsisterfuck.me,stileproject.com,strangertits.com,stream-69.com,stream2watch.eu,streamextreme.cc,streamhunter.net,streamhunter.top,streaming-ebony.com,streamingporn.xyz,streamporn.cc,streams2watch.me,streamsfinder.com,subdivx.com,submissive-wife.net,submityourflicks.com,sunnyboobs.com,sunporno.com,sunyacc.edu,superbgays.com,supremebabes.com,sweet-maturewomen.com,sweetadult-tube.com,sweetgirl.org,sweetlesbianmovies.com,sweettwinks.com,swipe.xxx,sxyprn.com,sxyprn.net,szexkepek.net,szexvideok.hu,taboo-dreams.com,tabooporn.tv,taianhsex.com,tamilsexstory.net,tarjetarojaonline.org,taxi69.com,tbib.org,teen-fucktube.com,teen-hd-sex.com,teen-tube-18.com,teen-tube-19.com,teen-tube-21.com,teen-tube-porn.com,teen18hd.com,teenage-nudists.net,teenagefucking.com,teenassporn.com,teenbabe.link,teencamx.com,teenextrem.com,teengirlsporn.com,teenhost.net,teenhubxxx.com,teennudegirls.com,teenpicspussy.com,teenporn-yes.com,teenporn.ws,teenpornjpg.com,teenporntube.xxx,teenporntubea.com,teenpornvideo.xxx,teenpornvideos.me,teens-flashing.com,teens-fucking-matures.com,teensalute.com,teensaura.com,teensex0.com,teensex7.com,teensextube.xxx,teensexvideos.me,teensfuck.me,teenskitten.com,teensneedsex.com,teensonporn.com,teensporn.tv,teenspornpictures.com,teentube-18.com,teenxxxporn.pro,teenyoungpussy.com,telugusexkathalu.com,temptingangels.org,thebarchive.com,theboobsblog.com,thecartoonporntube.com,thedoujin.com,thefamilyguyporn.com,thegay.com,thegay.porn,thehentaiworld.com,thehiddenbay.com,thelesbianporn.com,thematurexxx.com,thepiratebay.org,thepiratebay.zone,thepiratebay0.org,thepiratebay10.org,theshemaletubes.com,theteensexy.com,theyarehuge.com,thisav.com,thisav.video,thisvid.com,thousandbabes.com,tii.ai,timetoteens.com,titsbox.com,tmohentai.com,tnaflix.com,tokyorevengersmanga.com,tomatespodres.com,tomodachinpo.com,tongabonga.com,toonanime.co,topasiantube.net,toplesbianporn.com,topsitestreaming.info,torrent-pirat.com,torrentgalaxy.org,torture1.net,tourporno.com,tpb.party,tpb.red,tpornstars.com,trahodom.com,tranny.one,tranny6.com,trannylibrary.com,trannysexmpegs.com,trannyxxxtube.net,transexuales.gratis,transsexplace.com,tryboobs.com,ts-mpegs.com,tsmovies.com,tstubexxx.com,tube-pornomovs.com,tube-teen-18.com,tube18.sex,tubebikini.com,tubedupe.com,tubedxxx.com,tubeflv.com,tubegaytube.com,tubeline.biz,tubemilfxxx.com,tubepornanal.com,tubepornasian.com,tubepornclassic.com,tubepornnow.com,tubepornstock.com,tuberel.com,tuberl.com,tuberzporn.com,tubes.live,tubesex.me,tubesfuck.com,tubevintageporn.com,tubexo.tv,tubexxxexcellent.com,tubous.com,tubsexer.com,tuhentaionline.com,turbogvideos.com,tvmd.info,tvporn.cc,twatis.com,twinksfuck.me,twinkybf.com,twistedporn.com,txxx.com,uflash.tv,uiz.io,uiz.one,ulsex.net,ultra-sexe.com,ultragranny.com,ultrateenporn.com,uncensoredleak.com,unhas.ac.id,uniqueten.net,uniqxxxtube.com,up-load.io,upicsz.com,upornia.com,uporno.xxx,upskirtporn.de,usaxtube.com,venusarchives.com,ver-mangas-porno.com,verpeliculasporno.gratis,videoporncock.com,videopornoamatoriale.it,videos-xxx.biz,videosdotados.com,videosesso.com,videosputas.xxx,videosxxxporno.gratis,videosxxxputas.com,videoxxx.cc,vidspace.io,vidtube.xxx,viewmature.com,vikiporn.com,vintageporntubes.com,vintagepornvideos.sexy,vintagevideotube.com,vipbox.biz,vipboxing.eu,viralxvideos.es,vivud.com,vixvids.to,vjav.com,vkrovatku.com,voyeurblog.net,voyeurcentre.com,voyeurhit.com,voyeurxxxsex.com,vqporn.com,vqtube.com,vsaporn.com,vzrosliedamy.com,wallpaperspic.pw,wankoz.com,wannafreeporn.com,wantedmovies.com,wantmature.com,watchfreenet.org,watchfreexxx.net,watchfreexxx.pw,watchmyexgf.net,watchporn.cc,watchpornfree.ws,watchseries1.video,watchxxxfree.pw,wauporn.com,waybig.com,webcamsdot.net,webdesigndev.com,webringporn.com,wetpornvideos.net,wetpussy.sexy,wetsins.com,whatav.com,whatsselfies.com,whichav.com,whichav.net,whitepussygoesblack.com,whitexxxtube.com,wifeporn.de,wikimilf.com,wildmaturemoms.com,wildpictures.net,wildretroporn.com,wildteenporn.com,wisiwig.eu,wiziwig.ru,wiziwig.to,wonporn.com,worldsex.com,wow-mature.com,wowasiangirls.com,wowbdsm.com,wowjapangirls.com,wowjapangirls.net,wowpornlist.xyz,wowpornvideos.com,wowxxxtube.com,x-movie7.com,x-videos.name,x24.video,xanimeporn.com,xasiat.com,xbooru.com,xboys.me,xboyzzz.com,xcafe.com,xecce.com,xfilmen.com,xfuckonline.com,xhamsterteen.com,xkeezmovies.com,xlecx.org,xmoviesforyou.net,xnnxfree.com,xnxx-downloader.net,xnxx.irish,xnxx.party,xnxxhamster.net,xnxxpornsex.com,xnxxvideo.pro,xnxxvideoporn.com,xopenload.pw,xpicse.com,xpornfuck.com,xpornphotos.com,xsexpics.com,xspiel.com,xsportshd.com,xstory-fr.com,xtapes.me,xtwinks.me,xvideos-downloader.net,xvideos.name,xvideos.tv.br,xvideosxporn.com,xwhite-tube.com,xxx-asian-tube.com,xxx-babysitters.com,xxx-hd-teens.com,xxx-hd-tube.com,xxx-photo.com,xxx-videos.org,xxx-y.com,xxx3dmobileporn.com,xxx3dmonsters.com,xxx3dsluts.com,xxxadd.com,xxxblowjob.pro,xxxbule.com,xxxcomics.org,xxxery.com,xxxfat-videos.com,xxxfreepornpics.com,xxxhardcoretube.com,xxxholder.com,xxxity.com,xxxkingtube.com,xxxmomsonline.com,xxxmoviestream.xyz,xxxnakedpics.com,xxxnudeteens.com,xxxonline.cc,xxxopenload.com,xxxparodyhd.net,xxxpornotube.net,xxxputas.net,xxxrapid.com,xxxretro.pro,xxxscenes.net,xxxstream.me,xxxstreams.org,xxxtor.com,xxxtubedot.com,xxxtubegain.com,xxxtubenote.com,xxxtubepass.com,xxxtubeset.com,xxxvideor.com,xxxvideostrue.com,xxxxselfie.com,y-porn.com,yes.xxx,yestubemature.com,yeswegays.com,yetimovies.com,yify-films.com,yoerotica.com,yogranny.com,youandjizz.com,youfreepornotube.com,young-ass.com,young-pussy.com,youngbelle.net,youngerasiangirl.net,youngerporn.mobi,youngpornpics.com,youngpornpussy.com,youngsex0.com,youngsexpics.com,youngsexygfs.com,youngteensporn.com,youngvirgingirls.com,youplayhere.com,youpornfm.com,your-daily-girl.com,youramateurtube.com,yourbitches.com,yourhomemadetube.com,yourlust.com,yourlust.mobi,yourtranny-sex.com,yousexvideos.net,youvideoporno.mobi,youwatchporn.com,ytanime.tv,yumstories.com,zbporn.com,zenfield.pro,zhlednito.cz#$#abort-current-inline-script document.dispatchEvent myEl; abort-on-property-read aNB; abort-on-property-read BetterJsPop; abort-on-property-read ExLdr.serve; abort-on-property-read exoDocumentProtocol; abort-on-property-read ExoLoader; abort-on-property-read ExoLoader.addZone; abort-on-property-read ExoLoader.serve; abort-on-property-read exoNoExternalUI38djdkjDDJsio96; abort-on-property-read ExoooLoooader; abort-on-property-read getexoloader; abort-on-property-read popit
 10co.biz,10co.xyz,10co.co,10co.me###popad
 10co.biz,10co.xyz,10co.co,10co.me#$##myTestAd { height: 1px!important; }
 10fang.com##.botad
@@ -7315,7 +7285,6 @@ $websocket,domain=5nj.com|cechi8.com
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##body > div[ad-dom-img]
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##div[id*="lottery"]
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##li[data-daid]
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com#$#abort-on-property-read Object.prototype.loadImage
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###forum_recommend
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_frs-aside\/pagelet\/hottopic
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###questionnaire_bg
@@ -7505,7 +7474,6 @@ $websocket,domain=5nj.com|cechi8.com
 172cat.com###adload
 173.192.147.21,sejie.com,sejie3.us,thesoccerline.com###wp > br
 173.192.147.21,sejie.com,sejie3.us,thesoccerline.com###wp > center > a
-178.com,nga.cn#$#abort-on-property-write __LOAD_BBS_ADS_12
 17ce.com##a[href="/site/api"]
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 17ce.com##section[id*="top_banner"]
@@ -7717,7 +7685,6 @@ $websocket,domain=5nj.com|cechi8.com
 2345.com##div[id^="J_Topic"]
 2345.com##div[id^="J_micro_zhuanti-"]
 2345.com##div[id^="bd-search-ad"]
-2345.com#$#abort-current-inline-script setDefaultTheme
 2345.com#?#.pic:-abp-has(a[href^="http://g.wan."])
 2345.com,duanwenxue.com###topHf
 24en.com##.article_part_top
@@ -7944,7 +7911,6 @@ $websocket,domain=5nj.com|cechi8.com
 3jy.com##.Rad
 3jy.com,maolihui.com##.lad
 3rxing.org###fullDD
-3sk.io,3sk.co,33sk.tv,esheeq.co#$#abort-on-property-read atob; abort-on-property-write Fingerprint2; abort-on-property-read decodeURIComponent; abort-on-property-read RegExp
 3yan.cn##img[style*="300px"]
 40407.com###nei_fmt
 40407.com###tcdgg
@@ -7955,7 +7921,6 @@ $websocket,domain=5nj.com|cechi8.com
 423down.com##.content > a
 423down.com##.content > h3 > a[rel="external nofollow"][target="_blank"]
 423down.com##.content > p[style]
-423down.com##.entry > p[style$="center;"]
 423down.com##.entry > p[style="font-size: 20px;"]
 423down.com##.entry > p[style^="color:red"]
 423down.com##.widget_d_banner
@@ -8243,7 +8208,6 @@ $websocket,domain=5nj.com|cechi8.com
 69story.com##aside#secondary > section[id="text-2"]
 69vj.com###nta
 69xx.one,69xx487.xyz,8mav.cc,av411.xyz,theav.xyz,thep178.com,theporn.cc,weav.xyz#?#[class]:-abp-has(>a>.q-responsive)
-69xx.one,theav.xyz,theporn.cc#$#override-property-read is_show false
 6fzd.com,eyy5.cn,fzd3.com##.area1
 6fzd.com,fzd3.com###comiis_app_block_22
 6fzd.com,fzd3.com###comiis_app_block_74
@@ -8576,21 +8540,10 @@ $websocket,domain=5nj.com|cechi8.com
 =AdCode_sjdb
 =Ad_ZPlusGoods&
 =BAIDU_SSP_define&
-=Busroll-$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
-=Ostatni$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
-=Pare-toll$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
-=Paretol-$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
-=Paretoll$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
-=Postroll$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
-=Preroll$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
-=Qa-retoll$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 =SOGOU_WAP_SETJSONADSLOT&
 =ad_top_slider&
 =ajaxGetAds&type=
-=autapay/*,|$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
-=js&lst=$script,domain=www.idnes.cz|expres.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz|iprima.cz|tiscali.cz|kinobox.cz|osobnosti.cz|karaoketexty.cz|nasepenize.cz|fights.cz|novinky.cz|super.cz|sport.cz|kupi.cz|horoskopy.cz
 =loginExtAD.
-=miniplayer/$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 =mumumoniqi-piaochuang-
 =window.awall.adblockwalltemplatefetchdef&
 ?*=*=*=$subdocument,domain=00cha.com|06ps.com|10000xing.cn|100how.com|1010jiajiao.com|1024sj.com|11467.com|114piaowu.com|192ly.com|1ppt.com|1ting.com|201980.com|21hubei.com|263y.com|2hanju.com|2liang.net|32r.com|32xp.com|360doc.cn|360zuowen.com|39.net|4aqq.com|5000yan.com|515fa.com|51edu.com|51sxue.com|51test.net|51zxw.net|52wubi.com|52zxw.com|5djiaren.com|5h.com|5nd.com|5seestar.com|64foot.com|66law.cn|7y7.com|86huoche.com|8794.cn|911cha.com|91jucai.com|91zhongkao.com|949949.com|9553.com|99.com.cn|9939.com|9ht.com|ab126.com|admin5.com|aihami.com|aiyangedu.com|aizhan.com|ankangwang.com|annhe.net|apple886.com|arpun.com|askci.com|aspku.com|atobo.com|b2b168.com|b2b6.com|baicaolu.net|baotang5.com|bbdj.com|bendibao.com|bianzhile.com|blog.sina.cn|boosj.com|bu-shen.com|bytravel.cn|c1km4.com|chajiaotong.com|chazidian.com|china.com|chinacar.com.cn|chinakaoyan.com|chinawj.com.cn|chuiyue.com|cidianwang.com|cjcp.com.cn|cnbanbao.cn|cncn.com|cnkang.com|cnlinfo.net|coozhi.com|cr173.com|cyyangqiguan.com|d17.cc|d1xz.net|daquan.com|dgzj.com|diangon.com|ditiezu.com|diyifanwen.com|diyju.com|dugoogle.com|dxsbb.com|eastday.com|enterdesk.com|exam58.com|fangdaijisuanqi.com|faxingzhan.com|friok.com|fun48.com|gaosan.com|gaotie.cn|gucheng.com|gugu5.com|guidaye.com|gulongbbs.com|gushiwen.cn|hc23.com|hqhot.com|huangye88.com|hxnews.com|hydcd.com|icauto.com.cn|idongde.com|isanxia.com|ixinwei.com|ixiunv.com|jeasyui.net|jf258.com|jianbihua.com|jinbaodm.com|jingdianlaoge.com|jintang114.org|jj20.com|jy135.com|latiaozixun.net|liuxue86.com|m.douban.com|makepolo.com|mama.cn|meishij.net|mipcache.bdstatic.com|miyudaquan.com|mmyuer.com|nanhuwang.com|oh100.com|pansoso.com|phb123.com|pig66.com|pikacn.com|pingguolv.com|pingshu8.com|ppzuowen.com|qcrx.cn|qcwxjs.com|qizuang.com|qm120.com|qncye.com|qqzhi.com|quwenqushi.com|riji.cn|ruiwen.com|sc115.com|shadafang.com|shenchuang.com|ssqzj.com|szdushi.com.cn|szhk.com|uzuzuz.com|webshu.net|wenkuxiazai.com|wenshenxiu.com|wenzhangba.com|wmxa.cn|woyaogexing.com|xiachufang.com|xiangha.com|xiao84.com|xiaole8.com|xiegw.cn|xywy.com|yanyue.cn|yellowurl.cn|yiqig.cn|yiyouliao.com|yjbys.com|yuwenmi.com|yxlady.com|yyrtv.com|zdface.com|zhifure.com|zhongyoo.com|zixuntop.com|ziyuanm.com|zjbiz.net|zuowen8.com|zuowenku.net|zuowenwang.net
@@ -8609,17 +8562,13 @@ $websocket,domain=5nj.com|cechi8.com
 ?adunit_id=
 ?adunitid=
 ?adzone=
-?bv=0&autoScaleBox=$media,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
-?client=ca-pub-$script,domain=karaoketexty.cz
 ?event=impressions&
 ?event=log&
 ?event=pageview&
 ?event=performance&
 ?event=performancelogger:
 ?file=ads&
-?format=js|$script,domain=iprima.cz
 ?frm=*&ct=*&dit=$third-party
-?guci=$subdocument,domain=iprima.cz
 ?key=$popup,domain=verystream.com
 ?local_ga_js=
 ?log=stats-
@@ -8631,7 +8580,6 @@ $websocket,domain=5nj.com|cechi8.com
 ?statify_referrer=
 ?type=page&event=
 ?type=pageview&
-?v127|$script,domain=iprima.cz
 Mplay/kk1.js
 ^monitor.jpg?xcode^
 _/bigREDcat.css?
@@ -8762,9 +8710,7 @@ acglover.me##.myas
 acgnx.net,acgnx.se##a > img[src^="/images/"]
 achaec.cc##[style*='px; bottom: 0px; left: 0px; z-index: ']
 achaec.cc##[style*='px; top: 0px; left: 0px; z-index:']
-acmemarkets.com,albertsons.com,andronicos.com,balduccis.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#$#hide-if-matches-xpath './/div[contains(text(),"Sponsored")]/parent::div/ancestor::div[contains(@class,"slick-product")][1]'; hide-if-matches-xpath './/div/div[contains(@data-qa,"spnsrd")][text()="Sponsored"]/parent::div/ancestor::div[contains(@class,"placeholder")][1]';
 acommunity.com.tw##.ai_widget
-actionz.tv,cimaclub.com,cimaclub.in,elmstba.com,hawak.net,hawak.tv,lodynet.cloud,lodynet.co,lodynet.dev,lodynet.ink,lodynet.tv,lodynet.win,rotana.video#$#abort-on-property-read decodeURIComponent
 actoys.net##.p_new_ad
 actoys.net##.p_top_ad
 actoys.net,hualongxiang.com##div[id^="ads_d_"]
@@ -8773,7 +8719,6 @@ acwifi.net##.widget_ssr
 acwifi.net,zhain8.com##.ssr
 ad-survey.com
 ad.doubleclick.net*trackimp$image
-ad0R$xmlhttprequest,domain=expres.cz|idnes.cz
 adbuck.cc###col_publi
 adbug.cn#@#.google_ads
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_chinese
@@ -8809,17 +8754,7 @@ aguitar.cn##.headerbanner2
 aguitar.cn##.news_b
 aguitar.cn##img[width="470"][height="60"]
 aguitar.cn,guitarchina.com##.headerbanner
-ahaonline.cz,auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,info.cz,iprima.cz,karaoketexty.cz,kinobox.cz,kupi.cz,maminka.cz,mojezdravi.cz,nasepenize.cz,novinky.cz,onetv.cz,osobnosti.cz,reflex.cz,sport.cz,super.cz,tiscali.cz,zeny.cz,zive.cz##.advert
-ahaonline.cz,auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,info.cz,iprima.cz,karaoketexty.cz,kinobox.cz,kupi.cz,maminka.cz,mojezdravi.cz,nasepenize.cz,novinky.cz,onetv.cz,osobnosti.cz,reflex.cz,sport.cz,super.cz,tiscali.cz,zeny.cz,zive.cz##.pe-banner
-ahaonline.cz,auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,info.cz,iprima.cz,karaoketexty.cz,kinobox.cz,kupi.cz,maminka.cz,mojezdravi.cz,nasepenize.cz,novinky.cz,onetv.cz,osobnosti.cz,reflex.cz,sport.cz,super.cz,tiscali.cz,zeny.cz,zive.cz##a[href*="?action=ppl&cid="]
-ahaonline.cz,auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,info.cz,iprima.cz,karaoketexty.cz,kinobox.cz,kupi.cz,maminka.cz,mojezdravi.cz,nasepenize.cz,novinky.cz,onetv.cz,osobnosti.cz,reflex.cz,sport.cz,super.cz,tiscali.cz,zeny.cz,zive.cz##div[id$="horiz"]
-ahaonline.cz,auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,info.cz,iprima.cz,karaoketexty.cz,kinobox.cz,kupi.cz,maminka.cz,mojezdravi.cz,nasepenize.cz,novinky.cz,onetv.cz,osobnosti.cz,reflex.cz,sport.cz,super.cz,tiscali.cz,zeny.cz,zive.cz##iframe[src*=" javascript: window"]
-ahaonline.cz,auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,info.cz,karaoketexty.cz,kinobox.cz,kupi.cz,maminka.cz,mojezdravi.cz,nasepenize.cz,novinky.cz,onetv.cz,osobnosti.cz,reflex.cz,sport.cz,super.cz,tiscali.cz,zeny.cz,zive.cz###ads-leader, #ads-leader-board
-ahaonline.cz,auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,info.cz,karaoketexty.cz,kinobox.cz,kupi.cz,maminka.cz,mojezdravi.cz,nasepenize.cz,novinky.cz,onetv.cz,osobnosti.cz,reflex.cz,sport.cz,super.cz,tiscali.cz,zeny.cz,zive.cz##.foto-iframe-ads
-ahaonline.cz,auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,info.cz,karaoketexty.cz,kinobox.cz,kupi.cz,maminka.cz,mojezdravi.cz,nasepenize.cz,onetv.cz,osobnosti.cz,reflex.cz,tiscali.cz,zeny.cz,zive.cz##a.tracked-event[data-tid]
-ahaonline.cz,auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,info.cz,karaoketexty.cz,kinobox.cz,kupi.cz,maminka.cz,mojezdravi.cz,nasepenize.cz,onetv.cz,osobnosti.cz,reflex.cz,tiscali.cz,zeny.cz,zive.cz##a.tracked-event[href*="&tcid="]
 ahgame.com,china.com.cn,dandanzan.com,netbardh.com,pangzitv.com,twoeggz.com###pop
-ahri8.top#$#abort-current-inline-script document.querySelectorAll popMagic
 ahtv.cn##body > table[style^="text-align:center; width:960px;"]
 ahtv.cn,duhama.tv,frdic.com,huasing.net,it168.com,qinbing.cn###ads
 ahtv.cn,sexbarss.net##.l1
@@ -8864,10 +8799,6 @@ aiyuke.com##.index_app_down_ad
 aizhan.com###all_text_content
 aizhan.com###home_text_content
 aizhan.com##.btn
-ajaxshowtime.com##div.leaderboard_ad + div
-ajaxshowtime.com#?#div:-abp-properties(content: "Advertentie";)
-akhbara24.news,anime4up.art,anime4up.com,arabseed.me,asia2tv.cn,asia2tv.com,baramjak.com,cima-club.cc,cima-club.in,cima-club.io,cima-club.lol,cima-club.vip,cima4u.cloud,cima4u.film,cima4u.ink,cima4u.tube,cima4u.tv,cima4u.ws,cimalina.me,cimalina.net,egy-live.online,egynow.cam,egynow.live,faselhd.ac,faselhd.co,faselhd.live,hawak.net,iegybest.co,lodynet.cloud,lodynet.co,lodynet.dev,lodynet.ink,lodynet.tv,lodynet.win,manga.ae,moshahda.net,movizland.com,movizland.cyou,movizland.online,egyanime.com,egydead.com,egydead.live,shahed4u.cafe,shahed4u.casa,shahed4u.cfd,shahed4u.cloud,shahed4u.fun,shahed4u.mba,shahed4u.red,shahed4u.site,shahed4u.tax,shahed4u.tips,shahed4u.vip,shahed4u.work,shahed4u.ws,shaheed4u.art,shaheed4u.autos,shaheed4u.beauty,shaheed4u.bond,shaheed4u.cfd,shaheed4u.click,shaheed4u.cyou,shaheed4u.fun,shaheed4u.hair,shaheed4u.icu,shaheed4u.lol,shaheed4u.makeup,shaheed4u.pics,shaheed4u.quest,shaheed4u.sbs,shaheed4u.yachts,shahid4uu.cam,tuktukcinema.co,tuktukcinema.net,witanime.com,yalla-shoot.today#$#abort-current-inline-script document.documentElement /atob|case|JSON.parse/; abort-current-inline-script String.fromCharCode /atob|break/; abort-on-property-write JSON.parse; abort-current-inline-script Math /atob|break/;
-akwam.cc,akoam.com,akoam.net,akwam.co,akwam.cx,akwam.net,akwam.org,akwam.us,gateanime.com,gocoo.co#$#abort-on-property-read String.fromCharCode
 alexa.cn##.importantList
 alexa.cn##.importantTop
 ali213.net###ali-js-4
@@ -9028,8 +8959,6 @@ applefans.today#$#body { overflow: auto !important; }
 apprcn.com##a[href*=".lizhi."]
 apteka.ru#%#window.yaCounter14913877={ reachGoal: function() {} };
 aqours.today
-arabseed.co,arabseed.com,arabseed.me,arabseed.net,arabseed.tv#$#abort-on-property-read atob; abort-on-property-read decodeURI; abort-on-property-read decodeURIComponent
-arabxd.com#$#abort-current-inline-script document.querySelectorAll popMagic
 arketing.indianadunes.com^
 armyrecognition.com##a[href^="http://cqcounter.com/"]
 articlerewritertool.com#@#.adsbygoogle
@@ -9063,52 +8992,6 @@ auto-online.com.tw##.text_links_h
 auto-online.com.tw##div[style="width:336px;height:280px;margin:0;background:#000000"]
 auto-online.com.tw##div[style="width:728px;height:130px;margin:0;background:#000000"]
 auto.163.com##div[class^="ga ga"]
-auto.cz##.halfpageAd, [class*="wrapperH-prapper"], [class*="billboard-bottom"], img[width='970'][height="310"], [data-io-article-url] a[target='_top'], video[id^="video-"][preload="auto"][webkit-playsinline="webkit-playsinline"], [class*="ads-leader"], #KoqisAoAce
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz###Moitor-1
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz###ValRageBottom
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz###banner
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz###banner_id
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz###brandingCreativeWrapper
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz###creativelink
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz###leader_board
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz##.SC_TBlock
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz##.ad-skycrapper
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz##.ad-skyscrapper
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz##.ad-skywrapper
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz##.ad__in
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz##.ads
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz##.article-advertisement
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz##.inserted_rtb
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz##.movingAd
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz##.rollWrapper
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz##.sticky-content
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz##[class^="ad "]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz##[class^="stickyContentBottom_"]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz##[data-google-container-id], .is_stuck
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz##[data-track-ad]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz##[id^="ad-"]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz##a[href*=";adfibeg="]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz##a[href*="Banner"]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz##a[href*="banner"]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz##a[href*="branding"]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz##a[href*="pubsrcid="]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz##div[id^="cnc-"][class^="cnc-"]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz##div[style*="_banner_branding_cnc_"]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz##div[style*="background-image"][style*="branding"]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz##div[style*='background-image: url("https://www.']
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz##iframe[id^="iframeWrapper-"]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz##leaderBoard
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz#?#div:-abp-has(>[class$="selfpromo"])
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz,expres.cz##[href*="&token="][target="_blank"]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz,expres.cz##a[href*="verdsi="][href*="&ip="]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz,expres.cz##a[href^="//api.mgid.com/"]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz,expres.cz##div[style*="background-image: url("][style*="background-repeat: no-repeat;"]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz,expres.cz#?#div:-abp-has(>small:-abp-contains(Reklama))
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz,karaoketexty.cz##div[class$="-banner"]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz,novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz,tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz,fights.cz##a[href*="?adurl="]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz,novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz,tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz,fights.cz##a[href*="mondor_hopToSeti"]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz,osobnosti.cz,tiscali.cz,karaoketexty.cz,kinobox.cz##[id*="Adform"]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz,www.idnes.cz,expres.cz#?#div:-abp-has(>a[href$="/personalizovana-reklama/"])
 auto.ifeng.com##.acquire_1
 auto.qq.com###tips
 auto.ru#%#//scriptlet('set-local-storage-item', '__rtbhouse.lid', '0')
@@ -9133,7 +9016,6 @@ autohome.com.cn##a[href="https://m.autohome.com.cn/activity/special/autohome29.h
 autohome.com.cn,jdzj.com,loveshang.com##.advbox
 autohome.com.cn,sina.com.cn##div[class*="game"]
 automesseweb.jp#?##_popIn_ranking:upward(.code_php_in_widget)
-autorevue.cz##.bx-sky, .bx-rectangle-article
 av.movie##.adss-160x600
 av.movie##.pop-up-a
 av.movie##.video-banner
@@ -9407,8 +9289,6 @@ baidu.com##div[id^="toast"]
 baidu.com##div[style="padding: 20px 9px 20px 10px;widget:250px;height:250px;"]
 baidu.com#$##content_left > div[style*="display:block !important;"]:not(.result) { position: absolute!important; left: -4000px!important; }
 baidu.com#$#.ec_wise_ad { position: absolute !important; left: -3000px !important; }
-baidu.com#$#hide-if-contains 广告 #content_left>div .ec-tuiguang
-baidu.com#$#hide-if-contains 广告 #content_right>div .ec-tuiguang
 baidu.com#?#.c-gap-bottom-small:-abp-has(>a>div>div[class^="jr-stock-open-account-"])
 baidu.com#?#.rec-item:-abp-has(> .vbox > div > .appad-relate-rectpl)
 baidu.com#@##header > div:last-child
@@ -9535,13 +9415,11 @@ bdys03.com##.artplayer-plugin-ads
 beanfun.com#@#.ad-slider
 beauty.ua##.footer-counters
 beauty321.com##.pc_ads
-beeg.com,oral-amateure.com,upornia.com,hotmovs.com,voyeurhit.com,hdzog.com#$#abort-on-property-write ads_priv
 beephone.com.tw##a[href^="http://www.beephone.com.tw/adlink.php?id="]
 beforeitsnews.com###fancybox-overlay
 beforeitsnews.com###fancybox-wrap
 behe.com
 beianbeian.com##div[style="height: 62px;margin-bottom: 20px;"] + .layui-table
-beinconnect.us,coroot.blogspot.com,ktarab.com,shofnow.com,actionz.tv,brstej.com,jaewinter.co,movs4u.live,mvs4u.tv,kora-online.tv,filmey.tv,animetak.net,arabseed.tv,arabseed.co,arabseed.com,arabseed.me,arabseed.net#$#abort-current-inline-script Math zfgloaded
 bejson.com##.alert-dismissable
 bejson.com##.modal-backdrop
 bejson.com##.t-small-margin > ul:first-child
@@ -9706,16 +9584,6 @@ bkjia.com##.art_rightad1
 bkjia.com,zol.com.cn##.hot_tj
 bl-1.com$image
 bleachmx.co#@##adsense
-blesk.cz###px2-wall-wrap
-blesk.cz###stickyfloatLeftEmptySpaceCheckLeft
-blesk.cz##.banner-ifortuna
-blesk.cz##.gam-wrapper
-blesk.cz##article[data-track-element-id*="prPremium"]
-blesk.cz##div[class^="sticky-wrapper"]
-blesk.cz##div[data-track-element-id^="prStandardZpravy"]
-blesk.cz#$#abort-current-inline-script document.createElement adbDetect; prevent-listener beforeunload (); override-property-read adBlockerFound undefined;
-blesk.cz,expres.cz,idnes.cz#$#abort-on-property-read Object.prototype.kununu_mul
-blesk.cz,expres.cz,idnes.cz#$#cookie-remover /^adb$|adb\.key|^[a-z]{5,11}$/
 bljiex.com###player_pause
 blog.163.com###blog-163-com-toptips
 blog.163.com###loftertextlinkad
@@ -10186,7 +10054,6 @@ cibaipuki.com##[href*=":"]
 cienradios.com##article[class^="cXense-"]
 cilil.cn,magnet2048.com##.hotwords
 cilimao.co,cilimao.one##div[class^="FixBanner"]
-cima-club.cam#$#abort-on-property-read window.zfgstorage
 cinemablend.com#@#.adsbox
 cinemablend.com#@#.adsense
 cinemablend.com#@#.adslot
@@ -10226,11 +10093,6 @@ ckdzb.com##div[style="float:right;margin:10px 10px;clear:right;height:310px;widt
 ckizma.com###post-card-64841,#post-card-50163,.post-card-ads,.popup-container
 ckxxbao.com##.weixin
 cl.wpio.xyz##.tpc_content > a[target="_blank"][onmouseover]
-clanky.seznam.cz,search.seznam.cz##.Result-ico:not([class="Result-ico"])
-clanky.seznam.cz,search.seznam.cz##.Result.Result--organic > .Result-ico:not([class="Result-ico"]) + .Result-contentContainer
-clanky.seznam.cz,search.seznam.cz##.Result.Result--organic > :not(.Result-contentContainer):not(.Result-ico):not(.Result-title)
-clanky.seznam.cz,search.seznam.cz#?#.Result:-abp-has(.Result--organic [class^="Result-contentContainer _"])
-clanky.seznam.cz,search.seznam.cz#?#:-abp-has(> .Result--organic .Result-title-link:not([class="Result-title-link"]))
 click.*.mc.philips.com$image
 click.discord.com$image
 click.e.change.org$image
@@ -10245,7 +10107,6 @@ clicks.hungryroot.com$image
 clicks.meetup.com$image
 clicks.mlsend.com$image
 clicks.mlsend2.com$image
-client=ca-pub-$subdocument,domain=iprima.cz|www.idnes.cz|expres.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 clikcoin.pl#@##adsense
 close.io/email_opened$image
 cloud.jasaku.net##.adblock
@@ -10269,7 +10130,6 @@ cn-healthcare.com##.fh_ad_wrap
 cn-healthcare.com##.fh_advent_wrap
 cn.bing.com##.bnp_rich_div_visible.bottom
 cn.bing.com##.bnp_rich_div_visible.top
-cn.bing.com#$#hide-if-contains 360 #b_results>li .b_adProvider
 cn.bing.com#?##b_results > li:-abp-has(.b_adProvider)
 cna.com.tw##.ad_336_2
 cna.com.tw#$#.fb_fanpage_inpage > .other_news_box_2 { padding: 0 0px!important; margin: 26px 0!important; }
@@ -10338,7 +10198,6 @@ cnlinfo.net##.guanggao-left
 cnlinfo.net##.guanggao-right
 cnlmjx.com##.yw_ad
 cnn.com##.zn-story-bottom
-cnn.com#$#strip-fetch-query-parameter caid warnermediacdn.com; strip-fetch-query-parameter afid warnermediacdn.com
 cnool.net##.banner-ad001
 cnool.net##.meilai_box
 cnool.net##.second-banner
@@ -10382,7 +10241,6 @@ cnyes.com##a[data-proj-ga-category="FloatingBTN"]
 cnys.tv#@#.player-news > .news-list
 cnys.tv,4kya.com###player_pause
 co188.com##.suspen
-cocomanga.com#$#abort-on-property-read __cad.cpm_popunder; abort-on-property-read __ad
 cocomanga.com#%#//scriptlet('prevent-setTimeout', 'loadErrorTip')
 cocomanga.com,ohmanhua.com,onemanhua.com#%#//scriptlet("prevent-setTimeout", "checkSiteNormalLoad")
 cocomanga.com,ohmanhua.com,onemanhua.com#%#//scriptlet("set-constant", "NativeAd", "noopFunc")
@@ -10626,8 +10484,6 @@ dailynews.sina.com##.TopNav + table
 dajie.com##.envelop_layer
 dajie.com##.register_layer
 dalipan.com##.hongbao-wrap
-dama.cz##[class*="ads-"]
-dama.cz##div[class^="sky-wrap"]
 dan-teng.top##.nav
 dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,RTCPeerConnection,null)
 dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,mozRTCPeerConnection,null)
@@ -10793,7 +10649,6 @@ dlkoo.cc##ins[id^="tanxssp-outer-conmm_"]
 dlkoo.com##ins[id^="tanxssp-outer-conmm_"]
 dlneko.org##.DialogMask
 dlneko.org##.xDialog
-dlouha-videa.cz#$#abort-on-property-read _0x4c29
 dlsdk.appsflyer.com^
 dlsdk.appsflyersdk.com^
 dm010.com##a[href*=".apk"]
@@ -10843,7 +10698,6 @@ dongao.com##div[class^="fu_"]
 dongao.com,zgsyz.com###ad
 dongmanhuayuan.myheartsite.com##.card-body
 dongtw.com#@#.post-share-container
-donk69.com,wankflix.com,mofosex.com,keezmovies.com,extremetube.com,spankwire.com,pornxt.com,crazyshit.com,fantasti.cc,gfjizz.com,smutr.com,yuvutu.com#$#abort-on-property-read phtData
 doorblog.jp,pachinkopachisro.com,blog.livedoor.jp,blog.jp,vipstyle.tokyo#?#.plugin-memo > div.side > div.ninja-recommend-block:upward(2)
 douban.com##.bottom_ad_download
 douban.com##.channel_promo
@@ -11102,7 +10956,6 @@ e0838.com###float-bot
 e0838.com##.ad-txt + a
 e10000.cn###imgFloat
 e10000.cn##.navigate_sty + div
-e15.cz##.mys-wrapper
 e23.cn##div[id*="adv"]
 e2mv.com##.left_advert
 e3zy.com##.jiacu
@@ -11152,13 +11005,6 @@ easylearn.baidu.com##.vip-banner-cont
 easylife.tw,ettoday.net##.idleAd
 easylife.tw,ez3c.tw,softwarebrother.com##.popup_bottom_block
 ebay.com#?#li.s-item:-abp-has(span[role="text"]>span:-abp-contains(助))
-ebay.com,ebay.co.uk,ebay.com.au,ebay.ca,ebay.fr,ebay.at,ebay.de,ebay.it,ebay.es#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ 'li[class^="carousel__snap-point"][style]>div[data-viewport]>a' 'span'
-ebay.com,ebay.co.uk,ebay.com.au,ebay.ca,ebay.fr,ebay.at,ebay.de,ebay.it,ebay.es#$#hide-if-matches-xpath './/div/h2[contains(@class,"merch")][contains(translate(text(), "SPONSORED", "sponsored"), "sponsored") or contains(translate(text(), "SPONSORISÉS", "sponsorisés"), "sponsorisés") or contains(translate(text(), "PATROCINADOS", "patrocinados"), "patrocinados") or contains(translate(text(), "ANZEIGEN", "anzeigen"), "anzeigen") or contains(translate(text(), "SPONSORIZZATI", "sponzorizzati"), "sponsorizzati") or contains(translate(text(), "SPONSORIZZATE", "sponzorizzate"), "sponsorizzate")]/ancestor::div[contains(@class,"merch")]/parent::div[@class="merch-module"]'
-ebay.com,ebay.co.uk,ebay.de#$#hide-if-matches-xpath '//li[@data-viewport]//span[text()="Sponsored" or text()="Anzeige"]/ancestor::li[@data-viewport]'
-ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#$#hide-if-matches-xpath './/div[@data-view]/a[@class="srp-1p__link"]//div[text()="Sponsored"]/ancestor::div[@data-view][@class][1]'
-ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#$#hide-if-matches-xpath './/div[contains(@class,"sponsored-infotip")]/parent::div[starts-with(@class,"ads")]/parent::div[contains(@class,"ads")]/ancestor::div[@id and @aria-label="Advertisement"]'
-ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#$#race start; hide-if-matches-computed-xpath './/span[@class="s-item__sep"]/span[@aria-labelledby="{{}}"]/ancestor::li[@data-viewport]' './/style[contains(text(),"display: inline")]' '/span\.(.{9})/'; hide-if-matches-computed-xpath './/span[@*="{{}}"]/ancestor::li[contains(@class,"s-item")]' './/style[contains(text(),":root")]' '/span\.(.{9})/'; hide-if-matches-computed-xpath './/div[@aria-labelledby="{{}}"]/ancestor::li[contains(@class,"s-item")]' './/style[contains(text(),":root")]' '/span\.(.{9})/'; hide-if-matches-computed-xpath './/span[@class="s-item__sep"]/span[@aria-labelledby="{{}}"]/ancestor::li[@data-viewport]' './/style[contains(text(),"-2000")]' '/}\\s*span\.(.{9})/'; hide-if-matches-computed-xpath './/span[@class="s-item__sep"]/span[@aria-labelledby="{{}}"]/ancestor::li[@data-viewport]' './/style[contains(text(),"color: transparent")]' '/span.aria.labelledby.(.{9})/'; hide-if-contains-visible-text /S⁣p⁣o⁣n⁣s⁣o⁣r⁣e⁣d|A⁣n⁣z⁣e⁣i⁣g⁣e|S⁣p⁣o⁣n⁣s⁣o⁣r⁣i⁣s⁣é⁣⁣|S⁣p⁣o⁣n⁣s⁣o⁣r⁣i⁣z⁣z⁣a⁣t⁣o⁣⁣|S⁣p⁣o⁣n⁣s⁣o⁣r⁣o⁣w⁣a⁣n⁣e|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|P⁣a⁣t⁣r⁣o⁣c⁣i⁣n⁣a⁣d⁣o|贊⁣助/ li[data-viewport] 'span.s-item__sep>span[role]' '-disable-bg-color-check:true' 'position:absolute'; hide-if-contains-and-matches-style // li[data-viewport] 'li[data-viewport] span.s-item__sep>div' /./ '/\\swidth: [1-9]/'; race stop;
-ebay.fr#$#hide-if-matches-xpath './/a[@*]/img [@src][contains(@alt,"reconditionné")]/parent::a[@class="srp-banner"]/ancestor::li[contains(@class,"SIMPLE_IMAGE_BANNER")][1]'
 ebb.io#%#//scriptlet('set-constant', 'ga', 'noopFunc')
 ebb.io#%#//scriptlet('set-constant', 'google_empty_script_included', 'true')
 ebc.net.tw###lotteryfnc
@@ -11181,7 +11027,6 @@ edh.tw##.close-corner
 edh.tw##.popin_ad
 editcode.net##.fwinmask
 editcode.net##.sd > a
-editcode.net#$#abort-current-inline-script setTimeout openAd
 editcode.net,itboth.com,itkeyword.com,ruyo.net,zhanzhangb.com##a[href*="cloud.tencent.com"]
 edrawsoft.cn###bottom-banner-activity-md
 edrawsoft.cn##.activity-banner
@@ -11227,8 +11072,6 @@ egame.qq.com##.widget-box
 egame.qq.com##div.live-review:nth-of-type(6)
 egame.qq.com##li.interactive-redenvelope:nth-of-type(2)
 egbgaig.r.*.d.sendibt$image
-egy.best,egybest.asia,egybest.bid,egybest.biz,egybest.cheap,egybest.cool,egybest.fail,egybest.life,egybest.ltd,egybest.ist,egybest.name,egybest.net,egybest.network,egybest.ninja,egybest.nl,egybest.online,egybest.org,egybest.pw,egybest.rocks,egybest.zone,egybest2.com,iegy.best#$#abort-on-property-read open
-egyanime.com,egydead.com,egydead.live#$#abort-on-property-write _pop
 eic.org.cn##.lx-btm-box
 ekamus.info#$#.adsbygoogle { height: 1px !important; }
 ekamus.info#%#//scriptlet("prevent-setTimeout", "ins.adsbygoogle")
@@ -11359,9 +11202,6 @@ esu.moe,esu.wiki##div[style*="position: relative; max-height: 400px;"]
 etest8.com###gads1
 etest8.com##.subtop2right
 etnet.com.cn##.firstAD
-etsy.com##a[href*="listing_page_ad_row"]
-etsy.com#$#hide-if-contains-visible-text '/[aA](\\s)*d(\\s)*by/' li 'li[class] div > :is(div, p)' 'width: /^[0-9]px/'
-etsy.com#$#hide-if-matches-xpath '//span[@data-is-ad][@data-ad-label][contains(text(),"Ad by")]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
 ettoday.net###adsense-matched-content
 ettoday.net###for-ec
 ettoday.net###mobileweb_inread
@@ -11404,16 +11244,6 @@ exct.net/open.aspx$image
 exoav.com##.place
 exoav.com##.table
 exoav.com#%#//scriptlet('abort-on-property-read', 'exoNoExternalUI38djdkjDDJsio96')
-expedia.ca,expedia.com,expedia.co.uk,expedia.de##[data-meso-viewed]
-expedia.es,expedia.fr,expedia.ie,expedia.it,expedia.dk,expedia.co.id,expedia.co.in,expedia.co.kr,expedia.co.nz,expedia.co.th,expedia.com.hk,expedia.com.my,hotels.com,orbitz.com,ebookers.com,wotif.com,cheaptickets.com,travelocity.com#$#hide-if-matches-xpath './/a[contains(@href,"&trackingData")]/ancestor::div[@class="uitk-spacing uitk-spacing-margin-blockstart-three"]'
-expres.cz#$#hide-if-contains-visible-text /[a-zA-Z]/ '*[class][id]' span[id][data-rsize]
-expres.cz,idnes.cz##[class^="r-main"]
-expres.cz,idnes.cz##a[href*="area=preroll_"]
-expres.cz,idnes.cz##a[href*="click?xai="]
-expres.cz,idnes.cz##a[href*="preroll"]
-expres.cz,idnes.cz##div[data-redistribute="ad"]
-expres.cz,idnes.cz##videoplayer>video[data-io-video-title*="_idnestv_"]
-expres.cz,idnes.cz#$#override-property-read pxReady null
 expreview.com##.babaBox
 expreview.com##.colbaba
 expreview.com##.crossAd
@@ -11513,9 +11343,6 @@ fgames.pw###html3
 fh21.com.cn###lbzxM
 fhm.com.tw###add-box
 fichier.net#@##contentAd
-fights.cz##.banner-add
-fights.cz,spisovatele.cz##body>a[target="_blank"]
-fights.cz,tiscali.cz###desktop-square-top, #desktop-leader-top, .desktop-square-top, .desktop-leader-top
 file4go.com###banner_728x90B
 filechoco.com#@#.adsbox
 filecore.co.nz#@#.adsense
@@ -11818,7 +11645,7 @@ g-years.com,ghoffice.com,gpsuu.com,mydigit.cn###main > .textMes
 g.huya.com
 gaara-fr.com###ga-skin-left
 gaara-fr.com###ga-skin-right
-gaara-fr.com###ga-skin-top[Adblock Plus 3.1]
+gaara-fr.com###ga-skin-top
 gaara-fr.com###pub01
 gaijin.at##.box_error.box_error_icon
 galacg.me##.sidebar-top
@@ -12009,7 +11836,6 @@ github.com##a[href^="https://cloud.tencent.com/redirect."] > img
 github.com##a[href^="https://openwrite.cn/"]
 gkstk.com##.layui-layer-shade
 gkstk.com,ufanw.com##.layui-layer
-gledaiseriali.net#$#abort-current-inline-script Math zfgloaded
 globes.co.il###chromeWindow
 globes.co.il###grayLayer
 gm.mmstat.com$image
@@ -12316,7 +12142,6 @@ haoweichi.com#%#//scriptlet("prevent-setTimeout", "adsbygoogle")
 haoxxoo.com##.nrad1
 haoxxoo.com##.nrad2
 happymh.com##[src="https://c.nationaltcm.com/ad/tm1111dd.png"]
-hawak.net,hawak.tv,rotana.video#$#abort-on-property-read atob
 hayan.tv#@##uzcrsite
 hayhaytv.vn#@#.ads_wrapper
 hb.qq.com##div[style*="width:960px; height:90px;"]
@@ -12346,7 +12171,6 @@ hcbbs.com###portal_block_2652
 hcbbs.com##.a_cn_pb
 hcbbs.com##table[width="100%"][bordercolor="#CCCCCC"]
 hcbbs.com,isiyuan.net##.ke-zeroborder
-hclips.com#$#abort-on-property-read btoa
 hcomic.net##.main-container > .swiper
 hcomic.net##div[class^="horizontalBanner_"]
 hcomic.net##div[class^="multiBanner_bannerBox"]
@@ -12371,7 +12195,6 @@ hdmovie14.net#@#.text_ads
 hdshare.cn,it168.com###adv
 hdwan.net##body > div[style]
 hdzone.org##a[style*="fixed"]
-hdzone.org#$#abort-current-inline-script Math zfgloaded
 he-games.com###he_banner_ad
 he-games.com###he_bottom_ad
 hea.cn###top_slides_box
@@ -12394,7 +12217,6 @@ hentai-flix.net##.trs_sticky_notice_text_box
 hentai-sharing.net,news.webike.net###custom_html-3
 hentaicomic.*,wnacg1.cc,wnacg.*#%#//scriptlet("abort-current-inline-script", "document.write", "/\.(gif|php)/")
 hentaicomic.*,wnacg1.cc,wnacg.*$$script[wildcard="*tips[1]*document.write(tips*"][min-length="1000"][max-length="2000"]
-hentaiworld.tv,manhwaclub.net,masahub.net#$#abort-on-property-read __formatsGetters
 hentaiz.org##img[width="31"][height="31"]
 hentenaar.com#@#.adsbygoogle
 hepan.com##.fivead
@@ -12481,7 +12303,6 @@ hl.cn###xf_right
 hlgnet.com##.co_ad
 hlgnet.com##.co_ad3
 hlgnet.com,sina.com##.tad
-hlouhopAes=no5$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 hmitalk.com##div[class*="-pubadban "]
 hmitalk.com##div[data-adid]
 hmoe.one#?#.widget_text > .inn-sidebar__widget:has(> .poi-panel__header > .poi-panel__header__title:contains(赞助商))
@@ -12500,7 +12321,6 @@ honglingjin.co.uk##.rs-side-ads
 honglingjin.co.uk##.rsads
 hongrentao.cc,houhuayuan.pink,mrmad.com.tw,myself-bbs.com,paltv.top,pbhz.com,sportsyeah.hk,zhaoze.party#@##adsense
 hornmatters.com#@#.footer_ad
-horoskopy.cz,seznamzpravy.cz#$#hide-if-matches-xpath '//iframe[@src][@id]/parent::div[@class]/ancestor-or-self::div[@class][1][not(starts-with(@class,"twitter"))]'
 hoteastday.com###detail_mask_ad
 hoteastday.com##.detail_top_mask_ad
 hoteastday.com##.incentive
@@ -12508,7 +12328,6 @@ hoteastday.com##.reloadMedia1
 hoteastday.com##.sessionSub
 hoteastday.com##.watermarh_ul
 hotjob.cn#@#.SOCIAL
-hotmovs.com##div[class^="vda-closeplay"]
 hotpress.info###sidebar > div.widget_text:nth-last-child(-n+3)
 houdao.com###header-ban
 houdao.com##a[style^="background:url"]
@@ -12694,13 +12513,9 @@ id97.cc##.fed-part-case > a
 idanmu.ee##.entry-body > div[class]:first-child
 idanmu.ee##aside > div[class="widget "]
 idanmu.ee##div[class^="g "]
-idnes.cz###foto-reklama
-idnes.cz,expres.cz##a[href*="/supertag=InstreamVideo/"]
-idnes.cz,expres.cz##a[href*=";cdata="]
 idreamx.com#?##threadlisttableid > tbody:not([id]):has(> tr > td > a[target="_blank"])
 idreamx.com#?##threadlisttableid > tbody:not([id]):has(> tr > td > ins.adsbygoogle)
 ieforex.com##.header > .left
-iegybest.co,iegybest.film,iegybest.in,iegybest.tv#$#abort-on-property-read attr
 ifanr.com##.bottom-clap-scroll-down.js-bottom-clap.bottom-clap-wrapper
 ifanr.com##.js-download-link-another
 ifanr.com##.popup,.popup-top
@@ -12835,7 +12650,6 @@ ifeng.com,~mall.ifeng.com##A[href*="mall.ifeng.com"]
 ifenpaidy.com##.btn-copy + .btn
 ifenpaidy.com##.modal-body
 ifenpaidy.com##.post > .div
-ifenpaidy.com#$#abort-on-property-read localStorage
 ifirstrow.eu###adblockplus
 ifirstrow.eu###fanback
 ifkdy.com##.hb
@@ -12931,7 +12745,6 @@ imydl.com##div[id*="banner"]
 inapps.appsflyersdk.com^
 indiatimes.com#@#div[id^="div-gpt-ad"]
 inews.qq.com,xw.qq.com##.VideoArticleBottomAdContainer,.ssp.nospl[data-boss-once='true'],DIV[data-boss-expo*='ad&s_or'],DIV[id^='App_WAP_share_page_']
-info.cz,lupa.cz,karaoketexty.cz,hnonline.sk#$#abort-current-inline-script Math.random adb
 infokam.su#?#aside > section.bot-post:has(> center > a[href^="https://www.liveinternet.ru/"])
 infoorel.ru##a[href="http://www.infoorel.ru/stat/stat.php"]
 infoq.cn##.geo-banner
@@ -12971,20 +12784,8 @@ iplaysoft.com##.d250x90
 iplaysoft.com##.entry-content + div[style="margin:-10px 0 0 0;overflow:hidden"]
 iplaysoft.com##[style*="width:3"][style*="height:2"]
 iplaysoft.com##div[style="background:#fcf0ef;width:680px;height:130px;border-radius:8px;margin-top:28px;position:relative"]
-iprima.cz##.dekes_reblika
-iprima.cz##.px-type-banner
-iprima.cz##.sas_center, .px-ad, .sas_mone, .mone_box, .ifr-passback, [data-sas_status], div[id^="sas_"], div[class^="mas_mone_"], [data-alter_area="leaderboardpremium-1"], [data-alter_area="boardbottom-1"], .ifr-masshack, .px-zone, .sas_megaboard, .ifr-classflak, [data-sas-creative], #cnn_reklama, div[class^="mas_"], ._sasia_fcid, [class^="mas"][class$="_clue"]
-iprima.cz##.vjs-ad-link, .vjs-ad-clickthru
-iprima.cz##[class$="_fcid"], [data-mashiatus]
-iprima.cz##[class$="_value"], [id^="px-id-"]
-iprima.cz##[class*="sas"]
-iprima.cz##[id*="-ad-"], .ifr-claassflak, a[href*="/posid=sas_"]
-iprima.cz##a[href*="/area=branding"]
-iprima.cz##div[data-d-area]
-iprima.cz#?#div:-abp-has(>.mone_header)
 iprima.cz#@#.adsbox
 iprima.cz#@#.bannerAd
-iprima.cz,www.seznam.cz,novinky.cz,super.cz,ahaonline.cz,expres.cz,kinobox.cz,horoskopy.cz#$#json-override ads ''
 ipv6.baidu.com,m.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result)
 ipv6.baidu.com,m.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result):not(.hint-unsafe)
 ipv6.baidu.com,m.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#@##results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result)
@@ -13060,7 +12861,6 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_left > d
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_right > [class]:-abp-has(span[data-tuiguang])
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_right > div:-abp-has(.ec-tuiguang)
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?#div[id$="_canvas"]
-ipv6.baidu.com,xueshu.baidu.com,www.baidu.com,www1.baidu.com#$#hide-if-contains 广告 .c-container '.f13 > .m'; hide-if-contains 广告 #content_right>[class] span[data-tuiguang]
 ipv6.baidu.com,xueshu.baidu.com,www.baidu.com,www1.baidu.com#?#.c-container:-abp-has(.t > a[data-landurl])
 ipv6.baidu.com,xueshu.baidu.com,www.baidu.com,www1.baidu.com#?#div:not([id]) > style[id^="s-"] + style + div + div[id]
 ipv6.baidu.com,xueshu.baidu.com,www.baidu.com,www1.baidu.com#?#div:not([id]) > style[id^="s-"] + style + div[id]
@@ -13282,10 +13082,8 @@ iyf.tv#$#.player-side > .block { visibility: hidden !important; min-height: 390p
 iyf.tv#?#.video-player + div.ps > div:has(div.gg-tips-text)
 iyf.tv#@#.share-top
 iyingdi.com##.downLoadApp
-iyingshi9.tv#$#override-property-read YZM.ads.state false
 j-cast.com###cxRelatedEntry
 j-cast.com###sp_j-cast_kiji_recommend_1
-j-pussy.com,redtube.com#$#abort-on-property-read smpop
 jable.tv###jimds-slider
 jable.tv###site-content > div.container > section.pb-3.pb-e-lg-40.text-center
 jable.tv##.badge
@@ -13723,11 +13521,6 @@ kaopu001.com###pokemon
 kaopu001.com##.coupleBannerAdv
 kaoyan.com##.floatQrcode
 kaoyan1v1.com###showAD
-karaoketexty.cz###sky_right_col
-karaoketexty.cz##.ad_large_square
-karaoketexty.cz##[class$="_rightcolumn"]
-karaoketexty.cz#$#hide-if-matches-xpath './/a[string-length(@href) >120][@target="_blank"]/ancestor-or-self::a[@href]'
-karaoketexty.cz,kinobox.cz###stickyWrap
 kartell.com#%#//scriptlet('prevent-element-src-loading', 'script', 'vivocha.js')
 kat.ph,kickass.to,katproxy.com,proxykat.me##.partner1Button
 kbjfree.com#%#//scriptlet('set-constant', 'plausible', 'noopFunc')
@@ -13766,8 +13559,6 @@ kims3.xyz#@#.google-ad
 kingkong.com.tw##.public-activity
 kingkong.com.tw##.room-banner-wrap
 kino-zeit.de##.vgwort-metis-marker
-kinobox.cz##.box.banner_300, #b300_fixbox
-kinobox.cz,novinky.cz,expres.cz,fights.cz,tiscali.cz,hudebniskupiny.cz,osobnosti.cz,ahaonline.cz,super.cz#$#prevent-listener beforeunload (); cookie-remover /^_?adb/;
 kinoman.me#?##extra_block > div.extra_mod > div.extra_mod:has(> div.extra_mod_title:contains(Счетчики))
 kinoman.tv##IMG[src="http://static.kinoman.tv/assets/img/vip-info.png?v"]
 kinotan.ru##.counts
@@ -13862,9 +13653,6 @@ kumi.cn##.ad64060Box
 kumi.cn##div[class^="adz"]
 kuow.org#?#.story-content-wrapper > div.embed_block:has(> div[ub-in-page])
 kuow.org#?#.story-content-wrapper > div.embed_block:has(> script:contains(window.usabilla))
-kupi.cz##[class$="_ssp"], [class^="ssp_"]
-kupi.cz##[data-sssp]
-kupi.cz##iframe[frameborder][scrolling][src^="https://www.kupi.cz/"]
 kuruma-news.jp##.recommend-container
 kuwo.cn##.qr_wrapper
 kuwo.cn##.tuiguang
@@ -14448,7 +14236,6 @@ macdaxue.com##.content > div.asb
 macfans.org###portal_block_180
 macos-app.com#@##adsense
 macwk.com#@#.adBanner
-madouqu.com,madouqu.tk#$#abort-current-inline-script document.querySelectorAll popMagic
 mafengwo.cn###ad1
 mafengwo.cn###ad2
 mafengwo.cn###banner-con-gloable
@@ -14498,8 +14285,6 @@ mamibuy.com.tw##.content-ad-spa
 mamibuy.com.tw#%#window.ga = function() {};
 mamibuy.com.tw,dyzd1.com,avcao.cc##.layui-layer
 mamibuy.com.tw,dyzd1.com,avcao.cc##.layui-layer-shade
-maminka.cz##div[class*="bx-sky "]
-maminka.cz,blesk.cz,reflex.cz,e15.cz##a[class*="-combined"]
 managertoday.com.tw##.pumkinBox
 mandrillapp.com/track$image
 mandrillapp.com/track/$image
@@ -14508,7 +14293,6 @@ mangabz.com###bb1
 mangabz.com###cc1
 mangabz.com###cc2
 mangamint.com,mangabird.me#@#.ad728
-mangovideo.pw#$#abort-on-property-write puShown
 manhua.weibo.com###p-nav-fix + .p-area.w980
 manhuadb.com##.comicbook-index
 manhuadb.com##.d-flex.px-2
@@ -14655,7 +14439,6 @@ microsoftnews.msn.cn##div[class^="nativeAd-DS-card"]
 microsoftnews.msn.cn#?#.riverSections-DS-EntryPoint1-1 > div[style^="display: grid;"] > div[style^="grid-area:"]:last-child > .card-DS-card1-1 > div[class^="nativeAd-DS-card"]:upward(2)
 midifan.com##.mid-aaa
 midifan.com##.top-aaa
-midroll$xmlhttprequest,domain=iprima.cz
 miercn.com###foot_return_foot
 miercn.com##.ad_list
 miercn.com##.color-box
@@ -14675,7 +14458,6 @@ mini.eastday.com##li[class^="recommend_news recommend_ad_hot_"]
 mini.yyrtv.com##.right-gg
 miniie.com,tisai.com###gg_content
 mininova.org###content > #adspot-a + .maintable
-miniplayer/safety=^$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 minmote.no##.adblock-info
 minnyuu.jp#?#div[class$="BlockBase"] > div > div > div.plugin-freearea > div.ninja-recommend-block:upward(4)
 minwt.com##.g-336-280
@@ -14958,9 +14740,6 @@ nanfengyl.com##.top-ad-txt
 nani.baidu.com,ala.baidu.com##.tbui_aside_float_bar + .clearfix
 nanrenwo.net##div[id^="content"]
 naozhong.net.cn###pnl-ne0n
-nasepenize.cz###side-offer-wrap
-nasepenize.cz##a[target="_blank"][class="tracked-event"]>img:only-child
-nasepenize.cz#?#:-abp-has(>[class$="selfpromo"])
 nasyun.com##img[width="275"]
 nasyun.com##img[width="970"]
 nb.zol.com.cn##.article-cont > div.zol-eshop
@@ -15157,7 +14936,6 @@ niutuku.com,sina.cn##.bannerAD
 nivod4.tv,nivod5.tv##.nav-ads
 nivod4.tv,nivod5.tv##.qy20-h-carousel__li:nth-child(-n+2)
 nivod5.tv,nivod4.tv##a.focus_title_inner[href*=".ad_click"]
-nivod5.tv,nivod4.tv#$#override-property-read detailParams.is_ad_play false
 nivod5.tv,nivod4.tv#$?#.img-list > .img-item:has(> a[href*=".ad_click"]) { remove: true; }
 nivod5.tv,nivod4.tv#$?#a.focus_title_inner[href*=".ad_click"] { remove: true; }
 nivod5.tv,nivod4.tv#%#(function(){window.eval=new Proxy(eval,{apply:(e,c,n)=>{const o=Reflect.apply(e,c,n);if("object"==typeof o&&o.banners)try{o.banners.forEach(((e,c)=>{e.commercial&&(e.commercial={})}))}catch(e){console.debug(e)}return o}})})();
@@ -15186,84 +14964,6 @@ notonthehighstreet.com#%#//scriptlet('set-constant', 'window.DD_RUM.init', 'noop
 notre-planete.info###abp1
 novate.ru#?##right > div.bordered:has(> script:contains(relap))
 novate.ru#?##right > h2:contains(Рекомендуем)
-novinky.cz##[class*="feed-item-advert"]
-novinky.cz##a[href*="&partId="]
-novinky.cz##a[href*=";CREFURL="]
-novinky.cz##a[title="Rekɭama"]
-novinky.cz##a[title][target="_blank"][href^="//www.novinky.cz/"]
-novinky.cz##article[class$="advert-item--default"]
-novinky.cz##article[data-dot^="advert-item"]
-novinky.cz##div[class*="advert-static"]
-novinky.cz##div[class*="banner-ad"]
-novinky.cz##div[style^="background-Image:"], [style^="bACkgrOund-imAge:"]
-novinky.cz##img[src*="1T4PK70hS2C"]
-novinky.cz##section[role^="complementary"]
-novinky.cz#$#hide-if-matches-xpath './/div[@class="tpl-king-bottom-content"]//h3[@class]/a[@target="_top"]/ancestor::article[contains(@class,"advert")]/parent::div[1]'; hide-if-matches-xpath '//div[@id][@style]//div[@*="ad-content"]//iframe[@style]/ancestor::div[@*="mol-advert" and @*="RENDERED"][@style]'; hide-if-matches-xpath './/div[@class]/span[text()][@*="atm-label"]/following::a[@target]/ancestor::article[@*="advert-item"]'; hide-if-matches-xpath './/div[@class][@style]/div[@style]//iframe[@width][@style]/ancestor::div[@*="RENDERED" or @*="mol-advert"]'
-novinky.cz#$#hide-if-matches-xpath './/div[@style]/div[contains(@style,"position:relative")][@style]/div[@style]/iframe[contains(@style,"display")]/parent::div[@class][@style]/ancestor::div[@class and @style]'
-novinky.cz#$#hide-if-matches-xpath '//a[@href][@title]/div[@class][@style]/parent::a/ancestor-or-self::div[2]'
-novinky.cz#$#hide-if-matches-xpath '//div[@id][contains(@style, "max-width: 100%;")]//iframe[@style]/ancestor::div[@style]'
-novinky.cz,kupi.cz,sport.cz,super.cz###sf0
-novinky.cz,kupi.cz,sport.cz,super.cz##.Aldremas, .plachta-middle
-novinky.cz,kupi.cz,sport.cz,super.cz##._ad_branding_container
-novinky.cz,kupi.cz,sport.cz,super.cz##.oktagram_image
-novinky.cz,kupi.cz,sport.cz,super.cz##.oktapoid, [id^="oktapoid"]
-novinky.cz,kupi.cz,sport.cz,super.cz##.plachta-overall-img
-novinky.cz,kupi.cz,sport.cz,super.cz##.superPrclanek
-novinky.cz,kupi.cz,sport.cz,super.cz##[class$="Flax"]
-novinky.cz,kupi.cz,sport.cz,super.cz##[data-e11i="ogm-branding-advert"], [class="combi"]
-novinky.cz,kupi.cz,sport.cz,super.cz##[data-e4e-advert], .basafoxy
-novinky.cz,kupi.cz,sport.cz,super.cz##[id$="-ad-container"]
-novinky.cz,kupi.cz,sport.cz,super.cz##[id^="tetrahedron"], .tetrahedron
-novinky.cz,kupi.cz,sport.cz,super.cz##a[href*="__CLICKTHRU__"]
-novinky.cz,kupi.cz,sport.cz,super.cz##a[title="R_eklama"]
-novinky.cz,kupi.cz,sport.cz,super.cz##a[title="Rekᥣama"]
-novinky.cz,kupi.cz,sport.cz,super.cz##iframe[data-cx-loaded]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz###sznad-video-takeover
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##._ad_branding_positioner
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##.ssp_top
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[class$="ad-wrapper"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[data-blahakvaka]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[data-oblohakava]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[href*="/pimpu?"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[href*="Seznam_"][href*="adb"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[href*="_Branding"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[href*="_leaderboard"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[href*="herm"][href*="seznam"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[id^="adPrClanek_"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[id^="branding-"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[id^="outstream_container_"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="/bimbu?"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="?adocurl"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="BANNER"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="_goes_through_the_woods="]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="adb"][href*="collocation="]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="adblock"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="adcurl="]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="adfibeg="]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="ghx_content"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="klik"][href*="truu"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##iframe[frameborder="no"][scrolling="no"][style*="display: block;"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##iframe[frameporder]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##iframe[hehehe="no"][scrolling="no"][style*="display: block;"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##iframe[ramefamorderx]
-novinky.cz,seznamzpravy.cz,sport.cz##div[data-adtrackingtemporaryurl]
-novinky.cz,seznamzpravy.cz,sport.cz##div[style="background-color: rgb(255, 255, 255);"] > a[href][target="_blank"]
-novinky.cz,sport.cz,super.cz##[class$="_main__ad"]
-novinky.cz,super.cz,sport.cz##[class*="ClickThrough"]
-novinky.cz,super.cz,sport.cz,expres.cz##.barMan
-novinky.cz,super.cz,sport.cz,horoskopy.cz##div[data-impressionurl]
-novinky.cz,super.cz,sport.cz,kupi.cz###adCommercialBackground
-novinky.cz,super.cz,sport.cz,kupi.cz##.Rggheysn
-novinky.cz,super.cz,sport.cz,kupi.cz##.ads
-novinky.cz,super.cz,sport.cz,kupi.cz##.burRman
-novinky.cz,super.cz,sport.cz,kupi.cz##.combi__ad
-novinky.cz,super.cz,sport.cz,kupi.cz##.dynamic_Rggheysn
-novinky.cz,super.cz,sport.cz,kupi.cz##iframe[data-cy-loaded]
-novinky.cz,super.cz,sport.cz,seznamzpravy.cz,horoskopy.cz##.sssp-posCont, .sssp-resizeCont
-novinky.cz,super.cz,sport.cz,seznamzpravy.cz,horoskopy.cz#$#abort-on-property-write sssp
-novinky.cz,super.cz,sport.cz,seznamzpravy.cz,horoskopy.cz#?#div:-abp-has(>p:-abp-contains(Reklama))
-novinky.cz,super.cz,sport.cz,seznamzpravy.cz,kupi.cz##[data-e2e-zoneid]
-novinky.cz,super.cz,sport.cz,seznamzpravy.cz,kupi.cz,horoskopy.cz##[data-cy], [data-e2e-advert], a[href*="adurl="]
 novipnoad.com##.ad_single_title
 novipnoad.com##.bg-ad
 novipnoad.com##img[src*="/bd/"] + span
@@ -15290,7 +14990,6 @@ nowscore.com###toperBaskText
 nowscore.com###toperText
 nowscore.com##div[style="background-color:#F0F0F0;line-height:25px;height:25px;text-align:center"]
 nowwatchtvlive.me##DIV[style="padding-top:5px;float:left;width:100%;font-size:13px;line-height:26px;height:31px;top: 12px;z-index:9999;text-align:left"]
-nsfwalbum.com#$#abort-current-inline-script document.getElementsByTagName body
 ntm.gov.tw#@#.ad-left
 ntp.msn.cn##recommended-sites
 ntp.msn.com#%#AG_defineProperty("navigator.getBattery",{value:function(){return Promise.resolve({addEventListener:EventTarget.prototype.addEventListener.bind(window),removeEventListener:EventTarget.prototype.removeEventListener.bind(window),dispatchEvent:EventTarget.prototype.dispatchEvent.bind(window),charging:!0})}});
@@ -15406,7 +15105,6 @@ oschina.net##div[data-tracepid="question_detai_above"]
 oschina.net##div[name="detail_show_footer"]
 oschina.net##div[name="floatAdbox"]
 oschina.net##div[name^="index_banner_"]
-osobnosti.cz##.hide-screenbot
 oss-cn-hangzhou.aliyuncs.com##A.hm_item[href^='https://tcs-devops.aliyuncs.com/thumbnail/']
 otekomachi.yomiuri.co.jp###_popIn_right
 otekomachi.yomiuri.co.jp##.p-ads
@@ -15641,7 +15339,6 @@ planetatvonlinehd.blogspot.com#@#.adsantilok
 planetatvonlinehd.blogspot.com.ar#@#.adsantilok
 platform.autods.com#%#//scriptlet('set-constant', '_conv_q', 'emptyObj')
 platform.autods.com#%#//scriptlet('set-constant', '_conv_q.push', 'noopFunc')
-play/safety=^$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 playallvideos.com,pron.co##.rmedia
 player.hboav.com#%#//scriptlet('set-constant', 'player.VastADPlugin', 'noopFunc')
 playerapp1.pw###divPanel
@@ -15730,7 +15427,6 @@ pornhub.com##.hd.clear
 pornhub.com##.inesuch
 pornhub.com##.topAdContainter
 pornhub.com##.videos-morepad.videos.full-row-thumbs.videos-being-watched.logInHotContainer+*
-pornhub.com#$#abort-on-property-read HTMLElement.prototype.attachShadow; override-property-read page_params.holiday_promo true;
 pornhub.com,tube8.fr,tube8.es,tube8.com###abAlert
 pornhub.com,tube8.fr,tube8.es,tube8.com###adBlockAlertWrap
 pornlulu.com##.row.links
@@ -15740,7 +15436,6 @@ portablesoft.org##.rightside > :nth-child(n+2)
 portablesoft.org##.sidebar-box
 portablesoft.org##.sidebar-widget:first-child
 portaltele.com.ua##.td-footer-template-9
-postroll$xmlhttprequest,domain=iprima.cz
 power.baidu.com,www.baidu.com,zhidao.baidu.com##style[id*="s-m"] + div[id^="m"]
 power.baidu.com,zhidao.baidu.com##.wgt-clew[data-type="goods"]
 pp.ua###id_ad_image
@@ -15759,7 +15454,6 @@ pqworld.com##.left-float-tx
 pracuj.pl#%#//scriptlet('set-cookie-reload', 'gptrackCookie', '1')
 preemlinks.com#@##divads
 preface.ai##.cs-sidebar__inner > .widget_media_image
-preroll$xmlhttprequest,domain=iprima.cz
 president.jp##.recommend
 price.com.hk###ad-inhouse-top
 price.com.hk###ad0
@@ -16082,8 +15776,6 @@ redocn.com##.big_vip_gg
 redocn.com##.small_vip_gg
 redtube.com##.add-blocker-msg
 referencemega.com###hebdotop_t
-reflex.cz###gl-nat
-reflex.cz##img[title$=".cz"][src^="https://www.reflex.cz/"]
 register.appsflyersdk.com^
 renfei.net#$#.ant-modal-root { display: none !important; }
 renfei.net#$#body { overflow-y: auto !important; }
@@ -16208,7 +15900,6 @@ sanhao.com###reg-bar
 sanv.org##.main-nav
 sanv.org##.p_left
 sasadown.cn###float_mask
-sauto.cz#$#override-property-read sssp undefined
 saydigi.com#@#.social-bottom
 sbdm.net###hqmhBottom
 sbdm.net##div[id^="content_box"]
@@ -16240,10 +15931,6 @@ sea-group.org###text-7
 sealfit.ontraport.net%2Fo%3F$image
 sealfit.ontraport.net/o?$image
 search.bilibili.com#?#.video-list > div.col_3:has(> div.bili-video-card a[href*="//cm.bilibili.com/"])
-search.seznam.cz#$#hide-if-matches-xpath './/div/h3[contains(@class,"bd037d")]/a[@data-dot-data]/ancestor::div[@data-e-b-n]'
-search.seznam.cz#$#hide-if-matches-xpath './/picture[@class]/img[contains(@src,"https://d25-a.sdn.cz")]/ancestor::div[@data-e-b-n][@data-n-id]/parent::div[@class][1]'
-search.seznam.cz#$#hide-if-matches-xpath './/picture[@class]/img[contains(@src,"https://d25-a.sdn.cz")]/ancestor::div[contains(@class,"SuperCarousel")]/ancestor::div[@data-e-b-n]'
-search.seznam.cz#$#hide-if-matches-xpath './/picture[@class]/img[contains(@src,"https://d25-a.sdn.cz")]/ancestor::div[contains(@style,"margin-left:")]/ancestor::div[@data-dot-data]'
 search.smzdm.com###elevator > LI:first-child
 seclub.org##a[href^="http://waplog.net/"]
 secretmine.net###main-content > br
@@ -16294,18 +15981,6 @@ sex8.cc##.fnwehjnc12
 sex8.cc##.gd-list
 sex8.cc##.j-oscar
 sex8.cc##a[onclick^="window.open('/dasp.php?"]
-seznamzpravy.cz##[class^="dynamic_banner"]
-seznamzpravy.cz##article[data-dot="mol-timeline-item-advert"]
-seznamzpravy.cz#$#abort-on-property-write Object.prototype.writeAd
-seznamzpravy.cz#$#abort-on-property-write sznIVA
-seznamzpravy.cz#$#hide-if-contains-visible-text /Rek̃lama/ 'div[class*="g_bd"]'
-seznamzpravy.cz#$#override-property-read Object.prototype.aabPagePostMessageType false
-seznamzpravy.cz#$#override-property-read Object.prototype.antiAdblock.postMessageSentinel null
-seznamzpravy.cz#$#prevent-listener message window.top
-seznamzpravy.cz,sport.cz#$#hide-if-matches-xpath '//div[@class]/div[@*="mol-advert"]'
-seznamzpravy.cz/*cmp*$script
-seznamzpravy.cz/*seznamzpravy.cz$subdocument
-seznamzpravy.cz/*ssp.js
 sg169.com###coupleft
 sg169.com###couprigth
 sg169.com##.Mappdiv
@@ -16750,7 +16425,6 @@ soyoung.com##.cash_back
 soyoung.com##.pop_center_box
 soyunpan.com###qblad
 soyunpan.com##.jmwb
-spankwire.com#$#abort-on-property-write ppAb
 spbo1.com##td[width="100%"][height="18"][bgcolor="#ffffff"][align="center"][colspan="13"]
 specialcom.net#?##sidebar > div.widget:has(span#openstat1)
 speedpan.com###float-window
@@ -16772,12 +16446,6 @@ splaybow.com###divPrevious:last-child
 spmailtechnol.com$image
 spoiler.net#@#.banner-ad
 sport-show.fr##DIV[style="padding-top:0px;float:left;width:100%;font-size:13px;line-height:0px;top:4px;text-align:left"]
-sport.cz###adSklikUnderArticle
-sport.cz##.combi_text__ad
-sport.cz##div#page > .combi
-sport.cz##div[class*="ogm-advert-static"]
-sport.cz##iframe[frameborder][scrolling][src^="https://www.sport.cz/"]
-sport.cz##li[class$="ogm-timeline-advert"]
 sports.goo.ne.jp###taboola-below-sokuho-thumbnails
 sports.qq.com##.focus_con > .item > a[href^="http"]:not([href*=".qq."])
 sports.qq.com##.topBnaner
@@ -16814,7 +16482,6 @@ ssyy.ee##.container > a[target="_blank"] > img
 starbaby.cn###top_ad_show
 starbaby.cn###yindex_ads
 starblast.io#%#//scriptlet('set-constant', 'ga', 'noopFunc')
-stardima.co,stardima.com#$#abort-current-inline-script document.createElement /break|case/
 starmusiq.com###adblock-detector-fade-texture
 starmusiq.com###adblock-detector-popup-alert
 start.firefoxchina.cn##.mod-delay-resource
@@ -16897,12 +16564,6 @@ sunnylife.tw##.post-entry > div[style="min-width: 300px; min-height:300px;"]
 sunofbeach.net##div[id$="-ad"]
 suopao.org##.t5[style^="margin-top:8px;"]
 suopao.org##.tr3.t_one[onmouseout]
-super.cz##.sklikReklama
-super.cz##div[class*="color-0"]
-super.cz##div[id*="superPrclanek-"][class$="timeline-content"]
-super.cz##iframe[frameborder][scrolling][src^="https://www.super.cz/"]
-super.cz##img[id^="rs-bg-img"]
-super.cz#$#override-property-read sspPositions null
 super.sina.cn##.call_up_banner
 superlife.ca##.sidebar-ad-zone
 supportdap.online##.td-post-content > a[rel="nofollow"] > img
@@ -17077,7 +16738,6 @@ theporn.cc##.toolbar-gg
 theqoo.net##.theqoo-counter
 thesporttv.eu,sporttvhdmi.com##[id^="ad_tlvmedia-"]
 theworld.cn##.download-now
-theyarehuge.com#$#abort-on-property-read Element.prototype.attachShadow
 thg.ru#?#td[valign="top"] > table > tbody > tr:has(> td > table[cellpadding="0"] a[href^="http://top100.rambler.ru/"])
 thinbug.com###inktokad
 thinkphp.cn##.a6
@@ -17191,24 +16851,6 @@ tingroom.com###ifram_563
 tingroom.com###play_ggr
 tingroom.com##a[href*="weidian.com"]
 tinyletterapp.com$image
-tiscali.cz##.bs-hp
-tiscali.cz##[class*="-ld-top"]
-tiscali.cz##a[target="_blank"][href*="tiscali.cz"]>img[src*="tiscali.cz"]
-tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz###stickyBanner
-tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz##.btitle-right
-tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz##.sticky[stickystop]
-tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz##[class$=" sticky"]
-tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz##[id^="pxBanner"]
-tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz##a.click-layer#clickLayer
-tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz##a[href*="IdBnrP="][href*="IdCamp="]
-tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz##a[target="_blank"]>img[class*="-click-"]
-tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz##div[class$="-rightcJ"]
-tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz,fights.cz##.pe-link
-tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz,fights.cz##.quaquaquakva
-tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz,fights.cz##.wrap-advert
-tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz,fights.cz##[href*=";cdata="]
-tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz,fights.cz##[id*="tmAdVideo"], [class=" pe-banner"]
-tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz,fights.cz,spisovatele.cz##.SC_TBlock
 titan007.com###table_live > tbody > tr > td[height="18"] > a
 titlovi.com#@#.pub_300x250
 titlovi.com#@#.pub_300x250m
@@ -17278,7 +16920,6 @@ torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.lol,torrentkitty.net,
 torrent-finder.info###addon_info
 torrent-francais.com##A[onclick^="this.href='http://www.FriendlyDuck.com/AF_TA/rel/"]
 torrent-tv.ru##.page > .right-side > .section + .section + .section
-torrentkitty.tv#$#abort-on-property-read _fupfgk;abort-on-property-read _nyjdy
 torrentproject.com##A[href^="//torrentproject.com/out/?"]
 tourister.ru##.nt-foot-item[style="overflow:hidden;"]
 tous-sports.tv##IMG[src="http://www.tous-sports.tv/images/blanccloses.png"]
@@ -17336,9 +16977,6 @@ ttsp.tv##.play_list_adbox
 ttzmz.vip###footer > div[style]
 ttzmz.vip###otherad
 ttzmz.vip##div[style^="margin-top:2"]
-tube8.com##.footerBanner
-tube8.com##.gridBanner_
-tube8.com#$#abort-on-property-write AdDelivery
 tucao.cam##.header_rmb
 tuchong.com##.float
 tucsontopia.com/?mailpoet_router$image
@@ -17381,7 +17019,6 @@ tv.sohu.com##.x-dl-shake.x-download-panel, #playerBar > div.area ~a
 tv.tugastvs.com###adtugas1
 tv.tugastvs.com###adtugas2
 tv.tugastvs.com###adtugas3
-tvbanywherena.com#$#strip-fetch-query-parameter ad_config_id
 tvboxnow.com##td[style="width:15%;height:100%;"]
 tvbs.com.tw###news_detail_div > div[align="center"]
 tvbs.com.tw###news_detail_div > strong > a[rel="noreferrer"]
@@ -17525,6 +17162,7 @@ uniongang.net##a[href^="http://whos.amung.us/stats/"]
 uniongang.org#?#td[align="center"][height="27"]:contains(Счётчики)
 unito.life#%#//scriptlet('abort-current-inline-script', 'KeenTracking')
 unito.life$$script[tag-content="KeenTracking"]
+unn.com.ua##.b-footer-counters
 unpkg.com/aladug/*.js
 unwire.hk###post-sidebar-ad
 uol.com.br#%#//scriptlet('set-constant', 'UOLPD', 'emptyObj')
@@ -17673,6 +17311,7 @@ view.inews.qq.com##div[class^="slider-top-bar_sliderWrapper"]
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 vikacg.com###custom_html-9
 vikacg.com###home-row-lunbo
+vikacg.com##a[href^="http"] > img[src^="/assets/main/"]
 vikacg.com##div[id^="home-row-ads"]
 ville-ideale.com###antyp
 ville-ideale.com###enc
@@ -18037,7 +17676,6 @@ www.acfun.cn###guide-fix
 www.aiwuav.xyz##A.toptxt,IMG[src*='.gif'][alt],SPAN[class^="clobox"],IMG[width='100%'][src*='.gif']
 www.apkmirror.com##.ains.ains-has-label
 www.apkmirror.com##DIV[style$=' display: flex; justify-content: center; font-family: Roboto, Arial;']
-www.blesk.cz##[class*="-wrapperf-prapper"], [class*="pikyTentBot_"], #stickyBottomRightAbsolute, [class="lol__out"], img[width='970'][height="310"], a[style*="blewid: 970px; height: 310px"], div[id*="-hor"]
 www.dbbqb.com##.MuiPaper-root
 www.douyu.com##.giftbatter-box
 www.duba.com##.tiyan_a
@@ -18071,7 +17709,6 @@ www.le.com###full_Column_big
 www.le.com###full_Column_small
 www.le.com###rightBottomPop
 www.lezhutv.com##[style='bottom: 132px;']
-www.linkedin.com#$#simulate-event-poc click 'xpath(//*[text()="Promoted" or text()="Sponsored" or text()="Dipromosikan" or text()="Propagováno" or text()="Promoveret" or text()="Anzeige" or text()="Promocionado" or text()="促銷內容" or text()="Post sponsorisé" or text()="프로모션" or text()="Post sponsorizzato" or text()="广告" or text()="プロモーション" or text()="Treść promowana" or text()="Patrocinado" or text()="Promovat" or text()="Продвигается" or text()="Marknadsfört" or text()="Nai-promote" or text()="ได้รับการโปรโมท" or text()="Öne çıkarılan içerik" or text()="الترويج"]/ancestor::div[@data-id]//video[@autoplay="autoplay"])' 10
 www.lofter.com###appdownloadbanner
 www.meijuii.cc##DIV[style*='vw; display: block;']
 www.mgtv.com##.m-headgg
@@ -18086,16 +17723,6 @@ www.raybt.com##td[width="13"]
 www.rkanr.com##div[id^="rkrCp"]
 www.sbdm.net##.ads_all:remove()
 www.sbdm.net##.dplayer-web-fullscreen-fix .billhao-head-image, .dplayer-web-fullscreen-fix #topnav
-www.seznam.cz#$#cookie-remover adform
-www.seznam.cz#$#cookie-remover pubmatic
-www.seznam.cz#$#hide-if-matches-xpath './/a[contains(@href,"ad-buttonem")]/ancestor::div[@class="gadget__header"]/following::div[contains(@style,"position:relative;")]/ancestor::div[contains(@style,"flex")]/ancestor::div[@class][2]'
-www.seznam.cz#$#hide-if-matches-xpath './/a[contains(@href,"ad-buttonem")]/ancestor::div[@class="gadget__header"]/parent::div[1]'
-www.seznam.cz#$#hide-if-matches-xpath './/div[@class="banner-wrapper"]/a[contains(@href,"ad_url")]/div/img/ancestor::div[@id="page"]'
-www.seznam.cz#$#hide-if-matches-xpath './/div[@id][contains(@style,"max-width: 100%;")]/div[contains(@style,"position:relative;")]/preceding::div[contains(@class,"text-right")]/div/preceding::div[@style="top: 62px;"]'
-www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"atm-advert")]/ancestor::div[contains(@class,"atm-closeable-post")]/ancestor::div[2]'
-www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"gadget-container")]/div[@id and @class]/div[@*="animated-height"]//span[text()]/following-sibling::a[contains(text(),"reklamu")]//following::div[@*="gadget__content"]//div[@class and @style]/ancestor::div[7][@class]/ancestor::div[contains(@class,"gadget-container")]'; hide-if-matches-xpath './/div[starts-with(@class,"d-flex")]/div[contains(@class,"flex-column")]/div[@class and @style]//div[2]/div[@class and @style]/parent::div/ancestor-or-self::div[contains(@style,"flex-basis:")]'; hide-if-matches-xpath './/div[@*="mainFeed"]//div[@class="overflow-hidden"]/div[contains(@class,"atm-text-placeholder")]/parent::div[@class][1]/ancestor::div[3]/parent::div[@class and @*]/ancestor::li[@data-analytics-first-item]';
-www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"mol-json-carousel-advert")]/ancestor::div[contains(@class,"atm-feed-card")]/parent::div[@id]'
-www.seznam.cz#$#override-property-read sssp noopFunc
 www.sina.com.cn###SI_EDU_AD
 www.sina.com.cn##.mod-01
 www.sina.com.cn##.part-l
@@ -18172,10 +17799,6 @@ xgrb.cn##.d_2016_ggw
 xgw5.com###app-card-list
 xgw5.com##div[style="z-index:10;margin-bottom: 10px;margin-top:10px"]
 xhamster.com##.sponsorBottom
-xhamster.com##div[class$="no-ts-initiailize"]
-xhamster.com##div[class*="live-red"]
-xhamster.com##div[data-role^="yld-pdbanner-underplayer"]
-xhamster.com#$#hide-if-matches-xpath './/button[contains(@class,"-close")]/i[@class]/ancestor::span[1]'
 xhd.cn##.xinad
 xhtml?$domain=kanshu8.net
 xhzyw.com###HtmlMoKua_752383
@@ -18350,7 +17973,6 @@ yahoo.com#?#.wafer-beacon:-abp-has(a[data-ylk*=":ad;"])
 yam.com##.axdBox
 yamm-track.appspot$image
 yamol.tw##.panel[style="text-align:left;width:100%;padding:0px;background-color:white"]
-yandex.com#$#hide-if-contains ad li.serp-item 'li.serp-item div.label'
 yantuchina.com##div[style="width:618px;height:150px;margin: 0 auto; display:block;"]
 yaociyuan.bid##.board a[target="_blank"] > img
 yaociyuan.bid##.content a[target="_blank"] > img
@@ -18468,9 +18090,6 @@ youle55.com
 youmelive.com###b2-widget-html-2
 youmoviz.tv##.plugbarremozi
 youneed.win#%#//scriptlet("abort-on-property-read", "daau_app")
-youporn.com##[data-track="ad-iframe-top"]
-youporn.com#$#abort-on-property-read zone_underplayer; abort-on-property-read zone_2545
-youporn.com,redtube.com#$#abort-on-property-write rAb
 youranshare.com#%#//scriptlet("abort-current-inline-script", "$", "adskilltest")
 youth.cn###identifier-pannel
 youth.cn##.hd_pic
@@ -18529,7 +18148,6 @@ z0r.de##.adb
 z4a.net
 zarabiajnaokazjach.pl#@##adsense
 zavporn.net##.opt
-zbporn.com#$#abort-on-property-read popns
 zch-vip.com##.plugin-access
 zcool.com.cn##.main-wrapper-advlong-top
 zcool.com.cn#@#.advtop
@@ -18537,7 +18155,6 @@ zdface.com#@#.top-ad
 zdnet.com###taboola-below-home-thumbnails-homepage
 zeekmagazine.com##.td-all-devices
 zelaznalogika.net#@##adsense
-zeny.cz,auto.cz##[data-track-ad]
 zerozero.pt###ad_block_msg
 zetorrents.com##A[href^="http://acces.directionplaisir.com/a.php?"]
 zetorrents.com##A[href^="http://www.insta-cash.net/tds/?"]
@@ -18679,8 +18296,6 @@ zol.com.cn##div[style="width: 300px; height: 250px; position: fixed; right: 0px;
 zoomtv.me###membz
 zoomtv.me##[class^="topad"]
 zorofiles.com###z662
-zoznam.sk#$#hide-if-matches-xpath './/div[@class]/iframe[@id][@title][string-length(@src) > 90]/ancestor::div[1]'
-zoznam.sk#$#hide-if-matches-xpath './/div[contains(text(),"Reklama")]/preceding-sibling::div[@class][2]/ancestor::*[3]'
 zqzq.com###wAdTop1
 zqzq.com###wAdTop2
 zrblog.net###top_nav
@@ -28001,6 +27616,7 @@ zzzyk.com###Tinfo
 ||adobe.autoscout24.ru^
 ||adobe.autoscout24.se^
 ||adobe.bupaglobal.com^
+||adobe.com/*/analytics.js
 ||adobe.com/*/pdc_s_code.js
 ||adobe.com/*/s_code*.js
 ||adobe.dynamic.ca^
@@ -28059,7 +27675,7 @@ zzzyk.com###Tinfo
 ||adobedemoamericas94.tt.omtrdc.net^
 ||adobedemoapac38.tt.omtrdc.net^
 ||adobedmumford.tt.omtrdc.net^
-||adobedtm.com^$third-party,domain=~adobe.com
+||adobedtm.com^$third-party,domain=~adobe.com|~costco.com
 ||adobedtm.com^*/satelliteLib-$script,domain=euronews.com|allrecipes.com|nvidia.at|nvidia.be|nvidia.cn|nvidia.co.jp|nvidia.co.kr|nvidia.co.uk|nvidia.com|nvidia.com.br|nvidia.com.mx|nvidia.com.tr|nvidia.com.tw|nvidia.cz|nvidia.de|nvidia.dk|nvidia.es|nvidia.fi|nvidia.fr|nvidia.in|nvidia.it|nvidia.nl|nvidia.no|nvidia.pl|nvidia.ru|nvidia.se
 ||adobeedge.my.gov.au^
 ||adobeintborisdaffos.tt.omtrdc.net^
@@ -29061,6 +28677,7 @@ zzzyk.com###Tinfo
 ||agm-608383469192.hb-fa-dev.tt.omtrdc.net^
 ||agm-716139848941.hb-fa-dev.tt.omtrdc.net^
 ||agm-943013221265.hb-fa-dev.tt.omtrdc.net^
+||agma-analytics.de^
 ||agner.meraki.artifactory-auth.tt.omtrdc.net^
 ||agnes.waz.de^
 ||agnptjjoajduje6y.sparta.members.tt.omtrdc.net^
@@ -31978,6 +31595,7 @@ zzzyk.com###Tinfo
 ||api.reverso.net/stats/
 ||api.ria.tt.omtrdc.net^
 ||api.rm1003.stage.tt.omtrdc.net^
+||api.rtl.nl/monitoring/
 ||api.ryanyao.design^
 ||api.safegraph.com^
 ||api.salesmachine.io/*/track/event
@@ -38344,6 +37962,7 @@ zzzyk.com###Tinfo
 ||camep.xyz^
 ||caminhosdamulherdedeus.tt.omtrdc.net^
 ||camisado.actonservice.com^
+||cammak.xyz^
 ||camp-station-appdata.tt.omtrdc.net^
 ||camp.p-city.com^
 ||campaign-direct.eisai.jp^
@@ -39055,7 +38674,6 @@ zzzyk.com###Tinfo
 ||cdn.tvdez.com^$third-party
 ||cdn.upthinking.cn^$third-party
 ||cdn.usefathom.com^
-||cdn.user-api.com^$domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 ||cdn.userleap.com^
 ||cdn.ustatik.com/vendor/metrica/watch.js
 ||cdn.vidcrunch.com/integrations/*_Responsive_Floating_DFP_$domain=discuss.com.hk
@@ -39838,6 +39456,7 @@ zzzyk.com###Tinfo
 ||ckerw.xyz^
 ||ckg.vipyl.com^
 ||ckies.net^
+||cklithuw.xyz^
 ||ckozwx.n11.com^
 ||ckpxtt.justfly.com^
 ||ckre.net^
@@ -40592,8 +40211,6 @@ zzzyk.com###Tinfo
 ||cnblogs.com/group/T2
 ||cnblogs.com/units/
 ||cnblogs.com^*/sideColumnAd?
-||cnc.cdn.dopc.cz.^$script,domain=blesk.cz
-||cnc.cdn.dopc.cz^*?format=js$script,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 ||cncnails.net^
 ||cnctddot.com^
 ||cndns.com/incs/js/website_mobile.js
@@ -43130,7 +42747,6 @@ zzzyk.com###Tinfo
 ||d3uvwl4wtkgzo1.cloudfront.net^
 ||d4.sina.com.cn^$object,script
 ||d41.co^$third-party
-||d49-a.sdn.cz^$image,domain=ahaonline.cz|auto.cz|autorevue.cz|blesk.cz|dama.cz|e15.cz|expres.cz|info.cz|iprima.cz|karaoketexty.cz|kinobox.cz|kupi.cz|lidovky.cz|maminka.cz|mojezdravi.cz|nasepenize.cz|novinky.cz|onetv.cz|osobnosti.cz|reflex.cz|sport.cz|super.cz|tiscali.cz|zeny.cz|zive.cz
 ||d4ax0r5detcsu.cloudfront.net^
 ||d4bpr2i48tizjq2f.edge46.testandtarget.omniture.com^
 ||d4vd.life/love/
@@ -47827,7 +47443,6 @@ zzzyk.com###Tinfo
 ||dominocounter.net^$third-party
 ||dominos.co.uk/qRgAwS/
 ||dominos.tt.omtrdc.net^
-||domnovrek.com^$third-party
 ||domo.tt.omtrdc.net^
 ||domodomain.com^$third-party
 ||domodomain.com^*/ddsense.aspx?
@@ -49208,6 +48823,7 @@ zzzyk.com###Tinfo
 ||efvsyhbf.xyz^
 ||efyt6.com^$third-party
 ||efzhm85.com^
+||egadfe.xyz^
 ||eganilglw.cyou^
 ||egbqvs.vila.com^
 ||eggplant.cloud^$third-party
@@ -50619,6 +50235,7 @@ zzzyk.com###Tinfo
 ||event.jma.or.jp^
 ||event.mrtnsvr.com^
 ||event.ortec.com^
+||event.platform.tunein.com^
 ||event.raise3d.cn^
 ||event.scimo.io^
 ||event.seatradecruiseevents.com^
@@ -50933,6 +50550,7 @@ zzzyk.com###Tinfo
 ||exisperstrk.com^
 ||exitachieve.myre.io^
 ||exitbee.com^$third-party
+||exitgames.com/photon/m/?ping
 ||exitintel.com/log/$third-party
 ||exitmonitor.com^$third-party
 ||exiv14.jp^
@@ -61936,7 +61554,6 @@ zzzyk.com###Tinfo
 ||jwpltx.com/*/ping.gif
 ||jwpltx.com^$third-party
 ||jwppgyt.cn^
-||jwpsrv.com/content/conversions/*/videos/*.mp4?token=$media,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 ||jwronx.xyz^
 ||jwtnmo.promovacances.com^
 ||jwujvjo.cn^
@@ -62864,6 +62481,7 @@ zzzyk.com###Tinfo
 ||ktrackdata.com^
 ||ktracker.kumparan.com^
 ||kttoo1.com^$domain=9xav.cc
+||ktvtxir.xyz^
 ||ktzhk.com/file/adv/
 ||kuaicad.com/rest/common/getConfigureByName?
 ||kuaidi100.com/assets/ext?method=mainprofile
@@ -77728,6 +77346,7 @@ zzzyk.com###Tinfo
 ||ppsj.com.cn/images/ppsj300.gif
 ||ppssav.formal-message.com^
 ||ppstatic.pl^*/track.js
+||pptclb.xyz^
 ||pptv.com/game/aplus/client/gamedetail.html
 ||pptv.com/stg/add?
 ||pptv.com/webdelivery/
@@ -82456,6 +82075,7 @@ zzzyk.com###Tinfo
 ||scaredsnakes.com^
 ||scaredsnakes.com^$third-party
 ||scaredsong.com^
+||scaredsong.com^$third-party
 ||scaredstory.com^
 ||scaredstory.com^$third-party
 ||scaredswing.com^
@@ -83733,10 +83353,7 @@ zzzyk.com###Tinfo
 ||seyredelim.com/lib/ajax/track.php
 ||sez.jp^
 ||sezixz.officesupply.com^
-||seznam.cz/*/*/js/*?nocache=1^$domain=www.seznam.cz
 ||seznam.cz/*/hit/?
-||seznam.cz/*/static/*/*?nocache=1^$domain=www.seznam.cz
-||seznamzpravy.cz/*/static/js/*^$domain=seznamzpravy.cz
 ||seznamzpravy.cz^$removeparam=dop_ab_variant
 ||seznamzpravy.cz^$removeparam=dop_id
 ||seznamzpravy.cz^$removeparam=dop_req_id
@@ -88888,7 +88505,6 @@ zzzyk.com###Tinfo
 ||spoonsilk.com^
 ||sporing.vessi.no^
 ||sport.be/javascripts/tracking/counterassets.js^
-||sport.cz/*&*=$subdocument,domain=sport.cz
 ||sport.ua/pixel/
 ||sport.ua/pixel/$image
 ||sportal.de/js/cf.analytics.js
@@ -92255,7 +91871,6 @@ zzzyk.com###Tinfo
 ||suntrust.tt.omtrdc.net^
 ||super.bad996.com/*ads.js
 ||super.cat898.com^
-||super.cz/*&*=$subdocument,domain=super.cz
 ||super.cz/*/hit/?
 ||super.cz/*/imp?
 ||super.cz/*/impress?
@@ -101296,7 +100911,6 @@ zzzyk.com###Tinfo
 ||userreporting.cloud.unity3d.com^
 ||users-api.com^$third-party
 ||users.51.la^$third-party
-||userscontent.com^$image,domain=ahaonline.cz|auto.cz|autorevue.cz|blesk.cz|dama.cz|e15.cz|expres.cz|info.cz|iprima.cz|karaoketexty.cz|kinobox.cz|kupi.cz|lidovky.cz|maminka.cz|mojezdravi.cz|nasepenize.cz|novinky.cz|onetv.cz|osobnosti.cz|reflex.cz|sport.cz|super.cz|tiscali.cz|zeny.cz|zive.cz
 ||usersedge-d.tt.omtrdc.net^
 ||usersegment.wpdigital.net^
 ||usersinternal-asterisk2.tt.omtrdc.net^
@@ -101648,6 +101262,7 @@ zzzyk.com###Tinfo
 ||vdggsd001.com^
 ||vdggsd002.com^
 ||vdggsd003.com^
+||vdggsd004.com^
 ||vdggsd005.com^
 ||vdggsd006.com^
 ||vdggsd007.com^
@@ -101918,7 +101533,6 @@ zzzyk.com###Tinfo
 ||videomatictv.com/imps/
 ||videoplayerhub.com^
 ||videopress.com/plugins/stats/
-||videos-fms.jwpsrv.com/*/content/conversions/*.mp4|$media,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 ||videos.giga.de/*/tracking
 ||videos.indonesiya.com^
 ||videos.oms.eu^$third-party
@@ -101972,6 +101586,7 @@ zzzyk.com###Tinfo
 ||views.2222.ro^
 ||views.arabnews.com^
 ||views.asura.gg^
+||views.asurascans.com^
 ||views.b1tv.ro/track.js
 ||views.b1tv.ro^
 ||views.cancan.ro^
@@ -102596,7 +102211,6 @@ zzzyk.com###Tinfo
 ||w-aa-mock.hb-fa-stage.tt.omtrdc.net^
 ||w-api.baomoi.com/api/*/log/
 ||w-api.baomoi.com^$image
-||w-cached.cncenter.cz/js/cnc-ads-controller.$script,domain=blesk.cz|extra.cz|reflex.cz|zive.cz|auto.cz|e15.cz|autorevue.cz|dama.cz|maminka.cz|mojezdravi.cz|zeny.cz|onetv.cz|info.cz|ahaonline.cz
 ||w-cdn.em.tt.omtrdc.net^
 ||w-dbl.com^
 ||w-profiling.cibc.com^$script
@@ -102822,8 +102436,6 @@ zzzyk.com###Tinfo
 ||warmquiver.com^$third-party
 ||warmthsupportive.com^
 ||warnermedia.com/api/v1/events?
-||warnermedia.com/api/v1/events?*=ad-break*^$xmlhttprequest,domain=cnn.com
-||warnermediacdn.com/prod01/*mp4^$xmlhttprequest,domain=cnn.com
 ||warnwing.com^
 ||warnwing.com^$third-party
 ||warrenfcu.actonservice.com^
@@ -105003,8 +104615,6 @@ zzzyk.com###Tinfo
 ||www.jsnzoe301m.com^
 ||www.jura.rw.tt.omtrdc.net^
 ||www.kanglingjiu.com^
-||www.karaoketexty.cz/*/*.jpg$domain=karaoketexty.cz,rewrite=abp-resource:2x2-transparent-png
-||www.karaoketexty.cz/*/*.png$domain=karaoketexty.cz,rewrite=abp-resource:2x2-transparent-png
 ||www.kcc4445.top^
 ||www.keet1liod.com^
 ||www.keyad.fr^
@@ -105019,7 +104629,6 @@ zzzyk.com###Tinfo
 ||www.ksyrium0014.com^
 ||www.ktet.ftn.tt.omtrdc.net^
 ||www.kukulm.com^
-||www.kupi.cz/*&*=$subdocument,domain=www.kupi.cz
 ||www.lack4skip.com^
 ||www.laksjd4.com^
 ||www.lansrv020.com^
@@ -105886,7 +105495,6 @@ zzzyk.com###Tinfo
 ||xh2-prod.qa01.tt.omtrdc.net^
 ||xh33g.net^
 ||xhamster.com/api/$ping
-||xhamster.com/api/models/vast?*^$xmlhttprequest,domain=xhamster.com
 ||xhamster.com/stats/
 ||xhamsterlive.com/pixel/
 ||xhblbt3-eu-west-1.inf.hydra.tt.omtrdc.net^
@@ -108007,6 +107615,7 @@ zzzyk.com###Tinfo
 ||zypzzv.xyz^
 ||zyq2.destinia.sk^
 ||zyrwfd.xyz^
+||zys13.top^
 ||zyuken.net/gcp_remote/ads_imp/
 ||zyzlpt.com^
 ||zz.bdstatic.com^
