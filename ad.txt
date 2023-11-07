@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-11-07 20:19:43
-! Total count: 110224
+! Version: 2023-11-08 02:13:09
+! Total count: 110229
 
  
 ###AdBlockDialog
@@ -7589,7 +7589,7 @@ $websocket,domain=5nj.com|cechi8.com
 123pan.com##.advBanner
 123pan.com##.ant-carousel
 123pan.com##div[style="width:100%;position:absolute;bottom:0;height:96px"]
-123pan.com#@#.share-list
+123pan.com,meidebi.com,weicaixun.com#@#.share-list
 123putlocker.club#$#abort-current-inline-script _0xbc13
 125.la##.forumlist_ad
 126.com,163.com##.gWel-promt
@@ -10843,8 +10843,10 @@ cool-de.com###fwin_popadv_cover
 cool-de.com##.bustopads
 cool18.com###d_right_ad
 cool3c.com##.board
+cool3c.com##.board-sidebar
 cool3c.com##.col-xs-12 > [class="board board-article board-cool3c_superboard_article3 board-new clearfix"][data-board="cool3c_superboard_article3"]
 cool3c.com##.col-xs-12 > [class="board board-page board-Cool3c_SuperBoard board-new clearfix"][data-board="Cool3c_SuperBoard"]
+cool3c.com##.gpt-new
 cool3c.com##.post-list > [class="board board-post board-cool3c-super-board-home-1 board-new clearfix"][data-board="cool3c-super-board-home-1"]
 cool3c.com##.post-list > [class="board board-post board-cool3c_superboard_2 board-new clearfix"][data-board="cool3c_superboard_2"]
 cool3c.com##.sticky-inner > [class="board board-side board-cool3c-home_300x250_2 board-new clearfix"][data-board="cool3c-home_300x250_2"]
@@ -23718,6 +23720,7 @@ zzzyk.com###Tinfo
 ||88lajs2.com^
 ||88lajs3.com^
 ||88lajs4.com^
+||88lajs6.com^
 ||88liu.com/data/attachment/portal/
 ||88p2p.com^$popup
 ||88ys.cc/js/abcd.js
@@ -64253,6 +64256,7 @@ zzzyk.com###Tinfo
 ||klsnckalualkcn.com^
 ||klsynmld.fun^
 ||klufjdo.com^
+||klwhuci.cn^
 ||klwukospapf.click^
 ||klxwe.xyz^
 ||klyhw.xyz^
@@ -64576,6 +64580,7 @@ zzzyk.com###Tinfo
 ||kuakao.com:6053/floatcard?
 ||kuanxin.top^
 ||kuanzhan.biz^
+||kuazhi.com/zb_users/plugin/allshow/js/main.
 ||kuazhi.com/zb_users/plugin/allshow/js/main.js
 ||kubectl.tt.omtrdc.net^
 ||kubeflow-stage.tt.omtrdc.net^
