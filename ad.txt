@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-11-08 08:49:30
-! Total count: 110221
+! Version: 2023-11-08 14:13:59
+! Total count: 110245
 
  
 ###AdBlockDialog
@@ -1289,6 +1289,7 @@
 ##IMG[src='/adBanner']
 ##IMG[src='/js/imgs/taote.jpg']
 ##IMG[src^='http://socos.gitee.io/ss/poster'][alt][style='width: 100%;']
+##IMG[src^='https://dzfzfv.xyz/']
 ##IMG[style='height:120px;width:100%;'][src*='/sucai/']
 ##IMG[style='width: 100%;'][src^='https://ad.']
 ##IMG[url][onclick='window.open(this.url)'][src$='.gif'][width='100%']
@@ -1758,6 +1759,7 @@
 ##body#nr_body.nr_all.c_nr > div > div[id][class] > [href]
 ##body#nr_body.nr_all.c_nr > div[class] > DIV[style='height:90px;width:100%;']
 ##body#nr_body.nr_all.c_nr > section[id]
+##body#read.read DIV[style$=' width: 100vw; position: relative;']
 ##body#reader-m-fix IMG[src*='.gif'][style='width:100%;height:100%']
 ##body#wrapper A[ontouchstart='this.click();']
 ##body.active > div.myui-panel > DIV#home_slide
@@ -2662,6 +2664,7 @@ $websocket,domain=5nj.com|cechi8.com
 .com:8001/*/*?*=$third-party
 .com:8003/d/*&n=$third-party
 .com:8004/*/*?*=$third-party
+.com:8005/*&n=$third-party
 .com:8007/*/*?*=$third-party
 .com:8008/*/*?*=$third-party
 .com:8008/sc/*?n=$third-party
@@ -6158,6 +6161,7 @@ $websocket,domain=5nj.com|cechi8.com
 /rtracker/ofs.rtt.js
 /rudder-analytics.js
 /rudder-analytics.min.js
+/rum-collector/*
 /rum-telemetry/*
 /rum-track?
 /rum.gif?
@@ -29440,6 +29444,7 @@ zzzyk.com###Tinfo
 ||adobemarketingcloud.tt.omtrdc.net^
 ||adobemobiledev.hb.tt.omtrdc.net^
 ||adobepremierpartners.tt.omtrdc.net^
+||adoberesources.net^$third-party,domain=~adobe.com
 ||adobes.marugame-seimen.com^
 ||adobes.pmi.org^
 ||adobescene7marketing.tt.omtrdc.net^
@@ -30685,6 +30690,7 @@ zzzyk.com###Tinfo
 ||aisixiang.com/images/*-20
 ||aisnj.cn^
 ||aispmatch-tw.hb-fa-dev.tt.omtrdc.net^
+||aispyd.icu^
 ||aisstage1.rtp.tt.omtrdc.net^
 ||aisy19.com/dm/
 ||aitai.biz^
@@ -34753,6 +34759,7 @@ zzzyk.com###Tinfo
 ||asdmcm.com^
 ||asdx55.com^
 ||asdyui16.cn^
+||asdzxc1.top^
 ||ase-stg.dev.dev8.tt.omtrdc.net^
 ||asemskull.com^$domain=igg-games.com
 ||asengage-hc.mediapark.tt.omtrdc.net^
@@ -44598,6 +44605,7 @@ zzzyk.com###Tinfo
 ||d3t4q9r0y6a1oz.cloudfront.net^$script,image
 ||d3tglifpd8whs6.cloudfront.net^
 ||d3uvwl4wtkgzo1.cloudfront.net^
+||d3vebqdofhigrn.cloudfront.net^
 ||d4.sina.com.cn^$object,script
 ||d41.co^$third-party
 ||d49-a.sdn.cz^$image,domain=ahaonline.cz|auto.cz|autorevue.cz|blesk.cz|dama.cz|e15.cz|expres.cz|info.cz|iprima.cz|karaoketexty.cz|kinobox.cz|kupi.cz|lidovky.cz|maminka.cz|mojezdravi.cz|nasepenize.cz|novinky.cz|onetv.cz|osobnosti.cz|reflex.cz|sport.cz|super.cz|tiscali.cz|zeny.cz|zive.cz
@@ -48460,6 +48468,7 @@ zzzyk.com###Tinfo
 ||dictionarycomllc.tt.omtrdc.net^
 ||dictionnaire-analogique.tt.omtrdc.net^
 ||did-it.com^$third-party
+||dididy.xyz^
 ||didit.com^$third-party
 ||didna.io^$third-party
 ||die-rankliste.com^$third-party
@@ -49204,6 +49213,7 @@ zzzyk.com###Tinfo
 ||dnkeyt.svetsochtillbehor.se^
 ||dnn506yrbagrg.cloudfront.net^
 ||dnn506yrbagrg.cloudfront.net^$domain=quoka.de
+||dnnapi.com/analytics/
 ||dnp.tt.omtrdc.net^
 ||dnpz123.com^$third-party
 ||dnrf0215.com^
@@ -50001,6 +50011,7 @@ zzzyk.com###Tinfo
 ||dz19.net/addimg/
 ||dz7cp6bdqjjn5.cloudfront.net/q/s/stats/init.min.js
 ||dzforp.buscape.com.br^
+||dzfzfv.xyz^
 ||dzgwautxzdtn9.cloudfront.net^
 ||dzhyp.tt.omtrdc.net^
 ||dzjzg.com^
@@ -51677,6 +51688,7 @@ zzzyk.com###Tinfo
 ||enviousthread.com^
 ||enviousthread.com^$third-party
 ||environmentals.tt.omtrdc.net^
+||envoke.com^$third-party
 ||eo.chaungpin.top^
 ||eo.dongdm.cn^
 ||eo.jinzpeng.cn^
@@ -53416,6 +53428,7 @@ zzzyk.com###Tinfo
 ||firstscribe.tt.omtrdc.net^
 ||firstsoftapp.com^
 ||firststop.tt.omtrdc.net^
+||firsttexture.com^
 ||fise.tt.omtrdc.net^
 ||fiservsolution.tt.omtrdc.net^
 ||fish.canyouexplain.me^
@@ -61649,6 +61662,7 @@ zzzyk.com###Tinfo
 ||inside-it.ch/proxy/engine/api/v1/auth/ping/
 ||inside-out.xyz^$csp=worker-src 'none'
 ||inside2b.ge.tt.omtrdc.net^
+||insideevs.com/analytics.js
 ||insider.com/chunks/scripts/datadog-
 ||insider.com^$cookie=/anonymous_id|fenrir_anonymous_id/
 ||insiderdata360online.com/service/platform.js
@@ -62627,6 +62641,7 @@ zzzyk.com###Tinfo
 ||jack-roaddinc.jp^
 ||jackal.jakerunzer.com^
 ||jackal.thetie.io^
+||jackdd.xyz^
 ||jackielovedogs.com^
 ||jackshih.rshethia8.tt.omtrdc.net^
 ||jacksoncookphotography.com^
@@ -73720,6 +73735,7 @@ zzzyk.com###Tinfo
 ||muxingkj.com^$third-party,image
 ||muxtarowa-e.tt.omtrdc.net^
 ||muyuge.com/fw.html/
+||muyxmmz.cn^
 ||muyys.com/img/
 ||muzisoft.com/static/*_f.js
 ||mv-r1ck.com^
@@ -74022,6 +74038,7 @@ zzzyk.com###Tinfo
 ||myhack58.com/Articleacb0
 ||myhack58.com^*0$script
 ||myhaitang.cc/assets/public/*.js
+||myhaitang.xyz/assets/public/
 ||myhao.club^
 ||myhealth.ssmhealth.com^
 ||myhg.healthgrades.com^
@@ -78663,6 +78680,7 @@ zzzyk.com###Tinfo
 ||pinterest.com/*/StatsLogResource/
 ||pinterest.com/*/UserRegisterTrackActionResource/
 ||pinterest.com/_/_/report/
+||pinyuege.net/template/pinygm/public/js/
 ||pio.wir-sehen-uns-im-juni.de^
 ||pionas.tt.omtrdc.net^
 ||piparelli.net^
@@ -78942,6 +78960,7 @@ zzzyk.com###Tinfo
 ||planarian.fatsackfails.com^
 ||planarian.reverberate.org^
 ||planarian.sexcam-gutscheine.de^
+||planebasin.com^
 ||planesorder.com^
 ||planetradio.co.uk/crystal/log
 ||planning-analytics.tt.omtrdc.net^
@@ -86316,6 +86335,7 @@ zzzyk.com###Tinfo
 ||singlife.tt.omtrdc.net^
 ||singlove.com/qq/qq.js
 ||singmwn51g.com^
+||singmwn54g.com^
 ||singroot.com^
 ||singroot.com^$third-party
 ||sinkbooks.com^
@@ -91939,6 +91959,7 @@ zzzyk.com###Tinfo
 ||stahl.actonservice.com^
 ||stainlesssteel.ru/counter.php?
 ||stairsonline5.tt.omtrdc.net^
+||stakingbasket.com^
 ||stakingscrew.com^
 ||stakingscrew.com^$third-party
 ||stakingslope.com^
@@ -96148,6 +96169,7 @@ zzzyk.com###Tinfo
 ||teamviewer.com/api/log/
 ||teamviewergmbh.tt.omtrdc.net^
 ||teamwork-project.com^
+||tearfulglass.com^
 ||teaser.tt.omtrdc.net^
 ||tech.finalto.com^
 ||tech.jiukang.org^
@@ -105950,6 +105972,7 @@ zzzyk.com###Tinfo
 ||wholehk.com/atttuop.js
 ||wholenicefeed.com^
 ||wholewowblog.com^
+||whols.cn^
 ||whooshkaa.com/identify
 ||whooshkaa.com/listen/track
 ||whos.amung.us^
@@ -108865,6 +108888,7 @@ zzzyk.com###Tinfo
 ||yjrjmy.com^
 ||yjtag.jp^$third-party
 ||yjtag.yahoo.co.jp^
+||yjuhqy.xyz^
 ||yjxssk.apartments.com^
 ||yjyc-ask.com/res/ads/
 ||yk-ssp.ad.youku.com^
