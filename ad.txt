@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-11-11 14:12:51
-! Total count: 109373
+! Version: 2023-11-11 20:17:56
+! Total count: 109375
 
  
 ###AdBlockDialog
@@ -8201,6 +8201,7 @@ $websocket,domain=5nj.com|cechi8.com
 423down.com##.content > a
 423down.com##.content > h3 > a[rel="external nofollow"][target="_blank"]
 423down.com##.content > p[style]
+423down.com##.entry > P[style*="20px;color"]
 423down.com##.entry > p[style="font-size: 20px;"]
 423down.com##.entry > p[style^="color:red"]
 423down.com##.widget_d_banner
@@ -106905,6 +106906,7 @@ zzzyk.com###Tinfo
 ||wyiegt.icu^
 ||wyjbvoz.xyz^
 ||wymiana.org/stat/
+||wymzwy.cn^
 ||wyndham.tt.omtrdc.net^
 ||wyndhamhotelgroup.tt.omtrdc.net^
 ||wyndhamvacationrenta.tt.omtrdc.net^
