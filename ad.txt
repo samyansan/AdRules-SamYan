@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-11-11 08:48:41
-! Total count: 109362
+! Version: 2023-11-11 14:12:51
+! Total count: 109373
 
  
 ###AdBlockDialog
@@ -2656,7 +2656,7 @@ $websocket,domain=5nj.com|cechi8.com
 .com/vj1/$script,third-party
 .com/vj2/$script,third-party
 .com/vodad.js
-.com/vtrack|
+.com/vtrack
 .com/xz/*?token8=
 .com/z-*-*?123$third-party
 .com/zz/*2.txt$xmlhttprequest
@@ -3292,6 +3292,7 @@ $websocket,domain=5nj.com|cechi8.com
 /\/theme\/js\/[a-z0-9]{5,}\.js\?v=/$domain=novipnoad.com
 /\/upload\/[a-z0-9]{7}\/[0-9]+-[0-9]?\/[a-z0-9]{32}\.gif/$domain=higu.tv
 /^(?!.*(statically.io|sharecast.ws|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|imgsmail.ru)).*$/$third-party,script,_____,domain=manshuxs.com|yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top|634.tv|myhaitang.cc
+/^https:\/\/(?:black|white)\d{1,2}\.zzz\.com\.ua\/(?:win|mac)\//
 /^https:\/\/[0-9a-z]{7,25}\.com\/v2(?:\/0\/)?(?=[0-9a-z_-]{0,84}[A-Z])(?=[a-zA-Z_-]{0,84}[0-9])[0-9a-zA-Z_-]{54,85}(#\?v=[0-9a-f]{32})?$/$ping,script,xmlhttprequest,third-party,match-case
 /^https:\/\/[a-z]+\.com\/away\.php\?url=[%0-9A-z]{100,}$/
 /^https:\/\/cs\d{3}\.\w+\.com\/cscript\/\d{3}\/[\w\d]+\.js$/$script,third-party,match-case
@@ -19863,6 +19864,7 @@ zhenbuka.com##.jq-toast-wrap
 zhenbuka.com#%#//scriptlet("prevent-setTimeout", "ad_ids")
 zhenbuka3.com,zhenbuka2.com,bukaivip.com#%#//scriptlet("adjust-setTimeout", "CloseAd", "", "0.02")
 zhenbuka3.com,zhenbuka2.com,bukaivip.com#%#//scriptlet("prevent-setTimeout", "ad_load_fail")
+zhenniu.vip###klp_hdp
 zhenniu.vip#?##portal_block_69_content > li:-abp-has(a[href^="http"])
 zhibo8.cc###m_adv
 zhibo8.cc###popautoapp
@@ -30531,6 +30533,7 @@ zzzyk.com###Tinfo
 ||ahp81.ddns.tt.omtrdc.net^
 ||ahpc23.its.tt.omtrdc.net^
 ||ahpengjie.com^
+||ahpphkc.xyz^
 ||ahrar.hb-fa-dev.tt.omtrdc.net^
 ||ahseydyfej.17.251foxnews.hb.tt.omtrdc.net^
 ||ahuys.net/Runtime/js/
@@ -36003,6 +36006,7 @@ zzzyk.com###Tinfo
 ||axentis.arclogics.com^
 ||axf8.net^$third-party
 ||axiomaticalley.com^
+||axiomaticanger.com^
 ||axion-biosystems.actonservice.com^
 ||axis073236.com^
 ||axisbank.tt.omtrdc.net^
@@ -37941,7 +37945,6 @@ zzzyk.com###Tinfo
 ||blablabus-test.cloud-prod.cloud.tt.omtrdc.net^
 ||blablacar.co.uk$cookie=vstr_id
 ||black-card.tt.omtrdc.net^
-||black1.zzz.com.ua^
 ||blackberrylimited.tt.omtrdc.net^
 ||blackbird.docstation.co^
 ||blackbird.everythinginmoderation.co^
@@ -47764,6 +47767,7 @@ zzzyk.com###Tinfo
 ||delicatecascade.com^
 ||delicateducks.com^
 ||delicateducks.com^$third-party
+||deliciousducks.com^
 ||delidatax.net^$third-party
 ||delightfulhour.com^
 ||delikatesycentrum02.ads.tt.omtrdc.net^
@@ -53210,6 +53214,7 @@ zzzyk.com###Tinfo
 ||flagshipism.com^
 ||flakyfeast.com^
 ||flamaliteraria.tt.omtrdc.net^
+||flameuncle.com^
 ||flamingo.abihome.de^
 ||flamingo.apatonsrompus.com^
 ||flamingo.stacking-club.com^
@@ -56692,6 +56697,7 @@ zzzyk.com###Tinfo
 ||gscohm.xyz^
 ||gscounters.*.gigya.com^
 ||gscounters.gigya.com^
+||gscsahv011.com^
 ||gsdm.tt.omtrdc.net^
 ||gsdpw.com/file/script/A
 ||gsecondscreen.com^$third-party
@@ -62566,6 +62572,7 @@ zzzyk.com###Tinfo
 ||jijozdrg.xyz^
 ||jike001.top^
 ||jiktq0fr9hv6.meleton.ru^
+||jili9.io^
 ||jiliw.com^$third-party
 ||jill.fc.yahoo.com^
 ||jilong.work^
@@ -73289,6 +73296,7 @@ zzzyk.com###Tinfo
 ||mvjkbj.inazumanews2.com^
 ||mvkus.tt.omtrdc.net^
 ||mvlkvth.cn^
+||mvng.cn^
 ||mvo.g45td.xyz^
 ||mvtracker.com^$third-party
 ||mvxz.com/bar3.js
@@ -76876,6 +76884,7 @@ zzzyk.com###Tinfo
 ||parakeet.jorenvanhocht.be^
 ||parakeet.quotetweet.com^
 ||parallel6.actonservice.com^
+||parallelbulb.com^
 ||paramedicexam.quantresear.ch^
 ||parameter.dk^$third-party
 ||parametre.online^$third-party
@@ -79947,6 +79956,7 @@ zzzyk.com###Tinfo
 ||pzajdh.guicheweb.com.br^
 ||pzapi-ij.com^
 ||pzapi-kg.com^
+||pzcogpj.icu^
 ||pzd.rakuten.co.jp^
 ||pzimff.com^
 ||pzjizsyf.icu^
@@ -81858,6 +81868,7 @@ zzzyk.com###Tinfo
 ||rhymezebra.com^
 ||rhyprua.com^
 ||rhythmmoney.com^
+||rhythmrule.com^
 ||ria.ru/counter?
 ||ria.ru/ping?
 ||ria.ru/polling?ticket=
