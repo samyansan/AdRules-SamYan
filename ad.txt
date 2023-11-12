@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-11-12 08:56:18
-! Total count: 109394
+! Version: 2023-11-12 14:12:46
+! Total count: 109405
 
  
 ###AdBlockDialog
@@ -446,6 +446,7 @@
 ###upprev_box
 ###videoADPIC
 ###video_playr_side.video_playr_sider.videoplayerside
+###vpnModal.nordvpn-popup
 ###whYuTlxF
 ###widget-quan
 ###windlocation
@@ -1356,6 +1357,7 @@
 ##[href^='https://analytics.woozooo.com/jump.php?url=']
 ##[href^='https://ccs.holor0803.cn']
 ##[href^='https://dc.vvsmse72']
+##[href^='https://down.erperweima.top/']
 ##[href^='https://dt.mydrivers.com/b.ashx']
 ##[href^='https://fcc.hxaxfcc.cn/']
 ##[href^='https://gougew.lanzoub.com/']
@@ -19268,6 +19270,7 @@ wuyong.fun#?#.sidebar-innter > section[id^="b2-widget-html-"]:has(.adsbygoogle)
 wuzhuiso.com##.download-app
 www.1069gay.net###shortcut
 www.123pan.com##.advBanner
+www.123pan.com##.banner-container-h5
 www.123pan.com##DIV.app-adv-container
 www.123pan.com##IMG[src*='-banner'],.ant-carousel
 www.15yan.com##.tooltip
@@ -23841,6 +23844,7 @@ zzzyk.com###Tinfo
 ||91.hb-fa-stage.tt.omtrdc.net^
 ||91160.com/nykj/f=static/v4/common/tj.js
 ||9129666tp.com^$domain=9xav.cc
+||913mj.xyz^
 ||915thebeat.com.ssl.sc.tt.omtrdc.net^
 ||918.prod.cloud.prod.cloud.tt.omtrdc.net^
 ||9189.pandasuite.io^
@@ -39050,12 +39054,14 @@ zzzyk.com###Tinfo
 ||btc9339.com^
 ||btcfans.com/template/comiis_lssy/ad/
 ||btdb.in/beacon.html
+||btdmp.com^
 ||btdx8.com/tmp/
 ||btescs.fun^
 ||btg360.com.br^$third-party
 ||btgoo.cc^
 ||btgpactual.tt.omtrdc.net^
 ||bthand.com/static/js/default.js
+||bthypgm.cn^
 ||btienlv.top^
 ||btime.com/api/weblog?
 ||btkat.com/style/l.js
@@ -43546,6 +43552,7 @@ zzzyk.com###Tinfo
 ||credence-website.com^
 ||credenciamento.tt.omtrdc.net^
 ||credible.com/api/logs-fe
+||credistory.ru/api/v1/LiveMetrics/
 ||credit-suisse.hb.tt.omtrdc.net^
 ||creditacceptance.tt.omtrdc.net^
 ||creditagricolenordmi.tt.omtrdc.net^
@@ -57847,6 +57854,7 @@ zzzyk.com###Tinfo
 ||hibiki-track.logica.bz^
 ||hibikiluler.top^
 ||hibiquan.com/uploads/images/
+||hibj.online^
 ||hickeyhsu.top^
 ||hickeysmith.actonservice.com^
 ||hicloud.com/download/web/dtm.js
@@ -89740,6 +89748,7 @@ zzzyk.com###Tinfo
 ||sooopu.com/asphtml/plnew.
 ||sooopu.com/js/*950.js
 ||sooopu.com/js/contentad330.js
+||sooqr.com^$third-party
 ||soorbka.cn^$third-party
 ||sootheside.com^
 ||sop-dvl-compensation-func.tt.omtrdc.net^
@@ -105144,6 +105153,7 @@ zzzyk.com###Tinfo
 ||whqgyo.xyz^
 ||whqkyq.leasingmarkt.de^
 ||whqxj.xyz^
+||whranc.cn^
 ||whrc.xyz^
 ||whrnzkhunf.adultswim.hb.tt.omtrdc.net^
 ||whrsen.itemmania.com^
@@ -107746,6 +107756,7 @@ zzzyk.com###Tinfo
 ||yandex.com/clck/
 ||yandex.eu/clck/
 ||yandex.fr/clck/click
+||yandex.net/expjs/latest/exp.js
 ||yandex.ru/clck/
 ||yandex.ru/clck/click|
 ||yandex.ru/click/
