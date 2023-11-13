@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-11-13 14:14:19
-! Total count: 109435
+! Version: 2023-11-13 20:20:32
+! Total count: 109439
 
  
 ###AdBlockDialog
@@ -20046,6 +20046,9 @@ zzbaike.com##.link2
 zzkdhb.com##li[style*="important"]
 zzkdhb.com##p[style^="width: 100%; margin: 0px;"]
 zznews.cn#@#.ad-wrapper
+zztt11.com,zztt24.com##.event-notice
+zztt11.com,zztt24.com##.gotoclick
+zztt11.com,zztt24.com##.no-mask
 zztt24.com##.event-notice
 zztt24.com##.gotoclick
 zztt24.com##.no-mask
@@ -95849,6 +95852,7 @@ zzzyk.com###Tinfo
 ||tfbulkidn.com^
 ||tfcdn.jingmiuyyds.com^$all
 ||tfcoverss.live^
+||tfczk.xyz^
 ||tfdmzsgy.icu^
 ||tfdtpa.dot-st.com^
 ||tfehmsag.xyz^
