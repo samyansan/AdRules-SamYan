@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-11-17 14:14:37
-! Total count: 117354
+! Version: 2023-11-17 20:20:13
+! Total count: 117361
 
  
 ###AdBlockDialog
@@ -178,6 +178,7 @@
 ###cat_intro_first_ad
 ###cat_intro_second_ad
 ###checkadblockernow
+###chs_bannerArea
 ###comic_reader + #adDisabledBtn
 ###comiis_xizi_gg02
 ###container > #main.site-main > div > div > a[href^="/"][href$="/"] > img
@@ -8357,6 +8358,7 @@ $websocket,domain=5nj.com|cechi8.com
 5278.cc#%#//scriptlet("prevent-window-open", "88p2p.com")
 5278.cc,hboav.com#%#//scriptlet('prevent-setTimeout', '/ad block stop|warm_msg/')
 528500.com###wp > div[align="center"]
+52asus.com###guiigo-black-mask
 52av.one##.message + center
 52av.one##div[style^="text-align:center;"] > a[target="_blank"] > img
 52bdys.com###ayx
@@ -10360,6 +10362,7 @@ caikuu.com##.clearfix + .recommend
 caikuu.com##.photo_abv
 caixin.com##.course_box
 caixin.com##.incubator
+caiyunapp.com##.active-imgContainer
 calidadcine.net,seriesmetro.net#$#abort-on-property-read afStorage
 cam4.com###Cam4DialogContainer
 cam4.com###disclaimerModal
@@ -34351,6 +34354,7 @@ zzzyk.com###Tinfo
 ||2a2g2emmkmq8t2cv8r3829gng.tt.omtrdc.net^
 ||2aa-mock.hb-fa-stage.tt.omtrdc.net^
 ||2aa6f9qgrh9.acc.evservice.nl^
+||2ajsvd12.com^
 ||2aqr.net^
 ||2btu.com/gg.jpg
 ||2c0a5.xyz^
@@ -50429,6 +50433,7 @@ zzzyk.com###Tinfo
 ||c6.friok.com^
 ||c6890.cn^$third-party
 ||c72w6.com^
+||c78zf.xyz^
 ||c917.pandasuite.io^
 ||c930lhsivns1b.jp^
 ||c993.westport-news.com^
@@ -68074,6 +68079,7 @@ zzzyk.com###Tinfo
 ||highwebmedia.com/CACHE/js/output.ed5f5a28fb27.js
 ||highwoods.actonservice.com^
 ||higyakuganbou.blog.tt.omtrdc.net^
+||hihlj.online^
 ||hiido.com^$third-party
 ||hijack.baidu.com^
 ||hijxfm.gaspedaal.nl^
@@ -68907,6 +68913,7 @@ zzzyk.com###Tinfo
 ||hvrzig.e-domizil.ch^
 ||hvxymx.tui.pl^
 ||hw.tt.omtrdc.net^
+||hw0.com.cn^
 ||hwa.his.huawei.com^
 ||hwcdn.tt.omtrdc.net^
 ||hwfoct.icu^
