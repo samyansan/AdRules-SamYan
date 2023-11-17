@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-11-17 20:20:13
-! Total count: 117361
+! Version: 2023-11-18 02:13:53
+! Total count: 117364
 
  
 ###AdBlockDialog
@@ -11065,7 +11065,6 @@ cq.qq.com##div.clearfix[style*="1000"]
 cq.qq.com##div[class^="ad-box"]
 cq.qq.com##div[style*="1000"][style*="60"]
 cq.ru#$#prevent-listener DOMContentLoaded 'banners'
-cqfishing.net###chs_bannerArea
 cqjschungao.com##[style*='px no-repeat; position: relative;']
 cqjschungao.com##[style='bottom: 132px;']
 cqmmgo.com##.ad-160x40
@@ -33864,11 +33863,13 @@ zzzyk.com###Tinfo
 ||1hb4jkt1u2d.probemas.com^
 ||1htpkw6.$script,xmlhttprequest,domain=ign.com|ignboards.com
 ||1isp-1-2234.prod.ftl.prod.ftl.tt.omtrdc.net^
+||1iuybpo.com^
 ||1jc5t.xyz^
 ||1k2l3m4n5o.com^
 ||1k5vz1ejbcx.staging.probemas.com^
 ||1kanz.cn^
 ||1ketang.com/Runtime/js/play
+||1kfnsra.com^
 ||1koa95e6z2j.www.future-fortune.com^
 ||1kpv4njzilv.community.intersystems.com^
 ||1kqfzwd.com^
@@ -33914,6 +33915,7 @@ zzzyk.com###Tinfo
 ||1v9d7vx.cob.autojournal.fr^$script
 ||1v9d7vx.jaz.sportauto.fr^$script
 ||1w73a5d.cn^
+||1weorpu.com^
 ||1wkg.cn^
 ||1worldsync.com/log?
 ||1x6666.com/img/
@@ -77204,6 +77206,7 @@ zzzyk.com###Tinfo
 ||m1ll1c4n0.com^$third-party
 ||m1tm.motor1.com/analytics.js
 ||m2.lelemh.com^
+||m2k3j7x8.com^
 ||m2sg.jp^
 ||m2t.actonservice.com^
 ||m3-8498263.com^
@@ -90235,7 +90238,7 @@ zzzyk.com###Tinfo
 ||reddishpurple.com^
 ||reddit.com/counters/$xmlhttprequest
 ||reddit.com/static/pixel.png$image
-||reddit.com/svc/shreddit/events|$redirect=nooptext
+||reddit.com/svc/shreddit/events|$xmlhttprequest,redirect=nooptext
 ||reddit.com/svc/shreddit/perfMetrics
 ||reddit.com/timings/
 ||reddit.com^$removeparam=%243p
