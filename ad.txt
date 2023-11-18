@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-11-18 02:13:53
-! Total count: 117364
+! Version: 2023-11-18 08:50:41
+! Total count: 117384
 
  
 ###AdBlockDialog
@@ -2123,6 +2123,7 @@ $cookie=_uetvid
 $cookie=_vfa
 $cookie=_vfb
 $cookie=_vfz
+$cookie=_vid_t
 $cookie=_vwo_uuid_v2
 $cookie=_wctrck
 $cookie=_yTrackUser
@@ -7806,6 +7807,7 @@ $websocket,domain=5nj.com|cechi8.com
 18comic.*##div[data-height="90"][data-width="728"]
 18comic.*#?#body .bot-per
 18comic.*#@#img[style*="300px"]
+18comic.org,18comic.vip##div[data-group^="photo_center_games_"]
 18comic.org,18comic.vip,18-comic.work#?#:-abp-has(>ins+script)
 18comic.org,18comic.vip,18-comic.work#?#:-abp-has(>script+ins)
 18comic.org,18comic.vip,18-comic.work#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
@@ -7816,7 +7818,6 @@ $websocket,domain=5nj.com|cechi8.com
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group#.bot-per-times
 18comic.vip##IMG[src^='//18comic.vip/media/albums/']
 18comic.vip##div[data-group^="skyscraper_"]
-18comic.vip#?#.thumb-overlay-albums > div[class][data-group^="photo_center_games_"]:has(> a[target="_blank"] > img)
 18comic.vip,18comic.org##div[data-height="250"][data-width="300"]
 18h.animezilla.com###manga-bottom
 18h.avmimi.com##body > p[align="center"]:first-child
@@ -8824,6 +8825,8 @@ $websocket,domain=5nj.com|cechi8.com
 :701/Pus/pus.js
 :701/gd_xueersi/$popup
 :7701/load.cw.js
+:800*/d/*?n=$script,third-party
+:800*/sc/*?n=$script,third-party
 :8007/*/*?is_not=
 :8008/*/*?is_not=
 :8080/ad/
@@ -33844,6 +33847,7 @@ zzzyk.com###Tinfo
 ||1bw7etm93lf.www.woodbrass.com^
 ||1c.api.tt.omtrdc.net^
 ||1cdhf.top^
+||1cjzfyb.com^
 ||1cpbac.ru^
 ||1cpkcnm.com^
 ||1crackle.hb.tt.omtrdc.net^
@@ -35818,6 +35822,7 @@ zzzyk.com###Tinfo
 ||7dh26aja.com^
 ||7dics.hb.tt.omtrdc.net^
 ||7down.com/static/js/foot_
+||7dusx.xyz^
 ||7eb5.tt.omtrdc.net^
 ||7eer.net^$third-party
 ||7fv6hdz1xrrffpi9.sparta.members.tt.omtrdc.net^
@@ -44242,6 +44247,7 @@ zzzyk.com###Tinfo
 ||analytics.traderlink.com^
 ||analytics.tribeca.vidavee.com^
 ||analytics.tripoto.com^
+||analytics.trovit.com^
 ||analytics.truckingauthority.com^
 ||analytics.trust.page^
 ||analytics.trutv.com^
@@ -46312,7 +46318,7 @@ zzzyk.com###Tinfo
 ||assets-prod.sumo.prod.webservices.mozgcp.net/static/gtm-snippet.
 ||assets-stationpos.tt.omtrdc.net^
 ||assets.adobedtm.com^$app=com.aa.android
-||assets.adobedtm.com^$domain=mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|euronews.com|newshub.co.nz|fredmeyer.com|viabcp.com|carsales.com.au|falabella.com|aarp.org|thehill.com
+||assets.adobedtm.com^$domain=mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|euronews.com|newshub.co.nz|fredmeyer.com|viabcp.com|carsales.com.au|falabella.com|aarp.org|thehill.com|realtor.com
 ||assets.adsttc.com/insights/form-funnel.min.js
 ||assets.adsttc.com/insights/tracker.js
 ||assets.alicdn.com/g/alilog/aplus_plugin_xwj/index.js
@@ -49569,6 +49575,7 @@ zzzyk.com###Tinfo
 ||bpewo.cyou^
 ||bpgbcl.coconala.com^
 ||bpimg.com/4851/19f7543667f26682.jpg
+||bplrpf.xyz^
 ||bpm.global360.com^
 ||bpmgft.nichebeautylab.com^
 ||bpmonline.com^$third-party
@@ -50411,6 +50418,7 @@ zzzyk.com###Tinfo
 ||c114.com.cn/default_inc/a/images/
 ||c114.com.cn/js/channel.js
 ||c114.com.cn^*/js/ad_load-new.js
+||c1d8i3p6.com^
 ||c1ecda.com^
 ||c1exchange.com^$third-party
 ||c1hit.zerkalo.io^
@@ -54962,6 +54970,7 @@ zzzyk.com###Tinfo
 ||d1stxfv94hrhia.cloudfront.net^
 ||d1t9uctetvi0tu.cloudfront.net^
 ||d1tbj6eaenapdy.cloudfront.net^
+||d1tprjo2w7krrh.cloudfront.net^
 ||d1tracker.ru^
 ||d1uy7uzra011au.cloudfront.net^
 ||d1vg5xiq7qffdj.cloudfront.net^
@@ -58218,6 +58227,7 @@ zzzyk.com###Tinfo
 ||dealxplorer.org^$popup
 ||deanfic106.tt.omtrdc.net^
 ||deansent.top^
+||deanth.xyz^
 ||dearosaka.com^
 ||deb.gs/Webservices/jsParseLinks.aspx$script,third-party
 ||deb.gs/visitScript/$script,third-party
@@ -60186,6 +60196,7 @@ zzzyk.com###Tinfo
 ||dwnews.net/js/common/dwnews.dwcn.ad.js
 ||dwnews.net/js/common/dwnews.ga.js
 ||dwoetbarcrooplsloiwh.com^
+||dwq661.biz^
 ||dwstatic.com^*/newsPopup/
 ||dwstatic.com^*/p/livetip/
 ||dwstatic.com^*/sidebar.js
@@ -62817,6 +62828,7 @@ zzzyk.com###Tinfo
 ||eywvko.shaddy.jp^
 ||eyypxz.canifa.com^
 ||eyzubm.gooutdoors.co.uk^
+||ezacci.xyz^
 ||ezadblocker.com^
 ||ezakus.net^$third-party
 ||ezapp.ovh/track.js?pixelId=
@@ -72407,6 +72419,7 @@ zzzyk.com###Tinfo
 ||jenkins-gcpcustomersv4-portal.tt.omtrdc.net^
 ||jenon.trekkeeee.space^
 ||jensenhughes.actonservice.com^
+||jeqxuvv.icu^
 ||jeremiahlee.com/fanboynz.js
 ||jerkmate.com^*/tracking-hasoffers-
 ||jerrytom.xyz^
@@ -72653,6 +72666,7 @@ zzzyk.com###Tinfo
 ||jmm8a.xyz^
 ||jmpnrh.xyz^
 ||jmr.nnxiant.cn^
+||jmvvpb.xyz^
 ||jmw.com.cn/m_v2/js/active.js
 ||jmydm.com/jspage/ftt.js
 ||jmzill.manterolcasa.com^
@@ -73512,6 +73526,7 @@ zzzyk.com###Tinfo
 ||kellogg.tt.omtrdc.net^
 ||kellys-blogspot.clean-lifestyle.net^
 ||kellyswonderland.tt.omtrdc.net^
+||kemas.top^
 ||kemono.party/api/event
 ||kemono.party/onomek.js
 ||kemono.su/api/v1/event
@@ -76906,6 +76921,7 @@ zzzyk.com###Tinfo
 ||lvjtiaa.xyz^
 ||lvli.jp^
 ||lvmeet.net^
+||lvnlrmn.xyz^
 ||lvnuupzyri.182crackle.hb.tt.omtrdc.net^
 ||lvrvdn.xyz^
 ||lvse.cn/output/block/html/
@@ -87301,6 +87317,7 @@ zzzyk.com###Tinfo
 ||piroji.com^$domain=pronpic.org
 ||pirounakia.openapp.link^
 ||pirsch.io^$third-party
+||pirubcfy.xyz^
 ||pirxzl.xyz^
 ||pitatisisminis.openapp.link^
 ||pitawastarkani.com^
@@ -89792,6 +89809,7 @@ zzzyk.com###Tinfo
 ||r7.com/comscore/
 ||r75tia.cn^
 ||r7ls.net^$third-party
+||r9ffi.fun^
 ||ra.rockcontent.com^$third-party
 ||ra1.xyz^
 ||ra5.xyz^
@@ -104548,6 +104566,7 @@ zzzyk.com###Tinfo
 ||titanauto-demo-demo.tt.omtrdc.net^
 ||titomacia.net.anwalt.de^
 ||tittendestages.net.anwalt.de^
+||titv.top^
 ||tiurll.com^
 ||tiusabcrws.www.adobecorp.hb.tt.omtrdc.net^
 ||tivan.naver.com^
@@ -110607,6 +110626,7 @@ zzzyk.com###Tinfo
 ||us.onkyo.actonservice.com^
 ||us.promo.skf.com^
 ||us.ricoh-usa.com^
+||us.tags.newscgp.com^
 ||us.tt.omtrdc.net^
 ||us.web3-lab.com*/*/stats
 ||us01xmpp-cis-ngxsrv11.tt.omtrdc.net^
