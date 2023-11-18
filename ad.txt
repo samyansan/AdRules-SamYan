@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-11-18 20:18:22
-! Total count: 117392
+! Version: 2023-11-19 02:12:20
+! Total count: 117393
 
  
 ###AdBlockDialog
@@ -1438,6 +1438,7 @@
 ##a > I.gg-icon
 ##a > IMG[src$='.gif'][wapsrc][style^='width: 100%']
 ##a#wrapper_left_bg
+##a#wrapper_left_bg\ llll
 ##a#wrapper_right_bg
 ##a.gggg[href^="https"]
 ##a.hengfu > img.hengfu
