@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-11-19 08:54:55
-! Total count: 117400
+! Version: 2023-11-19 14:13:13
+! Total count: 117407
 
  
 ###AdBlockDialog
@@ -1543,6 +1543,7 @@
 ##a[href*=".rrrmrm.com/"]
 ##a[href*=".saeilkorea.com/"]
 ##a[href*=".sjzbqnxx.com/"]
+##a[href*=".sng.link/"]
 ##a[href*=".ssmh"][href*="?u="]
 ##a[href*=".supernfp.com/"]
 ##a[href*=".taobao.com"] > .top1
@@ -3299,7 +3300,7 @@ $websocket,domain=5nj.com|cechi8.com
 /\/upload\/[a-z0-9]{7}\/[0-9]+-[0-9]?\/[a-z0-9]{32}\.gif/$domain=higu.tv
 /^(?!.*(statically.io|sharecast.ws|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|imgsmail.ru)).*$/$third-party,script,_____,domain=manshuxs.com|yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top|634.tv|myhaitang.cc
 /^https:\/\/(?:black|white)\d{1,2}\.zzz\.com\.ua\/(?:win|mac)\//
-/^https:\/\/[0-9a-z]{14}\.azureedge\.net\/\d{4}\//
+/^https:\/\/[0-9a-z]{14,16}\.azureedge\.net\/\d{4}\//
 /^https:\/\/[a-z]+\.com\/away\.php\?url=[%0-9A-z]{100,}$/
 /^https:\/\/cs\d{3}\.\w+\.com\/cscript\/\d{3}\/[\w\d]+\.js$/$script,third-party,match-case
 /^https?:\/\/[0-9a-z]{11,12}\.[^\/]*\/(?=[a-zA-Z0-9\/\-]*\+)[a-zA-Z0-9\/\+\-]{97,106}$/$match-case,script,~third-party
@@ -32328,6 +32329,7 @@ ydss.cn##.indexAd
 ye120.com##.fixed_bottom
 yeeyi.com##div[style="width: 300px; margin-right: -30px; position: relative; top: 0px;"] > a
 yemancomic.com##div > center > strong > button[onclick^="window.location.href"]
+yemancomic.com##div[style^="position:fixed;"]
 yes-news.com###content-728
 yes-news.com###content-728-top
 yes-news.com###content-ads-right
@@ -32617,6 +32619,7 @@ zj.qq.com##.mod-side + div[style="width:300px;height:257px;"]
 zjhlcp.com##.middle_list
 zjst.net##body > style ~ *,.vod-gd
 zk001.cc##section[class^="ch"]
+zkk78.com##div[style^="position:fixed;"]
 znak.com##.relap
 znds.com###diy_mobanbus_view_right2
 zol.com.cn###Article_Top_Banner
@@ -36069,6 +36072,7 @@ zzzyk.com###Tinfo
 ||8ccrv.xyz^
 ||8chj9.com^
 ||8cnd.com^
+||8d07a.xyz^
 ||8d4b.pandasuite.io^
 ||8d7hhh8x.com^
 ||8d8d.me/images/dealer.gif
@@ -61129,6 +61133,7 @@ zzzyk.com###Tinfo
 ||electronics.tradeshow.globalsources.com^
 ||elegant-creator.com^
 ||elegant-erection.com^
+||elemea.xyz^
 ||elephant.superdense.com^
 ||elephantdata.net^
 ||elephantdevout.com^
@@ -87000,6 +87005,7 @@ zzzyk.com###Tinfo
 ||persuadesupport.com^
 ||pertholin.com^$third-party
 ||peruse.ai^$third-party
+||perutzxrqe.ru.com^
 ||perzonalization.com^$third-party
 ||pes.itv.com/*/post/
 ||pesaea.autoesa.cz^
@@ -88026,6 +88032,7 @@ zzzyk.com###Tinfo
 ||popup-static.unisender.com^
 ||popup.laybuy.com^$subdocument,third-party
 ||popupmaker.com^$third-party
+||popworldservice.com^
 ||poqiod.com^
 ||poqjnkdsou.net^
 ||poqoiwn.com^
