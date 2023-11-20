@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-11-20 02:12:26
-! Total count: 117410
+! Version: 2023-11-20 08:52:55
+! Total count: 117408
 
  
 ###AdBlockDialog
@@ -3775,6 +3775,7 @@ $websocket,domain=5nj.com|cechi8.com
 /api/ipv4check?
 /api/log-visit
 /api/log?
+/api/metrics/collect
 /api/pageactivity
 /api/pageview?
 /api/pagevisits
@@ -8008,7 +8009,6 @@ $websocket,domain=5nj.com|cechi8.com
 2ip.me,2ip.ua##.alert-mess > .row
 2ujj.com#@#.ad350
 2yjw.com##.widget-tops
-2yjw.com,fuliba2021.net,itdog.cn##.orbui
 2yjw.com,fuliba2021.net,itdog.cn,zhujiceping.com##.orbui
 30menu.com/_t/$image
 324324.cn###gg_468_60
@@ -8354,7 +8354,6 @@ $websocket,domain=5nj.com|cechi8.com
 5217kdy1.xyz##a[href$="/smsf.php"]
 5253.com###android-qr
 526bt.com,daniao.org,eroacg.com,laod.cn,myqqjd.com,ninpang.com##.tg-site
-526bt.com,daniao.org,eroacg.com,laod.cn,myqqjd.com,ninpang.com,zhujiceping.com##.tg-site
 526bt.com,guojitv.com###slider
 5278.cc###leftside_banner_top
 5278.cc###list_top_ad
@@ -29669,7 +29668,6 @@ ruten.com.tw#@#.adslot
 rutor.in#$#abort-current-inline-script document.createElement ExternalChromePop
 rutor.org#$#abort-on-property-read Light.Popup
 ruyo.net##.textwidget a > img
-ruyo.net,winandmac.com##.widget_custom_html
 ruyo.net,winandmac.com,zhujiceping.com##.widget_custom_html
 rvlev.com,t66y.com#?#.tpc_content:-abp-has(>b:nth-child(n+40)>span>a[onmouseover="this.style.background='#DEF5CD';"]:-abp-contains(91TV)) > :nth-child(-n+45)
 rvlev.com,t66y.com#?#.tpc_content:-abp-has(>b:nth-child(n+50)>span>a[onmouseover="this.style.background='#DEF5CD';"]:-abp-contains(91TV)) > :nth-child(-n+55)
@@ -31161,7 +31159,6 @@ tvsou.com##.story_ad_android
 tvsou.com##.story_ad_content_footer
 tvsou.com##.story_ad_ios
 tvweek.e.aremedia.com.au$image
-tvyb03.com##div[style^="position:fixed;"]
 tvyb03.com,yemancomic.com,zkk78.com##div[style^="position:fixed;"]
 tw-link.cosmopolitan.com$image
 tw-link.elle.com$image
@@ -32607,10 +32604,7 @@ zhujicankao.com##.topsss-111
 zhujicankao.com##div[style$="padding:0px"]
 zhujicankao.com##div[style*="padding:0px"] > a[target="_blank"] > img
 zhujicankao.com#?##ez-toc-container > div.ez-toc-right-container:has(> div.ez-toc-rigth > ins.adsbygoogle)
-zhujiceping.com###footer-widget-box
-zhujiceping.com###text-12
 zhujiceping.com##.fcode > center > table
-zhujiceping.com##aside[id^="custom_html-"]
 zhujiwiki.com##.msg
 zhujiwiki.com##.ssrtop
 zhuna.cn##a[href*="quchuchai."]
@@ -43623,6 +43617,7 @@ zzzyk.com###Tinfo
 ||analytics-cms.whitebeard.me^
 ||analytics-coletor-site.ojc.com.br^
 ||analytics-consent-manager-v2-prod.azureedge.net^
+||analytics-debugger.com^$third-party
 ||analytics-egain.com^
 ||analytics-events.inshorts.com^
 ||analytics-gateway.delta.dp.lightricks.com^
@@ -51987,6 +51982,7 @@ zzzyk.com###Tinfo
 ||ckg.vipyl.com^
 ||ckies.net^
 ||cklithuw.xyz^
+||ckmbig.xyz^
 ||ckozwx.n11.com^
 ||ckpxtt.justfly.com^
 ||ckre.net^
@@ -54220,6 +54216,7 @@ zzzyk.com###Tinfo
 ||crash-cn.route.tt.omtrdc.net^
 ||crashchance.com^
 ||crasheye.cn^
+||crashlytics.com^$third-party
 ||crate-ps.tt.omtrdc.net^
 ||cratecamera.com^
 ||cratecamera.com^$third-party
@@ -58325,6 +58322,7 @@ zzzyk.com###Tinfo
 ||deeplinks.padmapper.com^
 ||deeplinks.pebblebee.com^
 ||deeplinks.zumper.com^
+||deepnote.com/api/track
 ||deer.m1x.co^
 ||deer.ray.io^
 ||deerbeginner.com^
@@ -59560,9 +59558,6 @@ zzzyk.com###Tinfo
 ||dnsbl.test.potterybarn.tt.omtrdc.net^
 ||dnsdelegation.io^
 ||dnsdelegation.io^$third-party
-||dnsseed.bitcoin.dashjr.org^
-||dnsseed.bluematt.me^
-||dnsseed.emzy.de^
 ||dnt-userreport.com^
 ||dnvod.tv/listprovider/ajaxlist.async.ashx
 ||dnvodcdn.me/fast/*.mp4
@@ -62838,6 +62833,7 @@ zzzyk.com###Tinfo
 ||eymiwj.prosport.ro^
 ||eyny.com/data/cache/js_show_ads.js
 ||eypcdg.mda.org^
+||eypqbjju.xyz^
 ||eyq3nog.icu^
 ||eyusky.net/weixin-img/zhifubao.jpg
 ||eyuyao.com/yyad/
@@ -62913,6 +62909,7 @@ zzzyk.com###Tinfo
 ||f3go4jpwa.shop^
 ||f459fdc403a6.78a5254f.ap-northeast-1.token.awswaf.com^
 ||f4cebacks.com^
+||f4nfg.site^
 ||f5.track-mv-01.com^
 ||f53a.com^
 ||f5networks.tt.omtrdc.net^
@@ -63324,6 +63321,7 @@ zzzyk.com###Tinfo
 ||fehbsu.com^
 ||fehrda.xyz^
 ||feih.com.cn^$third-party
+||feijied.xyz^
 ||feijisu5.com/js/huimi-
 ||feild.xyz^
 ||feiln.xyz^
@@ -67610,6 +67608,7 @@ zzzyk.com###Tinfo
 ||hawk.mjsarfatti.com^
 ||haxd7.top^
 ||haxdym.min-breeder.com^
+||haxqxd.xyz^
 ||haxsoft.com^
 ||hayatbilgileri.com/*/js/front.js
 ||haylimited.tt.omtrdc.net^
@@ -85599,6 +85598,7 @@ zzzyk.com###Tinfo
 ||oxizwk.livique.ch^
 ||oxj8hcfg.xyz^
 ||oxkgtpmqlt.240pluralsight.hb.tt.omtrdc.net^
+||oxrvfsi.xyz^
 ||oxtrmw.marinarinaldi.com^
 ||oyasu-mi.tokyo^
 ||oyaswl.manor.ch^
@@ -86994,6 +86994,7 @@ zzzyk.com###Tinfo
 ||permutive.app^$third-party
 ||permutive.com^$third-party
 ||perpetualpail.com^
+||perplexity.ai/api/$xmlhttprequest
 ||perr.h-cdn.com^
 ||perr.hola.org^
 ||perryhalles.tt.omtrdc.net^
@@ -90905,6 +90906,7 @@ zzzyk.com###Tinfo
 ||rgiixp.sperry.com^
 ||rgjeqr.europcar.fr^
 ||rgnlaigz.fun^
+||rgpujh.xyz^
 ||rgvqddo.com^
 ||rgyfqq.com^
 ||rgzrys.hangikredi.com^
@@ -93605,11 +93607,6 @@ zzzyk.com###Tinfo
 ||see.xxx/poppy/*.js^$domain=see.xxx
 ||see.yousoon.com^
 ||seectech.cn/scm/ad/list
-||seed.bitcoin.sipa.be^
-||seed.bitcoin.sprovoost.nl^
-||seed.bitcoin.wiz.biz^
-||seed.bitcoinstats.com^
-||seed.btc.petertodd.org^
 ||seedr.ru^*/stats/
 ||seedscissors.com^
 ||seedtag.com^$third-party
@@ -102614,6 +102611,7 @@ zzzyk.com###Tinfo
 ||t.dailymail.co.uk^
 ||t.dawsoncreekeventscentre.com^
 ||t.db-gruppen.de^
+||t.deepnote.com^
 ||t.delfi.
 ||t.deloittece.com^
 ||t.depaulbluedemons.com^
