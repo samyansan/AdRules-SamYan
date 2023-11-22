@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-11-22 14:14:53
-! Total count: 120044
+! Version: 2023-11-22 20:21:08
+! Total count: 120051
 
  
 ###AdBlockDialog
@@ -1269,6 +1269,7 @@
 ##DIV[style='position: fixed; line-height: 100vh; width: 100vw; top: 0px; left: 0px;']
 ##DIV[style='width: 100%;background-color: black;color: white;padding: 15px 0;']
 ##DIV[style^='box-sizing: border-box; position: relative; left: 0px; z-index: 214748']
+##DIV[style^='display: block; aspect-ratio: 728 / 90; background-image: url("/static/resources/lp.php']
 ##DIV[style^='position: fixed; bottom: 50%; z-index: 19999 !important; ']
 ##DIV[style^='width:100%;height:100%;line-height: 100%;overflow:hidden; margin:auto;border:1px #']
 ##I.fa.fa-close
@@ -1397,6 +1398,7 @@
 ##[src^='/MDassets/images/']
 ##[src^='/Uploads/ad/'][src$='.gif'][alt='广告']
 ##[src^='/banners/pr_advertising_ads_banner']
+##[src^='/static/resources/lp.php'][style^='max-width: 100%; transform-origin: left top;']
 ##[src^='data:image/png;base64,iVBORw0KGgoAAAANSU'][style*='position: fixed; z-index: 2000000000; width: 30px; bottom:']
 ##[src^='https://ae01.alicdn.com/'][alt='歪歪漫画']
 ##[src^='https://dingbu.bj.bcebos.com/']
@@ -4576,6 +4578,7 @@ $websocket,domain=5nj.com|cechi8.com
 /evt.gif?
 /exactag.js
 /exactag_clientside.js
+/exads-adblock-3.10
 /exittracker.js
 /exmo.email/open.html
 /exp-metrika.js$domain=russia-tv.online
@@ -36871,6 +36874,7 @@ zzzyk.com###Tinfo
 ||41444.sites.tt.omtrdc.net^
 ||4151.biz^
 ||4151.tv^
+||415677.com^
 ||4199tv.com^
 ||42-mn.ibm.tt.omtrdc.net^
 ||42.rc.tt.omtrdc.net^
@@ -61287,6 +61291,7 @@ zzzyk.com###Tinfo
 ||djpjwf.com^
 ||djs.baomihua.com^
 ||djv99sxoqpv11.cloudfront.net^
+||djxd2ox30l7.click^
 ||djxjti.oil-stores.gr^
 ||dk-go.experian.com^
 ||dk4ywix.com^
@@ -74363,6 +74368,7 @@ zzzyk.com###Tinfo
 ||jandan.net^*/699pic/
 ||jandan.net^*/moyu.png
 ||jandi.tt.omtrdc.net^
+||jane1.top^
 ||jane2.top^
 ||janeroosterstrk.com^
 ||janganhackya.com^
@@ -104238,6 +104244,7 @@ zzzyk.com###Tinfo
 ||stuttgarter-zeitung.de/cms/hitcount
 ||style.onvz.nl^
 ||styles.hautelook.com^
+||stylishar.com^
 ||stylitics.com/api/engagements
 ||su-hisenjutu.com^
 ||su-offers.com^
