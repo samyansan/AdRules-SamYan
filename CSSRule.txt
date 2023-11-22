@@ -3383,7 +3383,7 @@ afzhan.com##.topRightAdv
 afzhan.com,cngold.org,hbzhan.com,panjin.net,qq.com,tongxiang.net##.advs
 afzhan.com,iqiyi.com##.rightAdv
 agarserv.com#@##adsense
-age.tv,agemys.net##+js(noeval-if, devtoolsDetector)
+age.tv,agedm.org##+js(noeval-if, devtoolsDetector)
 agirls.aotter.net##.row > div.col.hidden a[href^="https://supr.one/"]
 agmov.com,huaban.com##.promotion
 agronews.com##a[alt="Яндекс.Метрика"]
@@ -7718,7 +7718,6 @@ indiatimes.com#?#div:-abp-has(> a p:-abp-has(> span:-abp-properties(content: "Ad
 indiatimes.com#?#div:-abp-has(> h2:-abp-contains(Promoted Stories))
 indiatimes.com#@#div[id^="div-gpt-ad"]
 indoxx1.show##img[src^="blob:https://indoxx1.show/"]
-inews.qq.com,xw.qq.com##.VideoArticleBottomAdContainer,.ssp.nospl[data-boss-once='true'],DIV[data-boss-expo*='ad&s_or'],DIV[id^='App_WAP_share_page_']
 info-mage.ru###helpme[style="display: block;"]
 info.cz,lupa.cz,karaoketexty.cz,hnonline.sk#$#abort-current-inline-script Math.random adb
 infokam.su#?#aside > section.bot-post:has(> center > a[href^="https://www.liveinternet.ru/"])
@@ -7879,13 +7878,10 @@ iqiyi.com###scrollWrap-vipbuy
 iqiyi.com###videoBuyContainer
 iqiyi.com###widget-jingdongAd
 iqiyi.com###zbsp
-iqiyi.com##+js(set, Object.prototype.blackscreenDuration, 1)
-iqiyi.com##+js(set, Object.prototype.parseXML, noopFunc)
 iqiyi.com##.ad-seed
 iqiyi.com##.adBanner980
 iqiyi.com##.banner3
 iqiyi.com##.banner980
-iqiyi.com##.black-screen[data-cupid="adblock-blackscreen"]
 iqiyi.com##.cell-left
 iqiyi.com##.cell-right
 iqiyi.com##.cupid-panel + div
@@ -9097,7 +9093,6 @@ m.huya.com##.start-btn
 m.huya.com##.u-btn-down.header-app-btn
 m.huya.com##.u-btn-down.start-btn
 m.image.so.com##.waterfall > li[data-imgid] > a[href^="https://e.so.com/search/mclick?"]
-m.iqiyi.com##+js(set, Object.prototype.adPlayerId, '')
 m.iqiyi.com##.iqyGuide-content,.cover
 m.ithome.com##.hot-app
 m.ithome.com##.open-app-a
@@ -10839,6 +10834,7 @@ qq.com##+js(set,RTCPeerConnection,null)
 qq.com##.AdBox-Article-QQ
 qq.com##.AdTop-Article-QQ
 qq.com##.J_hot_game
+qq.com##.VideoArticleBottomAdContainer,.ssp.nospl[data-boss-once='true'],DIV[data-boss-expo*='ad&s_or'],DIV[id^='App_WAP_share_page_']
 qq.com##._switchad
 qq.com##.aaddvv__list
 qq.com##.action_ad
@@ -10896,7 +10892,9 @@ qq.com##.wrap[class^="jsx-"]
 qq.com##.xxskj
 qq.com##.yscoin-box
 qq.com##.yw-gg-float
+qq.com##A[dt-eid^='em_item_ad']
 qq.com##[dt-params*="ad_creative_"]
+qq.com##[id^='App_WAP_share_page']
 qq.com##a[href^="http://www.10100000.com/"]
 qq.com##div[class^=ad-type-]
 qq.com##div[id^="couplet_auto_"]
@@ -13114,8 +13112,6 @@ www.playno1.com##.eis_box_s
 www.qq.com##div[class^="adRight"]
 www.raybt.com##td[width="13"]
 www.rkanr.com##div[id^="rkrCp"]
-www.sbdm.net##.ads_all:remove()
-www.sbdm.net##.dplayer-web-fullscreen-fix .billhao-head-image, .dplayer-web-fullscreen-fix #topnav
 www.seznam.cz#$#cookie-remover adform
 www.seznam.cz#$#cookie-remover pubmatic
 www.seznam.cz#$#hide-if-matches-xpath './/a[contains(@href,"ad-buttonem")]/ancestor::div[@class="gadget__header"]/following::div[contains(@style,"position:relative;")]/ancestor::div[contains(@style,"flex")]/ancestor::div[@class][2]'
