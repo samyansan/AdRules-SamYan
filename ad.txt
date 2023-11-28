@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-11-28 02:13:43
-! Total count: 122352
+! Version: 2023-11-28 08:52:10
+! Total count: 122365
 
  
 ###AdBlockDialog
@@ -5534,6 +5534,7 @@ $websocket,domain=5nj.com|cechi8.com
 /mhw0/duniao/*
 /mi/insite/*
 /microsoft.cognitiveservices.speech.sdk.bundle.js
+/mihoyo-analysis/*
 /min/gtm/*
 /minescripts.js
 /mint/?js
@@ -26944,6 +26945,8 @@ gohome.com.hk##div[id^="div-gpt-ad"][style]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 gohome.com.hk,idv.st#@##adFrame
 gokano.com#@#.adsbygoogle
+golf-live.at,youtu.co,dfast.kr,brandbrief.co.kr,meconomynews.com,majorgeeks.com,mystylezip.com,hotplacehunter.co.kr,mtodayauto.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,apkmirror.com#%#//scriptlet('prevent-eval-if', 'https://07c225f3.online/loader.min.js')
+golf-live.at,youtu.co,thephoblographer.com,dfast.kr,brandbrief.co.kr,meconomynews.com,poro.gg,maple.gg,lolchess.gg,dak.gg,majorgeeks.com,mystylezip.com,hotplacehunter.co.kr,mtodayauto.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,apkmirror.com#%#//scriptlet('abort-current-inline-script', 'atob', 'eval(decodeURIComponent(escape(window.atob("KCgpPT5')
 golinksworld.com###btn_download
 gome.com.cn###gome-aside-app
 gome.com.cn###gome-aside-app-code
@@ -31627,8 +31630,6 @@ netfly.fun,netfly.tv##div[class*="tt-"] > a[target="_blank"] + span.tt-icon-clos
 netfly.fun,netfly.tv##div[class*="tt-"] > a[target="_blank"] > img
 netfly.lol##.module-tglist
 netfly.lol##[style^="display: flex; justify-content:"]
-netfly.tv##.module-tglist
-netfly.tv##[style^="display: flex; justify-content:"]
 nethunt.com/api/v1/track/email/$image
 nettiauto.com#%#//scriptlet("set-constant", "listingGoogleEETracking", "noopFunc")
 nettruyenai.com#$#abort-current-inline-script Promise break;case
@@ -35920,8 +35921,6 @@ yourstory.com#%#(()=>{const n=function(){};window.pa={avInsights:{Media:function
 youth.cn###identifier-pannel
 youth.cn##.hd_pic
 youth.cn##div[style="width:960px;height:90px;margin:0 auto;"]
-youtu.co,dfast.kr,brandbrief.co.kr,meconomynews.com,majorgeeks.com,mystylezip.com,hotplacehunter.co.kr,mtodayauto.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,apkmirror.com#%#//scriptlet('prevent-eval-if', 'https://07c225f3.online/loader.min.js')
-youtu.co,thephoblographer.com,dfast.kr,brandbrief.co.kr,meconomynews.com,poro.gg,maple.gg,lolchess.gg,dak.gg,majorgeeks.com,mystylezip.com,hotplacehunter.co.kr,mtodayauto.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,apkmirror.com#%#//scriptlet('abort-current-inline-script', 'atob', 'eval(decodeURIComponent(escape(window.atob("KCgpPT5')
 youtube.com###contents>ytd-search-pyv-renderer
 youtube.com###masthead-ad
 youtube.com###video-masthead
@@ -54819,6 +54818,7 @@ zzzyk.com###Tinfo
 ||cctv567.com/b/
 ||cctvgb.com.cn^$third-party
 ||cctvpic.com/photoAlbum/templet/common/*/game_
+||ccwxma.xyz^
 ||ccztgy.elgiganten.dk^
 ||cd.chemistanddruggist.co.uk^
 ||cdb-ppd.tt.omtrdc.net^
@@ -55317,6 +55317,7 @@ zzzyk.com###Tinfo
 ||cheapcinema.club^$all
 ||cheaptickets.com/cl/2x2.gif?
 ||cheat-world.site^
+||cheater-pro.com^
 ||cheaterboss.com^
 ||cheats.ink^
 ||check.ddos-guard.net^$third-party
@@ -64501,6 +64502,7 @@ zzzyk.com###Tinfo
 ||ebaystatic.com^*/rover_$script
 ||ebaystatic.com^*/tracking_
 ||ebaystatic.com^*/tracking_RaptorheaderJS.js
+||ebaystatic.com^*tracking/configuration.js
 ||ebbs.jp/spa.php?
 ||ebc1.capifrance.fr^
 ||ebgagg.pink.rs^
@@ -67354,6 +67356,7 @@ zzzyk.com###Tinfo
 ||fido-production-8otwxc.tt.omtrdc.net^
 ||fiduciaryfirst.actonservice.com^
 ||fiestahotelsresorts.tt.omtrdc.net^
+||fifqjp.xyz^
 ||fifthborder.com^
 ||fifththirdbank.tt.omtrdc.net^
 ||fight.offtherecord.com^
@@ -72686,6 +72689,7 @@ zzzyk.com###Tinfo
 ||hsfo.tns-gallup.dk^
 ||hsforms.com/*/counters.gif
 ||hsforms.com/embed/v3/counters.gif
+||hshmbx.xyz^
 ||hsiaik.com^
 ||hskzoab.cn^
 ||hslbahu.top^
@@ -76879,6 +76883,7 @@ zzzyk.com###Tinfo
 ||jp-go.experian.com^
 ||jp.olx188-maxwin.com^
 ||jp.promo.skf.com^
+||jp.square-enix.com/common/templates/js/analytics/sp_dqwalk.js
 ||jp.twww.sbs^
 ||jp1357.com/addon/
 ||jp2468.com/addon/
@@ -77227,6 +77232,7 @@ zzzyk.com###Tinfo
 ||jweod.xyz^
 ||jweoe.xyz^
 ||jwjdpab.cn^
+||jwjzf.online^
 ||jwltpv.xyz^
 ||jwmhqs.fsk.ru^
 ||jwmstats.com^$third-party
@@ -78014,6 +78020,7 @@ zzzyk.com###Tinfo
 ||komputer.tns-gallup.dk^
 ||komtrack.com^$third-party
 ||kon.mediaplatform.group^
+||konami.com/games/s/common/js/analytics.js
 ||konduit.me^$third-party
 ||kone-cranes.actonservice.com^
 ||kongzhong.com/style/newindex/js/tad.js
@@ -78978,6 +78985,7 @@ zzzyk.com###Tinfo
 ||lfpfpl.andar.co.kr^
 ||lfuzec.bglen.net^
 ||lfzk2cp.icu^
+||lg-release-tracking-8080.gcld-line.com^
 ||lgadamericas.tt.omtrdc.net^
 ||lganilgll.cyou^
 ||lgbdxo.azazie.com^
@@ -86325,6 +86333,7 @@ zzzyk.com###Tinfo
 ||monsanto.tt.omtrdc.net^
 ||monsido.com^$third-party
 ||monstat.com^$third-party
+||monster-strike.com/assets/scripts/tracking.js
 ||monster.trk.agency^
 ||monsteredward.com^
 ||monsterworldwide.tt.omtrdc.net^
@@ -91271,6 +91280,7 @@ zzzyk.com###Tinfo
 ||pengwei168.com/addons/321.gif
 ||pengwei168.com/template/stui_tpl/html/vod/f.js
 ||pengwincheat.fun^
+||pengwincheat.space^
 ||peniclk.trypenixmed.online^
 ||pennersontrk.com^
 ||pennzoilpromotionspepboys.com.tt.omtrdc.net^
@@ -93228,6 +93238,7 @@ zzzyk.com###Tinfo
 ||puffypull.com^
 ||puffypurpose.com^
 ||pufhzpt.cn^
+||pugxfvm.cn^
 ||puhutv-static.akamaized.net/scripts/segmentify.$script
 ||puiwrs.misterspex.de^
 ||pulan.site^
@@ -93558,6 +93569,7 @@ zzzyk.com###Tinfo
 ||qdp-production-9vumsb.tt.omtrdc.net^
 ||qdp.qidian.com^
 ||qdross.com/vip/
+||qdtjjxr.xyz^
 ||qdutmef.cn^
 ||qdvavs.trademax.se^
 ||qdvideo.xyz^
@@ -99252,6 +99264,7 @@ zzzyk.com###Tinfo
 ||skalnik.pl/static/*/js/tracking.min.js
 ||skbnfa.filorga.com^
 ||skbroad.tt.omtrdc.net^
+||skdunkig.xyz^
 ||skechers.com/dL6GOSf9/init.js
 ||skeimg.com/i/*.gif
 ||sketenttrk.com^
