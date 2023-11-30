@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-11-30 14:14:18
-! Total count: 122463
+! Version: 2023-11-30 20:20:40
+! Total count: 122467
 
  
 ###AdBlockDialog
@@ -2537,7 +2537,6 @@ $websocket,domain=5nj.com|cechi8.com
 .cn/bid?url=*$third-party
 .cn/gg/$script,third-party
 .cn/js/ads/
-.cn/o.js$third-party
 .cn/r.gif?
 .cn/redbaiduct.com?s=$third-party
 .cn/s.gif?
@@ -2811,7 +2810,6 @@ $websocket,domain=5nj.com|cechi8.com
 .live/o.js$script,third-party
 .live/r/*/*_r=*
 .live/ty/*-*-*$third-party
-.live:*/o.js
 .lms-analytics/
 .lu/ads/
 .m.bookben.com^
@@ -2987,7 +2985,6 @@ $websocket,domain=5nj.com|cechi8.com
 .xyz/mithril?$third-party
 .xyz/o.js
 .xyz/o.js$script,third-party
-.xyz/o.js$third-party
 .xyz/qby_*.js?$third-party
 .xyz/st?gp=*$third-party
 .xyz/svelte?$third-party
@@ -5721,6 +5718,7 @@ $websocket,domain=5nj.com|cechi8.com
 /optiextension.dll?$script
 /optimizelyjs/*
 /os1019.oss-cn-quanzhou.
+/os2023001.oss-$script
 /os230718.oss-
 /ossleads_analytics.js
 /ot_e404.gif?
@@ -10976,6 +10974,7 @@ cnjxol.com##.linked
 cnki.com.cn##.ad-right-default
 cnki.com.cn##.adList
 cnki.com.cn##.mainboxconbanner
+cnki.net##.banner-main
 cnki.net##.translateOutAdLink
 cnki.net#@#.ad_right
 cnlinfo.net##.guanggao-left
@@ -35897,6 +35896,7 @@ you.163.com###j-yx-fixedtoolDownloadlink
 you.163.com##.downloadAppBtn.w-button-ghost.w-button-xl.w-button.btn
 you.163.com##.m-appDownloadGuide
 you.163.com##[href^="/downloadapp"]
+youdao.com##.banner
 youdao.com##.dialog-guide-download
 youdao.com##.dict-dl
 youdao.com#@#.open-share
@@ -37417,6 +37417,8 @@ zzzyk.com###Tinfo
 ||1mwe5j0phpwaigkl.hb.tt.omtrdc.net^
 ||1mxabnt.com^
 ||1ov2pp0.$script,xmlhttprequest,domain=ign.com|ignboards.com
+||1password.com/gtag-production.*.js
+||1password.com/js/analytics.*.js
 ||1pel.com^$third-party
 ||1perpersqe1.com^
 ||1pl.trkrt.plkk7tk.com^
@@ -39698,6 +39700,7 @@ zzzyk.com###Tinfo
 ||8xy.email.atlassian-app.eu.tt.omtrdc.net^
 ||8y7fd8tfazq6lsi.sparta.members.tt.omtrdc.net^
 ||8ziyuan.com/images/infolinksad.jpg
+||8zkt7.xyz^
 ||9-377.jamf.tt.omtrdc.net^
 ||9-516-4.tt.omtrdc.net^
 ||9-partou.pad.tt.omtrdc.net^
@@ -95893,6 +95896,7 @@ zzzyk.com###Tinfo
 ||rt.track.leyaai.com^
 ||rt.unitedhealthinitiative.com^
 ||rt.vprtrfc.com^
+||rt004.top^
 ||rta.dailymail.co.uk^
 ||rta2.inews.co.uk^
 ||rta2.metro.co.uk^
@@ -107966,7 +107970,7 @@ zzzyk.com###Tinfo
 ||tags.soloway.ru^
 ||tags.soloway.ru^$third-party
 ||tags.stepstone.com^
-||tags.tiqcdn.com/utag/*/prod/utag.js$domain=help.dropbox.com|radissonhotels.com|post.ch|usnews.com|krymr.com|cnet.com|adidas.co.uk|adidas.nl|adidas.pl|lineadirecta.com|sibreal.org|modernatx.com|louisvuitton.com|simplybusiness.co.uk|uber.com|monroeandmain.com|totaljobs.com
+||tags.tiqcdn.com/utag/*/prod/utag.js$domain=mcafee.com|help.dropbox.com|radissonhotels.com|post.ch|usnews.com|krymr.com|cnet.com|adidas.co.uk|adidas.nl|adidas.pl|lineadirecta.com|sibreal.org|modernatx.com|louisvuitton.com|simplybusiness.co.uk|uber.com|monroeandmain.com|totaljobs.com
 ||tags.tiqcdn.com/utag/*/utag.sync.js$domain=yousee.dk|sibreal.org
 ||tags.tiqcdn.com/utag/*/utag.v.js
 ||tags.wyndhamhotels.com^
