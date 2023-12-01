@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-12-01 02:14:08
-! Total count: 122473
+! Version: 2023-12-01 08:56:02
+! Total count: 122480
 
  
 ###AdBlockDialog
@@ -3830,6 +3830,7 @@ $websocket,domain=5nj.com|cechi8.com
 /assets/banners/600x100/*
 /assets/beacons.js
 /assets/client/web-vitals~$domain=the-sun.com|thesun.co.uk
+/assets/common/js/ga.js
 /assets/dayu/ainfiniteactivity-
 /assets/performance_timing-
 /assets/sidebar/*$domain=v2ex.com
@@ -4271,6 +4272,7 @@ $websocket,domain=5nj.com|cechi8.com
 /common/analytics.js
 /common/cf/*$image,object,domain=~dahuaiji.com
 /common/ga.js
+/common/js/gtm.js
 /common/tracker.js
 /common/tracking/webtrekk
 /common_access/usercheck.php?muid=$xmlhttprequest
@@ -26142,8 +26144,8 @@ etnet.com.cn##.firstAD
 etr.fr##.no_block
 etrk.elektron.se$image
 etsy.com##a[href*="listing_page_ad_row"]
-etsy.com#$#hide-if-matches-xpath './/a[contains(@class,"listing-link")][contains(@class,"logged")][not(contains(@class,"  "))]/ancestor::li'
 etsy.com#$#hide-if-matches-xpath './/h2[@class="wt-text-title-largest"][contains(text(),"By Etsy sellers")]/preceding::p[contains(text(),"Sponsored")]/ancestor-or-self::div[@data-appears-component-name="web_home_strv_ads"]'
+etsy.com#$#hide-if-matches-xpath './/span[@data-is-ad][not(@data-is-ad=//li[5]//span[@data-is-ad]/@data-is-ad)]/ancestor::li'
 etsy.com#$#hide-if-matches-xpath '//span[@data-is-ad][@data-ad-label][contains(text(),"Ad by")]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
 etsy.com#$#race start; hide-if-contains-visible-text '/[aA](\\s)*d(\\s)*by/' li 'li[class] div > :is(div, p)' 'width: /^[0-9]px/'; hide-if-contains-visible-text '/[aA](\\s)*d(\\s)*b(\\s)*y/' li 'li[class] div > :is(div, p)' 'width: /^[0-9]px/'; race stop;
 ettoday.net###adsense-matched-content
@@ -26196,7 +26198,7 @@ exler.ru##.adblock-pls
 exoav.com##.place
 exoav.com##.table
 exoav.com#%#//scriptlet('abort-on-property-read', 'exoNoExternalUI38djdkjDDJsio96')
-expedia.ca,expedia.com,expedia.co.uk,expedia.de,hotels.com##[data-meso-viewed]]
+expedia.ca,expedia.com,expedia.co.uk,expedia.de,hotels.com##[data-meso-viewed]
 expedia.es,expedia.fr,expedia.ie,expedia.it,expedia.dk,expedia.co.id,expedia.co.in,expedia.co.kr,expedia.co.nz,expedia.co.th,expedia.com.hk,expedia.com.my,orbitz.com,ebookers.com,wotif.com,cheaptickets.com,travelocity.com#$#hide-if-matches-xpath './/a[contains(@href,"&trackingData")]/ancestor::div[@class="uitk-spacing uitk-spacing-margin-blockstart-three"]'
 expres.cz#$#hide-if-contains-visible-text /[a-zA-Z]/ '*[class][id]' span[id][data-rsize]
 expres.cz,idnes.cz##[class^="r-main"]
@@ -28108,7 +28110,7 @@ instacart.com,instacart.ca#$#hide-if-matches-xpath './/div[count(child::*[text()
 instacart.com,instacart.ca#$#hide-if-matches-xpath './/div[count(child::span[@style and text()])=2]/parent::div//div[contains(text(),"Picked")]/ancestor::div[@data-testid][1]'
 instacart.com,instacart.ca#$#hide-if-matches-xpath './/div[count(child::span[@style and text()])=2]/parent::div//div[contains(text(),"Recommended for you")]/ancestor::div[@class][1]/ancestor::div[@class][1]'
 instacart.com,instacart.ca#$#hide-if-matches-xpath './/span[text()]/preceding::div[@aria-hidden="true"]/preceding::source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/ancestor::*[@id][@class][1]'
-instacart.com,instacart.ca#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ss")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ap-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ep-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-bp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-cp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-dp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-gp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-hp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ip-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath '//div[@class]//div/@*[contains(name(),"data-jp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-kp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-lp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-mp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-rp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-qp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-tp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
+instacart.com,instacart.ca#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ss")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ap-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ep-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-bp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-cp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-dp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-gp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-hp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ip-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath '//div[@class]//div/@*[contains(name(),"data-jp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-kp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-lp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-mp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-rp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-qp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-up-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
 instagram.com#$#hide-if-has-and-matches-style * 'article[class]~*>div' 'article[class]~*>div>div span:last-of-type *>svg[style]' '/./' '/(width: [2-9])/'
 instantmanga.com###notice
 instrument.com.cn###leftFlash
@@ -28442,7 +28444,6 @@ ixueyi.com,shangxueba.com###rightfloatdiv
 iyaxin.com##.Information
 iyaxin.com##.gr-ggtag
 iyaxin.com##.huand3
-iyf.tv##.bb > .ng-star-inserted
 iyf.tv##.player-right
 iyf.tv##.player-side > .block > *
 iyf.tv##.ss-ctn
@@ -28450,7 +28451,6 @@ iyf.tv##.video-player + div[class*=" "] > div.block
 iyf.tv##.video-player > app-gg-block.ng-star-inserted[style]
 iyf.tv##.video-player > div.ng-star-inserted > div#PB
 iyf.tv##vg-pause-ads
-iyf.tv##vg-pause-p
 iyf.tv##vg-player.ng-star-inserted > vg-pause-ads + div.caption.show > .inner
 iyf.tv#$#.player-side > .block { visibility: hidden !important; min-height: 390px !important; }
 iyf.tv#@#.share-top
@@ -30393,6 +30393,7 @@ linuxidc.com##.linux801
 list-manage.com*track$image
 litecoiner.net,bitcoiner.net#@##ad-top
 litix.io
+litv.tv##.ad_impression
 litv.tv##.internal_bn
 litv.tv##body > .right_float_poster_container
 live.bilibili.com##.container-wrapper[style="height:180px;min-width:1280px"]
@@ -37467,7 +37468,6 @@ zzzyk.com###Tinfo
 ||2-0.prod.cloud.tt.omtrdc.net^
 ||2-aws.cf.tt.omtrdc.net^
 ||2-heartbeats.hb.tt.omtrdc.net^
-||2-ip.online/sbar/$third-party
 ||2-it.de9.tt.omtrdc.net^
 ||2-mock.hb-fa-stage.tt.omtrdc.net^
 ||2-ti.wse.tt.omtrdc.net^
@@ -38599,6 +38599,7 @@ zzzyk.com###Tinfo
 ||3h3.com/js/homepage.js
 ||3h3.com/js/listad.js
 ||3h3.com/js/show/
+||3i2i.com^
 ||3ive.hb.tt.omtrdc.net^
 ||3jia5.com^$third-party
 ||3k8.com/d/js/m/thea
@@ -43202,6 +43203,7 @@ zzzyk.com###Tinfo
 ||a962m.xyz^
 ||a9643.actonservice.com^
 ||a99c1a28aa18a6153414fa2e46f99a311.hb-fa-dev.tt.omtrdc.net^
+||a99hz.space^
 ||a9able.com^
 ||a9ay4db2lqvfnsgwr.sparta.sparta.members.tt.omtrdc.net^
 ||a9d8e7b6i5s.andgino.jp^
@@ -44498,7 +44500,6 @@ zzzyk.com###Tinfo
 ||ad7mylo.com^
 ||ad8888.top^
 ||ad90.idmapper.api.api.tt.omtrdc.net^
-||ada-tr.staff-start.com^
 ||ada.baidu.com^
 ||ada8-2.ampleur.jp^
 ||ada8.ampleur.jp^
@@ -45469,7 +45470,6 @@ zzzyk.com###Tinfo
 ||aexhyo.pilatos.com^
 ||aexmails.hb-fa-dev.tt.omtrdc.net^
 ||aeyochi28.tt.omtrdc.net^
-||af-event-logger.appsflyer.com^
 ||af-z.jp^$third-party
 ||af-za-0-6.tt.omtrdc.net^
 ||af-za-0-8.tt.omtrdc.net^
@@ -48709,7 +48709,6 @@ zzzyk.com###Tinfo
 ||api.ria.tt.omtrdc.net^
 ||api.rtl.nl/monitoring/
 ||api.ryanyao.design^
-||api.safegraph.com^
 ||api.salesmachine.io/*/track/event
 ||api.sandpit1.assistant.tt.omtrdc.net^
 ||api.sbe.dee.tt.omtrdc.net^
@@ -50202,7 +50201,6 @@ zzzyk.com###Tinfo
 ||at.norisbank.de^
 ||at.postbank.de^
 ||at.prod.jimdo.systems^
-||at.rtb-cdn.net/?t_aid
 ||at.sharpmarketing.eu^
 ||at.swisscom.ch^
 ||at.tt.omtrdc.net^
@@ -52680,6 +52678,7 @@ zzzyk.com###Tinfo
 ||birdsend.co/assets/static/js/pixel/
 ||birdsend.email/pixel
 ||birdsend.net/pixel
+||birgga.top^
 ||birjkhm.cn^
 ||birthright1.tt.omtrdc.net^
 ||bis8j.com^
@@ -54257,6 +54256,7 @@ zzzyk.com###Tinfo
 ||caast.tv/v1/record.gif?
 ||cabin-preprod.prod.tt.omtrdc.net^
 ||cabinet-office-go.com^
+||cabledemand.com^
 ||cacafly.net^
 ||cache.am^$third-party
 ||cache.ltn.com.tw/js/c.js
@@ -63875,6 +63875,7 @@ zzzyk.com###Tinfo
 ||dropbox.com/jse
 ||dropbox.com/log/
 ||dropbox.com/log_
+||dropbox.com/pithos/*ux_analytics$script
 ||dropbox.com/prompt/log_impression?
 ||dropbox.com/web_timing_log
 ||dropboxfingerprintjs.com^$third-party
@@ -66629,6 +66630,7 @@ zzzyk.com###Tinfo
 ||exhibit.myfashionevents.com^
 ||exhibit.ubm-events.com^
 ||exhibition.edm.globalsources.com^
+||exhibitsneeze.com^
 ||exilelink.com^
 ||exinariuminix.info^
 ||exipure-australia-3.tt.omtrdc.net^
@@ -68539,6 +68541,7 @@ zzzyk.com###Tinfo
 ||fvc.alcatel-lucent.com^
 ||fvedio.kuwo.cn^$app=cn.kuwo.player
 ||fvffd678.xyz^
+||fvl1f.pw^
 ||fvtrx.cyou^
 ||fvvyjd.jtv.com^
 ||fvxlhn.xyz^
@@ -74224,7 +74227,6 @@ zzzyk.com###Tinfo
 ||img*.bet007.com/image/*.gif
 ||img*.en25.com/i/elqCfg.min.js
 ||img*.win007.com/image/*.gif
-||img-kotonw.mncdn.com/*/acc.clickandcollect.js
 ||img-static.com/CERISE.gif?
 ||img.*.com/images/*.gif$domain=czzy01.com
 ||img.0279.net^
@@ -77839,6 +77841,7 @@ zzzyk.com###Tinfo
 ||kiqwal.autoscout24.es^
 ||kiqwil.l-m.co.jp^
 ||kira-kira.blue^
+||kirinholdings.*/share/ga/code.js
 ||kirklandsinc.tt.omtrdc.net^
 ||kisekichikara.com^
 ||kissfang.cn^
@@ -78646,6 +78649,7 @@ zzzyk.com###Tinfo
 ||larcru.herno.com^
 ||laregione.ch/ext/av.php?
 ||largeagw5fky.jp^
+||largebrass.com^
 ||lark.pollie.dev^
 ||larry3.tt.omtrdc.net^
 ||las.danawa.com^
@@ -81302,6 +81306,7 @@ zzzyk.com###Tinfo
 ||m.jose-albert.tt.omtrdc.net^
 ||m.k1k.cc/wap/js/indexbottom.js
 ||m.kankanwu.com/js/
+||m.kirin.co.jp/share/ga/code.js
 ||m.kukudm.com/mg/show1.js
 ||m.kukudm.com/mg/show2.js
 ||m.lelekan.com/sp/
@@ -92020,7 +92025,6 @@ zzzyk.com###Tinfo
 ||pl02.owen.prolitteris.ch^
 ||pl520.com^$third-party
 ||pla-tk.flipkart.net^
-||pla.naver.com/log/
 ||pla.wigglepixel.nl^
 ||placeframe.com^
 ||placemypixel.com^$third-party
@@ -92425,6 +92429,7 @@ zzzyk.com###Tinfo
 ||polarbyte.com^$third-party
 ||polarcdn-pentos.com^$third-party
 ||polaris-775.com^
+||polarismagnet.com^
 ||polarmobile.com^$third-party
 ||polfaqgvsd.net^
 ||polhvf.bootbarn.com^
@@ -92770,7 +92775,6 @@ zzzyk.com###Tinfo
 ||presssensor.com^
 ||presto-test-default-1b.tt.omtrdc.net^
 ||pretoad-geo-va.tt.omtrdc.net^
-||prettyfast.to/log^
 ||prettyvirgin.com/images/banners/
 ||prettyvirgin.com/js/show.html
 ||preview-collector.scopely.io^
@@ -94495,6 +94499,7 @@ zzzyk.com###Tinfo
 ||raven.konquadrat.de^
 ||raven.omamao.ch^
 ||raven.vethelpdirect.com^
+||raxetyrw.xyz^
 ||raygun.io/events?
 ||rayli.com.cn^$third-party
 ||rays-counter.com^$third-party
@@ -95914,7 +95919,6 @@ zzzyk.com###Tinfo
 ||rtb.wedeo.ru/track?
 ||rtb123.com^$third-party
 ||rtbanalytics.com^
-||rtbcx.jp.canon.com/bcx/ap/$image
 ||rtbiq.com^$third-party
 ||rtborp.xyz^
 ||rtc-logger-va.tiktokv.com^
@@ -95994,7 +95998,6 @@ zzzyk.com###Tinfo
 ||ruanda.trekkww.fun^
 ||ruanjiancms.com^
 ||ruanyifeng.com/9he/
-||rubick.gameanalytics.com^
 ||rubicon.wellsfargo.com^
 ||rubrikinc.tt.omtrdc.net^
 ||rucounter.ru^$third-party
@@ -97353,6 +97356,7 @@ zzzyk.com###Tinfo
 ||scintillatingspace.com^
 ||scis.tbs.co.jp^
 ||scispg.smu.edu.sg^
+||scissorsstatement.com^
 ||scjlpq.navitime.co.jp^
 ||scjpqut.cn^
 ||scloud.online/stat/
@@ -105858,6 +105862,7 @@ zzzyk.com###Tinfo
 ||stats.qdq.com^
 ||stats.qovery.com^
 ||stats.quicksilvercre.com^
+||stats.qwant.com^
 ||stats.radicaldata.org^
 ||stats.radicalweb.design^
 ||stats.radio-canada.ca^
@@ -106074,7 +106079,6 @@ zzzyk.com###Tinfo
 ||stats.ubiwiz.com^
 ||stats.ucheba.ru^
 ||stats.ulixes.pl^
-||stats.umsns.com^
 ||stats.united-domains.de^
 ||stats.unusualtourist.com^
 ||stats.urban-media.com^
@@ -106188,7 +106192,6 @@ zzzyk.com###Tinfo
 ||statse-omtrdc.deka.de^
 ||statsevent.com^$third-party
 ||statsforever.com^$third-party
-||statsgoogle.appsflyer.com^
 ||statsig.com^$third-party
 ||statsigapi.net^
 ||statsigapi.net^$third-party
@@ -107210,6 +107213,7 @@ zzzyk.com###Tinfo
 ||synergyat.work^
 ||synerise.com^$third-party
 ||synonymousrule.com^
+||synonymoussticks.com^
 ||synovite-scripts.com^$third-party
 ||synthasite.net^$third-party
 ||synthesizespoon.com^
@@ -108686,7 +108690,6 @@ zzzyk.com###Tinfo
 ||telefonicaespana.tt.omtrdc.net^
 ||telefonicauklimited.tt.omtrdc.net^
 ||telefonicavivo.tt.omtrdc.net^
-||telegraaf.tcdn.nl/javascript/analyticsfunctions
 ||telegraf.detmir-stats.ru^
 ||telegramm.site^
 ||telegraph.prd.api.max.com^
@@ -109643,6 +109646,7 @@ zzzyk.com###Tinfo
 ||tkgapmon01gapslog01.gid.tt.omtrdc.net^
 ||tkgaws.seokplant.com^
 ||tkjcqb.forrent.com^
+||tklnzv.xyz^
 ||tkmailgirl.xyz^
 ||tkmkci-cuc-sub-1.kor.thai.tt.omtrdc.net^
 ||tknet.rayjump.com^
@@ -109972,7 +109976,6 @@ zzzyk.com###Tinfo
 ||top.azur.ru/?id=
 ||top.baidu.com/js/nsclick.js
 ||top.bodr.net/c.php$third-party
-||top.dkd.lt/counter$third-party
 ||top.doski.ru/top.gif$third-party
 ||top.elec.ru^
 ||top.gde.ru/isapi$third-party
@@ -113600,6 +113603,7 @@ zzzyk.com###Tinfo
 ||traversedlp.com^$third-party
 ||travix.com/log
 ||traxex.gannettdigital.com^
+||traytouch.com^
 ||trbas.com^$third-party
 ||trbo.com^$third-party
 ||trc.caravas.jp^
@@ -114693,6 +114697,7 @@ zzzyk.com###Tinfo
 ||tw-goldenwinner-57.com^
 ||tw.beanfun.com/bfweb/NEW/commonlogin
 ||tw.buy.yahoo.com/?z=
+||tw.buy.yahoo.com/smartbanner/$domain=tw.news.yahoo.com
 ||tw.cx^
 ||tw.jav321.com^$popup,domain=ucptt.com
 ||tw.partner.buy.yahoo.com^$domain=cool3c.com
@@ -115148,6 +115153,7 @@ zzzyk.com###Tinfo
 ||uhenqb.manning.com^
 ||uhilss4p.tt.omtrdc.net^
 ||uhit.eu/id/$third-party
+||uhjxitn.xyz^
 ||uhlagm.rakurakuseisan.jp^
 ||uhm26jyr11zv.www.freecodecamp.org^
 ||uhn9.up-france.fr^
@@ -116746,6 +116752,7 @@ zzzyk.com###Tinfo
 ||volatileprofit.com^$third-party
 ||volatilerainstorm.com^
 ||volatilerainstorm.com^$third-party
+||volatilevessel.com^
 ||volceapplog.com^
 ||vole.contemporaryartlibrary.org^
 ||vole.leonhitchens.com^
