@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-12-05 20:20:37
-! Total count: 123476
+! Version: 2023-12-06 02:13:52
+! Total count: 123484
 
  
 ###AdBlockDialog
@@ -7695,6 +7695,7 @@ $websocket,domain=5nj.com|cechi8.com
 18-comic.work,18comic.org,18comic.vip###guide-modal
 18-comic.work,18comic.org,18comic.vip##.div_sticky2
 18-comic.work,18comic.org,18comic.vip##.modal-backdrop
+18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > [style*="back"]
 18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img
 18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img + [style]
 18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > span[style*="back"]
@@ -8144,6 +8145,7 @@ $websocket,domain=5nj.com|cechi8.com
 423down.com##.entry > p[style$="111"]
 423down.com##.entry > p[style="font-size: 20px;"]
 423down.com##.entry > p[style^="color:red"]
+423down.com##.entry > p[style^="font-size"] > a[href*="/go."]
 423down.com##.widget_d_banner
 423down.com##a[href*="/go."] > img
 423down.com##h3 > a[href^="https://mp.weixin.qq.com/s/"][target="_blank"] > span
@@ -35276,6 +35278,7 @@ thinbug.com###inktokad
 thinkphp.cn##.a6
 thmz.com###floatdivids
 thwiki.cc##.on-right > .swiper-container
+tianhaohz.com##span[style="display: block; clear: both; overflow: hidden;"]
 tianqi.com##.xcx_erweima
 tianshif.com###comment-ad
 tianshui.com.cn##td[height="420"]
@@ -39801,6 +39804,7 @@ zzzyk.com###Tinfo
 ||4fwww30-2.eu.api.tt.omtrdc.net^
 ||4fwww34-8.eu.tt.omtrdc.net^
 ||4gamers.com.tw/ads-
+||4gamers.com.tw/site/api/aols/media?
 ||4gamers.com.tw/site/iframe-aols/
 ||4gtv.tv/4gTV_OTT.json
 ||4gtv.tv/js/ga_
@@ -55504,6 +55508,7 @@ zzzyk.com###Tinfo
 ||cao0001.com/vip/js/
 ||cao0002.com/vip/js/
 ||caoads.com/images/
+||caoav.net/img/*.js
 ||caohv.com/mm/
 ||caoimgs.com/images/*.gif
 ||caomeixz7.xyz^
@@ -97334,6 +97339,7 @@ zzzyk.com###Tinfo
 ||s4zqj3m.cn^
 ||s5.charliehebdo.fr^
 ||s5.data.srf.ch^
+||s5ue6.com^
 ||s615419487.sc.origins.en25.com^
 ||s65m.win^
 ||s6in.cc^
@@ -116226,6 +116232,7 @@ zzzyk.com###Tinfo
 ||uip-micro-provider.cmhqa1.k8s.tt.omtrdc.net^
 ||uipathcdb.tt.omtrdc.net^
 ||uiqatnpooq.com/0f8b73d477b554394e23077935e1fff4.js$script,domain=extratorrent.cc
+||uiszwh.icu^
 ||uiteligularly.fun^
 ||uitn6.olms.tt.omtrdc.net^
 ||uiwock.epantofi.ro^
@@ -123074,6 +123081,7 @@ zzzyk.com###Tinfo
 ||ziypmdyydl.251foxnews.hb.tt.omtrdc.net^
 ||ziyu.net^$third-party
 ||ziyuanm.com/js/g11.js
+||ziyzcu.buzz^
 ||zj-yxw.com^
 ||zjdruhn.xyz^
 ||zjg.js.cn/Public/config/Couplet/Index4
