@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-12-07 14:14:44
-! Total count: 123551
+! Version: 2023-12-07 20:20:44
+! Total count: 123557
 
  
 ###AdBlockDialog
@@ -387,6 +387,7 @@
 ###rm-float + .popup
 ###rm-float3
 ###sOIcquIT
+###sc-superman-ad
 ###search > a[href="/top1.html"]
 ###sign-ad
 ###sitefocus.focus
@@ -7924,6 +7925,8 @@ $websocket,domain=5nj.com|cechi8.com
 2dfan.com,galge.fun##.collapse > a[href*=".taobao.com"]
 2dfan.com,galge.fun##.leftside-bg
 2dway.com##a[href="https://www.2dway.com/5244/"]
+2ghai.com##.a_xiu_t
+2ghai.com##.yttl_x_g
 2gomovies.to#$#abort-on-property-write _0x287f; abort-on-property-write _0x2f53; abort-on-property-write _0x16f4
 2ip.me,2ip.ua##.alert-mess > .row
 2ujj.com#@#.ad350
@@ -28745,6 +28748,7 @@ huya.com##.nav-expand-list #J_tt_hd_category_ad
 huya.com##.room-business-game
 huya.com##.room-gg-chat
 huya.com##.sidebar-banner
+huya.com##.small-handle-tip
 huya.com##.tip-bg-common-new.diy-activity-icon-bubble-tips
 huya.com##.tt[style*="1200px"]
 huya.com##.wrap-income.chat-wrap-panel
@@ -38985,6 +38989,7 @@ zzzyk.com###Tinfo
 ||2fwww-2.api.api.tt.omtrdc.net^
 ||2fwww00.api.api.tt.omtrdc.net^
 ||2g9x9uf.cn^
+||2ghai.com/zz/
 ||2gis.*/_/metrics
 ||2gis.ru/_/log
 ||2gis.ru/_/metrics
@@ -39734,6 +39739,7 @@ zzzyk.com###Tinfo
 ||4399sj.com^*/mask-ad
 ||4399stat.5054399.com^
 ||44.228.85.26^
+||44180055.cn^
 ||4421zyxwvutsrqponmlkj.digitalpublishing.tt.omtrdc.net^
 ||443293-db5.tt.omtrdc.net^
 ||4438x*.com/Runtime/js/
