@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-12-07 20:20:44
-! Total count: 123557
+! Version: 2023-12-08 02:13:55
+! Total count: 123565
 
  
 ###AdBlockDialog
@@ -1006,6 +1006,7 @@
 ##.postmessage > #googleFirst
 ##.postmessage > #googleSecond
 ##.privilege-promote
+##.pro-molnk
 ##.promolink-[style="position:relative;width:100%;height:100%;"]
 ##.promtlink_[style="position:relative;width:100%;height:100%;"]
 ##.propa_bottom
@@ -1315,7 +1316,6 @@
 ##SPAN.closebox1,SPAN.closebox2,SPAN.closebox3,SPAN.closebox4
 ##SPAN[style$='font-size: 6vw; color:#fff; text-align: center; transform: rotate(-90deg);']
 ##SPAN[style^="position: fixed; bottom: 30vh; z-index: 2147483647; right: 0px; margin-right: 6vw; padding: 0px; text-decoration: none; background-color: red; width: 7vw; height: 7vw; border-radius: 7vw; font-size: 6vw; color:"]
-##TD[id^="td_"] > A[href^="/htmm/"]
 ##UL.myui-extra.clearfix
 ##UL[style='margin: 0px; padding: 0px; font-size: 0px; display: flex;']
 ##VIDEO[loop='true'][muted='true'][autoplay='true'][playsinline='true'][preload='auto']
@@ -1899,6 +1899,7 @@
 ##style + .topd + .bottomd
 ##style + .vdgdo
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
+##td[id^="td_"] > a[href^="/htmm/"]
 ##ul > li > A[href$='_list.html']
 ##ul#page-list.layui-clear.page-wz > ul > li:not([class])
 ##ul.content-list > li.content-tb
@@ -2585,6 +2586,7 @@ $websocket,domain=5nj.com|cechi8.com
 .com/rmb/dl.js
 .com/rmb/palyyoubian.js
 .com/rs/in/*?n=$script,third-party
+.com/rs/shto/$third-party
 .com/s.gif?
 .com/sh/*.js$third-party
 .com/sh/to/$script,third-party,xmlhttprequest
@@ -36366,6 +36368,8 @@ wenxuecity.com##label[style*="darkgrey"]
 wenxuecity.com#%#//scriptlet("set-constant", "adsbygoogle", "noopFunc")
 wenxuecity.com#@#.otherposts
 westnews.com.ua##a[href="http://www.bigmir.net/"]
+wezhicms.com##.activity
+wezhicms.com#?#.card-main:-abp-has(.waimai-item-img)
 whcykj.cn###BDBridgeInviteWrap
 whcykj.cn###InviteContainerl
 whcykj.cn##.swt_bottom
@@ -56314,7 +56318,6 @@ zzzyk.com###Tinfo
 ||changyan.itc.cn/mdevp/extensions/mobile-cmt-advert/
 ||changyangadvertising.com^
 ||changyangcd.com^
-||channel-7-news.com^
 ||channel-analysis-js.gmw.cn^$third-party
 ||channel-impact.actonservice.com^
 ||channel.arubanetworks.com^
@@ -70794,6 +70797,7 @@ zzzyk.com###Tinfo
 ||gmxcdm.vestel.com.tr^
 ||gmxvmvptfm.com^
 ||gn.informaengage.com^
+||gn01.top^
 ||gnan.jp^
 ||gnar.grammarly.com^
 ||gnavi.co.jp/analysis/
@@ -73498,6 +73502,7 @@ zzzyk.com###Tinfo
 ||hollowafterthought.com^
 ||hollowafterthought.com^$third-party
 ||hollywood.trekkww.fun^
+||holmesmind.com^
 ||holor0701.cn^
 ||holor0804.cn^
 ||holor857.cn^
@@ -78373,6 +78378,7 @@ zzzyk.com###Tinfo
 ||jxpsrh.casamundo.co.uk^
 ||jxtejf.xyz^
 ||jxtest.bolecdn.com/player/*.gif
+||jxuhurp.icu^
 ||jxvyrv.xyz^
 ||jxy6.evobanco.es^
 ||jy.zhongxues.com^
@@ -78407,6 +78413,7 @@ zzzyk.com###Tinfo
 ||jzgfhr.nordicnest.com^
 ||jzixypd.icu^
 ||jzjxmj.com^
+||jzlso.xyz^
 ||jzprtb.1stdibs.com^
 ||jzxpxj.xyz^
 ||k-analytix.com^$third-party
@@ -87733,6 +87740,7 @@ zzzyk.com###Tinfo
 ||mrpdata.net^
 ||mrqbuf.xyz^
 ||mrruuov.cn^
+||mrs30w.com^
 ||mrsidali.tt.omtrdc.net^
 ||mrspenguin.tt.omtrdc.net^
 ||mrsproxybg1.tt.omtrdc.net^
@@ -89453,7 +89461,6 @@ zzzyk.com###Tinfo
 ||noticiasurgente.in/embed/p2/Controller/DesktopViewControladorMicki.js$script,domain=megatorrentshd.com
 ||notifadz.com^$third-party
 ||notificaciones.conduce-seguro.es^
-||notification-time.com^
 ||notifpush.com^
 ||notify-bugs-fra1.rtl.de^
 ||notify.bugsnag.com^
@@ -122487,6 +122494,7 @@ zzzyk.com###Tinfo
 ||ysxs8.vip/js/bd_top.js
 ||ysxs8.vip/js/play_db.js
 ||ysxs8.vip/ysgg/
+||ysxt9.com^
 ||yszedg.vidaxl.dk^
 ||yszpegh.xyz^
 ||yt-adp.nosdn.127.net^
