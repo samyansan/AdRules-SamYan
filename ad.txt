@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-12-07 08:51:51
-! Total count: 123540
+! Version: 2023-12-07 14:14:44
+! Total count: 123551
 
  
 ###AdBlockDialog
@@ -1314,6 +1314,7 @@
 ##SPAN.closebox1,SPAN.closebox2,SPAN.closebox3,SPAN.closebox4
 ##SPAN[style$='font-size: 6vw; color:#fff; text-align: center; transform: rotate(-90deg);']
 ##SPAN[style^="position: fixed; bottom: 30vh; z-index: 2147483647; right: 0px; margin-right: 6vw; padding: 0px; text-decoration: none; background-color: red; width: 7vw; height: 7vw; border-radius: 7vw; font-size: 6vw; color:"]
+##TD[id^="td_"] > A[href^="/htmm/"]
 ##UL.myui-extra.clearfix
 ##UL[style='margin: 0px; padding: 0px; font-size: 0px; display: flex;']
 ##VIDEO[loop='true'][muted='true'][autoplay='true'][playsinline='true'][preload='auto']
@@ -1514,6 +1515,7 @@
 ##a[href*=".impactyu.com/"]
 ##a[href*=".impreshunz.com/"]
 ##a[href*=".las88889999.com:"]
+##a[href*=".mhtimes.cn"]
 ##a[href*=".mmrjmh.com/"]
 ##a[href*=".n7.org.cn"]
 ##a[href*=".nffhome.com/"]
@@ -54012,6 +54014,7 @@ zzzyk.com###Tinfo
 ||bm23.com^$third-party
 ||bm324.com^$third-party
 ||bm999999.com^$popup
+||bmatgg18.xyz^
 ||bmcm.pw^
 ||bmf.branch.rocks^
 ||bmg-frankcars.tt.omtrdc.net^
@@ -59594,6 +59597,7 @@ zzzyk.com###Tinfo
 ||cwmlm.com^$third-party
 ||cwnlia.parfumdo.com^
 ||cwolwc.xyz^
+||cwrxgb.icu^
 ||cws-australiasoutheast-release-a-b.tt.omtrdc.net^
 ||cws-hulu.conviva.com^
 ||cws.airon.test.tt.omtrdc.net^
@@ -71520,6 +71524,7 @@ zzzyk.com###Tinfo
 ||goldstats.com^$third-party
 ||golem.de/staticrl/scripts/golem_cpxl_
 ||golem.met.vgwort.de^
+||golengmen.com/assets/publish/
 ||golf-jalan.hb.tt.omtrdc.net^
 ||golf.staging.gov.tt.omtrdc.net^
 ||golf102.tt.omtrdc.net^
@@ -72467,6 +72472,7 @@ zzzyk.com###Tinfo
 ||hahamx.cn/upload/data/list_sidebar_
 ||haibomuye.com/forever/
 ||haihongzg.com^
+||hailfi.top^
 ||haili-spitzer.com^
 ||hairoak.com^
 ||haise10.top^
@@ -82115,6 +82121,7 @@ zzzyk.com###Tinfo
 ||lvuptech.com/wp-content/plugins/deblocker/
 ||lvy0.cn^
 ||lvz.de/viewlog_receiver.php?
+||lvzkfcm.cn^
 ||lw.b.inhaabit.com^
 ||lw0mp.fun^
 ||lw54.com/js/
@@ -82779,6 +82786,7 @@ zzzyk.com###Tinfo
 ||manychat.com/js/visitor.js
 ||manychat.com/pixel/logEvent
 ||manychat.com/widget/log?
+||manymgsgn.com^
 ||maobujie.com^
 ||maodh.com/admin/up/*.gif
 ||maolihui.com/wp-content/themes/miaonew/images/adb
@@ -84509,6 +84517,8 @@ zzzyk.com###Tinfo
 ||maxtracker.net^$third-party
 ||maxtraffic.com^$third-party
 ||maxtrafixx.tech^
+||maxun066.top^
+||maxun118.top^
 ||maxwecor19.shop^
 ||maxwelle-golden.tt.omtrdc.net^
 ||maxymiser.com^$third-party
@@ -119374,6 +119384,7 @@ zzzyk.com###Tinfo
 ||whyfate.cn^
 ||wiar9wff0ma9.ping.t3.gg^
 ||wickedreports.com^$third-party
+||wiczcu.xyz^
 ||wide.trekkww.space^
 ||wideangle.co^$third-party
 ||wideroeas.tt.omtrdc.net^
