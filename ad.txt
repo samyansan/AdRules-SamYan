@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-12-09 08:50:48
-! Total count: 123640
+! Version: 2023-12-09 14:18:01
+! Total count: 123650
 
  
 ###AdBlockDialog
@@ -2628,6 +2628,7 @@ $websocket,domain=5nj.com|cechi8.com
 .com:8008/*/*?*=$third-party
 .com:8008/sc/*?n=$third-party
 .com:8010/cc/
+.com:8077/*?$third-party
 .com:91/Runtime/js/psCreat.js
 .com:9120/discor_list.js
 .content_tracking.js
@@ -5441,7 +5442,6 @@ $websocket,domain=5nj.com|cechi8.com
 /metrica/sp.js
 /metricool.js
 /metrics-backend/*
-/metrics-reporter-bundle.js
 /metrics/bambuser.min.js
 /metrics/event?
 /metrics/ga.js
@@ -8142,6 +8142,7 @@ $websocket,domain=5nj.com|cechi8.com
 423down.com##.entry > p[style^="color:red"]
 423down.com##.entry > p[style^="font-size"] > a[href*="/go."]
 423down.com##.widget_d_banner
+423down.com##SPAN > A > B
 423down.com##a[href*="/go."] > img
 423down.com##h3 > a[href^="https://mp.weixin.qq.com/s/"][target="_blank"] > span
 423down.com#?#.post-related > ul > li:-abp-has(> a[href^="http"]:not([href*="423down."]))
@@ -65754,6 +65755,7 @@ zzzyk.com###Tinfo
 ||ebookers.com/cl/2x2.gif?
 ||ebooksrus1.tt.omtrdc.net^
 ||ebp.renren.com^
+||ebpex.space^
 ||ebpu2.top^
 ||ebqidwm.xyz^
 ||ebrun.com/jfile/position/js/*.js
@@ -68474,6 +68476,7 @@ zzzyk.com###Tinfo
 ||fhcmeiju.com/template/DYXS2/html/1.
 ||fhddnh.xyz^
 ||fhdnds.mrmarvis.com^
+||fherunm.cn^
 ||fhfgg.com^
 ||fhglcpf.icu^
 ||fhh.tt.omtrdc.net^
@@ -68850,6 +68853,7 @@ zzzyk.com###Tinfo
 ||fmuabq.lojaadcos.com.br^
 ||fmufpo.machicon.jp^
 ||fmvbyji.cn^
+||fmzifaqi.xyz^
 ||fn-pz.com^
 ||fn9u.fun^
 ||fna.fnainsurance.com^
@@ -79232,6 +79236,7 @@ zzzyk.com###Tinfo
 ||kqscrl.bonprix.nl^
 ||kqskqi.xyz^
 ||kqubxdb.cn^
+||kqvvqv.icu^
 ||kqwip.cyou^
 ||kqzyfj.com^$third-party
 ||kr-3-7.tt.omtrdc.net^
@@ -91126,6 +91131,7 @@ zzzyk.com###Tinfo
 ||ozarkdixieland.tt.omtrdc.net^
 ||ozkbdxdu.icu^
 ||ozkkuy.fabianafilippi.com^
+||ozolei.xyz^
 ||ozon.ru/tracker/
 ||ozon.ru^$removeparam=partner
 ||ozone.ru/graphics/client-metrics/
@@ -111347,6 +111353,7 @@ zzzyk.com###Tinfo
 ||tpucdn.com/js/ga-*.js
 ||tpvuxt.xyz^
 ||tpx.tesseradigital.com^
+||tpzatf.xyz^
 ||tq.cn/floatcard?
 ||tq121.com.cn/j/ad/
 ||tqdctl.xyz^
@@ -117438,6 +117445,7 @@ zzzyk.com###Tinfo
 ||vhjxrj.xyz^
 ||vhmewg.edreams.fr^
 ||vhmjci.edreams.co.uk^
+||vhotcvp.xyz^
 ||vhrbxb.vidaxl.nl^
 ||vhsrwd.aip24.pl^
 ||vhsutpgui.xyz^
@@ -119738,6 +119746,7 @@ zzzyk.com###Tinfo
 ||wnd2.destinia.cat^
 ||wneia.iaskhot.com^
 ||wnform.www.trecenti.com^
+||wnllmyw.xyz^
 ||wnnbvnj.cn^
 ||wnozpl.escarpe.it^
 ||wnrrh.tt.omtrdc.net^
@@ -123582,6 +123591,7 @@ zzzyk.com###Tinfo
 ||zzbaike.com/main/arvixe
 ||zzbaike.com/main/host
 ||zzbaike.com/sites/all/themes/zzbaike/images/
+||zzbmxl.xyz^
 ||zzc.cn/b1/live_b_
 ||zzdsjxsb.com^
 ||zzfoxentertainment.hb-api.tt.omtrdc.net^
