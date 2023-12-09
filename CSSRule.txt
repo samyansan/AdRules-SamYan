@@ -5985,7 +5985,7 @@ etnet.com.cn##.firstAD
 etr.fr##.no_block
 etsy.com##a[href*="listing_page_ad_row"]
 etsy.com#$#hide-if-matches-xpath './/h2[@class="wt-text-title-largest"][contains(text(),"By Etsy sellers")]/preceding::p[contains(text(),"Sponsored")]/ancestor-or-self::div[@data-appears-component-name="web_home_strv_ads"]'
-etsy.com#$#hide-if-matches-xpath './/span[@data-ad-label="Ad by Etsy seller"]/preceding::a[contains(@class,"b2c")][not(contains(@class,"b91"))][@data-palette-listing-image]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
+etsy.com#$#hide-if-matches-xpath './/span[@data-ad-label="Ad by Etsy seller"]/preceding::a[contains(@class,"b58")][not(contains(@class,"bbd"))][@data-palette-listing-image]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
 etsy.com#$#hide-if-matches-xpath '//span[@data-is-ad][@data-ad-label][contains(text(),"Ad by")]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
 etsy.com#$#race start; hide-if-contains-visible-text '/[aA](\\s)*d(\\s)*by/' li 'li[class] div > :is(div, p)' 'width: /^[0-9]px/'; hide-if-contains-visible-text '/[aA](\\s)*d(\\s)*b(\\s)*y/' li 'li[class] div > :is(div, p)' 'width: /^[0-9]px/'; race stop;
 ettoday.net###adsense-matched-content
@@ -6072,6 +6072,8 @@ faayoo.com###footer_fd
 faayoo.com##.qr_code
 facebookproxy.info###overlay-holder
 facet.wp.pl,ksiazki.wp.pl,tech.wp.pl,money.pl,moneyv.wp.pl#$#abort-on-property-read pbjs.bidderSettings
+factfeed.com,mdrntoday.com,travelroo.com###vidazooAd
+factfeed.com,mdrntoday.com,travelroo.com#$#hide-if-matches-xpath './/div[contains(@class,"ad-lines") and contains(text(),"ADVERTISEMENT")]/parent::div[@class="ad-text-box"]/ancestor::div[@class][@style]'
 factorio.su##body > div[id][class][style*="background"][style*="visible"]
 fairytailmx.com#@##sponsored-ad
 familydoctor.com.cn##.adExtra
@@ -10234,6 +10236,7 @@ otzovik.com#$#abort-on-property-read Object.prototype.RtbBlockCreateWrapper
 outlook.live.com###owaadbar
 outlook.live.com##.N3k7EN5vRGTrONWBPg250
 outlook.live.com##.__Microsoft_Owa_MessageListAds_ListView_templates_cs_x
+outlook.live.com#?#div[style*="top: 0px"]:-abp-has(>div:-abp-contains(Ad))
 outofmemory.cn##.iloveoutofmemory660
 outofmemory.cn##.tgBar
 ouyaoxiazai.com##.ad_show_1
@@ -12270,7 +12273,7 @@ truyen-hentai.com#$#hide-if-matches-xpath './/*[@class]/ancestor-or-self::div[co
 truyen2u.net#$#abort-current-inline-script eval
 truyen35.vn#$#abort-current-inline-script jQuery click_ads
 truyenqqvn.com#$#abort-current-inline-script document.addEventListener window.open
-truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.io,phimbom.online,sieudamtv.com,ephimchill.com#$#abort-on-property-read document.cookie
+truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.io,phimbom.online,sieudamtv.com,ephimchill.com,motphimhan.cc#$#abort-on-property-read document.cookie
 truyentuan.com#$#abort-current-inline-script $ btpop
 tsdm.live###ts_sidebar_base
 tsviewer.com#@#.adsbygoogle
@@ -12614,7 +12617,7 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gomovieshub.io,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.pw,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.tube,ungtycomicsvip.com,truyengihotmoi.net,dualeotruyenww.com,yurineko.net,vlxyz.tv,olaphim.net,phimsexhay669.co,cliphot69.biz,doctruyen3qmax.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.com,sexphim1.com,cdn.streamvl.sbs,buomtv.tv#$#abort-current-inline-script WebAssembly instantiate
+viet69.tube,ungtycomicsvip.com,truyengihotmoi.net,dualeotruyenww.com,yurineko.net,vlxyz.tv,javhay.media,phimsexhay669.co,cliphot69.biz,doctruyen3qmax.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.com,sexphim1.com,cdn.streamvl.sbs,buomtv.tv#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com##div[class^="infinite-comment-list_subText"]
 view.inews.qq.com##div[class^="interaction-bottom_interaction"]
 view.inews.qq.com##div[class^="justify-text_showMore"]
