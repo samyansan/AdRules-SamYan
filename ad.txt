@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-12-12 02:14:07
-! Total count: 127403
+! Version: 2023-12-12 08:52:25
+! Total count: 127419
 
  
 ###AdBlockDialog
@@ -1741,6 +1741,8 @@
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
 ##center > div.hengfu
 ##center > p > a[target="_blank"] > img[width="728px"][height="90px"]
+##div#ad > div#gotoPlay
+##div#ad > div[align='center']
 ##div#ad_id
 ##div#apage.apage > div > ul > li > a
 ##div#beijing.article_content.layui-clear > div.left > div > a
@@ -39894,6 +39896,7 @@ www.xvideos.com###ad-footer
 www.xvideos.com##.thumb-ad
 www.ydyse.com##.left,.bottom,.right,.ad,.adimage
 www.yizhibo.com##.register_guide
+www.youtube.com#$#skip-video 'video.html5-main-video' './/ytd-player//div[contains(@class,"ad-interrupting")]' 5;simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=0';simulate-mouse-event 'button.ytp-ad-skip-button-modern'
 www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-mouse-event 'button.ytp-ad-skip-button$delay=0'
 www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=0'
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#json-prune '0.playerResponse.adPlacements 0.playerResponse.playerAds 1.playerResponse.adPlacements 1.playerResponse.playerAds 2.playerResponse.adPlacements 2.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds adPlacements playerAds'
@@ -40790,6 +40793,7 @@ zzzyk.com###Tinfo
 ||0emm.com^$third-party
 ||0ghijkl.com^
 ||0hlc8.top^
+||0hq6k.site^
 ||0j500fj69m0n.tt.omtrdc.net^
 ||0kkbb.com/js/i.js
 ||0krdn3.com^
@@ -49563,6 +49567,7 @@ zzzyk.com###Tinfo
 ||adstk.io^
 ||adstract.com^$third-party
 ||adsunflower.com^
+||adsv.svc.litv.tv/ads?ad_unit=$xmlhttprequest,redirect=noopvast-3.0,important,domain=ani.gamer.com.tw
 ||adsymptotic.com^$third-party
 ||adsystem.dailyissue.co.kr/show/logs.php
 ||adt.tt.omtrdc.net^
@@ -51547,6 +51552,7 @@ zzzyk.com###Tinfo
 ||amvecurt.cn^
 ||amvtwk.thebottleclub.com^
 ||amwatch.tns-gallup.dk^
+||amxk.top^
 ||amxwqv.com^
 ||amy.gs/Webservices/jsParseLinks.aspx$script,third-party
 ||amy.gs/visitScript/$script,third-party
@@ -57931,6 +57937,7 @@ zzzyk.com###Tinfo
 ||bravenet.com/counter/
 ||bravo.israelweather.co.il^
 ||bravotube.net/b_track.js
+||braze.eu/api/v3/data/
 ||brc.emails.rakuten.com^
 ||brc.englishdict.cc^
 ||brc.englishtimes.cc^
@@ -68412,6 +68419,7 @@ zzzyk.com###Tinfo
 ||dsbfpt.xyz^
 ||dsbjdeh.cn^
 ||dsbt7.com^
+||dsbudkwq.xyz^
 ||dsctnsn.xyz^
 ||dsdordering.kdrp.com^
 ||dsfd67.com^
@@ -74184,6 +74192,7 @@ zzzyk.com###Tinfo
 ||gmdigital.it/vtrack-staging.js
 ||gmfbjv.beautyblender.com^
 ||gmfinancial.tt.omtrdc.net^
+||gmgbmzz.xyz^
 ||gmicu.cn^
 ||gminsurance.tt.omtrdc.net^
 ||gmintegration.glbp.tt.omtrdc.net^
@@ -75775,6 +75784,7 @@ zzzyk.com###Tinfo
 ||gwg51.com^
 ||gwguyh.edreams.es^
 ||gwide.xyz^
+||gwivqo.xyz^
 ||gwmrb.cn^
 ||gwmtracking.com^$third-party
 ||gwrpceo.cn^
@@ -83608,6 +83618,7 @@ zzzyk.com###Tinfo
 ||lhota.stanicezoo.cz^
 ||lhotajl.icu^
 ||lhp-mortgage.loanzify.com^
+||lhtnuop.xyz^
 ||lhy1.xyz^
 ||lhzbdvm.com^
 ||lhzulh.tribeamrapali.com^
@@ -84678,6 +84689,7 @@ zzzyk.com###Tinfo
 ||lmorsb.highstreettv.com^
 ||lmportal-stg.vms.tt.omtrdc.net^
 ||lms.edge44.testandtarget.omniture.com^
+||lmtnfl.xyz^
 ||lmts-edc.tt.omtrdc.net^
 ||lmx7.com^
 ||lmxxxz.com^
@@ -88640,6 +88652,7 @@ zzzyk.com###Tinfo
 ||meetup.com^$removeparam=rv
 ||meeturdate.com^
 ||meexx.xyz^
+||mefiafd.top^
 ||mefo1.zdf.de^
 ||mega-gratis.com^
 ||mega-share.pro^
@@ -95914,6 +95927,7 @@ zzzyk.com###Tinfo
 ||pdfsam.com^
 ||pdftfe.thekooples.com^
 ||pdhhmf.cn^
+||pdhjnz.xyz^
 ||pdiabbi.cn^
 ||pdjjrh.xyz^
 ||pdmntn.com^$third-party
@@ -97931,6 +97945,7 @@ zzzyk.com###Tinfo
 ||pub.servidoresge.com^
 ||pub.sheknows.com^
 ||pub.toku-tag.jp^$third-party
+||pubads.g.doubleclick.net/gampad/ads?*&description_url=https%3A%2F%2Fani.gamer.com.tw$xmlhttprequest,redirect=noopvast-3.0,important
 ||pubads.g.doubleclick.net/gampad/ads?*&output=xml_vast*&url=http*.4gtv.tv$script,xmlhttprequest,other,redirect=noopvast-2.0
 ||pubdream.com^$third-party
 ||pubexchange.com^$third-party
@@ -103312,6 +103327,7 @@ zzzyk.com###Tinfo
 ||sgtm.fashionunited.
 ||sgtm.fashionunited.de/gtm.js
 ||sgtm.handyhuellen.de^
+||sgtm.kaspersky.de/gtm.js
 ||sgtm.sefamerve.com^
 ||sgtm.simoahava.com^
 ||sgua.jp^
