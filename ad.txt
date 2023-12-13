@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-12-13 08:51:58
-! Total count: 127475
+! Version: 2023-12-13 14:14:37
+! Total count: 127484
 
  
 ###AdBlockDialog
@@ -1169,6 +1169,7 @@
 ##A[href*='/adjump/?']
 ##A[href*='com:'] > IMG[src],A[href*='cc:'] > IMG[src]
 ##A[href*='exuvu.com']
+##A[href*='jdbfknsbkldns.com']
 ##A[href*='jialu6699h.vip']
 ##A[href*='xzzkx.com']
 ##A[href*='youqu.buzz']
@@ -1263,6 +1264,7 @@
 ##DIV[class^='ads_border_']
 ##DIV[data-text-ad]
 ##DIV[onclick='if (!window.__cfRLUnblockHandlers) return false; window.location.href=\'https://a.biquge-app.com/apps/\''],[onclick='if (!window.__cfRLUnblockHandlers) return false; window.location.href=\'https://a.biquge-app.com/apps/\''] + div
+##DIV[style$='display:block;width:9.6vw;height:7.96875vw;background: #000;opacity:0.01;']
 ##DIV[style*='!important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important; height: 150px !important;']
 ##DIV[style*='.xyz/gif/']
 ##DIV[style*='animation: 1s ease 0.2s infinite normal none running shakegwegs; z-index:'][style*='background: url']
@@ -1274,6 +1276,7 @@
 ##DIV[style='clear: both; position: relative; width: 396px; height: 130px;']
 ##DIV[style='position: fixed; bottom: 0px; left: 0px; width: 100%; height: 5.85rem; z-index: 99999;']
 ##DIV[style='position: fixed; color: transparent; line-height: 100vh; width: 100vw; z-index: 288; top: 0px; left: 0px;']
+##DIV[style='position: fixed; left: 0px; bottom: 0px; width: 100%; height: 120px; z-index: 2147483647 !important;']
 ##DIV[style='position: fixed; line-height: 100vh; width: 100vw; top: 0px; left: 0px;']
 ##DIV[style='width: 100%;background-color: black;color: white;padding: 15px 0;']
 ##DIV[style^='box-sizing: border-box; position: relative; left: 0px; z-index: 214748']
@@ -2911,6 +2914,7 @@ $websocket,domain=5nj.com|cechi8.com
 .xyz/*=$object,third-party
 .xyz/*?16$third-party
 .xyz/*_*_1_*.js?$third-party
+.xyz//qby_*.js$third-party
 .xyz/99x/
 .xyz/?channelCode=$csp=script-src
 .xyz/?token=
@@ -71902,6 +71906,7 @@ zzzyk.com###Tinfo
 ||fgre9.top^
 ||fgttbz.xyz^
 ||fguhyg.cn^
+||fgukchz.icu^
 ||fh-main.measure.agilemeasure.com^$third-party
 ||fh21.com.cn/js/passport/createQuickMenu.js
 ||fh21.com.cn/partners/
@@ -119747,6 +119752,7 @@ zzzyk.com###Tinfo
 ||txt.shopbanquet.com^
 ||txt.styr.com^
 ||txtx.jp^
+||txtyuzhaiwu.com/astyle/wap.js
 ||txuenergy.tt.omtrdc.net^
 ||txv0.destinia.hu^
 ||txvoin.with2.net^
@@ -123130,6 +123136,7 @@ zzzyk.com###Tinfo
 ||wevbgr.vidaxl.it^
 ||wew.dushiwenxue.net^
 ||wewbxx.hircus.fr^
+||wewlkq.com^
 ||wework.api.tt.omtrdc.net^
 ||weww6.next.tt.omtrdc.net^
 ||wezbvq.heine-shop.nl^
@@ -123379,6 +123386,7 @@ zzzyk.com###Tinfo
 ||winh.tt.omtrdc.net^
 ||winitout.com^$third-party
 ||winkbingo.tt.omtrdc.net^
+||winniephc.com^
 ||winserve88.idmapper.api.api.tt.omtrdc.net^
 ||winter.app.tt.omtrdc.net^
 ||winterseyegaming.com^
@@ -127418,6 +127426,7 @@ zzzyk.com###Tinfo
 ||zzbaike.com/sites/all/themes/zzbaike/images/
 ||zzbmxl.xyz^
 ||zzc.cn/b1/live_b_
+||zzccseo.com/statics/js/di.js
 ||zzdsjxsb.com^
 ||zzfoxentertainment.hb-api.tt.omtrdc.net^
 ||zzgxqlzh.com^
