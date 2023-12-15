@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-12-15 02:14:00
-! Total count: 127519
+! Version: 2023-12-15 08:52:33
+! Total count: 127526
 
  
 ###AdBlockDialog
@@ -2860,7 +2860,6 @@ $websocket,domain=5nj.com|cechi8.com
 .skimlinks.js
 .smartrmail.co/o/$image
 .smtp.net/o/$image
-.snowplowanalytics.$domain=~snowplowanalytics.com
 .southwest.com/r/$image
 .sparkpostmail.com/q/$image
 .sparkpostmail2.com/q/$image
@@ -3103,8 +3102,9 @@ $websocket,domain=5nj.com|cechi8.com
 /GoogleAnalytics?utmac=
 /GoogleAnalyticsEvents.js
 /GoogleAnalyticsModule.min.js
-/GoogleAnalyticsPlus/*
-/HeatmapSessionRecording/*$domain=~plugins.matomo.org|~shop.matomo.org
+/GoogleAnalyticsPlus/distilled.FirstTouch.js
+/HeatmapSessionRecording/configs.php
+/HeatmapSessionRecording/tracker.min.js
 /Hit.ashx?
 /Hit.aspx?
 /HitCounter.
@@ -3138,7 +3138,6 @@ $websocket,domain=5nj.com|cechi8.com
 /OtAutoBlock.js
 /PageCount.php?
 /PageHit.ashx
-/PageStatistics/*
 /PageStats.asp
 /PageStats.js
 /PageTrack.js
@@ -3198,13 +3197,11 @@ $websocket,domain=5nj.com|cechi8.com
 /StatsService.RecordStats?
 /SvgAdblockDetected/*
 /T/OFC4/*$image
-/TargetAnalyticsAPI-
 /TeaLeaf.js
 /TeaLeafCfg.js
 /TealeafSDK.js
 /TealeafSDKConfig.js
-/TealeafTarget.
-/TouchClarity.
+/TouchClarity.js
 /Track.aspx/*
 /Track/Capture.aspx?
 /TrackClick.
@@ -3224,7 +3221,6 @@ $websocket,domain=5nj.com|cechi8.com
 /V.aspx?Bln=$script,third-party
 /View/img/b72890.jpg
 /ViewCounter/*
-/VisitCounter.
 /VisitLog.asmx
 /VisitSite.js
 /VisitTracking?
@@ -3656,6 +3652,7 @@ $websocket,domain=5nj.com|cechi8.com
 /analytics/embed/*
 /analytics/event
 /analytics/ga.js
+/analytics/google.js
 /analytics/layer
 /analytics/metric/*
 /analytics/pageview
@@ -3708,6 +3705,7 @@ $websocket,domain=5nj.com|cechi8.com
 /api/ads?
 /api/analytics$domain=hotmediahub.com|teralink.me|teraearn.com|terashare.me|fansonlinehub.com
 /api/apiFetchAdsData
+/api/async.php?t=user&m=pagehits&
 /api/autosda.php
 /api/bfb_write_log
 /api/cmp_tracker|
@@ -4201,6 +4199,7 @@ $websocket,domain=5nj.com|cechi8.com
 /collector?report=
 /collectsysteminfo?
 /com.snowplowanalytics.$domain=~snowplowanalytics.com
+/com.snowplowanalytics.snowplow/*
 /com_joomlawatch/img.php
 /com_jrealtimeanalytics/*
 /common/ad.
@@ -4491,6 +4490,7 @@ $websocket,domain=5nj.com|cechi8.com
 /events/page-viewed
 /events/pixelEvent
 /events/track/*
+/events/tracking
 /events/view-form-open
 /events/view?
 /events?data=
@@ -4537,7 +4537,8 @@ $websocket,domain=5nj.com|cechi8.com
 /fal854heat^$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 /fans/*$domain=91porn.com|email.91dizhi.at.gmail.com.8h9.space
 /fawu999/*.js$script,third-party
-/fb-pixel-$script
+/fb-pixel-dsgvo/*
+/fb-pixel-tracking.js
 /fb-tracking.js
 /fb_pixel_page_view
 /fbanalytics.js
@@ -4618,7 +4619,7 @@ $websocket,domain=5nj.com|cechi8.com
 /frontend-sentry-
 /fshow.php?id=$script,third-party
 /fsjghgwyegh_f.js
-/fsrscripts/*
+/fsrscripts/triggerParams.js
 /fuckadblock.js$script
 /fuckadblock.min.js$script
 /fuliba/js/n1.js
@@ -4770,10 +4771,9 @@ $websocket,domain=5nj.com|cechi8.com
 /goAnalytics.js
 /gogl_detector$script,domain=meddaily.ru|newsru.com
 /google-adblock.
-/google-analyticator/*
 /google-analyticator/*$script
+/google-analyticator/external-tracking.min.js
 /google-analytics.
-/google-analytics/*$domain=~stackexchange.com|~superuser.com
 /google-nielsen-analytics.js
 /google/analytics.js
 /google/autotrack.custom.js
@@ -4800,7 +4800,6 @@ $websocket,domain=5nj.com|cechi8.com
 /googletag.js
 /googletagmanageranalytics.js
 /googletrack.js
-/googletracker/*
 /gp/r.html?$image
 /gridinbound.blob.core.
 /grooptoo/index/getGrooptooAd/|
@@ -4832,7 +4831,7 @@ $websocket,domain=5nj.com|cechi8.com
 /gubawap/ad/*
 /gv-analytics/*
 /gv-analytics/riveted.js
-/gweb/analytics/*
+/gweb/analytics/autotrack.js
 /gwunggou/*
 /h.gif?
 /h/k.php?u=*&l=*&v=$third-party
@@ -4852,9 +4851,7 @@ $websocket,domain=5nj.com|cechi8.com
 /hgct?hc=&hb=*&vjs=
 /hints.netflame.cc/*
 /histats.js
-/histats/*
 /hit-counter.
-/hit-counter/*
 /hit-increment/*
 /hit.asp?
 /hit.c?
@@ -5251,7 +5248,6 @@ $websocket,domain=5nj.com|cechi8.com
 /levelmaxblock.js
 /lhnhelpouttab-current.min.js
 /lib/analytics.js
-/lib/snowplow-
 /library/svy/broker.js
 /libs/tracker.js
 /liferay-analytics-api.js
@@ -5421,7 +5417,7 @@ $websocket,domain=5nj.com|cechi8.com
 /marfeelanalytics.js
 /marketing-analytics.js
 /martypixel?
-/matomo-tracking.
+/matomo-tracking.js
 /matomo.js$domain=~github.com
 /matomo.php
 /matomo.php?action_name=
@@ -5430,16 +5426,14 @@ $websocket,domain=5nj.com|cechi8.com
 /matongwu/img/gg_
 /mcookie.aspx
 /mcount.cgi?
-/mcounter/*
 /measure/pixel/*
 /measure/visit/*
-/media-analytics.min.
 /media.sailthru.com/5ik/1k4/9/*.gif
 /medialaanUniversalTracker.js
 /mediametrie.js
 /mediascope.js$domain=russia-tv.online
 /mediateGA.js
-/megacounter/*
+/megacounter.php
 /meinv/js/*_banner.js
 /meitui.org\/[a-z].js/$domain=meitui.org
 /meitui.org\/[a-z][a-z].js/$domain=meitui.org
@@ -5483,29 +5477,24 @@ $websocket,domain=5nj.com|cechi8.com
 /mixpanel-init.js
 /mixpanel.$domain=~mixpanel.com
 /mlb-ml-analytics.min.js
-/mlopen_track.
+/mlopen_track.html
 /mmclient.js
 /mmcore.js
 /mmday/91porn_
 /mmday/hgame_
-/mmetrix.mobi/*
 /mms.*/pv?
 /mms/get_loaders?
 /mms/get_site_js?*abp=
 /mn-collector.php
-/mngi/tracking/*
 /mnppixellibrary.min.js
 /mnt/imp?
 /moat/yield.js
-/moatanalytics-
 /mobile-ad.
 /mobile/lele.html
 /mobile/mads.js
-/mobileanalytics.
 /mobilegame/getroomapp?
 /mod_ablockdetector/*
 /module/adsview/*
-/module/analytics/*
 /modules/video/player/nuevo/midroll.php?
 /moksa.js
 /monetate.js
@@ -5698,10 +5687,8 @@ $websocket,domain=5nj.com|cechi8.com
 /pagecpv/*
 /pagedot.gif?
 /pagedot.gif?$domain=focus.de
-/pagehits/*
 /pagelogger/connector.php?
 /pages/ads
-/pagestat/*
 /pagestat?
 /pagestats/*
 /pagetag.gif?
@@ -5746,7 +5733,6 @@ $websocket,domain=5nj.com|cechi8.com
 /perfmatters/js/analytics-minimal.js
 /perfmatters/js/analytics.js
 /perfmetrics.js
-/performance-logger.
 /performance-metrics.js
 /performance.fcgi?
 /performance/metrics
@@ -5787,7 +5773,6 @@ $websocket,domain=5nj.com|cechi8.com
 /pingd?
 /pinger.cgi?
 /pinterest-pixels.js
-/pistats/cgi-bin/*
 /piwik-$domain=~github.com|~matomo.org|~piwik.org|~piwik.pro|~piwikpro.de
 /piwik.$domain=wetter.com
 /piwik.$image,script,domain=~matomo.org|~piwik.org|~piwik.pro|~piwikpro.de
@@ -5809,6 +5794,7 @@ $websocket,domain=5nj.com|cechi8.com
 /pixel-manager.js?
 /pixel-page.html
 /pixel-prod.
+/pixel-tracker.js
 /pixel-tracking.
 /pixel.*/track/*
 /pixel.cgi?
@@ -5850,7 +5836,10 @@ $websocket,domain=5nj.com|cechi8.com
 /pixeltrack.
 /pixeltrack.php?
 /pixeltracker.
+/pixeltracker.bundle.js
+/pixeltracker.js
 /pixeltracking/*
+/pixeltracking/sdk-worker.js
 /pixelyoursite/dist/scripts/public.js
 /pixy.gif?
 /pj5303.oss-
@@ -5870,7 +5859,6 @@ $websocket,domain=5nj.com|cechi8.com
 /playertracking/*
 /plista.js
 /plog?id
-/plogger/*
 /plugin.php?id=popad_7ree&
 /plugins/adblock-notify-by-bweb/*
 /plugins/anti-block/*
@@ -5916,6 +5904,7 @@ $websocket,domain=5nj.com|cechi8.com
 /ppms.js
 /pqt.email/o/*$image
 /pr.php?
+/prebid.pro.js
 /preparecookies?callback=$domain=~mirapodo.de|~mytoys.de|~yomonda.de
 /prepixel?
 /presslabs.js$script,~third-party
@@ -6140,7 +6129,6 @@ $websocket,domain=5nj.com|cechi8.com
 /s/js/ssu.v2.js?v=*^$domain=bigtitslust.com|freeporn8.com|maturetubehere.com
 /s/js/ta-2.3.js?
 /s/s/js/m/om.js?v=
-/sTrackStats.
 /sTrackStats.js
 /s_code_global_context.js
 /s_trans.gif?
@@ -6162,7 +6150,7 @@ $websocket,domain=5nj.com|cechi8.com
 /script/ad.
 /script/ads.
 /script/pixel.js
-/scriptAnalytics.
+/scriptAnalytics.js
 /scriptonline.js?uin=
 /scripts.kissmetrics.com/*
 /scripts/ads.
@@ -6211,6 +6199,7 @@ $websocket,domain=5nj.com|cechi8.com
 /sentry-logger.js
 /sentry/bundle.min.js
 /seo.taCo.min.js
+/seo/pageStat/*
 /seostats.php
 /seotracking-v3.js
 /server.php?request=track&output=
@@ -6223,12 +6212,10 @@ $websocket,domain=5nj.com|cechi8.com
 /session/preparecookies?$domain=~mirapodo.de|~mytoys.de|~yomonda.de
 /session/referer
 /session/update-beacon
+/sessioncam.js
 /sessioncam.min.$script
 /sessioncam.recorder.js
-/sessioncam/*
 /set-cookie.gif?
-/setAdStatEV?
-/setTDUID.do?
 /set_cookie.php?
 /set_optimizely_cookie.js
 /set_tracking.js
@@ -6253,14 +6240,15 @@ $websocket,domain=5nj.com|cechi8.com
 /shinystat_
 /shopify-boomerang-
 /shopify-event.gif?
-/shopify/track$domain=~github.com
+/shopify/track.js
 /shopify_stats.js
 /shoutout.wix.com/*$image
 /show_ads.js
 /show_ads_
 /showadcode.
 /showcounter.
-/showcounter.$domain=~showcounter.com
+/showcounter.js
+/showcounter.php
 /showhits.php?
 /showpage2.asp?u=$script,third-party
 /shreddit/perfMetrics
@@ -6275,20 +6263,16 @@ $websocket,domain=5nj.com|cechi8.com
 /sinaLoginReward2014_comment.
 /sinaads/release/sinaads.js
 /site/mov*$third-party
-/siteAnalytics-
-/site_counter?
 /site_statistics.js
 /site_stats.js
 /site_stats/*
 /site_tracking.js
-/siteanalytics_
 /sitecatalist.js
 /sitecatalyst.js
 /sitecatalyst/tracking.
 /sitecrm.js
 /sitecrm2.js
 /sitestat.
-/sitestat_
 /sitestats.gif?
 /sitetrek.js
 /sizes.gif?*=
@@ -6306,7 +6290,7 @@ $websocket,domain=5nj.com|cechi8.com
 /slot_cmp.js
 /sluurpy_track.js
 /smart-pixel.min.js
-/smartTag.bundle.
+/smartTag.bundle.js
 /smartpixel-1.js
 /smartpixel.
 /smartpixel.$domain=~smartpixel.com|~smartpixel.tv
@@ -6325,10 +6309,9 @@ $websocket,domain=5nj.com|cechi8.com
 /smmch-own.js
 /snowman.gif?p=
 /snowplow.*.js$domain=~snowplow.io
-/snowplow.js$script,third-party
+/snowplow.js
 /snowplow/*$script
 /snowplow_$script
-/snowplowjs.
 /sobt_adv.js
 /social-traffic-pop/jquery.stp.js$script
 /socialTracking.js
@@ -6521,17 +6504,15 @@ $websocket,domain=5nj.com|cechi8.com
 /stream/log.html?
 /streamsense.min.js
 /strpixel.png?
-/stt/track.
-/stt/track/*
+/stt/track.js
 /stuiA004/statics/asd/*
 /stui_ads/xyz456e/*
-/stwc-counter/*
+/stwc-counter/code.js
 /stwc/code.js
 /submission/pageview
 /sungg/*$domain=sun0769.com
 /supercookie.asp
 /supercookie.js
-/superstats.$domain=~superstats.com|~superstats.dk
 /svr/*.aspx?placeid=$third-party
 /svr/popwin.aspx?$third-party
 /sw/analytics.js
@@ -6558,9 +6539,7 @@ $websocket,domain=5nj.com|cechi8.com
 /t/event?
 /t?referer=
 /t?tcid=
-/tacoda.
-/tacoda_
-/taevents-
+/taevents-c.js
 /tag/tag.jsp?
 /tag?tags=
 /tagAnalyticscnil.php
@@ -6572,14 +6551,16 @@ $websocket,domain=5nj.com|cechi8.com
 /tags.js?org_id=
 /tailtarget.js
 /taiyangchengjituantupian.
-/talpa-analytics-
+/talpa-analytics-pro/*
 /tan.js
 /tan1.js
 /tanad.js
 /tanchuan.htm$popup,third-party
+/tatari-shopify/tracker-snippet-latest.min.js
 /tb/_/video_frs_head_
 /tb/img/hg/hg.gif?
-/tc_analytics.
+/tc_analytics.js
+/tc_analytics.min.js
 /tc_imp.gif?
 /tccl.min.js
 /tck/gif/*
@@ -6590,11 +6571,10 @@ $websocket,domain=5nj.com|cechi8.com
 /tealeaf.min.js
 /tealeafTarget2.html
 /tealeaftarget?
-/tealium-analytics.
 /tealium-external/utag.js
-/tealium-utag-
-/tealiumAnalytics.
-/tealiumTagsData.
+/tealium-utag-set.js
+/tealiumAnalytics.js
+/tealiumTagsData.js
 /template/*/adm/*
 /template/*/ads/*
 /template/*/lele36.html
@@ -6638,23 +6618,20 @@ $websocket,domain=5nj.com|cechi8.com
 /tigtag_custom/*_banner
 /tigtag_custom/include/couplet.
 /tigtag_custom/include/popup.
-/tilda-stat-
+/tilda-stat-1.0.min.js
 /timer.aspx?481$script,~third-party
 /timer.aspx?568$script,~third-party
 /timer.aspx?649$script,~third-party
 /timer.aspx?719$script,~third-party
-/timingcg.
+/timingcg.min.js
 /tisai/img/nav_980_90.gif
-/tjp_beacon.
-/tjx-tracking-
+/tjp_beacon.js
+/tjx-tracking-data.js
 /tking/ajax_track_stats?
 /tm00738.bj.
-/tms/metrics.
 /tnc.js?h=
 /tncms/tracking.js
 /tns-counter.js
-/tnsCounter.
-/tnsmetrix/*
 /to8to_pc/chunks/slide_and_popup_
 /token?referer=
 /tongji.js
@@ -6663,8 +6640,7 @@ $websocket,domain=5nj.com|cechi8.com
 /topad_
 /topads.
 /toplytics.js
-/touch-clarity.
-/touchclarity/*
+/touchclarity/logging.js
 /tourl.html?url=
 /tps/noexpire/*
 /tr.gif?
@@ -6678,13 +6654,11 @@ $websocket,domain=5nj.com|cechi8.com
 /track-event.
 /track-focus.min.js
 /track-imp?
-/track-internal-links.
+/track-internal-links.js
 /track-internal-links.js$domain=balkangunlugu.com.tr
 /track-opening/*
-/track-page-view.
 /track-pixel.
-/track-the-click/*
-/track-visit-event?
+/track-the-click-public.js
 /track-visit?
 /track.ads/*
 /track.ashx?*=http
@@ -6712,7 +6686,7 @@ $websocket,domain=5nj.com|cechi8.com
 /track/open.php?u=$image
 /track/open?
 /track/pageview?
-/track/pixel.
+/track/pixel.php
 /track/pixel/*
 /track/site/*
 /track/statistic/*
@@ -6845,7 +6819,6 @@ $websocket,domain=5nj.com|cechi8.com
 /trackjs.$domain=~trackjs.com
 /trackjs.js
 /tracklib.min.js
-/tracklog.
 /trackmerchant.js
 /trackmvisit?
 /trackopen.cgi?
@@ -6908,7 +6881,8 @@ $websocket,domain=5nj.com|cechi8.com
 /uem-ep.js
 /uisprime/track
 /umami.js
-/umg-analytics/*
+/umg-analytics.min.js
+/umg-analytics/umgaal.min.js
 /umt.gif?
 /unagi.amazon.
 /unbxdAnalytics.js
@@ -6988,7 +6962,9 @@ $websocket,domain=5nj.com|cechi8.com
 /videoad.
 /videoanalytic/*
 /videojs-analytics.js
-/videojs.ga.
+/videojs.ga.js
+/videojs.ga.min.js
+/videojs.ga.videocloud.js
 /videojs5/*vpaid.min.js$domain=91porn.com|email.91dizhi.at.gmail.com.8h9.space
 /videotracking.js
 /vidtrack.js
@@ -7049,7 +7025,7 @@ $websocket,domain=5nj.com|cechi8.com
 /vtrack.aspx
 /vtrack.php?
 /vtrack?vid=
-/vwFiles/analytics/*
+/vwFiles/analytics/$file/analytics.js
 /w.gif?
 /w_e_b/de_li_ve_ry/a_j_s.php?zid=$domain=cnlmjx.com
 /w_js.php|$script,~third-party
@@ -7087,7 +7063,7 @@ $websocket,domain=5nj.com|cechi8.com
 /weblog.js?
 /weblog.php?
 /webmnr.min.js
-/webmonitor/collect/*
+/webmonitor/collect/badjs.json
 /webmr.js
 /websales_push_*_big.php?id=
 /webservices/remoteModulesTracker.php
@@ -7176,10 +7152,10 @@ $websocket,domain=5nj.com|cechi8.com
 /wp-stats-manager/js/wsm_new.js
 /wp-useronline/useronline.js
 /wp_stat.php?
-/wpengine-analytics/*
-/wps-visitor-counter/*
+/wpengine-analytics/js/main.js
+/wps-visitor-counter/styles/js/custom.js
 /wpsite-background-takeover*/js/wpsite_clickable.js$script,domain=agronews.ua|aegeanews.gr|batterypoweronline.com|brezovycukr.cz|centrocommercialevulcano.com|cieonline.co.uk|commsbusiness.co.uk|dailygrindonline.net|davincidiamondsslot.net|delo.bg|dynastyseries.com|fabmx1.com|fat-bike.com|fmj.co.uk|localemagazine.com|loveourweddingmag.com|metaforespress.gr|myvalley.it|niestatystyczny.pl|primapaginamarsala.it|ringelnatz.net|schoolsweek.co.uk|sikkenscolore.it|sportbet.gr|stadtstudenten.de|stagemilk.com|tautasdziesmas.lv|thetoneking.com|toplickevesti.com|zeroradio.co.uk
-/wpstatistics/*
+/wpstatistics/v1/hit?
 /wreport.js
 /writelog.js
 /ws_client?zone=gen$websocket
@@ -7219,6 +7195,7 @@ $websocket,domain=5nj.com|cechi8.com
 /xiti.js
 /xiwang/dfumeiti.js
 /xiwang/fumeiti.js
+/xml/pv.xml?
 /xn_track.min.js
 /xstat.aspx?
 /xstat/?id=$script,~third-party
@@ -8193,6 +8170,8 @@ $websocket,domain=5nj.com|cechi8.com
 4gamers.com.tw##.vue-portal-target > div[style="min-height: 210px;"]
 4gamers.com.tw##img[alt="ads"]
 4gamers.com.tw##video[src^="https://img.4gamers.com.tw/ads-media/"]
+4gamers.com.tw#?#.aroma-news-detail-side > div[media-width]:has(div.aols-wrapper > a[target="_blank"][rel="noopener"])
+4gamers.com.tw#?#.container-fluid  > .vue-portal-target:has(> div[style] > .aroma-news-detail-iframe-ads)
 4gtv.tv,80s.ai,ft.com,ftchinese.com,ftchinese.com.sz-dns.net,kartinfo.me,long7.qq.com,reh.tw,typecho.wiki#@#.adsbox
 4kporn.xxx,cambro.tv,mangovideo.club###kt_player > a[href][target="_blank"]
 4kporn.xxx,cambro.tv,mangovideo.club#$#abort-current-inline-script crakPopInParams; abort-on-property-read onload
@@ -8865,7 +8844,6 @@ _300x250.
 _468.gif
 _728_90.
 _728_90_
-_Clicktale.
 _WebVitalsReporter_
 _ad.php?
 _ad01.
@@ -8895,14 +8873,10 @@ _dasiqq315.
 _event_tracking?
 _fioiwhfo_
 _float_fuo.js
-_gpt_bootstrap_
-_hits_stat.
 _imp?Log=
 _logHuman=
 _naimabdd_
 _nedstat.js
-_newrelic_min.
-_nielsen.js
 _pagespeed_beacon?
 _popAds.
 _rony.js$script,third-party
@@ -30383,6 +30357,7 @@ etr.fr##.no_block
 etrk.elektron.se$image
 etsy.com##a[href*="listing_page_ad_row"]
 etsy.com#$#hide-if-matches-xpath './/h2[@class="wt-text-title-largest"][contains(text(),"By Etsy sellers")]/preceding::p[contains(text(),"Sponsored")]/ancestor-or-self::div[@data-appears-component-name="web_home_strv_ads"]'
+etsy.com#$#hide-if-matches-xpath './/h3[contains(@id,"ad-listing")]/ancestor::li'
 etsy.com#$#hide-if-matches-xpath '//span[@data-is-ad][@data-ad-label][contains(text(),"Ad by")]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
 etsy.com#$#race start; hide-if-contains-visible-text '/[aA](\\s)*d(\\s)*by/' li 'li[class] div > :is(div, p)' 'width: /^[0-9]px/'; hide-if-contains-visible-text '/[aA](\\s)*d(\\s)*b(\\s)*y/' li 'li[class] div > :is(div, p)' 'width: /^[0-9]px/'; race stop;
 ettoday.net###adsense-matched-content
@@ -34938,6 +34913,8 @@ m.lianjia.com##.fadeDown.download_topfixed.mod_download
 m.lianjia.com##.mod_app.mod_sub_tit.mod_tit
 m.lianjia.com##div.mod_download:nth-of-type(1) 
 m.loxi.io$image
+m.lwxs.com#%#//scriptlet('abort-current-inline-script', 'document.write', '_0x')
+m.lwxs.com#%#//scriptlet('abort-current-inline-script', 'eval', '_0x')
 m.mgtv.com##.mg-dcross
 m.mi.com##.download-app-go
 m.mydrivers.com###content > .ab
@@ -43951,6 +43928,7 @@ zzzyk.com###Tinfo
 ||88btbtt.com^
 ||88dgl.top^
 ||88dgn.top^
+||88dgx.top^
 ||88dml.top^
 ||88eg.cn^
 ||88la.la/ack?s=
@@ -50619,6 +50597,7 @@ zzzyk.com###Tinfo
 ||ajax.googleapis.com/ajax/libs/jquery/$domain=darkcomet-rat.com
 ||ajax.pngtree.com/api/statistics/
 ||ajbeqy.delfi.lt^
+||ajbpcxi.xyz^
 ||ajcnz1.com^
 ||ajcode.co^
 ||ajento.hb-fa-dev.tt.omtrdc.net^
@@ -51466,6 +51445,7 @@ zzzyk.com###Tinfo
 ||ambassador.notsofunnyany.com^
 ||ambercrow.com^$third-party
 ||ambiances-atypiques-decoration.tt.omtrdc.net^
+||ambiguousafternoon.com^
 ||ambiguousalarm.com^
 ||ambiguousanger.com^
 ||ambiguousdinosaurs.com^
@@ -51513,6 +51493,7 @@ zzzyk.com###Tinfo
 ||amersports.tt.omtrdc.net^
 ||amerzbj.cn^
 ||amethyst.zappos.com^
+||amethystzenith.com^
 ||ametrics.finn.no^
 ||ametrics.hb.tt.omtrdc.net^
 ||ametrics.lumen.com^
@@ -52794,7 +52775,6 @@ zzzyk.com###Tinfo
 ||apartmenttherapy.com/*/xhr/b/s
 ||apartmenttherapy.com/jAYekY18/init.js
 ||aparvibices.com^
-||apathetictheory.com^
 ||apbspeakers.actonservice.com^
 ||apc.-np.tt.omtrdc.net^
 ||apcerpharma.actonservice.com^
@@ -54555,6 +54535,7 @@ zzzyk.com###Tinfo
 ||asteriresearch.com^$third-party
 ||asterpix.com/tagcloudview/
 ||astg.widerplanet.com^
+||astonishingair.com^
 ||astonishingfood.com^
 ||astra-beta.corp.tt.omtrdc.net^
 ||astraeus-star.site^
@@ -54756,7 +54737,6 @@ zzzyk.com###Tinfo
 ||attr-2p.com^$third-party
 ||attr.appsflyer.com^
 ||attracta.com^$third-party
-||attractionapples.com^
 ||attractionbanana.com^
 ||attractionbanana.com^$third-party
 ||attractiveafternoon.com^
@@ -55114,7 +55094,6 @@ zzzyk.com###Tinfo
 ||automate-prod.s3.amazonaws.com^$~script
 ||automate.gixxy.com^
 ||automate.opex.com^
-||automaticairplane.com^
 ||automaticairplane.com^$third-party
 ||automaticflock.com^
 ||automaticside.com^
@@ -55334,7 +55313,6 @@ zzzyk.com###Tinfo
 ||awesome.section.io^
 ||awesomeagreement.com^
 ||awesomeagreement.com^$third-party
-||awesomeattack.com^
 ||awesomelytics.com^$third-party
 ||awfonts.com^$script,third-party
 ||awfzfs.kwantum.nl^
@@ -56878,6 +56856,7 @@ zzzyk.com###Tinfo
 ||bhwjoa.cotopaxi.com^
 ||bhxemw.charleskeith.com^
 ||bi-eventtracker-*.amazonaws.com^
+||bi-tracker-cn.rivergame.net^$redirect=nooptext
 ||bi.banggood.com^
 ||bi.concordesolutions.com^
 ||bi.irisdating.com^
@@ -57147,7 +57126,6 @@ zzzyk.com###Tinfo
 ||biz.gexing.com^
 ||biz.weibo.com^
 ||biz1.kddi.com^
-||bizarrebaseball.com^
 ||bizcover.tt.omtrdc.net^
 ||bizerba-dot-azure-projectfiles.uk.r.appspot.com^
 ||bizhankook.com/log/
@@ -57733,6 +57711,7 @@ zzzyk.com###Tinfo
 ||bouncyfront.com^
 ||bouncyproperty.com^
 ||bouncyproperty.com^$third-party
+||boundarybusiness.com^
 ||boundlessargument.com^
 ||boundlessbrake.com^
 ||boundlessveil.com^
@@ -58302,6 +58281,7 @@ zzzyk.com###Tinfo
 ||bureaubiz.tns-gallup.dk^
 ||burger.trekkww.space^
 ||burgerbrush.com^
+||burlywhistle.com^
 ||burmesterone.jp^
 ||burnbubble.com^
 ||burnswhite.actonservice.com^
@@ -59712,6 +59692,7 @@ zzzyk.com###Tinfo
 ||change.org^$removeparam=psf_variant
 ||change.org^$removeparam=share_intent
 ||change.org^$removeparam=source_location
+||changeablecats.com^
 ||changehealthcare.tt.omtrdc.net^
 ||changiairport.tt.omtrdc.net^
 ||changsha.cn/front_js/site_ad/4/site_ad_284.js
@@ -61327,6 +61308,7 @@ zzzyk.com###Tinfo
 ||colossalclouds.com^
 ||colossalcoat.com^
 ||colossalcoat.com^$third-party
+||colossalcry.com^
 ||colossusssp.com^
 ||colossusssp.com^$third-party
 ||colruytbusinessservi.tt.omtrdc.net^
@@ -61556,7 +61538,6 @@ zzzyk.com###Tinfo
 ||concernedchickens.com^
 ||concernedchickens.com^$third-party
 ||concernedcondition.com^
-||concerneddrink.com^
 ||concert.io/lookup/
 ||concurtechnologies.tt.omtrdc.net^
 ||concurtechnologiesnewmedia.hb.tt.omtrdc.net^
@@ -61987,7 +61968,6 @@ zzzyk.com###Tinfo
 ||coocha.co.kr/assets/js/tracking.js
 ||coocha.co.kr/log/
 ||coocha.co.kr/static/js/common/tracker.js
-||cookchalk.com^
 ||cookie-guard-erdee.ey.r.appspot.com^
 ||cookie.amerigas.com^
 ||cookie.codemarketing.cloud^
@@ -62099,6 +62079,7 @@ zzzyk.com###Tinfo
 ||coralnov.jp^
 ||coralogix.com^$third-party
 ||coralproject.net/assets/js/count.js
+||coralreverie.com^
 ||corcztpc.xyz^
 ||cordcopper.com^
 ||cordobapedia.tt.omtrdc.net^
@@ -63643,6 +63624,7 @@ zzzyk.com###Tinfo
 ||dashingdrop.com^
 ||dashingsweater.com^
 ||dasjdsdsd.ooowpqoooowee222.fun^
+||dasoertliche.de/js/liwAnalytics.js
 ||daspic.top^
 ||dasv10rewq.xyz^
 ||dasych.drmartypets.com^
@@ -66600,7 +66582,6 @@ zzzyk.com###Tinfo
 ||deadpangate.com^
 ||deadpanmarble.com^
 ||deadpanmarble.com^$third-party
-||deadpantruck.com^
 ||deafeningdock.com^
 ||deafeningdowntown.com^
 ||deagostinipassion.it/collezioni/analytics.js
@@ -66727,7 +66708,6 @@ zzzyk.com###Tinfo
 ||default164-04.tt.omtrdc.net^
 ||default65-19.tt.omtrdc.net^
 ||defectivedress.com^
-||defectivesun.com^
 ||defendeerrpro.jp^
 ||defense-us3.gravityzone.tt.omtrdc.net^
 ||defiantrice.com^
@@ -67704,7 +67684,6 @@ zzzyk.com###Tinfo
 ||distiller.kano.link^
 ||distillery.wistia.com^
 ||distiltag.com^$third-party
-||distinctday.com^
 ||distralytics.com^$third-party
 ||distribeo.com^$third-party
 ||distribuidoraliverpo.tt.omtrdc.net^
@@ -70058,6 +70037,7 @@ zzzyk.com###Tinfo
 ||emetriq.de^$third-party
 ||emihosting.com^*/tracking/
 ||emilyz.top^
+||eminentbubble.com^
 ||eminentend.com^
 ||emisgroupplc.actonservice.com^
 ||emjcd.com^$third-party
@@ -70107,11 +70087,13 @@ zzzyk.com###Tinfo
 ||enchantedskyline.com^
 ||enchantedtop.com^
 ||enchantingbear.com^
+||enchantingvalley.com^
 ||encimapartnersandbox.tt.omtrdc.net^
 ||encompassreport.elliemae.com^
 ||encourageidea.com^
 ||encourageshock.com^
 ||encouragingleaf.com^
+||encouragingthread.com^
 ||encouragingvase.com^
 ||encouragingwilderness.com^
 ||encuestas.billeteramango.com^
@@ -70281,6 +70263,7 @@ zzzyk.com###Tinfo
 ||engine.traceparts.com^
 ||engine212.com^$third-party
 ||engine64.com^$third-party
+||engineergrape.com^
 ||engineering-dbmsminerva-pr.tt.omtrdc.net^
 ||engineering.com/scripts/$script,domain=eng-tips.com
 ||engineering.tt.omtrdc.net^
@@ -70812,7 +70795,6 @@ zzzyk.com###Tinfo
 ||ev4ev.biz^
 ||evadav.indonesiya.com^
 ||evaluateend.com^
-||evaluatestream.com^
 ||evanescence.trekkeeee.fun^
 ||evanescentedge.com^
 ||evb0gxo.icu^
@@ -70877,6 +70859,7 @@ zzzyk.com###Tinfo
 ||eventbus.intuit.com^
 ||eventcollectorv2-1131000179.us-east-1.elb.amazonaws.com^
 ||eventcom.api.np.km.playstation.net/event^
+||eventdrops.com^
 ||eventexistence.com^
 ||eventful.com/apps/generic/$image,third-party
 ||eventgateway.soundcloud.com^
@@ -71781,6 +71764,7 @@ zzzyk.com###Tinfo
 ||fearlessfaucet.com^
 ||fearlessfaucet.com^$third-party
 ||fearlessfont.info^
+||featherstage.com^
 ||feathr.co^$third-party
 ||featured.bradyid.com^
 ||featurereceipt-webappdata.tt.omtrdc.net^
@@ -71880,6 +71864,7 @@ zzzyk.com###Tinfo
 ||feuqzl.woolrich.com^
 ||feve-r.com^
 ||fewjuice.com^
+||fewkittens.com^
 ||ff-dai.net^
 ||ff.guidaye.com^
 ||ff.meikanguo.com^
@@ -71927,6 +71912,7 @@ zzzyk.com###Tinfo
 ||fhcddd.tjc.co.uk^
 ||fhcmeiju.com/template/DYXS2/html/1.
 ||fhddnh.xyz^
+||fhdjdv.xyz^
 ||fhdnds.mrmarvis.com^
 ||fherunm.cn^
 ||fhfgg.com^
@@ -72358,6 +72344,7 @@ zzzyk.com###Tinfo
 ||follow.outrunthedark.com^
 ||follow.socialhub.center^
 ||follow.thechelsealaboratory.com^
+||followborder.com^
 ||followercounter.com^$third-party
 ||followingj2f8n.jp^
 ||followistic.com/widget/stat/
@@ -72399,6 +72386,7 @@ zzzyk.com###Tinfo
 ||for-tg.com^
 ||for.life-thrones.com^
 ||for20-coco.com^
+||forbes.com^$cookie=client_id
 ||forbes.com^$cookie=fadvuke2etid
 ||forbes.realclearpolitics.com^
 ||forbin.actonservice.com^
@@ -72815,6 +72803,7 @@ zzzyk.com###Tinfo
 ||fremont-20-31.tt.omtrdc.net^
 ||fremont-6-10.tt.omtrdc.net^
 ||frenchgerleman.actonservice.com^
+||frequentflesh.com^
 ||freseniuskabi.tt.omtrdc.net^
 ||freseniusmedicalcare.tt.omtrdc.net^
 ||fresh.inlinkz.com^$third-party
@@ -73135,6 +73124,7 @@ zzzyk.com###Tinfo
 ||fx168.com/am.js
 ||fx640b4a8v2n.net^
 ||fx678.com/htcount/count.js
+||fxbcc.cyou^
 ||fxbcpr.xyz^
 ||fxeaobv.icu^
 ||fxipca.americanexpress.ca^
@@ -73595,6 +73585,7 @@ zzzyk.com###Tinfo
 ||generalprose.com^
 ||generalprose.com^$third-party
 ||generaltracking.de^$third-party
+||generateoffice.com^
 ||generic-function-log-data-7il2midpaa-nn.a.run.app^$domain=telus.com
 ||genesis.malwarebytes.com^
 ||genesiscare.tt.omtrdc.net^
@@ -74009,6 +74000,7 @@ zzzyk.com###Tinfo
 ||gi-client-tracking.goodgamestudios.com^
 ||gi7a.structube.com^
 ||gia.jd.com^
+||giantsvessel.com^
 ||giaoji.com/Runtime/Js/
 ||gias.jd.com/js/td.js
 ||giddycoat.com^
@@ -75932,6 +75924,7 @@ zzzyk.com###Tinfo
 ||h4b0srs.cn^
 ||h5.dzgsdswh5.xyz^
 ||h5.eagllwin.com^$third-party
+||h5.g123.jp/api/*/events/game_event/check/vividarmy
 ||h559.stamfordadvocate.com^
 ||h5log.zongheng.com^
 ||h5t4rsw-htrs.jp^
@@ -77172,7 +77165,6 @@ zzzyk.com###Tinfo
 ||hotels.com/cl/data/omgpixel.json?
 ||hotels.com/taps/v*/Impr?
 ||hotels.com/taps/v*/PageView?
-||hothydrant.com^
 ||hotjar.com^$domain=quoka.de
 ||hotjar.com^$third-party
 ||hotjar.io^$third-party
@@ -82497,6 +82489,7 @@ zzzyk.com###Tinfo
 ||kkuriren.se^$cookie=adksid
 ||kkuriren.se^$cookie=adkvid
 ||kkyc80m2dvblkx1tr.gannett.hb.tt.omtrdc.net^
+||kkyjfdj.xyz^
 ||kkylx.xyz^
 ||kkzpde.aboutyou.lt^
 ||kl.klasselotteriet.dk^
@@ -86120,7 +86113,6 @@ zzzyk.com###Tinfo
 ||magic.freetrade.io^
 ||magic.trekkeeee.fun^
 ||magicaljoin.com^
-||magicalmonth.com^
 ||magicpixel.io^$third-party
 ||magictrack1.com^
 ||magiq.com^$third-party
@@ -88665,7 +88657,6 @@ zzzyk.com###Tinfo
 ||medtargetsystem.com^$third-party
 ||medtrainer.actonservice.com^
 ||medtronicinc.tt.omtrdc.net^
-||medusasailor.com^
 ||meduza.io/stat/
 ||medwatch.tns-gallup.dk^
 ||medxm1.actonservice.com^
@@ -93338,6 +93329,7 @@ zzzyk.com###Tinfo
 ||nullnorth.com^
 ||nulltm.com/adv.js
 ||nuloox.com^$third-party
+||numberlessring.com^
 ||numbers.monthlyphotos.com^
 ||numbers.triplejack.com^
 ||numerino.cz^$third-party
@@ -94354,7 +94346,6 @@ zzzyk.com###Tinfo
 ||opportunityfund.actonservice.com^
 ||opposite8cgp14y6.jp^
 ||oppositeoperation.com^
-||oppositeparcel.com^
 ||oppositeparcel.com^$third-party
 ||opps.taboola.com^
 ||oppuz.com^
@@ -94685,7 +94676,6 @@ zzzyk.com###Tinfo
 ||outreach.veritivcorp.com^
 ||outrigger-a.outrigger.com^
 ||outsource.sitel.com^
-||outstandingincome.com^
 ||outstandingsnails.com^
 ||outstandingsnails.com^$third-party
 ||ouvjnb.westernbikeworks.com^
@@ -95108,6 +95098,7 @@ zzzyk.com###Tinfo
 ||pahtag.tech^$third-party
 ||pahtgq.tech^$third-party
 ||pailcrime.com^
+||pailpatch.com^
 ||painstakingpickle.com^
 ||paintersusainc.actonservice.com^
 ||paintnet.es^
@@ -96152,6 +96143,7 @@ zzzyk.com###Tinfo
 ||perfiliate.com^$third-party
 ||perfops.io^$third-party
 ||perfops.net/rom3/
+||performance-logger.minted.com^
 ||performance.radar.cloudflare.com/beacon.js
 ||performanceanalyser.net^$third-party
 ||performancefirst.jp^$third-party
@@ -96251,6 +96243,7 @@ zzzyk.com###Tinfo
 ||pgght17.com^
 ||pggm.tt.omtrdc.net^
 ||pghub.io^$third-party
+||pgieqr.top^
 ||pgim.cmb.tt.omtrdc.net^
 ||pgjcbz.xyz^
 ||pgkxhq.jamesallen.com^
@@ -96664,6 +96657,8 @@ zzzyk.com###Tinfo
 ||pixels.boxberry.ru^
 ||pixels.ingbank.com.tr^
 ||pixels.livingsocial.com^
+||pixeltracker.co^$third-party
+||pixeltracker.im^$third-party
 ||pixelzirkus.gameforge.com^
 ||pixfs.net/js/mib.min.js
 ||pixfs.net/js/mib_falcon
@@ -97202,6 +97197,7 @@ zzzyk.com###Tinfo
 ||popin.cc/PopinService/Logs/
 ||popin.cc/conversion2.js
 ||popin.cc/iframe/piuid.html
+||popin.cc/js/pixel.js
 ||popin.cc/retarget/
 ||popin.cc/test/popin_img_m.js
 ||popin.cc/test/popin_send_cookie_set_fail.js
@@ -97498,7 +97494,6 @@ zzzyk.com###Tinfo
 ||presage.io^$third-party
 ||prescouter.com/pd.js
 ||presentationtracking.netflix.com^
-||presentbedroom.com^
 ||presetrabbits.com^
 ||press.thebikecart.com^
 ||pressanddresses.com^
@@ -98085,6 +98080,7 @@ zzzyk.com###Tinfo
 ||puma.strategyascode.com^
 ||pumlmb.netcologne.de^
 ||pumpedpancake.com^
+||pumpedpurpose.com^
 ||pumpkin.abine.com^
 ||punyplant.com^
 ||pupok.link^
@@ -98108,6 +98104,7 @@ zzzyk.com###Tinfo
 ||purpose.maxizoo.fr^
 ||purpose.maxizoo.ie^
 ||purpose.maxizoo.pl^
+||purposepipe.com^
 ||purr.nytimes.com/*/purr-cache
 ||pursuantgroupinc.tt.omtrdc.net^
 ||push-ad.com^$third-party
@@ -98241,6 +98238,7 @@ zzzyk.com###Tinfo
 ||pxkwnp.mortoglou.gr^
 ||pxl-*.ozone.ru^
 ||pxl.indeed.com^
+||pxl.retaku.net^
 ||pxlctl.elpais.com^
 ||pxlgnpgecom-a.akamaihd.net^
 ||pxmzlk.redfin.com^
@@ -99216,6 +99214,7 @@ zzzyk.com###Tinfo
 ||rasin.tech/heatmap-
 ||rasin.tech/scroll-logs/
 ||raspnd.quadratec.com^
+||raspyteam.com^
 ||rat.gimlet.io^
 ||rat.rakuten.co.jp^
 ||rate-limited-proxy-66-249-89-0.tt.omtrdc.net^
@@ -99368,7 +99367,6 @@ zzzyk.com###Tinfo
 ||readertracking.com^$third-party
 ||readgoldfish.com^
 ||readingguilt.com^
-||readingopera.com^
 ||readingpartners.actonservice.com^
 ||readme.red^
 ||readnotify.com^$third-party
@@ -99413,6 +99411,7 @@ zzzyk.com###Tinfo
 ||realsrv.com^$cookie
 ||realtime-bid.com^
 ||realtimely.io^
+||realtimewebstats.com^$third-party
 ||realtimewebstats.net^$third-party
 ||realtor.com/rdc_user_check/init.js
 ||realtor.com^$removeparam=MID
@@ -100179,6 +100178,7 @@ zzzyk.com###Tinfo
 ||rhahvac.actonservice.com^
 ||rhea-cache.advividnetwork.com/tracker/
 ||rhesed.site^
+||rhetoricalactivity.com^
 ||rhetoricalloss.com^
 ||rhetoricalloss.com^$third-party
 ||rhetoricaltoes.com^
@@ -101455,6 +101455,7 @@ zzzyk.com###Tinfo
 ||safety.west.com^
 ||safevisit.org/api/v*/c?$redirect=nooptext
 ||safewayinc.tt.omtrdc.net^
+||saffronrefuge.com^
 ||safgtechnologies.tt.omtrdc.net^
 ||sagagrouplimitedsaga.tt.omtrdc.net^
 ||sageanalyst.net^$third-party
@@ -102039,12 +102040,12 @@ zzzyk.com###Tinfo
 ||scanoptics.actonservice.com^
 ||scanverify.com^$third-party
 ||scarabresearch.com^$third-party
+||scarcecard.com^
 ||scarcesign.com^
 ||scarcesurprise.com^
 ||scarecrowslip.com^
 ||scarecrowslope.com^
 ||scaredcomfort.com^
-||scaredfarm.com^
 ||scaredsidewalk.com^
 ||scaredsnake.com^
 ||scaredsnake.com^$third-party
@@ -103965,7 +103966,6 @@ zzzyk.com###Tinfo
 ||sinawap.com^
 ||sincerebuffalo.com^
 ||sinceregarden.sincere-garden.jp^
-||sincereseashore.com^
 ||sincereseashore.com^$third-party
 ||sinceresubstance.com^
 ||sinceresubstance.com^$third-party
@@ -107349,6 +107349,7 @@ zzzyk.com###Tinfo
 ||smithoptics.tt.omtrdc.net^
 ||smjydg.cartersoshkosh.ca^
 ||smkt.edm.globalsources.com^
+||smlog.co.kr^$third-party
 ||smlpcz.icu^
 ||smmax.jp^
 ||smmmqq.com^
@@ -107423,7 +107424,6 @@ zzzyk.com###Tinfo
 ||snagajob.tt.omtrdc.net^
 ||snailok.com/template/stui_tpl/sdfsdfzxxsa/dxf.js
 ||snailok.com/template/stui_tpl/sdfsdfzxxsa/heade.js
-||snailscart.com^
 ||snailsengine.com^
 ||snake.kiramclean.com^
 ||snakemineral.com^
@@ -107463,6 +107463,7 @@ zzzyk.com###Tinfo
 ||sncop.uioozpxq.com^$all
 ||snd.freshstartnews.com^
 ||snd.tc^$third-party
+||sneakwind.com^
 ||sneakystew.com^
 ||snellings.tt.omtrdc.net^
 ||sngmta.qq.com^
@@ -107487,6 +107488,7 @@ zzzyk.com###Tinfo
 ||snowplow-collector.apartmentlist.io^
 ||snowplow-pixel.tradingview.com^
 ||snowplow.swm.digital^
+||snowplowjs.darwin.cx^
 ||snowsignal.com^$third-party
 ||snowy.bellroy.com^
 ||snprxx.wwfmarket.com^
@@ -107964,6 +107966,7 @@ zzzyk.com###Tinfo
 ||sooqr.com^$third-party
 ||soorbka.cn^$third-party
 ||sootheside.com^
+||soothingglade.com^
 ||sop-dvl-compensation-func.tt.omtrdc.net^
 ||soperson.com^$third-party
 ||sophi.io^$third-party
@@ -108321,7 +108324,6 @@ zzzyk.com###Tinfo
 ||spieletipps.de/js/jwplayer/plugins/tracking-min.js
 ||spiffymachine.com^
 ||spigte.shopee.tw^
-||spikyslave.com^
 ||spilov.net^
 ||spinmedia.com/clarity.min.js
 ||spinnaker-js.com^
@@ -108337,7 +108339,6 @@ zzzyk.com###Tinfo
 ||spirituallounge-3000.com^
 ||spisbedre.tns-gallup.dk^
 ||spisekrogen.tt.omtrdc.net^
-||spitefulstop.com^
 ||spixel.socy.es^
 ||spjfgd.thisisaday.com^
 ||spjysa.only.com^
@@ -108455,6 +108456,7 @@ zzzyk.com###Tinfo
 ||spt.performgroup.com^
 ||sptag.com^$third-party
 ||sptag1.com^$third-party
+||spuriousair.com^
 ||spuriousbase.com^
 ||spurioussquirrel.com^
 ||spurioussteam.com^
@@ -108481,6 +108483,7 @@ zzzyk.com###Tinfo
 ||sqs.quoka.de/logsearch.php
 ||sqs.quoka.de^
 ||sqtivj.vidaxl.hr^
+||squalidscrew.com^
 ||square-enix.com/common/templates/js/analytics/
 ||square-enix.com/common/templates/js/gtag/
 ||squarespace.com/api/1/performance/
@@ -111163,6 +111166,7 @@ zzzyk.com###Tinfo
 ||steuertipps.de/scripts/tracking/
 ||stevemadden.tt.omtrdc.net^
 ||stevescarts.tt.omtrdc.net^
+||stewedge.com^
 ||stg-bnc-papago.naver.com^
 ||stg-data-collector.playbuzz.com^
 ||stg-scla-02.sys.sys.tt.omtrdc.net^
@@ -111240,6 +111244,7 @@ zzzyk.com###Tinfo
 ||storage.googleapis.com/afs-prod/tags
 ||storage.googleapis.com/nchq-dj-nid/prod/sp_v1.js
 ||storage.googleapis.com/rasin/*/hm.js
+||storage.googleapis.com/snowplow-cto-office-tracker-bucket/
 ||storage.googleapis.com/tm-frend-graffiti/
 ||storage.syncmedia.io/libs/sm_capture_
 ||storagetechnology.arrow.com^
@@ -113859,6 +113864,7 @@ zzzyk.com###Tinfo
 ||test6-1.app.tt.omtrdc.net^
 ||testa-test.tt.omtrdc.net^
 ||testa8wifi.dokoyorimo.com^
+||testadmiral.com^
 ||testandtarget.tt.omtrdc.net^
 ||testbnc.mksp.io^
 ||testboe-devb.glb.tt.omtrdc.net^
@@ -113879,7 +113885,6 @@ zzzyk.com###Tinfo
 ||testlink.victoriatheapp.com^
 ||testlinks.sliceit.com^
 ||testsocial.eduthrill.com^
-||teststocking.com^
 ||testweb.hb-api.tt.omtrdc.net^
 ||teszoom.com^
 ||tetiao9.com^
@@ -114783,7 +114788,6 @@ zzzyk.com###Tinfo
 ||toad-geo-va.tt.omtrdc.net^
 ||toad-lon.tt.omtrdc.net^
 ||toad-sj.tt.omtrdc.net^
-||toadtexture.com^
 ||toadtexture.com^$third-party
 ||toast-nde.tt.omtrdc.net^
 ||toast.com/log
@@ -118507,6 +118511,8 @@ zzzyk.com###Tinfo
 ||trakksocial.googlecode.com^$third-party
 ||traktor.ru^*/counter.php?
 ||trakzor.com^$third-party
+||tranquilamulet.com^
+||tranquilcanyon.com^
 ||tranquilside.com^
 ||trans-logistics.tt.omtrdc.net^
 ||trans-token.1.dataocean.tt.omtrdc.net^
@@ -120302,7 +120308,6 @@ zzzyk.com###Tinfo
 ||unassigned-414.tt.omtrdc.net^
 ||unassigned-547.tt.omtrdc.net^
 ||unative.com^$third-party
-||unbecomingbikes.com^
 ||unbecominghall.com^
 ||unbecominglamp.com^
 ||unblog.fr/cu.js
@@ -121671,7 +121676,6 @@ zzzyk.com###Tinfo
 ||vmqywmhpto.32.17.251espn.hb.tt.omtrdc.net^
 ||vmsdgcd-ho-a1p.sys.tt.omtrdc.net^
 ||vmsxzx.buienradar.nl^
-||vmundanepollution.com^
 ||vmvps.com/aoyohost-com-bann
 ||vmw-2k8.oig.tt.omtrdc.net^
 ||vmw-ams-ams-eu.tt.omtrdc.net^
@@ -122155,6 +122159,7 @@ zzzyk.com###Tinfo
 ||wai69.com/js/baidu/
 ||waipian*.com/statics/recommend/
 ||wait.re^
+||waitrose.com/gDaVC7/
 ||waizongguan.net^
 ||wajong.tt.omtrdc.net^
 ||wake-up-neo.com/bnet/
@@ -126085,6 +126090,7 @@ zzzyk.com###Tinfo
 ||yieldbird.com^$third-party
 ||yieldbot.com^$third-party
 ||yieldify.com^$third-party
+||yieldingwoman.com^
 ||yieldlift.com^$third-party
 ||yieldmo-builds.s3.amazonaws.com^
 ||yieldsoftware.com^$third-party
@@ -127171,6 +127177,7 @@ zzzyk.com###Tinfo
 ||zmhqhuq.cn^
 ||zmhsxr.hometogo.com^
 ||zmk.pw/zfb.png
+||zml-apm-prd.dbv4.noncd.db.de^
 ||zmlntc.green-acres.es^
 ||zmmrpv.peterglenn.com^
 ||zmodeler.tr.tt.omtrdc.net^
