@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-12-15 08:52:33
-! Total count: 127526
+! Version: 2023-12-15 14:14:37
+! Total count: 127530
 
  
 ###AdBlockDialog
@@ -1666,6 +1666,7 @@
 ##a[href^="/dasp.php?a="]
 ##a[href^="/hy-"][ontouchstart]
 ##a[href^="/template/1/html/ad/"]
+##a[href^="http"] > img[src*="p.sda1.dev"]
 ##a[href^="http"] > img[src*="pic.rmb.bdstatic.com/"][src$=".gif"]
 ##a[href^="http"][onclick^="setCookie"][style^="width:100%;height:100"]
 ##a[href^="http://ad-apac.doubleclick.net/"]
@@ -57075,6 +57076,7 @@ zzzyk.com###Tinfo
 ||birdsend.email/pixel
 ||birdsend.net/pixel
 ||birgga.top^
+||birglucy.xyz^
 ||birjkhm.cn^
 ||birthright1.tt.omtrdc.net^
 ||bis8j.com^
@@ -98756,6 +98758,7 @@ zzzyk.com###Tinfo
 ||qswdme.modnakiecka.pl^
 ||qswwichqhood.top^
 ||qt5jl7r111h7.allesvoormijnvakantie.nl^
+||qtciam.xyz^
 ||qtd95fj.online^
 ||qtd95fj.online^$third-party
 ||qtfnvf.ethika.com^
@@ -121613,6 +121616,7 @@ zzzyk.com###Tinfo
 ||vjhjxh.xyz^
 ||vjie.com^$third-party
 ||vjjgpt.diamond.jp^
+||vjnxpj.xyz^
 ||vjrpnv.xyz^
 ||vjybuykaxz4.com^
 ||vjzjpt.xyz^
