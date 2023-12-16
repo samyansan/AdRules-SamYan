@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-12-16 14:13:14
-! Total count: 127547
+! Version: 2023-12-16 20:18:29
+! Total count: 127554
 
  
 ###AdBlockDialog
@@ -1585,6 +1585,7 @@
 ##a[href*="/?intr="]
 ##a[href*="/PageRegister?Agent="][target="_blank"]
 ##a[href*="/Register?a="]
+##a[href*="/abg0066.com"]
 ##a[href*="/ads/adscenter."]
 ##a[href*="/auth/register?code="] > img
 ##a[href*="/bgm9z.com"]
@@ -35408,6 +35409,7 @@ meitu.com###meipaiFixed
 meituan.com##.banner-download
 meituan.com##.component-downtip
 meiyida01.com,myd666.tv##.module-blocklist
+meiyida01.com,myd666.tv#?#.module-item:-abp-has(>.module-item-titlebox>a[href*="/download"])
 meiyida01.com,myd666.tv#?#.module-item:-abp-has(>.module-item-titlebox>a[href*="/download/"])
 meizhou.cn##.toptonglan
 meizhou.cn##.tuwengg
@@ -43926,6 +43928,7 @@ zzzyk.com###Tinfo
 ||88btbtt.com^
 ||88dgl.top^
 ||88dgn.top^
+||88dgs.top^
 ||88dgx.top^
 ||88dml.top^
 ||88eg.cn^
@@ -49551,6 +49554,7 @@ zzzyk.com###Tinfo
 ||adsmeasurement.com^
 ||adsmediator.com^$third-party
 ||adsmetadata.mobileadexchange.net^
+||adsmind.gdtimg.com^
 ||adsn-da-00.hb-fa-dev.tt.omtrdc.net^
 ||adsoft.tt.omtrdc.net^
 ||adsolutions.com^$third-party
@@ -56445,6 +56449,7 @@ zzzyk.com###Tinfo
 ||bdunion1.suxiazai.com^
 ||bdx.playnext.cn^
 ||bdzcck.stadiumgoods.com^
+||bdzdd2-sdd53-vxc.com^
 ||be-cat-acc.tt.omtrdc.net^
 ||be-go.experian.com^
 ||be-il.cn.tt.omtrdc.net^
@@ -98932,6 +98937,7 @@ zzzyk.com###Tinfo
 ||qvmucs.abluestore.com^
 ||qvpublish.com^
 ||qvqtga.barenecessities.com^
+||qvrdlvz.cn^
 ||qvsfrk.stephane-christian.com^
 ||qvxvvjom.com^
 ||qvznqz.mekster.se^
@@ -115173,6 +115179,7 @@ zzzyk.com###Tinfo
 ||tqvacq.intrend.it^
 ||tqxpnv.bauhaus.info^
 ||tqytqdrq.icu^
+||tqznjujv.xyz^
 ||tr-business.vodafone.com^
 ||tr-ms.bosch-home.com^
 ||tr-ms.profilo.com^
