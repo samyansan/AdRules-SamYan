@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-12-16 08:50:58
-! Total count: 127553
+! Version: 2023-12-16 14:13:14
+! Total count: 127547
 
  
 ###AdBlockDialog
@@ -31048,6 +31048,7 @@ gdmm.com##img[width="1200"]
 gdmm.com,gkstk.com#@#.adtop
 gdot.me,sc115.com##script + a
 gdrc.com#@#.midAd
+gdt.qq.com
 gdz-putina.fun,gdz.ninja,gdz.ru,gdzotputina.club,gdzputina.net,gdzputina.ru,megaresheba.com,megaresheba.ru,resheba.me,spishi.fun,zoobrilka.net#$#abort-on-property-write app.book.external
 gdzjdaily.com.cn##.big_news + div
 gebi1.com###fwin_dialog
@@ -37117,10 +37118,7 @@ qq.com###qqadv
 qq.com###qqmail_AD_container
 qq.com###r_ad
 qq.com##+js(json-prune, ad)
-qq.com##+js(json-prune,ads ad.pause adList.item)
-qq.com##+js(no-fetch-if,/trace\.|beacon\./)
-qq.com##+js(no-xhr-if,/trace\.|\/collect/)
-qq.com##+js(set,RTCPeerConnection,null)
+qq.com##+js(json-prune, ads ad material.video)
 qq.com##.AdBox-Article-QQ
 qq.com##.AdTop-Article-QQ
 qq.com##.J_hot_game
@@ -37155,7 +37153,6 @@ qq.com##.member_ads
 qq.com##.mian-ad
 qq.com##.mod-ad-full
 qq.com##.mod-download-tips
-qq.com##.mod_ad, .txp_ad, div.l_qq_com, .txp-watermark, .txp_ad_link, .txp_zt_video, .adWrap, .iwan-wrapper
 qq.com##.mod_ad_main
 qq.com##.mod_ad_side
 qq.com##.mod_ad_square
@@ -37189,7 +37186,6 @@ qq.com##a[href^="http://www.10100000.com/"]
 qq.com##div[class^=ad-type-]
 qq.com##div[id^="couplet_auto_"]
 qq.com##img[data-module="advertisement"]
-qq.com#@#+js(nowebrtc)
 qq.com#@#.ad-icon
 qq.com#@#.adsbox
 qq.com#@#.adside
@@ -39197,7 +39193,7 @@ v.qq.com##.module-image[style*="width:1100px;"]
 v.qq.com##.module-image[style*="width:1240px;"]
 v.qq.com##.nav_link[href^="http"]:not([href*=".qq."])
 v.qq.com##.player-side-ads
-v.qq.com##.quick_games.quick_item,div.card-wrap
+v.qq.com##.quick_games.quick_item
 v.qq.com##.site_bg_variety
 v.qq.com##.slider_item[href^="http"]:not([href*=".qq."])
 v.qq.com##.svg_icon_client.svg_quick_icon
@@ -83044,7 +83040,6 @@ zzzyk.com###Tinfo
 ||l.player.ooyala.com^
 ||l.post2b.com^
 ||l.prk.bz^
-||l.qq.com/livemsg?
 ||l.qq.com/lview?
 ||l.rovo.co^
 ||l.sagafan.jp^
@@ -86438,7 +86433,6 @@ zzzyk.com###Tinfo
 ||marisdoodles0.tt.omtrdc.net^
 ||marisdoodles7.tt.omtrdc.net^
 ||marjorienice.com^
-||mark.l.qq.com/fcgi-bin/get_video_mark_all?
 ||markedcrayon.com^
 ||markedmeasure.com^
 ||markedpail.com^
