@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-12-17 11:51:20
-! Total count: 126239
+! Version: 2023-12-17 14:13:21
+! Total count: 126242
 
  
 ###AdBlockDialog
@@ -35049,7 +35049,6 @@ m.youku.com##.download
 m.youku.com##.hdwrap
 m.youku.com##.recommend
 m.youku.com##body > [style="width: 100px; height: 100px; position: fixed; top: auto; right: 0px; bottom: 0px; left: auto; z-index: 188;"]:not([class]):not([id])
-m.youku.com,v.youku.com##+js(m3u-prune,'',/^https:\/\/[\w\.]+ott\.cibntv\.net.+?\.m3u8\?/)
 m.youku.com,v.youku.com#%#//scriptlet('set-constant', 'Object.prototype._adData', 'emptyObj')
 m.youtube.com###koya_child_6
 m.zenmate.com$image
@@ -51079,9 +51078,11 @@ zzzyk.com###Tinfo
 ||alibym.saucony.com.au^
 ||alicasas0.tt.omtrdc.net^
 ||alicat.actonservice.com^
+||alicdn.com/*yksdk/*sdk.js$script,domain=youku.com
 ||alicdn.com/AWSC/et/
 ||alicdn.com/ad-product/
 ||alicdn.com/app/wxbpromotion/*/js/cpm/cpm_jq.js
+||alicdn.com/awsc/et/
 ||alicdn.com/f/pcdn/i.php?
 ||alicdn.com/g/mm/afp-cdn/JS/
 ||alicdn.com/img/ibank/*_!!2200581616124-
@@ -57765,6 +57766,7 @@ zzzyk.com###Tinfo
 ||bpeml.mlb.com^
 ||bpewo.cyou^
 ||bpgbcl.coconala.com^
+||bphcrjth.xyz^
 ||bpimg.com/4851/19f7543667f26682.jpg
 ||bplrpf.xyz^
 ||bpm.global360.com^
@@ -119304,6 +119306,7 @@ zzzyk.com###Tinfo
 ||upecpbscpx.www.att.hb.tt.omtrdc.net^
 ||upgr-mmxvii-cl-ts-p.tt.omtrdc.net^
 ||upgrade.xl9.xunlei.com^
+||uphcrjth.xyz^
 ||uphold.com^$cookie=sdk_trends_user_id
 ||uphzxdv.cn^
 ||upi.com/story/stat/
