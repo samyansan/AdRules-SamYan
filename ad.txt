@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-12-20 14:11:57
-! Total count: 127565
+! Version: 2023-12-20 20:16:50
+! Total count: 127577
 
  
 ###AdBlockDialog
@@ -526,6 +526,7 @@
 ##.ad-left
 ##.ad-left-down
 ##.ad-mod
+##.ad-pc
 ##.ad-r
 ##.ad-right
 ##.ad-right-down
@@ -4841,7 +4842,7 @@ $websocket,domain=5nj.com|cechi8.com
 /gtag.js
 /gtag.min.js
 /gtag/js?
-/gtm-*.js$domain=livingtraditionally.com|myhealthgazette.com|kediportal.com|koinbulteni.com|teknop.net
+/gtm-*.js$domain=livingtraditionally.com|myhealthgazette.com|koinbulteni.com|teknop.net
 /gtm-listeners.js
 /gtm-suite.js
 /gtm.js
@@ -34067,6 +34068,8 @@ js0573.com##.gg_bnr
 jsbooks.com.cn#@#.left-ads
 jsjiami.com##.asd > li > a.shaky
 jsjiami.com##.banner-container li._logo ~ li > a[target="_blank"]
+json.cn###shuangshi1Modal1
+json.cn##.modal-backdrop
 json.cn##.tip[target="_blank"]
 jsphp.net##.adleft-wrap
 jsphp.net##.rightAdBtm-wrap
@@ -36404,6 +36407,8 @@ manwa1.me,manwa2.me,manwa.me##.swiper-container.swiper-container-horizontal
 manwa1.me,manwa2.me,manwa.me##[data-group^='ad_chapter'][data-width='300'][data-height='250']
 manwa1.me,manwa2.me,manwa.me##[style*='15px'][style*='background-color:'][style*='margin: 10px'][style*='margin-top: 14px'][style*='border-radius: 20px'],.fas.fa-times
 manwa1.me,manwa2.me,manwa.me##[style='transform-origin: left top; margin: 0px auto;']
+maoken.com###siderAd01
+maoken.com##.adbox
 maolihui.com##.con-ad
 maomaomom.com###execphp-15
 maomaomom.com###execphp-21
@@ -60819,6 +60824,7 @@ zzzyk.com###Tinfo
 ||cfyhym.weightwatchers.fr^
 ||cfzhushou.com^*/King_Chance_Layer.js
 ||cgbswl.icu^
+||cgdyw.net/xx/
 ||cgeimage.commutil.kr/jscomm/*/logger.js
 ||cgfdjz.net/xia.js
 ||cgicol.amap.com^
@@ -112967,6 +112973,7 @@ zzzyk.com###Tinfo
 ||tae0t.site^
 ||tafequeensland.tt.omtrdc.net^
 ||tafrebadus.com^$third-party
+||tafuzcxr.xyz^
 ||tafyeta.ru^$domain=pronpic.org
 ||tag-based.s3.*.amazonaws.com^$third-party
 ||tag-manager.playbuzz.com^
@@ -119712,6 +119719,7 @@ zzzyk.com###Tinfo
 ||tupian888.*.bcebos.com^
 ||tupitclk.tupiteatry.online^
 ||tuplzt.xyz^
+||tupwiwm.com^
 ||turais.tt.omtrdc.net^
 ||turbobit.net/ajax/fdlogger/
 ||turbobit.net/js/analytics/
@@ -121049,6 +121057,7 @@ zzzyk.com###Tinfo
 ||v3int-users.tt.omtrdc.net^
 ||v4.market-search.online^
 ||v4.tt.omtrdc.net^
+||v44e.com^
 ||v4dwkcv.com/html/click/
 ||v4dwkcv.com^
 ||v6.tt.omtrdc.net^
@@ -121299,6 +121308,7 @@ zzzyk.com###Tinfo
 ||vfo.voyage-prive.co.uk^
 ||vfo4.carrefour-banque.fr^
 ||vfraiv.phlov.com^
+||vfrdewsdg.xyz^
 ||vfsdgjrr.xyz^
 ||vfsdsdeq.xyz^
 ||vfservicesinc.tt.omtrdc.net^
@@ -125210,6 +125220,7 @@ zzzyk.com###Tinfo
 ||x9.shinobi.jp^
 ||xaaf-be-second-perf.tt.omtrdc.net^
 ||xaas3.jp/tracking/$third-party
+||xafuzcxr.xyz^
 ||xaguwy.thomas-muenz.ru^
 ||xahycw.com^
 ||xait.actonservice.com^
@@ -126070,6 +126081,7 @@ zzzyk.com###Tinfo
 ||yfohgo.xyz^
 ||yfoxentertainment.hb-api.tt.omtrdc.net^
 ||yfpvmd.reed.co.uk^
+||yfsstec96.xyz^
 ||yftkzg.thisisfutbol.com^
 ||yfwnsy.infraredsauna.com^
 ||yg006.com/attachment/js/
