@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-12-21 14:14:16
-! Total count: 127595
+! Version: 2023-12-21 20:19:52
+! Total count: 127609
 
  
 ###AdBlockDialog
@@ -4540,6 +4540,7 @@ $websocket,domain=5nj.com|cechi8.com
 /evt.gif?
 /exactag.js
 /exactag_clientside.js
+/exads-adblock-$image
 /exads-adblock-3.10
 /exittracker.js
 /exmo.email/open.html
@@ -7701,6 +7702,15 @@ $websocket,domain=5nj.com|cechi8.com
 18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > [style*="back"]
 18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img
 18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img + [style]
+18-comic.work,18comic.org,18comic.vip,jmcomic.me###guide-modal
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##.div_sticky2
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##.modal-backdrop
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > [style*="back"]
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img + [style]
+18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+script)
+18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>script+ins)
+18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 18183.com###gsBtn
 18183.com##.down_url
 18183.com##.pcBtn > a[href*="@"]
@@ -40858,6 +40868,7 @@ wnacg.com#@#.ctm_ad
 wnacg.com#@#.ff-ads
 wnacg.com#@#.google-ads
 wnacg.com#@#.hlol_ad
+wnacg.com#@#.pcd_ad
 wnacg.org##a[href^="https://l.tyrantdb.com/"][target="_blank"] > img
 wnflb2023.com##.GzList
 woego.cn#@##topAds
@@ -94104,6 +94115,7 @@ zzzyk.com###Tinfo
 ||odysee.com/reports/
 ||odyzli.localiza.com.br^
 ||oe-static.de^*/wws.js
+||oe3.top^
 ||oebarc.ekosport.at^
 ||oedlmz.underarmour.it^
 ||oehcxmhk.xyz^
@@ -119985,6 +119997,7 @@ zzzyk.com###Tinfo
 ||tzgurwizule3.app.cardahealth.com^
 ||tzlit.cn^
 ||tzmhqll.cn^
+||tznizrhd.xyz^
 ||tzovkp.aboutyou.at^
 ||tzwaw.pw^
 ||tzzbmy.gmobb.jp^
@@ -125837,6 +125850,7 @@ zzzyk.com###Tinfo
 ||xyzznt.uterque.com^
 ||xzji.com/data/block_js/softShow_
 ||xzlurd.xyz^
+||xznizrhd.xyz^
 ||xznrtl.xyz^
 ||xztqfj.dreamvs.jp^
 ||xzvahr.xyz^
