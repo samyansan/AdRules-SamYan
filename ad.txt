@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-12-21 20:19:52
-! Total count: 127609
+! Version: 2023-12-22 02:11:59
+! Total count: 127616
 
  
 ###AdBlockDialog
@@ -4874,6 +4874,7 @@ $websocket,domain=5nj.com|cechi8.com
 /hawkeye.js
 /hawklinks.js
 /hc/activity
+/header-pixels.min.js
 /healthanalytics.js
 /heatmap/js/clickheat.js
 /heituad/*
@@ -6020,6 +6021,7 @@ $websocket,domain=5nj.com|cechi8.com
 /pxl.gif?
 /pxl.png?
 /pxlctl.gif
+/pxrc.php
 /pxre.php
 /pxtrack.js
 /qd/js/index/bannerTop.
@@ -7696,12 +7698,6 @@ $websocket,domain=5nj.com|cechi8.com
 17yy.com###addiv
 17yy.com##.t2_3
 17yy.com##.t2r_3
-18-comic.work,18comic.org,18comic.vip###guide-modal
-18-comic.work,18comic.org,18comic.vip##.div_sticky2
-18-comic.work,18comic.org,18comic.vip##.modal-backdrop
-18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > [style*="back"]
-18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img
-18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img + [style]
 18-comic.work,18comic.org,18comic.vip,jmcomic.me###guide-modal
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.div_sticky2
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.modal-backdrop
@@ -7755,9 +7751,6 @@ $websocket,domain=5nj.com|cechi8.com
 18comic.org,18comic.vip,18-comic.work#$?#.col-xs-6 > div[data-type][style]:has(> ins + script) { remove: true; }
 18comic.org,18comic.vip,18-comic.work#%#//scriptlet('abort-current-inline-script', 'document.dispatchEvent', '/getexoloader/')
 18comic.org,18comic.vip,18-comic.work#?#.col-xs-6 > div[data-show][style]:has(> p:only-child > a[target="_blank"] > img)
-18comic.org,18comic.vip,18-comic.work#?#:-abp-has(>ins+script)
-18comic.org,18comic.vip,18-comic.work#?#:-abp-has(>script+ins)
-18comic.org,18comic.vip,18-comic.work#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 18comic.org,18comic.vip,18-comic.work#@?#:-abp-has(>ins+script)
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#@?#:-abp-has(>script[src*=".realsrv.com"])
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
@@ -34439,6 +34432,7 @@ lalilali.com##div[id*="_"]
 lalulalu.com###overture-side-bar-ads
 lalulalu.com###overture_main_banner
 lalulalu.com##.overture_banner
+lan-sha.com#?#.post-list > li.post-item:not(:has(> div.post-item-container a[href^="https://www.lan-sha.com/"][href$=".html"]))
 landian.vip##.content-gg
 landian.vip##.sidebar a[href^="http"]:not([href*="landian."])
 landiannews.com###block-2
@@ -40057,7 +40051,7 @@ truyen-hentai.com#$#hide-if-matches-xpath './/*[@class]/ancestor-or-self::div[co
 truyen2u.net#$#abort-current-inline-script eval
 truyen35.vn#$#abort-current-inline-script jQuery click_ads
 truyenqqvn.com#$#abort-current-inline-script document.addEventListener window.open
-truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.io,sieudamtv.com,ephimchill.com,motphimhan.cc,maclife.io#$#abort-on-property-read document.cookie
+truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.io,sieudamtv.com,ephimchill.com,motphimhan.cc,maclife.io,ophimhdvn3.net#$#abort-on-property-read document.cookie
 truyentuan.com#$#abort-current-inline-script $ btpop
 tsdm.live###ts_sidebar_base
 tsubasa.im#%#//scriptlet('prevent-setInterval', '/home/?adblock=')
@@ -41198,7 +41192,7 @@ xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
 xnxx-sexfilme.com#$#abort-on-property-read open; abort-on-property-write SpacialUp;
 xnxx-sexfilme.com#$#hide-if-matches-xpath './/span[contains(text(),"Advertisement")]/parent::div[@class][1]'; hide-if-matches-xpath './/div[contains(@class,"logo")]/ancestor::div[@data-ga_action="join"]/ancestor::aside[@id][1]';
-xoilac87.tv#$#abort-on-property-read adsRedirectPopups
+xoilac86.net#$#abort-on-property-read adsRedirectPopups
 xoivo2.online,vaoroi13.online#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 xstud.org#$#abort-on-property-read _0xd07e
 xtgreat.com
@@ -51491,6 +51485,7 @@ zzzyk.com###Tinfo
 ||afterclick.co^$third-party
 ||aftermath.actonservice.com^
 ||aftermathbrother.com^
+||afterpay.com^*/v1/event
 ||aftonbladet.se/blogportal/view/statistics?$third-party
 ||aftonbladet.se/cnp-assets/glimr-sdk.js
 ||aftonbladet.se/trafikfonden/
@@ -52897,6 +52892,7 @@ zzzyk.com###Tinfo
 ||analytics-1.cavai.com^
 ||analytics-api.a-f.io^
 ||analytics-api.dvdfab.
+||analytics-api.klickly.com^
 ||analytics-api.liveapp.com^
 ||analytics-api.samsunghealthcn.com^
 ||analytics-api.smzdm.com^
@@ -57852,6 +57848,7 @@ zzzyk.com###Tinfo
 ||belgium.wolterskluwer.com^
 ||beliebtestewebseite.de^$third-party
 ||belindanbd.com^
+||belk.com/0iiey9LM/init.js
 ||bellagrill.american-grill.tt.omtrdc.net^
 ||bellca.tt.omtrdc.net^
 ||bellcanada.tt.omtrdc.net^
@@ -62031,6 +62028,7 @@ zzzyk.com###Tinfo
 ||cmp2.channelpartner.de^
 ||cmptch.com^$third-party
 ||cmpworker.dotesports.com^
+||cmpworker.primagames.com^
 ||cmpxaup.cn^
 ||cmr.customer.americanexpress.de^
 ||cmrcustomer.americanexpress.co.uk^
@@ -64066,6 +64064,7 @@ zzzyk.com###Tinfo
 ||customersucceed.nanophase.com^
 ||customfingerprints.bablosoft.com/clientsafe.js
 ||customfingerprints.bablosoft.com^
+||cutcurrent.com^
 ||cutecalculator.com^
 ||cutechin.com^
 ||cutechin.com^$third-party
@@ -77044,6 +77043,7 @@ zzzyk.com###Tinfo
 ||hbbtv-track.prosiebensat1puls4.com^
 ||hbbxwan.cn^
 ||hbeegxjidz._tcp.arkena.hb.tt.omtrdc.net^
+||hbiq.net^
 ||hbkunye.com^
 ||hbkworld.tt.omtrdc.net^
 ||hbnqls.bloomingdales.com.kw^
@@ -77337,6 +77337,7 @@ zzzyk.com###Tinfo
 ||heraldandtimeslabs.com/sugar.js
 ||herbalife.tt.omtrdc.net^
 ||herbertgaleno.tt.omtrdc.net^
+||herbgreencolumn.com^
 ||here.essentiallaunchers.com^
 ||heredeutschlandgmbh.tt.omtrdc.net^
 ||heretakethewheel-directvapplications.hb.tt.omtrdc.net^
@@ -85156,6 +85157,7 @@ zzzyk.com###Tinfo
 ||listen.tunein.com^
 ||listenlayer.com^$third-party
 ||listing-a8-itp.hello-storage.com^
+||listrak.com/api/Activity/impression
 ||listrakbi.com/activity/
 ||listrakbi.com/api/ActivityEvents/
 ||listrakbi.com^$third-party
@@ -92637,6 +92639,7 @@ zzzyk.com###Tinfo
 ||mzbcdn.net/mngr/mtm.js
 ||mzgpfa.brics.it^
 ||mzhhdn.com/hongbao.jpg
+||mznizrhd.xyz^
 ||mzqf1.com^
 ||mzthbna.xyz^
 ||mzweb.met.vgwort.de^
@@ -96293,6 +96296,7 @@ zzzyk.com###Tinfo
 ||payoneok.com^
 ||paypal.com/credit-presentment/log
 ||paypal.com/platform/tealeaftarget
+||paypal.com/ptrk/
 ||paypal.com/tagmanager/pptm.js
 ||paypal.com/webapps/beaconweb/
 ||paypal.com/webapps/mch/cmd/?
@@ -99140,6 +99144,7 @@ zzzyk.com###Tinfo
 ||qtycwy.modivo.cz^
 ||qu96.com^
 ||quacksquirrel.com^
+||quadpay.com/analytics/
 ||quadran.eu^$third-party
 ||quae0.top^
 ||quail.trueglowbylaura.com^
@@ -101760,6 +101765,7 @@ zzzyk.com###Tinfo
 ||safely.tt.omtrdc.net^
 ||safepass.citizen.com^
 ||safety.west.com^
+||safevisit.online^$third-party
 ||safevisit.org/api/v*/c?$redirect=nooptext
 ||safewayinc.tt.omtrdc.net^
 ||saffronrefuge.com^
@@ -103195,7 +103201,7 @@ zzzyk.com###Tinfo
 ||securepaths.com^$third-party
 ||secureprovide1.com/*=tracking$image
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=line.me,important
-||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=~golf.com|~today.line.me|~inmuebles24.com|~inside.com.tw|~investing.com|~olx.com.eg|~eksisozluk1923.com|~heycar.co.uk
+||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=~golf.com|~today.line.me|~inmuebles24.com|~inside.com.tw|~investing.com|~olx.com.eg|~eksisozluk1999.com|~heycar.co.uk
 ||secureserver.net/t/
 ||securestats.cafepress.com^
 ||securestats.callawaygolf.com^
@@ -109065,6 +109071,7 @@ zzzyk.com###Tinfo
 ||ssdl.actonservice.com^
 ||ssdtour.com^
 ||sse-ws-pilot-mdn-pod2.tt.omtrdc.net^
+||ssense.com/58Asv359/init.js
 ||ssfllp.actonservice.com^
 ||ssgg.chazidian.com^
 ||ssh.*.com^*!$script,third-party
