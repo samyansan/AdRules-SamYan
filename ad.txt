@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-12-22 02:11:59
-! Total count: 127616
+! Version: 2023-12-22 08:50:34
+! Total count: 127625
 
  
 ###AdBlockDialog
@@ -3346,7 +3346,6 @@ $websocket,domain=5nj.com|cechi8.com
 /acecounter_
 /acmsd/*
 /acounter.php?
-/action-impressions/*
 /action/analytics
 /activecampaign-subscription-forms/site_tracking.js
 /activity.gif?
@@ -3879,7 +3878,6 @@ $websocket,domain=5nj.com|cechi8.com
 /base/es6/bundle.js
 /batch.gif?
 /batch/1/OE/*
-/batch/1/OP/*
 /batch/action/_:
 /baynote.js
 /bb-analytics-inline.min.js
@@ -37861,7 +37859,7 @@ pinshan.com##.b_adv2
 pinshan.com##.b_taobao
 pinshan.com##.bea_adv2
 pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#$#hide-if-matches-xpath './/div[@title][contains(text(),"Sponsorisée") or contains(text(),"Anzeige") or contains(text(),"Promocionado") or contains(text(),"Gesponsord") or contains(text(),"Promowane") or contains(text(),"Patrocinado") or contains(text(),"Publicidade") or contains(text(),"Sponsorizzato")]/ancestor::div[@data-test-id="pin"]';
-pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#$#race start; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//following-sibling::div[@style]//div[contains(@style,"margin-bottom: 2px")]//div[contains(@class,"op")]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]' ;hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//style/parent::div/child::div/ancestor::div[@data-test-id="pin"]/ancestor::div[@role="listitem"][@style]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class][@style][count(child::*)>=10]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class][@style]//span//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//following-sibling::div[@style]//div[contains(@style,"margin-bottom: 2px")]//div[contains(@class,"promotedby")]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//following-sibling::div[@style]//div[contains(@style,"margin-bottom: 2px")]//div[contains(@class,"promot3dby")]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; race stop;
+pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#$#race start; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//following-sibling::div[@style]//div[contains(@style,"margin-bottom: 2px")]//div[contains(@class,"op")]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]' ;hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//style/parent::div/child::div/ancestor::div[@data-test-id="pin"]/ancestor::div[@role="listitem"][@style]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class][@style][count(child::*)>=10]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class][@style]//span//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//following-sibling::div[@style]//div[contains(@style,"margin-bottom: 2px")]//div[contains(@class,"promotedby")]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//following-sibling::div[@style]//div[contains(@style,"margin-bottom: 2px")]//div[contains(@class,"promo7edby")]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; race stop;
 pioneer.eu#%#//scriptlet('remove-attr', 'onclick', 'a[href][onclick^="trackOutboundLink"]')
 pipi.cn#@#.ad-root
 piratia.su###block-warning
@@ -53938,6 +53936,7 @@ zzzyk.com###Tinfo
 ||aoji.cn/static/js/yiliao/ad_common.js
 ||aok.tns-gallup.dk^
 ||aoki.tt.omtrdc.net^
+||aokkwzg.cn^
 ||aol.com/ping?
 ||aol.com/track/
 ||aol.tt.omtrdc.net^
@@ -72299,6 +72298,7 @@ zzzyk.com###Tinfo
 ||extractobservation.com^
 ||extramilefloorcare.ericksonbuilt.com^
 ||extraspacecom.tt.omtrdc.net^
+||extrawatch.com^$third-party
 ||extreme-dm.com^$third-party
 ||extreme-ip-lookup.com^$third-party
 ||extremetech.com/sbs/beacon.js
@@ -72338,6 +72338,7 @@ zzzyk.com###Tinfo
 ||ezakus.net^$third-party
 ||ezapp.ovh/track.js?pixelId=
 ||ezec.co.uk^$third-party
+||ezeqcy.xyz^
 ||ezf48.xyz^
 ||ezgo.advancedtech.com^
 ||ezhddx.thesouledstore.com^
@@ -74153,6 +74154,7 @@ zzzyk.com###Tinfo
 ||ga.amgtrack.link^
 ||ga.clearbit.com^
 ||ga.dx.com^
+||ga.getresponse.com^
 ||ga.nsimg.net^
 ||ga.webdigi.co.uk^
 ||ga.yiche.com/autolog
@@ -74864,6 +74866,7 @@ zzzyk.com###Tinfo
 ||ghonnz.columbiasports.co.jp^
 ||ghost580.com/js/nei4.js
 ||ghp.adp.ca^
+||ghreha.top^
 ||ghrnbw.avocadostore.de^
 ||ghsnhjk.cn^
 ||gi-client-tracking.goodgamestudios.com^
@@ -76611,6 +76614,7 @@ zzzyk.com###Tinfo
 ||gulliverbasketballclub.tt.omtrdc.net^
 ||gumgo.cn^$third-party
 ||gumtree.com.au/tracking/
+||gunepszy.xyz^
 ||gunmi.cn^$third-party
 ||guode.cyou^
 ||guohead.com^
@@ -83609,6 +83613,7 @@ zzzyk.com###Tinfo
 ||kxploclk.megaxplodenow.online^
 ||ky891.oss-*.aliyuncs.com^
 ||kybzkiw.xyz^
+||kycxhgrp.xyz^
 ||kydb.xyz^
 ||kygso.com/js/lrtk.js
 ||kyikdee.cn^
@@ -85381,6 +85386,7 @@ zzzyk.com###Tinfo
 ||lmo3.ps.tt.omtrdc.net^
 ||lmorsb.highstreettv.com^
 ||lmportal-stg.vms.tt.omtrdc.net^
+||lmrhhn.xyz^
 ||lms.edge44.testandtarget.omniture.com^
 ||lmtnfl.xyz^
 ||lmts-edc.tt.omtrdc.net^
@@ -99323,6 +99329,7 @@ zzzyk.com###Tinfo
 ||qxsfaj.caloo.jp^
 ||qxxys.com^
 ||qxzadv.hilightbrands-kodak.co.kr^
+||qxzlmzt.xyz^
 ||qy0.ru/data/game/
 ||qy1.ru/data/game/
 ||qybjkr.mlynoliwski.pl^
@@ -117091,6 +117098,7 @@ zzzyk.com###Tinfo
 ||track.lifewelllived.fitness^
 ||track.linfey.com^
 ||track.linkgamebassadors.com^
+||track.linksynergy.com^
 ||track.list-finder.jp^
 ||track.littleknowntips.com^
 ||track.live-assistance-now.net^
@@ -127312,6 +127320,7 @@ zzzyk.com###Tinfo
 ||zol.com/index.php?c=ZolShopIndex
 ||zola.trekkww.fun^
 ||zombieslayer.kano.link^
+||zomcz.cyou^
 ||zona.plus/ajax/visit-stats
 ||zonastat.com/installer.html?param=
 ||zone-telechargement.al/analytics/
