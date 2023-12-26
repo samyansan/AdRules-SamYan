@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-12-26 14:14:07
-! Total count: 128441
+! Version: 2023-12-26 18:04:55
+! Total count: 128446
 
  
 ###AdBlockDialog
@@ -1264,6 +1264,7 @@
 ##DIV.myui-content__acc[style='position: relative;padding: 0 10px']
 ##DIV.row.no-gutters.m-0
 ##DIV.stui-player__item.clearfix > img[url]
+##DIV.swiper2.swiper-initialized.swiper-horizontal
 ##DIV[allowtransparency='true'][scrolling='no']
 ##DIV[class$='_ad_wrap']
 ##DIV[class*='home'][class*='Ads']
@@ -1918,6 +1919,7 @@
 ##ul > li > A[href$='_list.html']
 ##ul#page-list.layui-clear.page-wz > ul > li:not([class])
 ##ul.content-list > li.content-tb
+##ul.thread_detail_ads
 ##vg-pause-ads
 #%#//scriptlet('set-constant', 'Document.prototype.browsingTopics', 'undefined')
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
@@ -7954,6 +7956,7 @@ $websocket,domain=5nj.com|cechi8.com
 2ghai.com##.yttl_x_g
 2gomovies.to#$#abort-on-property-write _0x287f; abort-on-property-write _0x2f53; abort-on-property-write _0x16f4
 2ip.me,2ip.ua##.alert-mess > .row
+2qpqwkx.cn
 2ujj.com#@#.ad350
 2yjw.com##.widget-tops
 2yjw.com,fuliba2021.net,itdog.cn,zhujiceping.com##.orbui
@@ -42620,6 +42623,7 @@ zzzyk.com###Tinfo
 |https:$script,third-party,xmlhttprequest,domain=m.733.so|m.umei.cc
 |https:$third-party,domain=linkshrink.net
 |https://$script,subdocument,popup,3p,domain=btsow.mom|rarbgprx.org
+|https://$script,subdocument,popup,3p,domain=btsow.motorcycles|rarbgprx.org
 |https://a.pr-cy.ru^$third-party
 |https://dd-static.jd.com/ddimg/jfs/t1/173245/15/28822/346324/62fcb4b0Eb437d047/136a1e04890320b8.jpg$image,domain=subaibaiys.com
 |https://imgcache.qq.com/qzone/biz/comm/js/qbs.js
@@ -60480,6 +60484,7 @@ zzzyk.com###Tinfo
 ||btrace.video.qq.com^
 ||btschool.net/images/*/HDYGR
 ||btsow.mom/app/jav$image
+||btsow.motorcycles/app/javu$image
 ||btstatic.com^$third-party
 ||btstats.benakt.com^
 ||btstats.devtribu.fr^
