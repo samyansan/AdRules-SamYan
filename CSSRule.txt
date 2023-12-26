@@ -5296,11 +5296,8 @@ dalipan.com##.hongbao-wrap
 dama.cz##[class*="ads-"]
 dama.cz##div[class^="sky-wrap"]
 dan-teng.top##.nav
-dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,RTCPeerConnection,null)
-dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,mozRTCPeerConnection,null)
 dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,webkitRTCPeerConnection,null)
 dandanzan.com,dandanzan10.top,nunuyy5.org##.gm-fp-body video:style(max-height:100%!important)
-dandanzan.com,dandanzan10.top,nunuyy5.org#@#+js(nowebrtc)
 dangdang.com###fix_erweima
 dangdang.com##.bottom_fixed
 dangdang.com##.code2s
@@ -10841,6 +10838,7 @@ qq.com###qqmail_AD_container
 qq.com###r_ad
 qq.com##+js(json-prune, ad)
 qq.com##+js(json-prune, ads ad material.video)
+qq.com##+js(no-fetch-if, beacon.)
 qq.com##.AdBox-Article-QQ
 qq.com##.AdTop-Article-QQ
 qq.com##.J_hot_game

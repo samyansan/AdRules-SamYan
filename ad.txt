@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-12-26 18:04:55
-! Total count: 128446
+! Version: 2023-12-26 20:18:59
+! Total count: 128439
 
  
 ###AdBlockDialog
@@ -10657,7 +10657,6 @@ chuandong.com,instrument.com.cn##a[href*="/ad/"]
 chunyuyisheng.com###ad_modal
 chunyuyisheng.com##.ad-modal-left
 chunyuyisheng.com##.ui-grid + .fixed-layer
-chushoushijian.cn
 chuzuche8.com##body > h4 > font[color="red"][size="6"]
 chuzuche8.com#?##container > font[color] > font[color] > div[style]:has(> table[width] > tbody > tr > th > a[href][target="_blank"])
 chuzuche8.com#?#body > font:contains(function)
@@ -11328,11 +11327,8 @@ dama.cz##[class*="ads-"]
 dama.cz##div[class^="sky-wrap"]
 dan-teng.top##.nav
 danbury.townsquaremedia.info$image
-dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,RTCPeerConnection,null)
-dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,mozRTCPeerConnection,null)
 dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,webkitRTCPeerConnection,null)
 dandanzan.com,dandanzan10.top,nunuyy5.org##.gm-fp-body video:style(max-height:100%!important)
-dandanzan.com,dandanzan10.top,nunuyy5.org#@#+js(nowebrtc)
 dangdang.com###fix_erweima
 dangdang.com##.bottom_fixed
 dangdang.com##.code2s
@@ -38439,7 +38435,6 @@ oneinstack.com##.w-ad
 onemanga.me#@#.adblock
 onemanhua.com##body > div[style^="position: fixed;"][style*="z-index:"]
 onemanhua.com##div[id^="rn_ad_native"]
-onenews.vip
 oneplusbbs.com###bbsRegisterGuide
 oneplusbbs.com##li[style*="position: relative; border: 0px;"]
 onifile.com#$#abort-on-property-read _pop
@@ -39115,6 +39110,7 @@ qq.com###qqmail_AD_container
 qq.com###r_ad
 qq.com##+js(json-prune, ad)
 qq.com##+js(json-prune, ads ad material.video)
+qq.com##+js(no-fetch-if, beacon.)
 qq.com##.AdBox-Article-QQ
 qq.com##.AdTop-Article-QQ
 qq.com##.J_hot_game
@@ -39208,7 +39204,6 @@ quadcities.townsquaremedia.info$image
 quandangdang.net
 qudao.com###wechat
 qudong.com##.advert_bottom
-quickapp.cn
 quincyhannibal.townsquaremedia.info$image
 qunar.com##.flight_ad
 qunar.com##.list_promotion_bar
@@ -40204,7 +40199,6 @@ static/pull/qwe1021.js
 statistics.email.bellresidentialreturns.ca$image
 statistics.email.mdmgroup.ca$image
 statistiques.email.retoursdeservicesresidentielsbell.ca$image
-statsy.net
 stbemucode.com##DIV.header-ads
 stbemucode.com##IFRAME[frameborder='0'][marginheight='0']
 stc.gov.cn###mov
@@ -41246,7 +41240,6 @@ v2rayssr.com#$##wrapfabtest { height: 1px!important; }
 v2rayssr.com#?#.content-area > .single-bottom-html:has(> div[align="center"] > .adsbygoogle)
 v2rayssr.com#?#.sidebar-innter > .widget:has(.adsbygoogle)
 v2rayssr.com#?#.single-top-html:has(> div:only-child > a[target="_blank"] > img)
-v4dwkcv.com
 vaem.gene.com$image
 vaem.veeva.gene.com$image
 vailonxx.com,phimlongtieng.com,phimlongtieng.net#$#abort-current-inline-script jQuery window.open
@@ -42622,8 +42615,6 @@ zzzyk.com###Tinfo
 |https:$popup,domain=openload.co|oload.tv|javno.me
 |https:$script,third-party,xmlhttprequest,domain=m.733.so|m.umei.cc
 |https:$third-party,domain=linkshrink.net
-|https://$script,subdocument,popup,3p,domain=btsow.mom|rarbgprx.org
-|https://$script,subdocument,popup,3p,domain=btsow.motorcycles|rarbgprx.org
 |https://a.pr-cy.ru^$third-party
 |https://dd-static.jd.com/ddimg/jfs/t1/173245/15/28822/346324/62fcb4b0Eb437d047/136a1e04890320b8.jpg$image,domain=subaibaiys.com
 |https://imgcache.qq.com/qzone/biz/comm/js/qbs.js
@@ -42748,6 +42739,7 @@ zzzyk.com###Tinfo
 ||053h94.com^
 ||055f.tt.omtrdc.net^
 ||055fdropbox4.tt.omtrdc.net^
+||055g.com^
 ||056opui.com^
 ||0571netclass.tt.omtrdc.net^
 ||0573fang.com/ads/
@@ -60483,7 +60475,6 @@ zzzyk.com###Tinfo
 ||btrace.video.qq.com/kvcollect^
 ||btrace.video.qq.com^
 ||btschool.net/images/*/HDYGR
-||btsow.mom/app/jav$image
 ||btsow.motorcycles/app/javu$image
 ||btstatic.com^$third-party
 ||btstats.benakt.com^
@@ -70889,8 +70880,6 @@ zzzyk.com###Tinfo
 ||dynatrace.att.com^
 ||dynatrace.com^$domain=~dynatracelabs.com|~dynatrace.com
 ||dynatrace.com^$third-party,domain=~dynatracelabs.com
-||dyncdn.me/static/20/js/expla$script
-||dyncdn.me/static/20/js/showads.js$script
 ||dyntrk.com^$third-party
 ||dyo.gs/Webservices/jsParseLinks.aspx$script,third-party
 ||dyo.gs/visitScript/$script,third-party
@@ -82197,6 +82186,7 @@ zzzyk.com###Tinfo
 ||ios1-1-6.tt.omtrdc.net^
 ||ios118-3.prod.cloud.prod.cloud.tt.omtrdc.net^
 ||iosppk.com^
+||iossdok.com^
 ||ioswhi.com^
 ||iot-business.vodafone.com^
 ||iot-eu-logser.realme.com^
@@ -86320,6 +86310,7 @@ zzzyk.com###Tinfo
 ||lkcxde.miliboo.de^
 ||lkdhlp.xyz^
 ||lkdybkwi.xyz^
+||lkenflknkd.com^
 ||lkidke.com^
 ||lkj23jlkajsa.realestate.help^
 ||lkjbrd.signals.com^
@@ -115451,6 +115442,7 @@ zzzyk.com###Tinfo
 ||tigtag.com/images/*1000x
 ||tigtag.com/images/pic1/
 ||tigtag.com/styles/phpcms/js/tigtag/ads.js
+||tiiepofl.xyz^
 ||tiimg.com^$domain=678cn.com
 ||tijd.be/fb/?
 ||tijd.be/fb2?
@@ -126389,6 +126381,7 @@ zzzyk.com###Tinfo
 ||xiexingcun.com/tongji.js
 ||xiexingcun.com/tyong.js
 ||xiezhuo038.cn^
+||xiiepofl.xyz^
 ||xilele.com^
 ||xilofr.xyz^
 ||ximit8023.maijijo.com^
