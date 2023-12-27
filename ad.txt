@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-12-27 02:12:58
-! Total count: 128440
+! Version: 2023-12-27 08:49:40
+! Total count: 128455
 
  
 ###AdBlockDialog
@@ -9332,6 +9332,8 @@ apk.tw#?#body > div:has(> div[class^="yap-ad-"])
 apk.tw#@##google_ad
 apk.tw#@#.ad300
 apk.tw#@#.google_ad
+apkcombo.com##.diseanmevrtt
+apkcombo.com##[data-d-ad-id]
 apkmirror.com##script:contains(canRunAds = false)
 apkmirror.com#@#.adsbygoogle
 apkpure.com#%#//scriptlet('set-constant', '$$.analytics', 'emptyObj')
@@ -33454,6 +33456,7 @@ heartinkstone.pixnet.net###spotlight
 hefei.cc##.bbs_app_fk > a:first-child
 hehagame.com##.webad_bottom
 hehagame.com##.webad_right
+heho.com.tw##div[id^="heho-ml-"]
 heiguang.com##.pbAddPic
 heiguang.com##.syAdTopTxt
 heiliao346.pro###post-card-1234,#post-card-518,#post-card-1000,#post-card-666,#post-card-1588,#post-card-1555,#post-card-1118,#post-card-618,#post-card-888,#post-card-999
@@ -33879,6 +33882,7 @@ huya.com###huya-ab
 huya.com###huya-ab-fixed
 huya.com###hy-ad,#hy-ab,#huya-ab
 huya.com###player-download-guide-tip
+huya.com###template
 huya.com##.J_ad
 huya.com##.end-ab-banner
 huya.com##.end-ab-wrap
@@ -33892,6 +33896,7 @@ huya.com##.small-handle-tip
 huya.com##.tip-bg-common-new.diy-activity-icon-bubble-tips
 huya.com##.tt[style*="1200px"]
 huya.com##.wrap-income.chat-wrap-panel
+huya.com##A[data-edesc='点击/推荐/左侧导航推荐图']
 huya.com##div[class*="NavDownload"]
 hxcpp13.com###player-bottom-ads
 hxnews.com##.banner-90
@@ -41049,6 +41054,7 @@ tw.yahoo.com###util-top-promotion
 tw.yahoo.com##.travelads
 tw.yahoo.com##[class*="has-beacon-click"][data-wf-beacons^="https://*.gemini.yahoo.com/"]
 tw.yahoo.com##div[id^="applet_p_"][class^="dealstdv2wafer"]
+tw100s.com##div[class="ui_adblock"]
 tw116.com###t365
 twavking.com##.da_single_video
 tweakers.net#%#//scriptlet('abort-current-inline-script', 'AbStats', 'trackId')
@@ -41833,7 +41839,6 @@ www.hardsextube.com##.right-col.right
 www.hbhtyl.com##P[style^='width: 100% !important; margin: 0p']
 www.huadongty.com##DIV[id$=' img-containers']
 www.huadongty.com##SECTION
-www.huya.com##A[data-edesc='点击/推荐/左侧导航推荐图']
 www.hzw.com.cn##.xfb_close_icon,#xfb_lbox,.xfb_close_btn
 www.itdog.cn##IMG[src^='/upload/images/'][width='270'][height='80'],.gg_link,.top_link_hidden,[src$='.gif']
 www.itdog.cn#%#window.alert=function(str){return}
@@ -43794,6 +43799,7 @@ zzzyk.com###Tinfo
 ||1rertoad-lon.tt.omtrdc.net^
 ||1s8pj.cn^$third-party
 ||1sa.trkrt.sakk7tk.com^
+||1sk27.fun^
 ||1stparty.equifax.co.uk^
 ||1t24.com^$third-party
 ||1tdt5tjcprp.tt.omtrdc.net^
@@ -60613,6 +60619,7 @@ zzzyk.com###Tinfo
 ||bustlinganimal.com^
 ||bustlingbath.com^
 ||bustlingbook.com^
+||busuanzi.ibruce.info^$third-party
 ||butlercc.actonservice.com^
 ||butterbulb.com^
 ||butterburst.com^
@@ -68601,6 +68608,7 @@ zzzyk.com###Tinfo
 ||dbnsd2viud.xyz^
 ||dbnwlp.xyz^
 ||dbpbyh.americanas.com.br^
+||dbpxivi.xyz^
 ||dbs.tt.omtrdc.net^
 ||dbseschenker.tt.omtrdc.net^
 ||dbsgsmc.tt.omtrdc.net^
@@ -69268,6 +69276,7 @@ zzzyk.com###Tinfo
 ||dfepm.xyz^
 ||dffrahax.com^
 ||dffy.com/static/popUp.
+||dfg6.top^
 ||dfghaqea.xyz^
 ||dfgpifa.com^
 ||dfgwer.com^
@@ -72438,6 +72447,7 @@ zzzyk.com###Tinfo
 ||engineering-dbmsminerva-pr.tt.omtrdc.net^
 ||engineering.com/scripts/$script,domain=eng-tips.com
 ||engineering.tt.omtrdc.net^
+||engineerscodex.com^$cookie=visit_id
 ||engineertrick.com^
 ||enginey.altex.ro/events/
 ||englishpic.tt.omtrdc.net^
@@ -83124,6 +83134,7 @@ zzzyk.com###Tinfo
 ||jjztrz.xyz^
 ||jk.marketingmaths.com^
 ||jkasn.com^
+||jkbdpp.xyz^
 ||jke1.jianke.com^
 ||jkizha.theshoecompany.ca^
 ||jklhs7u.com^
@@ -84394,6 +84405,7 @@ zzzyk.com###Tinfo
 ||koolearn.com/zt/poster_js/$domain=~www.koolearn.com
 ||kopde.xyz^
 ||kopsil.com^$third-party
+||koqsxdpx.xyz^
 ||kor.aetv.hb.tt.omtrdc.net^
 ||kordkuncigitar.tt.omtrdc.net^
 ||korea-mock.hb-fa-stage.tt.omtrdc.net^
@@ -94987,6 +94999,7 @@ zzzyk.com###Tinfo
 ||o.otrestaurant.com^
 ||o.phb123.com^
 ||o.swisscom.ch^
+||o.techmaniak.pl^$image
 ||o.therosettastone.es^
 ||o.webmd.com^
 ||o.www.tt.omtrdc.net^
@@ -121931,6 +121944,7 @@ zzzyk.com###Tinfo
 ||uuu9.com/s.php?
 ||uuu9.tieba.com^$subdocument
 ||uuuxyjh.cn^
+||uuuzuu.xyz^
 ||uuxfznnf.xyz^
 ||uuxs.net^$subdocument
 ||uuzsfpju.xyz^
@@ -124774,6 +124788,7 @@ zzzyk.com###Tinfo
 ||wqmgqm.xyz^
 ||wqmobile.com^
 ||wqnggnse.fun^
+||wqnwdjjc.xyz^
 ||wqshui.com^
 ||wqudcv.finnishdesignshop.com^
 ||wqvbuj.icu^
