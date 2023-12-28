@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-12-28 02:12:57
-! Total count: 128468
+! Version: 2023-12-28 08:49:44
+! Total count: 128492
 
  
 ###AdBlockDialog
@@ -7777,6 +7777,7 @@ $websocket,domain=5nj.com|cechi8.com
 1905.com##.zx-pic
 1905.com##.zx-small-pic
 1905.com,news.ltn.com.tw,commonhealth.com.tw,health.tvbs.com.tw,idreamx.com,xchina.co,99kubo.tv,manhuafen.com##.ad
+1909.me,8se.me,crxs.me,litu100.xyz,xchina.biz,xchina.co,xchina.pro##.push-top
 1909.me,8se.me,litu100.xyz,xchina.biz,xchina.co,xchina.pro##.push-top
 199it.com,softwarebrother.com##.adsbygoogle
 19lou.com##.ad-980x40
@@ -34267,12 +34268,14 @@ inside-games.jp##.cx-subhead
 instacart.com#$#hide-if-matches-xpath './/img[@alt="Sponsored"][contains(@src,"spoonsored_")]/parent::div[1]'; hide-if-matches-xpath './/div[@class]/span/preceding::img[contains(@src,"image_display_banner")][contains(@alt,"Silk")][not(@type)][not(@srcset)]/ancestor-or-self::section[1]'
 instacart.com,instacart.ca#$#abort-on-property-write window.ADBLOCK_DETECTED
 instacart.com,instacart.ca#$#hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' li 'li div[aria-label="Product"]'
+instacart.com,instacart.ca#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/preceding::a[@class][contains(@href,"interaction_id")]/ancestor-or-self::div[@id and @class][1][not(@id="store-wrapper") and not(@id="js-app")]'
 instacart.com,instacart.ca#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::div[@id="Featured Items"]'
-instacart.com,instacart.ca#$#hide-if-matches-xpath './/div[count(child::*[text()])=2]/parent::div/ancestor::article[@id and @class]'; hide-if-matches-xpath './/span[count(child::*[text()])=2]/parent::button/ancestor::article[@id and @class]'
+instacart.com,instacart.ca#$#hide-if-matches-xpath './/div[count(child::*[text()])=2]/parent::div/ancestor::article[@id and @class]'
 instacart.com,instacart.ca#$#hide-if-matches-xpath './/div[count(child::span[@style and text()])=2]/parent::div//div[@class][(text()="Picked For You")]/ancestor::div[@class][2]'
 instacart.com,instacart.ca#$#hide-if-matches-xpath './/div[count(child::span[@style and text()])=2]/parent::div//div[contains(text(),"Recommended for you")]/ancestor::div[@class][1]/ancestor::div[@class][1]'
 instacart.com,instacart.ca#$#hide-if-matches-xpath './/span[text()]/preceding::div[@aria-hidden="true"]/preceding::source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/ancestor::*[@id][@class][1]'
-instacart.com,instacart.ca#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-rp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-qp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-vp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-tp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-up-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-vvp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-vvvp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
+instacart.com,instacart.ca#$#hide-if-matches-xpath './/video[@disablepictureinpicture]/ancestor-or-self::div[contains(@id,"video-player")]/ancestor::div[@id][@class][1][not(@id="store-wrapper") and not(@id="js-app")]'
+instacart.com,instacart.ca#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-rp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-qp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-vp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-tp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-up-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-vvp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-vvvp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-fp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-ap-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
 instagram.com#$#race start; hide-if-contains-visible-text '/Anzeige|Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/' 'article[class]>div[class]'; hide-if-matches-xpath '//article[@class]//span[text()]//following::a[contains(@class,"_ad")][contains(@href,"facebook.com/ads/ig_redirect/?")]/ancestor::div[5]'; hide-if-has-and-matches-style * 'article[class]~*>div' 'article[class]~*>div>div span:last-of-type *>svg[style]' '/./' '/(width: [2-9])/'; race stop;
 instantmanga.com###notice
 instrument.com.cn###leftFlash
@@ -36635,6 +36638,7 @@ live.gtcaster.com###bbb
 live.gtcaster.com##[id^="adc"]
 live.townsquaremedia.info$image
 live.win007.com###notify > a[target="_blank"]
+liveball.cc,liveball.uno#$#abort-on-property-read ABNS
 livedoor.biz,ldblog.jp#?#.plugin-memo > div.side > a[href$="ziyu.net/"]:upward(2)
 liveforums.ru#$#abort-on-property-read tnAdditionalParams
 livemint.com#%#//scriptlet('set-constant', 'dapTracker', 'emptyObj')
@@ -38672,6 +38676,7 @@ pharmnet.com.cn##.ad9502
 phimdinhcao.net,phimlongtieng.net,phimdinhcao.com#$#abort-on-property-read localStorage
 phimgichill.net#$#abort-current-inline-script jQuery popurl;abort-current-inline-script document.createElement script
 phimmoi4s.com#$#json-prune ads;abort-current-inline-script setTimeout click_time
+phimvietsub.pro,api.anime3s.com,subnhanh.xyz#$#override-property-read maxAds 0
 phimvuihd.org#$#override-property-read urlAds ''
 phonearena.com##.adblock_awareness
 photolessons.org###modal-adbmon-div
@@ -40490,7 +40495,7 @@ tgfcer.com#@##content_adv
 th-sjy.com##.banner-post
 th7.cn###PcPoPmarket
 th7.cn##.main > .mb5
-thapcam.live#$#simulate-mouse-event '#modalasd$continue,delay=300'
+thapcam2.live#$#simulate-mouse-event '#modalasd$continue,delay=300'
 the-ans.jp##.side-reccomend
 the-japan-news.com#%#//scriptlet('set-cookie-reload', 'fp', '1')
 the-sun.on.cc#@##ContentAd1
@@ -41369,7 +41374,7 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gomovieshub.io,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.pw,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.tube,ungtycomicsvip.com,truyengihotqua.net,dualeotruyenww.com,yurineko.net,vlxyz.tv,javhay.media,phimsexhay669.co,cliphot69.biz,doctruyen3qvn.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.com,sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motchill.net.in#$#abort-current-inline-script WebAssembly instantiate
+viet69.tube,ungtycomicsvip.com,truyengihotqua.net,dualeotruyenww.com,yurineko.net,vlxyz.tv,javhay.media,phimsexhay669.co,cliphot69.biz,doctruyen3qmoi.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.com,sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motchillzz.in#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com##div[class^="infinite-comment-list_subText"]
 view.inews.qq.com##div[class^="interaction-bottom_interaction"]
 view.inews.qq.com##div[class^="justify-text_showMore"]
@@ -42377,6 +42382,7 @@ yzz.cn###video_ff
 yzzk.com##.promo
 z0r.de##.adb
 z4a.net
+zab.ru#$#abort-on-property-read document.body.style
 zakon.kz##.adblock_alert
 zarabiajnaokazjach.pl#@##adsense
 zavporn.net##.opt
@@ -46276,6 +46282,7 @@ zzzyk.com###Tinfo
 ||9ist.com/others/ad/
 ||9itan.cc^
 ||9j5e.top^
+||9j9zo.cyou^
 ||9js6.icu^
 ||9jsp.com/pay.png
 ||9k9k.com/jscode/js/
@@ -51250,6 +51257,7 @@ zzzyk.com###Tinfo
 ||addtoany.com/menu/transparent.gif
 ||addwish.com^$third-party
 ||ade.deskstyle.info^
+||ade.googlesyndication.com^
 ||ade.hirose-fx.co.jp^
 ||ade.jfx.co.jp^
 ||ade3.b.tt.omtrdc.net^
@@ -54262,6 +54270,7 @@ zzzyk.com###Tinfo
 ||analytics.greensender.pl^$third-party
 ||analytics.groupe-seb.com^
 ||analytics.growthphysics.com^
+||analytics.gtechgroup.it^
 ||analytics.gtflixtv.com^
 ||analytics.gvim.mobi^
 ||analytics.hambleden-capital.com^
@@ -62513,6 +62522,7 @@ zzzyk.com###Tinfo
 ||clhzet.ubierzswojesciany.pl^
 ||cli2020.com^$third-party
 ||click-ang4.tt.omtrdc.net^
+||click-performance.assets.rndtech.de^
 ||click-plus.net^
 ||click-staging.food.mercato.com^
 ||click-staging.getdreams.co^
@@ -63538,6 +63548,7 @@ zzzyk.com###Tinfo
 ||collector.xhamster.com^
 ||collector.xhamster.desi^
 ||collector.xhamster2.com^
+||collector.xhamster3.com^
 ||collector.xhwide1.com^
 ||collector.xhwide8.com^
 ||collector1.afreecatv.com^
@@ -73157,6 +73168,7 @@ zzzyk.com###Tinfo
 ||events2.www.edenfantasys.com^
 ||events3alt.adcolony.com^
 ||eventsapi.grocerkey.com^$third-party
+||eventsink.api.redbee.live^
 ||eventsproxy.gargantuan.futureplc.com/future.adtech.freyr.v1.PageViewEvent
 ||eventsproxy.gargantuan.futureplc.com^
 ||eventstream.dodopizza.com^
@@ -75927,6 +75939,7 @@ zzzyk.com###Tinfo
 ||ggs.myzaker.com^
 ||ggsel.com/js/download/analytics.js
 ||ggsfq.xyz^$third-party
+||ggsnyc.xyz^
 ||ggtp-1255424916.cos.ap-chengdu.myqcloud.com^
 ||ggw.gusuwang.com^
 ||ggw.watertu.com^
@@ -78577,6 +78590,7 @@ zzzyk.com###Tinfo
 ||highlights-schadenmanager.schwacke.de^
 ||highlights-schwackenet.schwacke.de^
 ||highmetrics.com^$third-party
+||highway.cablecar.sph.com.sg^
 ||highwebmedia.com/CACHE/js/output.92c98302d256.js
 ||highwebmedia.com/CACHE/js/output.ed5f5a28fb27.js
 ||highwoods.actonservice.com^
@@ -84302,6 +84316,7 @@ zzzyk.com###Tinfo
 ||knapia.weightwatchers.com^
 ||knbtpty.xyz^
 ||kncrya.xyz^
+||knfhxszj.xyz^
 ||knhmgn.com^
 ||knifepointhorror.tt.omtrdc.net^
 ||knitstamp.com^
@@ -99353,6 +99368,7 @@ zzzyk.com###Tinfo
 ||ptmind.com^$third-party
 ||pto-slb-09.com^$third-party
 ||ptouat.wahoofitness.com^
+||ptppcyg.xyz^
 ||ptracker.nurturehq.com^
 ||ptrenx.vidaxl.com.au^
 ||ptrk-wn.com^$third-party
@@ -100828,6 +100844,7 @@ zzzyk.com###Tinfo
 ||redbaby.hk^
 ||redbclk.getredboostsite.today^
 ||redbclk.redboostonline.site^
+||redbee.serverside.ai^$image
 ||redbingclk.redboostshopnow.online^
 ||redbooks.actonservice.com^
 ||redbox.tt.omtrdc.net^
@@ -101651,6 +101668,7 @@ zzzyk.com###Tinfo
 ||rmws8.com^
 ||rmzbfum.cn^
 ||rnajhyd.xyz^
+||rnd.de^$cookie=__vads
 ||rndhaunteran.com^
 ||rnengage.com^$third-party
 ||rnet.plus^$third-party
@@ -102027,6 +102045,7 @@ zzzyk.com###Tinfo
 ||rudderlabs.com^$third-party
 ||ruddycast.com^
 ||ruddywash.com^
+||rudenx.xyz^
 ||rugao35.com/Public/config/Couplet/Index
 ||ruguoapp.com^$domain=aixiaoju.com
 ||ruhpbn.zhigaojixie.com^
@@ -104159,7 +104178,7 @@ zzzyk.com###Tinfo
 ||securepaths.com^$third-party
 ||secureprovide1.com/*=tracking$image
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=line.me,important
-||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=~golf.com|~today.line.me|~inmuebles24.com|~inside.com.tw|~investing.com|~olx.com.eg|~heycar.co.uk
+||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=~golf.com|~today.line.me|~inmuebles24.com|~inside.com.tw|~investing.com|~olx.com.eg|~eksisozluk111.com|~heycar.co.uk
 ||secureserver.net/t/
 ||securestats.cafepress.com^
 ||securestats.callawaygolf.com^
@@ -109484,6 +109503,7 @@ zzzyk.com###Tinfo
 ||spcode.baidu.cn^
 ||spcode.baidu.com^
 ||speakgrandfather.com^
+||spearad.video^$third-party
 ||speasus5.tt.omtrdc.net^
 ||spec-sensors.actonservice.com^
 ||spechy.live/spechyAnalytics/spcwganalytic.js
@@ -112612,6 +112632,7 @@ zzzyk.com###Tinfo
 ||streamnoads.com/stat/
 ||streamoptim.com/log.js
 ||streamoptim.com/log/report?
+||streams.cablecar.sph.com.sg^
 ||streamsend.com^$third-party
 ||streamstats.prd.dlive.tv^
 ||streamta.pe/stat/
@@ -119535,6 +119556,7 @@ zzzyk.com###Tinfo
 ||tracking2.lenovo.com^
 ||tracking2.questdiagnostics.com^
 ||tracking202.com^$third-party
+||tracking24.net^
 ||tracking3.labcorp.com^
 ||tracking3.lenovo.com^
 ||tracking3.vnncdn.net^
@@ -124894,6 +124916,7 @@ zzzyk.com###Tinfo
 ||wtm.monitoringservice.co^$third-party
 ||wtmtrack.com^$third-party
 ||wtp101.com^$third-party
+||wtr-digital-analytics.ew.r.appspot.com^
 ||wtradv.market.xiaomi.com^
 ||wts.one^$third-party
 ||wts2.one^$third-party
@@ -128100,6 +128123,7 @@ zzzyk.com###Tinfo
 ||zkbsvx.xyz^
 ||zkc5.fleurancenature.fr^
 ||zkdmdf.xyz^
+||zkfojr.xyz^
 ||zkmhhr1fr79z.dictionary.basabali.org^
 ||zkzpgz.icu^
 ||zlbcxr.xyz^
