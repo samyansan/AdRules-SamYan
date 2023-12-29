@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-12-29 02:13:12
-! Total count: 128507
+! Version: 2023-12-29 08:40:43
+! Total count: 128515
 
  
 ###AdBlockDialog
@@ -7779,7 +7779,6 @@ $websocket,domain=5nj.com|cechi8.com
 1905.com##.zx-small-pic
 1905.com,news.ltn.com.tw,commonhealth.com.tw,health.tvbs.com.tw,idreamx.com,xchina.co,99kubo.tv,manhuafen.com##.ad
 1909.me,8se.me,crxs.me,litu100.xyz,xchina.biz,xchina.co,xchina.pro##.push-top
-1909.me,8se.me,litu100.xyz,xchina.biz,xchina.co,xchina.pro##.push-top
 199it.com,softwarebrother.com##.adsbygoogle
 19lou.com##.ad-980x40
 19lou.com##.editor-ad
@@ -10389,7 +10388,6 @@ caoporn.com##.container + #wrapper:not(.container)
 caoporn.com##.jw-icon-replay-contain > div[style^="display: block; position: absolute; background-color: white; width:"]
 caoporn.com##div[style="height:160px; max-width:100%; width:945px; padding-top:10px; margin:0px auto;"]
 capital.fr,voici.fr,gala.fr#%#//scriptlet('set-constant', 'DD_RUM.addTiming', 'noopFunc')
-capital.it#%#//scriptlet('prevent-element-src-loading', 'script', 'static.chartbeat.com/js/chartbeat_brightcove_plugin.js')
 cardu.com.tw###crazy_layer
 cardu.com.tw##.diamond-txt-ad
 cardu.com.tw##.gold-big-ad
@@ -11145,7 +11143,6 @@ crsky.com##.ml10.Gs_d
 crsky.com##a[href^="http://count."][href$=".exe"]
 crunchyroll.com#$#json-prune 'value.media.ad_breaks'
 crx4.com,galacg.me,moneyweekly.com.tw###carousel-example-generic
-crxs.me##.push-top
 crypto-clix.net#@#.ad-block
 crypto-clix.net#@#.ad-content
 crypto-clix.net#@#.ad-footer
@@ -32565,6 +32562,7 @@ firefoxchina.cn##div[trace-key="mh_channel_rec_tpth"]
 firefoxchina.cn##ul[track-key="adv_links"]
 firefoxchina.cn,hao123.com,muzhi.baidu.com##.bottom-banner
 firefoxchina.cn,taoyitu.com##.float-banner
+firmwaredrive.com#%#setTimeout(function() { var el = document.querySelector('input[name="dfp"]'); if(el){el.value = '1234567890123456';} }, 300);
 firstrowas.co###ad_overlabut
 firstrowfr.eu###adblockplus
 firstrowfr.eu###fanback
@@ -40934,7 +40932,7 @@ truyen-hentai.com#$#hide-if-matches-xpath './/*[@class]/ancestor-or-self::div[co
 truyen2u.net#$#abort-current-inline-script eval
 truyen35.vn#$#abort-current-inline-script jQuery click_ads
 truyenqqvn.com#$#abort-current-inline-script document.addEventListener window.open
-truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.io,sieudamtv.net,ephimchill.com,motphimhan.cc,maclife.io,ophimhdvn3.net#$#abort-on-property-read document.cookie
+truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.io,sieudamtv.net,ephimchill.com,motphimhan.cc,maclife.io,ophimhdvn3.net,thuvienhd.xyz#$#abort-on-property-read document.cookie
 truyentuan.com#$#abort-current-inline-script $ btpop
 tsdm.live###ts_sidebar_base
 tsubasa.im#%#//scriptlet('prevent-setInterval', '/home/?adblock=')
@@ -41212,7 +41210,9 @@ v.baidu.com##div[id^="adv_asp_"]
 v.baidu.com,v.duba.com##div[id*="categoryPageColumn"]
 v.ifeng.com##.keyword
 v.pptv.com###video-download-game
+v.qq.com###iwan-gamependant-page
 v.qq.com###pc_client > .quick_link
+v.qq.com##.game-switch-ad
 v.qq.com##.module-image[style*="width:1100px;"]
 v.qq.com##.module-image[style*="width:1240px;"]
 v.qq.com##.nav_link[href^="http"]:not([href*=".qq."])
@@ -41375,7 +41375,7 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gomovieshub.io,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.pw,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.tube,ungtycomicsvip.com,truyengihotqua.net,dualeotruyenww.com,yurineko.net,vlxyz.tv,javhay.media,phimsexhay669.co,cliphot69.biz,doctruyen3qmoi.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.com,sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motchillzz.in#$#abort-current-inline-script WebAssembly instantiate
+viet69.tube,ungtycomicsvip.com,truyengihotqua.net,dualeotruyenww.com,yurineko.net,vlxyz.tv,javhay.media,phimsexhay669.co,cliphot69.biz,doctruyen3qmoi.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.com,sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motchillzz.in,truyenvnhay.tv#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com##div[class^="infinite-comment-list_subText"]
 view.inews.qq.com##div[class^="interaction-bottom_interaction"]
 view.inews.qq.com##div[class^="justify-text_showMore"]
@@ -45480,6 +45480,7 @@ zzzyk.com###Tinfo
 ||5nj.com/js/cnzz33.js
 ||5pub.com^
 ||5py1.xyz^
+||5q7eb.website^
 ||5qlxlftm5tht.tt.omtrdc.net^
 ||5r562.cn^
 ||5rpmon.tt.omtrdc.net^
@@ -55354,6 +55355,7 @@ zzzyk.com###Tinfo
 ||api.irishrail-aa-test.tt.omtrdc.net^
 ||api.irishrail-s.tt.omtrdc.net^
 ||api.itaoxiaoshuo.com^
+||api.iterable.com^
 ||api.iterative.ly^
 ||api.j4.tt.omtrdc.net^
 ||api.kanriotasuke.tt.omtrdc.net^
@@ -59639,6 +59641,7 @@ zzzyk.com###Tinfo
 ||bls7101.ddns.tt.omtrdc.net^
 ||blsenpg.cn^
 ||blsoof.wirwinzer.de^
+||blthwbe.xyz^
 ||blti.next.tt.omtrdc.net^
 ||blue-rain.com.cn^
 ||blue-rocket.actonservice.com^
@@ -74604,7 +74607,6 @@ zzzyk.com###Tinfo
 ||foxpush.com^$third-party
 ||foxpush.net^$third-party
 ||foxsports.com.au/akam/
-||foxsports.com/static/orion/js/segment-analytics.js
 ||foxsports.tt.omtrdc.net^
 ||foxt.actonservice.com^
 ||foxtel.tt.omtrdc.net^
@@ -77147,6 +77149,7 @@ zzzyk.com###Tinfo
 ||googletagmanager.com/gtm.js$script,domain=20minutes.ch|20min.ch
 ||googletagmanager.com/gtm.js$script,redirect=google-analytics,domain=cashconverters.com.au,important
 ||googletagmanager.com/gtm.js$script,redirect=google-analytics,domain=orami.co.id,important
+||googletagmanager.com/gtm.js$script,redirect=google-analytics,important,domain=m2o.it|deejay.it|capital.it
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=ads.spotify.com
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=animestore.docomo.ne.jp
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=arzum.com.tr
@@ -77958,6 +77961,7 @@ zzzyk.com###Tinfo
 ||handuwl.top^
 ||handyfield.com^
 ||handyfireman.com^
+||handyincrease.com^
 ||hangchen.icu^
 ||hangtuo.pub^
 ||hangzhouhdb.top^
@@ -84544,6 +84548,7 @@ zzzyk.com###Tinfo
 ||ktienld.top^
 ||ktkkt.com/js/tvb/
 ||ktla.com/CvbtpUrj/init.js
+||ktnwxhjv.xyz^
 ||ktolleh.tt.omtrdc.net^
 ||ktrackdata.com^
 ||ktracker.kumparan.com^
@@ -91127,6 +91132,7 @@ zzzyk.com###Tinfo
 ||metrics.gapcanada.ca^
 ||metrics.gazyva.com^
 ||metrics.gcimetrics.com^
+||metrics.geekwire.com^
 ||metrics.geelongadvertiser.com.au^
 ||metrics.genentech-access.com^
 ||metrics.genentech-forum.com^
@@ -91554,6 +91560,7 @@ zzzyk.com###Tinfo
 ||metrics.pico.tools^
 ||metrics.pinkribbonbottle.com^
 ||metrics.pisces-penton.com^
+||metrics.plaid.com^
 ||metrics.plusrewards.com.au^
 ||metrics.pmis.abbott.com^
 ||metrics.politico.com^
@@ -111118,6 +111125,7 @@ zzzyk.com###Tinfo
 ||static.bro.adca.st/ad*.html$subdocument
 ||static.canal-plus.net/*/trcking.min.js
 ||static.cdnativepush.com^
+||static.chartbeat.com/js/chartbeat_brightcove_plugin.js$script,redirect=noopjs,important,domain=m2o.it|deejay.it|capital.it
 ||static.chinatimes.com/scripts/2019/ad2019.min.js
 ||static.cloudflareinsights.com/beacon.min.js
 ||static.cloudflareinsights.com^
