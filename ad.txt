@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-12-30 02:13:03
-! Total count: 128542
+! Version: 2023-12-30 08:49:18
+! Total count: 128568
 
  
 ###AdBlockDialog
@@ -2112,6 +2112,7 @@ $cookie=actppresence
 $cookie=ad-id
 $cookie=adEdition
 $cookie=adcloud
+$cookie=adfmuid,domain=wp.pl
 $cookie=adrcid
 $cookie=adrdel
 $cookie=advcake_click_id
@@ -2126,6 +2127,7 @@ $cookie=ajs_anonymous_id
 $cookie=algolia-visitor-id
 $cookie=anj
 $cookie=anonDeviceId
+$cookie=apnxuid,domain=wp.pl
 $cookie=atidvisitor
 $cookie=atuserid
 $cookie=audit
@@ -2175,6 +2177,7 @@ $cookie=h_zdbb
 $cookie=ibbid
 $cookie=initialTrafficSource
 $cookie=initial_referrer,domain=duolingo.com|duolingo.cn
+$cookie=ixuid,domain=wp.pl
 $cookie=kampyleSessionPageCounter
 $cookie=kampyleUserPercentile
 $cookie=kampyleUserSession
@@ -2193,7 +2196,10 @@ $cookie=nQ_cookieId
 $cookie=nQ_userVisitId
 $cookie=nxt_last_visit
 $cookie=obuid
+$cookie=oftmediauid,domain=wp.pl
 $cookie=omni_visit_id
+$cookie=onetaguid,domain=wp.pl
+$cookie=openxmiud,domain=wp.pl
 $cookie=optimizelyEndUserId
 $cookie=outbrain_cid_fetch
 $cookie=pbjs-unifiedid
@@ -2216,6 +2222,8 @@ $cookie=remixscreen_width
 $cookie=remixscreen_winzoom
 $cookie=remixseenads
 $cookie=rsci_vid
+$cookie=rtbhouseuid,domain=wp.pl
+$cookie=rubiconuid,domain=wp.pl
 $cookie=ruid,domain=afisha.ru|eda.ru
 $cookie=rxVisitor
 $cookie=s_cc
@@ -2252,6 +2260,7 @@ $cookie=sharedId
 $cookie=sharedid
 $cookie=shopify_recently_viewed
 $cookie=siteMetrics
+$cookie=smartmiud,domain=wp.pl
 $cookie=sophiTrackerid.a05e
 $cookie=sophiTrackerses.a05e
 $cookie=sp_tgamid.a05e
@@ -2264,12 +2273,14 @@ $cookie=ss_cvisit
 $cookie=ss_cvr
 $cookie=ss_cvt
 $cookie=statid,domain=wp.pl|money.pl|o2.pl|pudelek.pl|komorkomania.pl|gadzetomania.pl|fotoblogia.pl|autokult.pl|abczdrowie.pl|parenting.pl|videostar.pl|autocentrum.pl|benchmark.pl
+$cookie=stroeercoreuid,domain=wp.pl
 $cookie=t_gid
 $cookie=taboola_fp_td_user_id
 $cookie=tb_click_param
 $cookie=tint-anonymous-uid,domain=leichtathletik.de
 $cookie=tmr_lvid
 $cookie=tmr_lvidTS
+$cookie=tpluid,domain=wp.pl
 $cookie=tqsdk_ssn
 $cookie=tqsdk_visitor
 $cookie=trackThisPage
@@ -2298,6 +2309,7 @@ $cookie=xtat
 $cookie=xtvrn
 $cookie=yTrackUser
 $cookie=yTrackVisit
+$cookie=yoc_visxuid,domain=wp.pl
 $cookie=yotpo_pixel
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
@@ -11553,6 +11565,7 @@ docs.cfw.lbyczf.com###推广
 docs.cfw.lbyczf.com###推广 + div.list
 docsmall.com##.modal-connection.show
 docsmall.com#%#//scriptlet("set-constant", "_AdBlockInit", "noopFunc")
+docsmall.com#@##google-ads
 doctorrouter.ru##.jgcabd-container
 dogedoge.com##.tag-home__item
 dogfight360.com#%#//scriptlet("abort-current-inline-script", "document.write", "document.write(ad);")
@@ -34902,6 +34915,7 @@ jq22.com##.fdad
 jqzb.com.cn##.zk_xf
 jr.jd.com###app-jr
 jr.jd.com##.app.ui-sidebar-block
+jrhokkaido.co.jp#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'pt_enable')
 jrj.com.cn###comment > a:first-child
 jrj.com.cn##.bd.pa10.bgn
 jrj.com.cn##.jrj-ad
@@ -38732,8 +38746,9 @@ pinshan.com##.b_adv
 pinshan.com##.b_adv2
 pinshan.com##.b_taobao
 pinshan.com##.bea_adv2
+pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#$#hide-if-contains-visible-text /Promoted/ 'div[role="listitem"][role][style]' 'div[data-test-id="pin"]' 'content: "Promoted by";' 'font-weight: 600;'
 pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#$#hide-if-matches-xpath './/div[@title][contains(text(),"Sponsorisée") or contains(text(),"Anzeige") or contains(text(),"Promocionado") or contains(text(),"Gesponsord") or contains(text(),"Promowane") or contains(text(),"Patrocinado") or contains(text(),"Publicidade") or contains(text(),"Sponsorizzato")]/ancestor::div[@data-test-id="pin"]';
-pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#$#race start; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//following-sibling::div[@style]//div[contains(@style,"margin-bottom: 2px")]//div[contains(@class,"op")]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]' ;hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//style/parent::div/child::div/ancestor::div[@data-test-id="pin"]/ancestor::div[@role="listitem"][@style]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class][@style][count(child::*)>=10]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class][@style]//span//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//following-sibling::div[@style]//div[contains(@style,"margin-bottom: 2px")]//div[contains(@class,"promotedby")]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//following-sibling::div[@style]//div[contains(@style,"margin-bottom: 2px")]//div[contains(@class,"promo")]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; race stop;
+pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#$#race start; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//style/parent::div/child::div/ancestor::div[@data-test-id="pin"]/ancestor::div[@role="listitem"][@style]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class][@style][count(child::*)>=10]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class][@style]//span//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//following-sibling::div[@style]//div[contains(@style,"margin-bottom: 2px")]//div[contains(@class,"promotedby")]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//following-sibling::div[@style]//div[contains(@style,"margin-bottom: 2px")]//div[contains(@class,"promo")]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; race stop;
 pioneer.eu#%#//scriptlet('remove-attr', 'onclick', 'a[href][onclick^="trackOutboundLink"]')
 pipi.cn#@#.ad-root
 piratia.su###block-warning
@@ -40457,6 +40472,7 @@ techbang.com##.post-side > .related-article
 techbang.com##.techbang_i_m_970x250_1
 techbang.com##div[class^="techbang_inline_"]
 techmaniachd.pl###sidebar-right-1 > #HTML6
+technews.tw##.inside_AD
 technologypep.com##.main-container-wrap > div[class$="-bg"]
 technologypep.com##.main-container-wrap > div[id][class][style*="opacity"]
 techonthenet.com###sabl
@@ -54840,6 +54856,7 @@ zzzyk.com###Tinfo
 ||android9-13-0.prod.cloud.prod.cloud.tt.omtrdc.net^
 ||androidauthority.com/track?u=
 ||androidfilehost.com/libs/otf/stats.otf.php?
+||androidpolice.com/an-strpixel.png
 ||androidpolice.com/pixel.png?
 ||andyhoppe.com/count/
 ||andyhoppe.com^$third-party
@@ -55330,6 +55347,7 @@ zzzyk.com###Tinfo
 ||api.ffm.to/sl/e/$image
 ||api.flocktory.com^
 ||api.flyaa13.flyaa.tt.omtrdc.net^
+||api.fool.com/*/events
 ||api.foursquare.com/*/logactions
 ||api.fuck.education^
 ||api.fw.tv/embed/
@@ -56797,7 +56815,7 @@ zzzyk.com###Tinfo
 ||assets-prod.sumo.prod.webservices.mozgcp.net/static/gtm-snippet.
 ||assets-stationpos.tt.omtrdc.net^
 ||assets.adobedtm.com^$app=com.aa.android
-||assets.adobedtm.com^$domain=mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|euronews.com|newshub.co.nz|fredmeyer.com|viabcp.com|carsales.com.au|falabella.com|aarp.org|thehill.com|realtor.com|nzherald.co.nz|aia.com.ph
+||assets.adobedtm.com^$domain=mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|euronews.com|newshub.co.nz|fredmeyer.com|viabcp.com|carsales.com.au|falabella.com|aarp.org|thehill.com|realtor.com|nzherald.co.nz|aia.com.ph|baynews9.com
 ||assets.adsttc.com/insights/form-funnel.min.js
 ||assets.adsttc.com/insights/tracker.js
 ||assets.alicdn.com/g/alilog/aplus_plugin_xwj/index.js
@@ -57004,6 +57022,7 @@ zzzyk.com###Tinfo
 ||atlas-api-docs.tt.omtrdc.net^
 ||atlas-lb.buh.tt.omtrdc.net^
 ||atlas.r.akipam.com^
+||atlas.rambler.ru/metrics
 ||atlas.samsung.com/dls2/dtransf/wl?
 ||atlas.tt.omtrdc.net^
 ||atlas1.krone.at^
@@ -78043,6 +78062,7 @@ zzzyk.com###Tinfo
 ||haoyundm.com^
 ||haoyundmtaotao.com^
 ||hapic1.zhuangxiu22.com^
+||haplesshydrant.com^
 ||haplessland.com^
 ||happen.spkt.io^
 ||happenhistory.com^
@@ -79750,6 +79770,7 @@ zzzyk.com###Tinfo
 ||id.rambler.ru/api/v3/session/getRsidx
 ||id.rambler.ru/login-20/counters.js
 ||id.verticalhealth.net/script.js?partnerid=
+||id.x5.ru^$referrerpolicy=origin
 ||id.yhs4.search.tt.omtrdc.net^
 ||id5-sync.com^
 ||id5-sync.com^$third-party
@@ -83013,6 +83034,7 @@ zzzyk.com###Tinfo
 ||jhlazsot.icu^
 ||jhm3.ifgexecutive.com^
 ||jhmkopen.minortom.net^
+||jhpbtp.xyz^
 ||jhr.jacksonhealthcare.com^
 ||jhrewn.venezia.pl^
 ||jhvchv.xyz^
@@ -83405,7 +83427,6 @@ zzzyk.com###Tinfo
 ||jrclick.jd.com^
 ||jrds.net.cn^
 ||jreastviewtravelserv.tt.omtrdc.net^
-||jrhokkaido.co.jp/*/ga.js
 ||jrj.com.cn/h5Ad?
 ||jrj.com.cn/s?z=
 ||jrjimg.cn/ad/
@@ -84549,6 +84570,7 @@ zzzyk.com###Tinfo
 ||ksrgsc.xyz^
 ||ksta.met.vgwort.de^
 ||kstj.baidu.com^
+||ksvkfwth.xyz^
 ||ksyrium0014.com^$third-party
 ||kszpsc.waschbaer.ch^
 ||kszvmqo.cn^
@@ -89830,6 +89852,7 @@ zzzyk.com###Tinfo
 ||mc.webvisor.com^
 ||mc.webvisor.org^
 ||mc.yandex.com^
+||mc.yandex.ru/metrika/tag.js$script,redirect=metrika-yandex-tag,domain=~id.x5.ru|~aiondb.ru
 ||mc.yandex.ru/metrika/watch.js$script,redirect=metrika-yandex-watch
 ||mc.yandex.ru^
 ||mc.yandex.ru^$cookie=yabs-sid
@@ -101922,6 +101945,7 @@ zzzyk.com###Tinfo
 ||rsv.dankore.jp^
 ||rsv.pairorder.jp^
 ||rsvd-zw2wmwo4trqxhnqq.tt.omtrdc.net^
+||rsvkfwth.xyz^
 ||rsvp.heatexperience.com^
 ||rsvp.markettraders.com^
 ||rsvpgenius.com^$third-party
@@ -103628,7 +103652,6 @@ zzzyk.com###Tinfo
 ||sdk.appsflyer.com^
 ||sdk.cferw.com^
 ||sdk.conscent.in^$third-party
-||sdk.fra-*.braze.eu^
 ||sdk.m.youku.com^
 ||sdk.mrf.io/statics/marfeel-sdk.js
 ||sdk.qvol.tv/static/assets/vendor/yandex_metrica.js
@@ -103663,6 +103686,7 @@ zzzyk.com###Tinfo
 ||sdvfvgj.cn^
 ||sdvsv.com^
 ||sdwww13.tt.omtrdc.net^
+||sdxzqec.xyz^
 ||sdzbcg.com/images/sdfhyl
 ||sdzhongke.cn^
 ||se-go.experian.com^
@@ -121351,6 +121375,7 @@ zzzyk.com###Tinfo
 ||ugkray.theloom.in^
 ||uglwov.logic-immo.com^
 ||ugmarketing.smu.edu.sg^
+||ugpibtpk.xyz^
 ||ugvbsrbht.xyz^
 ||ugvip.com^
 ||ugwxwy.xyz^
@@ -128235,6 +128260,7 @@ zzzyk.com###Tinfo
 ||znyjmbh.icu^
 ||zodvlr.xyz^
 ||zodxgk.lecoqsportif.com^
+||zohdfd.xyz^
 ||zoho.com^$removeparam=iref
 ||zol-img.com.cn/ad/
 ||zol-img.com.cn/detail/js/module/app-download-float/script.js
