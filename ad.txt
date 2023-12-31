@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-12-31 02:13:05
-! Total count: 128579
+! Version: 2023-12-31 08:54:41
+! Total count: 128591
 
  
 ###AdBlockDialog
@@ -1952,7 +1952,7 @@ $cookie=/^CaosGtag_ga/
 $cookie=/^KRTBCOOKIE_/
 $cookie=/^_chartbeat/
 $cookie=/^_dc_gtm_UA-/
-$cookie=/^_ga_/,domain=~nintendo.com
+$cookie=/^_ga_/,domain=~ec.nintendo.com|~store-jp.nintendo.com
 $cookie=/^_gac_/
 $cookie=/^_gat_/
 $cookie=/^_gat_tracker\d+/
@@ -1978,8 +1978,8 @@ $cookie=/^mprtcl-prodv4_/
 $cookie=/^mprtcl-v4_/
 $cookie=/^uid-bp-\d+/
 $cookie=/^wisepops/
-$cookie=/dwac_/,domain=~nintendo.com
-$cookie=/dwanonymous_/
+$cookie=/dwac_/,domain=~ec.nintendo.com|~store-jp.nintendo.com
+$cookie=/dwanonymous_/,domain=~ec.nintendo.com|~store-jp.nintendo.com
 $cookie=/mp_.*_mixpanel/
 $cookie=ACac2,domain=wp.pl|money.pl|o2.pl|pudelek.pl|komorkomania.pl|gadzetomania.pl|fotoblogia.pl|autokult.pl|abczdrowie.pl|parenting.pl|videostar.pl|autocentrum.pl|benchmark.pl
 $cookie=AMP_TOKEN
@@ -2060,7 +2060,7 @@ $cookie=_ga_devsite
 $cookie=_gaexp
 $cookie=_gaexp_rc
 $cookie=_gat
-$cookie=_gcl_au
+$cookie=_gcl_au,domain=~ec.nintendo.com|~store-jp.nintendo.com
 $cookie=_gcl_aw
 $cookie=_gid
 $cookie=_guid
@@ -2145,7 +2145,7 @@ $cookie=camps,domain=wp.pl|money.pl|o2.pl|pudelek.pl|komorkomania.pl|gadzetomani
 $cookie=clRequestId
 $cookie=clVisitorId
 $cookie=compass_uid
-$cookie=cqcid,domain=~nintendo.com
+$cookie=cqcid,domain=~ec.nintendo.com|~store-jp.nintendo.com
 $cookie=cric_adid,domain=gazeta.pl|sport.pl|tokfm.pl
 $cookie=cric_pubid,domain=gazeta.pl|sport.pl|tokfm.pl
 $cookie=cto_bidid
@@ -2201,7 +2201,7 @@ $cookie=oftmediauid,domain=wp.pl
 $cookie=omni_visit_id
 $cookie=onetaguid,domain=wp.pl
 $cookie=openxmiud,domain=wp.pl
-$cookie=optimizelyEndUserId
+$cookie=optimizelyEndUserId,domain=~ec.nintendo.com|~store-jp.nintendo.com
 $cookie=outbrain_cid_fetch
 $cookie=pbjs-unifiedid
 $cookie=permutive-id
@@ -57034,6 +57034,7 @@ zzzyk.com###Tinfo
 ||atlastravel.actonservice.com^
 ||atlasworldusa.actonservice.com^
 ||atleticodemadrid.hb.tt.omtrdc.net^
+||atlggfy.cn^
 ||atlivr-beta3.psb.tt.omtrdc.net^
 ||atlowa-qa.dbclone.tt.omtrdc.net^
 ||atlvpn2-icons.avionics.tt.omtrdc.net^
@@ -70871,6 +70872,7 @@ zzzyk.com###Tinfo
 ||dwerzv.xyz^
 ||dwfjtz.xyz^
 ||dwglgp.dunelm.com^
+||dwhyjwrw.xyz^
 ||dwibjkdsn.com^
 ||dwin1.com^
 ||dwin1.com^$third-party
@@ -73002,6 +73004,7 @@ zzzyk.com###Tinfo
 ||evanescentedge.com^
 ||evb0gxo.icu^
 ||evbb.xyz^
+||evbrkhz.xyz^
 ||evcdn.com/store/plugins/tracker-ev-sdk.js
 ||evenement.ricoh.fr^
 ||event-action.popinfo.jp^
@@ -75179,6 +75182,7 @@ zzzyk.com###Tinfo
 ||fyccsw.eobuwie.com.pl^
 ||fydisk.com/images/showvip.gif
 ||fyens.tns-gallup.dk^
+||fyexyd.icu^
 ||fygild.rueonline.com^
 ||fyreball.com^$third-party
 ||fyrsbckgi-c.global.ssl.fastly.net^
@@ -79493,6 +79497,7 @@ zzzyk.com###Tinfo
 ||hyfntrak.com^$third-party
 ||hygiena.actonservice.com^
 ||hyidlu.com^
+||hyjbdt.xyz^
 ||hyk9.xyz^
 ||hylaxngo.xyz^
 ||hylmfeifei.com^
@@ -84705,6 +84710,7 @@ zzzyk.com###Tinfo
 ||kybzkiw.xyz^
 ||kycxhgrp.xyz^
 ||kydb.xyz^
+||kydzfldt.xyz^
 ||kygso.com/js/lrtk.js
 ||kyikdee.cn^
 ||kyjoyk.modoza.com^
@@ -89700,6 +89706,7 @@ zzzyk.com###Tinfo
 ||matchjoke.com^
 ||matchmaking-gateway-complianceqa3.fallguys-dev.tt.omtrdc.net^
 ||matelso.de/webtracking/
+||matelso.de^$third-party
 ||mateoww52.dev-go.tt.omtrdc.net^
 ||materialexample.com^
 ||materialisticfan.com^
@@ -93237,6 +93244,7 @@ zzzyk.com###Tinfo
 ||mts-ptm-02-0220.ocio.tt.omtrdc.net^
 ||mts-ulecs-ew1.tt.omtrdc.net^
 ||mts.mansion.com^$third-party
+||mts.ru/fe-api/logger
 ||mttln2.tt.omtrdc.net^
 ||mtufriedrichs.tt.omtrdc.net^
 ||mtur.xkmnbt.xyz^
@@ -97731,6 +97739,7 @@ zzzyk.com###Tinfo
 ||pfqwbqs.cn^
 ||pfrbnl.xyz^
 ||pftdmmc.xyz^
+||pftk.temu.com^
 ||pfx.sma-clsystem.info^$third-party
 ||pfxlive.com^$third-party
 ||pg-ad-b1.nosdn.127.net^
@@ -99817,6 +99826,7 @@ zzzyk.com###Tinfo
 ||qczcxe.cn^
 ||qd.x4399.com^
 ||qdaily.com/mount_details/pc/
+||qdcxia.xyz^
 ||qdczx66.com^
 ||qdicel.marymaxim.com^
 ||qdiwbhjpo.com^
@@ -102225,6 +102235,7 @@ zzzyk.com###Tinfo
 ||rycff.online^
 ||rychlost.cz/_pub/jquery/scripts.js$script
 ||rychlost.cz/_pub/scripts/js.js$script
+||rydzfldt.xyz^
 ||rymhet.posudamart.ru^
 ||rystadenergy.actonservice.com^
 ||ryvapi.fragrancenet.com^
@@ -123111,6 +123122,7 @@ zzzyk.com###Tinfo
 ||vtf2f.banque-casino.fr^
 ||vtg48yoo.tt.omtrdc.net^
 ||vtneexam.quantresear.ch^
+||vtnmxx.xyz^
 ||vtracker.net^$third-party
 ||vtracy.de^$third-party
 ||vtrtl.de^
