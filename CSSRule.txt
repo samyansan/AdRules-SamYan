@@ -4159,7 +4159,6 @@ beeg.com,oral-amateure.com,upornia.com,hotmovs.com,voyeurhit.com,hdzog.com#$#abo
 beephone.com.tw##a[href^="http://www.beephone.com.tw/adlink.php?id="]
 beforeitsnews.com###fancybox-overlay
 beforeitsnews.com###fancybox-wrap
-beforeitsnews.com#$#override-property-read setTimeout noopFunc; abort-on-property-read document.body.innerHTML;
 beforeitsnews.com,canadafreepress.com,conservativefiringline.com,designbump.com,ipatriot.com,naturalblaze.com,patriotnationpress.com,rightwingnews.com,toptenz.net##div[class] > div[id] > main[class][id]
 beianbeian.com##div[style="height: 62px;margin-bottom: 20px;"] + .layui-table
 beinconnect.us,coroot.blogspot.com,ktarab.com,shofnow.com,actionz.tv,brstej.com,jaewinter.co,movs4u.live,mvs4u.tv,kora-online.tv,filmey.tv,animetak.net,arabseed.tv,arabseed.co,arabseed.com,arabseed.me,arabseed.net#$#abort-current-inline-script Math zfgloaded
@@ -7393,6 +7392,7 @@ huya.com##.jump-to-phone
 huya.com##.nav-expand-list #J_tt_hd_category_ad
 huya.com##.room-business-game
 huya.com##.room-gg-chat
+huya.com##.room-sidebar #public-screen-ab
 huya.com##.sidebar-banner
 huya.com##.small-handle-tip
 huya.com##.tip-bg-common-new.diy-activity-icon-bubble-tips
@@ -7761,7 +7761,7 @@ instacart.com,instacart.ca#$#hide-if-matches-xpath './/div[count(child::span[@st
 instacart.com,instacart.ca#$#hide-if-matches-xpath './/div[count(child::span[@style and text()])=2]/parent::div//div[contains(text(),"Recommended for you")]/ancestor::div[@class][1]/ancestor::div[@class][1]'
 instacart.com,instacart.ca#$#hide-if-matches-xpath './/span[text()]/preceding::div[@aria-hidden="true"]/preceding::source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/ancestor::*[@id][@class][1]'
 instacart.com,instacart.ca#$#hide-if-matches-xpath './/video[@disablepictureinpicture]/ancestor-or-self::div[contains(@id,"video-player")]/ancestor::div[@id][@class][1][not(@id="store-wrapper") and not(@id="js-app")]'
-instacart.com,instacart.ca#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-rp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-qp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-vp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-tp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-up-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-vvp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-vvvp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-fp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-ap-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
+instacart.com,instacart.ca#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-rp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-qp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-vp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-tp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-up-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-vvp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-vvvp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-fp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-ap-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-bp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
 instagram.com#$#race start; hide-if-contains-visible-text '/Anzeige|Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/' 'article[class]>div[class]'; hide-if-matches-xpath '//article[@class]//span[text()]//following::a[contains(@class,"_ad")][contains(@href,"facebook.com/ads/ig_redirect/?")]/ancestor::div[5]'; hide-if-has-and-matches-style * 'article[class]~*>div' 'article[class]~*>div>div span:last-of-type *>svg[style]' '/./' '/(width: [2-9])/'; race stop;
 instantmanga.com###notice
 instrument.com.cn###leftFlash
@@ -12677,13 +12677,15 @@ videowood.tv#@#.text-ads
 videowood.tv#@#.textAd
 videowood.tv#@#.text_ad
 videowood.tv#@#.text_ads
+vidhub.me,vidhub.tv##.promolnk
+vidhub.me,vidhub.tv##.promote-link
 vidlo.us,abcvideo.cc,extramovies.casa,hdvid.online,pstream.net,dlapk4all.com,pandamovies.pw,gounlimited.to,rexdlfile.com,file-up.org,gledajonline.net,loadsubs.net,topeuropix.net,zippyshare.com,europixhd.net,europixhd.com,hdeuropix.io,hxfile.co#$#abort-on-property-read decodeURIComponent
 vidmoly.to###adsblock
 vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gomovieshub.io,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.pw,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.tube,ungtycomicsvip.com,truyengihotqua.net,dualeotruyenww.com,yurineko.net,vlxyz.tv,javhay.media,phimsexhay669.co,cliphot69.biz,doctruyen3qmoi.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.com,sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motchillzz.in,truyenvnhay.tv#$#abort-current-inline-script WebAssembly instantiate
+viet69.id,ungtycomicsvip.com,truyengihotqua.net,dualeotruyenww.com,yurineko.net,vlxyz.tv,javhay.media,phimsexhay669.co,cliphot69.biz,doctruyen3qmoi.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.com,sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motchillzz.in,truyenvnhay.tv#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com##div[class^="infinite-comment-list_subText"]
 view.inews.qq.com##div[class^="interaction-bottom_interaction"]
 view.inews.qq.com##div[class^="justify-text_showMore"]
@@ -13186,6 +13188,7 @@ www.xvideos.com##.thumb-ad
 www.ydyse.com##.left,.bottom,.right,.ad,.adimage
 www.yizhibo.com##.register_guide
 www.youtube.com#$#hide-if-matches-xpath './/yta-ad-text[@style]/parent::*[contains(@class,"ad-badge")]/ancestor::ytlr-banner-cta-renderer'; hide-if-matches-xpath './/yta-ad-text[@style]/parent::*[contains(@class,"ad-badge")]/ancestor::ytlr-ad-attribution'
+www.youtube.com#$#hide-if-matches-xpath '//*[contains(@class,"ytlr-metadata-badge-renderer--ad-stark")][text()]/ancestor-or-self::ytlr-ad-slot-renderer'
 www.youtube.com#$#skip-video 'video.html5-main-video' './/ytd-player//div[contains(@class,"ad-interrupting")]' 5;simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=0';simulate-mouse-event 'button.ytp-ad-skip-button-modern'
 www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-mouse-event 'button.ytp-ad-skip-button$delay=0'
 www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=0'
