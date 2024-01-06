@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-01-06 02:13:30
-! Total count: 131423
+! Version: 2024-01-06 08:51:00
+! Total count: 131348
 
  
 ###AdBlockDialog
@@ -1169,7 +1169,6 @@
 ##A.toptxt[target='_blank']
 ##ASIDE[id^='custom_html-']
 ##A[href*=".com/?Agent="]
-##A[href*="/dsf88.cc"]
 ##A[href*="emprestimo.eu"]
 ##A[href*="googleme.eu"]
 ##A[href*='-fghgdf.com']
@@ -3327,10 +3326,7 @@ $websocket,domain=5nj.com|cechi8.com
 /__sttm.gif?
 /__ub.gif?
 /__utm.gif
-/__utm.gif$domain=autobild.de|quoka.de|tellows.de|transfermarkt.de
-/__utm.gif$domain=woxikon.de
-/__utm.gif?$domain=gofeminin.de
-/__utm.gif?$domain=wetter.com
+/__utm.gif$domain=autobild.de|gofeminin.de
 /__utm.js
 /__wsm.gif
 /_ajax/tebilisim.php?
@@ -4127,7 +4123,6 @@ $websocket,domain=5nj.com|cechi8.com
 /cgi/stats.pl?
 /cgi/trk.js
 /chartbeat.js
-/chartbeat.js$domain=wetter.com
 /chartbeat.min.js
 /chcounter/counter.php
 /check.php?referrer=
@@ -4352,7 +4347,6 @@ $websocket,domain=5nj.com|cechi8.com
 /criteoRTA.js
 /crypta.js
 /csi?v=*&action=
-/csi?v=*&action=$domain=tellows.de
 /csi?v=2&s=
 /csi?v=3&s=
 /csi_204?$image,other,ping,script
@@ -5748,7 +5742,6 @@ $websocket,domain=5nj.com|cechi8.com
 /pagead2.
 /pagecpv/*
 /pagedot.gif?
-/pagedot.gif?$domain=focus.de
 /pagelogger/connector.php?
 /pages/ads
 /pagestat?
@@ -5814,12 +5807,10 @@ $websocket,domain=5nj.com|cechi8.com
 /piNctTracking.js
 /piano-analytics.js
 /piaofu.js
-/pic.gif?m=$domain=autobild.de
 /pic.jsp?uid=$script,third-party
 /pic/ad/*
 /picad/*$domain=~ychr.com
 /ping.gif?
-/ping.gif?$domain=gamestar.de
 /ping/?url=
 /ping/pageload?
 /ping/show?
@@ -5836,7 +5827,6 @@ $websocket,domain=5nj.com|cechi8.com
 /pinger.cgi?
 /pinterest-pixels.js
 /piwik-$domain=~github.com|~matomo.org|~piwik.org|~piwik.pro|~piwikpro.de
-/piwik.$domain=wetter.com
 /piwik.$image,script,domain=~matomo.org|~piwik.org|~piwik.pro|~piwikpro.de
 /piwik/*$domain=~github.com|~matomo.org|~piwik.org|~piwik.pro
 /piwik1.
@@ -7830,6 +7820,7 @@ $websocket,domain=5nj.com|cechi8.com
 1kkk.com,dm5.com,dm5.hk##.adform_1
 1kkk.com,dm5.com,dm5.hk##.adform_2
 1m3d.com###klp_adtop
+1progs.com#$#prevent-listener DOMContentLoaded landingUrl
 1snau.ru,bychico.net,dyrik.ru,ecosounds.net,in-drive.ru,inforpost.com,musecube.org,obozrevatel.com,oknotivi.ru,pogodnik.com,sandero.ru,turbominer.ru##body > div[style*="z-index"][style*="9999"]
 1tamilmv.cloud,incestflix.com,pastemytxt.com,ytmp3eu.com,9anime.to,zippyshare.com,uploadproper.com,uploadproper.net,masahub.net#$#abort-on-property-read _pop
 1ting.com###tingx_5
@@ -9031,7 +9022,6 @@ acg17.com,secretmine.net##.e3lan
 acgbuster.moe##.tg-inner
 acgcku.com##a[href]:not([href*="acgcku."]) > img[src*="acgcku.com/wp-content/"]
 acgdoge.net,acglala.cc,chinalawedu.com,douyu.com,dzbhdm.net,gmgard.com,hggard.com,iqiyi.com,jinti.com##a[href*=".tmall.com"]
-acgfta.com##A[href^="https://ifift.com/"]
 acgfta.com##a[href^="https://ifift.com/"]
 acggd.com##a[href*=".apk"]
 acgking.com,dbtmn.com##.asst
@@ -11980,6 +11970,7 @@ ebay.com#?#li.s-item:-abp-has(span[role="text"]>span:-abp-contains(助))
 ebay.com,ebay.co.uk,ebay.com.au,ebay.ca,ebay.fr,ebay.at,ebay.de,ebay.it,ebay.es#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ 'li[class^="carousel__snap-point"][style]>div[data-viewport]>a' 'span'
 ebay.com,ebay.co.uk,ebay.com.au,ebay.ca,ebay.fr,ebay.at,ebay.de,ebay.it,ebay.es#$#hide-if-matches-xpath './/div/h2[contains(@class,"merch")][contains(translate(text(), "SPONSORED", "sponsored"), "sponsored") or contains(translate(text(), "SPONSORISÉS", "sponsorisés"), "sponsorisés") or contains(translate(text(), "PATROCINADOS", "patrocinados"), "patrocinados") or contains(translate(text(), "ANZEIGEN", "anzeigen"), "anzeigen") or contains(translate(text(), "SPONSORIZZATI", "sponzorizzati"), "sponsorizzati") or contains(translate(text(), "SPONSORIZZATE", "sponzorizzate"), "sponsorizzate")]/ancestor::div[contains(@class,"merch")]/parent::div[@class="merch-module"]'
 ebay.com,ebay.co.uk,ebay.de#$#hide-if-matches-xpath '//li[@data-viewport]//span[text()="Sponsored" or text()="Anzeige"]/ancestor::li[@data-viewport]'
+ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.it,ebay.fr,ebay.es,ebay.com.sg,ebay.ph#$#hide-if-matches-xpath './/span[@class="s-item__sponsor"][text()]/ancestor-or-self::li[contains(@class,"s-item")][1]'
 ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#$#hide-if-matches-xpath './/div[@data-view]/a[@class="srp-1p__link"]//div[text()="Sponsored"]/ancestor::div[@data-view][@class][1]'
 ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#$#hide-if-matches-xpath './/div[contains(@class,"sponsored-infotip")]/parent::div[starts-with(@class,"ads")]/parent::div[contains(@class,"ads")]/ancestor::div[@id and @aria-label="Advertisement"]'
 ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#$#race start; hide-if-matches-computed-xpath './/span[@class="s-item__sep"]/span[@aria-labelledby="{{}}"]/ancestor::li[@data-viewport]' './/style[contains(text(),"display: inline")]' '/span\.(.{9})/'; hide-if-matches-computed-xpath './/span[@*="{{}}"]/ancestor::li[contains(@class,"s-item")]' './/style[contains(text(),":root")]' '/span\.(.{9})/'; hide-if-matches-computed-xpath './/div[@aria-labelledby="{{}}"]/ancestor::li[contains(@class,"s-item")]' './/style[contains(text(),":root")]' '/span\.(.{9})/'; hide-if-matches-computed-xpath './/span[@class="s-item__sep"]/span[@aria-labelledby="{{}}"]/ancestor::li[@data-viewport]' './/style[contains(text(),"-2000")]' '/}\\s*span\.(.{9})/'; hide-if-matches-computed-xpath './/span[@class="s-item__sep"]/span[@aria-labelledby="{{}}"]/ancestor::li[@data-viewport]' './/style[contains(text(),"color: transparent")]' '/span.aria.labelledby.(.{9})/'; hide-if-contains-visible-text /S⁣p⁣o⁣n⁣s⁣o⁣r⁣e⁣d|A⁣n⁣z⁣e⁣i⁣g⁣e|S⁣p⁣o⁣n⁣s⁣o⁣r⁣i⁣s⁣é⁣⁣|S⁣p⁣o⁣n⁣s⁣o⁣r⁣i⁣z⁣z⁣a⁣t⁣o⁣⁣|S⁣p⁣o⁣n⁣s⁣o⁣r⁣o⁣w⁣a⁣n⁣e|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|P⁣a⁣t⁣r⁣o⁣c⁣i⁣n⁣a⁣d⁣o|贊⁣助/ li[data-viewport] 'span.s-item__sep>span[role]' '-disable-bg-color-check:true' 'position:absolute'; hide-if-contains-and-matches-style // li[data-viewport] 'li[data-viewport] span.s-item__sep>div' /./ '/\\swidth: [1-9]/'; race stop;
@@ -40512,6 +40503,8 @@ playwire.com#@#.text-ads
 playwire.com#@#.textAd
 playwire.com#@#.text_ad
 playwire.com#@#.text_ads
+playwright.nodejs.cn###pagead
+playwright.nodejs.cn#%#//scriptlet('set-constant', '_AdBlockInit', 'noopFunc')
 playzuan.com###ShouYe_ShangBu
 plej.tv#@#.advert_box
 pln-pskov.ru###check_ad_block
@@ -46703,7 +46696,6 @@ zzzyk.com###Tinfo
 ||3g.cn/index.php?s=Index/adv&
 ||3g.qq.com/lview?
 ||3gl.net^
-||3gl.net^$domain=stern.de
 ||3gl.net^$third-party
 ||3gmfw.cn/js/wap/
 ||3gmimo.com^
@@ -52352,6 +52344,7 @@ zzzyk.com###Tinfo
 ||achost.top/uploads/ads/
 ||acidicgrip.com^
 ||acidicstraw.com^
+||acidpigs.com^
 ||acima.tt.omtrdc.net^
 ||acint.net^$third-party
 ||acipa-sindipa.hb-fa-dev.tt.omtrdc.net^
@@ -53885,6 +53878,7 @@ zzzyk.com###Tinfo
 ||aeromark.actonservice.com^
 ||aeroviasdelcontinent.tt.omtrdc.net^
 ||aerox-racing.hb-fa-dev.tt.omtrdc.net^
+||aerzteblatt.de/inc/js/ga4.js
 ||aesstaging.hb-fa-dev.tt.omtrdc.net^
 ||aesus.so-net.ne.jp^
 ||aetcstar.tt.omtrdc.net^
@@ -55960,8 +55954,6 @@ zzzyk.com###Tinfo
 ||analytics.codigo.se^
 ||analytics.cognyte.com^
 ||analytics.competitoor.com^
-||analytics.comunio.de^$domain=comunio.de
-||analytics.comunio.net^$domain=comunio.de
 ||analytics.conad.it^
 ||analytics.concorsicartoonito.it^
 ||analytics.contentexchange.me^
@@ -59638,6 +59630,7 @@ zzzyk.com###Tinfo
 ||autorobi-lech.tt.omtrdc.net^
 ||autos-andar.tt.omtrdc.net^
 ||autoscout24.de/ArticleList/CustomLogging
+||autoscout24.de^$ping
 ||autoscout24.net/unifiedtracking/analytics.js
 ||autoserwa-astra.tt.omtrdc.net^
 ||autoserwice-barnowko-service.tt.omtrdc.net^
@@ -60215,7 +60208,6 @@ zzzyk.com###Tinfo
 ||ba-content.de/cds/log/
 ||ba.tt.omtrdc.net^
 ||baa12c.st.tt.omtrdc.net^
-||babator.com^$domain=focus.de
 ||babator.com^$third-party
 ||babelio.tt.omtrdc.net^
 ||bablace.com^
@@ -61831,7 +61823,6 @@ zzzyk.com###Tinfo
 ||bluejay.schreinerei-virnich.de^
 ||bluejay.wearegray.com^
 ||bluekai.com^
-||bluekai.com^$domain=disqus.com|widgets.outbrain.com
 ||bluekai.com^$third-party
 ||blueknow.com^$third-party
 ||bluemarblepayroll.actonservice.com^
@@ -62466,8 +62457,8 @@ zzzyk.com###Tinfo
 ||briggsstratton.tt.omtrdc.net^
 ||bright-sdk.com^
 ||brightcove.com/1pix.gif
-||brightdata.com^
-||brightdata.de^
+||brightdata.com^$third-party
+||brightdata.de^$third-party
 ||brightedge.com^$third-party
 ||brightfunnel.com^$third-party
 ||brighthousefinancial.tt.omtrdc.net^
@@ -64182,8 +64173,6 @@ zzzyk.com###Tinfo
 ||chart.dk^$third-party
 ||chartaca.com^$third-party
 ||chartbeat.com^
-||chartbeat.com^$domain=prosieben.at|prosieben.ch|prosieben.de
-||chartbeat.com^$domain=stern.de
 ||chartbeat.com^$third-party
 ||chartbeat.net^
 ||chartbeat.net^$third-party
@@ -64874,7 +64863,6 @@ zzzyk.com###Tinfo
 ||clickiocdn.com/utr/$image
 ||clicklittleshop.tt.omtrdc.net^
 ||clickm.fang.com^
-||clickmail.stubhub.com^
 ||clickmanage.com^$third-party
 ||clickmap.ch^$third-party
 ||clickmatic.pl^$third-party
@@ -64922,7 +64910,6 @@ zzzyk.com###Tinfo
 ||clicksor.net^$third-party
 ||clickstream.cresendo.net^
 ||clickstream.grubhub.com/event.gif?event=
-||clicktale.net^$domain=focus.de
 ||clicktale.net^$third-party
 ||clicktalecdn.sslcs.cdngc.net^
 ||clickthru.lefbc.com^$third-party
@@ -65149,7 +65136,6 @@ zzzyk.com###Tinfo
 ||cloudfront.net/test.png
 ||cloudfront.net/track.html
 ||cloudfront.net/track?
-||cloudfront.net/track?$domain=focus.de
 ||cloudfront.net/trackb.html
 ||cloudfront.net/tracker-latest.min.js
 ||cloudfront.net/uba.js
@@ -65947,7 +65933,7 @@ zzzyk.com###Tinfo
 ||computerbase.de/api2/$ping,xmlhttprequest
 ||computerbase.de/nlyt
 ||computerbase.de/nlytcs
-||computerbase.de/nlytcz
+||computerbase.de/nlytev
 ||computers.panasonic.eu^
 ||computersciencescorp.tt.omtrdc.net^
 ||computerworld.tns-gallup.dk^
@@ -66345,7 +66331,6 @@ zzzyk.com###Tinfo
 ||content22.online.citi.com^
 ||contentdriver.com/api/impression
 ||contentexchange.me/static/tracker.js
-||contentexchange.me^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 ||contentexchange.me^$third-party
 ||contentinsights.com^$third-party
 ||contently.com/xdomain/
@@ -66355,8 +66340,6 @@ zzzyk.com###Tinfo
 ||contents-tracking.beop.io^$third-party
 ||contents.pwc.com^
 ||contentsfeed.com^$third-party
-||contentspread.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
-||contentspread.net^$domain=prosieben.at|prosieben.ch|prosieben.de
 ||contentspread.net^$third-party
 ||contentsquare.net^$third-party
 ||contiamo.com^$third-party
@@ -66507,6 +66490,7 @@ zzzyk.com###Tinfo
 ||copush.com^$third-party
 ||copycarpenter.com^
 ||copyfuture.com/images/zhifubao.jpg
+||copyrightaccesscontrols.com^
 ||copyrightcontent.org/e/
 ||copytitle.com^
 ||coral.bladestudy.net^
@@ -66846,7 +66830,6 @@ zzzyk.com###Tinfo
 ||cpx.golem.de/cpx.php
 ||cpx.golem.de^
 ||cpx.to^
-||cpx.to^$domain=quoka.de
 ||cpx.to^$third-party
 ||cpx24.com^
 ||cpxl.golem.de/gif
@@ -66976,8 +66959,6 @@ zzzyk.com###Tinfo
 ||cristinajimenez.tt.omtrdc.net^
 ||criteo.com/event?$third-party
 ||criteo.com^
-||criteo.com^$domain=comunio.de
-||criteo.com^$domain=fanfiktion.de
 ||criteo.com^$domain=spiegel.de
 ||criteo.com^$third-party
 ||criteo.net^
@@ -67476,7 +67457,6 @@ zzzyk.com###Tinfo
 ||cxense.com/cx.js$script,redirect=noopjs,domain=friday.kodansha.co.jp,important
 ||cxense.com/cx.js$script,redirect=noopjs,domain=nlab.itmedia.co.jp,important
 ||cxense.com^
-||cxense.com^$domain=focus.de
 ||cxense.com^$third-party
 ||cxgfq.pinlue.com^
 ||cxgwsu.xyz^
@@ -71195,6 +71175,7 @@ zzzyk.com###Tinfo
 ||del-sportbvba.tt.omtrdc.net^
 ||delamer.jp/sites/cremedelamer2/themes/cremedelamer2_base/js/shared/analytics.js
 ||delasallecollegeofsa.tt.omtrdc.net^
+||delegatediscussion.com^
 ||delete-me-2.branchcustom.xyz^
 ||delete-me.branchcustom.xyz^
 ||delete.atea.fi^
@@ -71362,6 +71343,7 @@ zzzyk.com###Tinfo
 ||desiree-cit-cit1.sit.ls.tt.omtrdc.net^
 ||desjaak4.valtaf.tt.omtrdc.net^
 ||desjardins.tt.omtrdc.net^
+||deskdecision.com^
 ||desktop-downloads.tt.omtrdc.net^
 ||desmoineschristianschool.tt.omtrdc.net^
 ||despiteto.com^
@@ -71374,6 +71356,7 @@ zzzyk.com###Tinfo
 ||desuscripcion.phg.palladiumhotelgroup.com^
 ||deszczowce.pl/licznik/licznik.php
 ||detailedglue.com^
+||detailedgovernment.com^
 ||detailedkitten.com^
 ||details.pella.com^
 ||detect.ergebnis-dienst.de^
@@ -72185,6 +72168,7 @@ zzzyk.com###Tinfo
 ||djs.baomihua.com^
 ||djv99sxoqpv11.cloudfront.net^
 ||dk-go.experian.com^
+||dk4ywix.com^
 ||dkbicq.elektramat.nl^
 ||dkclxi.sitkagear.com^
 ||dkcwnsu.xyz^
@@ -72407,7 +72391,6 @@ zzzyk.com###Tinfo
 ||dniwe.xyz^
 ||dnkeyt.svetsochtillbehor.se^
 ||dnn506yrbagrg.cloudfront.net^
-||dnn506yrbagrg.cloudfront.net^$domain=quoka.de
 ||dnnapi.com/analytics/
 ||dnp.tt.omtrdc.net^
 ||dnpz123.com^$third-party
@@ -72567,6 +72550,7 @@ zzzyk.com###Tinfo
 ||doomna.com^$third-party
 ||doomovies9.tt.omtrdc.net^
 ||doona.tt.omtrdc.net^
+||doorbrazil.com^
 ||doorbrazil.com^$third-party
 ||doporuc.hopsej.cz^
 ||doporuc.konferenceryba.cz^
@@ -72788,6 +72772,7 @@ zzzyk.com###Tinfo
 ||drainpaste.com^$third-party
 ||drake.hosted.tt.omtrdc.net^
 ||dramaticcondition.com^
+||dramaticdirection.com^
 ||drandroidstream.tns-gallup.dk^
 ||drandroidtvstream.tns-gallup.dk^
 ||drau.viessmann.si^
@@ -72816,6 +72801,7 @@ zzzyk.com###Tinfo
 ||drift.com/targeting/
 ||drift.com/track
 ||driosstream.tns-gallup.dk^
+||dripappliance.com^
 ||driv-analytics.com^$third-party
 ||drive.carpoollogistics.com^
 ||drive.seagate.com^
@@ -72876,7 +72862,6 @@ zzzyk.com###Tinfo
 ||drydrum.com^
 ||dryvit.actonservice.com^
 ||ds-aksb-a.akamaihd.net^
-||ds-aksb-a.akamaihd.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 ||ds-read-a-gew1-lb.tt.omtrdc.net^
 ||ds.haaretz.co.il^
 ||ds.webprojectslab.com^
@@ -74528,8 +74513,7 @@ zzzyk.com###Tinfo
 ||emetrics.bose.ca^
 ||emetrics.bose.com^
 ||emetrics.eastwestbank.com^
-||emetriq.de^$domain=focus.de
-||emetriq.de^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|spiegel.de|stern.de|transfermarkt.de
+||emetriq.de^$domain=spiegel.de
 ||emetriq.de^$third-party
 ||emihosting.com^*/tracking/
 ||emilyz.top^
@@ -74590,6 +74574,7 @@ zzzyk.com###Tinfo
 ||encouragingleaf.com^
 ||encouragingthread.com^
 ||encouragingvase.com^
+||encouragingwilderness.com^
 ||encuestas.billeteramango.com^
 ||endeavorbusinessmedia.actonservice.com^
 ||endesa.tt.omtrdc.net^
@@ -74613,6 +74598,7 @@ zzzyk.com###Tinfo
 ||enelglobal.tt.omtrdc.net^
 ||enelspa.tt.omtrdc.net^
 ||enennsa.gushiwen.cn^
+||energeticexample.com^
 ||energeticladybug.com^
 ||energiwatch.tns-gallup.dk^
 ||energy.eneco.be^
@@ -75543,7 +75529,6 @@ zzzyk.com###Tinfo
 ||ewzavfde.xyz^
 ||ex-fpssl.hb-api.tt.omtrdc.net^
 ||ex.co/content/monetization/legacy-pixels/
-||exactag.com^$domain=quoka.de
 ||exactag.com^$third-party
 ||exacttarget.api.mashery.com^
 ||exacttarget.com^$~subdocument,third-party
@@ -75841,7 +75826,7 @@ zzzyk.com###Tinfo
 ||facai383.oss-cn-guangzhou.aliyuncs.com^
 ||face2.ishoppingapp.com^
 ||facebook.com*/impression.php
-||facebook.com*/impression.php$domain=autobild.de|focus.de|kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|tellows.de|transfermarkt.de
+||facebook.com*/impression.php$domain=autobild.de
 ||facebook.com/*/instream/vast.xml?*&pageurl=http*.4gtv.tv$script,xmlhttprequest,other,redirect=noopvast-2.0
 ||facebook.com/a/bz?
 ||facebook.com/adnw_request?
@@ -75853,7 +75838,6 @@ zzzyk.com###Tinfo
 ||facebook.com/ajax/qm/
 ||facebook.com/brandlift.php
 ||facebook.com/common/cavalry_endpoint.php?
-||facebook.com/common/scribe_endpoint.php$domain=transfermarkt.de
 ||facebook.com/email_open_log_
 ||facebook.com/impression.php
 ||facebook.com/method/links.getstats?
@@ -75866,10 +75850,8 @@ zzzyk.com###Tinfo
 ||facebook.com/tr/
 ||facebook.com/tr/?
 ||facebook.com/tr/?$domain=cnet.com,important
-||facebook.com/tr/?$domain=metal-hammer.de|musikexpress.de|rollingstone.de
 ||facebook.com/tr/|
 ||facebook.com/tr?
-||facebook.com/tr?$domain=tvspielfilm.de
 ||facebook.com/v2.6/plugins/video.$domain=storm.mg
 ||facebook.com/w/$third-party
 ||facebook.com/xti.php?
@@ -75904,6 +75886,7 @@ zzzyk.com###Tinfo
 ||fadechildren.com^
 ||fadedprofit.com^
 ||fadedsnow.com^
+||fadewaves.com^
 ||fadewaves.com^$third-party
 ||fads315.com^
 ||faef.tt.omtrdc.net^
@@ -77673,7 +77656,6 @@ zzzyk.com###Tinfo
 ||gamespot.com^$removeparam=UniqueID
 ||gamespot.com^$removeparam=ftag
 ||gamestar.de/*/index.cfm?event=tracking:
-||gamestar.de/_misc/tracking/$domain=gamestar.de
 ||gamestar.de/_misc/tracking/*.cfm
 ||gamestats.easybrain.com^
 ||gamex.mobile.youku.com^
@@ -79345,13 +79327,7 @@ zzzyk.com###Tinfo
 ||google-analytics-cn.com^
 ||google-analytics.com$third-party
 ||google-analytics.com/analytics.js
-||google-analytics.com/analytics.js$domain=boote-forum.de
-||google-analytics.com/analytics.js$domain=fanfiktion.de
-||google-analytics.com/analytics.js$domain=gamestar.de
-||google-analytics.com/analytics.js$domain=kabeleins.de|metal-hammer.de|musikexpress.de|prosieben.de|prosiebenmaxx.de|quoka.de|ran.de|rollingstone.de|sat1.de|sixx.de|spiegel.de|stern.de
-||google-analytics.com/analytics.js$domain=notebookcheck.com
-||google-analytics.com/analytics.js$domain=planetsnow.de
-||google-analytics.com/analytics.js$domain=prosieben.at|prosieben.ch|prosieben.de
+||google-analytics.com/analytics.js$domain=spiegel.de
 ||google-analytics.com/analytics.js$important,domain=unique-tutorials.info|getintopc.com|solvetube.site|tech-platform.info
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=4kdownload.com
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=chess24.com,important
@@ -79384,7 +79360,6 @@ zzzyk.com###Tinfo
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,important,domain=maz-online.de|ostsee-zeitung.de|lvz.de
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,important,domain=polygon.com
 ||google-analytics.com/analytics.js$script,redirect=noopjs,important,domain=ebb.io
-||google-analytics.com/collect$domain=stern.de
 ||google-analytics.com/ga.js$script,redirect=google-analytics-ga,domain=~daj.jp
 ||google-analytics.com^
 ||google-analytics.com^$domain=avgle.com
@@ -79454,7 +79429,6 @@ zzzyk.com###Tinfo
 ||googleapis.com/gadasource/gada.js
 ||googleapis.com/ivc.js
 ||googleapis.com^*/gen_204?
-||googleapis.com^*/gen_204?$domain=tellows.de
 ||googlecode.com^*/tracker.js
 ||googlecommerce.com^
 ||googleoptimize-cn.com^
@@ -79549,14 +79523,11 @@ zzzyk.com###Tinfo
 ||googletagmanager.com/gtm.js$script,xmlhttprequest,redirect=noopjs,domain=security-demo.extrahop.com,important
 ||googletagmanager.com/gtm.js$third-party
 ||googletagmanager.com/gtm.js$third-party,script,redirect=googletagmanager-gtm,domain=programme-tv.net
-||googletagmanager.com/gtm.js?$domain=autobild.de|transfermarkt.de
-||googletagmanager.com/gtm.js?$domain=tvspielfilm.de
-||googletagmanager.com/gtm.js?$third-party,domain=gamestar.de
+||googletagmanager.com/gtm.js?$domain=autobild.de
 ||googletagmanager.com/gtm/
 ||googletagmanager.com/ns.html$subdocument,redirect=nooptext,domain=pool.binance.com
 ||googletagmanager.com/ns.html?$third-party
 ||googletagmanager.com^
-||googletagmanager.com^$domain=focus.de
 ||googletagservices.com/tag/js/gpt.js$domain=epaper.timesgroup.com,redirect=googletagservices-gpt,important
 ||googletagservices.com/tag/js/gpt.js$domain=sinoptik.ua|gutefrage.net|dt.ua|ngs.ru|unian.net|easybib.com|bohenon.com|linuxtopia.org|newsroom.kh.ua|hclips.com|noticierodigital.com|northumberlandgazette.co.uk|mywebtimes.com|watchuseek.com|telekritika.ua|fontanka.ru|vesti.ua|bhub.com.ua|guhoyas.com|rst.ua|hh.ru|buhgalter.com.ua|unocero.com|autonews.com|metropoles.com|okezone.com|m.yeniakit.com.tr|kanalukraina.tv|day.az|knuddels.de
 ||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=ani.gamer.com.tw
@@ -80842,6 +80813,7 @@ zzzyk.com###Tinfo
 ||hf365.com/0/15/64/87/15648725_922274.jpg
 ||hf9u.tt.omtrdc.net^
 ||hfawdgz.cn^
+||hfc195b.com^
 ||hfctx.cn^
 ||hfd.bridgetowermedia.com^
 ||hffxc.com^
@@ -81379,7 +81351,6 @@ zzzyk.com###Tinfo
 ||hotels.com/cl/data/omgpixel.json?
 ||hotels.com/taps/v*/Impr?
 ||hotels.com/taps/v*/PageView?
-||hotjar.com^$domain=quoka.de
 ||hotjar.com^$third-party
 ||hotjar.io^$third-party
 ||hotlog.ru^$third-party
@@ -81449,7 +81420,6 @@ zzzyk.com###Tinfo
 ||hpninfo.hoopis.com^
 ||hppmy.cn^
 ||hpr.outbrain.com^
-||hpr.outbrain.com^$domain=focus.de
 ||hpt73.cn^$domain=9xav.cc
 ||hptechnology.arrow.com^
 ||hpvl2kb.icu^
@@ -82411,6 +82381,7 @@ zzzyk.com###Tinfo
 ||illumenix.com^$third-party
 ||illuminainc.tt.omtrdc.net^
 ||illuminanewmedia.hb.tt.omtrdc.net^
+||illustriousoatmeal.com^
 ||illvid.tns-gallup.dk^
 ||illycaffe.tt.omtrdc.net^
 ||ilmukelautanperikanan.tt.omtrdc.net^
@@ -83220,8 +83191,6 @@ zzzyk.com###Tinfo
 ||imrvyop.cn^
 ||imrworldwide.com^
 ||imrworldwide.com^$domain=cnet.com,important
-||imrworldwide.com^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
-||imrworldwide.com^$domain=prosieben.at|prosieben.ch|prosieben.de
 ||imrworldwide.com^$third-party
 ||imsdb.pw/cdn-cgi/trace
 ||imsdb.pw/player/ip.php
@@ -84359,7 +84328,6 @@ zzzyk.com###Tinfo
 ||intelledox.actonservice.com^
 ||intelli-direct.com^$third-party
 ||intelli-shop.actonservice.com^
-||intelliad.de^$domain=tvspielfilm.de
 ||intelliad.de^$third-party
 ||intelligems.io/track
 ||intelligence.officialwesthamstore.com^
@@ -84493,23 +84461,9 @@ zzzyk.com###Tinfo
 ||io95.prod.cloud.prod.cloud.tt.omtrdc.net^
 ||ioactiveinc.actonservice.com^
 ||ioam.de/?
-||ioam.de/?$domain=autobild.de|focus.de|spiegel.de|stern.de|tellows.de|transfermarkt.de
-||ioam.de/?$domain=comunio.de
-||ioam.de/?$domain=notebookcheck.com
-||ioam.de/?$domain=planetsnow.de
-||ioam.de/?$domain=tvspielfilm.de
-||ioam.de/?$domain=woxikon.de
 ||ioam.de/aid.io?
 ||ioam.de/tx.io?
-||ioam.de/tx.io?$domain=autobild.de|focus.de|kabeleins.de|metal-hammer.de|musikexpress.de|prosieben.de|prosiebenmaxx.de|quoka.de|ran.de|rollingstone.de|sat1.de|sixx.de|spiegel.de|stern.de|tellows.de|transfermarkt.de
-||ioam.de/tx.io?$domain=comunio.de
-||ioam.de/tx.io?$domain=focus.de
-||ioam.de/tx.io?$domain=gamestar.de
-||ioam.de/tx.io?$domain=notebookcheck.com
-||ioam.de/tx.io?$domain=planetsnow.de
-||ioam.de/tx.io?$domain=tvspielfilm.de
-||ioam.de/tx.io?$domain=wetter.com
-||ioam.de/tx.io?$domain=woxikon.de
+||ioam.de^$domain=autobild.de|spiegel.de
 ||ioam.de^$third-party
 ||iobvmtx.xyz^
 ||iocnt.net^$third-party
@@ -84762,7 +84716,6 @@ zzzyk.com###Tinfo
 ||ironsrc.com^
 ||irqqwqk.cn^
 ||irqs.ioam.de^
-||irqs.ioam.de^$domain=metal-hammer.de|musikexpress.de|rollingstone.de
 ||irs.gov/h4z97Hz8jMrNO/
 ||irs.iperceptions.com^
 ||irs01.com/irt?_iwt_id=
@@ -84954,6 +84907,7 @@ zzzyk.com###Tinfo
 ||iufjkdjmsm.xyz^
 ||iugbjkqwc.xyz^
 ||iujlwn.icu^
+||iumboa.xyz^
 ||iuou.myadobe.cn^
 ||iuou.ysw365.com^
 ||iupian.com/mstyle/js/topinfo.js
@@ -86722,6 +86676,7 @@ zzzyk.com###Tinfo
 ||kodik.info/stats|
 ||koe-vip.com/statistik/
 ||koekd.xyz^
+||kogtrmjz.xyz^
 ||kohklkhwus.aetv.hb.tt.omtrdc.net^
 ||kohlberg.tt.omtrdc.net^
 ||kohlerco.tt.omtrdc.net^
@@ -86861,7 +86816,6 @@ zzzyk.com###Tinfo
 ||krux.net^
 ||krw.yrehdfer.com^
 ||krxd.net^
-||krxd.net^$domain=focus.de
 ||krxd.net^$third-party
 ||kryjqq.com^
 ||ks42zt.spec.fm^
@@ -88551,7 +88505,6 @@ zzzyk.com###Tinfo
 ||links.soulsoftware.org^
 ||links.sparkmail.branch.rocks^
 ||links.staging-lifestepsapp.com^
-||links.strava.com^
 ||links.strava.com^$image
 ||links.stretchitapp.com^
 ||links.subscribed.app^
@@ -89084,8 +89037,7 @@ zzzyk.com###Tinfo
 ||log.ohou.se^
 ||log.olark.com^
 ||log.outbrain.com^
-||log.outbrain.com^$domain=autobild.de|focus.de|metal-hammer.de|musikexpress.de|rollingstone.de|widgets.outbrain.com
-||log.outbrain.com^$domain=focus.de
+||log.outbrain.com^$domain=autobild.de|widgets.outbrain.com
 ||log.outbrainimg.com^
 ||log.particlenews.com^
 ||log.perfecttitspics.com^
@@ -89553,7 +89505,6 @@ zzzyk.com###Tinfo
 ||lp3.dentsplysirona.com^
 ||lp3tdqle.com^
 ||lp4.io^
-||lp4.io^$domain=focus.de
 ||lp4.io^$third-party
 ||lpa.idexpertscorp.com^
 ||lpasdfgwer.com^
@@ -92748,7 +92699,7 @@ zzzyk.com###Tinfo
 ||meetings.gaylordhotels.com^
 ||meetrics.com^
 ||meetrics.net^
-||meetrics.net^$domain=spiegel.de|stern.de
+||meetrics.net^$domain=spiegel.de
 ||meetrics.net^$third-party
 ||meetsourhig.biz^
 ||meetup.com^$cookie=MEETUP_BROWSER_ID
@@ -92840,7 +92791,9 @@ zzzyk.com###Tinfo
 ||memek21.tt.omtrdc.net^
 ||memelq.acs.org^
 ||memo.co^$third-party
+||memopilot.com^
 ||memorizeline.com^
+||memorizematch.com^
 ||memorizeneck.com^
 ||memorycobweb.com^
 ||menards2c.tt.omtrdc.net^
@@ -93268,7 +93221,6 @@ zzzyk.com###Tinfo
 ||metrics.bostonscientific.com^
 ||metrics.bridgestoneamericas.com^
 ||metrics.brightcove.com^
-||metrics.brightcove.com^$domain=stern.de
 ||metrics.brighthorizons.com^
 ||metrics.britishgas.co.uk^
 ||metrics.brocade.com^
@@ -95315,7 +95267,6 @@ zzzyk.com###Tinfo
 ||mouse3k.com^$third-party
 ||mousecomputer.tt.omtrdc.net^
 ||mouseflow.com^
-||mouseflow.com^$domain=wetter.com
 ||mouseflow.com^$third-party
 ||mousestats.com^$third-party
 ||mousetrace.com^$third-party
@@ -95323,7 +95274,6 @@ zzzyk.com###Tinfo
 ||movable-ink-397.com^$third-party
 ||movable-ink-6710.com^$third-party
 ||movad.de/c.ount?
-||movad.de/c.ount?$domain=prosieben.at|prosieben.ch|prosieben.de
 ||movavi-video-converter.tt.omtrdc.net^
 ||move.azets.com^
 ||move.azets.dk^
@@ -95774,7 +95724,7 @@ zzzyk.com###Tinfo
 ||mx1nzl-pool.tt.omtrdc.net^
 ||mx3.cbp.tt.omtrdc.net^
 ||mxapis.com^$third-party
-||mxcdn.net^$domain=spiegel.de|stern.de
+||mxcdn.net^$domain=spiegel.de
 ||mxcdn.net^$third-party
 ||mxdzxd.mister-auto.com^
 ||mxevdii.cn^
@@ -97319,8 +97269,6 @@ zzzyk.com###Tinfo
 ||nude.hu/html/track.js
 ||nudpqt.com^
 ||nuffieldhealth.tt.omtrdc.net^
-||nuggad.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|quoka.de|ran.de|sat1.de|sixx.de|transfermarkt.de
-||nuggad.net^$domain=prosieben.at|prosieben.ch|prosieben.de
 ||nuggad.net^$third-party
 ||nuheoub.cn^
 ||nuk-widgets.fanhubmedia.com/api/ping
@@ -98315,8 +98263,6 @@ zzzyk.com###Tinfo
 ||optimizely.com/js/geo.js
 ||optimizely.com/log
 ||optimizely.com/public/
-||optimizely.com^$domain=focus.de
-||optimizely.com^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 ||optimizely.com^$third-party
 ||optimizely.techtarget.com^
 ||optimizelyapis.com^
@@ -100340,7 +100286,6 @@ zzzyk.com###Tinfo
 ||pingback.sogou.com^
 ||pingclock.net^$third-party
 ||pingdom.net^
-||pingdom.net^$domain=musikexpress.de
 ||pingdom.net^$third-party
 ||pingfang.icu^
 ||pinggu.org/api/bbsgg.
@@ -100869,7 +100814,6 @@ zzzyk.com###Tinfo
 ||plista.com/async/$third-party
 ||plista.com/getuid?
 ||plista.com/iframeShowItem.php
-||plista.com/iframeShowItem.php$domain=planetsnow.de
 ||plista.com^
 ||pljuin.lensmode.com^
 ||pll.pearlinsurance.com^
@@ -101279,6 +101223,7 @@ zzzyk.com###Tinfo
 ||prd-collector-platform.ex.co^
 ||prd.tt.omtrdc.net^
 ||prdohgp.cn^
+||prdwebcollector.ruetracking.com^
 ||pre-employmentservices.adp.com^
 ||pre-zcorp.tt.omtrdc.net^
 ||pre.glotgrx.com^
@@ -104340,7 +104285,6 @@ zzzyk.com###Tinfo
 ||rqq.co/Webservices/jsParseLinks.aspx$script,third-party
 ||rqq.co/visitScript/$script,third-party
 ||rqrvfp.xyz^
-||rqtrk.eu^$domain=stern.de
 ||rqtrk.eu^$third-party
 ||rqxtbr.xyz^
 ||rqytqq.com^
@@ -105936,8 +105880,6 @@ zzzyk.com###Tinfo
 ||scorebull.com/adv/$popup
 ||scorecardresearch.com^
 ||scorecardresearch.com^$domain=cnet.com,important
-||scorecardresearch.com^$domain=gamestar.de
-||scorecardresearch.com^$domain=outbrain.com
 ||scorecardresearch.com^$third-party
 ||scorpion.byteside.com^
 ||scorpion.clare.ink^
@@ -106830,8 +106772,6 @@ zzzyk.com###Tinfo
 ||semanticverses.com^$third-party
 ||semantiqo.com^$third-party
 ||semaobf1.com^
-||semasio.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
-||semasio.net^$domain=prosieben.at|prosieben.ch|prosieben.de
 ||semasio.net^$third-party
 ||sematext.com^$third-party
 ||sembox.it/js/sembox-tracking.js
@@ -107785,6 +107725,7 @@ zzzyk.com###Tinfo
 ||sincerebuffalo.com^
 ||sinceregarden.sincere-garden.jp^
 ||sincereseashore.com^$third-party
+||sinceresubstance.com^
 ||sinceresubstance.com^$third-party
 ||sindala.tns-gallup.dk^
 ||sinfo.awrostamani.com^
@@ -115265,7 +115206,6 @@ zzzyk.com###Tinfo
 ||strivesquirrel.com^
 ||strk.chegg.com^
 ||strm.yandex.ru/log?
-||stroeerdigitalmedia.de^$domain=planetsnow.de
 ||stroeerdigitalmedia.de^$third-party
 ||stroeerdp.de^*_gtm.js
 ||stroi-help.ru/forum/script_new.js
@@ -117339,7 +117279,7 @@ zzzyk.com###Tinfo
 ||teads.tv^$third-party
 ||tealand.cmcm.com^
 ||tealium.tt.omtrdc.net^
-||tealiumiq.com^$domain=autobild.de|metal-hammer.de|musikexpress.de|transfermarkt.de
+||tealiumiq.com^$domain=autobild.de
 ||tealiumiq.com^$third-party
 ||team-foxentertainment.hb-api.tt.omtrdc.net^
 ||team-rec.jp^$third-party
@@ -117792,9 +117732,6 @@ zzzyk.com###Tinfo
 ||the.tt.omtrdc.net^
 ||the4page.tt.omtrdc.net^
 ||theactivetag.com^$third-party
-||theadex.com^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|quoka.de|ran.de|sat1.de|sixx.de
-||theadex.com^$domain=prosieben.at|prosieben.ch|prosieben.de
-||theadex.com^$domain=wetter.com
 ||theadex.com^$third-party
 ||theagency.com^$third-party
 ||theamericannationalr.tt.omtrdc.net^
@@ -118161,7 +118098,6 @@ zzzyk.com###Tinfo
 ||tiresomethunder.com^$third-party
 ||tiscali.it/banner-tiscali/stats.html?
 ||tiser.com.au^$third-party
-||tisoomi-services.com^$domain=metal-hammer.de|musikexpress.de
 ||tisoomi-services.com^$third-party
 ||tisszhb.cn^
 ||titag.com^$third-party
@@ -124224,6 +124160,7 @@ zzzyk.com###Tinfo
 ||unsubscribe.email.verizon.com^
 ||unsubscribe.openapp.link^
 ||untappd.com/profile/impression?
+||untidyquestion.com^
 ||untidyrice.com^
 ||untidyrice.com^$third-party
 ||untitled.dwstatic.com^
@@ -125231,7 +125168,6 @@ zzzyk.com###Tinfo
 ||vine.eu/track/
 ||vineyardvines.tt.omtrdc.net^
 ||vinlens.com^$third-party
-||vinsight.de^$domain=tvspielfilm.de
 ||vinsight.de^$third-party
 ||vinted.de/relay/events
 ||vinted.fr/relay/events
@@ -125361,9 +125297,7 @@ zzzyk.com###Tinfo
 ||visto1.net^$third-party
 ||visual.ly/track.php?
 ||visualdna.com^$third-party
-||visualrevenue.com^$domain=autobild.de|kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|spiegel.de
-||visualrevenue.com^$domain=focus.de
-||visualrevenue.com^$domain=prosieben.at|prosieben.ch|prosieben.de
+||visualrevenue.com^$domain=autobild.de|spiegel.de
 ||visualrevenue.com^$third-party
 ||visualscience.external.bbc.co.uk^
 ||visualstudio.com/_da.gif?
@@ -125373,7 +125307,6 @@ zzzyk.com###Tinfo
 ||visualwebsiteoptimizer.com/gv.gif?
 ||visualwebsiteoptimizer.com/j.php
 ||visualwebsiteoptimizer.com/server-side/track-user?
-||visualwebsiteoptimizer.com^$domain=wetter.com
 ||visualwebsiteoptimizer.com^$third-party
 ||visumo.jp/Content/js/tracking.js
 ||visumo.jp/MediaManagement/WebApi/PageView?
@@ -126766,8 +126699,6 @@ zzzyk.com###Tinfo
 ||webtrekk-us.net^$third-party
 ||webtrekk.com^$third-party
 ||webtrekk.de^$third-party
-||webtrekk.net^$domain=kabeleins.de|metal-hammer.de|musikexpress.de|prosieben.de|prosiebenmaxx.de|ran.de|rollingstone.de|sat1.de|sixx.de
-||webtrekk.net^$domain=prosieben.at|prosieben.ch|prosieben.de
 ||webtrekk.net^$third-party
 ||webtrends-optimize.com^$third-party
 ||webtrends.com^$third-party
@@ -127294,7 +127225,6 @@ zzzyk.com###Tinfo
 ||wl.gl^$third-party
 ||wl.hd.sohu.com^
 ||wl.jd.com^$third-party
-||wl.spotify.com^
 ||wl.yna.co.kr^
 ||wlct-one.de^
 ||wlct-two.de^
@@ -127605,9 +127535,7 @@ zzzyk.com###Tinfo
 ||wsuqzu.armani.com^
 ||wsweinmannandschanzg.tt.omtrdc.net^
 ||wszwgs.cocopanda.fi^
-||wt-eu02.net^$domain=stern.de
 ||wt-eu02.net^$third-party
-||wt-safetag.com^$domain=stern.de
 ||wt-safetag.com^$third-party
 ||wt.ara.ad^
 ||wt.ara.cat^
@@ -129509,10 +129437,7 @@ zzzyk.com###Tinfo
 ||xphcrjth.xyz^
 ||xpicj1.cc^
 ||xpj08.oss-cn-beijing.aliyuncs.com^
-||xplosion.de^$domain=comunio.de
-||xplosion.de^$domain=focus.de
-||xplosion.de^$domain=prosieben.at|prosieben.ch|prosieben.de
-||xplosion.de^$domain=spiegel.de|stern.de
+||xplosion.de^$domain=spiegel.de
 ||xplosion.de^$third-party
 ||xps.huk.de^
 ||xps.huk24.de^
