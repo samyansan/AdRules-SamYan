@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-01-07 14:13:33
-! Total count: 131382
+! Version: 2024-01-07 20:18:34
+! Total count: 131387
 
  
 ###ADtip
@@ -785,6 +785,7 @@
 ##.cui-pt-item[data-qhb]
 ##.d_banner_inner
 ##.davwheat-ad
+##.ddd.ng-star-inserted
 ##.deadblocker-header-bar
 ##.deadblocker-header-bar-inner
 ##.detectBlockBox
@@ -1930,6 +1931,7 @@
 ##ul.content-list > li.content-tb
 ##ul.thread_detail_ads
 ##vg-pause-ads
+##vg-pause-d > .vg-v-p
 #%#//scriptlet('no-topics')
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -72401,6 +72403,7 @@ zzzyk.com###Tinfo
 ||dnightwish.xyz^
 ||dniwe.xyz^
 ||dnkeyt.svetsochtillbehor.se^
+||dnn1300.top^
 ||dnn506yrbagrg.cloudfront.net^
 ||dnnapi.com/analytics/
 ||dnp.tt.omtrdc.net^
@@ -123326,6 +123329,7 @@ zzzyk.com###Tinfo
 ||tunion-api.m.taobao.com^
 ||tunnl.com^$third-party
 ||tunovl.xyz^
+||tuoizbtl.xyz^
 ||tuotianxia.top^
 ||tupian55.com^*.gif
 ||tupian888.*.bcebos.com^
@@ -129554,6 +129558,7 @@ zzzyk.com###Tinfo
 ||xunlei.com/api/stat/rt/js?
 ||xunsu.cc/js/indexbottom.js
 ||xunyugong.xyz/sitejs/xunyugong.js
+||xuoizbtl.xyz^
 ||xuruochen.cn^
 ||xuwfmhh.icu^
 ||xuxiaoran.xyz^
