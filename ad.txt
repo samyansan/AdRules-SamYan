@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-01-10 02:11:28
-! Total count: 133732
+! Version: 2024-01-10 08:52:43
+! Total count: 133751
 
  
 ###ADtip
@@ -8240,6 +8240,8 @@ $websocket,domain=5nj.com|cechi8.com
 4kporn.xxx,cambro.tv,mangovideo.club###kt_player > a[href][target="_blank"]
 4kporn.xxx,cambro.tv,mangovideo.club#$#abort-current-inline-script crakPopInParams; abort-on-property-read onload
 4pda.to#$#hide-if-matches-xpath './/a[@target="_blank"]/img[@alt="" and @title=""]/parent::a/ancestor::*[@id and @class][1]'; hide-if-matches-xpath './/a[@href][@title][@target="_blank"]/img[@itemprop]/parent::a[@href]'; hide-if-matches-xpath './/a[@href][@target="_blank"]/img[@title and @border]/ancestor::*[2]'; hide-if-matches-xpath './/*[@id and @class]/article[@class="post" and @itemscope]/ancestor-or-self::*[1]';
+4players.de#%#//scriptlet('remove-attr', 'onclick', 'a[onclick*="Buy"]')
+4players.de#%#//scriptlet('remove-attr', 'onclick', 'a[onclick*="send4PEvent"]')
 4players.de#@#.AdSense
 4spaces.org,fuliba.net,fuliba2023.net,uliba.net,ypojie.com##.widget_ui_orbui
 4tuning.ro#@#.adsbygoogle
@@ -9238,6 +9240,12 @@ aliyun.com##.aliyun-delivery-view-container
 aliyun.com##.yq-ads-blog
 aliyun.com##.yq-main-left > a:first-child
 allboxing.ru#$#abort-current-inline-script document.querySelector open
+alle-tests.nl,issuya.com,maketecheasier.com,gamingdeputy.com,thesaurus.net,automobile-catalog.com,metabattle.com,hardreset.info,thehousemagazine.kr,tminews.co.kr,newsbell.co.kr,motorgraph.com,maxmovie.kr,thestockmarketwatch.com,carandmore.co.kr,capress.kr,mlbpark.donga.com,honkailab.com,warcraftrumbledeck.com,youtu.co,dogdrip.net,thephoblographer.com,dfast.kr,brandbrief.co.kr,meconomynews.com,poro.gg,maple.gg,lolchess.gg,dak.gg,majorgeeks.com,mystylezip.com,hotplacehunter.co.kr,mtodayauto.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,loawa.com,ygosu.com,sportalkorea.com,algumon.com,hancinema.net,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,kagit.kr,inven.co.kr,viva100.com,joongdo.co.kr,jjang0u.com,tenbizt.com,tvreport.co.kr,newautopost.co.kr,mememedia.co.kr,mobilitytv.co.kr,cboard.net,a-ha.io,interfootball.co.kr,fourfourtwo.co.kr,apkmirror.com#%#//scriptlet('set-local-storage-item', 'adshield-analytics-uuid', '$remove$')
+alle-tests.nl,issuya.com,maketecheasier.com,gamingdeputy.com,thesaurus.net,automobile-catalog.com,metabattle.com,hardreset.info,thehousemagazine.kr,tminews.co.kr,newsbell.co.kr,motorgraph.com,maxmovie.kr,thestockmarketwatch.com,carandmore.co.kr,capress.kr,mlbpark.donga.com,honkailab.com,warcraftrumbledeck.com,youtu.co,dogdrip.net,thephoblographer.com,dfast.kr,brandbrief.co.kr,meconomynews.com,poro.gg,maple.gg,lolchess.gg,dak.gg,majorgeeks.com,mystylezip.com,hotplacehunter.co.kr,mtodayauto.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,loawa.com,ygosu.com,sportalkorea.com,algumon.com,hancinema.net,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,kagit.kr,inven.co.kr,viva100.com,joongdo.co.kr,jjang0u.com,tenbizt.com,tvreport.co.kr,newautopost.co.kr,mememedia.co.kr,mobilitytv.co.kr,cboard.net,a-ha.io,interfootball.co.kr,fourfourtwo.co.kr,apkmirror.com#%#//scriptlet('set-local-storage-item', 'as_accetpable_ads_blocked_cache', '$remove$')
+alle-tests.nl,issuya.com,maketecheasier.com,gamingdeputy.com,thesaurus.net,automobile-catalog.com,metabattle.com,hardreset.info,thehousemagazine.kr,tminews.co.kr,newsbell.co.kr,motorgraph.com,maxmovie.kr,thestockmarketwatch.com,carandmore.co.kr,capress.kr,mlbpark.donga.com,honkailab.com,warcraftrumbledeck.com,youtu.co,dogdrip.net,thephoblographer.com,dfast.kr,brandbrief.co.kr,meconomynews.com,poro.gg,maple.gg,lolchess.gg,dak.gg,majorgeeks.com,mystylezip.com,hotplacehunter.co.kr,mtodayauto.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,loawa.com,ygosu.com,sportalkorea.com,algumon.com,hancinema.net,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,kagit.kr,inven.co.kr,viva100.com,joongdo.co.kr,jjang0u.com,tenbizt.com,tvreport.co.kr,newautopost.co.kr,mememedia.co.kr,mobilitytv.co.kr,cboard.net,a-ha.io,interfootball.co.kr,fourfourtwo.co.kr,apkmirror.com#%#//scriptlet('set-local-storage-item', 'as_adblock_cache', '$remove$')
+alle-tests.nl,issuya.com,maketecheasier.com,gamingdeputy.com,thesaurus.net,automobile-catalog.com,metabattle.com,hardreset.info,thehousemagazine.kr,tminews.co.kr,newsbell.co.kr,motorgraph.com,maxmovie.kr,thestockmarketwatch.com,carandmore.co.kr,capress.kr,mlbpark.donga.com,honkailab.com,warcraftrumbledeck.com,youtu.co,dogdrip.net,thephoblographer.com,dfast.kr,brandbrief.co.kr,meconomynews.com,poro.gg,maple.gg,lolchess.gg,dak.gg,majorgeeks.com,mystylezip.com,hotplacehunter.co.kr,mtodayauto.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,loawa.com,ygosu.com,sportalkorea.com,algumon.com,hancinema.net,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,kagit.kr,inven.co.kr,viva100.com,joongdo.co.kr,jjang0u.com,tenbizt.com,tvreport.co.kr,newautopost.co.kr,mememedia.co.kr,mobilitytv.co.kr,cboard.net,a-ha.io,interfootball.co.kr,fourfourtwo.co.kr,apkmirror.com#%#//scriptlet('set-local-storage-item', 'as_profile_cache', '$remove$')
+alle-tests.nl,maketecheasier.com,gamingdeputy.com,automobile-catalog.com,metabattle.com,ardreset.info,thehousemagazine.kr,tminews.co.kr,newsbell.co.kr,motorgraph.com,maxmovie.kr,carandmore.co.kr,capress.kr,mlbpark.donga.com,golf-live.at,youtu.co,thephoblographer.com,dfast.kr,brandbrief.co.kr,meconomynews.com,poro.gg,maple.gg,lolchess.gg,dak.gg,majorgeeks.com,mystylezip.com,hotplacehunter.co.kr,mtodayauto.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,apkmirror.com#%#//scriptlet('abort-current-inline-script', 'atob', 'eval(decodeURIComponent(escape(window.atob("KCgpPT5')
+alle-tests.nl,maketecheasier.com,gamingdeputy.com,automobile-catalog.com,metabattle.com,hardreset.info#%#//scriptlet('prevent-eval-if', 'html-load.com')
 alluc.ee###aovl
 alotof.software#%#window.google_jobrunner = function() {};
 alternative.me,justjaredjr.com,r-graph-gallery.com#%#//scriptlet('remove-attr', 'onclick', 'a[href][onclick*="getOutboundLink"]')
@@ -37271,7 +37279,7 @@ instacart.com,instacart.ca#$#hide-if-matches-xpath './/div[count(child::span[@st
 instacart.com,instacart.ca#$#hide-if-matches-xpath './/div[count(child::span[@style and text()])=2]/parent::div//div[contains(text(),"Recommended for you")]/ancestor::div[@class][1]/ancestor::div[@class][1]'
 instacart.com,instacart.ca#$#hide-if-matches-xpath './/span[text()]/preceding::div[@aria-hidden="true"]/preceding::source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/ancestor::*[@id][@class][1]'
 instacart.com,instacart.ca#$#hide-if-matches-xpath './/video[@disablepictureinpicture]/ancestor-or-self::div[contains(@id,"video-player")]/ancestor::div[@id][@class][1][not(@id="store-wrapper") and not(@id="js-app")]'
-instacart.com,instacart.ca#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-rp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-qp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-vp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-tp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-up-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-vvp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-vvvp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-fp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-ap-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-bp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-cp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-dp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
+instacart.com,instacart.ca#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-rp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-qp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-vp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-tp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-up-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-vvp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-vvvp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-fp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-ap-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-bp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-cp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-dp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-ep-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
 instagram.com#$#race start; hide-if-contains-visible-text '/Anzeige|Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/' 'article[class]>div[class]'; hide-if-matches-xpath '//article[@class]//span[text()]//following::a[contains(@class,"_ad")][contains(@href,"facebook.com/ads/ig_redirect/?")]/ancestor::div[5]'; hide-if-has-and-matches-style * 'article[class]~*>div' 'article[class]~*>div>div span:last-of-type *>svg[style]' '/./' '/(width: [2-9])/'; race stop;
 instantmanga.com###notice
 instrument.com.cn###leftFlash
@@ -37288,6 +37296,7 @@ ip.cn##.well > p > a
 ip.sb##.rivencloud_ads
 ip138.com###banana
 ipatriot.com##div[class^="textwidget"] > div[class^="pi_"]
+ipcelou.com##.MODBanana
 ipcfun.com###crumb_r
 ipcfun.com###sidebar > ul > div[style]
 ipcfun.com###sidebar > ul > li[style]
@@ -37501,10 +37510,6 @@ isiyuan.net#?##page-list > ul > .layui-row:-abp-has(.ad)
 israelnationalnews.com,insider.com##.taboola
 isso.com.cn##.right-content-div > .top-div + div
 issuya.com#%#//scriptlet('remove-node-text', 'script', 'error-report.com')
-issuya.com,maketecheasier.com,gamingdeputy.com,thesaurus.net,automobile-catalog.com,metabattle.com,hardreset.info,thehousemagazine.kr,tminews.co.kr,newsbell.co.kr,motorgraph.com,maxmovie.kr,thestockmarketwatch.com,carandmore.co.kr,capress.kr,mlbpark.donga.com,honkailab.com,warcraftrumbledeck.com,youtu.co,dogdrip.net,thephoblographer.com,dfast.kr,brandbrief.co.kr,meconomynews.com,poro.gg,maple.gg,lolchess.gg,dak.gg,majorgeeks.com,mystylezip.com,hotplacehunter.co.kr,mtodayauto.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,loawa.com,ygosu.com,sportalkorea.com,algumon.com,hancinema.net,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,kagit.kr,inven.co.kr,viva100.com,joongdo.co.kr,jjang0u.com,tenbizt.com,tvreport.co.kr,newautopost.co.kr,mememedia.co.kr,mobilitytv.co.kr,cboard.net,a-ha.io,interfootball.co.kr,fourfourtwo.co.kr,apkmirror.com#%#//scriptlet('set-local-storage-item', 'adshield-analytics-uuid', '$remove$')
-issuya.com,maketecheasier.com,gamingdeputy.com,thesaurus.net,automobile-catalog.com,metabattle.com,hardreset.info,thehousemagazine.kr,tminews.co.kr,newsbell.co.kr,motorgraph.com,maxmovie.kr,thestockmarketwatch.com,carandmore.co.kr,capress.kr,mlbpark.donga.com,honkailab.com,warcraftrumbledeck.com,youtu.co,dogdrip.net,thephoblographer.com,dfast.kr,brandbrief.co.kr,meconomynews.com,poro.gg,maple.gg,lolchess.gg,dak.gg,majorgeeks.com,mystylezip.com,hotplacehunter.co.kr,mtodayauto.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,loawa.com,ygosu.com,sportalkorea.com,algumon.com,hancinema.net,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,kagit.kr,inven.co.kr,viva100.com,joongdo.co.kr,jjang0u.com,tenbizt.com,tvreport.co.kr,newautopost.co.kr,mememedia.co.kr,mobilitytv.co.kr,cboard.net,a-ha.io,interfootball.co.kr,fourfourtwo.co.kr,apkmirror.com#%#//scriptlet('set-local-storage-item', 'as_accetpable_ads_blocked_cache', '$remove$')
-issuya.com,maketecheasier.com,gamingdeputy.com,thesaurus.net,automobile-catalog.com,metabattle.com,hardreset.info,thehousemagazine.kr,tminews.co.kr,newsbell.co.kr,motorgraph.com,maxmovie.kr,thestockmarketwatch.com,carandmore.co.kr,capress.kr,mlbpark.donga.com,honkailab.com,warcraftrumbledeck.com,youtu.co,dogdrip.net,thephoblographer.com,dfast.kr,brandbrief.co.kr,meconomynews.com,poro.gg,maple.gg,lolchess.gg,dak.gg,majorgeeks.com,mystylezip.com,hotplacehunter.co.kr,mtodayauto.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,loawa.com,ygosu.com,sportalkorea.com,algumon.com,hancinema.net,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,kagit.kr,inven.co.kr,viva100.com,joongdo.co.kr,jjang0u.com,tenbizt.com,tvreport.co.kr,newautopost.co.kr,mememedia.co.kr,mobilitytv.co.kr,cboard.net,a-ha.io,interfootball.co.kr,fourfourtwo.co.kr,apkmirror.com#%#//scriptlet('set-local-storage-item', 'as_adblock_cache', '$remove$')
-issuya.com,maketecheasier.com,gamingdeputy.com,thesaurus.net,automobile-catalog.com,metabattle.com,hardreset.info,thehousemagazine.kr,tminews.co.kr,newsbell.co.kr,motorgraph.com,maxmovie.kr,thestockmarketwatch.com,carandmore.co.kr,capress.kr,mlbpark.donga.com,honkailab.com,warcraftrumbledeck.com,youtu.co,dogdrip.net,thephoblographer.com,dfast.kr,brandbrief.co.kr,meconomynews.com,poro.gg,maple.gg,lolchess.gg,dak.gg,majorgeeks.com,mystylezip.com,hotplacehunter.co.kr,mtodayauto.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,loawa.com,ygosu.com,sportalkorea.com,algumon.com,hancinema.net,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,kagit.kr,inven.co.kr,viva100.com,joongdo.co.kr,jjang0u.com,tenbizt.com,tvreport.co.kr,newautopost.co.kr,mememedia.co.kr,mobilitytv.co.kr,cboard.net,a-ha.io,interfootball.co.kr,fourfourtwo.co.kr,apkmirror.com#%#//scriptlet('set-local-storage-item', 'as_profile_cache', '$remove$')
 it-enginer.ru##body > #modal[style*="blur"]
 it1352.com##.content-wrap > .hidden-sm:nth-child(-n+2)
 it1352.com##.glyphicon-certificate
@@ -38135,7 +38140,7 @@ kerch.com.ru,kerch.net##a[href^="http://www.kerch.net/counter/"]
 keylol.com,steamcn.com##div[class*="rnd_"]
 keywin.org##.appdownload
 keywin.org##.pindaolist
-khoaiphim.com#$#abort-current-inline-script jQuery click_time
+khoaiphim.com,phimmoinay.org#$#abort-current-inline-script jQuery click_time
 khophimhd.net,downloadsachmienphi.com,tvhay.top#$#abort-current-inline-script JSON.parse atob
 kickassanime.io##.ka-ax-wrapper
 kickassanime.io##.ka-ax-wrp.mb-3
@@ -40336,8 +40341,6 @@ makepolo.com##.cpc_tgs
 makepolo.com##a[href*=".rong360.com"]
 makepolo.com##div[class*="_ad"]
 makepolo.com,mycar168.com,mysteel.com,pchome.net,qz828.com,rjfcw.cn##div[id^="ad"]
-maketecheasier.com,gamingdeputy.com,automobile-catalog.com,metabattle.com,ardreset.info,thehousemagazine.kr,tminews.co.kr,newsbell.co.kr,motorgraph.com,maxmovie.kr,carandmore.co.kr,capress.kr,mlbpark.donga.com,golf-live.at,youtu.co,thephoblographer.com,dfast.kr,brandbrief.co.kr,meconomynews.com,poro.gg,maple.gg,lolchess.gg,dak.gg,majorgeeks.com,mystylezip.com,hotplacehunter.co.kr,mtodayauto.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,apkmirror.com#%#//scriptlet('abort-current-inline-script', 'atob', 'eval(decodeURIComponent(escape(window.atob("KCgpPT5')
-maketecheasier.com,gamingdeputy.com,automobile-catalog.com,metabattle.com,hardreset.info#%#//scriptlet('prevent-eval-if', 'html-load.com')
 malekal.com##.topad
 malimali5.com##a[href^="https://www.odancool.com/"]
 malimali5.com#?#.container > .section:has(> a[href^="https://www.odancool.com/"])
@@ -43610,7 +43613,7 @@ tbtdg.com###adblockWarning
 tbtdg.com##.reveal-modal-bg
 tbtdg.com##.s11text
 tbxt.com###headad2
-tctruyen.com,tctruyen.net#$#abort-current-inline-script $ popup
+tctruyen.com,tctruyen.net,abtruyen.com#$#abort-current-inline-script $ popup
 te.em.48hourprint.com$image
 te.em.esigns.com$image
 te.em.nextdayflyers.com$image
@@ -45182,6 +45185,7 @@ xdf.cn##.middleadv
 xdf.cn##.popup-wrap
 xdf.cn##div[style="position:fixed;top:120px;left:4px;width:210px;height:298px;isplay:block;background-position:initial initial;background-repeat:no-repeat no-repeat;"]
 xelements.cn
+xemphimhdc.cc#$#abort-current-inline-script document.addEventListener linksToOpen
 xfastest.com##.vw-header-ads-wrapper
 xfastest.com##iframe[src*="//ads.xfastest.com/"]
 xgan.cn##.bottom_fixed
@@ -57763,6 +57767,7 @@ zzzyk.com###Tinfo
 ||analytics.mouthshut.com^
 ||analytics.move.ru^
 ||analytics.moviepilot.de^
+||analytics.msk1.ru^
 ||analytics.msnbc.msn.com^
 ||analytics.multithread.studio^
 ||analytics.myapstore.com^
@@ -74531,7 +74536,6 @@ zzzyk.com###Tinfo
 ||dropbox--9.tt.omtrdc.net^
 ||dropbox-20-9.tt.omtrdc.net^
 ||dropbox.com/2/client_metrics
-||dropbox.com/2/ml_platform/log_predictions_events
 ||dropbox.com/2/pap_event_logging
 ||dropbox.com/alternate_
 ||dropbox.com/destiny_log
@@ -78655,6 +78659,7 @@ zzzyk.com###Tinfo
 ||foxentertainmentsupport.hb-api.tt.omtrdc.net^
 ||foxentertainmentus-east-10.hb-api.tt.omtrdc.net^
 ||foxnetworks.tt.omtrdc.net^
+||foxnews.com/static/isa/app/lib/afpid.js
 ||foxnews.tt.omtrdc.net^
 ||foxoxn.xyz^
 ||foxpush.com^$third-party
@@ -87852,6 +87857,7 @@ zzzyk.com###Tinfo
 ||jwddpvu.cn^
 ||jweod.xyz^
 ||jweoe.xyz^
+||jwfesuk.cn^
 ||jwjdpab.cn^
 ||jwjzf.online^
 ||jwlovq.rosemood.co.uk^
@@ -88882,6 +88888,7 @@ zzzyk.com###Tinfo
 ||kyliane.fr/pub.php
 ||kyliane.fr/pub2.php
 ||kyloepartners.actonservice.com^
+||kymahuxv.xyz^
 ||kyndryl.tt.omtrdc.net^
 ||kyoufukudoucname.worldsmile.net^
 ||kyplpw.com^
@@ -89814,7 +89821,7 @@ zzzyk.com###Tinfo
 ||link.adhdinsight.com^
 ||link.admin.kodakmoments.com^
 ||link.afterpay.com^
-||link.ag.fan^||link.clubmanagergame.com^
+||link.ag.fan^
 ||link.alerts.busuu.app^
 ||link.alpha-tonicworks.site^
 ||link.americanhomesaver.com^
@@ -89827,6 +89834,7 @@ zzzyk.com###Tinfo
 ||link.cdl.freshly.com^
 ||link.cheerz.com^
 ||link.clickipo.com^
+||link.clubmanagergame.com^
 ||link.cluno.com^
 ||link.cofyz.com^
 ||link.collectivebenefits.com^
@@ -94249,6 +94257,7 @@ zzzyk.com###Tinfo
 ||mddcloud.*/oweApi/ad/
 ||mdds-i-tc-east1a.aw018.c.tt.omtrdc.net^
 ||mdevstat.qqlive.qq.com^
+||mdezco.xyz^
 ||mdfcrm.actonservice.com^
 ||mdfsbn.com^$third-party
 ||mdhv.io^
@@ -96256,6 +96265,7 @@ zzzyk.com###Tinfo
 ||metrics.vero.co.nz^
 ||metrics.viega.de^
 ||metrics.vikingline.ee^
+||metrics.viqeo.tv^
 ||metrics.virginaustralia.com^
 ||metrics.virginmedia.com^
 ||metrics.virtualservers.com^
@@ -97504,6 +97514,7 @@ zzzyk.com###Tinfo
 ||msufcu.actonservice.com^
 ||msvdn.net/api/v2/heartbeat/
 ||msvkfwth.xyz^
+||msxoux.icu^
 ||msz3.destinia.cn^
 ||mt-business.vodafone.com^
 ||mt-wzb.clarin.com/weizenbock/pixel.fingerprint.gif
@@ -99401,6 +99412,7 @@ zzzyk.com###Tinfo
 ||nz04com.com/aabdd/
 ||nzbusiness.vodafone.co.nz^
 ||nzl-pool.tt.omtrdc.net^
+||nzlrfdv.xyz^
 ||nzmkzl.mytheresa.com^
 ||nzpages.co.nz/modules/common/track.js
 ||nzporf.xyz^
@@ -101765,6 +101777,7 @@ zzzyk.com###Tinfo
 ||paywall.folha.uol.com.br^$domain=folha.uol.com.br
 ||paz.dida-world.com^
 ||pazz.xyz^
+||pb.adriver.ru^
 ||pb.hd.sohu.com^
 ||pb.i.sogou.com^
 ||pb.shuxigua.com^
@@ -104010,6 +104023,7 @@ zzzyk.com###Tinfo
 ||pushspring.actonservice.com^
 ||pushspring.com^$third-party
 ||pushsquare.com/blank.gif
+||pushvisit.xyz^
 ||pushwize.com^$third-party
 ||pushwoosh.com^$third-party
 ||pushypipe.com^
@@ -106522,6 +106536,7 @@ zzzyk.com###Tinfo
 ||rtax.criteo.com^
 ||rtb-seller.com^$third-party
 ||rtb.loopa.net.au^$domain=junkmail.co.za
+||rtb.videonow.ru^
 ||rtb.wedeo.ru/track?
 ||rtb123.com^$third-party
 ||rtbanalytics.com^
@@ -118075,10 +118090,13 @@ zzzyk.com###Tinfo
 ||sync.1dmp.io^
 ||sync.adap.tv^
 ||sync.adotmob.com^
+||sync.adspend.space^
 ||sync.bumlam.com^$third-party
 ||sync.ebis.ne.jp^$third-party
 ||sync.morgdm.ru^
+||sync.opendsp.ru^
 ||sync.outbrain.com^$third-party
+||sync.programmatica.com^
 ||sync.rambler.ru^
 ||sync.shinobi.jp^
 ||sync.taboola.com^
@@ -120571,6 +120589,7 @@ zzzyk.com###Tinfo
 ||tlcrelationshipmanag.tt.omtrdc.net^
 ||tlctv.com.tr/ajax/item/hitImage?
 ||tlctv.com.tr/assets/default/images/pixel.gif
+||tlfurd.xyz^
 ||tlhlpcb.xyz^
 ||tlm.adp.ca^
 ||tlprlf.xyz^
