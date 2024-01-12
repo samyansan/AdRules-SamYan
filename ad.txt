@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-01-12 02:13:49
-! Total count: 133794
+! Version: 2024-01-12 08:52:52
+! Total count: 133814
 
  
 ###ADtip
@@ -2869,7 +2869,7 @@ $websocket,domain=5nj.com|cechi8.com
 .php?zoneid=
 .ppys.com/detail
 .providesupport.com/cmd/*?ps_t=
-.pstmrk.it/open/
+.pstmrk.it/open^
 .publish0x.com/t/
 .pulse-stat.com$image
 .pw/ads/
@@ -3769,7 +3769,7 @@ $websocket,domain=5nj.com|cechi8.com
 /api/cmp_tracker|
 /api/drpStats
 /api/event-rfkj/*
-/api/events|$domain=boticario.com.br|livehdcams.com|pornhublive.com|hog.tv|eudora.com.br|belezanaweb.com.br|vult.com.br|quemdisseberenice.com.br
+/api/events|$domain=boticario.com.br|livehdcams.com|pornhublive.com|hog.tv|eudora.com.br|belezanaweb.com.br|vult.com.br|quemdisseberenice.com.br|bookmark.xxx
 /api/getPos?jspath=/videos/view//*
 /api/goods/v1/get.script.core?
 /api/increment-pv$xmlhttprequest
@@ -8713,7 +8713,7 @@ $websocket,domain=5nj.com|cechi8.com
 9xav.cc#%#//scriptlet('remove-class', 'q-body--prevent-scroll', 'body')
 9xav.cc#?#div[class]:not([class*=" "]):has(> span[class*=" "] > a[href^="https://"][target="_blank"])
 9xupload.me#$#abort-on-property-read eval
-://*.*$permissions=join-ad-interest-group=()\, run-ad-auction=()\, browsing-topics=()
+://*.*$document,permissions=join-ad-interest-group=()\,run-ad-auction=()\,browsing-topics=()
 ://*.tv/ad/$domain=~moviedj.tv
 ://*.z*.xyz/$object,third-party
 ://*:*/chunyu.html?k=$csp=script-src
@@ -10300,6 +10300,11 @@ boylove.cc##.dzxvovcm
 boylove.cc##.reader-home-swiper
 boylove.cc#?#.stui-pannel__bd > div[class]:has(> div[class] > div[class] > a[href][target="_blank"][rel="nofollow"] > img[src^="/bookimages/img/"][src$=".gif"])
 boylove.today,boylove1.cc,boyloves.fun,boylove3.cc##DIV[style='bottom: 80px;']
+boylove1.mobi##.div_sticky2
+boylove1.mobi##.fuafxnfq
+boylove1.mobi##.main-banner
+boylove1.mobi##.sponsor-colse
+boylove1.mobi##div[data-group="300x100"]
 boyoushe.com##a[href^="http"]:not([href*=".boyoushe"]) > .j-lazy
 brandsales.58.com#@#div[id^="ad_"]
 brasil247.com###taboola-mid-article-leia-mais
@@ -35661,6 +35666,7 @@ fox.com.tr#@#.text-ads
 fox.com.tr#@#.textAd
 fox.com.tr#@#.text_ad
 fox.com.tr#@#.text_ads
+foxnews.com#%#//scriptlet('set-local-storage-item', 'anon_fpid', '$remove$')
 fpdisplay.com##.class_adv1
 fpdisplay.com##table[width="960"][height="110"]
 fqlook.cn###rtj1009_iho3
@@ -36058,6 +36064,7 @@ go.vip.tuscanylvmail.com$image
 go4up.com##IMG[src="http://go4up.com/assets/img/downloadfr.gif"]
 go4up.com##[href^="http://go.ad2up.com/afu.php?id="]
 go4up.com##[href^="http://liversely.com/g4u?q="]
+gocphimvn.vip,p.thoctv.com#$#abort-current-inline-script document.createElement script
 godt.no##.adblock-info
 gofilmes.me#$#abort-on-property-read zfgformats
 gogi.in#@#.ad300-250
@@ -38144,7 +38151,7 @@ kerch.com.ru,kerch.net##a[href^="http://www.kerch.net/counter/"]
 keylol.com,steamcn.com##div[class*="rnd_"]
 keywin.org##.appdownload
 keywin.org##.pindaolist
-khoaiphim.com,phimmoinay.org#$#abort-current-inline-script jQuery click_time
+khoaiphim.com,phimmoinay.tv#$#abort-current-inline-script jQuery click_time
 khophimhd.net,downloadsachmienphi.com,tvhay.top#$#abort-current-inline-script JSON.parse atob
 kickassanime.io##.ka-ax-wrapper
 kickassanime.io##.ka-ax-wrp.mb-3
@@ -41823,7 +41830,7 @@ ph4.ru##table[width][height="90"][style]
 pharmnet.com.cn###img1
 pharmnet.com.cn##.ad9502
 phimdinhcao.net,phimlongtieng.net,phimdinhcao.com#$#abort-on-property-read localStorage
-phimgichill.net#$#abort-current-inline-script jQuery popurl;abort-current-inline-script document.createElement script
+phimgichill.net#$#abort-current-inline-script jQuery popurl;abort-current-inline-script eval $._Eu
 phimmoi4s.com#$#json-prune ads;abort-current-inline-script setTimeout click_time
 phimvietsub.pro,api.anime3s.com,subnhanh.xyz#$#override-property-read maxAds 0
 phimvuihd.org#$#override-property-read urlAds ''
@@ -44574,7 +44581,7 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gomovieshub.io,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.pw,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.id,ungtycomicsvip.com,truyengihotqua.net,dualeotruyenww.com,yurineko.net,vlxyz.tv,javhay.cam,phimsexhay669.co,cliphot69.biz,doctruyen3qmoi.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.com,sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motchillzz.in,truyenvnhay.tv,cdnstream.sbs,javtiful.com#$#abort-current-inline-script WebAssembly instantiate
+viet69.id,ungtycomicsvip.com,truyengihotqua.net,truyengihotvay.net,truyengihotnay.com,dualeotruyenww.com,yurineko.net,vlxyz.tv,javhay.cam,phimsexhay669.co,cliphot69.biz,doctruyen3qup.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.com,sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motchillzz.in,truyenvnhay.tv,cdnstream.sbs,javtiful.com#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com##div[class^="infinite-comment-list_subText"]
 view.inews.qq.com##div[class^="interaction-bottom_interaction"]
 view.inews.qq.com##div[class^="justify-text_showMore"]
@@ -74534,6 +74541,7 @@ zzzyk.com###Tinfo
 ||drive.waitrapp.com^
 ||drivecl.dd.tt.omtrdc.net^
 ||driven.actonservice.com^
+||driveniq.com^$third-party
 ||driver.dctaxi.com^
 ||driver.jugnoo.in^
 ||driverequest.com^
@@ -78675,6 +78683,7 @@ zzzyk.com###Tinfo
 ||foxentertainmentsupport.hb-api.tt.omtrdc.net^
 ||foxentertainmentus-east-10.hb-api.tt.omtrdc.net^
 ||foxnetworks.tt.omtrdc.net^
+||foxnews.com^$cookie=xid
 ||foxnews.tt.omtrdc.net^
 ||foxoxn.xyz^
 ||foxpush.com^$third-party
@@ -79184,6 +79193,7 @@ zzzyk.com###Tinfo
 ||fwepd.xyz^
 ||fwfd-euc1-lb20.tt.omtrdc.net^
 ||fwfd-use1-lb49.tt.omtrdc.net^
+||fwffa.cn^
 ||fwhhcpj.xyz^
 ||fwix.com/ref.js
 ||fwix.com^*/trackclicks_
@@ -87732,6 +87742,7 @@ zzzyk.com###Tinfo
 ||jsgdvkjz.com^
 ||jshkyh.29cm.co.kr^
 ||jsinfo.net^$third-party
+||jsjtjj.xyz^
 ||jslbaha.top^
 ||jslog.post.cz^
 ||jsm.godloveme.cn^
@@ -88143,6 +88154,7 @@ zzzyk.com###Tinfo
 ||kb8ixcm.cn^
 ||kbabqnd.cn^
 ||kbae.qiqqh.cn^
+||kbayke.xyz^
 ||kbb.com/partner/$third-party
 ||kbb.com/pixall/
 ||kbbrptv.xyz^
@@ -88183,6 +88195,7 @@ zzzyk.com###Tinfo
 ||kdh095.cn^
 ||kdhome.net/images/banner
 ||kdhome.net/templets/default/img/tpfd.jpg
+||kdjdpyrt.xyz^
 ||kdlsdk.neverfullydressed.co.uk^
 ||kdou.com/ad_js.php?adid=
 ||kdpic.pchome.com.tw^
@@ -90657,6 +90670,7 @@ zzzyk.com###Tinfo
 ||ljhbhy.cn^
 ||ljhhhhrt.top^
 ||ljnrjt.xyz^
+||ljpbtjq.xyz^
 ||ljqpvo.hardrock.com^
 ||ljte0.com^
 ||ljyc.tt.omtrdc.net^
@@ -92359,6 +92373,7 @@ zzzyk.com###Tinfo
 ||maper.info^$third-party
 ||mapfrespain.tt.omtrdc.net^
 ||mapi-log.qoo*.jp^
+||mapixl.com/scripts/pixlv*.min.js
 ||maplesoftinc.tt.omtrdc.net^
 ||maploco.com^$third-party
 ||mapmyuser.com^$third-party
@@ -105097,6 +105112,7 @@ zzzyk.com###Tinfo
 ||rantapallo.fi/s/redirect/tracking?
 ||raolmsc.com^
 ||rapidcounter.com^$third-party
+||rapidgator.net/images/pics/$domain=appshot.cc
 ||rapidkittens.com^
 ||rapidpanda.io^
 ||rapidspike.com/rum/
@@ -126176,6 +126192,7 @@ zzzyk.com###Tinfo
 ||ug-sg.byteoversea.com^
 ||ug.snssdk.com^
 ||ugbjqwe.com^
+||ugbler.icu^
 ||ugc.moji001.com^
 ||ugcsmk.aeschbach-chaussures.ch^
 ||ugdcxl.timeout.com^
@@ -128475,6 +128492,7 @@ zzzyk.com###Tinfo
 ||wcanj.com/2345/
 ||wcar72.tt.omtrdc.net^
 ||wcbfr.adultpages.nl^
+||wcbghap63.shop^
 ||wcbnl.adultpages.nl^
 ||wccftech.com/cnt*.js?ts=
 ||wccftech.com/cnt7vfDVvWa3.js
@@ -128815,6 +128833,7 @@ zzzyk.com###Tinfo
 ||webcompteur.com^$third-party
 ||webcon.cba-uat.tt.omtrdc.net^
 ||webcon1.help.tt.omtrdc.net^
+||webconf.douyucdn.cn/resource/common/giftPhotos_w.json
 ||webconfsc7.ise.tt.omtrdc.net^
 ||webconnect-uat.tt.omtrdc.net^
 ||webconnect5.uc1.tt.omtrdc.net^
@@ -132599,6 +132618,7 @@ zzzyk.com###Tinfo
 ||yourporscheimg.nabooda-auto.com^
 ||yoursitestatstube.ru^
 ||yoursolution.tapes.averydennison.com^
+||yourupload.com/jwe?
 ||youseeandroidstream.tns-gallup.dk^
 ||youseeiosstream.tns-gallup.dk^
 ||youth.cn/images/c.js
