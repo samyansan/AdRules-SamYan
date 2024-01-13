@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-01-13 14:13:20
-! Total count: 133843
+! Version: 2024-01-13 20:18:46
+! Total count: 133846
 
  
 ###ADtip
@@ -11149,7 +11149,7 @@ coolapk.com##[style*="position: fixed;bottom: 0"]
 coolinet.com##.section-banner
 coolpc.com.tw##TD[onclick="cancelBubble()"]
 coolsaid.com##iframe[src="http://coolsaid.com/gmifr_lei.html"]
-coomer.su,kemono.su#%#//scriptlet('set-constant', 'plausible', 'noopFunc')
+coomer.su,kemono.su#%#//scriptlet('prevent-xhr', 'method:POST')
 copyfuture.com#?#.tabbable > div:-abp-contains(宝红)
 copymanga.org##.col-2 > .dailyRecommendation + div[style^="width:"][style*="position: relative;"]
 copymanga.org##.comicDetailAds
@@ -63251,6 +63251,7 @@ zzzyk.com###Tinfo
 ||bjmama.net/a/spc_
 ||bjmantis.net^
 ||bjqnpe.i-office1.net^
+||bjrspnbf.xyz^
 ||bjs.faxingzhan.com^
 ||bjsone-an.tt.omtrdc.net^
 ||bjsrestaurants.tt.omtrdc.net^
@@ -68157,7 +68158,7 @@ zzzyk.com###Tinfo
 ||coolhii.com/gongzhong/
 ||coolpc.com.tw/home/img/right2.html
 ||coolpc.com.tw/img/topweb.html
-||coomer.su/api/v1/tryagain
+||coomer.su/api/v1/andagain
 ||coop.vmware.com^
 ||coopbank.tt.omtrdc.net^
 ||coope.cyou^
@@ -88254,7 +88255,7 @@ zzzyk.com###Tinfo
 ||kemas.top^
 ||kemono.party/api/event
 ||kemono.party/onomek.js
-||kemono.su/api/v1/tryagain
+||kemono.su/api/v1/andagain
 ||ken.kenxq.com^
 ||kendrarenee.tt.omtrdc.net^
 ||kenga.tech/heatmaps-
@@ -126203,6 +126204,7 @@ zzzyk.com###Tinfo
 ||uergbuirfq.thissubdomainshouldonlyresolveifwildcard.aem.hb.tt.omtrdc.net^
 ||uerzyr.cn^
 ||uestat.video.qiyi.com^
+||ueumdkc.cn^
 ||ufe.helixo.co/api/v1/stats
 ||ufeonk.viravira.co^
 ||ufgg55.xyz^
@@ -128470,6 +128472,7 @@ zzzyk.com###Tinfo
 ||wayang.tt.omtrdc.net^
 ||wayfair.de/a/
 ||wayfinderanalytics.servicebus.windows.net^
+||waymom.xyz^
 ||waytoo.smartalgorithm.site^
 ||wayyaj8t094u.www.kodalia.com^
 ||waz.met.vgwort.de^
