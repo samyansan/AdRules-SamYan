@@ -123,6 +123,7 @@
 ###advertisementjsalert
 ###advt
 ###adx_cggp
+###alert_windows > .q-dialog__backdrop
 ###anti_adblock
 ###app > .publicAllContentBg > .bigBannerBg
 ###app.app > .topic-big
@@ -196,6 +197,7 @@
 ###detection-block-overlay
 ###dgf_pc
 ###diads
+###div_top_ads
 ###downapp1
 ###downdiv > .downcode
 ###doyoo_mon_mask
@@ -673,6 +675,7 @@
 ##.advertise
 ##.advertising_lightbox
 ##.afc_popup
+##.alert_windows > .q-card__actions > a
 ##.anniversary-wrap-2018
 ##.app-down-fix.body-fix
 ##.appdownload_ad + .hider
@@ -1610,6 +1613,8 @@
 ##a[href*="/dsf188.cc"]
 ##a[href*="/dsf88.cc"]
 ##a[href*="/h91.tv"]
+##a[href*="/hgcool360.top"]
+##a[href*="/hgcoolaa.top"]
 ##a[href*="/htbet1536.com"]
 ##a[href*="/hth104.com/"]
 ##a[href*="/hth107.com/"]
@@ -1750,6 +1755,7 @@
 ##body.bg_xin > A[href*='com:'][target='_blank']
 ##body.chapter > div.container div.slide-baidu *
 ##body.conch-hasone section > span > video
+##body.desktop span[class^="c"] > a[href^="http"][rel="nofollow"][target="_blank"]
 ##body.fed-min-width.website-read > [style='bottom: 132px;']
 ##body.no_overflow strong
 ##body.page > .popup
@@ -13824,6 +13830,7 @@ znds.com###diy_mobanbus_view_right2
 znews.vn#$#abort-on-property-read adtimaConfig
 zol.com.cn###Article_Top_Banner
 zol.com.cn###btmLoginLayer
+zol.com.cn###downBoxGaosu + a
 zol.com.cn###iframe_zmall
 zol.com.cn###official_url
 zol.com.cn###relatedProduct
