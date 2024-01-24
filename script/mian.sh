@@ -1,11 +1,9 @@
 #!/bin/sh
 
 # 下载规则
-curl -o i-1.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock.txt
-curl -o i-2.txt https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad.txt
-curl -o i-3.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_5.txt
-curl -o i-4.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/mod/rules/dns-rules.txt
-curl -o i-5.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/mod/rules/adblock-rules.txt
+curl -o i-1.txt https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad.txt
+curl -o i-2.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/mod/rules/dns-rules.txt
+curl -o i-3.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/mod/rules/adblock-rules.txt
 
 # 合并规则并去除重复项
 cat i*.txt > i-mergd.txt
