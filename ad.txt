@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-01-24 20:21:21
-! Total count: 22722
+! Version: 2024-01-25 02:13:52
+! Total count: 22725
 
 ###ADtip
 ###Ad_windows
@@ -3550,7 +3550,7 @@ $websocket,domain=5nj.com|cechi8.com
 85wp.com###a3_diy2
 85wp.com##.top-ad-img
 8684.cn,8684.com##div[id*="adid"]
-8684.cn,8684.com,iyxdm.com,kugou.com,solarzoom.com,yesky.com##div[class^="adv"]
+8684.cn,8684.com,iyxdm.cc,kugou.com,solarzoom.com,yesky.com##div[class^="adv"]
 880sy.com##.foot_gg
 880sy.com##.fot_btom
 88448.com###ad_forum_banner
@@ -4451,7 +4451,11 @@ bmlink.com##.tg
 bnext.com.tw##div[id^="sponsor-"]
 boce.com##.page10Box1 > a[href^="http"]:not([href*="boce."])
 boce.com##div[class^="money"]
-bodu365.co###iside
+bodu365.co##.bdnav + .focus_show
+bodu365.co##.beside
+bodu365.co##.side_g_seat
+bodu365.co##.top_s_ad
+bodu365.co##.top_show
 bog.ac##.sidebar-url
 boke112.com###linkdh
 boke112.com###sidebar img
@@ -10454,6 +10458,7 @@ zzzyk.com###Tinfo
 ||365rich.cn/ba.aspx
 ||365xuet.com/assets/web/js/main.jsr_
 ||36gv.com^
+||36img.com/ad/
 ||36kr.com/pp/api/ap/plan?
 ||36mghtd.xyz^
 ||36nl.com^
@@ -12719,7 +12724,6 @@ zzzyk.com###Tinfo
 ||boce.com/statics/img/img27b.png
 ||bockd.xyz^
 ||bocvb.xyz^
-||bodu365.co/t/
 ||boewgph.icu^
 ||bogtrmjz.xyz^
 ||bojebd.xyz^
@@ -13612,7 +13616,6 @@ zzzyk.com###Tinfo
 ||d-test.39.net^
 ||d.8181zx.com^
 ||d.ab126.com^
-||d.bodu365.co^*.js
 ||d.dgzj.com^
 ||d.g.mi.com^
 ||d.kugou.com^
