@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-01-26 13:42:33
-! Total count: 39298
+! Version: 2024-01-26 14:13:32
+! Total count: 39310
 
  
 ###ADtip
@@ -602,6 +602,7 @@
 ##.ad_mod
 ##.ad_news
 ##.ad_notice
+##.ad_pc
 ##.ad_right
 ##.ad_right_1
 ##.ad_right_2
@@ -5278,6 +5279,7 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 52che.com##a[href^="http://count.52che.com/goto.html?"]
 52fx.cn##.nex_index_top_ads
 52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zhenniu.vip##.GzList
+52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn508.com##.GzList
 52kd.com###frame2cu3VU
 52life.cc##table[style="margin-top:0"]
 52movieba.com,acglala.cc,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
@@ -19977,6 +19979,7 @@ tmearn.*##+js(set, blurred, false)
 tmearn.*##.banner
 tmioe.com###custom_html-4
 tmioe.com##.__single_0
+tmioe.com##.ad
 tmioe.com##.ad_single_0
 tmioe.com##.entry-copyright
 tmioe.com##a[target="_blank"] > img[src*=".sinaimg.cn"]
@@ -22472,6 +22475,8 @@ zjst.net##body > style ~ *,.vod-gd
 zk001.cc##section[class^="ch"]
 zmovs.com##+js(aopr, ALoader)
 zmovs.com##+js(nowoif)
+zn508.com###klp_hdp
+zn508.com#?##portal_block_69_content > li:-abp-has(a[href^="http"])
 znds.com###diy_mobanbus_view_right2
 znews.vn#$#abort-on-property-read adtimaConfig
 zol.com.cn###Article_Top_Banner
@@ -26030,6 +26035,7 @@ zzzyk.com###Tinfo
 ||brfvyrrp.com^
 ||bridgetnbe.com^
 ||brightadnetwork.com^
+||brookssa.com^
 ||brorzpj.cn^
 ||brownfox.top^
 ||browser.sentry-cdn.com^$third-party
@@ -26930,6 +26936,7 @@ zzzyk.com###Tinfo
 ||cped7.xyz^
 ||cpffkbpq.xyz^
 ||cpgo.xyz^
+||cpkxahje.xyz^
 ||cpm.cm.kankan.com^
 ||cpmlwhra.xyz^
 ||cpms.now.com^
@@ -31192,6 +31199,7 @@ zzzyk.com###Tinfo
 ||jy135.com/js/pubuliu.
 ||jy135.com^$third-party
 ||jy8izgie.xyz^
+||jyewkb.icu^
 ||jyfw.cn/gonggong/jiayu/cf_
 ||jyfw.cn/nav/cf_
 ||jygiizv.icu^
@@ -32686,6 +32694,7 @@ zzzyk.com###Tinfo
 ||mnhncf.cn^
 ||mnks.cn/jk/appAD_
 ||mnnmnn.com^
+||mnorkc.xyz^
 ||mnpbxjq.cn^
 ||mnrrk.com/yuhe/ote/js/pcgg.js
 ||mnvxdkd.xyz^
@@ -34817,6 +34826,7 @@ zzzyk.com###Tinfo
 ||rmipoz.com/dp.js
 ||rmnsdh.xyz^
 ||rmws8.com^
+||rmxizma.cn^
 ||rmzbfum.cn^
 ||rnajhyd.xyz^
 ||rndhaunteran.com^
@@ -35108,6 +35118,7 @@ zzzyk.com###Tinfo
 ||sdhjueue.com^
 ||sdhuawen.cn^
 ||sdjbcjsbdjk.com^
+||sdjbvjsbvjz.com^
 ||sdjvbsjbvas.com^
 ||sdk.sipujia.cn^
 ||sdkapp.mobile.sina.cn^
@@ -37090,6 +37101,7 @@ zzzyk.com###Tinfo
 ||vfsdgjrr.xyz^
 ||vfsdsdeq.xyz^
 ||vfsvv1.com^
+||vfvad.top^
 ||vfzfrx.xyz^
 ||vgao.xyz/images/*.gif
 ||vgg5.cn^
