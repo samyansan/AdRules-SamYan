@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-01-27 08:48:23
-! Total count: 39309
+! Version: 2024-01-27 14:11:55
+! Total count: 39311
 
  
 ###ADtip
@@ -6397,7 +6397,6 @@ apk.tw#@#.google_ad
 apk4all.com##.control.field > .is-danger.button
 apkcombo.com##.diseanmevrtt
 apkcombo.com##[data-d-ad-id]
-apkmirror.com##+js(rmnt, script, /style:last-of-type|:empty|APKM\..+?\.innerHTML/)
 apkmirror.com##.OUTBRAIN
 apkmirror.com##.advertisement-text
 apkmirror.com##.ains
@@ -6406,7 +6405,6 @@ apkmirror.com##.gooWidget:style(opacity: 0 !important; visibility: collapse !imp
 apkmirror.com##.google-ad-leaderboard:style(opacity: 0 !important;)
 apkmirror.com##[href^="https://bstk.me/"]
 apkmirror.com##[id^="adtester-container"]:style(position: absolute !important;)
-apkmirror.com##^script:has-text(/style:last-of-type|:empty|APKM\..+?\.innerHTML/)
 apkmirror.com##div.appRow[style]
 apkmirror.com##script:contains(canRunAds = false)
 apkmirror.com#@#.adsbygoogle
@@ -26523,6 +26521,7 @@ zzzyk.com###Tinfo
 ||chesonfetor.com^
 ||chexun.com/delivery?
 ||chexun.net/images/sales//cxgg/
+||chgpuxim.xyz^
 ||chicmifi.com^
 ||chidir.com^
 ||chiese.site^
@@ -27574,6 +27573,7 @@ zzzyk.com###Tinfo
 ||dm1.ddwk8.cn^
 ||dm1.guanwawa.com^
 ||dm1.zjydt.com^
+||dmdnlr.xyz^
 ||dmeia.xyz^
 ||dmfjeu.xyz^
 ||dmg-dd.oss-accelerate.aliyuncs.com^
@@ -31284,6 +31284,7 @@ zzzyk.com###Tinfo
 ||kataprius.com^
 ||katebugs.com^
 ||katelin.top^
+||kaurieseluxate.com^
 ||kazigua.top^
 ||kb-render.alicdn.com/html/*.html
 ||kb5ke.xyz^
@@ -33160,6 +33161,7 @@ zzzyk.com###Tinfo
 ||nisihu.com.cn^
 ||nissifresh.com^
 ||nithisp.cn^
+||niticl.icu^
 ||niu07.com/gg/*.js
 ||niuacc.com/static/common/js/145.js
 ||niubixxx.com/seo/

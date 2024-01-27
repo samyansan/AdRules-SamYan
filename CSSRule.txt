@@ -3982,7 +3982,6 @@ apk.tw#@#.google_ad
 apk4all.com##.control.field > .is-danger.button
 apkcombo.com##.diseanmevrtt
 apkcombo.com##[data-d-ad-id]
-apkmirror.com##+js(rmnt, script, /style:last-of-type|:empty|APKM\..+?\.innerHTML/)
 apkmirror.com##.OUTBRAIN
 apkmirror.com##.advertisement-text
 apkmirror.com##.ains
@@ -3991,7 +3990,6 @@ apkmirror.com##.gooWidget:style(opacity: 0 !important; visibility: collapse !imp
 apkmirror.com##.google-ad-leaderboard:style(opacity: 0 !important;)
 apkmirror.com##[href^="https://bstk.me/"]
 apkmirror.com##[id^="adtester-container"]:style(position: absolute !important;)
-apkmirror.com##^script:has-text(/style:last-of-type|:empty|APKM\..+?\.innerHTML/)
 apkmirror.com##div.appRow[style]
 apkmirror.com##script:contains(canRunAds = false)
 apkmirror.com#@#.adsbygoogle
