@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-01-27 20:16:24
-! Total count: 39321
+! Version: 2024-01-28 02:11:20
+! Total count: 39302
 
  
 ###ADtip
@@ -2128,7 +2128,6 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 *$frame,script,3p,denyallow=bootstrapcdn.com|cloudflare.com|cloudflare.net|fastly.net|fastlylb.net|getbootstrap.com|google.com|googleapis.com|gstatic.com|hcaptcha.com|hwcdn.net|jquery.com|recaptcha.net|serverable.com|zencdn.net,domain=porcore.com|zazzybabes.com
 *$frame,script,3p,denyallow=bootstrapcdn.com|consensu.org|google.com|gstatic.com|hcaptcha.com|hwcdn.net|jquery.com|recaptcha.net|wp.com,domain=faupto.com
 *$frame,script,3p,denyallow=cloudflare.com|cloudflare.net|google.com|gstatic.com|hcaptcha.com|jsdelivr.net|recaptcha.net|webflow.com,domain=avgle.com
-*$frame,script,3p,denyallow=consensu.org|google.com|gstatic.com|recaptcha.net|quantcast.com|cloudflare.com,domain=birdurls.com
 *$frame,script,3p,denyallow=consensu.org|google.com|gstatic.com|recaptcha.net|quantcast.com|cloudflare.com,domain=owllink.net
 *$frame,script,3p,denyallow=google.com|googleapis.com|gstatic.com|hcaptcha.com|recaptcha.net,domain=sxyprn.*
 *$frame,script,3p,denyallow=googleapis.com,domain=imgair.net|imgblaze.net|imgfrost.net|pixsera.net|vestimage.site|imgwia.buzz|pixlev.*
@@ -2219,7 +2218,6 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 *$script,3p,denyallow=cloudflare.com|bootstrapcdn.com|fluidplayer.com|twitter.com|hwcdn.net|platform.twitter.map.fastly.net,domain=babesxworld.com
 *$script,3p,denyallow=cloudflare.com|cloudflare.net|cloudfront.net|disqus.com|disquscdn.com|facebook.net|fastly.net|fastlylb.net|fbcdn.net|google.com|googleapis.com|gstatic.com|hcaptcha.com|hwcdn.net|jquery.com|jsdelivr.net|mega.nz|recaptcha.net,domain=animeflv.*
 *$script,3p,denyallow=cloudflare.com|cloudflare.net|consensu.org|google.com|googleapis.com|gstatic.com|hcaptcha.com|hwcdn.net|recaptcha.net|twitter.com,domain=mylink.*|my1ink.*|myl1nk.*|myli3k.*
-*$script,3p,denyallow=cloudflare.com|cloudflare.net|consensu.org|google.com|googleapis.com|gstatic.com|hwcdn.net|jquery.com|recaptcha.net,domain=shrinkme.io
 *$script,3p,denyallow=cloudflare.com|cloudflare.net|disqus.com|disquscdn.com|fastly.net|fastlylb.net|google.com|googleapis.com|gstatic.com|hcaptcha.com|hwcdn.net|jsdelivr.net|jquery.com|jwpcdn.com|recaptcha.net|tawk.to,domain=cpmlink.net
 *$script,3p,denyallow=cloudflare.com|cloudflare.net|fastly.net|fastlylb.net|fluidplayer.com|google.com|googleapis.com|gstatic.com|hcaptcha.com|hwcdn.net|jquery.com|jsdelivr.net|recaptcha.net|twitter.com,domain=bdsmstreak.com
 *$script,3p,denyallow=cloudflare.com|cloudflare.net|fastly.net|fastlylb.net|google.com|googleapis.com|gstatic.com|hwcdn.net|jquery.com|jsdelivr.net|jwplatform.com|jwpcdn.com|recaptcha.net|arc.io,domain=zpaste.net|zplayer.live
@@ -7404,12 +7402,6 @@ biqle.*##+js(aopr, Date.prototype.toUTCString)
 biqle.org,biqle.ru#$#prevent-listener /click|mousedown/ 'popunder'
 biquge001.com###content > a
 birdsandblooms.com,bombshellbling.com,dorkly.com,dryscalpgone.com,eclypsia.com,familyhandyman.com,gala.fr,gentlemansgazette.com,homeschoolgiveaways.com,hotbeautyhealth.com,ketoconnect.net,mom4real.com,mynaturalfamily.com,oneessentialcommunity.com,pageflutter.com,printablecrush.com,psychologyjunkie.com,skinnyms.com,skintagsgone.com,stayglam.com,tasteandtellblog.com,thecelticblog.com,thecozyapron.com,theendlessmeal.com,thehappierhomemaker.com,thelovenerds.com,yellowblissroad.com##+js(acs, btoa, BOOTLOADER_LOADED)
-birdurls.com###bg_popup
-birdurls.com###link-view > br
-birdurls.com##+js(nowoif)
-birdurls.com##+js(set, blurred, false)
-birdurls.com##.box-main center
-birdurls.com##.box-main p
 bisceglielive.it##+js(nostif, #rbm_block_active, 1000)
 bisceglielive.it##.mkt-300x250
 bisceglielive.it##.mkt-728x90
@@ -8340,8 +8332,6 @@ clik.pw##div[style*="z-index:99999"] > div[style*="width:300px"]
 clikcoin.pl#@##adsense
 clix4btc.com##+js(set, adblock, false)
 clixwarez.blogspot.com##+js(aopr, adBlockDetected)
-clk.*##+js(nowoif)
-clk.*##+js(set, blurred, false)
 closermag.fr##+js(acs, document.head.appendChild, ='\x)
 closermag.fr##div[id^="detection-block"]
 closermag.fr,grazia.fr,topsante.com##.dfp-slot
@@ -11242,8 +11232,6 @@ germancarforum.com##+js(rmnt, script, adsbygoogle)
 get-click2.blogspot.com##[href^="http://bit.ly"]
 get-digital-help.com##.adthrive-ad
 get-digital-help.com##.ezoic-ad
-get-to.link##+js(aopr, document.dispatchEvent)
-get-to.link##+js(aopr, exoJsPop101)
 getfreecourses.*##+js(nosiif, visibility, 1000)
 getfreecourses.*##ins.adsbygoogle
 getfreesmsnumber.com##+js(acs, document.getElementById, undefined)
@@ -18573,9 +18561,6 @@ shrink.*##+js(set, blurred, false)
 shrink.*##.banner
 shrink.*##center
 shrinkearn.com##+js(aopr, open)
-shrinkme.io###imgAddDirectLink
-shrinkme.io##+js(aopr, app_vars.force_disable_adblock)
-shrinkme.io##+js(aopr, open)
 shrt10.com##+js(aopr, open)
 shrt10.com##+js(aopw, adcashMacros)
 shrt10.com##+js(set, blurred, false)
@@ -26248,7 +26233,6 @@ zzzyk.com###Tinfo
 ||camspic.com/imguang/*.gif
 ||camwhores.tv/contents/*/preroll$media,important,1p
 ||canimgs.com/images/
-||canoemissioninjunction.com^
 ||canser1.top^
 ||canser5.top^
 ||canser7.top^
@@ -26716,7 +26700,6 @@ zzzyk.com###Tinfo
 ||clisatf.top^
 ||clivads.com^
 ||clk.sh^$3p
-||clk.wiki/ads$frame
 ||clkdus.xyz^
 ||clldirectasianew.club^
 ||cloud-log.yy.com^
@@ -34687,7 +34670,6 @@ zzzyk.com###Tinfo
 ||rdpcom.com^
 ||rdpsht.xyz^
 ||rdqgllmny.com^$script
-||rdrclk.com^
 ||rdtjkwy.cn^
 ||rdufuxr.icu^
 ||re.taotaosou.com^
@@ -35332,7 +35314,6 @@ zzzyk.com###Tinfo
 ||shrillspoon.com^$third-party
 ||shrink-service.it^$csp=frame-src
 ||shrinkearn.com/sw.js$script,1p
-||shrinkme.io/sw.js$script,1p
 ||shspdt.com^$domain=11papapa.com
 ||shtatuo.cn^
 ||shuakongbao.com/resource/images/banner/
