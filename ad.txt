@@ -3,7 +3,7 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-01-28 21:25:37
+! Version: 2024-01-29 02:11:20
 ! Total count: 39282
 
  
@@ -9919,7 +9919,7 @@ empireg.ru#$#abort-current-inline-script Math zfgloaded
 emule-island.ru##.lastnews + A[href^="http://www.downloadmr.com/dmr/download/"]
 emule-island.ru##.newsgroup
 emumax.com##.tbanner
-emurom.net##+js(aost, jQuery, blockDLElements)
+emurom.net##+js(aost, jQuery, removeDLElements)
 emurom.net##+js(set, dvsize, 51)
 en8848.com.cn##.list_adv
 en8848.com.cn#@#.adcenter
@@ -14812,6 +14812,10 @@ m.youku.com##.recommend
 m.youku.com##body > [style="width: 100px; height: 100px; position: fixed; top: auto; right: 0px; bottom: 0px; left: auto; z-index: 188;"]:not([class]):not([id])
 m.youku.com,v.youku.com#%#//scriptlet('set-constant', 'Object.prototype._adData', 'emptyObj')
 m.youtube.com###koya_child_6
+m.youtube.com,music.youtube.com,tv.youtube.com,www.youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
+m.youtube.com,music.youtube.com,tv.youtube.com,www.youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
+m.youtube.com,music.youtube.com,tv.youtube.com,www.youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adSlots, undefined)
+m.youtube.com,music.youtube.com,tv.youtube.com,www.youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.playerAds, undefined)
 m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
 m.zhanqi.tv##.footer
 m.zhanqi.tv##.h5-foot-area
@@ -22192,10 +22196,6 @@ youtube.com##ytd-video-masthead-ad-advertiser-info-renderer, ytm-promoted-sparkl
 youtube.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
 youtube.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
-youtube.com,youtubekids.com,youtube-nocookie.com,~accounts.youtube.com,~payments.youtube.com##+js(set, playerResponse.adPlacements, undefined)
-youtube.com,youtubekids.com,youtube-nocookie.com,~accounts.youtube.com,~payments.youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
-youtube.com,youtubekids.com,youtube-nocookie.com,~accounts.youtube.com,~payments.youtube.com##+js(set, ytInitialPlayerResponse.adSlots, undefined)
-youtube.com,youtubekids.com,youtube-nocookie.com,~accounts.youtube.com,~payments.youtube.com##+js(set, ytInitialPlayerResponse.playerAds, undefined)
 youtubedownloader.*##+js(nowoif)
 yoututosjeff.*##+js(aeld, load, 2000)
 yoututosjeff.*##+js(aopw, adBlockDetected)
