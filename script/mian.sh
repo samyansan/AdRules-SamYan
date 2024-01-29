@@ -5,7 +5,7 @@ curl -o i-1.txt https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad.tx
 curl -o i-2.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt
 curl -o i-3.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
 curl -o i-4.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
-curl -o i-5.txt https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt
+curl -o i-5.txt https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall.txt
 
 # 合并规则并去除重复项
 cat i*.txt > i-mergd.txt
