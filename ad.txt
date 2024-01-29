@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-01-29 20:18:59
-! Total count: 39301
+! Version: 2024-01-30 02:12:43
+! Total count: 39306
 
  
 ###ADtip
@@ -21645,6 +21645,7 @@ www.xvideos.com##.thumb-ad
 www.ydyse.com##.left,.bottom,.right,.ad,.adimage
 www.yizhibo.com##.register_guide
 www.youtube.com##+js(trusted-replace-fetch-response, /"adPlacements.*?([A-Z]"\}|"\}{2})\}\]\,/, , player?key=)
+www.youtube.com##+js(trusted-replace-fetch-response, /\"adSlots.*?\}\]\}\}\]\,/, , player?key=)
 www.youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?("adSlots"|"adBreakHeartbeatParams")/gms, $1, youtubei/v1/player)
 www.youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?([A-Z]"\}|"\}{2})\}\]\,/, , /playlist\?list=|player\?key=|watch\?v=|youtubei\/v1\/player/)
 www.youtube.com#$#hide-if-matches-xpath './/div[@style]/parent::*[contains(@class,"ad-badge")]/ancestor::div[contains(@class,"video-ads")]'
@@ -35647,6 +35648,7 @@ zzzyk.com###Tinfo
 ||sporttvdireto.com/ads/popunder.php$popup
 ||spplamt.xyz^
 ||spqi.xyz/static/tmp/
+||sprzedaz2.oczarjk.pl/img/ads/banner.gif$image,redirect-rule=1x1.gif,domain=im9.eu
 ||spycock.com/coco/$script
 ||sq59.cn^
 ||sqevnrb.com^
@@ -37798,9 +37800,12 @@ zzzyk.com###Tinfo
 ||www.yatu.tv:2082/m/images/$image
 ||www.ykjyyy.com/8888/
 ||www.ynxjf.com^
-||www.youtube.com/playlist?list=$xhr,replace=/\"adPlacements.*?([A-Z]"\}|"\}{2})\}\]\,//
-||www.youtube.com/watch?v=$doc,xhr,replace=/\"adPlacements.*?([A-Z]"\}|"\}{2})\}\]\,//
-||www.youtube.com/youtubei/v1/player?key=$xhr,replace=/\"adPlacements.*?([A-Z]"\}|"\}{2})\}\]\,//
+||www.youtube.com/playlist?list=$xhr,replace=/"adPlacements.*?([A-Z]"\}|"\}{2})\}\]\,//
+||www.youtube.com/playlist?list=$xhr,replace=/"adSlots.*?\}\]\}\}\]\,//
+||www.youtube.com/watch?v=$doc,xhr,replace=/"adPlacements.*?([A-Z]"\}|"\}{2})\}\]\,//
+||www.youtube.com/watch?v=$doc,xhr,replace=/"adSlots.*?\}\]\}\}\]\,//
+||www.youtube.com/youtubei/v1/player?key=$xhr,replace=/"adPlacements.*?([A-Z]"\}|"\}{2})\}\]\,//
+||www.youtube.com/youtubei/v1/player?key=$xhr,replace=/"adSlots.*?\}\]\}\}\]\,//
 ||www.youzonggw.com^
 ||www.yueyuego.com^
 ||www.yuyue008.cn^
