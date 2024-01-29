@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-01-29 02:11:20
-! Total count: 39282
+! Version: 2024-01-29 08:49:36
+! Total count: 39287
 
  
 ###ADtip
@@ -7572,6 +7572,7 @@ bollywoodshaadis.com##+js(aopw, adBlockDetected)
 bombardir.ru#$#abort-on-property-read alert
 bombaytimes.com##a[onclick*="click"][rel="nofollow,noindex"]
 bombaytimes.com#?#div:-abp-has(> h4 > span:-abp-contains(Ad: ))
+bombuj.*##+js(aopr, bugBRUpeblis)
 bombuj.*##.ad_banner
 bombuj.*##[href][target="_blank"]
 bombuj.*##[id*="ekla"]
@@ -19131,6 +19132,7 @@ spokesman.com##+js(aopr, Connext)
 sponsor=$domain=mcfucker.com
 sport-express.ru##.se-adv-notice
 sport-show.fr##DIV[style="padding-top:0px;float:left;width:100%;font-size:13px;line-height:0px;top:4px;text-align:left"]
+sport-tv-guide.live##+js(set, bb, false)
 sport-tv-guide.live##ins.adsbygoogle
 sport.bild.de#@#.ad-wrapper
 sport.cz###adSklikUnderArticle
@@ -33288,6 +33290,7 @@ zzzyk.com###Tinfo
 ||nyfgpbsc.xyz^
 ||nyhgjmlg.xyz^
 ||nyhgvn.xyz^
+||nykvdwi.cn^
 ||nyoskiov.com^$script
 ||nypyzx.xyz^
 ||nyvgbt.xyz^
@@ -37510,6 +37513,7 @@ zzzyk.com###Tinfo
 ||wjoxqd.com^
 ||wjtij.top^
 ||wkrcbszi.xyz^
+||wkybwa.xyz^
 ||wkzrqq.com^
 ||wkzsmj.icu^
 ||wlct-three.de^$3p
@@ -38425,6 +38429,7 @@ zzzyk.com###Tinfo
 ||yhtuchuang.com^
 ||yhubsxmg.xyz^
 ||yhz18.com^
+||yhzjidgc.xyz^
 ||yhzm.xyz^
 ||yhzzzs02.com^
 ||yi.ximizi.com^
