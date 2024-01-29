@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-01-29 14:13:43
-! Total count: 39297
+! Version: 2024-01-29 20:18:59
+! Total count: 39301
 
  
 ###ADtip
@@ -19863,6 +19863,7 @@ timesofindia.indiatimes.com##.nonAppView > .mPws3
 timesofindia.indiatimes.com##:xpath(//p[contains(text(),"Ad ")]/../..)
 timesofindia.indiatimes.com##[data-aff-type]
 timesofindia.indiatimes.com##[onclick] .btxt:matches-css-before(content:/Ad/):xpath(../../..)
+timesofindia.indiatimes.com##div[class*="personaliseWidgetLoader"]
 ting89.com##.ad8
 ting89.com,tingshuge.com##.banner250
 ting89.com,tingshuge.com##.banner688_1
@@ -27271,6 +27272,7 @@ zzzyk.com###Tinfo
 ||dd667788dd.com^
 ||dd778899dd.com^
 ||ddacn6pr5v0tl.cloudfront.net^
+||ddaixdz.cn^
 ||ddbuwo.cn^
 ||ddgjjj.com^
 ||ddgjjj.com^$third-party
@@ -35927,6 +35929,7 @@ zzzyk.com###Tinfo
 ||szafvjdd.icu^
 ||szbpf.cn^
 ||szbxm.cn^
+||szbxw.cn^
 ||szcmcs.com^
 ||szdaqi88.com^
 ||szfcol.com/images/wxright240.jpg
@@ -37957,6 +37960,7 @@ zzzyk.com###Tinfo
 ||xhqgymmb.com^
 ||xhubsxmg.xyz^
 ||xhymsq.com/data/attachment/portal/
+||xhzjidgc.xyz^
 ||xhzmjs.com^
 ||xiacaidd.com/xiacai/ad/
 ||xiamp4.com/tj.js
