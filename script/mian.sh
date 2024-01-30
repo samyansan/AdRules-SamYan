@@ -1,8 +1,8 @@
 #!/bin/sh
 
 # 下载规则
-curl -o i-1.txt https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad.txt
-curl -o i-2.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt
+curl -o i-1.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_plus.txt
+curl -o i-2.txt https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt
 curl -o i-3.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
 curl -o i-4.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
 curl -o i-5.txt https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall.txt
