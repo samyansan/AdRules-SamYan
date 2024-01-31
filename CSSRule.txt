@@ -155,6 +155,7 @@
 ##.fuckYouAdBlock
 ##.fuckYouAdBlock2
 ##.glx-watermark-container
+##.gnt_xmst
 ##.happy-header-mobile
 ##.happy-inside-player
 ##.happy-under-player-mobile
@@ -1360,7 +1361,7 @@ blog.fc2.com##body > div[style="position:fixed;bottom:0;left:0;right:0;opacity:1
 blog.goo.ne.jp##.article__ad
 blog.goo.ne.jp##.article__hideads
 blog.goo.ne.jp#?#.banner--marchel:upward(#msg-box-app-recommend)
-blog.housinkai.com,seesaa.net##.blogbody p[style="font-size:x-small;color:#999999"]
+blog.housinkai.com,kakenhi.net,seesaa.net##.blogbody p[style="font-size:x-small;color:#999999"]
 blog.livedoor.com##.MdAdBox01
 blog.livedoor.com#?#.attention > ul.box > li.large > script:upward(1)
 blog.livedoor.jp###article-contents > a[href^="https://px.a8.net/svt/ejp"][target="_blank"]
@@ -1721,7 +1722,6 @@ chinese.engadget.com###module-engadget-deeplink-top-ad
 chinese.engadget.com##.rwd-inner-container ul[class*="List"] > li[class*="engadget"] > article > div[class*="engadget"] > a[href^="https://b.gemini.yahoo.com"]
 chinese.engadget.com##.rwd-inner-container ul[class*="List"] > li[class*="engadget"] > article > div[class*="engadget"] > a[href^="https://b.gemini.yahoo.com"] + div[class^="Pos"][data-ylk*=":AD;"]
 chinese.engadget.com#?#.rwd-inner-container ul[class*="List"] > li[class*="engadget"]:has(> article > div[class*="engadget"] > a[href^="https://b.gemini.yahoo.com"])
-chip.de###M1 > div[class] div[style^="min-height: "]:not(.fb)
 chip.de##+js(json-prune, enabled, force_disabled)
 chip.de##.Downloads-Select .wrapper-safe .fb-col-12 > div[class]:not(.fb, .ButtonAuswahl)
 chip.de##.amp-article-ad
@@ -1752,6 +1752,7 @@ cinema.maalaimalar.com##body:style(overflow: auto !important;)
 cinematoday.jp##.ct-ad
 cinematoday.jp##.text-center[style="min-height:100px;"]
 cinemaxxl.de##+js(set, adblock, false)
+cinemaxxl.de##noscript:has-text(Adblocker):remove()
 cirokun.blogspot.com##+js(aeld, load, 2000)
 citationmachine.net,citethisforme.com,easybib.com##+js(aopr, SBMGlobal.run.gramCallback)
 citethisforme.com##.ads_top_middle
@@ -3250,6 +3251,8 @@ fuw.ch###js-icon-list
 fux.com##.autonextAd
 fuzoku-move.net##.nativead_widget
 fuzoku-move.net##.prsita
+fxstreet.com##.fxs_stickyAd-mobile
+fxykx.com##a[href*="zyttx.com/"]
 fyptt.to##.bottom-post-ad-space
 fyptt.to##.top-post-ad
 fzdm.com##[style*="min-height:120px;"][style*="position:relative;"]:not(div)
@@ -4064,7 +4067,6 @@ ideya-biznesa.ru##.admania_adblock_detector
 idnes.cz##div[data-redistribute="ad"]
 idou.me##.ad__search-infeed-banner
 idownloadblog.com###iDB_Mobile_Below_Content
-idownloadblog.com##.wptouch-custom-ad
 idownloadblog.com#@#.header-ad
 igfap.com##+js(aopr, decodeURI)
 igg-games.*,pcgamestorrents.com##[src$=".avif"]
@@ -5849,6 +5851,7 @@ mkan.eastday.com##.db_gg_div
 mlbstream.tv,nbastream.tv,nflstream.tv,nhlstream.tv##[href*="allsports4free.online/"]
 mlbstream.tv,nbastream.tv,nhlstream.tv##[href^="https://pl.allsports4free.club/"]
 mlbstreams.net###iframe_preview
+mlbtraderumors.com,idownloadblog.com##.wptouch-custom-ad
 mlive.com,al.com###ad-wrapper__mobile-bottom-adhesion
 mmacore.tv##+js(acs, $, importFAB)
 mmafighting.com##amp-iframe[src^="https://ads.rubiconproject.com"]
@@ -8391,6 +8394,7 @@ t.lafa.site#$##wrapper { margin-top: 0 !important; }
 t.livepocket.jp##div[style$="height:100px; text-align:center"]
 t24.com.tr##div[style="margin-bottom:20px;min-height:120px"]
 t3n.de##+js(nostif, adBlockOverlay)
+t3n.de##.outbrain-wrapper-outer
 tabletowo.pl##.amp_widget_below_the_header a[data-bid] > amp-img
 tabootube.xxx##.wrap-spot
 tagesspiegel.de##+js(aopr, Notification)
@@ -8412,7 +8416,6 @@ tatsumi-crew.net##+js(nobab)
 taxtax.hatenablog.jp##.adx-responsive-mode
 tbib.org##+js(aopr, document.dispatchEvent)
 tcheats.com##+js(aopr, checkAds)
-tcpalm.com,knoxnews.com,clarionledger.com,palmbeachpost.com,tennessean.com,northjersey.com,detroitnews.com,greatfallstribune.com,onlineathens.com,usatoday.com,freep.com##.gnt_xmst
 tcpvpn.com##+js(nostif, Adblock)
 teamos-hkrg.com##[href^="https://bit.ly/"]
 techbang.com###related-posts

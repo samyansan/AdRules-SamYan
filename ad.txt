@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-01-31 20:18:32
-! Total count: 14485
+! Version: 2024-02-01 02:10:33
+! Total count: 14490
 
 ###AdBlockDialog
 ###aabl-container
@@ -163,6 +163,7 @@
 ##.fuckYouAdBlock
 ##.fuckYouAdBlock2
 ##.glx-watermark-container
+##.gnt_xmst
 ##.happy-header-mobile
 ##.happy-inside-player
 ##.happy-under-player-mobile
@@ -2155,7 +2156,7 @@ blog.fc2.com##body > div[style="position:fixed;bottom:0;left:0;right:0;opacity:1
 blog.goo.ne.jp##.article__ad
 blog.goo.ne.jp##.article__hideads
 blog.goo.ne.jp#?#.banner--marchel:upward(#msg-box-app-recommend)
-blog.housinkai.com,seesaa.net##.blogbody p[style="font-size:x-small;color:#999999"]
+blog.housinkai.com,kakenhi.net,seesaa.net##.blogbody p[style="font-size:x-small;color:#999999"]
 blog.livedoor.com##.MdAdBox01
 blog.livedoor.com#?#.attention > ul.box > li.large > script:upward(1)
 blog.livedoor.jp###article-contents > a[href^="https://px.a8.net/svt/ejp"][target="_blank"]
@@ -2555,7 +2556,6 @@ chinese.engadget.com###module-engadget-deeplink-top-ad
 chinese.engadget.com##.rwd-inner-container ul[class*="List"] > li[class*="engadget"] > article > div[class*="engadget"] > a[href^="https://b.gemini.yahoo.com"]
 chinese.engadget.com##.rwd-inner-container ul[class*="List"] > li[class*="engadget"] > article > div[class*="engadget"] > a[href^="https://b.gemini.yahoo.com"] + div[class^="Pos"][data-ylk*=":AD;"]
 chinese.engadget.com#?#.rwd-inner-container ul[class*="List"] > li[class*="engadget"]:has(> article > div[class*="engadget"] > a[href^="https://b.gemini.yahoo.com"])
-chip.de###M1 > div[class] div[style^="min-height: "]:not(.fb)
 chip.de##+js(json-prune, enabled, force_disabled)
 chip.de##.Downloads-Select .wrapper-safe .fb-col-12 > div[class]:not(.fb, .ButtonAuswahl)
 chip.de##.amp-article-ad
@@ -2593,6 +2593,7 @@ cinemalibero.*##+js(nowoif)
 cinematoday.jp##.ct-ad
 cinematoday.jp##.text-center[style="min-height:100px;"]
 cinemaxxl.de##+js(set, adblock, false)
+cinemaxxl.de##noscript:has-text(Adblocker):remove()
 cinetux.*##+js(aopw, smrtSB)
 cinetux.*##+js(ra, href, #clickfakeplayer)
 cinetux.*##.links_table > .fix-table > table > tbody > tr:has-text(Patrocinador)
@@ -4279,6 +4280,8 @@ fuzoku-move.net##.prsita
 fxporn69.*##+js(aeld, click, exopop)
 fxporn69.*##+js(nostif, nextFunction, 2000)
 fxporn69.*##+js(set, adblock, noopFunc)
+fxstreet.com##.fxs_stickyAd-mobile
+fxykx.com##a[href*="zyttx.com/"]
 fyptt.to##.bottom-post-ad-space
 fyptt.to##.top-post-ad
 fzdm.com##[style*="min-height:120px;"][style*="position:relative;"]:not(div)
@@ -5189,7 +5192,6 @@ ideya-biznesa.ru##.admania_adblock_detector
 idnes.cz##div[data-redistribute="ad"]
 idou.me##.ad__search-infeed-banner
 idownloadblog.com###iDB_Mobile_Below_Content
-idownloadblog.com##.wptouch-custom-ad
 idownloadblog.com#@#.header-ad
 iframejav.*##+js(aopr, __Y)
 iframejav.*##+js(nowoif)
@@ -7143,6 +7145,7 @@ mkvcinemas.*##+js(nowoif)
 mlbstream.tv,nbastream.tv,nflstream.tv,nhlstream.tv##[href*="allsports4free.online/"]
 mlbstream.tv,nbastream.tv,nhlstream.tv##[href^="https://pl.allsports4free.club/"]
 mlbstreams.net###iframe_preview
+mlbtraderumors.com,idownloadblog.com##.wptouch-custom-ad
 mlive.com,al.com###ad-wrapper__mobile-bottom-adhesion
 mlwbd.*##+js(noeval-if, ads)
 mlwbd.*##+js(ra, type, input[value^="http"])
@@ -10087,6 +10090,7 @@ t.lafa.site#$##wrapper { margin-top: 0 !important; }
 t.livepocket.jp##div[style$="height:100px; text-align:center"]
 t24.com.tr##div[style="margin-bottom:20px;min-height:120px"]
 t3n.de##+js(nostif, adBlockOverlay)
+t3n.de##.outbrain-wrapper-outer
 tabletowo.pl##.amp_widget_below_the_header a[data-bid] > amp-img
 tabootube.xxx##.wrap-spot
 tagesspiegel.de##+js(aopr, Notification)
@@ -10111,7 +10115,6 @@ tatsumi-crew.net##+js(nobab)
 taxtax.hatenablog.jp##.adx-responsive-mode
 tbib.org##+js(aopr, document.dispatchEvent)
 tcheats.com##+js(aopr, checkAds)
-tcpalm.com,knoxnews.com,clarionledger.com,palmbeachpost.com,tennessean.com,northjersey.com,detroitnews.com,greatfallstribune.com,onlineathens.com,usatoday.com,freep.com##.gnt_xmst
 tcpvpn.com##+js(nostif, Adblock)
 teamos-hkrg.com##[href^="https://bit.ly/"]
 techbang.com###related-posts
@@ -12634,6 +12637,7 @@ zyuken.net##.PaddingTop10Bottom10[style^="height: 250px;"]
 ||chuppito.fr/ext/*/privacypolicy/styles/all/template/remove_url.js$script,1p
 ||cibntv.net/youku/$media,important,redirect=none:10,from=youku.com
 ||cibntv.net/youku/*$media,redirect=noopmp3-0.1s,domain=youku.com
+||cinemaxxl.de/js/adblock.js$script
 ||citynow.it/wp-content/uploads/*/banner$image,1p
 ||cl-ad.x-flow.app^
 ||clammychicken.com^$third-party
@@ -13493,6 +13497,7 @@ zyuken.net##.PaddingTop10Bottom10[style^="height: 250px;"]
 ||mn-shop.com^$3p
 ||mo.freeindoapp.com^
 ||mo.spaces.ru./static/$script,domain=nasimke.ru|sasisa.ru
+||moatads.com.edgekey.net^
 ||mob*.novanewsapp.com^
 ||moba8.net^
 ||mobads.baidu.com^
