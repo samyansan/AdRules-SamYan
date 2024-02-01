@@ -1,11 +1,11 @@
 #!/bin/sh
 
 # 下载规则
-curl -o i-1.txt https://raw.githubusercontents.com/timlu85/AdGuard-Home_Youtube-Adfilter/master/Youtube-Adfilter-Web.txt
+curl -o i-1.txt https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall.txt
 curl -o i-2.txt https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
 curl -o i-3.txt https://raw.githubusercontent.com/zsakvo/AdGuard-Custom-Rule/master/rule/zhihu.txt
-curl -o i-4.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
-curl -o i-5.txt https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall.txt
+curl -o i-4.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/Rules/samyansan.txt
+curl -o i-5.txt https://raw.githubusercontents.com/timlu85/AdGuard-Home_Youtube-Adfilter/master/Youtube-Adfilter-Web.txt
 curl -o i-6.txt https://filters.adtidy.org/extension/ublock/filters/11.txt
 
 # 合并规则并去除重复项
