@@ -8,6 +8,7 @@ curl -o i-4.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/
 curl -o i-5.txt https://raw.githubusercontents.com/timlu85/AdGuard-Home_Youtube-Adfilter/master/Youtube-Adfilter-Web.txt
 curl -o i-6.txt https://filters.adtidy.org/extension/ublock/filters/11.txt
 curl -o i-7.txt https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt
+curl -o i-8.txt https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt
 
 # 合并规则并去除重复项
 cat i*.txt > i-mergd.txt
