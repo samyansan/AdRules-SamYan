@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-02-02 14:13:21
-! Total count: 12573
+! Version: 2024-02-02 20:18:27
+! Total count: 12576
 
 ###AdBlockDialog
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
@@ -1216,6 +1216,7 @@ animego.org##div[style="min-height: 290px"]
 animeland.su,itcats.ru,nekto.me,noadsradio.ru,sharkgame.ru,studies.in.ua,w10.jeanzzz.ru##.no-adb
 animetvn.tv,eurogamer.de###mobile-ads
 aniporn.com##.header__item
+aniwave.*,vidplay.*###player-wrapper > div:not([class]):not([id]):has(> div[class] img[src^="assets/bn/"])
 anlink.top##iframe[src^="//ad.a-ads.com"]
 antenna.gamedivers.com###AdOverlayBanner
 anticollector.biz.ua,cnc3018.ru,factorio.su##body > div[class][style*="background"][style*="display: block"]
@@ -2360,6 +2361,7 @@ financialexpress.com##header > .fewrapper
 financialexpress.com#$#.wp-block-group.auto-header { min-height: auto !important; }
 finanswebde.com##.app__content > div[style*="height:250px;text-align:center"]
 finanz-tools.de##.wb_typ3
+finanzaonline.com##body > #leoskin-mobile-content:empty
 finanzen.at,finanzen.ch##.ad-wrapper
 finanzen.net###m_mrec
 finanzen.net###mrec
@@ -9296,6 +9298,7 @@ zyuken.net##.PaddingTop10Bottom10[style^="height: 250px;"]
 ||irtefs.xyz^
 ||iruacwa.xyz^
 ||is.snssdk.com^
+||is1-ssl.mzstatic.com^
 ||isancio.top^
 ||isdfbvkvsc.xyz^
 ||isine88.com^
