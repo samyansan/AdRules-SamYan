@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-02-04 20:17:17
-! Total count: 12574
+! Version: 2024-02-05 02:13:35
+! Total count: 12575
 
 ###AdBlockDialog
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
@@ -2785,7 +2785,7 @@ hanyu.baidu.com##.fengchao-el
 hao123.com##.popup
 happymag.tv###site-leader
 happymh.com##[src="https://c.nationaltcm.com/ad/tm1111dd.png"]
-hateblo.jp,hatenablog.*,hatenadiary.*##.variable-rectangle-ad
+hatena.ne.jp,hateblo.jp,hatenablog.*,hatenadiary.*##.variable-rectangle-ad
 hatimitukarupisu.blogterest.net##.clickclick
 haus.de##a[href*="?utm_campaign"][target="_blank"]
 haveagood.holiday##.layout__aside--advertisement
@@ -4439,7 +4439,6 @@ more-gamer.com#$#body { position: unset !important; }
 morgenpost.de##amp-fx-flying-carpet[height="450px"]
 morgenpost.de,amp.fitforfun.de,cnn.co.jp##amp-iframe[src^="https://widgets.outbrain.com"]
 morgenpost.de,braunschweiger-zeitung.de,bildderfrau.de,derwesten.de,mobile.reuters.com,amp.ibtimes.co.uk##.amp-ad-container
-morningstar.co.jp,morningstarjp.com##.footer_overlayad
 moroccoworldnews.com#@#.custom-ad
 moroccoworldnews.com#@#.header-ad
 motherless.com###advertisement-above-footer
@@ -6244,6 +6243,8 @@ waterford-news.ie##.mobilefooterad
 waterserver.kakaku.com#?#li.unit > a[href*="/jump.asp?"][onclick^="onclickcatalysttopcs"]:upward(1)
 wccftech-com.cdn.ampproject.org,ntv.com.tr,wccftech.com##.amp-ad
 wccftech.com##.bg-square-mobile-without-bg
+wealthadvisor.co.jp##.footer_overlayad
+wealthadvisor.co.jp#$#nav:not(.fixed):not([id]) { top: auto !important; }
 weather.com##div[class*="adWrapper"]
 weather.goo.ne.jp##.ads_h250
 weather.goo.ne.jp##div[style^="min-height:calc"][style*="min-width:320px;"]
