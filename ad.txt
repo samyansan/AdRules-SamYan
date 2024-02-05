@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-02-05 14:13:48
-! Total count: 12577
+! Version: 2024-02-05 20:19:05
+! Total count: 12581
 
 ###AdBlockDialog
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
@@ -1664,6 +1664,7 @@ cgmagonline.com###brxe-uenavr
 cgmagonline.com###brxe-yqvigw
 ch-review.net##div[style="text-align: center; margin-top: 16px;"]
 chahid4u.tk###unblocker
+chakuwiki.org##.adia
 chansoku.com##.pcNone
 chansoku.com#?##article-contents > span:contains(スポンサードリンク)
 chansoku.com#?#.lattice-interres-standby > span:contains(スポンサードリンク)
@@ -4157,6 +4158,7 @@ mag.app-liv.jp#$#.p-overlay--upper-ad { bottom: 0!important; }
 magcity74.ru#$#.bmobile { display: none !important; }
 magcity74.ru#$#body { overflow: visible!important; }
 maharashtratimes.com##style[type="text/css"] + div[class]:not([id]):not([style]):not([class*=" "])
+maho.jp##div[class*="compactAd"]
 mail.google.com##div[class][style^="min-height:"] > form[role="search"] ~ div[class*=" "][style=""]
 mail.google.com#?##views div[style^="min-height:"] > form ~ div[class][style]:has(> div[class] > div[class][id] > div[class] > div[class]:contains(Ad))
 mail.rambler.ru##.notification-warning
@@ -5461,6 +5463,7 @@ slope-media.jp,chisou-media.jp##.c-ad--overlay
 slovoidilo.ua##+js(remove-class, branding, body)
 sm.cn###index_banner
 sm.cn###index_hot_news
+sm.cn##.ad-wolong-container
 smart-flash.jp##iframe[src^="https://smart-flash.jp/wp-content/themes/original/embed/FoneH"]
 smart-flash.jp##iframe[src^="https://smart-flash.jp/wp-content/themes/original/embed/yahoo_ad"]
 smartapps.cn##.sw-22__bdad-wrap,.sw-22__ad-expose
@@ -7201,6 +7204,7 @@ zyuken.net##.PaddingTop10Bottom10[style^="height: 250px;"]
 ||ads*-normal-lq.zijieapi.com^
 ||ads*.bojijulebu.com^
 ||ads*.production-public.tubi.io^
+||ads*.textra.me^
 ||ads-*-nfl.yinzcam.com^
 ||ads-api.kidsnote.com^
 ||ads-api.tiktok.com^
@@ -7940,7 +7944,6 @@ zyuken.net##.PaddingTop10Bottom10[style^="height: 250px;"]
 ||cdn.jampp.com^
 ||cdn.jquery-cdn.cc^
 ||cdn.mob-api.net/mbanner.js
-||cdn.mobilefuse.com^
 ||cdn.nsimg.net/cache/landing/pr/*/yjmobile-*.xml$domain=youjizz.com
 ||cdn.outfit7.com/promo-nc
 ||cdn.thehiveworks.com/images/bees/mobile$image,domain=smbc-comics.com
@@ -10064,6 +10067,7 @@ zyuken.net##.PaddingTop10Bottom10[style^="height: 250px;"]
 ||mobilebanner.ru^$third-party
 ||mobilecore.com^
 ||mobiledl.adboe.com^
+||mobilefuse.com^
 ||mobilemaps-pa.googleapis.com/google.internal.mothership.maps.mobilemaps.ads.v1.MobileMapsAdsService/ListPromotedPinAds^
 ||mobilityware.com/adparams/
 ||mobiltelefon.ru/photo/bg/*.jpg
