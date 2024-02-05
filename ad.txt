@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-02-05 20:19:05
-! Total count: 12581
+! Version: 2024-02-06 02:13:30
+! Total count: 12585
 
 ###AdBlockDialog
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
@@ -3235,6 +3235,7 @@ kakakumag.com##.ad-bnr-box
 kakakumag.com##.special-cts-wrap
 kalerkantho.com##.parallax-main
 kalerkantho.com#$#.must-header-fixed-sticky { margin-top: 0 !important; }
+kaluga-poisk.ru###own-overlay
 kaluga-poisk.ru##.col-md-12 > div[style^="min-height:"]
 kaluga-poisk.ru##.m-up1-adcode
 kaluga-poisk.ru#$#.brn-fscreen { display: none!important; }
@@ -5977,6 +5978,7 @@ tubedupe.com,josei-bigaku.jp,pcgames.de##.sponsored
 tubepornclassic.com#?#.video__wrapper > section:has(> div > div:empty)
 tubepornclassic.com#?#.video__wrapper > section:has(> div > div[style] > div:empty)
 tuchkatv.ru##.adb_m
+tumadouga.jp##.index_banner_space > div.index_banner_space
 tupaki.com###roadblocker-wrapper
 tupaki.com##+js(remove-node-text, script, roadblocker)
 tupaki.com##body div[id$="_ad"]:not(#style_important)
@@ -9652,6 +9654,7 @@ zyuken.net##.PaddingTop10Bottom10[style^="height: 250px;"]
 ||l4efwdtg.icu^
 ||l80ays.com^
 ||laawmmy.cn^
+||lacunads.com^
 ||laink.xyz^
 ||laipeitu.com^
 ||lakefish.xyz^
@@ -10892,6 +10895,7 @@ zyuken.net##.PaddingTop10Bottom10[style^="height: 250px;"]
 ||rtapi.abbi.io^
 ||rtb.appbid.com^
 ||rtbimp-loadbalancer-*.amazonaws.com^
+||rtblab.net^
 ||rtborp.xyz^
 ||rte.fuoo1.top^
 ||rtjmln.xyz^
