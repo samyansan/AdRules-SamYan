@@ -4158,6 +4158,7 @@ movie.digle.tokyo#$#.p-fixed-menu__menu-wrapper--post-movie { background-color: 
 moviepilot.de##div[class^="sc-1jmzq56-"]
 moviepilot.de##div[id^="dfp-mtf-"]
 moviepilot.de##section[itemprop="articleBody"] > div[class^="sc-1sz7y6m-"]
+movieplayer.it###adv-head
 movies.yahoo.co.jp##div[class^="display-ad"]
 moviewalker.jp##div[id^="mw-s_all"]
 moviewalker.jp##div[style*="min-width:320px;"]
@@ -4537,7 +4538,10 @@ op.gg###__next > div[class^="css-"]:has(> div > div.vm-placement)
 op.gg###__next > div[class^="css-"]:has(> div#vm-av)
 op.gg###video-metaTrend-ad
 op.gg##.adTd
+op.gg##.content > div[class^="css-"]:has(> div > div.vm-placement)
 op.gg##.gtag-ad
+op.gg##div:not([class]) > div[class^="css-"]:has(> div > div.vm-placement)
+op.gg##td:has(> div[class^="css-"] > div[id^="div-gpt-ad-"])
 opencritic.com##app-review-table > app-review-row > div.review-row.py-2.d-block.d-md-none
 openers.jp#$##interstitial { display: none!important; }
 openers.jp#$#body { overflow: auto !important; }
