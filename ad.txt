@@ -3,7 +3,7 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-02-08 14:14:20
+! Version: 2024-02-08 20:18:54
 ! Total count: 12594
 
 ###AdBlockDialog
@@ -1571,7 +1571,7 @@ books.rakuten.co.jp##.adSwith
 books.rakuten.co.jp##.pushAd
 bookskeeper.ru,e-xecutive.ru##.warning
 boom-app.wiki,game.boom-app.com##.banner-footer
-boom-app.wiki,otakei.otakuma.net##.banner-header
+boom-app.wiki,otakei.otakuma.net##body .banner-header
 bouweenpc.nl###header-banner
 boxofficeturkiye.com##.ads_320x50-sticky
 boylove.today,boylove1.cc,boyloves.fun,boylove3.cc##DIV[style='bottom: 80px;']
@@ -4875,8 +4875,8 @@ ostroh.info###modal.modal-bg
 osusume.mynavi.jp##div[data-myanalysis="home-widget"]
 osusume.mynavi.jp##div[data-myanalysis="sidemenu-ad"]
 ot-boutique.fr#@##publicite
-otakei.otakuma.net##.banner-adsense
-otakei.otakuma.net,nikkan-gendai.com,ranking.goo.ne.jp,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,goblintvfree.com,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com,m.yingshidaquan.cc##.banner
+otakei.otakuma.net##body .banner-adsense
+otakei.otakuma.net,nikkan-gendai.com,ranking.goo.ne.jp,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,goblintvfree.com,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com,m.yingshidaquan.cc##body .banner
 otakotaku.com##div[id^="im-ADS_"]
 otona-life.com##.ad_minh_sp
 otonanswer.jp##.side-box-repeat > div[style="min-height: 280px;"]
