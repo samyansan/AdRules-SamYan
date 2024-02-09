@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-02-09 20:18:22
-! Total count: 12596
+! Version: 2024-02-10 02:12:59
+! Total count: 12597
 
 ###AdBlockDialog
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
@@ -2081,6 +2081,7 @@ dzen.ru##:matches-path(/pogoda)div[class^="Card_container"][class*="Advert"]
 dzen.ru##div[class*="news"] > div[class*="_banner_"]
 dzen.ru##div[class*="topContent"][class*="mobile__hasBanner"]
 dzen.ru##div[class^="dzen-mobile__bannerMain-"]
+dzen.ru#?#.feed-item article:matches-attr("/data[a-z-]+/"="/^card-[a-zA-Z]{3,}/")
 dzfoot.com##.messageB
 e-konomista.pt##.r-top-publicity-wrapper
 e-nenpi.com###content > h1.grayThin:last-of-type
@@ -6258,6 +6259,7 @@ wccftech-com.cdn.ampproject.org,ntv.com.tr,wccftech.com##.amp-ad
 wccftech.com##.bg-square-mobile-without-bg
 wealthadvisor.co.jp##.footer_overlayad
 wealthadvisor.co.jp#$#nav:not(.fixed):not([id]) { top: auto !important; }
+wear.jp##li.col-span-full.bg-gray-50:has(> .ad-container)
 weather.com##div[class*="adWrapper"]
 weather.goo.ne.jp##.ads_h250
 weather.goo.ne.jp##div[style^="min-height:calc"][style*="min-width:320px;"]
@@ -10173,7 +10175,6 @@ zyuken.net##.PaddingTop10Bottom10[style^="height: 250px;"]
 ||naemailom.fun^
 ||naiep.xyz^
 ||najnus.com^
-||nan-net.com/*/bbs/s/inc/$subdocument
 ||nan-net.com/show/bbs/inc/pc_side_adv/
 ||naned.xyz^
 ||nanigans.com^
