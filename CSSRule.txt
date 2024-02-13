@@ -965,6 +965,7 @@ apkcombo.com##[data-d-ad-id]
 apkmirror.com##.appRow.showOnMobileAndTablet
 apkmirror.com#$##ezmob-wrapper { display: none !important; }
 apkmirror.com#$#html > body { padding-top: 0 !important; }
+apkpure.net##DIV.js-ad-slot
 app-liv.jp##.ad-area--pd
 app-liv.jp##.js-appliv-ad-imp-trigger
 app-liv.jp#?#.c-app-card:not([class^="js-native-ranking-card"]):has(> div > span.app-ranking_label--pr)
@@ -1062,6 +1063,7 @@ axutongxue.com##DIV[style='text-align:center']
 aya0205.smart-douga.mobi##.entry_more > div[style^="background-color: rgb(88, 140, 115)"]
 aya0205.smart-douga.mobi##.entry_more > div[style^="background-color: rgb(88, 140, 115)"] ~ br
 aya0205.smart-douga.mobi##.entry_more > div[style^="background-color: rgb(88, 140, 115)"] ~ div[style="text-align: center;"]
+aydinlik.com.tr,insider.com,rookie.shonenjump.com,gmx.*,zeit.de,jp.ign.com,opencritic.com,www-news18-com.cdn.ampproject.org,eurogamer.net,mumsnet.com,news18.com,amp.indiatimes.com,dronedj.com,bodybuilding.com,transfermarkt.de,mobil.stern.de##.ad-container
 azeriseks.ru##body > div.iblock > strong
 azrotv.com##.adbn-wrap
 azrotv.com##div[id^="laoad_Adb"]
@@ -2734,7 +2736,6 @@ insideevs-com.cdn.ampproject.org##a[href^="https://www.myev.com/cars-for-sale"]
 insideevs-com.cdn.ampproject.org##amp-embed.amp-notbuilt > i-amphtml-sizer[style^="display: block; padding-top:"]
 insideevs-com.cdn.ampproject.org##amp-iframe.sellwild
 insideevs-com.cdn.ampproject.org##amp-list.related-items[src^="https://www.myev.com/feed/amp"]
-insider.com,rookie.shonenjump.com,gmx.*,zeit.de,jp.ign.com,opencritic.com,www-news18-com.cdn.ampproject.org,eurogamer.net,mumsnet.com,news18.com,amp.indiatimes.com,dronedj.com,bodybuilding.com,transfermarkt.de,mobil.stern.de##.ad-container
 inspire.com##app-inspire-ad
 inspire.com##app-sticky-ad
 instanavigation.com,m.audiko.com#?#.container > div.row > div[class^="col-"]:has(> ins.adsbygoogle)
@@ -3799,6 +3800,8 @@ m.winfuture.de##.author + .text > .nointelliTXT.table
 m.winfuture.de##.author ~ .text > a.red[href^="https://winfuture.de/r"][target="_blank"]
 m.winfuture.de##.mb20[style="min-width: 300px; min-height: 250px;"]
 m.winfuture.de##.rutschdiv
+m.winfuture.de##.teaser:has(> h2 > a[href^="https://m.winfuture.de/special/"][href*="angebote"])
+m.winfuture.de##.ticker_row:has(> .ticker_headline > .anzeige)
 m.winfuture.de##[id] > h2[style="display: none !important;"] + .teaser
 m.winfuture.de##[id] > h2[style="display: none !important;"] + .teaser + .clearfix
 m.winfuture.de##body > .text > .table > a[href*="redirect"][target]
@@ -3816,6 +3819,7 @@ m.winfuture.de#?##main > h2:has(> a[href*="special/"][href*="/angebote/"])
 m.winfuture.de#?##main > h2:has(> a[href*="winfuture.de/r?"])
 m.winfuture.de#?##main > h2:has(> a[href="/news/127142"])
 m.winfuture.de#?##main > h2:has(> a[href^="/news"][href*="123690"]) + .teaser
+m.winfuture.de#?#.schiebeleiste > .content:has(> h2 > a:contains(/Deal|MwSt|tark reduziert|Cashback|Nur diese Woche|Black-Friday|(Media Markt)[\s\S]*Gratis-Geschenk|Bestpreis|Sale|Nur (noch heute|heute|für [0-9] Tage)/))
 m.winfuture.de#?#.teaser:has(> a > .anzeige)
 m.winfuture.de#?#.teaser_big:has(> .teaser_img > .anzeige)
 m.winfuture.de#?#body > div.text > .mb20:has(> div[id^="div-gpt-ad"])
@@ -4497,7 +4501,6 @@ ok-tv.org##a[href^="https://ad.admitad.com/"]
 okanime.tv##.jconfirm
 okbizcs.okwave.jp##.box_ad_rectangle_btm
 okbizcs.okwave.jp##.box_ad_rectangle_detail
-okbizcs.okwave.jp##.qaDetail_oemLink_under
 okdiario.com###okd-catfish
 okinawatimes.co.jp##.ad_h250
 okinawatimes.co.jp#?#li > #sp_article_infeed_1st:upward(1)
@@ -5281,6 +5284,7 @@ spele.nl##.adblocker
 spiceworks.com##.mobile-topic_card-slot
 spiceworks.com##.mobile-topic_leaderboard-slot
 spidersweb.pl##amp-video-iframe[src^="https://serving.stat-rock.com/"]
+spiegel.de##div[data-area="news-section"] > div:has(> div[style*="polygon-ad"])
 spiegel.de#?#.OffsetContainer > .relative > .relative:has(> div[style*="-ad-sticky-offset"]:only-child)
 spiegel.de#?#div[data-area="body"] > .sm\:mb-24:has(> div[style*="-ad-sticky-offset"]:only-child)
 spiegel.de,www-spiegel-de.cdn.ampproject.org##.ampads
@@ -6116,6 +6120,7 @@ wtmnews.net##.aflLinkFlex
 wtmnews.net##.entry-content > p:has(> a[target="_blank"][rel="nofollow sponsored "] > img)
 wunderground.com#$#html > body.enable-sda wu-header { margin-top: 0 !important; }
 wunderweib.de##amp-embed[type="doubleclick"]
+wuxiabee.com##.chapter-content > p + div[class]:has(> div[id] > script)
 wuzhuiso.com##.download-app
 wwdjapan.com##.sp-infeed-ad
 wwdjapan.com##.wwdja-sp-bigpanel
