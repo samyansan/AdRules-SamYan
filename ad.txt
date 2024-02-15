@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-02-15 20:18:26
-! Total count: 12621
+! Version: 2024-02-16 02:14:09
+! Total count: 12623
 
 ###AdBlockDialog
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
@@ -3335,6 +3335,7 @@ kurashiru.com###footer_banner_app
 kurashiru.com##.SpRoot-adsWrapper
 kurier.de,np-coburg.de,frankenpost.de##div[data-b-title*="Traffective"]
 kutchkhabar.com##.advertise-horizontal-mobile
+kutv.com##.displayAd
 kztarif.ru##.stadck-content
 l-a-w.ru,mhelp.kz##.swal2-container
 lab.timee.co.jp##.timee-c-appBtn
@@ -5291,6 +5292,7 @@ rt.com##div[id^="recirculation-pitc-sp"]
 rtl.de##.ad-show-heroes
 rtl.de##.adslot.amp
 rtl.de#?#.article-body > div[class] > div[class]:has(> span:contains(/^Anzeige:$/))
+rtlnieuws.nl##.dfp-rectangle-mobilewrapper
 rtlxl.nl##.adblock
 rule34.xxx##.fp-mobile
 rumusrumus.com,rumus.co.id##.closads
