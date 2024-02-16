@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-02-16 20:21:44
-! Total count: 12622
+! Version: 2024-02-17 02:13:18
+! Total count: 12628
 
 ###AdBlockDialog
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
@@ -5144,6 +5144,7 @@ qq.com##+js(json-prune, ad)
 qq.com##.VideoArticleBottomAdContainer,.ssp.nospl[data-boss-once='true'],DIV[data-boss-expo*='ad&s_or'],DIV[id^='App_WAP_share_page_']
 qq.com##A[dt-eid^='em_item_ad']
 qq.com##[id^='App_WAP_share_page']
+quifinanza.it##.hp_320x1
 quiz-facts.com##+js(addEventListener-defuser, DOMContentLoaded, interstitial-popup)
 quiz-facts.com##.content-network-space
 quoka.de#$#.headroom--banner-top { top: 0 !important; }
@@ -5725,6 +5726,7 @@ swiki.jp##.adsense
 swiki.jp##.container > span > a[href^="https://hb.afl.rakuten.co.jp"]
 sxyprn.com##.fbd
 sydsvenskan.se##.ad-welcome
+t-mall.tsite.jp###content_inr > p[style="font-weight: bold; font-size: 16px;"]:has(~ div#sp-tmall-gamelist-gamelist)
 t-online.de###Tgb-88799072
 t-online.de##.Tml6--anz
 t-online.de##.\+\+\+Interview > #Tvertikale-navi::before
@@ -7028,6 +7030,7 @@ zyuken.net##.PaddingTop10Bottom10[style^="height: 250px;"]
 ||8gp4wjq3.com^
 ||8mhcc.top^
 ||8pjqjxmr.com^
+||8suis.top^
 ||90mh.com/mip/qdbao77.js
 ||91chaodijia.com^
 ||91mjw.com/hy-66-90.php
@@ -9733,6 +9736,7 @@ zyuken.net##.PaddingTop10Bottom10[style^="height: 250px;"]
 ||lestv7.icu^
 ||lewenma.com/js/read.js
 ||lezbrja.cn^
+||lfffzv.xyz^
 ||lfjtiuy.cn^
 ||lflmdm.com^
 ||lfzk2cp.icu^
@@ -10236,6 +10240,7 @@ zyuken.net##.PaddingTop10Bottom10[style^="height: 250px;"]
 ||neiod.xyz^
 ||nektonsrutate.com^
 ||nend.net^
+||neolit.cn^
 ||net.rayjump.com^
 ||netavenir.com^
 ||netseer.com^
@@ -10719,6 +10724,7 @@ zyuken.net##.PaddingTop10Bottom10[style^="height: 250px;"]
 ||qf1d.top^
 ||qfcdgy.cn^
 ||qfnoyix.cn^
+||qhaarkie.com^
 ||qhdi.com/ttxnb.php
 ||qhicumg.cn^
 ||qhimgs4.com/*.gif$domain=hdmoli.com
