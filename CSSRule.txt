@@ -194,6 +194,7 @@
 ##A > IMG[alt][src*='resources/images/']
 ##A#floating-banner
 ##A.toptxt[target='_blank']
+##A.wrapper_bg_c.hidden-xs
 ##ASIDE[id^='custom_html-']
 ##A[href*='-fghgdf.com']
 ##A[href*='-fghhjj.com']
@@ -6132,8 +6133,6 @@ wsj.com##div[class^="WSJTheme__adWrapper_"][style="min-width: 300px; min-height:
 wsj.com##p > #deloitte_column > [data-module-zone="deloitte_insights"] > .deloitte-insights
 wsj.com#?#div[class^="WhatsNewsTheme"] > div[class]:has(div[class] > div[class^="WSJTheme--adWrapper"])
 wtftime.ru#$#.adaptive_ads { position: absolute!important; left: -3000px!important; }
-wtmnews.net##.aflImage
-wtmnews.net##.aflLinkFlex
 wtmnews.net##.entry-content > p:has(> a[target="_blank"][rel="nofollow sponsored "] > img)
 wunderground.com#$#html > body.enable-sda wu-header { margin-top: 0 !important; }
 wunderweib.de##amp-embed[type="doubleclick"]
