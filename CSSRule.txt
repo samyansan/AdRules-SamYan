@@ -5303,9 +5303,9 @@ spele.nl##.adblocker
 spiceworks.com##.mobile-topic_card-slot
 spiceworks.com##.mobile-topic_leaderboard-slot
 spidersweb.pl##amp-video-iframe[src^="https://serving.stat-rock.com/"]
+spiegel.de##.OffsetContainer > .relative > .relative:has(> div[style*="-ad-sticky-offset"]:only-child)
+spiegel.de##div[data-area="body"] > div[class]:has(> div[style*="-ad-sticky-offset"]:only-child)
 spiegel.de##div[data-area="news-section"] > div:has(> div[style*="polygon-ad"])
-spiegel.de#?#.OffsetContainer > .relative > .relative:has(> div[style*="-ad-sticky-offset"]:only-child)
-spiegel.de#?#div[data-area="body"] > .sm\:mb-24:has(> div[style*="-ad-sticky-offset"]:only-child)
 spiegel.de,www-spiegel-de.cdn.ampproject.org##.ampads
 spielen.de##.s4u
 spieletipps.de,kino.de##.alice-root-topmobile2-container
