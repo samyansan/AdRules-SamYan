@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-02-17 14:13:20
-! Total count: 12627
+! Version: 2024-02-17 20:17:12
+! Total count: 12631
 
 ###AdBlockDialog
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
@@ -4242,6 +4242,7 @@ map.goo.ne.jp##div[class^="gooad-spbadge300"]
 mapfan.com##.bottom-ad-mobile
 mapion.co.jp###adserver_rectangle
 maquia.hpplus.jp##.SP_headerbanner
+mariefrance.fr##.rwad-with-placeholder
 mashina.kg##.append-branding-block
 mashina.kg##.mobile-inside-cars
 mashingup.jp##.p-FloatPost
@@ -5685,6 +5686,8 @@ sueddeutsche.de#?#div[itemprop="articleBody"] > div:has(> div[id^="iqadtile"])
 suki-kira.com##.row > div.container
 suki-kira.com,belcy.jp##div[style="min-width: 300px; min-height: 250px;"]
 sumaho-susume.com###sp-tokusetsu-bottom
+sumaity.com###adBnr_detail
+sumaity.com###bnrBox
 summary.fc2.com##iframe[src^="/sp/friendlyAd.php"]
 summary.fc2.com#?#.tmb_list:has(> a[href^="https://cnt.affiliate.fc2.com"])
 suning.com###sn-sidebar-change-code
@@ -11306,6 +11309,7 @@ zyuken.net##.PaddingTop10Bottom10[style^="height: 250px;"]
 ||sugar.zhihu.com^
 ||sugarfriction.com^$third-party
 ||sulkycook.com^$third-party
+||sumaity.com/ui/utility/sp/images/bnr/
 ||sumatoad.com^
 ||sun66387567606.online^
 ||sun66387567606.site^
