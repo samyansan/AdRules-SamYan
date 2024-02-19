@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-02-19 20:19:20
-! Total count: 12633
+! Version: 2024-02-20 02:13:48
+! Total count: 12640
 
 ###AdBlockDialog
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
@@ -5169,6 +5169,8 @@ radiotimes.com##.amp-ad-wrapper
 radiox.com##.notifyjs-corner
 radsport-news.com###AdsMobTop
 radsport-news.com##.MobileBanner
+rakumachi.jp###linkToAdClickLog
+rakumachi.jp##.topPageHeaderBanner
 rakuten-card.co.jp##div[id^="rdn-adspot"]
 rakuten-card.co.jp#?#.contentWrapper > p.cp-ttl--tag.mb20:contains(PR)
 rakuten-card.co.jp#?#.section > div.section__body > div.prarea:upward(2)
@@ -6087,6 +6089,7 @@ udn.com##.only_mobile.mm-slideout
 udn.com##.overlay-container
 udn.com##.udn-ads--mobile
 ufukgazetesi.net##.footer_fix_reklam
+ukdevilz.com##.container > div[style^="text-align:"]:has(> script[src^="https://a.magsrv.com/"])
 ukr.net##.baner-block
 ukr.net##.lazy-load-banner
 ukr.net##.news-banner
@@ -8797,6 +8800,7 @@ zyuken.net##.PaddingTop10Bottom10[style^="height: 250px;"]
 ||gdfp.gifshow.com^
 ||gdjme27.com^
 ||gdl.i9dhjx.ru^
+||gdl.zmqdez.ru^
 ||gdls114.com^
 ||gdn.bigfishgames.com^
 ||gdoibwfvjqf.com^
@@ -9219,6 +9223,7 @@ zyuken.net##.PaddingTop10Bottom10[style^="height: 250px;"]
 ||iad-*.appboy.com^
 ||iad-*.braze.com^
 ||iad.appboy.com^
+||iads.unity3d.com^
 ||iadsdk.apple.com^
 ||iam.datasavannah.com^
 ||ianyshare.xyz^
@@ -10354,6 +10359,7 @@ zyuken.net##.PaddingTop10Bottom10[style^="height: 250px;"]
 ||nzrlx6wc.icu^
 ||nzrovf.xyz^
 ||nzymeedg.icu^
+||o-iab.mediation.unity3d.com^
 ||o.zjjrlx4.com^
 ||o2.jyjyj.cn^
 ||o2o.api.xiaomi.com^
@@ -11508,6 +11514,7 @@ zyuken.net##.PaddingTop10Bottom10[style^="height: 250px;"]
 ||toblog.ctobsnssdk.com^
 ||todayweather.co/ads.json
 ||toggle.qq.com^
+||togothermany.com^
 ||toijr.xyz^
 ||tokendomain.xyz^
 ||tonefuse.com^
