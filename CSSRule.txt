@@ -3803,7 +3803,10 @@ m.weathercn.com##.gg-swiper-wrapper
 m.weathercn.com##.red-package
 m.weibo.cn##.wrap
 m.windowscentral.com##.netshelter-ad
+m.winfuture.de###articleBody > #vergleich
+m.winfuture.de###articleBody > #vergleich + iframe
 m.winfuture.de###articleBody > .adeal
+m.winfuture.de###articleBody > .summary_box ~ div:not(#ab_comments_button) > iframe
 m.winfuture.de###articleBody > a[href*="/r?"]
 m.winfuture.de###articleBody a[href*="redirect"]
 m.winfuture.de###div-divrecUnd
@@ -3830,6 +3833,7 @@ m.winfuture.de##center > div[style="min-width: 300px; min-height: 250px;"]
 m.winfuture.de##div[id^="div-gpt-ad"]
 m.winfuture.de##iframe[src*="_adcode_"]
 m.winfuture.de##iframe[src^="//j.wfcdn.de/j/iframes/outbrain_"]
+m.winfuture.de#?##articleBody > .summary_box ~ b:contains(Vergleich)
 m.winfuture.de#?##articleBody > div:has(> div[id^="div-gpt-ad"])
 m.winfuture.de#?##main > h2:has(> a[href*="special/"][href*="/angebote/"])
 m.winfuture.de#?##main > h2:has(> a[href*="winfuture.de/r?"])
@@ -3878,6 +3882,7 @@ m.zhanqi.tv##.h5-foot-area
 m.zhanqi.tv##.topbarOpenApp.btn-1
 ma.by###bodysubcont > div[style^="padding"]:not([id]):not([class])
 macaro-ni.jp##.articleShow__adTaboolaArticleThumbnail
+macg.co##.optidigital-wrapper-div
 maclife.de#$#body.mobile.ads .mobilesticky { min-height: 0px !important; height: 50px !important; top: 0px !important; margin-top: 0px !important; }
 mag.app-liv.jp##.ad-area-adsense-display
 mag.app-liv.jp##.bnr-infeed
@@ -5814,6 +5819,8 @@ upornia.com,hotmovs.com##.player-holder > div[style="position: absolute; left: 0
 upornia.com,hotmovs.com##.tc-interstitional
 upornia.com,hotmovs.com##.topad
 uproxx.com##[class^="uproxx_iframe_"][class*="ads_wrapper"]
+upskirt.tv##.container > section:has(> div.spot-wrapper)
+upskirt.tv##main > div.container > aside:has(> div[style^="min-height:"])
 upslut.com,gonzales-upslut-com.cdn.ampproject.org##center > p[class^="e_"]
 uptodown.com##.ssm_adunit_container
 upworthy.com##.mobile_ads
