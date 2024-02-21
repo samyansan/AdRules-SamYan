@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-02-21 20:19:02
-! Total count: 12651
+! Version: 2024-02-22 02:12:57
+! Total count: 12653
 
 ###AdBlockDialog
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
@@ -5023,6 +5023,7 @@ pkmods.com##body > div[style*="z-index"][style*="background"]
 play44.net,videobug.net,videofun.me,vidzur.com,yucache.net##[style^="position: absolute; width: 100%;"]
 playai.nu##div[style="width:100%;height:300px"]
 playground.ru##[id^="MF_Playground"][style="height: 100px;"]
+playingcards.jp###new_mobile_ad_for_gamepage
 playonlinux.com##div[style="text-align:center;  border-radius:7px; width:160px;  border:1px solid #666666;  margin-left:5px;padding-right:5px;color:#FFF;  background-color:#666;font-family:Maven Pro,century gothic, arial, helvetica, sans serif;padding-top:94px;  height:600px;  padding-left:5px; font-size:18px; "]
 playunturned.ru##.side_left > center
 playunturned.ru##.side_right > center
@@ -5690,6 +5691,7 @@ sueddeutsche.de##.css-1byw0cm
 sueddeutsche.de##.css-1vedcrf
 sueddeutsche.de##.frame-holder:not([id]):not([style])
 sueddeutsche.de##.sz-metered-article-body > div[data-manual-remove]
+sueddeutsche.de##div[class^="css-"] > div[data-manual="teaser-group"]:has(> div[class^="css-"] > div[data-placement^="pos_"])
 sueddeutsche.de##li[data-szde-remove-on]
 sueddeutsche.de##power-stories-embed
 sueddeutsche.de#?#.endofarticle__modules-element:has(> div > .embed > power-stories-embed)
