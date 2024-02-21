@@ -4155,9 +4155,10 @@ money.pl#?#div[style="visibility:visible"] > div[class*=" "] > div[class*=" "]:n
 moneycontrol.com##+js(set-constant, initializeInterstitial, noopFunc)
 moneycontrol.com##.admobile_mrkt
 moneycontrol.com##.ads-320-50
-moneycontrol.com##.advSlotsGrayBox
 moneycontrol.com##.main-wrapper > .clearfix > #sip_corner_fund
+moneycontrol.com##body div.advSlotsGrayBox
 moneycontrol.com##div[class="show-moblie fixedfortopwrap"]
+moneycontrol.com#$#amp-embed[type="taboola"] { display: block !important; height: 50px !important; }
 moneycontrol.com#?#.ltsnewsbx > ul > li.desk-hide:has(> div[class^="native_ad_"])
 monomax.jp##div[style="min-height: 120px;"]
 mopo.de##.top_mobile_custom_ad
