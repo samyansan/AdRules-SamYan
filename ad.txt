@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-02-23 20:18:36
-! Total count: 12657
+! Version: 2024-02-24 02:13:43
+! Total count: 12658
 
 ###AdBlockDialog
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
@@ -2536,6 +2536,7 @@ game8.jp###g8-ad-placement-sp_under_archive_ab
 game8.jp##.a-underIndex
 game8.jp##.ad-skyflag-wrapper
 game8.jp##.l-jack__top
+game8.jp##.no-ads-panel
 game8.vn##.row > div[class] a[target="_blank"] > img
 gamefavo.com##div[style$="min-height:250px;overflow:hidden;"]
 gameinn.jp##+js(abort-current-script, navigator.userAgent, /document\.write[\s\S]*?BANNER_/)
