@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-02-27 08:47:37
-! Total count: 12700
+! Version: 2024-02-27 14:13:20
+! Total count: 12694
 
 ###AdBlockDialog
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
@@ -2944,7 +2944,6 @@ i.factor.ua###adb-info
 i.factor.ua##[data-place-block]
 i.ifeng.com##div[class^=content-]>div[class^=link-]
 i.ifeng.com#?#div[class^=list-]:contains(APP)
-iapps.im##.experience-zyc
 ibradome.com#?#body > center:has(> iframe[src^="//hhbypdoecp.com/"])
 ichip.ru##.banner-info
 iculture.nl##.ad-top-mobile
@@ -3527,8 +3526,6 @@ m.bilibili.com##div[class*="mplayer-widescreen-callapp"]
 m.bilibili.com##div[class*="openapp"]
 m.bilibili.com##div[class^="open-app-btn"]
 m.biqiugexx.com#$#body { padding-top: 0 !important; }
-m.blogtruyen.com##.container > .qc-inner
-m.blogtruyen.com##center > a[href][target="_blank"] > img
 m.blogtruyen.vn##a[href^="https://www.i9bet106.com/"]
 m.bloomberght.com##.zone-area
 m.bombardir.ru,pornone.com##.banner-wrapper
@@ -4079,8 +4076,6 @@ m.v.qq.com##.mod_rec__animate.mod_rec
 m.v.qq.com##.mod_source
 m.v.qq.com##.site-top__open-app
 m.v.qq.com##.swiper-container-android.swiper-container-horizontal.mod_source_box_fixed.mod_source_box
-m.veporn.live#@##topAds
-m.veporn.live#@#.advertisment
 m.veporn.net#@##topAds
 m.veporn.net#@#.advertisment
 m.vesty.co.il##.sticky-adunit
@@ -11435,7 +11430,6 @@ zyuken.net##.PaddingTop10Bottom10[style^="height: 250px;"]
 ||tapsell.ir^
 ||tapsense.com^
 ||tapstat.ru^$third-party
-||tapulsads.ru^
 ||targetspot.com^
 ||tarqk5.com^
 ||tastelesstoes.com^$third-party
