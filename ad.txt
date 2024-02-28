@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-02-28 08:47:34
-! Total count: 12695
+! Version: 2024-02-28 14:13:36
+! Total count: 12696
 
 ###AdBlockDialog
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
@@ -304,6 +304,7 @@
 ##DIV[data-text-ad]
 ##DIV[onclick='if (!window.__cfRLUnblockHandlers) return false; window.location.href=\'https://a.biquge-app.com/apps/\''],[onclick='if (!window.__cfRLUnblockHandlers) return false; window.location.href=\'https://a.biquge-app.com/apps/\''] + div
 ##DIV[style$='display:block;width:9.6vw;height:7.96875vw;background: #000;opacity:0.01;']
+##DIV[style$='display:block;width:9.6vw;height:7.96875vw;background:#000;opacity:0.01;']
 ##DIV[style*='!important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important; height: 150px !important;']
 ##DIV[style*='.xyz/gif/']
 ##DIV[style*='animation: 1s ease 0.2s infinite normal none running shakegwegs; z-index:'][style*='background: url']
