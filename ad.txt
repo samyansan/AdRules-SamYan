@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-06-06 14:16:19
-! Total count: 174195
+! Version: 2024-06-06 20:21:48
+! Total count: 174193
 
 #
 ##### Version Information ##
@@ -212,7 +212,6 @@
 ##SPAN.closebox1,SPAN.closebox2,SPAN.closebox3,SPAN.closebox4
 ##SPAN[style$='font-size: 6vw; color:#fff; text-align: center; transform: rotate(-90deg);']
 ##SPAN[style^="position: fixed; bottom: 30vh; z-index: 2147483647; right: 0px; margin-right: 6vw; padding: 0px; text-decoration: none; background-color: red; width: 7vw; height: 7vw; border-radius: 7vw; font-size: 6vw; color:"]
-##UL.myui-extra.clearfix
 ##UL[style='margin: 0px; padding: 0px; font-size: 0px; display: flex;']
 ##VIDEO[loop='true'][muted='true'][autoplay='true'][playsinline='true'][preload='auto']
 ##[ad_dot_url]
@@ -366,7 +365,6 @@
 ##body > [id][style*='width:100%'][style*='min-height:120px']
 ##body > a[id*='hudie_']
 ##body > div#bottommob.bottommob
-##body > h1 > strong > title > a
 ##body#nr_body a[href*="/?utm_source="]
 ##body#nr_body div.fixed ~ *
 ##body#nr_body font > [id]
@@ -440,7 +438,6 @@
 ##div.stui-player.col-pd DIV[style='text-align:center']
 ##div.swiper-slide > A[rel='nofollow noopenner']
 ##div.synopsisArea > a[id*='hudie_']
-##div.video-box > div.hf > a
 ##div[class*='bookid_ads']
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"][src*="hdslb.com"]
 ##div[id$='ad1'][class^='text'],div[id$='ad2'][class^='text'],div[id$='ad3'][class^='text'],div[id$='ad4'][class^='text'],div[id$='ad5'][class^='text'],div[id$='ad6'][class^='text']
@@ -458,7 +455,6 @@
 ##span > A[href='###']
 ##ul > li > A[href$='_list.html']
 ##ul#page-list.layui-clear.page-wz > ul > li:not([class])
-##ul.content-list > li.content-tb
 ##ul.thread_detail_ads
 *.lijie.*/*_*?$third-party
 */blsx_*_*_*?*$third-party
@@ -1446,6 +1442,7 @@ so.com###so-activity-entry
 so.com##.c-title-tag
 so.com##.e_result
 so.com##.inner_left
+so.com##.res-mediav
 so.com##.res-mediav-right
 so.com##.tg-wrap
 so.toutiao.com##.relative.pointer-events-none
@@ -4814,7 +4811,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||3esm.consubebe.es^
 ||3ez1ja1uq3.ru^
 ||3f2c49ab2d.265641f673.com^
-||3f5b226d6e.com^
 ||3fa20230512.live^
 ||3fa244b7eb.com^
 ||3fb4026cec.ffbd26c481.com^
@@ -12480,6 +12476,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ad.digitallook.com^
 ||ad.directmirror.com^
 ||ad.dl.mainpost.de^
+||ad.dl.mz.de^
 ||ad.dline.com.tr^
 ||ad.dmm.com^
 ||ad.dnoticias.pt^
@@ -25293,6 +25290,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ardslediana.com^
 ||ardspalkiator.com^
 ||ardsvenipedeon.com^
+||arduino.uk.eu.org^
 ||ardunorwest.life^
 ||arduousyeast.com^
 ||ardykffwpfx.xyz^
@@ -27819,7 +27817,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||b6143975c9.com^
 ||b616ca211a.com^
 ||b629.electronicdesign.com^
-||b62f32e9ef.com^
 ||b65415fde6.com^
 ||b666.penzainform.ru^
 ||b6b6c55625.8a40179356.com^
@@ -30983,6 +30980,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||bitstarz.com^
 ||bitstarz1.eu^
 ||bitstarz28.com^
+||bitstenali.com^
 ||bitsumactivationserver.com^
 ||bittads.com^
 ||bittenlacygreater.com^
@@ -46838,6 +46836,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||dajean.com^
 ||dajiahao10.top^
 ||dajiahao9.top^
+||dajkqqpz.top^
 ||dakawm.cc^
 ||dakic-ia-300.com^
 ||dakjddjerdrct.online^
@@ -47070,6 +47069,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||dashracegear.net^
 ||dasistnews.net^
 ||daslethv.com^
+||dasljfoq.top^
 ||dasperdolus.com^
 ||dasv10rewq.xyz^
 ||dasych.drmartypets.com^
@@ -50439,6 +50439,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||de.web.planet49.com^
 ||de01.rayjump.com^
 ||de17a.com^
+||de214f.xyz^
 ||de2da13f46.com^
 ||de2nsnw1i3egd.cloudfront.net^
 ||de3hzpms0kfq9.cloudfront.net^
@@ -61720,7 +61721,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||faze35.com^
 ||faze4.com^
 ||faze40.com^
-||faze44.com^
 ||faze47.com^
 ||faze5.com^
 ||faze60.com^
@@ -63171,6 +63171,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||firelove.ru^
 ||firemountaingems.evergage.com^
 ||fireplaceroundabout.com^
+||firersale.com^
 ||firesinfamous.com^
 ||fireskin.website^
 ||fireskins.net^
@@ -64938,7 +64939,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||freedom-deposit.ca^
 ||freedomadnetwork.com^
 ||freedomart.cz^
-||freedomgift50.com^
 ||freedominfo.net^
 ||freedomofsoftware.com^
 ||freedomsaved.com^
@@ -75469,6 +75469,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||hrngmf.com^
 ||hrnhcu.kapiva.in^
 ||hrnkdr.xyz^
+||hrnvfp.xyz^
 ||hrogpodulnhu.com^
 ||hrogrpee.de^
 ||hronboard.actonservice.com^
@@ -85860,7 +85861,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||koranicseimas.com^
 ||korarea.com^
 ||korbatech.com^
-||kordirooruk.com^
 ||koreanzad.xyz^
 ||korenizsemi.net^
 ||koreniztreh.net^
@@ -87643,6 +87643,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||lecythleche.website^
 ||ledaoutrush.com^
 ||ledaren.cn^
+||ledger-liveweb3app.com^
 ||ledger-wallet.us^
 ||ledger-web-wallet.com^
 ||ledger-web-wallet.net^
@@ -93812,6 +93813,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||madeevacuatecrane.com^
 ||madehimalowbo.info^
 ||madehugeai.live^
+||madeinusas.com^
 ||madeinvasionneedy.com^
 ||madeleinekrook.nl^
 ||mademadelavish.com^
@@ -105055,7 +105057,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||navi47.com^
 ||navi5.com^
 ||navi50.com^
-||navi51.ru^
 ||navi53.com^
 ||navi56.com^
 ||navi58.com^
@@ -105065,7 +105066,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||navi66.ru^
 ||navi67.com^
 ||navi67.ru^
-||navi69.com^
 ||navi7.com^
 ||navi71.com^
 ||navi72.com^
@@ -105086,6 +105086,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||navi90.com^
 ||navi94.com^
 ||navi96.com^
+||navi97.com^
 ||navi98.com^
 ||navi99.com^
 ||naviblue-team.com^
@@ -106605,7 +106606,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||nip26.com^
 ||nip28.com^
 ||nip3.com^
-||nip35.com^
+||nip30.com^
 ||nip4.com^
 ||nip44.com^
 ||nip5.com^
@@ -114695,7 +114696,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||phpads.astalavista.us^
 ||phpads.flipcorp.com^
 ||phpads.foundrymusic.com^
-||phpadsnew.new.natuurpark.nl^
 ||phpadsnew.wn.com^
 ||phpancake.com^
 ||phpbbex.com^
@@ -121331,6 +121331,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||qwmamh.icu^
 ||qwmdnlzitsys.com^
 ||qwnmfiti.xyz^
+||qwoofao.top^
 ||qwoyfys.com^
 ||qwrnkpow.com^
 ||qwrwawwmblwbb.top^
@@ -128261,7 +128262,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||sbeacon.sina.com.cn^
 ||sbeaje.com^
 ||sbecashqjk.com^
-||sberbank.avito.avito.sber.asdfasdf.id05196219.com^
 ||sbetviet.com^
 ||sbfrnq.naturalforme.fr^
 ||sbfsdvc.com^
@@ -154944,7 +154944,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||trending-video.com^
 ||trendingnewstv.com^
 ||trendingpatrol.com^
-||trendingtee.org^
 ||trendingviralvids.info^
 ||trendlope.com^
 ||trendmd.com^
@@ -166637,7 +166636,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||wundercounter.com^
 ||wunderloop.net^
 ||wunteetoco.com^
-||wuombkpa.com^
 ||wuplead.com^
 ||wuplexv.cn^
 ||wuqconn.com^
