@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-06-18 14:16:32
-! Total count: 175449
+! Version: 2024-06-18 20:22:14
+! Total count: 175436
 
 #
 ##### Version Information ##
@@ -40,7 +40,6 @@
 ##.fc_foot
 ##.fed-part-advs.fed-text-center.fed-font-xvi
 ##.ff-ads
-##.globalPadding
 ##.gr_slide_car_inner
 ##.mi_btcon.ad
 ##.player_pic_link > [src*='/player.gif']
@@ -288,6 +287,7 @@
 ##[href^='https://xcc.'][href*='cn/']
 ##[href^='https://xxx.nunxun.com']
 ##[onclick*="trackEvent', 'ad"]
+##[onclick*='fjbglfrv.com']
 ##[onclick*='https://i.opiwb.com:']
 ##[onclick*='pypyj.com']
 ##[onclick*='www.l4lui.com'],.col-12.position-relative>b
@@ -483,8 +483,9 @@
 .cn/ack?s=*$third-party
 .cn/bid?url=*$third-party
 .cn/redbaiduct.com?s=$third-party
+.cn:*/d/*?c=*$third-party
+.cn:*/sc/*?n=$third-party
 .cn:*/vh5$third-party
-.cn:8001/*/*?*=$third-party
 .cn:8005/cc/*?is_not=
 .com/adv1/?q=
 .com/c.php?s=*=*=$third-party
@@ -501,10 +502,7 @@
 .com:7891/stats$third-party
 .com:8001/*/*?*=$third-party
 .com:8003/d/*&n=$third-party
-.com:8004/*/*?*=$third-party
 .com:8005/*&n=$third-party
-.com:8007/*/*?*=$third-party
-.com:8008/*/*?*=$third-party
 .com:8008/sc/*?n=$third-party
 .com:8010/cc/
 .cpa1.ru^
@@ -1540,7 +1538,7 @@ tmall.com##.mui-mbarp-qrcode-hd-d.mui-mbarp-qrcode-hd
 tmall.com##.mui-mbarp-qrcode-tip
 tmall.com##.sn-mobile
 tmall.com##div[style*="z-index: 99999; display: block;"]
-trafficjunky.com$third-party
+trafficjunky.com$third-part
 trakt.tv##DIV[id$='-wrapper']
 tv.sohu.com##.actv-banner.js-app-topbanner,.banner_yunying,.js-oper-pos,IMG.vrs-banner-act-img
 unpkg.com/aladug/*.js
@@ -6093,7 +6091,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||6d39809b4a.com^
 ||6d63d3.com^
 ||6dad.com^
-||6dd83d1cf6.8a00fb3fc1.com^
 ||6de72955d8.com^
 ||6e.co.kr^
 ||6e03b7356e.com^
@@ -6941,6 +6938,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||93vitui.com^
 ||9400.5clo0xmbf.com^
 ||943d6e0643.com^
+||947ec124d5.com^
 ||94870bbbc9.com^
 ||94ab.com^
 ||94cdn.com^
@@ -17738,6 +17736,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||adunity.com^
 ||aduniv.nesin.com^
 ||adup-tech.com^
+||adupihi.com^
 ||adups.cn^
 ||adups.com^
 ||adupwewdsk.com^
@@ -18376,6 +18375,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||adzerk.s3.amazonaws.com^
 ||adzerver.com^
 ||adzestocp.com^
+||adzfree-watch.net^
 ||adzfun.me^
 ||adzgame.com^
 ||adzhub.com^
@@ -19575,7 +19575,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ahtomjpzymf.com^
 ||ahtsrekzeb.com^
 ||ahuacasheely.top^
-||ahundredphotos.com^
 ||ahura-maz.com^
 ||ahuvjy.design-market.fr^
 ||ahvclick.com^
@@ -29755,7 +29754,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||beautysolution24.com^
 ||beautyspaguide.com^
 ||beautyspumoid.top^
-||beautyt.shop^
 ||beaver.america-bills.com^
 ||beaver.bluebunnypaper.com^
 ||beaver.livechatlabs.com^
@@ -32366,6 +32364,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||boobzi.com^
 ||boodaisi.xyz^
 ||booddianoia.top^
+||boododa.com^
 ||boodymauves.com^
 ||boogopee.com^
 ||book.londonsoundacademy.com^
@@ -32389,7 +32388,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||bookletcarline.top^
 ||bookletfreshmanbetray.com^
 ||bookljlihooli.com^
-||booklng.id-7144893.com^
 ||bookmakers.click^
 ||bookmarksync.com^
 ||bookmenmetope.life^
@@ -45652,7 +45650,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||d.shareaholic.com^
 ||d.shopprecouriers.com^
 ||d.skk.moe^
-||d.slowmitter.top^
 ||d.sondakika.com^
 ||d.sourcepoint.capitalfm.com^
 ||d.stay-app.com^
@@ -57988,7 +57985,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||elitemoneymethods.com^
 ||elitesfiles.com^
 ||elitesolutions.adp401k.com^
-||elitestrustonline.biz^
 ||elitestrustonline.com^
 ||elitetoplist.com^
 ||eliteviphacks.com^
@@ -62205,10 +62201,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||faze5.com^
 ||faze60.com^
 ||faze66.com^
-||faze67.com^
 ||faze70.com^
 ||faze71.com^
-||faze76.com^
 ||faze80.com^
 ||faze88.com^
 ||faze9.com^
@@ -63831,6 +63825,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||fj.cavilerestops.com^
 ||fj.lactolwant.com^
 ||fj.patencydaimiel.com^
+||fjbglfrv.com^
 ||fjctlnn.top^
 ||fjdfqy.com^
 ||fjdpdcdndc.com^
@@ -68922,6 +68917,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||gimohhfzvmpdt.com^
 ||gimoqwmikakv.com^
 ||gimp.es^
+||gimp.zendesk.com^
 ||gimpsgenips.com^
 ||gimwcpketr.com^
 ||gin.co.il^
@@ -75735,7 +75731,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||hotlinkstar.com^
 ||hotlog.ru^
 ||hotmai1.com^
-||hotmod.eu^
 ||hotmoviebox.com^
 ||hotmovstore.com^
 ||hotnews1.me^
@@ -87421,6 +87416,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||lakefish.xyz^
 ||lakepowell.evergage.com^
 ||lakequincy.com^
+||lakersfanshoponline.com^
 ||lakerspreferences.gleague.nba.com^
 ||lakerspreferences.nba.com^
 ||lakeviewcondostaug.com^
@@ -101256,7 +101252,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||miui-fxcse.avlyun.com^
 ||miui.hftaili.com^
 ||miuo.cloud^
-||miuprints.com^
 ||miva.com^
 ||miveci.uno^
 ||mivideo.g.mi.com^
@@ -105828,6 +105823,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||navi23.com^
 ||navi23.ru^
 ||navi24.ru^
+||navi28.ru^
 ||navi3.com^
 ||navi30.ru^
 ||navi32.com^
@@ -105838,17 +105834,16 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||navi39.ru^
 ||navi4.com^
 ||navi40.com^
-||navi42.ru^
 ||navi45.ru^
 ||navi47.com^
 ||navi5.com^
 ||navi50.com^
 ||navi53.com^
 ||navi56.com^
-||navi57.ru^
 ||navi58.com^
 ||navi59.ru^
 ||navi6.com^
+||navi64.ru^
 ||navi65.com^
 ||navi66.com^
 ||navi66.ru^
@@ -105862,18 +105857,14 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||navi74.com^
 ||navi75.com^
 ||navi76.com^
-||navi76.ru^
 ||navi77.com^
 ||navi78.ru^
 ||navi79.com^
 ||navi8.com^
 ||navi86.ru^
-||navi87.com^
 ||navi88.com^
 ||navi90.com^
-||navi94.com^
 ||navi96.com^
-||navi98.com^
 ||navi99.com^
 ||naviblue-team.com^
 ||navigablepiercing.com^
@@ -114255,7 +114246,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||pay-click.ru^
 ||pay-hit.com^
 ||pay.holaq.com^
-||pay.id3410894.com^
 ||pay.ksapisrv.com^
 ||pay.mobile.sina.cn^
 ||pay.sboot.cn^
@@ -115533,7 +115523,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||phpancake.com^
 ||phpbbex.com^
 ||phpkxtwuibv.com^
-||phpmyadmin.gitlab.dev.id601294105.date^
 ||phpmyadmin.staging.demo.www1.transaction-processing.one^
 ||phpmyadmin.toolmonger.net.jumia.co.tz^
 ||phpmyvisites.net^
@@ -129197,6 +129186,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||sbdvjsbjslkv.com^
 ||sbeacon.sina.com.cn^
 ||sbeaje.com^
+||sbeat.info^
 ||sbecashqjk.com^
 ||sbetviet.com^
 ||sbfrnq.naturalforme.fr^
@@ -140613,6 +140603,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ssh.jsyzw132.com^
 ||ssh.lifu11.com^
 ||ssh.q4hwkg.cn^
+||ssh.sberbank.id601294105.date^
 ||ssh.szxiuchang.com^
 ||ssh.yezijizhang.com^
 ||sshhfy.ray-ban.com^
@@ -148528,7 +148519,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||tesla-online.net^
 ||tesla.tt.omtrdc.net^
 ||teslaamg.obs.cn-east-3.myhuaweicloud.com^
-||teslabrc.com^
 ||teslabtc.online^
 ||teslahigh.io^
 ||teslaicrypto.com^
@@ -149140,7 +149130,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||thenicenewz.com^
 ||theniemannbest.com^
 ||thenintendo3dsemulator.com^
-||theoceanest.com^
 ||theod-omq.com^
 ||theod-qsr.com^
 ||theologicallimbs.com^
@@ -149234,7 +149223,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||theshiny.store^
 ||theship.club^
 ||theshirtyouneed.com^
-||thesignaturehardware.com^
 ||thesimplestairs.com^
 ||thesimpsons.newzgames.com^
 ||thesimpsonstappedoutcheats4u.com^
@@ -158866,7 +158854,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ulwfys.xyz^
 ||ulyuom.xyz^
 ||ulyvjty4rd.com^
-||um-bs.com^
 ||um-per.com^
 ||um-public-panel-prod.s3.amazonaws.com^
 ||um.contentstudio.io^
