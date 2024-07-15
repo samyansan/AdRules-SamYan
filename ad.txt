@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-07-15 08:58:28
-! Total count: 176904
+! Version: 2024-07-15 14:18:53
+! Total count: 176910
 
 #
 ##### Version Information ##
@@ -367,6 +367,8 @@
 ##body > [id][style*='width:100%'][style*='min-height:120px']
 ##body > a[id*='hudie_']
 ##body > div#bottommob.bottommob
+##body#nr_body #appss
+##body#nr_body [onclick='goAppHtml();']
 ##body#nr_body a[href*="/?utm_source="]
 ##body#nr_body div.fixed ~ *
 ##body#nr_body font > [id]
@@ -7340,6 +7342,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||9tn.cc^
 ||9tp9jd4p.de^
 ||9tumza4dp4o9.com^
+||9uwe.papilliondairyqueen.com^
 ||9v58v.com^
 ||9vyzdk8.lvditoys.com^
 ||9vzn29.98kk89.com^
@@ -63133,7 +63136,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||fecerismasker.com^
 ||fedapush.net^
 ||fedassuagecompare.com^
-||feddiy.com^
 ||federal.external.xerox.com^
 ||federalcertainty.com^
 ||fedex-rescheduel-date.com^
@@ -77458,6 +77460,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||hyrankhit.meldingcloud.com^
 ||hyrcanquittor.com^
 ||hyrcycmtckbcpyf.xyz^
+||hyretuu.top^
 ||hyrewusha.pro^
 ||hyros.com^
 ||hysdknb.com^
@@ -82858,6 +82861,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||iteneanrhina.com^
 ||iterable.convoy.com^
 ||itespurrom.com^
+||iteyi.xyz^
 ||itfarm.com^
 ||itgear.jp^
 ||itgiblean.com^
@@ -83489,6 +83493,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||jarvispopsu.com^
 ||jas.indeednps.com^
 ||jasaiklan.com^
+||jasdz1.cn^
 ||jashautchord.com^
 ||jasheest.xyz^
 ||jasmin.com^
@@ -106645,9 +106650,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||navi24.com^
 ||navi24.ru^
 ||navi25.ru^
-||navi28.ru^
 ||navi3.com^
-||navi3.ru^
 ||navi30.ru^
 ||navi32.com^
 ||navi33.com^
@@ -126743,6 +126746,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||roastoup.com^
 ||roataisa.net^
 ||roathoowood.com^
+||robalmeister.workers.dev^
 ||robarfacebook.com^
 ||robartwitter.com^
 ||robazi.xyz^
@@ -157320,6 +157324,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||trending-video.com^
 ||trendingnewstv.com^
 ||trendingpatrol.com^
+||trendingpicker.com^
 ||trendingviralvids.info^
 ||trendlope.com^
 ||trendmd.com^
@@ -172505,6 +172510,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||xmglass.cn^
 ||xmgysweb.com^
 ||xmhgwmdjhul.com^
+||xmhszb.xyz^
 ||xmindchina.cn^
 ||xmindchina.net^
 ||xmjajv.xyz^
