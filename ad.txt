@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-07-16 08:57:21
-! Total count: 176987
+! Version: 2024-07-16 14:17:20
+! Total count: 176989
 
 #
 ##### Version Information ##
@@ -1352,6 +1352,10 @@ new.qq.com##.original-bar
 new.qq.com##.tuijian-bar
 new.qq.com##[href="//new.qq.com/hb_index.htm"]
 new.qq.com##[href="https://new.qq.com/mobile"]
+new.qq.com#?#div.operation:contains(手机看)
+news.qq.com##.download-banner-wrap
+news.qq.com##.download-content.mr28.download-wrapper
+news.qq.com##.godown.qqcom_fb-item
 note.youdao.com##.top-btns
 nxnba.com##.bootom-fixed
 oneplusbbs.com###bbsRegisterGuide
@@ -1558,6 +1562,7 @@ v.qq.com##.svg_icon_client.svg_quick_icon
 v.qq.com##.svg_icon_client.svg_quick_icon > path:nth-of-type(1)
 v11av.xyz##.content__body [rel='nofollow'][href][target='_blank']
 v11av.xyz##.row.q-ma-none A[rel='noopener nofollow'][href][style='display: block;']
+view.inews.qq.com##div[class^="article-recommend_wrapper"]
 view.inews.qq.com##div[class^="bottom-bar_buttonWrap"]
 view.inews.qq.com##div[class^="infinite-comment-list_subText"]
 view.inews.qq.com##div[class^="interaction-bottom_interaction"]
@@ -6060,7 +6065,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||633c66f0dc.com^
 ||634369.xyz^
 ||6352.k45z7tagm.com^
-||635a022421.com^
 ||637o.top^
 ||6381.5clo0xmbf.com^
 ||638236rpn.com^
@@ -35648,7 +35652,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||camisado.actonservice.com^
 ||cammak.xyz^
 ||cammpaign.com^
-||camomileamazingbench.com^
 ||camomilegentlemennotable.com^
 ||camonster.com^
 ||camouque.net^
@@ -36680,7 +36683,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||cd.chemistanddruggist.co.uk^
 ||cd.dabansuan.cn^
 ||cd.jejre.cn^
-||cd48885c17.com^
 ||cd490573c64f3f.com^
 ||cd4d8554b1.com^
 ||cd57296e.xyz^
@@ -62253,7 +62255,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||f5.mtqys.com^
 ||f5.track-mv-01.com^
 ||f53a.com^
-||f5b40df5e2.com^
 ||f5biz.com^
 ||f5e03754b3.com^
 ||f5v1x3kgv5.com^
@@ -77354,6 +77355,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||hvd-store.com^
 ||hvdath.xyz^
 ||hvdmwhnawvhbejv.com^
+||hvdt8.chimeratool.com^
 ||hverdagskriger.dk^
 ||hvesuc.fitwinkel.nl^
 ||hvfubp.xyz^
@@ -98506,7 +98508,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||md.he9630.com^
 ||md.r114.co.kr^
 ||md.sh5e.com^
-||md.tethsrump.com^
 ||md.tvzhe.com^
 ||mda.zadn.vn^
 ||mdadx.com^
@@ -117429,6 +117430,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||pl.kanbanmail.app^
 ||pl.kis-nagy.art^
 ||pl.letsblock.it^
+||pl.lucida.to^
 ||pl.maya-astro.fi^
 ||pl.mynorthstarapp.com^
 ||pl.sharpmarketing.eu^
