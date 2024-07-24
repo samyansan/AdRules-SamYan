@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-07-24 20:22:25
-! Total count: 176970
+! Version: 2024-07-25 02:15:41
+! Total count: 176946
 
 #
 ##### Version Information ##
@@ -900,35 +900,12 @@ doc.mbalib.com###viewer > div.doc-ad
 docin.com##.moneyBox
 dongmanhuayuan.myheartsite.com##.card-body
 douban.com##.lnk-doubanapp
-douyu.com###FansFestival2003Tips
-douyu.com###douyu_room_normal_player_danmuDom > .ani-base-hover.DanmuEffectBC.ani-broadcast
-douyu.com###douyu_room_normal_player_proxy_box > .PlayerSuspendedBallAd
-douyu.com###js-player-dialog
-douyu.com###js-player-guessgame
-douyu.com###js-room-activity
-douyu.com##.Bottom
-douyu.com##.ChatEffect
-douyu.com##.ConfigBroadcast.ani-broadcast
-douyu.com##.FishpondTreasure
-douyu.com##.FudaiGiftToolBarTips
+douyu.com##.ClientJump
+douyu.com##.Download
 douyu.com##.Header-download-wrap
-douyu.com##.HeaderGif-left
-douyu.com##.HeaderGif-right
-douyu.com##.PcDiversion
-douyu.com##.PrivilegeGiftModalDialog
-douyu.com##.SuperFansGuideTips
-douyu.com##.TaskIcon
-douyu.com##.ToolbarActivityArea
-douyu.com##.ToolbarActivityArea > div:nth-of-type(1) > div:nth-of-type(1) > div.ActivityItem:nth-of-type(3)
-douyu.com##.is-active.UPlayerLotteryEnter
 douyu.com##.is-mask.MedalUserGuide
-douyu.com##div.Title-row:nth-of-type(3)
-douyu.com##div.is-normal.Title-col:nth-of-type(2)
 douyu.com##div[class*=LiveRoomDianzan]
-douyu.com##li.RightNavigate-item:nth-of-type(1)
-douyu.com##li.RightNavigate-item:nth-of-type(1) > [href^="/client"]
-douyu.com##li.RightNavigate-item:nth-of-type(2)
-douyu.com##li.RightNavigate-item:nth-of-type(2) > [href^="/client"]
+douyu.com##div[class^="code_box"]
 egame.qq.com###inner-container
 egame.qq.com##.left-menu-footer
 egame.qq.com##.live-list-guess
@@ -1162,12 +1139,7 @@ m.douban.com##div.center [style*='padding: 4px;']
 m.douban.com##h2 > [href^="https://www.douban.com/doubanapp/card/get_app"]
 m.douban.com#?#a:contains(用App看更多)
 m.douban.com#?#div:matches-css(width:68px)
-m.douyu.com##.DownloadBtn
-m.douyu.com##.HomeHeader-openAppB
-m.douyu.com##.abtest-downloadDialog
-m.douyu.com##.btn-open-app
-m.douyu.com##.btn-open-app.open-btn-more
-m.douyu.com##.clarity-downDialog
+m.douyu.com##div[class*="OpenAppBtn"]
 m.egame.qq.com###gcOfficialWidgetWrapper
 m.egame.qq.com###installGameBar
 m.egame.qq.com###installbar
@@ -5867,6 +5839,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||5caa478343.com^
 ||5cb068fb21.com^
 ||5cbbdb4434.com^
+||5cc3ac02.xyz^
 ||5cc9c408-c3fa-41dd-88bb-c303115bb2db.snippet.antillephone.com^
 ||5cd06b6ef4.com^
 ||5ceea3.xyz^
@@ -6174,6 +6147,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||6810f7dd2b.com^
 ||6816.seponews.com^
 ||6828.5clo0xmbf.com^
+||68287zubo85737.com^
 ||6840.5clo0xmbf.com^
 ||6846.5clo0xmbf.com^
 ||685wo.com^
@@ -7129,6 +7103,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||96138.net^
 ||961dzmubbg.su^
 ||9635.bestinterestings.com^
+||96382zubo66756.com^
 ||963fc.com^
 ||96424fcd96.com^
 ||964ka.cn^
@@ -41677,6 +41652,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||collector.mediator.media^
 ||collector.megaxh.com^
 ||collector.pi.spectrum.net^
+||collector.plarium.com^
 ||collector.prod.expedia.com^
 ||collector.quillbot.com^
 ||collector.reelevant.com^
