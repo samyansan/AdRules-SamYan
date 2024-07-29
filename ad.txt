@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-07-29 08:58:39
-! Total count: 177307
+! Version: 2024-07-29 14:17:47
+! Total count: 177313
 
 #
 ##### Version Information ##
@@ -991,10 +991,12 @@ ifeng.com##div[class^="bottomSlide"]
 ifeng.com##div[class^="bottom_box"]
 ifeng.com##div[class^="fixSlideBox"]
 ifeng.com##div[class^="hot_box"]
+ifeng.com##div[class^="index_link"]:contains(app)
 ifeng.com##div[class^="qr_box"]
 ifeng.com##div[class^="shareFix"]
 ifeng.com##div[class^="share_box"]
 ifeng.com##div[class^="silde_box"]
+ifeng.com##header:contains(立即打开)
 ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 imgur.com##.Ad.sas.Smart
 inapps.appsflyersdk.com^
@@ -1014,7 +1016,6 @@ ishare.iask.sina.com.cn##.loginRedPacket-dialog
 ishare.ifeng.com##.callUpBox
 ishare.ifeng.com##div[class^="callup"]
 ishare.ifeng.com##div[class^="more_box"]
-ishare.ifeng.com##header
 ishare.ifeng.com##section[class^="allLook"]
 ishare.ifeng.com##section[class^="bottom"]
 ishare.ifeng.com##section[class^="relateVideo"]
@@ -1462,6 +1463,7 @@ stbemucode.com##IFRAME[frameborder='0'][marginheight='0']
 suning.com###sn-sidebar-change-code
 suning.com###sn-sidebar-change-code > IMG.tab-tip-code-warp-img
 suning.com###sn-sidebar-change-redpacket
+suning.com##.headDom
 suning.com##.ng-bar-node mb-suning touch-href
 suning.com##.ng-bar-node-box app-down-box
 suning.com##.sn-sidebar-tab-js.sn-sidebar-code.sn-sidebar-wider-tab.sn-sidebar-tab
@@ -103337,6 +103339,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||mktg.bekapublishing.com^
 ||mktg.destinationmarketing.org^
 ||mktg.digineer.com^
+||mktg.evvnt.com^
 ||mktg.feedbacknow.com^
 ||mktg.forrester.com^
 ||mktg.jeffersonhealth.org^
@@ -108795,6 +108798,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||nntgna.dmm.com^
 ||nntsdp.xyz^
 ||nntzjgzvbzz.com^
+||nnvjbb.xyz^
 ||nnvkh.com^
 ||nnvoia.closetworld.com^
 ||nnwm.com^
@@ -130540,6 +130544,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||sbh9hu4trk.com^
 ||sbhc.portalhc.com^
 ||sbhduht.xyz^
+||sbhight.com^
 ||sbhmn-miner.com^
 ||sbi-push.com^
 ||sbiloi.xyz^
@@ -177225,6 +177230,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||zyijzosrnzfru.com^
 ||zykumw.com^
 ||zykwnj.cn^
+||zylizz.xyz^
 ||zylytavo.com^
 ||zymasescassius.com^
 ||zymbrlgu.cn^

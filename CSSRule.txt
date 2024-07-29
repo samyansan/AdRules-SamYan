@@ -744,10 +744,12 @@ ifeng.com##div[class^="bottomSlide"]
 ifeng.com##div[class^="bottom_box"]
 ifeng.com##div[class^="fixSlideBox"]
 ifeng.com##div[class^="hot_box"]
+ifeng.com##div[class^="index_link"]:contains(app)
 ifeng.com##div[class^="qr_box"]
 ifeng.com##div[class^="shareFix"]
 ifeng.com##div[class^="share_box"]
 ifeng.com##div[class^="silde_box"]
+ifeng.com##header:contains(立即打开)
 ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 imgur.com##.Ad.sas.Smart
 iqiyi.com##.header_app.iqiyi-h5-empty
@@ -766,7 +768,6 @@ ishare.iask.sina.com.cn##.loginRedPacket-dialog
 ishare.ifeng.com##.callUpBox
 ishare.ifeng.com##div[class^="callup"]
 ishare.ifeng.com##div[class^="more_box"]
-ishare.ifeng.com##header
 ishare.ifeng.com##section[class^="allLook"]
 ishare.ifeng.com##section[class^="bottom"]
 ishare.ifeng.com##section[class^="relateVideo"]
@@ -1203,6 +1204,7 @@ stbemucode.com##IFRAME[frameborder='0'][marginheight='0']
 suning.com###sn-sidebar-change-code
 suning.com###sn-sidebar-change-code > IMG.tab-tip-code-warp-img
 suning.com###sn-sidebar-change-redpacket
+suning.com##.headDom
 suning.com##.ng-bar-node mb-suning touch-href
 suning.com##.ng-bar-node-box app-down-box
 suning.com##.sn-sidebar-tab-js.sn-sidebar-code.sn-sidebar-wider-tab.sn-sidebar-tab
