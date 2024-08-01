@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-08-01 14:17:27
-! Total count: 177368
+! Version: 2024-08-01 20:23:31
+! Total count: 177371
 
 #
 ##### Version Information ##
@@ -826,6 +826,7 @@ bilibili.com##.btn-ctnr
 bilibili.com##.clearfix.h5-download-bar
 bilibili.com##.desktop-download-tip
 bilibili.com##.download-client-trigger.download-entry
+bilibili.com##.float-btn:contains(打开App)
 bilibili.com##.index__container__src-commonComponent-bottomOpenApp-
 bilibili.com##.index__downLoadBtn__src-videoPage-commentArea-
 bilibili.com##.index__floatOpenBtn__src-videoPage-floatOpenBtn-
@@ -833,6 +834,7 @@ bilibili.com##.index__openAppBtn__src-commonComponent-topArea-
 bilibili.com##.index__openApp__src-videoPage-related2Col-videoItem-
 bilibili.com##.mobile.nav-item
 bilibili.com##.open-app-bar
+bilibili.com##.open-btn
 bilibili.com##a[href="//app.bilibili.com"]
 bilibili.com#?#.van-popover__reference:contains(下载)
 bimibimi.cc##[src^='https://dd-static.jd.com']
@@ -1098,15 +1100,15 @@ m.baidu.com##.suggest-hot
 m.baidu.com##.water-container.tab-news-content
 m.baidu.com##DIV#se-recommend-word-list-container.se-recommend-word-list-container
 m.baidu.com#@##results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result):not(.hint-unsafe)
-m.bilibili.com##.home-float-openapp.open-app-btn
-m.bilibili.com##.m-comment-openapp.open-app-btn
-m.bilibili.com##.m-float-openapp.open-app-btn
+m.bilibili.com##.bottom-tab:contains(App)
+m.bilibili.com##.container:contains(打开App)
+m.bilibili.com##.launch-app-btn > a:contains(App)
+m.bilibili.com##.launch-app-btn:contains(打开APP)
 m.bilibili.com##.m-home-float-openapp
-m.bilibili.com##.m-nav-openapp.open-app-btn
+m.bilibili.com##.m-video2-awaken-btn
 m.bilibili.com##.m-video2-float-openapp
+m.bilibili.com##.natural-margin.visible-open-app-btn.m-video-main-launchapp.launch-app-btn
 m.bilibili.com##.nav-open-app-img
-m.bilibili.com##.visible-open-app-btn.m-video-main-launchapp.launch-app-btn
-m.bilibili.com##.visible-open-app-btn.m-video-main-openapp.open-app-btn
 m.bilibili.com##div[class*="mplayer-control-btn mplayer-control-btn-callapp mplayer-control-btn-speed"]
 m.bilibili.com##div[class*="mplayer-widescreen-callapp"]
 m.bilibili.com##div[class*="openapp"]
@@ -7341,7 +7343,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||a-static.com^
 ||a-t.topya.com^
 ||a-waiting.com^
-||a.0day.kiev.ua^
 ||a.10tianqi.com^
 ||a.123porner.net^
 ||a.1800gotjunk.com^
@@ -12941,6 +12942,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ad.kisscartoon.sh^
 ||ad.kisscartoon.su^
 ||ad.kisstvshow.*^
+||ad.kisstvshow.es^
 ||ad.kisstvshow.ru^
 ||ad.kmib.co.kr^
 ||ad.kodansha.net^
@@ -15968,6 +15970,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ads.music.126.net^
 ||ads.muslimehelfen.org^
 ||ads.mustangworks.com^
+||ads.mxhnkn.pro^
 ||ads.mycricket.com^
 ||ads.mysimon.com^
 ||ads.mytelus.com^
@@ -35759,7 +35762,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||candleannihilationretrieval.com^
 ||candledvenesia.com^
 ||candlesbymadison.com^
-||candlinglather.com^
 ||candlingtremble.com^
 ||candouraggravate.com^
 ||candy-crush.newzgames.com^
@@ -37273,7 +37275,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||cdn1.memojav.com^
 ||cdn1.mopub.com^
 ||cdn1.netcoresmartech.com^
-||cdn1.pebx.pl^
 ||cdn1.profitmetrics.io^
 ||cdn1.res.nx5.com^
 ||cdn1.res.uzham.com^
@@ -64682,6 +64683,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||fl5dpe.oui.sncf^
 ||fla4n6ne7r8ydcohcojnnor.com^
 ||flabbyyolkinfection.com^
+||flag.lab.amplitude.com^
 ||flag.lab.eu.amplitude.com^
 ||flagads.net^
 ||flagcounter.com^
@@ -84079,6 +84081,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||jeekomih.com^
 ||jeelmuyusa.com^
 ||jeeng-api-prod.azureedge.net
+||jeeng-api-prod.azureedge.net^
 ||jeeng.com^
 ||jeephiney.net^
 ||jeepsaut.com^
@@ -103478,6 +103481,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||mlkklg.suncamp.de^
 ||mlkpbktmqrsry.com^
 ||mllatydz.com^
+||mlldrlujqg.com^
 ||mlllllllmmm.ovh^
 ||mllllllmmm.ovh^
 ||mlllllmmmm.ovh^
@@ -112243,6 +112247,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||opcharizardon.com^
 ||opchikoritar.com^
 ||opclauncheran.com^
+||opclck.com^
 ||opcwdns.opcw.nl^
 ||opdavplcufic.com^
 ||opdowvamjv.com^
@@ -118863,7 +118868,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||popin.cc^
 ||popina.ir^
 ||popinads.com^
-||popitunder.com^
 ||popland.info^
 ||poplarcolonistgreatest.com^
 ||poplink-f.probo.biz^
@@ -132485,7 +132489,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||selectivesummer.com^
 ||selectjeeps.acutx.org^
 ||selectmedia.asia^
-||selectofmychoices.com^
 ||selectornews.com^
 ||selectr.net^
 ||selectroduced.com^
