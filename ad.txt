@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-08-09 08:58:33
-! Total count: 177786
+! Version: 2024-08-09 14:17:54
+! Total count: 177789
 
 #
 ##### Version Information ##
@@ -995,6 +995,7 @@ ifeng.com##[class^='index_fixSlideBox']
 ifeng.com##[class^='index_pageBottomBrand']
 ifeng.com##[class^='index_wutong']
 ifeng.com##[href^='https://mall.ifeng.com'],IMG[class^='picMark-'][src^='https://x0.ifengimg.com/']
+ifeng.com##div[class*="callupBtn"]
 ifeng.com##div[class^="ad_"]
 ifeng.com##div[class^="ad_box"]
 ifeng.com##div[class^="bottomSlide"]
@@ -1007,6 +1008,7 @@ ifeng.com##div[class^="shareFix"]
 ifeng.com##div[class^="share_box"]
 ifeng.com##div[class^="silde_box"]
 ifeng.com##header:contains(立即打开)
+ifeng.com##header[class*="headerIn"]
 ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 imgur.com##.Ad.sas.Smart
 inapps.appsflyersdk.com^
@@ -177058,6 +177060,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||zjliloveyou.ixiunv.com^
 ||zjm.zzmmkj.com^
 ||zjo0tjqpm1.com^
+||zjplnz.xyz^
 ||zjptg.com^
 ||zjpwrpo.com^
 ||zjrbwb.markenschuhe.de^
