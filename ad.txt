@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2024-08-23 14:17:13
-! Total count: 177285
+! Version: 2024-08-23 20:23:35
+! Total count: 177300
 
 #
 ##### Version Information ##
@@ -47,6 +47,7 @@
 ##.ssr1
 ##.theme-dark > .ayx > a
 ##.tp_advertising
+##.vp-project-home > .ads-container
 ##.width.imgs_1
 ##.zozoads
 ##A > IMG[alt][src*='resources/images/']
@@ -781,7 +782,6 @@ baidu.com###relative_shop_flow
 baidu.com###s-hotsearch-wrapper
 baidu.com###tab_news_1
 baidu.com###tab_news_1 > div.tab-news-content.water-container:nth-child(2)
-baidu.com##.ad-wrapper
 baidu.com##.barea-ad
 baidu.com##.brand-entry
 baidu.com##.c-result.result[srcid='mkt_ad_space']
@@ -801,6 +801,7 @@ baidu.com##[class^='ball-wrapper']
 baidu.com##[data-tpl='adv_wenku_fc']
 baidu.com##[data-video-player='true']
 baidu.com##a.ball-wrapper__3BTBO.c-blocka
+baidu.com##div.ad-wrapper
 baidu.com##div[class$="-ecom-ads"]
 baidu.com#@##header > div:last-child
 baidu.com#@##page-pre
@@ -23055,6 +23056,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||anime.reactor.cc^
 ||animemeat.com^
 ||animeplaynow.com^
+||animeshoppers.com^
 ||animesuge.to^
 ||animeteatr.ru^
 ||animikii-ana.com^
@@ -25639,7 +25641,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||aps.hearstnp.com^
 ||apsalar.com^
 ||apsatnlfylz.com^
-||apsehick.date^
 ||apsidalmungoos.top^
 ||apsis.com^
 ||apsis1.com^
@@ -30076,6 +30077,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||beacon.adelphic.com^
 ||beacon.affil.walmart.com^
 ||beacon.aimtell.com^
+||beacon.apsehick.date^
 ||beacon.archonia.com^
 ||beacon.carfax.com^
 ||beacon.cdn.qq.com^
@@ -53409,6 +53411,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||dionympoalike.website^
 ||diopousg.com^
 ||dioqto.totaljobs.com^
+||diosminlissome.com^
 ||diouy9cvtx.xyz^
 ||dioxidtoluyls.com^
 ||dip.wl963.com^
@@ -55933,6 +55936,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||dueu.0fwg.cn^
 ||duf1ql28oaxcm3x6baf7wxvo6n29hrozqxbd13emc3na96i64j.xyz^
 ||dufai4b1ap33z.cloudfront.net^
+||dufflesmorinel.com^
 ||dufjgdjeyo.com^
 ||dufrom.com^
 ||duftoagn.com^
@@ -58448,6 +58452,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||eicyds.qoo10.jp^
 ||eidersalias.com^
 ||eiderswergelt.com^
+||eidoscruster.com^
 ||eiegkg.xyz^
 ||eiewwepb.com^
 ||eifeou.pandahall.com^
@@ -63463,6 +63468,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||fenbo.cn^
 ||fencerecollect.com^
 ||fencerscoelho.com^
+||fencersdatcha.com^
 ||fenddiscourse.com^
 ||fendeyrziz.top^
 ||fendingposh.life^
@@ -69475,7 +69481,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ggbetcasino.de^
 ||ggbetss.com^
 ||ggc.cmvideo.cn^
-||ggchallengemode.world^
 ||ggcode.2345.com^
 ||ggcorp.me^
 ||ggdata1.cnr.cn^
@@ -70192,6 +70197,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||gloogeed.xyz^
 ||gloognoogrix.com^
 ||gloogruk.com^
+||gloohozedoa.xyz^
 ||glookup.info^
 ||gloolrey.com^
 ||glooltoora.net^
@@ -73478,6 +73484,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||habovethecityon.info^
 ||habtoorloyal.com^
 ||habukaiambics.com^
+||habutaeirisate.com^
 ||habutaeunroost.com^
 ||hacbfyvvsw.com^
 ||hacde1.icu^
@@ -106876,6 +106883,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||navi56.com^
 ||navi58.com^
 ||navi59.ru^
+||navi6.com^
 ||navi61.com^
 ||navi66.ru^
 ||navi67.ru^
@@ -106883,6 +106891,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||navi72.com^
 ||navi72.ru^
 ||navi74.com^
+||navi77.com^
 ||navi78.ru^
 ||navi8.com^
 ||navi86.ru^
@@ -120514,6 +120523,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||proxy.advp.apple.com^
 ||proxy.dzeio.com^
 ||proxy.sec.miui.com^
+||proxy.telemetry.us-ashburn-1.oci.oraclecloud.com^
 ||proxy.trysavvy.com^
 ||proxy.vidazoo.com^
 ||proxy4life.org^
@@ -125797,6 +125807,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||resignedsauna.com^
 ||resilesfuriant.guru^
 ||resinherjecling.com^
+||resinkaristos.com^
 ||resinshandle.life^
 ||resionsfrester.com^
 ||resistanceouter.com^
@@ -133081,6 +133092,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||sf.zestfulpize.com^
 ||sf14g.com^
 ||sf16-static.i18n-pglstatp.com^
+||sf16-telemetry-proxy-oci.tiktokcdn-us.com^
 ||sf19-fe-tos-sg.i18n-pglstatp.com^
 ||sf2018-api.ksapisrv.com^
 ||sf2018.ksapisrv.com^
@@ -160541,6 +160553,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||umoxomv.icu^
 ||umpcaptans.com^
 ||umpedshumal.com^
+||umphek.com^
 ||umpirectx.top^
 ||umplmoht.com^
 ||umplohzn.com^
@@ -168237,6 +168250,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||wilfridjargonby.com^
 ||wilfulknives.com^
 ||wilfulsatisfaction.com^
+||wililylaus.com^
 ||willacrit.com^
 ||willalland.info^
 ||willetslibbet.digital^
@@ -176068,6 +176082,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||zebramobi.g2afse.com^
 ||zebratechnologies.tt.omtrdc.net^
 ||zebrinanoteman.top^
+||zebusentour.com^
 ||zebutal.1.p2l.info^
 ||zedbubble.com^
 ||zeddit.com^
