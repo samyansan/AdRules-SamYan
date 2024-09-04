@@ -6,7 +6,6 @@ curl -o i-2.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_5.
 curl -o i-3.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_21.txt
 curl -o i-4.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_24.txt
 curl -o i-5.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_29.txt
-curl -o i-6.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_33.txt
 
 # 合并规则并去除重复项
 cat i*.txt > i-mergd.txt
