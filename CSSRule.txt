@@ -6378,6 +6378,7 @@ apple.com.cn#$##ac-globalnav { top: 0 !important; }
 apple.com.cn#$#.ac-gn-blur { top: 0 !important; }
 apple.com.cn#$#html #globalnav { top: 0 !important; }
 apple.com.cn#$#html { margin-top: 0 !important; }
+applealmond.com##div[id^="applealmond_inread_"]
 applealmond.com##div[style*="height: 260px;"][style*="text-align: center;"]
 appledaily.com###ebBannerTopDiv + A[href^="http://bit.ly/"]
 appledaily.com.tw##.THISISANADHERE
@@ -8626,6 +8627,8 @@ epubit.com#@#.article_share
 epwk.com##.collect-info-icon
 epwk.com##.collect-info-wrap
 epwk.com##.head_banner
+erciyan.com##^script:has-text(function xxS)
+erciyan.com##script:has-text(function xxS)
 erji.com,erji.net##.black.y-style
 eroacg.com##.weimg1
 eromanga-show.com,hentai-one.com,hentaipaw.com##+js(no-setTimeout-if, /[a-z]\(!0\)/, 800)
@@ -15270,6 +15273,8 @@ ydss.cn###indexBlad
 ydss.cn##.bm.bml.pbn > table > tbody > tr > td:nth-child(-n+2)
 ydss.cn##.indexAd
 ye120.com##.fixed_bottom
+yebiquge.com##^script:has-text(hm.baidu.com)
+yebiquge.com##script:has-text(hm.baidu.com)
 yeduxiaoshuoo.com##div[class$="anye"][onclick$="anye()"]
 yeeach.com##.footer + div[id][class]:not([style])
 yeeach.com##^script:has-text(new RegExp)
