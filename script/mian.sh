@@ -1,16 +1,15 @@
 #!/bin/sh
 
 # 下载规则
-curl -o i-1.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
-curl -o i-2.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_5.txt
-curl -o i-3.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_21.txt
-curl -o i-4.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_24.txt
-curl -o i-5.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_29.txt
-curl -o i-6.txt https://cdn.jsdelivr.net/gh/damengzhu/abpmerge@main/abpmerge.txt
+curl -o i-1.txt https://raw.githubusercontent.com/samyansan/AdGuardRules/main/adguard.txt
+curl -o i-2.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/Rules/samyansan.txt
+curl -o i-3.txt https://cdn.jsdelivr.net/gh/damengzhu/abpmerge@main/abpmerge.txt
+curl -o i-4.txt https://raw.githubusercontent.com/samyansan/AdHosts/master/adguard
+curl -o i-5.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/Rules/AllowLite.txt
 
 # 合并规则并去除重复项
 cat i*.txt > i-mergd.txt
-cat i-mergd.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^||||' | grep -v '^|||| ' | grep -v '^|||' | grep -v '^||| ' | grep -v '^0.0.0.0' | grep -v '^0.0.0.0 ' | grep -v '^127.0.0.1' | grep -v '^127.0.0.1 ' | grep -v '^## ' | grep -v '^## ' | grep -v '^\[' | grep -v '^\【' | grep -v '^@' | grep -v '^@@' > i-tmpp.txt
+cat i-mergd.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^||||' | grep -v '^|||| ' | grep -v '^|||' | grep -v '^||| ' | grep -v '^0.0.0.0' | grep -v '^0.0.0.0 ' | grep -v '^127.0.0.1' | grep -v '^127.0.0.1 ' | grep -v '^## ' | grep -v '^## ' | grep -v '^\[' | grep -v '^\【' > i-tmpp.txt
 sort -n i-tmpp.txt | uniq > i-tmp.txt
 
 python rule.py i-tmp.txt
