@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2025-07-06 09:24:43
-! Total count: 101131
+! Version: 2025-07-06 14:21:52
+! Total count: 101138
 
 ###ADbox
 ###ADtip
@@ -6358,7 +6358,6 @@ $websocket,domain=wap.yushuwu.cloud
 /\/upload\/[a-z0-9]{7}\/[0-9]+-[0-9]?\/[a-z0-9]{32}\.gif/$domain=higu.tv
 /\/uploads\/[a-z]+\/\d\.gif$/$image,~third-party,domain=mangagun.net|nicomanga.com|rawinu.com|weloma.art|welovemanga.one
 /^(?!.*(mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|(\/\/|\.)vk\.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|(\/\/|\.)x\.com)).*$/$third-party,script,_____,domain=manshuxs.com|yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top|634.tv|myhaitang.cc|ckplayer.vip|qushucheng.com
-/^(?!.*(mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|(\/\/|\.)vk\.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|(\/\/|\.)x\.com)).*$/$third-party,script,_____,domain=manshuxs.com|yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top|634.tv|myhaitang.cc|ckplayer.vip|qushucheng.com
 /^(https|ws|wss):\/\/[a-z0-9]+\.[a-z0-9]+\.[a-z]{2,3}:\d{1,6}\/([a-z]{1,3}\/){0,1}\d+\?[a-z]+=[a-z0-9]+($|&)/$script,websocket,third-party
 /^(mon|tue|wed|thu|fri|sat|sun)\d{1,2}\.\w{2}\d{1,6}\w{4}\.com$/
 /^https:\/\/[a-z0-9-]{3,12}\.[a-z0-9]+\.com\/([A-Za-z0-9.]+)(?:\/([A-Za-z0-9.]+))?\.\d{4}\.(doc|docx|html|jpeg|jpg|js|json|odf|pdf|png|ppt|psd|rtf|shtml|sxml|txt|wedp|wps|xml|xps)\?\d{13}$/$third-party,match-case
@@ -25012,6 +25011,7 @@ zzzyk.com###Tinfo
 ||33dav.com/static/js/bottom.js
 ||33img.com^$domain=18board.com|18p2p.com
 ||33shu.net/js/game
+||33w8tdyelw.com^
 ||33yh010.com^
 ||34.102.137.201^
 ||34.102.137.201^$popup
@@ -51002,6 +51002,7 @@ zzzyk.com###Tinfo
 ||fcunq.com^
 ||fcw1.site^
 ||fcw45.com/js/layer1.js^
+||fd2k1fa6oe.com^
 ||fd5orie8e.com^
 ||fd7c.com^
 ||fd80s.com/static/m.
@@ -51607,6 +51608,7 @@ zzzyk.com###Tinfo
 ||fiu07041kl.com^
 ||fiu07050kl.com^
 ||fiu07051kl.com^
+||fiu07060kl.com^
 ||fivesidedsquare.com^$third-party
 ||fivulsou.xyz^
 ||fiwhibse.com^
@@ -68966,6 +68968,7 @@ zzzyk.com###Tinfo
 ||mhysbwo.xyz^
 ||mi-side.nl^
 ||mi.gdt.qq.com^
+||mi2zv8wiw0.com^
 ||mi62r416j.com^
 ||mi82ltk3veb7.com^
 ||miam4.cn^
@@ -69330,6 +69333,7 @@ zzzyk.com###Tinfo
 ||mjpiqb.cn^
 ||mjpvukdc.com^
 ||mjsqdv.m.zwda.com^
+||mjufus.icu^
 ||mjvfvsxmjagshd.com^
 ||mjvmypr.cn^
 ||mjvr.cn^
@@ -75798,6 +75802,7 @@ zzzyk.com###Tinfo
 ||pesteroverwork.com^
 ||pestholy.com^
 ||pestilenttidefilth.org^
+||petalen88.top^
 ||petardasgratis.net^
 ||petargumentswhirlpool.com^
 ||petasmaeryops.com^
@@ -79059,6 +79064,7 @@ zzzyk.com###Tinfo
 ||qiji1.jdwx.info^
 ||qijiandian.xyz^
 ||qijiuwangluo.ltd^
+||qijl.cn^
 ||qijpaih.cn^
 ||qijpoaplprskvo.com^
 ||qilanxiaozhu.*/data/attachment/portal/
@@ -91542,6 +91548,7 @@ zzzyk.com###Tinfo
 ||tvx.adgrx.com^
 ||tvyan.com/images/jscss/tv-
 ||tvyun07.com/template/mytheme/statics/js/layer/
+||tvzapt.icu^
 ||tw-api.vpadn.com^
 ||tw-api.vpon.com^
 ||tw-gmtdmp.mookie1.com^
