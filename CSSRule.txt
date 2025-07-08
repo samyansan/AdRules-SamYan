@@ -14790,6 +14790,8 @@ vmall.com#@#.iframeAd
 vmvps.com###long_image
 vmvps.com##.spbox
 voachinese.com##.slide-in-wg
+vocus.cc##article > div[style^="min-height:"]:empty
+vocus.cc##article > div[style^="min-height:"]:has(> div[class^="sc-"] > div[class^="sc-"] > ins[data-rmax-space-id])
 vod1769.com##.banner_img
 vod1769.com##div[id^="a"]
 vod2046.fun##[style]:not([class]):has(a[href*="/c.php?s"])
