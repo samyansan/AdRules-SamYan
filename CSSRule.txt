@@ -9954,6 +9954,10 @@ hk.on.cc##div[id^="google_div_"]
 hk.xfastest.com##.adv-side-wrap
 hk.xfastest.com##.adv_v2
 hk.yahoo.com##div[id^="my-ads"]
+hk.yahoo.com,tw.yahoo.com###fullbleed > div[data-content="廣告"]
+hk.yahoo.com,tw.yahoo.com##.ntk-list > .grid-item:has(> div[data-wf-benji-config])
+hk.yahoo.com,tw.yahoo.com##aside > div[id^="module-adgroup"]
+hk.yahoo.com,tw.yahoo.com##aside > div[id^="module-sponsoredad"]
 hk01.com###debug-0-ad-outer-container
 hk01.com##.article-grid__desktop-rhs-section > .items-center:has(.lazyload-wrapper > .js-ad-slot)
 hk01.com##.article-grid__desktop-rhs-section > .items-center:has(> div[class^="sc-"] > div[data-id="lazyload-placeholder"])
