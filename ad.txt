@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2025-08-14 09:18:34
-! Total count: 100178
+! Version: 2025-08-14 14:25:33
+! Total count: 100188
 
 ###ADbox
 ###ADtip
@@ -2702,6 +2702,7 @@
 ##.push-slider[clickmode="cpt"]
 ##.push-slider[key^="clicked_cpt"]
 ##.push-top-container > .push-top[key]
+##.push-top[clickmode="cpt"]
 ##.qgg_popup_close2
 ##.qpdb + a[href]
 ##.qzdhf
@@ -9598,6 +9599,7 @@ $websocket,domain=wap.yushuwu.cloud
 1905.com,news.ltn.com.tw,commonhealth.com.tw,health.tvbs.com.tw,idreamx.com,xchina.co,manhuafen.com,world68.com##.ad
 1909.me,8se.me,crxs.me,xchina.biz,xchina.co##.media
 1909.me,8se.me,crxs.me,xchina.biz,xchina.co##.push-top
+1909.me,8se.me,crxs.me,xchina.site,xchina.biz,xchina.co##.media
 199it.com,softwarebrother.com##.adsbygoogle
 19lou.com##.ad-980x40
 19lou.com##.editor-ad
@@ -10288,6 +10290,7 @@ $websocket,domain=wap.yushuwu.cloud
 591hx.com##.banner_w
 5dm.app##[src*="sinaimg.cn"]
 5dm.link###player_pausex
+5dm.link##div[id^="player_p"]
 5dm.link#@#.tm-share-this
 5dy15.cc##div[id][class^="is_"][style^="margin"]
 5eplay.com##img[width="1240"]
@@ -25019,6 +25022,7 @@ zzzyk.com###Tinfo
 ||3uo.fun^
 ||3v7c7y.online^
 ||3v7c7y.online^$third-party
+||3vnofjidlv.com^
 ||3vp.icu^
 ||3wk.cc/images/*.gif
 ||3wr110.net^
@@ -25244,6 +25248,7 @@ zzzyk.com###Tinfo
 ||4tube.com/assets/padb-
 ||4tube.com/iframe/$third-party
 ||4tube.com/nyordo.js
+||4ufutzmihl.com^
 ||4ve.fun^
 ||4vgyjja.cn^
 ||4wank.com/bump/
@@ -25526,6 +25531,7 @@ zzzyk.com###Tinfo
 ||5d32q.com^
 ||5d7k30pv1u.com^
 ||5dimes.com^$popup
+||5dm.link/a$image
 ||5dm.link/ablgld/
 ||5dm.link/ancblmszmd/
 ||5dm.tv/html/5dmm.jpg
@@ -25713,6 +25719,7 @@ zzzyk.com###Tinfo
 ||6820tp1.com^
 ||68287zubo85737.com^
 ||68710266.com^
+||6888.site^
 ||68amt53h.de^
 ||68aq8q352.com^
 ||68d48e2725.com^
@@ -30015,6 +30022,7 @@ zzzyk.com###Tinfo
 ||ai.bioon.com^
 ||ai36588.com^
 ||aiai123.cc/js/*.js
+||aiamok.icu^
 ||aiasalkamin.cfd^
 ||aiawongday.world^
 ||aibing.cc/vip/img/gou.gif
@@ -52253,6 +52261,7 @@ zzzyk.com###Tinfo
 ||fznidd.top^
 ||fzpchome.com/txt/$script
 ||fzqxuwfexcqza.website^
+||fzruzulad.com^
 ||fzxiaoshuo.com/source/
 ||g--o.info^$third-party
 ||g-adnet.hiaiabc.com^
@@ -73774,6 +73783,7 @@ zzzyk.com###Tinfo
 ||p5-lm.adukwai.com^
 ||p52q.cn^
 ||p6-be-pack-sign.pglstatp-toutiao.com^
+||p7jroq6xco.com^
 ||p8u.hinet.net^
 ||p8wj9zko.com^
 ||p8wj9zko.com^$popup
