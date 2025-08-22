@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2025-08-22 09:13:07
-! Total count: 96020
+! Version: 2025-08-22 14:23:23
+! Total count: 96036
 
 ###ADbox
 ###ADtip
@@ -6400,6 +6400,7 @@ $websocket,domain=wap.yushuwu.cloud
 /^https?:\/\/[^\s]+\.com\/[a-z]{1,2}\/[a-zA-Z0-9=]{65,}\.js$/$third-party,important,script
 /^https?:\/\/[a-z-]{6,}\.(?:com?|pro|info|xyz)\/[a-d][-\.\/_A-Za-z][DHWXm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6swyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$script,xmlhttprequest,third-party,match-case
 /^https?:\/\/cdn\.[0-9a-z]{3,6}\.xyz\/[a-z0-9]{8,}\.js$/$script,third-party
+/^https?:\/\/kan\.znds\.com\/public\/home\/images\/[0-9]+-[0-9]+\.gif\?v=/$domain=kan.znds.com
 /^https?:\/\/pikabu\.ru\/ajax\/[A-Za-z0-9]+\?[A-Za-z0-9]+=[0-9a-z-]+[0-9a-z]$/$xmlhttprequest,domain=pikabu.ru
 /^https?:\/\/s3\.*\.amazonaws\.com\/[a-f0-9]{45,}\/[a-f,0-9]{8,10}$/$script,third-party,xmlhttprequest,domain=~amazon.com
 /^https?:\/\/www\.[0-9a-z]{8,}\.com\/[0-9a-z]{1,4}\.js$/$script,third-party,domain=dood.la|dood.pm|dood.sh|dood.so|dood.to|dood.watch|dood.ws
@@ -14325,6 +14326,7 @@ bilibili.com##.download-entry
 bilibili.com##.eva-banner
 bilibili.com##.eva-extension-body > .bili-video-card:has(.bili-video-card__info--ad)
 bilibili.com##.extension-tips
+bilibili.com##.feed-card:has(> div.bili-feed-card > div > div > div.bili-video-card__no-interest + a[target="_blank"]:not([href^="https://www.bilibili.com/"]))
 bilibili.com##.float-btn
 bilibili.com##.floor-single-card:has(.floor-skeleton):not(:has(> div.bili-video-card__skeleton))
 bilibili.com##.gg-floor-module
@@ -24658,6 +24660,7 @@ zzzyk.com###Tinfo
 ||2kn40j226.de^
 ||2kpixel.quantserve.com^
 ||2lb.cc^
+||2ld8mx979a.com^
 ||2leep.com^$third-party
 ||2linkpath.com^
 ||2llmonds4ehcr93nb.com^
@@ -32941,6 +32944,7 @@ zzzyk.com###Tinfo
 ||atemda.com^
 ||atemoyaalbino.world^
 ||atentherel.org^$popup
+||atepcs.icu^
 ||aterhouseoyope.com^
 ||aterroppop.com^
 ||aterru.g2afse.com^
@@ -35668,6 +35672,7 @@ zzzyk.com###Tinfo
 ||bjjky.cfd^
 ||bjk08210ip.com^
 ||bjk08211ip.com^
+||bjk08220ip.com^
 ||bjkedv*.xyz^
 ||bjmama.net/a/spc_
 ||bjmantis.net^
@@ -41944,6 +41949,7 @@ zzzyk.com###Tinfo
 ||cupfox*.com/statics/js/ing.js
 ||cupfox.app^$third-party
 ||cupid.iqiyi.com/mixer?
+||cupid.iqiyi.com/mixer?$domain=www.iqiyi.com,badfilter
 ||cupid.iqiyi.com/show2?
 ||cupidirresolute.com^
 ||cupidonmedia.com^
@@ -43410,6 +43416,7 @@ zzzyk.com###Tinfo
 ||daneswhidah.rest^
 ||dangbei.net/2022/dbhezi.
 ||dangbei.net/img/db/downdangbei.gif
+||dangbei.net/jing/dbai/$domain=kan.znds.com
 ||dangdang.com/adall.
 ||dangerfiddlesticks.com^
 ||dangerinsignificantinvent.com^
@@ -50714,6 +50721,7 @@ zzzyk.com###Tinfo
 ||ftopx.com/tf558550ef6e.js
 ||ftpcontent.worldnow.com^
 ||ftrem.site^
+||ftrfnx.icu^
 ||ftrrhvgrgfaqx.site^
 ||ftslrfl.com^
 ||fttxhcua.icu^
@@ -59697,6 +59705,7 @@ zzzyk.com###Tinfo
 ||jszctech.com^
 ||jsztl.com/img/particular/tbyhq.jpg
 ||jt01151knd.com^
+||jt5.dangbei.net/site/$domain=kan.znds.com,image
 ||jtbunh.xyz^
 ||jtddmlhuc.com^
 ||jtdltu.top^
@@ -61742,6 +61751,7 @@ zzzyk.com###Tinfo
 ||laosiji.com/static/js/lib/od_statistics.js
 ||laowang81.com/getfuolist
 ||laowangblog.com^*-ad
+||laowanglm.com^
 ||laozuo.org/banner/
 ||lapakfilm.net^
 ||lapcockmograbi.shop^
@@ -66503,6 +66513,7 @@ zzzyk.com###Tinfo
 ||moumaizaque.com^
 ||mountain.zhidao.baidu.com^
 ||mountaincaller.top^$popup
+||mountainrood.com^
 ||mountedblueberrytall.com^
 ||mouphouglug.net^
 ||moupphocal.rest^
@@ -84371,6 +84382,7 @@ zzzyk.com###Tinfo
 ||tcpcharms.com^
 ||tcpedpdcfkcgo.rocks^
 ||tcppu.com^
+||tcragarnh.com^
 ||tcreativeideasa.com^
 ||tcrtidleivyai.space^
 ||tcsgcdn.top^
@@ -89412,6 +89424,7 @@ zzzyk.com###Tinfo
 ||verizontelecom.tt.omtrdc.net^
 ||vermelhinhoba.com.br^
 ||vermixshrieve.life^
+||vernaellac.com^
 ||vernagefiacres.rest^
 ||verninbans.world^
 ||vernongermanessence.com^
@@ -90251,6 +90264,7 @@ zzzyk.com###Tinfo
 ||vrixon.com/adsdk/
 ||vrizead.com^
 ||vrjccyvdvdthn.store^
+||vrje.cn^
 ||vrldejvphpidi.online^
 ||vrlvnz.xyz^
 ||vrmkkrfxvaixf.space^
@@ -90338,6 +90352,7 @@ zzzyk.com###Tinfo
 ||vtnguthuo.com^
 ||vtohfxij.com^
 ||vtomqskmhqyco.online^
+||vtongm82lz.com^
 ||vtpyvbwtldlvl.site^
 ||vtqhelleano.com^
 ||vtrk.doubleverify.com^
@@ -94091,6 +94106,7 @@ zzzyk.com###Tinfo
 ||ydgal.com/axfile/
 ||ydgh0zc.com^
 ||ydgsvls.cn^
+||ydhilninhp.com^
 ||ydiggeurkhusl.store^
 ||ydjfdkcv.com^
 ||ydjplbbzkimzu.site^
