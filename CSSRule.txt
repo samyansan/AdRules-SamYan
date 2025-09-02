@@ -3888,6 +3888,7 @@
 ##a[href][target="_blank"] > img[src*="//jusotop.com/"][alt]
 ##a[href][target="_blank"] > img[src*="cn-chengdu.aliyuncs.com/"][alt]
 ##a[href][target="_blank"] > img[src*="img.souche.com"][src$=".gif"]
+##a[href][target="_blank"] > img[src*="imgsa.baidu.com/forum/pic/item/"]
 ##a[href][target="_blank"] > img[src="https://vip2.loli.io"]
 ##a[href][target="_blank"] > img[src][alt="xxx"]
 ##a[href][target="_blank"] > img[src][class="topline"]
@@ -4121,6 +4122,7 @@
 ##body > div#fixedban
 ##body > div#inplayer[align="center"]
 ##body > div.addbox > div:not([id]):not([class]):not([style])
+##body > div.container[style="margin-bottom: 10px;"] > script:first-child ~ div[style="height:60px;width:100%;"]
 ##body > div.demo-wrapper[style="display:none;"] + div[id][class]
 ##body > div[class$="c"][style="bottom: 135px;"]
 ##body > div[class$="h"][style="bottom: 135px;"]
@@ -4494,6 +4496,7 @@
 ##font > .topfixed
 ##gpt-ad
 ##guj-ad
+##head + body > div[style=" max-width:990px; margin:0 auto;"]:not([class]):not([id]) > a
 ##header + #main > div[class][id^="rd"][data-v-app]
 ##header + #main:nth-child(n+4) .container-fluid.mb-0.p-0
 ##header + #main:nth-child(n+4) .container-fluid.mb-3.p-0
@@ -15497,6 +15500,7 @@ xvna.com##.articleAD
 xvna.com##.rctad
 xw.qq.com##.appIndex.show
 xw.qq.com##.globalThemeTip
+xx.knit.bid##.clickadu-container
 xxam.org,18pussy.porn,tabooporn.tv,amateurporn.me,severeporn.com##.block-video > div.table:has(> div.opt)
 xxdm.in,yhdmw.com##.bottom_fixed
 xxooo.cf###overlay
