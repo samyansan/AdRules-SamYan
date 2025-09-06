@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2025-09-06 09:07:31
-! Total count: 100287
+! Version: 2025-09-06 14:19:24
+! Total count: 100303
 
 ###ADbox
 ###ADtip
@@ -2825,6 +2825,7 @@
 ##.right_advert
 ##.rightadv
 ##.rm-two > a[href*=".umtrack.com"]
+##.rm-twoa > a[href*=".umtrack.com"]
 ##.rmp-ad-container
 ##.room-ad-bottom
 ##.room-ad-top
@@ -4992,6 +4993,7 @@ $script,third-party,domain=imgbox.com
 $script,third-party,domain=ouo.io|ouo.press
 $script,third-party,domain=rule34hentai.net
 $script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.se|torrentkitty.tv|torrkitty.com
+$script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.tv|torrkitty.com
 $script,third-party,domain=xiaoyakankan.com|52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoxintv.cc|xiaoxintv.com|xiaoxintv.net
 $script,third-party,websocket,domain=52codes.net
 $script,third-party,xmlhttprequest,domain=abcvideo.cc
@@ -11187,6 +11189,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@/fingerprint2.min.js$domain=csdn.net|neets.cc|passport.vpgame.com|shixiseng.com
 @@/fingerprintjs2.min.js$domain=imooc.com
 @@/fuckadblock.$domain=datehub.co|golangnote.com|joyk.com|liumingye.cn|lnk2.cc|poedb.tw|share1223.com
+@@/ggjs/*$domain=tingfm.com
 @@/gtm.js$domain=amd.com
 @@/guanggao/*$domain=icbc.com.cn|igame.qq.com
 @@/hitCount.$script,domain=on.cc
@@ -16093,6 +16096,7 @@ electric-house.ru##.blok_forum > div[style]
 element-plus.gitee.io##.sidebar > .page-content
 element-plus.gitee.io##.toc-content > .m-t-16px
 element-plus.gitee.io##aside > .page-content
+element-plus.org##.doc-content-zosdsoycx
 element-plus.org##.doc-s-content
 elhow.ru###b-info-wrapper
 elle.com.hk##.tpc-container
@@ -20443,6 +20447,8 @@ pornhuber.love##.adBottomRow
 pornhuber.love##div:not([id]):not([class]):not([style]):has(.adTextList)
 pornlib.com###spot_video_livecams
 pornlib.com##.spot:has(script[src*="/ad-provider.js"])
+pornlulu.com##.container-fluid[style="background:#000;height:40px;"]
+pornlulu.com##.links:not([role="menu"]:last-child)
 pornlulu.com##.row.links
 pornlulu.com,pornbest.org###fullPageModal
 pornlulu.com,pornbest.org,ptt.sex###fullPageModal
@@ -21890,6 +21896,7 @@ tmall.com###J_Recommend
 tmall.com##.app-download-popup
 tmall.com##.fp-lazyload-con[data-path*="/floor-ad-"]
 tmall.com##.mui-mbarp-qrcode
+tmioe.com##.dsawss
 tmioe.com##.gorand
 tmioe.com##.widget_image_img
 tmioe.com##.zpgimg
@@ -40222,6 +40229,7 @@ zzzyk.com###Tinfo
 ||ci38iu1ch.com^
 ||ciaankzzhmcrz.click^
 ||ciadre.fun^
+||ciajifmfsp.com^
 ||cialisoraltabs.com^
 ||cialisuuqa.com^
 ||ciaoovaries.life^
@@ -44024,6 +44032,7 @@ zzzyk.com###Tinfo
 ||d7016uqa4s0lw.cloudfront.net^
 ||d71194ad75.com^
 ||d7dza8s7j2am6.cloudfront.net^
+||d7fl3a3vwh.com^
 ||d7gse3go4026a.cloudfront.net^
 ||d7jpk19dne0nn.cloudfront.net^
 ||d7oskmhnq7sot.cloudfront.net^
@@ -58345,6 +58354,7 @@ zzzyk.com###Tinfo
 ||ileesidesukbe.org^
 ||ileumoctant.com^
 ||ilgklwdngyn.com^
+||ilgt04vkw4.com^
 ||ilhangrnyaubr.site^
 ||ilhprjfok.com^
 ||iliacusurines.cfd^
@@ -61062,6 +61072,7 @@ zzzyk.com###Tinfo
 ||joi09041pt.com^
 ||joi09050pt.com^
 ||joi09051pt.com^
+||joi09060pt.com^
 ||join.megaphonetv.com^$third-party
 ||joinedvalerin.shop^
 ||joinhitched.cyou^
@@ -65946,6 +65957,7 @@ zzzyk.com###Tinfo
 ||lyejsvtddsdgw.website^
 ||lyewe.xyz^
 ||lyexrcudpidrv.store^
+||lyfdrh.icu^
 ||lygaeidbrumes.cfd^
 ||lygeumcupids.shop^
 ||lygjgjqbzzzwj.top^
@@ -80471,6 +80483,7 @@ zzzyk.com###Tinfo
 ||rjdmhl.icu^
 ||rjguonqztwmgs.store^
 ||rjicwpdsfdypl.store^
+||rjif.cn^
 ||rjjttgcwsjni.com^
 ||rjmagdairzath.website^
 ||rjmjflkndiqxw.site^
@@ -85458,6 +85471,7 @@ zzzyk.com###Tinfo
 ||squaredkarthli.qpon^
 ||squaremagician.com^
 ||squaremouth.com/affiliates/$third-party
+||squarewave.top^
 ||squashreservebrim.com^
 ||squashwithholdcame.com^
 ||squeakyscofffar.com^
@@ -91862,6 +91876,7 @@ zzzyk.com###Tinfo
 ||uoutube.com^
 ||uouvxlit.top^
 ||uowr.cn^
+||uoxm.cn^
 ||up.qingdaonews.com/up/$object,script
 ||up2cdn.com^
 ||upaasnvrjvgexm.com^
@@ -96792,6 +96807,7 @@ zzzyk.com###Tinfo
 ||wxsnsdythumb.wxs.qq.com^
 ||wxurshzniivhg.store^
 ||wxwtvlov.com^
+||wxynyij.icu^
 ||wxyzjutyofbjm.space^
 ||wy12cewh4.com^
 ||wy213.com^$popup,third-party
