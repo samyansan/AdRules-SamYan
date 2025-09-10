@@ -2,8 +2,8 @@
 
 # 下载规则
 curl -o i-1.txt https://raw.githubusercontent.com/samyansan/AdGuardRules/main/adguard.txt
-curl -o i-2.txt https://cdn.jsdelivr.net/gh/damengzhu/abpmerge@main/abpmerge.txt
-curl -o i-3.txt https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock.txt
+#curl -o i-2.txt https://cdn.jsdelivr.net/gh/damengzhu/abpmerge@main/abpmerge.txt
+#curl -o i-3.txt https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock.txt
 curl -o i-4.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/Rules/AllowLite.txt
 
 # 合并规则并去除重复项
