@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2025-09-10 09:08:38
-! Total count: 100712
+! Version: 2025-09-10 14:22:11
+! Total count: 100726
 
 ###ADbox
 ###ADtip
@@ -3683,6 +3683,7 @@
 ##a[href*=".html?channelCode="]
 ##a[href*=".icu/?token="][target="_blank"]
 ##a[href*=".kaiyunty.live"]
+##a[href*=".labsda.com"] > img[src^="/game/20"]
 ##a[href*=".lui8426.xyz"]
 ##a[href*=".lvdou.life/"][target="_blank"]
 ##a[href*=".magsrv.com/"]
@@ -4953,7 +4954,6 @@ $$script:contains(_mJd5Y2FNOfYm62LY5FuY7O5Yc6)
 $csp=script-src 'self' '*' 'unsafe-inline',domain=pirateproxy.live|thehiddenbay.com|downloadpirate.com|thepiratebay10.org|ukpass.co|linksmore.site
 $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.cloudflare.com *.google.com *.addthis.com *.addthisedge.com *.facebook.net *.twitter.com *.jquery.com *.x.com,domain=kinox.lat|kinos.to|kinox.am|kinox.click|kinox.cloud|kinox.club|kinox.digital|kinox.direct|kinox.express|kinox.fyi|kinox.gratis|kinox.io|kinox.lol|kinox.me|kinox.mobi|kinox.pub|kinox.sh|kinox.to|kinox.tube|kinox.tv|kinox.wtf|kinoz.to,~third-party
 $csp=script-src 'self' * 'unsafe-inline',domain=8181zw.vip|biqugequ.org|69shumi.com|fxxs3.com|efuxs.com|i3book.com|genbiquge.com|quanbiqu.com|pinshu.org|13xsw.com|bbiquge.cc|taobiquge.com|haijiaobooksw.top|zlobin.net|piaotianxiaoshuo.com|yebiquge.com|jvbiquge.com|vipbiquge.com|jpbqg7.com|zuizhong.net|oldtimeswx.org|5book.cc|softtechsolution.org|product44.com|snxsw.com|xiexinde.net|m.6666xsw.com|m.chenkuan.com|jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com
-$csp=script-src 'self' * 'unsafe-inline',domain=biqugequ.org|69shumi.com|fxxs3.com|efuxs.com|i3book.com|genbiquge.com|quanbiqu.com|pinshu.org|13xsw.com|bbiquge.cc|taobiquge.com|haijiaobooksw.top|zlobin.net|piaotianxiaoshuo.com|yebiquge.com|jvbiquge.com|vipbiquge.com|jpbqg7.com|zuizhong.net|oldtimeswx.org|5book.cc|softtechsolution.org|product44.com|snxsw.com|xiexinde.net|m.6666xsw.com|m.chenkuan.com|jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com
 $csp=script-src 'self' * 'unsafe-inline',domain=bowoxs.com|guashuge.com|mudanxs.com|mzbook.cc|haduks.com|caimozw.com|zaaizw.com|bogeks.com|oushuku.com|haxu8.com|pucixs.com|tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|waguwk.cc|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|nuoshuge.com|puquz.com|wuwusk.com
 $csp=script-src 'self' * 'unsafe-inline',domain=nodejs.cn|smsonline.cloud
 $csp=script-src 'self' *,domain=52niuyanks.cc|90shuyuan.com|hunhunxs.com|sswwxs.com|akexs.com|qqmmxs.com|qimiaoxs.cc|qimiaoxiaoshuo.com|wuwxs.com|biquge678.com|biqugezw.us|zk01.net
@@ -5017,6 +5017,7 @@ $websocket,domain=wap.yushuwu.cloud
 &xhtml?$script,third-party
 &zoneid=*&ad_$popup
 &zoneid=*&direct=$popup
+*$denyallow=123dua.com,domain=123dua.com,script,xmlhttprequest
 *$denyallow=efuxs.com,domain=efuxs.com,script,subdocument,xmlhttprequest
 *$denyallow=qiexs.cc|ququge.cc,domain=qiexs.cc|ququge.cc,xmlhttprequest,image,script
 *$denyallow=tszw.org,subdocument,script,xmlhttprequest,domain=tszw.org
@@ -31329,6 +31330,7 @@ zzzyk.com###Tinfo
 ||amunfezanttor.com^
 ||amung.us^
 ||amusedbucket.com^$third-party
+||amusementt3.top^
 ||amusershuvra.shop^
 ||amusinghump.com^
 ||amusingrole.pro^
@@ -37084,6 +37086,7 @@ zzzyk.com###Tinfo
 ||bpqil.com^
 ||bptnzp.top^
 ||bpuf.cn^
+||bpuvuun0xg.com^
 ||bpvubrpialperi.com^
 ||bpxxgkoj.icu^
 ||bpyzejgpwovmf.website^
@@ -49914,6 +49917,7 @@ zzzyk.com###Tinfo
 ||eybrgoggcjkyl.website^
 ||eybstar.com^
 ||eydnowruz97.ir^
+||eydvg8.com^
 ||eyeballdisquietstronghold.com^
 ||eyeblaster.akadns.net^
 ||eyebrowscrambledlater.com^
@@ -55167,6 +55171,7 @@ zzzyk.com###Tinfo
 ||gxbpiovpukbaq.website^
 ||gxbr.cnzz.com^
 ||gxclcggb.com^
+||gxcqay.icu^
 ||gxetowrzlnqbf.online^
 ||gxfh59u4.xyz^
 ||gxfiledownload.com^$document
@@ -56788,6 +56793,7 @@ zzzyk.com###Tinfo
 ||hnrgmc.com^$document
 ||hnrgmc.com^$popup
 ||hnrte.ghkmoert.xyz^
+||hnsgpw.com^
 ||hntezhi.com^
 ||hntgcspkqawbt.online^
 ||hnwqolckynifk.website^
@@ -61213,6 +61219,7 @@ zzzyk.com###Tinfo
 ||joi09081pt.com^
 ||joi09090pt.com^
 ||joi09091pt.com^
+||joi09100pt.com^
 ||join.megaphonetv.com^$third-party
 ||joinedvalerin.shop^
 ||joinhitched.cyou^
@@ -62753,6 +62760,7 @@ zzzyk.com###Tinfo
 ||kjyytxyetnueu.club^
 ||kk3fefl2b3.com^
 ||kkarjbugckcln.online^
+||kkbnzz.cn^
 ||kkbxhowntqarcyo.com^
 ||kkddlt2f.site^$third-party
 ||kkeichcdm.xyz^
@@ -66096,6 +66104,7 @@ zzzyk.com###Tinfo
 ||lxockgcdbobzl.online^
 ||lxpawyfbudcdi.store^
 ||lxpbdp.xyz^
+||lxpgll.icu^
 ||lxpwbzxrjazpo.com^
 ||lxqjy-obtr.love^
 ||lxstat.com^
@@ -70967,6 +70976,7 @@ zzzyk.com###Tinfo
 ||nmtkbv.icu^
 ||nmtracking.netflix.com^
 ||nmtwgwle.xyz^
+||nmulwz.cn^
 ||nmwjlaywnozwj.vip^
 ||nmyfedath.com^
 ||nmzbrd.icu^
@@ -73792,6 +73802,7 @@ zzzyk.com###Tinfo
 ||oykqvhduikwta.site^
 ||oyksoft.com/assets/images/*.gif
 ||oyksoft.com/show/b.
+||oylblokar.com^
 ||oynveturupdut.site^
 ||oyo4d.com^
 ||oyoakyallvggw.top^
@@ -86872,6 +86883,7 @@ zzzyk.com###Tinfo
 ||subgumsabe.cfd^
 ||subguromere.click^
 ||subgyriunprime.digital^
+||subhd.*/kaiyad.
 ||subhd.com/images/ap/
 ||subiliajoists.cfd^
 ||subiqquokjziy.store^
@@ -88321,6 +88333,7 @@ zzzyk.com###Tinfo
 ||teindpuntist.world^
 ||teisebypass.shop^
 ||tejoafotocmal.com^$popup
+||tejr.cn^
 ||tekkereuel.shop^
 ||teknologia.co^
 ||teknowledge1.blogspot.com^
@@ -99490,7 +99503,6 @@ zzzyk.com###Tinfo
 ||ywbpzuqu.com^
 ||ywcpuyoqiwpsq.website^
 ||ywdyawksjecjv.store^
-||ywg.jobui.com^
 ||ywkkmze.cn^
 ||ywlywcynr.com^
 ||ywronwasthetron.com^
@@ -99603,6 +99615,7 @@ zzzyk.com###Tinfo
 ||z.tudouxy01.com^
 ||z0a1b2c3d4.com^
 ||z0ha6abmi.com^
+||z0u6tmmudb.com^
 ||z1.chezhuzhinan.com^
 ||z1.cnzz.com^
 ||z1.cwbaike.com^
@@ -100555,6 +100568,7 @@ zzzyk.com###Tinfo
 ||zvdkxhzpaslxe.online^
 ||zvela.filegram.to^
 ||zvetokr2hr8pcng09.com^
+||zvgvenibe.com^
 ||zvjkqilfalzpn.site^
 ||zvkdgqxkydevr.online^
 ||zvmxpklpnnenv.site^
