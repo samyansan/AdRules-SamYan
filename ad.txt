@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2025-11-07 11:22:13
-! Total count: 39416
+! Version: 2025-11-07 11:24:51
+! Total count: 39415
 
 #189
 #@#.has-ad
@@ -7849,7 +7849,6 @@ ruanyifeng.com##p[style="text-align:center;font-size: 16px;"]
 ruanyifeng.com#%#//scriptlet('prevent-setTimeout', 'checker')
 ruanyifeng.com#?#.asset-content > p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p + p > img
 ruanyifeng.com#?#.asset-content > p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p > img
-ruanyifeng.com#@#a > img[src*="wangbase.com/blogimg/asset/"]
 ruanyifeng.com#@#a[href*=".apeclass.com"]
 ruanyifeng.com#@?#.asset-content > p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p + p > img
 ruanyifeng.com#@?#.asset-content > p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p > img
