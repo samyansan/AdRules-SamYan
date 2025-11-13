@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2025-11-13 09:15:41
-! Total count: 39491
+! Version: 2025-11-13 14:25:00
+! Total count: 39506
 
 #189
 #@#.has-ad
@@ -2204,6 +2204,7 @@ av6k.com##.subLink
 av6k.com#%#//scriptlet('abort-current-inline-script', 'document.write', 'ads_codes')
 avbebe.com###content > div.single-post > div[align="center"]
 avbebe.com###wrapper > div[align="center"]
+avbebe.com##.footer_column:nth-child(n+2)
 avbebe.com##.sidebar > .xoxo > li[id^="execphp-"]
 avbebe.com##.sidebar > .xoxo > li[id^="text-"]
 avbebe.com##.sidebar a[href][target="_blank"] > img
@@ -7665,6 +7666,7 @@ qq.com##.in-top-ad
 qq.com##.jpBanner
 qq.com##.m[pbflag="guess"]
 qq.com##.maillist_ad_bar
+qq.com##.maillist_gg_bar
 qq.com##.main_ad_bottom
 qq.com##.main_ad_top
 qq.com##.masker_1111
@@ -7827,6 +7829,9 @@ romzhijia.net##.ggposition
 romzj.com##.sectionThree
 rou.video##.grid > div[class^="col-span"]:has(> div[class] > div[id^="ts_ad_native"])
 rou.video##.grid > div[class^="col-span"]:has(> div[class] > ins)
+rouman5.com###headlessui-portal-root
+rouman5.com##div[style^="display: flex;"]
+rouman5.com##ins
 rouman5.com#?#.col-md-4 > div.row:has(> div.col > div[style] > ins[id])
 rouman5.com#?#.col-md-4 > div.row:has(> div.col > h5:contains(支持一下吧))
 rouman5.com,roum20.xyz###headlessui-portal-root
@@ -9257,6 +9262,7 @@ xc6b.com##a[href="http://61.160.236.52"]
 xcar.com.cn###eMeng
 xcar.com.cn###show_car
 xcar.com.cn##div[class^="adset"]
+xchina.co##.block-overlay
 xchina.co##.outer-banner
 xchina.co##.photos > div.item:has(> div > a[target="_blank"])
 xchina.co##.photos > div.item:has(> div[class^="exoclick_"])
@@ -9821,10 +9827,12 @@ zzzyk.com###Tinfo
 ||0a0atz2sh.top^
 ||0b4qu3nxa.com^
 ||0b6rvr210q.com^
+||0bb8jytek.com^
 ||0ce3c-1fd43.api.pushwoosh.com^
 ||0dwm.icu^
 ||0er7pc8.xyz^
 ||0gomovies.mn^
+||0h9yewgei.com^
 ||0iem8mw1lx.com^
 ||0kkbb.com/js/i.js
 ||0krdn3.com^
@@ -10277,6 +10285,7 @@ zzzyk.com###Tinfo
 ||21edu8.com/js/mymoney/
 ||21hehe.xyz^
 ||21movienew.blogspot.com^
+||21ojgpuwg6.com^
 ||21qma3vs.com^
 ||21sq.org/js/downloadbanner.js
 ||21stcentury30something.blogspot.com^
@@ -12815,7 +12824,6 @@ zzzyk.com###Tinfo
 ||adservetx.media.net^
 ||adservex.media.net^
 ||adservice.com^
-||adservice.google.cn^
 ||adservice.google.com.au^
 ||adservice.google.com^
 ||adservice.sigmob.cn^
@@ -13187,6 +13195,7 @@ zzzyk.com###Tinfo
 ||airav.cc/iframe/
 ||airav.cc/static/js/*_ad.js
 ||airav.space^
+||airline49.top^
 ||airlytics.airlock.twcmobile.weather.com^
 ||airouba.com/public/js/global.js
 ||airpush.com^
@@ -14933,6 +14942,7 @@ zzzyk.com###Tinfo
 ||b1sync.zemanta.com^
 ||b1t-chidc2.zemanta.com^
 ||b1t-nydc1.zemanta.com^
+||b1zftjhtwb.com^
 ||b2-data.ads.heytapmobi.com^
 ||b2.51yangsheng.com^
 ||b2c-msm.marketo.com^
@@ -20504,7 +20514,6 @@ zzzyk.com###Tinfo
 ||fe4c0422j.com^
 ||featured.perfectionholic.com^
 ||feda.com^
-||feed-image.baidu.com^
 ||feed.baidu.com^
 ||feedimages.simpli.fi^
 ||feedou.com/nzq/style/pc/js/popbig.js
@@ -21740,7 +21749,6 @@ zzzyk.com###Tinfo
 ||google-analytics.com^
 ||google-maps-claudiadtt.blogspot.com^
 ||googleads.g.doubleclick-cn.net^
-||googleads.g.doubleclick.com^
 ||googleads.g.doubleclick.net/pagead/ads$subdocument,redirect=noopframe,domain=rjno1.com,important
 ||googleads.g.doubleclick.net^
 ||googleads4.g.doubleclick.net^
@@ -22654,6 +22662,7 @@ zzzyk.com###Tinfo
 ||hmma.baidu.com^
 ||hmoe12.com/wp-content/uploads/202*.gif
 ||hmtoday.com^$third-party
+||hmtqtokulp.com^
 ||hmwang.icu/skin/images/*.gif
 ||hn.inspectlet.com^
 ||hnb2c.adsame.com^
@@ -24128,7 +24137,6 @@ zzzyk.com###Tinfo
 ||ittaels.com^
 ||ituba.cc/uploads/allimg/201610/603/
 ||itv.hexun.com
-||itv2-up.openspeech.cn^
 ||itweepinbelltor.com^
 ||itx4.smartadserver.com^
 ||itx5-publicidad.smartadserver.com^
@@ -26129,6 +26137,8 @@ zzzyk.com###Tinfo
 ||lls11110ko.com^
 ||lls11111ko.com^
 ||lls11120ko.com^
+||lls11121ko.com^
+||lls11130ko.com^
 ||llw67onw6.com^
 ||lm.ijq.tv^
 ||lm.licenses.adobe.com^
@@ -28617,6 +28627,7 @@ zzzyk.com###Tinfo
 ||noamazonaseassim.com.br^
 ||nobartv.com^
 ||nobartv7.site^
+||nodejs.cn/_static/js/common.js
 ||nodeny.targetspot.com^
 ||nodrakor.store^
 ||nodrakor22.life^
@@ -28817,6 +28828,7 @@ zzzyk.com###Tinfo
 ||nytimes-d.openx.net^
 ||nyvgbt.xyz^
 ||nz04com.com/aabdd/
+||nzeikrar.com^
 ||nzl09250oa.com^
 ||nzl09251oa.com^
 ||nzl09260oa.com^
@@ -31423,7 +31435,6 @@ zzzyk.com###Tinfo
 ||retrieval-bd.duote.com^
 ||return.adsame.com^
 ||reunie-mytylschoolroosendaal.nl^
-||rev.aiclk.com^
 ||revdepo.com^
 ||revee.outbrain.com^
 ||revid.centech.glulive.com^
@@ -31441,6 +31452,7 @@ zzzyk.com###Tinfo
 ||rezasource.com^
 ||rezqorten.blogspot.com^
 ||rf.cnlongshou.com^
+||rf10b9mq8.com^
 ||rfgsdgg.top^
 ||rfidworld.com.cn/Notice/Home
 ||rfidworld.com.cn/js/RFID.js
@@ -31528,6 +31540,7 @@ zzzyk.com###Tinfo
 ||rkanr.com/data/cpcache/cp*.js
 ||rkgwzfwjgk.com^
 ||rklzpo.com^
+||rkoi.cn^
 ||rksnqq.com^
 ||rktjxj.icu^
 ||rkxy.com.cn/js/text_
@@ -31592,6 +31605,7 @@ zzzyk.com###Tinfo
 ||rou.video/_next/static/chunks/pages/fuli-
 ||rou.video/js/exo.js
 ||rou3.xyz^
+||rouman5.com/js/clickadu.
 ||roundrobin-log.agoop.net^
 ||route.carambo.la^
 ||rouwhapt.com^
@@ -32802,7 +32816,6 @@ zzzyk.com###Tinfo
 ||sift-campaign-creatives.sift.co^
 ||sifyeldb.top^
 ||sigma-statistics-push.proxima.nie.easebar.com^
-||sigmob.cn^
 ||sigmob.com^
 ||signal-beacon.s-onetag.com^
 ||signal-metrics-collector-beta.s-onetag.com^
@@ -33048,7 +33061,6 @@ zzzyk.com###Tinfo
 ||smad.ms.zhangyue.net^
 ||smadex.com^
 ||smart-789.kakamobi.cn^
-||smart-tv.cn^
 ||smart.link^
 ||smart.mobvista.com^
 ||smartad.10010.com^
@@ -36604,6 +36616,7 @@ zzzyk.com###Tinfo
 ||vkoolll.net^
 ||vksy.cn^
 ||vktztp.xyz^
+||vkur.cn^
 ||vkxn.cn^
 ||vl3rw9roj.com^
 ||vldp.cn^
@@ -37736,6 +37749,7 @@ zzzyk.com###Tinfo
 ||wyzq.rehuwang.com^
 ||wzbaohe.com/imgadnew/midad.js
 ||wzctuv.xyz^
+||wzehmoil.com^
 ||wzjs1.oss-accelerate.aliyuncs.com^
 ||wzjs2.cdn.bcebos.com^
 ||wzrkt.com^
@@ -38281,6 +38295,7 @@ zzzyk.com###Tinfo
 ||xxsmtz9.com^
 ||xxsywxj.com^
 ||xxtalp.xyz^
+||xxts11130zs.com^
 ||xxx888porn.com^
 ||xxxadultphoto.com^
 ||xxxboss.net^
