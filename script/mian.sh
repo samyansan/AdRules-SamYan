@@ -5,7 +5,7 @@ curl -o i-1.txt https://raw.githubusercontent.com/samyansan/AdGuardRules/main/ad
 curl -o i-2.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/Rules/AllowLite.txt
 # 合并规则并去除重复项
 cat i*.txt > i-mergd.txt
-cat i-mergd.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^||||' | grep -v '^|||| ' | grep -v '^|||' | grep -v '^||| ' | grep -v '^0.0.0.0' | grep -v '^0.0.0.0 ' | grep -v '^127.0.0.1' | grep -v '^127.0.0.1 ' | grep -v '^##' | grep -v '^## ' | grep -v '^\[' | grep -v '^\【' | grep -v '# ' | grep -v '## ' | grep -v '### ' > i-tmpp.txt
+cat i-mergd.txt | grep -v '^!' | grep -v '^！' | grep -v '^#' | grep -v '^# ' | grep -v '^||||' | grep -v '^|||| ' | grep -v '^|||' | grep -v '^||| ' | grep -v '^0.0.0.0' | grep -v '^0.0.0.0 ' | grep -v '^127.0.0.1' | grep -v '^127.0.0.1 ' | grep -v '^##' | grep -v '^## ' | grep -v '^\[' | grep -v '^\【' | grep -v '# ' | grep -v '## ' | grep -v '### ' > i-tmpp.txt
 sort -n i-tmpp.txt | uniq > i-tmp.txt
 
 python rule.py i-tmp.txt
