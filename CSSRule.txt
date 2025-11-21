@@ -3387,6 +3387,7 @@ eprice.com.hk##.main-section > .text-center[style^="min-height:"]:has(> div[clas
 eprice.com.hk##div[id^="eprice-div-gpt-ad-"]
 eprice.com.hk#@#.one-ad
 eprice.com.hk,ddcar.com.tw##.popup-adv
+eprice.com.hk,eprice.com.tw##.popup-adv
 eprice.com.tw###goldlink
 eprice.com.tw###popup-ad-overlay
 eprice.com.tw##.ad-300x370
@@ -3397,7 +3398,6 @@ eprice.com.tw##.ad-728x90-g
 eprice.com.tw##.ad-970x250-g
 eprice.com.tw##.ad-970x90-g
 eprice.com.tw##.emome-ad
-eprice.com.tw##.popup-adv
 eprice.com.tw##.section-content > div[style*="text-align"]
 eprice.com.tw##div[class*="-popup"]
 epubee.com##.reader-to-vip
@@ -6115,7 +6115,7 @@ mydrivers.com##div[style="text-align: center;margin-top: 10px;"]
 mydrivers.com##div[style^="position:fixed;left:50%;bottom:200px;"]
 mydrivers.com#?#.newslist > li:has(> span:contains(广 告))
 mydrivers.com#?#div[class^="news_info"] > ul.newslist > li:has(> span:contains(广告))
-mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(好  物))
+mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(好物))
 mydrivers.com#@#.baidu, a[href^=http][target=_blank]
 mydrivers.com,wmzhe.com##a[href*=".jd.com/"]
 myexception.cn##.c_a_3
@@ -6130,6 +6130,9 @@ myqqjd.com##.cms-news-normal-box > article:has(span.merge-cat > a[href$="/activi
 myqqjd.com##.qz-box
 myqqjd.com##aside[id^="sponsor-"]
 myqqjd.com,cnprint.org,ez3c.tw,easylife.tw##.adsbygoogle
+mysteel.com###float-adv
+mysteel.com##[class*="-adv"]
+mysteel.com#$#body { background-image: none !important; }
 mytheme.cn##.ad01
 mywpku.com##.sidebar-recommended
 naifei.im##.tg_w

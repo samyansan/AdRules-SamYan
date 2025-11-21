@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2025-11-21 09:14:13
-! Total count: 128605
+! Version: 2025-11-21 14:25:16
+! Total count: 128626
 
 *$denyallow=123dua.com,domain=123dua.com,script,xmlhttprequest
 *$denyallow=biqege.com,domain=biqege.com,script,xmlhttprequest
@@ -4090,6 +4090,7 @@ eprice.com.hk##.main-section > .text-center[style^="min-height:"]:has(> div[clas
 eprice.com.hk##div[id^="eprice-div-gpt-ad-"]
 eprice.com.hk#@#.one-ad
 eprice.com.hk,ddcar.com.tw##.popup-adv
+eprice.com.hk,eprice.com.tw##.popup-adv
 eprice.com.tw###goldlink
 eprice.com.tw###popup-ad-overlay
 eprice.com.tw##.ad-300x370
@@ -4100,7 +4101,6 @@ eprice.com.tw##.ad-728x90-g
 eprice.com.tw##.ad-970x250-g
 eprice.com.tw##.ad-970x90-g
 eprice.com.tw##.emome-ad
-eprice.com.tw##.popup-adv
 eprice.com.tw##.section-content > div[style*="text-align"]
 eprice.com.tw##div[class*="-popup"]
 epubee.com##.reader-to-vip
@@ -6915,7 +6915,7 @@ mydrivers.com##div[style="text-align: center;margin-top: 10px;"]
 mydrivers.com##div[style^="position:fixed;left:50%;bottom:200px;"]
 mydrivers.com#?#.newslist > li:has(> span:contains(广 告))
 mydrivers.com#?#div[class^="news_info"] > ul.newslist > li:has(> span:contains(广告))
-mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(好  物))
+mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(好物))
 mydrivers.com#@#.baidu, a[href^=http][target=_blank]
 mydrivers.com,wmzhe.com##a[href*=".jd.com/"]
 myexception.cn##.c_a_3
@@ -6930,6 +6930,9 @@ myqqjd.com##.cms-news-normal-box > article:has(span.merge-cat > a[href$="/activi
 myqqjd.com##.qz-box
 myqqjd.com##aside[id^="sponsor-"]
 myqqjd.com,cnprint.org,ez3c.tw,easylife.tw##.adsbygoogle
+mysteel.com###float-adv
+mysteel.com##[class*="-adv"]
+mysteel.com#$#body { background-image: none !important; }
 mytheme.cn##.ad01
 mytvsuper.com#%#//scriptlet('googletagservices-gpt')
 mywpku.com##.sidebar-recommended
@@ -10961,6 +10964,7 @@ zzzyk.com###Tinfo
 ||2nvxn47owlp5gb5wtxv.cfd^
 ||2o7.net^
 ||2om93s33n.de^
+||2omfz9ygz2.com^
 ||2osq127yy.com^
 ||2p1kreiqg.de^
 ||2pc6q54ga.de^
@@ -12224,6 +12228,7 @@ zzzyk.com###Tinfo
 ||72e085c0-ad52-4fed-a8f8-7f92b28edf44.sigenv1.qq.p1.ash.opendns.com^
 ||72f46511412cb5b7153d836c6d3e0596.top^
 ||72hdgb5o.de^
+||732quilulv.com^
 ||73336zubo25326.com^
 ||7336.deeplink.mobileapptracking.com^
 ||7336.engine.mobileapptracking.com^
@@ -32066,7 +32071,9 @@ zzzyk.com###Tinfo
 ||banwyw.biz^
 ||banyunjuhe.com^
 ||banzaj.pl^
+||banzhu*.com/js/cdn.
 ||banzhu*.com/js/cdn.js$~third-party
+||banzhu*.com/js/html
 ||banzhu*.com/js/html*.js$~third-party
 ||banzhu*.net/js/cdn.js$~third-party
 ||banzhu*.net/js/html*.js$~third-party
@@ -46396,6 +46403,7 @@ zzzyk.com###Tinfo
 ||daup.map.baidu.com^
 ||dautedtwiny.shop^
 ||dauup.com^
+||dauzaebe.com^
 ||dav.kz^
 ||daveandbusters.demdex.net^
 ||daveandbusters.tt.omtrdc.net^
@@ -58728,6 +58736,7 @@ zzzyk.com###Tinfo
 ||glkbqoypclywz.space^
 ||glkomasf.com^
 ||gllive.gameloft.com^
+||glmeilgroi.com^
 ||glo-glo-oom.com^
 ||gloabaulre.xyz^
 ||gloamsenceint.com^
@@ -68051,6 +68060,7 @@ zzzyk.com###Tinfo
 ||jfsdiwmnbsk009.top^
 ||jfverzoeowotc.store^
 ||jfwcflhysjjiq.space^
+||jfxefv.icu^
 ||jfyb6.com^
 ||jfyjowocrokkt.online^
 ||jfzucsihbphzt.store^
@@ -70732,6 +70742,7 @@ zzzyk.com###Tinfo
 ||kqejazglxkwta.space^
 ||kqgmea.icu^
 ||kqgn.cn^
+||kqgx3eyz7.com^
 ||kqhi97lf.de^
 ||kqjctnfolquejs.com^
 ||kqmja.michaeltoddbeauty.com^
@@ -77696,6 +77707,7 @@ zzzyk.com###Tinfo
 ||membership.mortonarb.org^
 ||membrana-cdn.media^
 ||membrana.media^
+||membrane68.com^
 ||membro.at^
 ||memcyco.com^
 ||meme104.homeip.net^
@@ -78377,6 +78389,8 @@ zzzyk.com###Tinfo
 ||mfp.deliver.ifeng.com^
 ||mfqdo.jpcycles.com^
 ||mfrwyailfrrxm.website^
+||mfs.mysteelcdn.com/group1/M00/16/70/rBL632fjcHKAUKSeAAE6mtwnW2Y118.jpg
+||mfs.mysteelcdn.com/group1/M00/1B/12/rBL632frP-KAHreoAAGnyljyVAg027.jpg
 ||mfsplmxtokipx.online^
 ||mfwbsveljxjsq.space^
 ||mfwlis.xyz^
@@ -82021,6 +82035,7 @@ zzzyk.com###Tinfo
 ||mystat.hu^
 ||mystat.pl^
 ||mystats.nl^
+||mysteel.com/ads/
 ||mysteelcdn.com/advert/
 ||mysteelcdn.com/common/*/js/img_ad.
 ||mysteelcdn.com/common/mysteel/home/v2/js/index_image.
@@ -123099,6 +123114,7 @@ zzzyk.com###Tinfo
 ||wugjktzljgefy.website^
 ||wugoji.xyz^
 ||wugroansaghadry.com^
+||wugrorud.com^
 ||wuhaolin.cn/c/ls
 ||wujinzy.com/images/ok.gif
 ||wujiupic.com^
@@ -125058,6 +125074,8 @@ zzzyk.com###Tinfo
 ||xjwzbo.com^
 ||xjx11191ts.com^
 ||xjx11200ts.com^
+||xjx11201ts.com^
+||xjx11210ts.com^
 ||xjzyhp.xyz^
 ||xk.execpukka.com^
 ||xkanzuqreeloy.store^
@@ -125767,6 +125785,7 @@ zzzyk.com###Tinfo
 ||xxts11190zs.com^
 ||xxts11191zs.com^
 ||xxts11200zs.com^
+||xxts11201zs.com^
 ||xxwpowep.com^
 ||xxx-babes.org^
 ||xxx.sdtraff.com^
@@ -126243,6 +126262,7 @@ zzzyk.com###Tinfo
 ||ygcnixxwyorjmip.com^
 ||ygersioepxuxo.online^
 ||ygfqixub.com^
+||ygg1e0gmc.com^
 ||yghalathio.com^
 ||ygimeqcpvbtci.rocks^
 ||ygkswbscgvukj.space^
@@ -128427,6 +128447,7 @@ zzzyk.com###Tinfo
 ||zworker11.me^
 ||zws.avvo.com^
 ||zwtreqtyusacn.space^
+||zwvq.cn^
 ||zwxwpnkdaswfn.site^
 ||zx.da.mgtv.com^
 ||zx.docin.com^
