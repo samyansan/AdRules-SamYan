@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2025-11-22 09:11:48
-! Total count: 128738
+! Version: 2025-11-22 14:21:33
+! Total count: 128751
 
 *$denyallow=123dua.com,domain=123dua.com,script,xmlhttprequest
 *$denyallow=biqege.com,domain=biqege.com,script,xmlhttprequest
@@ -9272,6 +9272,8 @@ xcar.com.cn###eMeng
 xcar.com.cn###show_car
 xcar.com.cn##div[class^="adset"]
 xchina.co##.block-overlay
+xchina.co##.content-box > .list > .item:not(.photo-image):has(> a[clickmode="cpt"])
+xchina.co##.content-box > .list > .item:not(.photo-image):has(> div > ins[data-zoneid])
 xchina.co##.outer-banner
 xchina.co##.photos > div.item:has(> div > a[target="_blank"])
 xchina.co##.photos > div.item:has(> div[class^="exoclick_"])
@@ -9279,7 +9281,8 @@ xchina.co##.push-top
 xchina.co##div:has(> div:only-child > .media img[src*="/ad/"])
 xchina.co##div[class^="item photo zone"]
 xchina.co##div[style*="width: 300px;"][style*="height: 455px;"]
-xchina.co#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'check')
+xchina.co#%#//scriptlet('abort-current-inline-script', '$', 'adModal')
+xchina.co#%#//scriptlet('prevent-addEventListener', '/DOMContentLoaded|load|complete/', '/check|detected/')
 xclient.info###pop_business
 xdf.cn##.footadv
 xdf.cn##.middleadv
@@ -11318,6 +11321,7 @@ zzzyk.com###Tinfo
 ||3j1fiw14n9.com^
 ||3j8c56p9.de^
 ||3jia5.com^$third-party
+||3k2frl8r79.com^
 ||3k8.com/d/js/m/thea
 ||3kfvgobkw.com^
 ||3khbi6czbrbqqwmi.cfd^
@@ -58409,6 +58413,7 @@ zzzyk.com###Tinfo
 ||ghostsapp.com^
 ||ghostsgloams.cfd^
 ||ghostsinstance.com^
+||ghovvadv.com^
 ||ghozokodq.com^
 ||ghpdixnhnrxt.com^
 ||ghrs.cn^
@@ -60957,6 +60962,7 @@ zzzyk.com###Tinfo
 ||h419.com^
 ||h45pmx1.cn^
 ||h4b0srs.cn^
+||h4htfgrei0.com^
 ||h5-ad-intl.kwai.com^
 ||h5.analytics.126.net^
 ||h5.dzgsdswh5.xyz^
@@ -67624,6 +67630,7 @@ zzzyk.com###Tinfo
 ||j3lbpcd9.r.us-east-1.awstrack.me^
 ||j423.oneidadispatch.com^
 ||j4mxrs21gh.com^
+||j694fx3bp.com^
 ||j6q.net^
 ||j6zh4g0.cn^
 ||j7ifivzy.icu^
@@ -88484,6 +88491,7 @@ zzzyk.com###Tinfo
 ||pectationseleau.org^
 ||pectx.biz^
 ||pecukirom.com^
+||peculiar93.top^
 ||pedangaishons.com^
 ||pedetesgoes.click^
 ||pedidosimultaneo.blogspot.com^
@@ -89129,6 +89137,7 @@ zzzyk.com###Tinfo
 ||phunware.com^
 ||phuruxoods.com^
 ||phuustikd.com^
+||phwv.cn^
 ||phx9cqla2.com^
 ||phxdrf.icu^
 ||phxkohxxcjcoz.store^
@@ -94008,6 +94017,7 @@ zzzyk.com###Tinfo
 ||qrrro.com^
 ||qrrzkvqbcmqee.online^
 ||qrsncgmcjerjx.site^
+||qrtibl.cn^
 ||qrto.org^
 ||qruatazgwctro.fun^
 ||qrusrgtonipih.store^
@@ -98041,6 +98051,7 @@ zzzyk.com###Tinfo
 ||rywnvzd.cn^
 ||ryzeo.com^
 ||rz261.cn^$third-party
+||rz2xtcvuy.com^
 ||rz3cb7p.ebzqyow.cn^
 ||rz44nj49ltfc22.cfd^
 ||rza.pmu.fr^
@@ -125182,6 +125193,8 @@ zzzyk.com###Tinfo
 ||xjx11200ts.com^
 ||xjx11201ts.com^
 ||xjx11210ts.com^
+||xjx11211ts.com^
+||xjx11220ts.com^
 ||xjzyhp.xyz^
 ||xk.execpukka.com^
 ||xkanzuqreeloy.store^
