@@ -2020,7 +2020,7 @@ bilibili.com##.bili-dyn-ads
 bilibili.com##.bili-feed-card:has(> div.bili-video-card[style*="display: none !important;"])
 bilibili.com##.bili-video-card.is-rcmd:has(> div.bili-video-card__wrap .bili-video-card__stats--icon > path[d*="M16.9122 1.50323C17.4366 1.48358 17.99745 1.54938 18.4701 1.8207C18.9423 2.09168 19.28085"])
 bilibili.com##.bili-video-card__wrap > a[href^="http"]:not([href*=".bilibili.com/"])
-bilibili.com##.container > .bili-feed-card:has(> div.bili-video-card  div.bili-video-card__info--no-interest + h3 > a[target="_blank"]:not([href^="https://www.bilibili.com/"]))
+bilibili.com##.container > .bili-feed-card:has(> div.bili-video-card div.bili-video-card__info--no-interest + h3 > a[target="_blank"]:not([href^="https://www.bilibili.com/"]))
 bilibili.com##.container > div.bili-video-card.is-rcmd:not(:has(> *))
 bilibili.com##.desktop-download-tip
 bilibili.com##.eva-banner
@@ -2790,6 +2790,7 @@ crsky.com##.banner-leader
 crsky.com##.ml10.Gs_d
 crsky.com##a[href^="http://count."][href$=".exe"]
 crx4.com,galacg.me,moneyweekly.com.tw###carousel-example-generic
+crxs.me##.push-top
 cs.com.cn##.js-ad1
 cs.com.cn,pjtime.com##.ad_txt
 cs.com.cn,qinbing.cn,sonimei.cn###leftDiv
@@ -3548,7 +3549,7 @@ f2dsex1.com##div.link
 faayoo.com###footer_fd
 faayoo.com##.qr_code
 fabconvert.com#@#.ad-banner-top
-fabconvert.com,knews.com.tw,1905.com,news.ltn.com.tw,commonhealth.com.tw,health.tvbs.com.tw,idreamx.com,xchina.co,manhuafen.com,world68.com##.ad
+fabconvert.com,knews.com.tw,1905.com,news.ltn.com.tw,commonhealth.com.tw,health.tvbs.com.tw,idreamx.com,xchina.*,manhuafen.com,world68.com##.ad
 facebook.com#@#script:not([src]) + style + div[id]:not([class]):not([style])
 familydoctor.com.cn##.adExtra
 familydoctor.com.cn##.global-top-links-wrap
@@ -4340,9 +4341,11 @@ hk01.com##.article-grid__desktop-rhs-section > .items-center:has(> div[class^="s
 hk01.com##.md\:min-h-\[90px\]
 hk01.com##.min-h-\[250px\].mb-3
 hk01.com##article > .items-center:has(.lazyload-wrapper > .js-ad-slot)
+hk01.com##div[class*="placeholder"]:has(> .lazyload-wrapper > .js-ad-slot)
 hk01.com##div[class^="Box-v"] > .enterviewport__wrapper:has(> div[data-id="lazyload-placeholder"]:only-child)
 hk01.com##div[class^="lg\:min-h-[250px] hidden lg:flex lg:items-center"]
 hk01.com##div[data-id="lazyload-placeholder"]
+hk01.com#$#div[class^="placeholder-top-"] { min-height: 0 !important; }
 hkcards.com###ad-slot-01
 hkcards.com###ad-slot[style="min-width: 300px; min-height: 300px;"]
 hkcards.com##.row > .col-12 > #ad-slot
@@ -6321,6 +6324,7 @@ news.baidu.com#?#.index-list-item:-abp-has(.tip-time:-abp-contains(广告))
 news.baidu.com#?#.index-list-item:has(.tip-time:contains(广告))
 news.china.com.cn##.Wrapper > div[style]
 news.cn2che.com##.banner01
+news.cnyes.com##.a133dm9s
 news.cnyes.com##.content-main > div:empty
 news.cnyes.com##.content-main > div:has(> div[id^="div-gpt-"])
 news.cnyes.com##.content-main > div[class]:has(div[id^="div-gpt-ad-"])
@@ -8544,15 +8548,6 @@ xcar.com.cn###eMeng
 xcar.com.cn###show_car
 xcar.com.cn##div[class^="adset"]
 xchina.co##.block-overlay
-xchina.co##.content-box > .list > .item:not(.photo-image):has(> a[clickmode="cpt"])
-xchina.co##.content-box > .list > .item:not(.photo-image):has(> div > ins[data-zoneid])
-xchina.co##.outer-banner
-xchina.co##.photos > div.item:has(> div > a[target="_blank"])
-xchina.co##.photos > div.item:has(> div[class^="exoclick_"])
-xchina.co##.push-top
-xchina.co##div:has(> div:only-child > .media img[src*="/ad/"])
-xchina.co##div[class^="item photo zone"]
-xchina.co##div[style*="width: 300px;"][style*="height: 455px;"]
 xclient.info###pop_business
 xdf.cn##.footadv
 xdf.cn##.middleadv
