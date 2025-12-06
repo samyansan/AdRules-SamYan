@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2025-12-06 09:13:42
-! Total count: 129944
+! Version: 2025-12-06 14:22:24
+! Total count: 129960
 
 *$denyallow=123dua.com,domain=123dua.com,script,xmlhttprequest
 *$denyallow=biqege.com,domain=biqege.com,script,xmlhttprequest
@@ -1350,6 +1350,7 @@
 6fzd.com,fzd3.com###comiis_app_block_74
 6fzd.com,fzd3.com###comiis_app_block_84
 6fzd.com,fzd3.com###tuiguang
+6park.com##.main_news_list > a[href^="http"]:not([href*="6park.com"])
 6park.com##a[href*=".php?key="]
 6park.com##a[href*="bpropolis."]
 6park.com##a[href*="geekbuying."]
@@ -1361,6 +1362,7 @@
 6park.com##table[width][align="center"] > tbody > tr > td[bgcolor="#FFFFEE"]:has(> div.adv-6park)
 6park.com##table[width][align="center"] > tbody > tr > td[bgcolor="#FFFFEE"]:has(> div[id*="ScriptRoot"])
 6park.com##table[width][align="center"] > tbody > tr > td[bgcolor="#FFFFEE"]:has(> table[width="100%"] > tbody > tr > td > div.adv-6park)
+6park.com##td[style="line-height:30px;text-align:center;color:red;background-color:white;"]
 6park.com,club.6parkbbs.com##.adv-6park
 6parknews.com##.ad-view
 6parknews.com##.other_list_ad
@@ -3483,6 +3485,7 @@ crsky.com##.banner-leader
 crsky.com##.ml10.Gs_d
 crsky.com##a[href^="http://count."][href$=".exe"]
 crx4.com,galacg.me,moneyweekly.com.tw###carousel-example-generic
+crxs.me##.content-box:has(> div[class^="static-container-"] > a[href][target="_blank"])
 crxs.me##.push-top
 crxs.me#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'visitUrl')
 cs.com.cn##.js-ad1
@@ -4554,6 +4557,7 @@ gamefy.cn,sitv.com.cn##div[style="float:left; width:220px; padding-top:15px;"]
 gameinns.com##a[url^="/api/ads?"]
 gamemei.com###ft_right_bottom
 gamer.com.tw###BH-bigbanner
+gamer.com.tw###billboardAd
 gamer.com.tw###flyRightBox
 gamer.com.tw###flySalve
 gamer.com.tw##.a-mercy-d:not([href*=".gamer."])
@@ -5085,6 +5089,7 @@ hk01.com#$#div[class^="placeholder-top-"] { min-height: 0 !important; }
 hkcards.com###ad-slot-01
 hkcards.com###ad-slot[style="min-width: 300px; min-height: 300px;"]
 hkcards.com##.row > .col-12 > #ad-slot
+hkcards.com#?#div[style*="min-height"]:-abp-has(.my-1)
 hkcards.com#@##ad-slot
 hkepc.com###headBanner
 hkepc.com##.headBanner
@@ -5181,8 +5186,6 @@ huanqiu.com##.right-box > article-other-template
 huanqiu.com#%#//scriptlet('set-constant', 'AD_SURVEY_Add_AdPos', 'noopFunc')
 huanqiu.com#%#//scriptlet('set-constant', 'AD_SURVEY_Add_AdPos_Simple', 'noopFunc')
 huaren.live##.action-ad
-huaren.live#%#//scriptlet('set-constant', 'ConFig.config.ads', 'emptyObj')
-huaren.live#%#//scriptlet('trusted-replace-node-text', 'script', 'ConFig', 'let ConFig', 'var ConFig')
 huaren.tv##.live-client_left
 huaren.tv##.live-client_right
 huaren.tv##a[style*="height:"]
@@ -5191,6 +5194,8 @@ huarenjie.com###LeftAd2
 huarenjie.com###RightAd2
 huarenjie.com###cftoutiao
 huarenjie.net##div[style*="top: 50px;"]
+huavod.com,huaren.live#%#//scriptlet('set-constant', 'ConFig.config.ads', 'emptyObj')
+huavod.com,huaren.live#%#//scriptlet('trusted-replace-node-text', 'script', 'ConFig', 'let ConFig', 'var ConFig')
 huawei.com#@#.ad-section
 huawei.com#@#.ad-wrap:not(#google_ads_iframe_checktag)
 hubei.gov.cn#@##ad-side
@@ -36597,6 +36602,7 @@ zzzyk.com###Tinfo
 ||c1d8i3p6.com^
 ||c1exchange.com^
 ||c1km4.com/mobile/app.js
+||c1qm3mg41.com^
 ||c2.campartner.com^
 ||c2.gdt.qq.com^
 ||c2.l.qq.com^
@@ -37107,6 +37113,7 @@ zzzyk.com###Tinfo
 ||capablecup.com^
 ||capabletonight.com^
 ||capaciousdrewreligion.com^
+||capacity88.top^
 ||capacitygrid.com^
 ||cape-townairport.co.za^
 ||capedhurlpit.cyou^
@@ -50156,6 +50163,7 @@ zzzyk.com###Tinfo
 ||dytt8.net/js3/
 ||dytt8.net/jsd
 ||dytt8899.com/js/tj.js
+||dytuj6zs26.com^
 ||dyupbydns.com^
 ||dyv1bugovvq1g.cloudfront.net^
 ||dywolfer.de^
@@ -87729,6 +87737,7 @@ zzzyk.com###Tinfo
 ||ownpage.fr^
 ||ownthmorningb.org^
 ||owonchghcurdw.website^
+||owqbirykia.com^
 ||owqbvomroabvp.online^
 ||owrkwilxbw.com^
 ||owslnuzidiugg.store^
@@ -89520,6 +89529,7 @@ zzzyk.com###Tinfo
 ||pghbl1.pubgalaxy.com^
 ||pghglj.icu^
 ||pghub.io^
+||pgiguiqult.com^
 ||pglstatp-toutiao.com^
 ||pgnasmcdn.click^
 ||pgnnqnpaczy.com^
@@ -94118,6 +94128,7 @@ zzzyk.com###Tinfo
 ||qctcu.com^
 ||qctltbddoojgy.website^
 ||qctop.com^
+||qcuncolm.com^
 ||qcuwpicccoscr.online^
 ||qcv5.blogtruyen.vn^
 ||qcvf.ifeng.com^
@@ -100018,6 +100029,7 @@ zzzyk.com###Tinfo
 ||schedfi.com^
 ||schedule-media.immomo.com^
 ||schedule.aimtell.com^
+||schedule77.top^
 ||scheduleginnarcotic.com^
 ||schedulegoeshydrogen.com^
 ||scheme.adywind.com^
@@ -120328,6 +120340,8 @@ zzzyk.com###Tinfo
 ||vid12031hl.com^
 ||vid12040hl.com^
 ||vid12050hl.com^
+||vid12051hl.com^
+||vid12060hl.com^
 ||vidads.gr^
 ||vidalak.com^
 ||vidanalytics.taboola.com^
@@ -128455,6 +128469,8 @@ zzzyk.com###Tinfo
 ||yyapp-mlog.bigda.com^
 ||yycgyufotxqxy.space^
 ||yydsmr.com^
+||yydsxs.com/js/cnzzpiao.
+||yydsxs.com/js/guding.
 ||yyefao.com^
 ||yyetss.com/static/modal.js
 ||yyghnnvhvvbaw.site^

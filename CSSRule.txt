@@ -1105,6 +1105,7 @@
 6fzd.com,fzd3.com###comiis_app_block_74
 6fzd.com,fzd3.com###comiis_app_block_84
 6fzd.com,fzd3.com###tuiguang
+6park.com##.main_news_list > a[href^="http"]:not([href*="6park.com"])
 6park.com##a[href*=".php?key="]
 6park.com##a[href*="bpropolis."]
 6park.com##a[href*="geekbuying."]
@@ -1116,6 +1117,7 @@
 6park.com##table[width][align="center"] > tbody > tr > td[bgcolor="#FFFFEE"]:has(> div.adv-6park)
 6park.com##table[width][align="center"] > tbody > tr > td[bgcolor="#FFFFEE"]:has(> div[id*="ScriptRoot"])
 6park.com##table[width][align="center"] > tbody > tr > td[bgcolor="#FFFFEE"]:has(> table[width="100%"] > tbody > tr > td > div.adv-6park)
+6park.com##td[style="line-height:30px;text-align:center;color:red;background-color:white;"]
 6park.com,club.6parkbbs.com##.adv-6park
 6parknews.com##.ad-view
 6parknews.com##.other_list_ad
@@ -2790,6 +2792,7 @@ crsky.com##.banner-leader
 crsky.com##.ml10.Gs_d
 crsky.com##a[href^="http://count."][href$=".exe"]
 crx4.com,galacg.me,moneyweekly.com.tw###carousel-example-generic
+crxs.me##.content-box:has(> div[class^="static-container-"] > a[href][target="_blank"])
 crxs.me##.push-top
 cs.com.cn##.js-ad1
 cs.com.cn,pjtime.com##.ad_txt
@@ -3836,6 +3839,7 @@ gamefy.cn,sitv.com.cn##div[style="float:left; width:220px; padding-top:15px;"]
 gameinns.com##a[url^="/api/ads?"]
 gamemei.com###ft_right_bottom
 gamer.com.tw###BH-bigbanner
+gamer.com.tw###billboardAd
 gamer.com.tw###flyRightBox
 gamer.com.tw###flySalve
 gamer.com.tw##.a-mercy-d:not([href*=".gamer."])
@@ -4349,6 +4353,7 @@ hk01.com#$#div[class^="placeholder-top-"] { min-height: 0 !important; }
 hkcards.com###ad-slot-01
 hkcards.com###ad-slot[style="min-width: 300px; min-height: 300px;"]
 hkcards.com##.row > .col-12 > #ad-slot
+hkcards.com#?#div[style*="min-height"]:-abp-has(.my-1)
 hkcards.com#@##ad-slot
 hkepc.com###headBanner
 hkepc.com##.headBanner
