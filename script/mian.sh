@@ -3,7 +3,6 @@
 # 下载规则
 curl -o i-1.txt https://raw.githubusercontent.com/samyansan/AdGuardRules/main/adguard.txt
 curl -o i-2.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/Rules/AllowLite.txt
-curl -o i-3.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/refs/heads/main/Rules/xiaomi.txt
 
 # 合并规则并去除重复项
 cat i*.txt > i-mergd.txt
