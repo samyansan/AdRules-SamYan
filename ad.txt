@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2025-12-21 09:24:28
-! Total count: 29105
+! Version: 2025-12-21 14:24:33
+! Total count: 29106
 
 *$script,third-party,xmlhttprequest,domain=cnbtspread.xyz
 *-ad.sm.cn*
@@ -5138,6 +5138,8 @@ ipcfun.com###sidebar > ul > div[style]
 ipcfun.com###sidebar > ul > li[style]
 ipcfun.com##div[style="height:280px;width:336px;margin:-10px auto 20px auto"]
 ipip.net##.row[style="width:1000px;margin:0px auto 25px auto;"]
+iplark.com##body > #capture-area ~ div[class]:empty
+iplark.com##div.search-container > [style='display: block;']
 iplaysoft.com###link1111
 iplaysoft.com###sidebar > ul > li[class^="widget"]:nth-child(-n+3)
 iplaysoft.com##.crumb_ad
@@ -25014,7 +25016,6 @@ zzzyk.com###Tinfo
 ||t5wm.cc^
 ||t7cp4fldl.com^
 ||t7x22m7c.com^
-||t7z.cupid.iqiyi.com^
 ||t7z.cupid.ptqy.gitv.tv^
 ||t984kfjt37kjdh.wdach.com^$domain=pianba.net
 ||ta.trs.cn^$third-party
