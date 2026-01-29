@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-01-29 14:40:46
-! Total count: 29121
+! Version: 2026-01-29 20:49:27
+! Total count: 29122
 
 *$script,third-party,xmlhttprequest,domain=cnbtspread.xyz
 *-ad.sm.cn*
@@ -2359,6 +2359,7 @@ baidu.com##DIV[data-module='rec:undefined-undefined']
 baidu.com##DIV[data-module='swan-ad-fc-feed'] DIV[sid][posid][prank]
 baidu.com##[class*='index_godCard'][class*='index_noGuaranteeTag'][class*='index_adTextPosition'],[class^='index_brandEntry__'],[data-show*='swan-ad-fc-swiper-banner']
 baidu.com##[class^='ball-wrapper']
+baidu.com##[data-log-view*='swan-ad-fc-ad-item']
 baidu.com##[data-tpl='adv_wenku_fc']
 baidu.com##[data-video-player='true']
 baidu.com##a.ball-wrapper__3BTBO.c-blocka
