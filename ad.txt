@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-02-18 09:53:30
-! Total count: 29123
+! Version: 2026-02-18 14:56:24
+! Total count: 29132
 
 *$script,third-party,xmlhttprequest,domain=cnbtspread.xyz
 *-ad.sm.cn*
@@ -29,8 +29,15 @@
 .cn:*/sc/*?n=$third-party
 .cn:*/vh5$third-party
 .cn:8005/cc/*?is_not=
+.com/00*00*00*_*c*p*v*.js$~third-party
+.com/11*11*11*_*c*p*v*.js$~third-party
 .com/17*?rid=17$third-party
+.com/22*22*22*_*c*p*v*.js$~third-party
+.com/33*33*33*_*c*p*v*.js$~third-party
+.com/44*44*44*_*c*p*v*.js$~third-party
+.com/55*55*55*_*c*p*v*.js$~third-party
 .com/5y*/31*.$~third-party
+.com/66*66*66*_*c*p*v*.js$~third-party
 .com/adv1/?q=
 .com/c.php?s=*=*=$third-party
 .com/candy*.js$third-party
@@ -114,6 +121,8 @@
 .xyz:*/js/b.php?v=*
 /*/*.add.*.add
 /*_*_aubi.js$third-party
+/*_09c09p09v.js
+/*_10c10p10v.js
 /360mse/360mse_*.apk?
 /Distribute/Distribute_g/butterfly/*
 /Public/wap/zymk/js/guanggao.js
