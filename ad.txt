@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-03-04 14:40:38
-! Total count: 29130
+! Version: 2026-03-04 20:47:39
+! Total count: 29132
 
 *$script,third-party,xmlhttprequest,domain=cnbtspread.xyz
 *-ad.sm.cn*
@@ -2573,7 +2573,9 @@ bing.com,cn.bing.net##.b_algo:has(.b_ads1line)
 bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
 bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="=AdsPlus"])
 bing.com,cn.bing.net##.b_algo:has([tabindex="0"][role="link"])
+bing.com,cn.bing.net##.b_ans
 bing.com,cn.bing.net##.b_ans:has([class^="xm_"][class*="_ansCont"])
+bing.com,cn.bing.net##.b_bza_pole
 bing.com,cn.bing.net##.pa_sb
 bing.com,cn.bing.net##a[h$=",Ads"]
 bing.com,cn.bing.net##a[href*="/aclick?ld="]
@@ -3045,7 +3047,6 @@ cmsky.com##.textwidget a[href^="http"]:not([href*="cmsky"])
 cn-healthcare.com##.fh_ad_wrap
 cn-healthcare.com##.fh_advent_wrap
 cn.bing.com#?##b_results > li:-abp-has(.b_adProvider)
-cn.bing.com,cn.bing.net##.b_bza_pole
 cna.com.tw##.ad_336_2
 cna.com.tw##.ad_970
 cna.com.tw#$#.fb_fanpage_inpage > .other_news_box_2 { padding: 0 0px!important; margin: 26px 0!important; }
@@ -13344,6 +13345,7 @@ zzzyk.com###Tinfo
 ||byytogm.cn^
 ||byznb.xyz^
 ||byzt8.top^
+||bz*.com/js/cdn.
 ||bzdiao.com/wp-content/uploads/bhOCwJfYleFC/
 ||bzdntl.xyz^
 ||bzhanyy.com^*.gif
