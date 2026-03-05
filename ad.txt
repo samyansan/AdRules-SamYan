@@ -3,7 +3,7 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-03-05 14:44:52
+! Version: 2026-03-05 20:51:59
 ! Total count: 29132
 
 *$script,third-party,xmlhttprequest,domain=cnbtspread.xyz
@@ -2567,13 +2567,13 @@ bing.com###bingBrand
 bing.com##.OpInNwWndw
 bing.com#?#li[class="b_algo"]:-abp-has(.b_attribution[data-partnertag]+p[class])
 bing.com,cn.bing.net###bnp_rich_div
+bing.com,cn.bing.net###uaanswer
 bing.com,cn.bing.net##.ad_sc
 bing.com,cn.bing.net##.adsMvC
 bing.com,cn.bing.net##.b_algo:has(.b_ads1line)
 bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
 bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="=AdsPlus"])
 bing.com,cn.bing.net##.b_algo:has([tabindex="0"][role="link"])
-bing.com,cn.bing.net##.b_ans
 bing.com,cn.bing.net##.b_ans:has([class^="xm_"][class*="_ansCont"])
 bing.com,cn.bing.net##.b_bza_pole
 bing.com,cn.bing.net##.pa_sb
