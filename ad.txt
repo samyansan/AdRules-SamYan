@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-04-04 14:55:33
-! Total count: 18876
+! Version: 2026-04-04 20:46:01
+! Total count: 18878
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -627,6 +627,7 @@ eastday.com##DIV.lfyinliu
 eastmoney.com###dc-result-tc
 eastmoney.com##.dc-layer-tc
 facebook.com#@#script:not([src]) + style + div[id]:not([class]):not([style])
+familydoctor.com.cn##IFRAME[width='400']
 fanyi.baidu.com##H1,H3,.intro-nav.clearfix,.intro-copyrigh,A.app-bar,.intro-copyright
 greasyfork.org#@#body .ad
 guancha.cn##.g_header44
@@ -14997,6 +14998,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||snrtp-cdn.marketo.com^
 ||snrtp1.marketo.com^
 ||snssdk1233.onelink.me^
+||sntcbhv.com^
 ||so.clzgd.com^
 ||so.rlcdn.com^
 ||so.xni.ink^
