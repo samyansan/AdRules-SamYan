@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-04-14 15:24:35
-! Total count: 18899
+! Version: 2026-04-14 21:17:11
+! Total count: 18908
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -49,8 +49,10 @@
 .com/xz/*?token8=
 .com:*.js?v=17*$third-party
 .com:*/api/v4/*?*=$third-party
+.com:*/bug?*=$third-party
 .com:*/cc/*?is_not=*&target=*
 .com:*/d/*?c=*$third-party
+.com:*/d/*?t=
 .com:*/sc/*?n=$third-party
 .com:10446/*/get*.html
 .com:7891/stats$third-party
@@ -208,6 +210,8 @@
 /theme/damn_b.js$~third-party
 /tj/tongji.js?v=$third-party
 /tjjs.js
+/tong*ji.js
+/tongji/ad.js
 /v0/amp-addthis-*.js
 /v2/stats/1*/1*$third-party
 /v2/stats/9*$third-party
@@ -5833,6 +5837,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||creative.mathads.com^
 ||creative.metalyzer.com^
 ||creative.mng-ads.com^
+||creative.myavlive.com^
 ||creative.sonobi.com^
 ||creative1cdn.mobfox.com^
 ||creativecdn.com^
@@ -6790,6 +6795,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||edge.yieldify.com^
 ||edgecast-vod.yahoo.net^
 ||edgecast-vod.yimg.com^
+||edgelib.net^
 ||edgemiddleeast.com^
 ||editorxformation.fr^
 ||ednchina.com^
@@ -8026,6 +8032,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||go.sohu.com^
 ||go.sonobi.com^
 ||go.vrvm.com^
+||go.xlivrdr.com^
 ||go.zhiwan.club^
 ||go1.aniview.com^
 ||go1.viewdeos.com^
@@ -11393,6 +11400,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||misapopait.com^
 ||misc.wcd.qq.com^
 ||miscelaneasmias.blogspot.com^
+||missav.*/pop?url=
 ||missav.com/pop?url=
 ||mission-pub.smart-tv.cn^
 ||misterdocafe.blogspot.com^
@@ -18901,6 +18909,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||zzqrr.com^
 ||zzrjdp.xyz^
 ||zztxr.cn^
+||zzuccikqt.com^
 ||zzxedr.xyz^
 ||zzxlhwyp.com^
 ||zzycj.com^
