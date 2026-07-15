@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-07-15 03:12:19
-! Total count: 18938
+! Version: 2026-07-15 10:01:01
+! Total count: 18940
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -601,6 +601,8 @@ bing.com,cn.bing.net##a[h$=",Ads"]
 bing.com,cn.bing.net##a[href*="/aclick?ld="]
 bing.com,cn.bing.net##li.b_ad
 bing.com,cn.bing.net##li:has(a[h$=",Ads"])
+blog.csdn.net##.passport-login-container
+blog.csdn.net##[class^='mobileContainer_']
 bohe.cn##.ml-30
 bohe.cn##.mt20
 bohe.cn##IFRAME[width='400'][height='200']
