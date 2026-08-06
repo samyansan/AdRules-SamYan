@@ -4171,7 +4171,6 @@ dreadcentral.com#$#timer-override 1 3000 noop timeout; timer-override 1 getBound
 dressupmix.ru,teensgames.ru###adblock_popup
 drive2.ru##a[href][target="_blank"] > img[src][style^="width: 100%; height: auto;"][style*="vertical-align: middle; max-width: 240px;"]
 drive2.ru##img[src^="https://avatars.mds.yandex.net/get-adfox-content/"]
-drive2.ru#$#hide-if-shadow-contains 'iframe'; hide-if-shadow-contains 'style'
 drive2.ru#?#div[class]:-abp-has(> div[id][class] > a[href] > img[src^="https://avatars.mds.yandex.net/get-adfox-content/"])
 drlink.online#$#abort-current-inline-script Math.random toString
 dropmefiles.com.ua,dropmefiles.net##.intro
@@ -4709,7 +4708,7 @@ fastadmin.net##a[href^="https://www.fastadmin.net/go/"]
 fastadmin.net##body > a[target="_blank"]
 fastconverter.net#$#abort-on-property-read afScript
 fastconverter.net#?#:xpath(//div[contains(@style,"fixed") and contains(@style,"z-index")]/ancestor-or-self::div[@style][1])
-fastpic.org,~new.fastpic.org#$#prevent-listener /click|load/ /exopop|popMagic|preventDefault|Math.floor/; prevent-listener DOMContentLoaded /0x|popMagic/; abort-on-property-read Element.prototype.attachShadow
+fastpic.org,~new.fastpic.org#$#abort-on-property-read Element.prototype.attachShadow; prevent-listener click 0x; prevent-listener click preventDefault; prevent-listener click '(e)}'; prevent-listener DOMContentLoaded 0x
 faxingw.cn##.detailadv
 faxingw.cn##.detailgc
 faxingw.cn##.indadv1
@@ -5227,8 +5226,6 @@ gamersky.com##.downLoadGame-2 + .dl_url
 gamersky.com##div[id^="adscontainer_b"]
 gamersky.com##header[class^="ymw-header20"]
 games.qq.com##.dc-kf_list
-gamesradar.com#$#override-property-read as_-1039259904 true; override-property-read as_1278692676 true; override-property-read as_1637906397 true; override-property-read as_1298958177 true
-gamesradar.com#$#prevent-element-src-loading script /\/(feed|cache|article|media)\//
 gamestorrents.com,gamestorrents.nu#$#abort-on-property-read open
 gamesubject.com###headb
 gametower.com.tw###tableAD
@@ -6483,7 +6480,6 @@ igo.cn##DIV[class^="leyuBg"]
 igo99.cn##.adBG
 igorchernomoretz.com##body > div[id^="ab"]
 igorchernomoretz.com##body > div[id^="ab"] + div[style*="cursor"]
-igromania.ru,kanobu.ru#$#json-prune results.fixed
 igroutka.ru#$#override-property-read Object.prototype.afg true
 iguarras.com,iputitas.net,ytanime.tv#$#abort-on-property-read afScript
 igxe.cn##.lion-flexd
