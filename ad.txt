@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-08-11 09:18:58
-! Total count: 29842
+! Version: 2026-08-11 14:58:41
+! Total count: 29853
 
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -3925,6 +3925,7 @@ bing.com###bingBrand
 bing.com##.OpInNwWndw
 bing.com##.b_algo:has(.ad_esltitle)
 bing.com##.b_algo:has(.b_ads1line)
+bing.com##.b_algo:has(.sb_adTA_title_link_cn)
 bing.com##.sb_form_placeholder:has(>.ad-ghost-slug)
 bing.com##li[class="b_algo"]:has(.b_attribution[data-partnertag]+p[class])
 bing.com,cn.bing.net###bnp_rich_div
@@ -3942,8 +3943,6 @@ bing.com,cn.bing.net##a[h$=",Ads"]
 bing.com,cn.bing.net##a[href*="/aclick?ld="]
 bing.com,cn.bing.net##li.b_ad
 bing.com,cn.bing.net##li:has(a[h$=",Ads"])
-bing.com,~www.bing.com##.b_algo:has(p[style="display: none !important;"])
-bing.com,~www.bing.com#?#.b_algo p:-abp-properties(display: inline-block;)
 bingdou.com.cn,hoteastday.com##.float_ad
 bingfeng.tw###adbt
 bingfeng.tw###ypaad:style(height: 3px!important;)
@@ -10357,14 +10356,19 @@ supercloudsms.com##a[href^="/redirect?"]
 superlife.ca##.sidebar-ad-zone
 supermoto8.com###myModal
 supertaste.tvbs.com.tw###ad_m_bottom
+supertaste.tvbs.com.tw###article-content > div[class^="py-"]:has(> div[id^="supertaste_"])
 supertaste.tvbs.com.tw###lightbox--ad
 supertaste.tvbs.com.tw##.ad_m_block
 supertaste.tvbs.com.tw##.ad_m_top
 supertaste.tvbs.com.tw##.article_detail > div.cotxt_title:has(> p:contains(/延伸閱讀|你可能會喜歡|大家都在看/))
 supertaste.tvbs.com.tw##.min-h-\[15\.625rem\]
+supertaste.tvbs.com.tw##.min-h-\[250px\]
 supertaste.tvbs.com.tw##.sidebar > span:contains(人氣點閱榜)
+supertaste.tvbs.com.tw##aside > div[id^="supertaste_"]
+supertaste.tvbs.com.tw##aside > section:has(> div[id^="taboola-"])
 supertaste.tvbs.com.tw##div[class]:has(> div[id^="supertaste_"])
 supertaste.tvbs.com.tw##div[id^="taboola-"]
+supertaste.tvbs.com.tw##footer > section:has(> div[id^="taboola-"])
 supertaste.tvbs.com.tw#?#.article_detail > div.cotxt_title:has(> p:contains(/延伸閱讀|你可能會喜歡|大家都在看/))
 supertaste.tvbs.com.tw#?#.sidebar > span:contains(人氣點閱榜)
 supportdap.online##.td-post-content > a[rel="nofollow"] > img
@@ -13079,6 +13083,7 @@ zzzyk.com###Tinfo
 ||54ads.com^
 ||54askjdklm.xyz^
 ||54dbg.xyz^
+||54igqsjd9.com^
 ||54kefu.net^$third-party
 ||54new.com*/da/
 ||55555555555.xyz^
@@ -13715,6 +13720,7 @@ zzzyk.com###Tinfo
 ||9553.com/otherhtml/
 ||95590.org/v1.
 ||95k62nnvnh.com^
+||95ktftpt6.com^
 ||9613gwqee.com^
 ||962.net/show/all.js
 ||962.net/show/all_$script
@@ -17314,6 +17320,7 @@ zzzyk.com###Tinfo
 ||dhkipdsc.xyz^
 ||dhkqqe.top^
 ||dhl.135320.com^
+||dhrbpvqqoovnxm.com^
 ||dhxrop.com^
 ||di2y21.top/jian/jiansshu.js
 ||di2y21.top^
@@ -20432,6 +20439,7 @@ zzzyk.com###Tinfo
 ||imuchalo.com^
 ||in-page-push.com^
 ||in.treasuredata.com^
+||in5nx9xbd.com^
 ||incapacity75.top^
 ||inception27.com^
 ||incubation95.top^
@@ -23953,6 +23961,7 @@ zzzyk.com###Tinfo
 ||pealefe.com^
 ||pebfvv.icu^
 ||peculiar93.top^
+||ped146qez.com^
 ||pedestrian94.top^
 ||pediatrist53.com^
 ||peise.net/Skin/js/global.
@@ -25023,6 +25032,7 @@ zzzyk.com###Tinfo
 ||rms-drcn.platform.dbankcloud.cn^
 ||rmws8.com^
 ||rmzbfum.cn^
+||rn30y7u7h.com^
 ||rndhaunteran.com^
 ||rndmlk8asw.com^
 ||rnhqxh.com^
@@ -25341,6 +25351,7 @@ zzzyk.com###Tinfo
 ||sdk.markmedia.com.cn^
 ||sdk.mobads.adwangmai.com^
 ||sdk.sipujia.cn^
+||sdk.tvbs.com.tw/ad/v*/ad-sdk.min.js
 ||sdkapi.cloooud.com^
 ||sdkapp.mobile.sina.cn^
 ||sdkapp.uve.weibo.com^
