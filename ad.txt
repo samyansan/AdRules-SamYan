@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-08-20 08:57:53
-! Total count: 29975
+! Version: 2026-08-20 14:37:27
+! Total count: 29981
 
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -1612,6 +1612,7 @@ $websocket,domain=wap.yushuwu.cloud
 17173.com##.mod-tg1
 17173.com##.pic[href*="Room"]
 17173.com##.slide-list > li[style]:has(> a[href*="&ad_code="])
+17173.com##.webgame .pn-bd
 17173.com##a[href*="&ad_code="]
 17173.com##a[href^="https://gtv."]
 17173.com,am730.com.hk,cdyee.com,chinaz.com,eastmoney.com,epochtimes.com,hsw.cn,ifeng.com,lantian.tv,maoken.com,phoenixtv.com,pyccoo.cn,xineurope.com,yesky.com,zdzdm.com##.adbox
@@ -2564,6 +2565,9 @@ $websocket,domain=wap.yushuwu.cloud
 91porny.com##A.display.d-block[href^='http'],A.display.d-block[href^='http'] ~ *
 91porny.com##body.modal-open:style(overflow: auto !important;)
 91porny.com##div[data-nosnippet]:has(div.row a[href][rel^="noopener"])
+91porny.com#$##warningModal { display: none !important; }
+91porny.com#$#.modal-backdrop { display: none !important; }
+91porny.com#$#body.modal-open { overflow: auto !important; }
 91porny.com,91porn.fans,91porny.org###main > div[class][id]:has(.video-elem>a[rel="noopener nofollow"])
 91porny.com,91porn.fans,91porny.org###main > div[class][id]:has(>div>style)
 91porny.com,91porn.fans,91porny.org##.colVideoList:has(>.video-elem>.display[href^="http"])
@@ -6102,8 +6106,6 @@ h-ciyuan.com###block-132
 h-ciyuan.com##.friend-links
 h-ciyuan.com##.gridview-grid-post-title:has(> a[title^="Permanent Link to 『Ad』"])
 h-ciyuan.com##.gridview-grid-post:has(a[title*="Ad』"])
-h-ciyuan.com##.responsive-figure
-h-ciyuan.com##.theiaStickySidebar .widget_media_image
 h-ciyuan.com#?#.gridview-grid-post:-abp-has(a[title*="Ad』"])
 h-ciyuan.com#?#.gridview-grid-post:has(a[title*="Ad』"])
 h5.17k.com##body:style(overflow: visible!important;)
@@ -12038,6 +12040,7 @@ zzzyk.com###Tinfo
 ||0aokpbwui.com^
 ||0b6rvr210q.com^
 ||0bb8jytek.com^
+||0c484j022z.com^
 ||0d1oo8jp69.com^
 ||0dy3evz6x.com^
 ||0e1y8x7ft.com^
@@ -12846,6 +12849,7 @@ zzzyk.com###Tinfo
 ||3llzzztmz.com^
 ||3lxk4afsb.com^
 ||3nopvvhju5.com^
+||3o6a7kbcwo.com^
 ||3p8801.co^
 ||3pf2kwmc3g.com^
 ||3pkf5m0gd.com^
@@ -13645,8 +13649,6 @@ zzzyk.com###Tinfo
 ||8maple.ru/dzcm$redirect=1x1-transparent.gif,domain=8maple.ru
 ||8maple.ru/dzcm$redirect=1x1.gif,domain=8maple.ru,image
 ||8maple.ru/dzcm$rewrite=abp-resource:1x1-transparent-gif,domain=8maple.ru
-||8mg050.n3cdn1.secureserver.net^*.gif
-||8mg050.n3cdn1.secureserver.net^*/960
 ||8mhcc.top^
 ||8o5v23yip.com^
 ||8oghu1wcau.com^
@@ -15200,6 +15202,7 @@ zzzyk.com###Tinfo
 ||ayodanuauw.com^
 ||ayparnarzt.com^
 ||ayqwjhh4cn.com^
+||aytgk8rfu4.com^
 ||ayxz.com/images/$script
 ||ayxz.com/images/enkj_small.gif
 ||ayybzhd.cn^
@@ -24449,6 +24452,7 @@ zzzyk.com###Tinfo
 ||pwaihoe.icu^
 ||pwk73hidf2.com^
 ||pwvlthpqzonnfe.com^
+||pwzrfznosfblpi.com^
 ||px-intl.ucweb.com^
 ||px.ucweb.com^
 ||px017w0r62.com^
@@ -26778,6 +26782,7 @@ zzzyk.com###Tinfo
 ||trenhdg.com^$third-party
 ||trepanation07.top^
 ||trerqekuw.com^
+||trestle59.com^
 ||trfmxf.xyz^
 ||trgp7pddid.com^
 ||triangle23.com^
@@ -27094,6 +27099,7 @@ zzzyk.com###Tinfo
 ||udsf.cn^
 ||udtnjdhtdb.com^
 ||udwlki.icu^
+||ue.17173cdn.com/a/www/index/*/js/seed.js
 ||ue8im.com^
 ||ueaeahze.com^
 ||uebabuf.cn^
