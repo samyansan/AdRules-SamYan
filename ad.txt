@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-08-22 08:58:06
-! Total count: 29995
+! Version: 2026-08-22 14:31:27
+! Total count: 30002
 
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -314,7 +314,6 @@ $websocket,domain=wap.yushuwu.cloud
 .ru/ads/
 .shop:*/ack?s=
 .shop:*/bid?url=
-.sinaimg.cn/large/008qC0LFgy1hyp0pc9jz3g30jg01otpp.
 .site:20443/*.js^$script,3p
 .st/ads/
 .test15./
@@ -2130,6 +2129,7 @@ $websocket,domain=wap.yushuwu.cloud
 4hu.tv##.wrap > div.mod > div.row > dl:has(> dt > a[target="_blank"]:not([href^="/html/"]) > img)
 4rzxy.net,kzs1w.com,sehuatang.net,sehuatang.org##div[class^="show-text"]
 4spaces.org,fuliba.net,fuliba2023.net,fuliba2025.net,uliba.net,ypojie.com##.widget_ui_orbui
+4spaces.org,fuliba.net,fuliba2023.net,fuliba2025.net,ypojie.com##.widget_ui_orbui
 500.com###live_top_ad
 500.com##.floatLayer-container
 500.com##.pc_odds_fenxi_banner
@@ -5770,12 +5770,14 @@ ftvnews.com.tw##div[id^="div_gpt_"]
 fububu.com###wendibu
 fujieace.com##.single-goods
 fuliba.net##.article-topbanner
+fuliba.net,fuliba2023.net###focusslide
 fuliba.net,fuliba2023.net,uliba.net###focusslide
 fuliba2021.net,ypojie.com##.orbui-post-footer
 fuliba2022.net###focusslide
 fuliba2022.net##.sidebar > div.widget:has(> div.textwidget > ul[style] > li[style="margin-top:5px; "] > a[target="_blank"][rel="noopener"]:not([href$=".html"]) > img)
 fuliba2022.net##li[style="margin-top:5px; "] > a[target="_blank"][rel="noopener"]:not([href$=".html"]) > img
 fuliba2022.net#?#.sidebar > div.widget:has(> div.textwidget > ul[style] > li[style="margin-top:5px; "] > a[target="_blank"][rel="noopener"]:not([href$=".html"]) > img)
+fuliba2023.net,fuliba2025.net,fuliba.net##.article-topbanner
 fuliba2025.net##.content > a[href][target="_blank"]
 fuliba2025.net##a[href^="https://www.kezyw.com/"] > img
 fulibl.cc##.widget_text:last-child
@@ -12429,6 +12431,7 @@ zzzyk.com###Tinfo
 ||1iuh5l.com^
 ||1iuybpo.com^
 ||1iw9r46xh5.com^
+||1j397opcuw.com^
 ||1jc5t.xyz^
 ||1jlp1qbgu.com^
 ||1jzocofm4.com^
@@ -15791,6 +15794,7 @@ zzzyk.com###Tinfo
 ||bk2l4eidc.com^
 ||bkad13gfu.com^
 ||bkam33lsr.com^
+||bkatroa.icu^
 ||bkbntniwbhlntm.com^
 ||bkhblj.xyz^
 ||bkhpdrblv.com^
@@ -17987,7 +17991,6 @@ zzzyk.com###Tinfo
 ||eeyy.com/templates/js/other/yxj
 ||eeyy.com/templates/js/popback.js
 ||eeyy.com/uploadfile/img/beitou
-||eeyy.com^$3p
 ||eeyy.com^$third-party
 ||ef-dongfeng.tanx.com^
 ||efangcdn.com^
@@ -20157,6 +20160,7 @@ zzzyk.com###Tinfo
 ||i14laze0.xyz^
 ||i16vlgqdhh.com^
 ||i2fxsez4f0.com^
+||i2t1zp6t2v.com^
 ||i2wj211yk.com^
 ||i2ye9dnle.com^
 ||i322.com/ad_avshow/
@@ -21824,6 +21828,7 @@ zzzyk.com###Tinfo
 ||lcd.aivote.com^
 ||lcgcrldp6m.com^
 ||lcqbi7nsv.com^
+||lcrebbqmvlbtno.com^
 ||lctpvmaxz.icu^
 ||lcugzodfdo.com^
 ||lcxw.cn/d/js/thea
@@ -24217,6 +24222,7 @@ zzzyk.com###Tinfo
 ||pjcg3864p.com^
 ||pjcn.org^$3p
 ||pjcn.org^$third-party
+||pjcvnamenr.com^
 ||pjogndc8ixoidna.360doc.cn^
 ||pjoo8.com^
 ||pjovytymn.com^
@@ -24320,6 +24326,7 @@ zzzyk.com###Tinfo
 ||pqjprom.cn^
 ||pqomnfbg.com^
 ||pqruoaz4co.com^
+||pqurxlh7xk.com^
 ||pr-bh.ybp.yahoo.com^
 ||pr88vhg.com^
 ||praairfo.com^
@@ -25930,6 +25937,7 @@ zzzyk.com###Tinfo
 ||sp5vip.com/h.js
 ||spanking.wiki/morning-bread-
 ||spatula91.com^
+||spatula93.top^
 ||spcode.baidu.com^
 ||specialty75.com^
 ||speedtest.cn/api/v2/show
@@ -29813,7 +29821,6 @@ zzzyk.com###Tinfo
 ||zongheng.com/upload/hzds/
 ||zongheng.com/upload/recommend/game/
 ||zonyff.xyz^
-||zooj.cn^$3p
 ||zooj.cn^$third-party
 ||zoologist00.com^
 ||zoom.zshu.net^
