@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-09-03 18:35:21
-! Total count: 29856
+! Version: 2026-09-03 23:41:37
+! Total count: 29857
 
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -167,7 +167,6 @@ $websocket,domain=wap.yushuwu.cloud
 .com/js/LAD.js
 .com/js/a_d/
 .com/js/ad_
-.com/js/addp.js
 .com/js/alls_foot.js
 .com/js/alls_top.js
 .com/js/bnnr_
@@ -377,7 +376,6 @@ $websocket,domain=wap.yushuwu.cloud
 .xyz/hm.html?s=
 .xyz/hm.js?$third-party
 .xyz/jque*.js?$third-party
-.xyz/js/addp.js
 .xyz/js/ads/
 .xyz/mithril?$third-party
 .xyz/o.js
@@ -446,7 +444,6 @@ $websocket,domain=wap.yushuwu.cloud
 /AD2v1.1.js
 /AShow.aspx?AID=
 /AdverJS/*
-/Appapi/jjlist.php
 /BadwebRemindPage.aspx?param=$popup,3p
 /BrandXuanDong.js
 /CoNTent*(com?
@@ -1854,6 +1851,7 @@ $websocket,domain=wap.yushuwu.cloud
 25xz.com##div[style*="724px;"]
 263y.com##.view_abc
 27ka.cn##a[href*="/go/"]
+27ka.cn,sunnylife.tw###custom_html-5
 28hse.com###floating_left_div
 2c2.website,2p8.space,adultgao.com,caopop.com,caoporn.com,caouoo.com,caox.cc,gao1.cc,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,se88.space,t2p.space,tb001.xyz,te88.pw,vwan.xyz,xhao1.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 2chcn.com##img[width="300"]
@@ -9706,6 +9704,7 @@ rjno1.com#@#ins.adsbygoogle[data-ad-client]
 rjno1.com#@#ins.adsbygoogle[data-ad-slot]
 rjno1.com#@#main > div[class^="qnb"]
 rkanr.com##.bill
+rlyj.net.cn,taotu.org,catchv.fooish.com###ad
 romzhijia.net##.ggposition
 romzj.com##.sectionThree
 roomie.tw##div[id^="outer_Post"]
@@ -16906,6 +16905,7 @@ zzzyk.com###Tinfo
 ||cssstyle.motorcycles^
 ||csygxdym.com^
 ||csyys0731.com^
+||cszpra.com^*.gif
 ||ctags.cn/9/j2.js
 ||ctanet.cn/aqq/JS/
 ||ctc.weather.com.cn^
@@ -25678,6 +25678,7 @@ zzzyk.com###Tinfo
 ||sky.tongjiai.com^
 ||sl.al/gdrive/pic/*.gif
 ||sl.hpplay.cn^
+||sl2qzbsn5.com^
 ||slashlook.com/_resource/html/_bloggerAdsBottom.html
 ||slashlook.com/_resource/html/_bloggerAdsInline1.html
 ||slb-p2p.vcloud.ks-live.com^
