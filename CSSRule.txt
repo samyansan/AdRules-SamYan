@@ -400,9 +400,6 @@
 18av.mm-cg.com###primary_content > #Dfrom
 18av.mm-cg.com##.ut_ad_box
 18av.pro##.video-server > .inplayer
-18avinin.com##a[href^="http"]:not([href*="18avinin."]) > img[src*=".18avinin.com/wp-content/uploads/"]
-18avinin.com##a[href^="https://forms.gle/"]
-18avinin.com,27ka.cn,sunnylife.tw###custom_html-5
 18avtube.com,adultwefong.com,aicoin.cn,fsdpp.cn,ip138.com,mangahax.com,mm-cg.com,sports.qq.com,suopao.org,timecn.cn,txzqw.me,youxi.baidu.com###banner
 18avtube.com,mm-cg.com###friendLink
 18avtube.com,mm-cg.com###partner
@@ -3949,6 +3946,7 @@ forum.gamer.com.tw##.a-mercy-d
 forum.hkgolden.com##body > div[class^="jss"]:has(> div[class][style^="transform"]:only-child > div[class] > div[data-role="ad"])
 forum.hkgolden.com##div[id^="Super Banner"]
 forum.hkgolden.com#?#body > div[class^="jss"]:has(> div[class][style^="transform"]:only-child > div[class] > div[data-role="ad"])
+forums.digitalspy.com#@#body .has-ad
 forusex.com##a[href^="http://redheartnext.com"] > img
 fox-saying.com###sidebar__inner > #links-row-1 > .box.folder:has(> h4:contains(AD))
 fox-saying.com#?##sidebar__inner > #links-row-1 > .box.folder:has(> h4:contains(AD))
@@ -7322,9 +7320,7 @@ pincong.rocks##.a-a
 pincong.rocks##.aw-mod > a[target="_blank"]
 pindao.hao123.com##.cmsad_wrapper
 ping.chinaz.com##.sth > .col-red
-ping0.cc###adhright
 ping0.cc###adiright
-ping0.cc##.xceles
 ping0.cc##.xdeles
 ping0.cc##a[rel="noopener nofollow"][target="_blank"]:has(> [class^="close"])
 pinggu.org##.banner2015
@@ -8502,7 +8498,6 @@ taoguba.com.cn###wrap_footer > div[style^="width: 957px;"]
 taoguba.com.cn##.ct_app
 taohuayun.cn##img[width="150"][height="60"]
 taotu.org##a[href="/jbb"]
-taotu.org,catchv.fooish.com###ad
 taoziba.cc##.vddb2 + a
 taptap.com###bottomBanner
 tbtdg.com###adblockWarning
@@ -9923,7 +9918,6 @@ zzzyk.com###Tinfo
 ~sinaimg.cn##a > img[width="960"][src*=".sinaimg."]
 ~sinaimg.cn##a > img[width="980"][src*=".sinaimg."]
 ~sports.qq.com,~work.weixin.qq.com,qq.com##+js(json-prune, ad)
-~taobao.com,~tmall.com##A[href="https://s.click.taobao.com/cTAwFvu"]
 ~umeng.com##a[href*=".umeng.com"]:not([href="http://www.umeng.com/"]) > img
 ~upupoo.com##a[href^="http://www.upupoo.com"]
 ~weibo.com##.con_ad
