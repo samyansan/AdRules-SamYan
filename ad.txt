@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-09-06 22:50:13
-! Total count: 29873
+! Version: 2026-09-07 03:55:15
+! Total count: 29875
 
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -9250,8 +9250,9 @@ pincong.rocks##.aw-mod > a[target="_blank"]
 pincong.rocks#%#//scriptlet("prevent-setInterval", "Ad Block")
 pindao.hao123.com##.cmsad_wrapper
 ping.chinaz.com##.sth > .col-red
+ping0.cc###adjright
+ping0.cc##.xeeles
 ping0.cc##a[rel="noopener nofollow"][target="_blank"]:has(> [class^="close"])
-ping0.cc##div:has(>a>.tipbd)
 ping0.cc#?#div:-abp-has(>a>.tipbd)
 ping0.cc#?#div:has(>a>.tipbd)
 pinggu.org##.banner2015
@@ -24100,6 +24101,7 @@ zzzyk.com###Tinfo
 ||pincai.com^$third-party
 ||pincers55.com^
 ||ping0.cc/images/fx/*.gif
+||ping0.cc/images/gx/*.gif
 ||pinggu.org/api/bbsgg.
 ||pinglun11223.xyz^
 ||pingma.qq.com^
