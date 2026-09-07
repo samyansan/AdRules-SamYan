@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-09-07 10:37:01
-! Total count: 29878
+! Version: 2026-09-07 19:26:29
+! Total count: 29881
 
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -503,7 +503,6 @@ $websocket,domain=wap.yushuwu.cloud
 /^https?:\/\/kan\.znds\.com\/public\/home\/images\/[0-9]+-[0-9]+\.gif\?v=/$domain=kan.znds.com
 /^vidhub\d+\.(cc\|top)$/##.player-info div[class]:has(> div[class][style] > img[onclick^="window.open"]:first-child + span[style]:last-child)
 /^vidhub\d+\.(cc\|top)$/##div[class][style*="position:"] > img[onclick^="window.open"]
-/_next/static/chunks/00zo5_naxp4vi.
 /_xa/ads
 /_xa/ads?
 /_xa/ads_
@@ -9253,8 +9252,6 @@ ping.chinaz.com##.sth > .col-red
 ping0.cc###adjright
 ping0.cc##.xeeles
 ping0.cc##a[rel="noopener nofollow"][target="_blank"]:has(> [class^="close"])
-ping0.cc#?#div:-abp-has(>a>.tipbd)
-ping0.cc#?#div:has(>a>.tipbd)
 pinggu.org##.banner2015
 pinggu.org##.hdbanner
 pinggu.org##.index-somelinks
@@ -11450,6 +11447,7 @@ xiazaizhijia.com##.down_list
 xiebruce.top###ai_widget-2
 xiebruce.top##+js(addEventListener-defuser, , showRemoveAdBlocker)
 xiebruce.top#%#//scriptlet("prevent-addEventListener", "", "showRemoveAdBlocker")
+xifanacg.com##.head-more-a ~ .swiper-slide
 ximalaya.com##.change-logo.S_q,.packet-container._PC,.less-tips._PC *
 ximalaya.com##.dl-pc
 xineurope.com###qmenu_menu + .wp
@@ -13425,6 +13423,7 @@ zzzyk.com###Tinfo
 ||732quilulv.com^
 ||73336zubo25326.com^
 ||73vzmvg2bi.com^
+||743w3z7pv.com^
 ||75.125.41.29:8080/
 ||75b9dfiyb.com^
 ||75g4iplzyv.com^
@@ -17030,6 +17029,7 @@ zzzyk.com###Tinfo
 ||d3iih5w7xp5hdg.cloudfront.net^
 ||d3mshiiq22wqhz.cloudfront.net^
 ||d3nfknbv.icu^
+||d3q5v0ai8.com^
 ||d3s9in1sg.com^
 ||d4.sina.com.cn^$object,script
 ||d48paxyhx.com^
@@ -18773,6 +18773,7 @@ zzzyk.com###Tinfo
 ||gcjg3ry7m.com^
 ||gcqciiqk.com^
 ||gcw*.2liang.cn^
+||gd-singapore.com/data/1724/aimg/rloadbnus-ibc26.
 ||gd.189.cn*/push/$popup
 ||gd.189.cn/ad/$popup,3p
 ||gd.189.cn/ad/$popup,third-party
@@ -19607,6 +19608,7 @@ zzzyk.com###Tinfo
 ||heiye.cc/js/bf.js
 ||heiye.cc/js/hei
 ||heiye.cc/js/xuanfu.js
+||heky0uxng.com^
 ||hello-jm.com/foot.js
 ||helloavgirls.com/public/hg/
 ||hellocenter.xyz^*.mp4$redirect=noop-1s.mp4,domain=localmv1.com,media
@@ -24101,7 +24103,6 @@ zzzyk.com###Tinfo
 ||pincai.com^$3p
 ||pincai.com^$third-party
 ||pincers55.com^
-||ping0.cc/images/fx/*.gif
 ||ping0.cc/images/gx/*.gif
 ||pinggu.org/api/bbsgg.
 ||pinglun11223.xyz^
@@ -25056,6 +25057,7 @@ zzzyk.com###Tinfo
 ||rmt827wgr.com^
 ||rmws8.com^
 ||rmzbfum.cn^
+||rn221.xyz^*.gif
 ||rn30y7u7h.com^
 ||rndhaunteran.com^
 ||rndmlk8asw.com^
@@ -29602,6 +29604,7 @@ zzzyk.com###Tinfo
 ||ziajretrs.com^
 ||ziccattws.com^
 ||zifyeldq.top^
+||zig1te84n.com^
 ||zigq.cn^
 ||zihqjf.icu^
 ||zihuiguochao.top^
