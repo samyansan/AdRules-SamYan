@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-09-08 23:53:44
-! Total count: 29937
+! Version: 2026-09-09 04:37:49
+! Total count: 29939
 
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -8528,6 +8528,7 @@ mrmad.com.tw##div[id^="mrmadad-"][style]:has(> .adsbygoogle)
 mrmad.com.tw#?#div[id^="mrmad-"]:-abp-has(>.adsbygoogle)
 mrmad.com.tw#?#div[id^="mrmad-"]:has(>.adsbygoogle)
 mscbsc.com##.bao1
+mscw-guidebook.com##.plaza-ad-wrap
 mse.360.cn##a[id^="banner"]
 msn.cn##+js(json-prune, *, list.*.link.ad list.*.link.kicker)
 msn.cn##+js(json-prune, *.*, adFeedbackData adType adServedUrls)
@@ -24398,6 +24399,7 @@ zzzyk.com###Tinfo
 ||puk9mpb8dm.com^
 ||pulfinik.com^
 ||puma.com^$popup,domain=hupu.com
+||pup8b209b2.com^
 ||pupudy.com/images/wxrj.gif
 ||puqer.cn^
 ||purpose36.com^
