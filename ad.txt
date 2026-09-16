@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-09-17 00:00:52
-! Total count: 30009
+! Version: 2026-09-17 04:47:53
+! Total count: 30011
 
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -6877,6 +6877,7 @@ iis7.com###QTGG
 ijiandao.cn,ijiandao.com,jojf.cn##.index-ad
 ik123.com###aa960a
 ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
+ikanbot.com##+js(no-window-open-if, _blank)
 ikandy.fun##.stui-banner__pic[href="/statics/js/ky-a.html"]
 ikandy1.com##a[href*="/ky-a.html"]
 ikjzd.com##.article-banner-wrap
@@ -20333,6 +20334,7 @@ zzzyk.com###Tinfo
 ||ikafan.com/js/novel.js
 ||ikafan.com/upload/image/iqiyi_
 ||ikaka.com/globalad/
+||ikanbot.com/resources/common.js?v=$script
 ||ikjwmfeds.xyz^
 ||ikkdm.com/mg/show2.js
 ||iklda.cn^
