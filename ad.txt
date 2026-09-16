@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-09-16 11:05:22
-! Total count: 30015
+! Version: 2026-09-16 18:45:26
+! Total count: 30001
 
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -404,7 +404,6 @@ $websocket,domain=wap.yushuwu.cloud
 //*.emgrt.com^$3p
 //cdn.*/uni-ggs.js$3p
 //m.manhua123.net/js/com2.js
-/0mbjs/2800av*.js
 /1.js?ssfrid=$script,3p
 /121sdw/*$script,3p
 /1982/java/static/js/*headad.js
@@ -452,9 +451,7 @@ $websocket,domain=wap.yushuwu.cloud
 /EZ-YAHOO/*$domain=ezvivi.com
 /FduttjAlivqpo/*
 /Images/ak47/*$domain=hanzify.net|hanzify.org
-/MDassets/images/*.gif$~3p
 /N-960x60.
-/Php/Home/kakaxiaikakaxi.php
 /Public/wap/zymk/js/guanggao.js
 /PushSystem/attached/image/*
 /QidianAdClient.
@@ -476,8 +473,6 @@ $websocket,domain=wap.yushuwu.cloud
 /Runtime/js/play960.js
 /Runtime/js/top960.js
 /Runtime/js/top980.js
-/Static/Home/GongGao/img/juzi*.gif
-/Static/Home/GongGao/img/kaiyuan.gif
 /V.aspx?Bln=$script,3p
 /View/img/b72890.jpg
 /[a-z0-9]+\.[a-z0-9]+\//$denyallow=cidetxt.cc,domain=cidetxt.cc,subdocument,script
@@ -692,7 +687,6 @@ $websocket,domain=wap.yushuwu.cloud
 /eis/diy/ad/*
 /emwappopads/*
 /ettoday/gemini/*
-/eucjhfxh/*.js
 /exads-adblock-$image
 /exads-adblock-3.10
 /ezprice_ad.js
@@ -706,7 +700,6 @@ $websocket,domain=wap.yushuwu.cloud
 /floatad2.
 /floatcaopron.js
 /floatingcontent/*$3p
-/fn666/shouye.php
 /fourapi/api/data/money?date=$xhr
 /frm_adv.aspx
 /front/adv/getpmadvlist
@@ -886,7 +879,6 @@ $websocket,domain=wap.yushuwu.cloud
 /js/news2zz.js
 /js/pcbook.js?
 /js/pfad*.js
-/js/piaofu_bet.
 /js/pingbi.js
 /js/profit.js$~3p
 /js/showgg.js
@@ -1028,7 +1020,6 @@ $websocket,domain=wap.yushuwu.cloud
 /redbaiduct.com?s=
 /release100009ts?$script,3p
 /remix_banner.gif
-/res/kj/hf*.js?v=
 /resolve?type=*&short=*&name=$third-party
 /resource/common/tongzhuo/game_info.json
 /runtime/ad/*
@@ -1079,7 +1070,6 @@ $websocket,domain=wap.yushuwu.cloud
 /static/common/js/djlib_
 /static/fushuba/js/wap.js
 /static/idingdian/idd.
-/static/images/ky888.gif
 /static/jietiandixs/jtd.js$~third-party
 /static/js/aall.js
 /static/js/fuo_3.js
@@ -1102,9 +1092,6 @@ $websocket,domain=wap.yushuwu.cloud
 /svr/popwin.aspx?$3p
 /sxgg/12.js
 /sxgg/13
-/taiyangchengjituantupian.
-/tan.js
-/tan1.js
 /tanad.js
 /tanchuan.htm$popup,3p
 /td_ads_ckbeck.js
@@ -1132,8 +1119,6 @@ $websocket,domain=wap.yushuwu.cloud
 /template/zsy_badian/dddytt-gg/*
 /template/zsy_badian/js/stui_
 /templates/*/js/_banner.js
-/templates/bootadult4/js/bottom.js
-/templates/bootadult4/js/text.js
 /templets/*/js/couplet-ad.
 /templets/js/yala.js
 /templets/yycms3/img/*
@@ -1162,7 +1147,6 @@ $websocket,domain=wap.yushuwu.cloud
 /u/_sponsor/*
 /uc123_no/*/index/js/activity.
 /uniontgm.cmb.
-/upload/site/tbgg/*.gif
 /upload/vod/2018-08-05/201808051533458526.png
 /uploadfile/ad/*
 /uploads/setting/ad/*
@@ -2255,6 +2239,7 @@ $websocket,domain=wap.yushuwu.cloud
 52kd.com###frame2cu3VU
 52life.cc##table[style="margin-top:0"]
 52movieba.com,acglala.cc,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cgown.com,cn163.net,comicat.org,cosersuki.org,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,ifenpaidy.com,jitapu.com,jitashe.org,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,touchgal.org,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
+52movieba.com,acglala.cc,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cgown.com,cn163.net,comicat.org,cosersuki.org,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,ifenpaidy.com,jitapu.com,jitashe.org,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 52niuyan.cc##.top_fixed
 52niuyan.cc##a[onclick][rel][style*="toutiaoimg.com"]
@@ -8077,6 +8062,7 @@ luyixian.cn##.side
 lvmama.com###centerDialog
 lvmama.com###leftDialog
 lwgod.me###wp > a:first-child
+lxapk.com,lzacg.cc##.custom-html-widget
 lxapk.com,lzacg.one##.custom-html-widget
 lyd.com.cn##.ad:not(:nth-child(15))
 lysq.com###diyad
@@ -13200,6 +13186,7 @@ zzzyk.com###Tinfo
 ||5dyx.com/static/jquery.js
 ||5dyx.com/static/js/deny.js
 ||5e2hf0q3a.com^
+||5e770lhs7b.com^
 ||5edf1d2qv.com^
 ||5edrgrnqg.com^
 ||5enhjla7z.com^
@@ -15724,7 +15711,6 @@ zzzyk.com###Tinfo
 ||biancheng.net/uploads/ggxc/
 ||bianshengruanjian.com/tu/%E6%89%93%E8%B5%8F.
 ||bianxian.com^
-||bianxianmao.com^$3p
 ||bianxianmao.com^$third-party
 ||bianzhirensheng.com/img/banner.jpg
 ||bianzhirensheng.com/img/bianzhiji.jpg
@@ -18780,7 +18766,6 @@ zzzyk.com###Tinfo
 ||gamecps.com^$third-party
 ||gamefy.cn/cookiead.php
 ||gamemale.com/static/js/valida.js
-||gameone.com^$3p
 ||gameone.com^$third-party
 ||gamersky.com/common/tg/
 ||gamersky.com/g/gamerskyflash.js
@@ -20075,6 +20060,7 @@ zzzyk.com###Tinfo
 ||hw-ot-ad.a.yximgs.com^
 ||hw-p2p-pull.video-voip.com^
 ||hw-p2p.pull.yximgs.com^
+||hweiopvvxd.icu^
 ||hwfoct.icu^
 ||hwgzp5.com^
 ||hwivedn.icu^
@@ -25357,6 +25343,7 @@ zzzyk.com###Tinfo
 ||s1.wesiedu.com^
 ||s11.cn^$3p
 ||s11.cn^$third-party
+||s11henoe9i.com^
 ||s1gr2198h.com^
 ||s2dcm.com^
 ||s2dln6sdu.com^
@@ -29065,7 +29052,6 @@ zzzyk.com###Tinfo
 ||yhbsk.cn^
 ||yhcca8h69o.com^
 ||yhcu.cn^
-||yhdd1.com^$3p
 ||yhdd1.com^$third-party
 ||yhdm.tv/bar/yfyh.js
 ||yhdm44.com/123.html
