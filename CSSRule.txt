@@ -4773,6 +4773,9 @@ huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##+js(abort-on-stack-trace
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##+js(abort-on-stack-trace, document.querySelector, isAdblocked)
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##+js(addEventListener-defuser, DOMContentLoaded, showModal)
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##+js(no-setTimeout-if, /bait\.offsetHeight===0|isAdblocked|requestAnimationFrame\(|AdBlock|AdGuard/)
+huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##.slide-nav-list a[target="_blank"]:not(a[href^="/"])
+huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##.swiper-wrapper > div.swiper-slide:has(a[target="_blank"]:not(a[href^="/"]))
+huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##.weixin
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##body > div[class^="hr-t-"]
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##div[id^="anti-adblock-"]
 huavod.com###player-vip
@@ -8167,9 +8170,6 @@ softblog.tw#@#.dshare
 sogi.com.tw###main > div.container:has(> div#ad)
 sogi.com.tw##.ad-slot-970
 sogi.com.tw##.editable > div.text-center:has(> div.d-inline-block > div[id^="div-gpt-ad"])
-sogi.com.tw##div[class="row my-2 ad-slot-970"]
-sogi.com.tw#?##main > div.container:has(> div#ad)
-sogi.com.tw#?#.editable > div.text-center:has(> div.d-inline-block > div[id^="div-gpt-ad"])
 sogou.com###PZL
 sogou.com###PZR
 sogou.com###appNewsBtn

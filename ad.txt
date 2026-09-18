@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-09-18 10:56:40
-! Total count: 29574
+! Version: 2026-09-18 18:27:44
+! Total count: 29578
 
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -5555,7 +5555,6 @@ fastadmin.net##body > a[target="_blank"]
 faxingw.cn##.detailadv
 faxingw.cn##.detailgc
 faxingw.cn##.indadv1
-fcenxe*.top/$script,xmlhttprequest,third-party
 fcw45.com##.bottom-adv
 fcw45.com##div[id^="layui-layer"]
 fdc.com.cn##.yifangbanner
@@ -6559,6 +6558,9 @@ huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##+js(abort-on-stack-trace
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##+js(abort-on-stack-trace, document.querySelector, isAdblocked)
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##+js(addEventListener-defuser, DOMContentLoaded, showModal)
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##+js(no-setTimeout-if, /bait\.offsetHeight===0|isAdblocked|requestAnimationFrame\(|AdBlock|AdGuard/)
+huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##.slide-nav-list a[target="_blank"]:not(a[href^="/"])
+huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##.swiper-wrapper > div.swiper-slide:has(a[target="_blank"]:not(a[href^="/"]))
+huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##.weixin
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##body > div[class^="hr-t-"]
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##div[id^="anti-adblock-"]
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('abort-current-inline-script', 'MutationObserver', 'isAdblocked')
@@ -10093,9 +10095,6 @@ softblog.tw#@#.dshare
 sogi.com.tw###main > div.container:has(> div#ad)
 sogi.com.tw##.ad-slot-970
 sogi.com.tw##.editable > div.text-center:has(> div.d-inline-block > div[id^="div-gpt-ad"])
-sogi.com.tw##div[class="row my-2 ad-slot-970"]
-sogi.com.tw#?##main > div.container:has(> div#ad)
-sogi.com.tw#?#.editable > div.text-center:has(> div.d-inline-block > div[id^="div-gpt-ad"])
 sogou.com###PZL
 sogou.com###PZR
 sogou.com###appNewsBtn
@@ -12687,6 +12686,7 @@ zzzyk.com###Tinfo
 ||33img.com^$domain=18board.com|18p2p.com
 ||33kw1wc58.top^
 ||33mp2fbrns.com^
+||33o5sjd1ao.com^
 ||33shu.net/js/game
 ||3400.org^
 ||34dcvgw197.com^
@@ -19393,6 +19393,7 @@ zzzyk.com###Tinfo
 ||hash.trafficmanager.net^
 ||hauqou.top^
 ||hawfeniku.com^
+||hawsehole52.top^
 ||hawthorn33.top^
 ||hax.co.id/dist/js/ajax.js
 ||hazardous58.top^
@@ -24194,6 +24195,7 @@ zzzyk.com###Tinfo
 ||pypwxvo.cn^
 ||pyramid48.com^
 ||pyrfpb.icu^
+||pytm26vg9v.com^
 ||pz0d6zc6n.com^
 ||pzjizsyf.icu^
 ||pzkkot4kn.com^
@@ -24935,6 +24937,7 @@ zzzyk.com###Tinfo
 ||runningman.site^
 ||runoob.com/images/re/
 ||runsky.com/phpstat/
+||ruoky41k7a.com^
 ||rusticaula.com^
 ||ruten.com.tw/js/gads_
 ||ruten.com.tw/search/imp_ad_
@@ -26066,6 +26069,7 @@ zzzyk.com###Tinfo
 ||tdid.m.qq.com^
 ||tdigcw.com^
 ||tdlop7tsme.com^
+||tdlqxdwwpptpli.com^
 ||tdsdk.cpatrk.net^
 ||tdsdk.xdrig.com^
 ||tdxs5.cc/m
