@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-09-21 11:03:49
-! Total count: 29611
+! Version: 2026-09-21 19:50:50
+! Total count: 29621
 
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -234,6 +234,7 @@ $websocket,domain=wap.yushuwu.cloud
 .fun/*/17*/*.css?r=0$third-party
 .fun/ad/
 .gif$3p,domain=zxc.dongludi.top|m.7ktw.com|922tp.com|cl.wpio.xyz|yasem5.com|1024pa.com|avbebe.com|cb.wpio.xyz
+.gif^$image,3p,domain=4hu.tv|g655p8.com|d44t95.com
 .gif|$3p,domain=91xx133.cc
 .gif|$domain=/87[0-9]{2}ck\.cc/
 .gif|$domain=18j.tv
@@ -5802,6 +5803,11 @@ fydisk.com###vbox
 fznews.com.cn##.kuang100_right
 g-mh.org,godamh.com##.adshow
 g-years.com,ghoffice.cc,gpsuu.com,mydigit.cn###main > .textMes
+g655p8.com,d44t95.com,4hu.tv###__nuxt ~ div[data-tag]
+g655p8.com,d44t95.com,4hu.tv##+js(no-setTimeout-if, getAd)
+g655p8.com,d44t95.com,4hu.tv##+js(set-constant, Object.prototype.getAd, noopFunc)
+g655p8.com,d44t95.com,4hu.tv##+js(set-local-storage-item, /^__ad/, $remove$)
+g655p8.com,d44t95.com,4hu.tv##div[class^="pg-v-sec-"]
 galacg.me##.sidebar-top
 galacg.me##a[href*="/game"]
 galacg.me,unecne.com##.metaslider
@@ -16790,6 +16796,7 @@ zzzyk.com###Tinfo
 ||cq2f5kn85c.top^
 ||cq5nsp7kya.com^
 ||cqbuchouhua.com^
+||cqg8zmtt3.com^
 ||cqoqpcc.icu^
 ||cqtlimi.cn^
 ||cqvip.com/viewserver/ViewAD
@@ -24592,6 +24599,7 @@ zzzyk.com###Tinfo
 ||qxrvmu.com^
 ||qxwoiv.com^
 ||qy0.ru/data/game/
+||qy0.ru/data/t/*.gif
 ||qy1.ru/data/game/
 ||qyel.cn^
 ||qyer.com/qcross/home/ajax?action=banner
@@ -27434,6 +27442,7 @@ zzzyk.com###Tinfo
 ||vzrhwmsj.icu^
 ||vzttq.brfvyrrp.com^
 ||vzvvifw.cn^
+||vzzvfpvwyyhfvo.com^
 ||w*.*skwai.com^
 ||w.bnlg.fun^
 ||w.l.qq.com^
@@ -29561,6 +29570,7 @@ zzzyk.com###Tinfo
 ||zykwnj.cn^
 ||zypzzv.xyz^
 ||zyrwfd.xyz^
+||zyy25t69u.com^
 ||zyzlpt.com^
 ||zzad.com^$3p
 ||zzad.com^$third-party
