@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-09-22 11:03:26
-! Total count: 29632
+! Version: 2026-09-22 18:52:11
+! Total count: 29642
 
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -421,7 +421,6 @@ $websocket,domain=wap.yushuwu.cloud
 /527ldy.oss-
 /5555vipqipai.oss-
 /58pic/index.php?m=adManageSystem&
-/5ixcmbwj/js/ad.js
 /640_120_javhd.jpg
 /69tang6_*/html/abc/image/*
 /7755com-*00x*.gif
@@ -2623,6 +2622,7 @@ $websocket,domain=wap.yushuwu.cloud
 ://8ox.cn/$3p
 ://8ox.cn/$third-party
 ://a.ads.
+://ads-img2026.
 ://ads.
 ://adv.$domain=~adv.ru|~forex-tv-online.com
 ://affiliate.$third-party
@@ -5808,6 +5808,9 @@ g655p8.com,d44t95.com,4hu.tv##+js(no-setTimeout-if, getAd)
 g655p8.com,d44t95.com,4hu.tv##+js(set-constant, Object.prototype.getAd, noopFunc)
 g655p8.com,d44t95.com,4hu.tv##+js(set-local-storage-item, /^__ad/, $remove$)
 g655p8.com,d44t95.com,4hu.tv##div[class^="pg-v-sec-"]
+g655p8.com,d44t95.com,4hu.tv#%#//scriptlet('prevent-setTimeout', 'getAd')
+g655p8.com,d44t95.com,4hu.tv#%#//scriptlet('set-constant', 'Object.prototype.getAd', 'noopFunc')
+g655p8.com,d44t95.com,4hu.tv#%#//scriptlet('set-local-storage-item', '/^__ad/', '$remove$')
 galacg.me##.sidebar-top
 galacg.me##a[href*="/game"]
 galacg.me,unecne.com##.metaslider
@@ -11359,6 +11362,7 @@ xc6b.com###leftbottbox
 xc6b.com###rightbottbox
 xc6b.com###sidebar > .box-b img
 xc6b.com##.activity-box
+xc6b.com##.cHeadImg
 xc6b.com##.chao_ggw
 xc6b.com##.navbar + .clearfix
 xc6b.com##a[href="http://61.160.236.52"]
@@ -12219,6 +12223,7 @@ zzzyk.com###Tinfo
 ||129esrd5q5.com^
 ||12img.com/ad/
 ||12ypksztq.com^
+||12yr3wkwi5.com^
 ||131458.com/union/
 ||131r3lknzg.com^
 ||1328f.com/js/jquery.js
@@ -16717,6 +16722,8 @@ zzzyk.com###Tinfo
 ||com052bin.com^
 ||comedy34.com^
 ||comefromchina.com/images/128bestbuy
+||comicbox.xyz/getAdsData
+||comicbox.xyz/static/js/ad-manager.
 ||comm100.cn/livechatserver/chatbutton.*&res=
 ||commdata.v.qq.com^
 ||commercial.shouji.360.cn^
@@ -19378,6 +19385,7 @@ zzzyk.com###Tinfo
 ||hao123union.baidu.com^$third-party
 ||hao5.net/images/*0-
 ||hao6v.com/d/
+||haobax.com/ad
 ||haochi123.com/J_Box/Inc_
 ||haofs.com/haofs/ggapi.asp
 ||haogushi88.cc/static/simple/yue
@@ -21232,6 +21240,7 @@ zzzyk.com###Tinfo
 ||kasgnh7xwl.com^
 ||kasiklz.cc^
 ||katelin.top^
+||kavxx.com^
 ||kawf.cn^
 ||kayege.org/js/
 ||kazigua.top^
@@ -23655,6 +23664,7 @@ zzzyk.com###Tinfo
 ||p5-be-pack-sign.pglstatp-toutiao.com^
 ||p5-lm.adukwai.com^
 ||p52q.cn^
+||p5doaulee2.com^
 ||p5si0mu8u7.com^
 ||p6-ad-sign.byteimg.com^
 ||p6-be-pack-sign.pglstatp-toutiao.com^
