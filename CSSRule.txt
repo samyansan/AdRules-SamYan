@@ -741,6 +741,7 @@
 3dmgame.com##.dj_warp_e
 3dmgame.com##.downl_list + script + div
 3dmgame.com##.downl_list:has(style)
+3dmgame.com##.downlwrap > div[style="width:274px;height:368px; overflow: hidden;float:right;position: relative;margin-top:  45px;"]
 3dmgame.com##.fell_left_advertisement
 3dmgame.com##.listlab > .img[href*="/yx."]
 3dmgame.com##.mb30.warp_f
@@ -4419,6 +4420,7 @@ hao123.com###__elm_0_4
 hao123.com###append
 hao123.com###bottom-be
 hao123.com###ecom
+hao123.com###float-ad-left
 hao123.com###guesslikesite
 hao123.com###guesslikesite-block
 hao123.com###hao123-gw11
@@ -8946,6 +8948,7 @@ vidhub3.top,vidhub4.cc##div[style^="position:"]:has(> img[onclick^="window.open"
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 vikacg.com##+js(no-window-open-if, !/external)
 vikacg.com##a[href^="https://acg01.com/]"]
+vikacg.com,vikacg.cc##a.w-full[data-ad-index]
 vikacg.com,vikacg.icu,vikacg.xyz##div[class^="my-"] > .grid > a[href^="http"]:not([href*="vikacg."])
 vikacg.com,vikacg.icu,vikacg.xyz##div[class^="my-"] > a[href^="http"]:not([href*="vikacg."])
 vip.diaoyu18.com##.container > a[target="_blank"]
