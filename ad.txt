@@ -3,7 +3,7 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-09-25 11:11:11
+! Version: 2026-09-25 19:01:13
 ! Total count: 29666
 
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
@@ -24,7 +24,7 @@ $script,3p,denyallow=unpkg.zhihu.com,domain=52niuyan.cc
 $script,3p,domain=cilimao.co|cilimao.one
 $script,3p,domain=colamanga.com
 $script,3p,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.tv|torrkitty.com
-$script,3p,domain=xunleisou.info|xunleisou.life|xiaoyakankan.com|52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoheimi.cc
+$script,3p,domain=xunleisou.info|xunleisou.life|xiaoyakankan.com|52movieba.com|audio699.com|kan-tv.com|m.supfree.net|mvffm.net|xiaoheimi.cc
 $script,3p,websocket,domain=52codes.net
 $script,subdocument,3p,domain=dlkoo.com
 $script,subdocument,3p,websocket,xhr,domain=bhshu.net|louzhong8.com|miwens.com
@@ -1457,8 +1457,6 @@ $websocket,domain=wap.yushuwu.cloud
 123pan.com,meidebi.com,weicaixun.com#@#.share-list
 125.la##.forumlist_ad
 126.com,163.com##.gWel-promt
-131400.best,vikacg.com,vikacg.icu,vikacg.xyz##.post-card-list > a
-131400.best,vikacg.com,vikacg.icu,vikacg.xyz##a[href^="http"] > img[src*="/assets/moonlight/"]
 131458.com###header_gg
 131458.com##.divGuanggao
 131458.com##.ulfooter_top
@@ -10911,8 +10909,6 @@ vikacg.com##+js(no-window-open-if, !/external)
 vikacg.com##a[href^="https://acg01.com/]"]
 vikacg.com#%#//scriptlet('prevent-window-open', '!/external')
 vikacg.com,vikacg.cc##a.w-full[data-ad-index]
-vikacg.com,vikacg.icu,vikacg.xyz##div[class^="my-"] > .grid > a[href^="http"]:not([href*="vikacg."])
-vikacg.com,vikacg.icu,vikacg.xyz##div[class^="my-"] > a[href^="http"]:not([href*="vikacg."])
 vip.diaoyu18.com##.container > a[target="_blank"]
 vip.diaoyu18.com##.huadong > div[style="text-align: center;margin-bottom: 10px;"]
 vipthz.com###fwin_content_imc_attachad [style="WIDTH: 100%; padding-left:10px;"] > div > a[href][target="_blank"] > img
@@ -18181,6 +18177,7 @@ zzzyk.com###Tinfo
 ||f17hdccbws.com^
 ||f1jonnzc8.com^
 ||f1tfmxzg.icu^
+||f1x12og38.com^
 ||f20hgvkx7r.com^
 ||f20r1b13iw.com^
 ||f23jjd8.xyz^
@@ -18715,6 +18712,7 @@ zzzyk.com###Tinfo
 ||gchk5bcnaz.com^
 ||gcjg3ry7m.com^
 ||gcqciiqk.com^
+||gcvns12jp.com^
 ||gcw*.2liang.cn^
 ||gd-singapore.com/data/1724/aimg/rloadbnus-ibc26.
 ||gd.189.cn*/push/$popup
@@ -20169,6 +20167,7 @@ zzzyk.com###Tinfo
 ||igo99.cn/js/freetest.js
 ||igscn.com^
 ||ih336.com^*a.js
+||ihbkqdj55.com^
 ||ihclam.cn^
 ||ihhmh.com/mg/show
 ||ihhuyvugv.com^
@@ -26798,6 +26797,7 @@ zzzyk.com###Tinfo
 ||u7u9.com^$3p
 ||u7u9.com^$third-party
 ||u7ugo0jr3.com^
+||u8jlui323.com^
 ||u8rnuky6e.com^
 ||u90p9zk9r7.com^
 ||uaa.com/js/dxj.
