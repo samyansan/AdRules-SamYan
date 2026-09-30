@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-09-30 11:44:41
-! Total count: 29719
+! Version: 2026-09-30 19:49:50
+! Total count: 29720
 
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -10173,6 +10173,7 @@ sohu.com##IFRAME[frameborder='0']
 sohu.com##IFRAME[width='325'][frameborder='0']
 sohu.com##[data-spm-content='ad']
 sohu.com##[data-spm^='ad-']
+sohu.com##a[data-url*=".mediav.com"]
 sohu.com##a[href*="_Click_Flow_recommend_"]
 sohu.com##a[href^="https://m.sohu.com/promotion?"]
 sohu.com##div[data-spm-content="promotion"]
@@ -11243,8 +11244,6 @@ ws://*/api/wss/GetNotReadCount$3p
 ws://*/api/wss/GetNotReadCount$third-party
 wss://*.*.top/$3p
 wss://*.*.top/$third-party
-wss://*.com:29*/$third-party
-wss://*.com:800*/$third-party,domain=~survev.io
 wss://*.top/|
 wss://*.xyz:*?e=$3p
 wss://*.xyz:*?e=$third-party
@@ -12412,6 +12411,7 @@ zzzyk.com###Tinfo
 ||1nrlydgrr.com^
 ||1o0g85u7k1.com^
 ||1o1nuqbjea.com^
+||1o23ptd0sv.com^
 ||1paujqtq9.com^
 ||1phyxws373.com^
 ||1ppt.com/ad$image
@@ -23718,6 +23718,7 @@ zzzyk.com###Tinfo
 ||p74ugyuur.com^
 ||p78vz5tcho.com^
 ||p7d3miyh2q.com^
+||p7w3bmhmns.com^
 ||p8u.hinet.net^
 ||p9-ad-sign.byteimg.com^
 ||p9-be-pack-sign.pglstatp-toutiao.com^
