@@ -2173,6 +2173,7 @@ bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"]
 bilibili.com#?#.video-card-common:has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
 bilibili.com#?#.video-page-special-card-small:-abp-has(>.card-box>.info>a[href^="http"]:not([href*=".bilibili.com/"]))
 bilibili.com#?#.video-page-special-card-small:has(>.card-box>.info>a[href^="http"]:not([href*=".bilibili.com/"]))
+bilibili.com#@#[class^="footer-ad"]
 bilinovel.com##+js(no-setTimeout-if, offsetHeig\'+\'ht\'])
 bimiacg.net##.tuiguang
 bimibimi.cc##[src^='https://dd-static.jd.com']

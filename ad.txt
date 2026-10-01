@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-10-01 20:19:29
-! Total count: 29716
+! Version: 2026-10-02 06:16:13
+! Total count: 29720
 
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -3884,6 +3884,7 @@ bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"]
 bilibili.com#?#.video-card-common:has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
 bilibili.com#?#.video-page-special-card-small:-abp-has(>.card-box>.info>a[href^="http"]:not([href*=".bilibili.com/"]))
 bilibili.com#?#.video-page-special-card-small:has(>.card-box>.info>a[href^="http"]:not([href*=".bilibili.com/"]))
+bilibili.com#@#[class^="footer-ad"]
 bilinovel.com##+js(no-setTimeout-if, offsetHeig\'+\'ht\'])
 bilinovel.com#%#//scriptlet('prevent-setTimeout', 'offsetHeig\'+\'ht\']')
 bimiacg.net##.tuiguang
@@ -12926,6 +12927,7 @@ zzzyk.com###Tinfo
 ||4kwu.cc/static/js/tj.js
 ||4l5bbkug99.com^
 ||4mvkxs0o0.com^
+||4mwe9ki9r.com^
 ||4nc4qc1fo.com^
 ||4nfesm3itf.com^
 ||4nndezdx2u.com^
@@ -13369,6 +13371,7 @@ zzzyk.com###Tinfo
 ||6tdz25urqj.com^
 ||6tofsu.com^
 ||6uliq2uive.com^
+||6ulv19ce9.com^
 ||6uzxtlv.cn^
 ||6v2wkfw6pc.com^
 ||6v4.cn^$3p
@@ -24863,6 +24866,7 @@ zzzyk.com###Tinfo
 ||rhesed.site^
 ||rhinogo.cn^
 ||rhiolf.cn^
+||rhl8r3dkc.com^
 ||rhlxm.top^
 ||rhmt1jjyo.com^
 ||rhnipjxcxlhzbc.com^
