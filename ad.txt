@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-10-04 19:42:35
-! Total count: 29757
+! Version: 2026-10-05 00:21:27
+! Total count: 29765
 
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -1954,6 +1954,7 @@ $websocket,domain=wap.yushuwu.cloud
 3dmgame.com##+js(abort-on-property-write, adStart)
 3dmgame.com##.Content_L > p
 3dmgame.com##.Gmaeinfobtn + span
+3dmgame.com##.Gmaeinfobtn_tab > .patchshow
 3dmgame.com##.Gmaeinfobtn_tab > [class]:not(.tab)
 3dmgame.com##.Gmaeinfobtn_tab > [class][onclick]
 3dmgame.com##.Gmaeinfobtn_tab > a.patchshow[style]:has(> span:contains(/^广告$/))
@@ -1968,7 +1969,6 @@ $websocket,domain=wap.yushuwu.cloud
 3dmgame.com##.adshop
 3dmgame.com##.dj_warp_e
 3dmgame.com##.downl_list + script + div
-3dmgame.com##.downl_list:has(style)
 3dmgame.com##.downlwrap > div[style="width:274px;height:368px; overflow: hidden;float:right;position: relative;margin-top:  45px;"]
 3dmgame.com##.fell_left_advertisement
 3dmgame.com##.listlab > .img[href*="/yx."]
@@ -1979,9 +1979,11 @@ $websocket,domain=wap.yushuwu.cloud
 3dmgame.com##.tonglona_3
 3dmgame.com##.tonglona_4
 3dmgame.com##A[href^="http://web.3dmgame.com/h5/game?"]
+3dmgame.com##a[href*=".3dmgame.hk"]
 3dmgame.com##a[href*=".chuangmengsy.xyz"]
 3dmgame.com##a[href^="https://down.hyds360.com/"] > div[style]
 3dmgame.com##body > div.content:style(margin-top: 0 !important;)
+3dmgame.com##div[style^="width:274px;height:368px"]
 3dmgame.com#$#body > div.content { margin-top: 0 !important; }
 3dmgame.com#%#//scriptlet('abort-on-property-write', 'adStart')
 3dmgame.com#?#.Gmaeinfobtn_tab > a.patchshow[style]:has(> span:contains(/^广告$/))
@@ -12611,6 +12613,7 @@ zzzyk.com###Tinfo
 ||2kandy.com/js/123/
 ||2kbmdtlgme.com^
 ||2lb.cc^
+||2lcdjyf37f.com^
 ||2lj9n8sz0w.com^
 ||2lpwji3xr.com^
 ||2nbg86d2x.com^
@@ -15831,6 +15834,7 @@ zzzyk.com###Tinfo
 ||bofnhn.com^
 ||bohanhengtian.cn^
 ||bolecdn.com/button/txt.js
+||boluomao1.com/public/
 ||bonbonme.com/js/g1313166/
 ||bonehead49.top^
 ||boodper.com^
@@ -18669,6 +18673,7 @@ zzzyk.com###Tinfo
 ||g5xu1dslr6.com^
 ||g64njjhyh.com^
 ||g66ryy88z.com^
+||g6f0w30cze.com^
 ||g6ird1tez2.com^
 ||g6x2uvza37.com^
 ||g7htk7ls7.com^
@@ -19328,6 +19333,7 @@ zzzyk.com###Tinfo
 ||h27aq0mc6.com^
 ||h2ji5.xyz^
 ||h2tcbox.baidu.com^
+||h32rbpk7ne.com^
 ||h40q9nv18.com^
 ||h45pmx1.cn^
 ||h4b0srs.cn^
@@ -23417,6 +23423,7 @@ zzzyk.com###Tinfo
 ||ocvdi0rum.com^
 ||oczeilqyw.com^
 ||od6992uotl.com^
+||odj3j8dsff.com^
 ||odmerorlzo.com^
 ||oe8mnxdtoi.com^
 ||oe9s24wy9.com^
@@ -28237,6 +28244,7 @@ zzzyk.com###Tinfo
 ||xdlipr.icu^
 ||xdnice.com/themes/xdnice/public/assets/images/quna.png
 ||xdnice.com/themes/xdnice/public/assets/images/xdnice.png
+||xdnjqtn.com^
 ||xdns.asia^
 ||xdxqw9nnr.com^
 ||xdyjt.com^
