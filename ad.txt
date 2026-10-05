@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-10-05 11:47:37
-! Total count: 29769
+! Version: 2026-10-05 21:26:58
+! Total count: 29771
 
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -1952,13 +1952,7 @@ $websocket,domain=wap.yushuwu.cloud
 3dmgame.com###min_ad_con
 3dmgame.com###yxj_fmt_gg
 3dmgame.com##+js(abort-on-property-write, adStart)
-3dmgame.com##.Content_L > p
-3dmgame.com##.Gmaeinfobtn + span
 3dmgame.com##.Gmaeinfobtn_tab > .patchshow
-3dmgame.com##.Gmaeinfobtn_tab > [class]:not(.tab)
-3dmgame.com##.Gmaeinfobtn_tab > [class][onclick]
-3dmgame.com##.Gmaeinfobtn_tab > a.patchshow[style]:has(> span:contains(/^广告$/))
-3dmgame.com##.Gmaeinfobtn_tab > span
 3dmgame.com##.Indexadd-100
 3dmgame.com##.R_qingtianzhu
 3dmgame.com##.Tonglan
@@ -1968,7 +1962,6 @@ $websocket,domain=wap.yushuwu.cloud
 3dmgame.com##.addvide300
 3dmgame.com##.adshop
 3dmgame.com##.dj_warp_e
-3dmgame.com##.downl_list + script + div
 3dmgame.com##.downlwrap > div[style="width:274px;height:368px; overflow: hidden;float:right;position: relative;margin-top:  45px;"]
 3dmgame.com##.fell_left_advertisement
 3dmgame.com##.listlab > .img[href*="/yx."]
@@ -1987,8 +1980,6 @@ $websocket,domain=wap.yushuwu.cloud
 3dmgame.com#$#body > div.content { margin-top: 0 !important; }
 3dmgame.com#%#//scriptlet('abort-on-property-write', 'adStart')
 3dmgame.com#?#.Gmaeinfobtn_tab > a.patchshow[style]:has(> span:contains(/^广告$/))
-3dmgame.com#?#.downl_list:-abp-has(style)
-3dmgame.com#?#.downl_list:has(style)
 3g.163.com##.ne_rps
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com###banner_call + div[id]
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com##div:has(>.openBox-container)
@@ -5964,6 +5955,11 @@ github.com##a[href^="https://cloud.tencent.com/redirect."] > img
 github.com##a[href^="https://openwrite.cn/"]
 gkstk.com##.layui-layer-shade
 gkstk.com,ufanw.com##.layui-layer
+global.hk01.com##.cmp-article-detail > .flex:has(> .lazyload-wrapper > div:is(.js-ad-slot, [data-id="lazyload-placeholder"]))
+global.hk01.com##.fixed[aria-labelledby="hot-news-dialog-title"] .items-stretch > .shrink-0:has(> .sticky > .flex > .lazyload-wrapper > .js-ad-slot)
+global.hk01.com##.hidden[class*="col-span-4"] > div[class^="min-h-250px w-full"]:has(> .flex > .lazyload-wrapper > .js-ad-slot)
+global.hk01.com##div[class*="_.js-ad-slot]"]
+global.hk01.com##div[class^="placeholder-ad-"]:style(min-height: 0 !important;)
 gmgard.com,hggard.com###blog > div[style="overflow:hidden"]
 gmgard.com,hggard.com##A[onclick*="Advertisement"]
 gmtv1.xyz##.pc_rb_float
@@ -10898,8 +10894,12 @@ vidhub2.top,vidhub3.top,vidhub4.cc,vidhub.me,vidhub.tv##.player-info div[class]:
 vidhub2.top,vidhub3.top,vidhub4.cc,vidhub.me,vidhub.tv##div[class][style*="position:"] > img[onclick^="window.open"]
 vidhub3.top,vidhub4.cc##div[style^="position:"]:has(> img[onclick^="window.open"])
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
+vikacg.com##+js(json-prune, data.item data.ads)
 vikacg.com##+js(no-window-open-if, !/external)
+vikacg.com##.arco-carousel
+vikacg.com##.contents:has(> a[class="w-full"][href^="http"][target="_blank"] > img[src*="/assets/moonlight/"])
 vikacg.com##a[href^="https://acg01.com/]"]
+vikacg.com#%#//scriptlet('json-prune', 'data.item data.ads')
 vikacg.com#%#//scriptlet('prevent-window-open', '!/external')
 vikacg.com,vikacg.cc##a.w-full[data-ad-index]
 vip.diaoyu18.com##.container > a[target="_blank"]
@@ -12783,10 +12783,8 @@ zzzyk.com###Tinfo
 ||3dmgame.com/page/js/push_browser.js
 ||3dmgame.com/static/image/common/pc_tg3dm.
 ||3dmgame.com/sw/zjworld/js/index.
-||3dmgame.com/templets/common/show_js/show_js.js
 ||3dmgame.com/templets/index/gimg/
 ||3dmgame.com/templets/index/js/huandeng.js
-||3dmgame.com/templets/xiazai/g
 ||3dmgame.com/tools/gamead?
 ||3dwwwgame.com^$3p
 ||3dwwwgame.com^$third-party
@@ -23695,6 +23693,7 @@ zzzyk.com###Tinfo
 ||p.wktfkj.com^$third-party
 ||p.zol-img.com.cn^
 ||p.zol.com.cn/download/detail.js
+||p0h1nfzc2.com^
 ||p0pn18sxvh.com^
 ||p0y.cn^
 ||p0y.cn^$image,domain=~ipinyou.com.cn
@@ -24382,6 +24381,7 @@ zzzyk.com###Tinfo
 ||qczcxe.cn^
 ||qczg1nsnvo.com^
 ||qd.x4399.com^
+||qd32n9lpq.com^
 ||qd38xgoin9.com^
 ||qdaily.com/mount_details/pc/
 ||qdczx66.com^
@@ -24458,6 +24458,7 @@ zzzyk.com###Tinfo
 ||qiji1.jdwx.info^
 ||qijpaih.cn^
 ||qilanxiaozhu.*/data/attachment/portal/
+||qim0lvk6m.com^
 ||qimiaomh.com/muban/m/static/js/common.js
 ||qimiaomh.com/muban/m/static/js/hhh.js
 ||qiming360.com/mingJs/xmKu_
@@ -26234,6 +26235,7 @@ zzzyk.com###Tinfo
 ||techspecndt.com^
 ||techug.com/aatb/
 ||teddync.net^
+||tek3shnfk.com^
 ||telecome.cn^
 ||telemetry.sdk.inmobi.com^
 ||telphiruq.com^
