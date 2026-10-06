@@ -748,7 +748,6 @@
 3dmgame.com##body > div.content:style(margin-top: 0 !important;)
 3dmgame.com##div[style^="width:274px;height:368px"]
 3dmgame.com#$#body > div.content { margin-top: 0 !important; }
-3dmgame.com#?#.Gmaeinfobtn_tab > a.patchshow[style]:has(> span:contains(/^广告$/))
 3g.163.com##.ne_rps
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com###banner_call + div[id]
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com##div:has(>.openBox-container)
@@ -4199,6 +4198,7 @@ global.hk01.com##.fixed[aria-labelledby="hot-news-dialog-title"] .items-stretch 
 global.hk01.com##.hidden[class*="col-span-4"] > div[class^="min-h-250px w-full"]:has(> .flex > .lazyload-wrapper > .js-ad-slot)
 global.hk01.com##div[class*="_.js-ad-slot]"]
 global.hk01.com##div[class^="placeholder-ad-"]:style(min-height: 0 !important;)
+global.hk01.com#$#div[class^="placeholder-ad-"] { min-height: 0 !important; }
 gmgard.com,hggard.com###blog > div[style="overflow:hidden"]
 gmgard.com,hggard.com##A[onclick*="Advertisement"]
 gmtv1.xyz##.pc_rb_float
