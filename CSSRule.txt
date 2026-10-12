@@ -1093,10 +1093,13 @@
 91hs.top,hsex.men##.col-xs-12 > a[target="_blank"]
 91porn.com##.preroll-blocker
 91porn.com#@#.vjs-preroll
+91porna.com##.ad-dialog
 91porna.com##.carousel-container-bottom
 91porna.com##.carousel-container:has(#carouselExampleInterval)
 91porna.com##.checkNum[target="_blank"]:not([href*="91porna.com"])
+91porna.com##.dx-banner-item
 91porna.com##.h-full.swiper
+91porna.com##.modal-backdrop
 91porna.com##.row > div.flex-container:has(> a[href][target="_blank"] > img)
 91porna.com##.row > div[class^="col"]:has(> .video-wrap > a.checkNum)
 91porna.com##div[class^="col"] div.filters:has(a.checkNum)
@@ -1213,6 +1216,8 @@ acfun.cn##a[href^="https://click.dsp.com/"]
 acg.d1dm.top##.module-adslist + a[target="_blank"] + i.gg-icon
 acg.d1dm.top##.module-adslist + a[target="_blank"] > img
 acg17.com##.yhq
+acgcbk55.vip##.ajax-post:has(a[href*="/tag/%e5%b9%bf%e5%91%8a"])
+acgcbk55.vip##.post:has(a[title*="广告"])
 acgdoge.net,acglala.cc,chinalawedu.com,douyu.com,gmgard.com,hggard.com,iqiyi.com,jinti.com##a[href*=".tmall.com"]
 acgfta.com##a[href^="https://ifift.com/"]
 acgking.com,dbtmn.com##.asst
@@ -8651,7 +8656,9 @@ vikacg.com##+js(json-prune, data.item data.ads)
 vikacg.com##+js(no-window-open-if, !/external)
 vikacg.com##.arco-carousel
 vikacg.com##.contents:has(> a[class="w-full"][href^="http"][target="_blank"] > img[src*="/assets/moonlight/"])
+vikacg.com##a[href^="http"] > img[src*="/assets/moonlight/"]
 vikacg.com##a[href^="https://acg01.com/]"]
+vikacg.com##div[role="link"] > img[src*="/assets/moonlight/"]
 vikacg.com,vikacg.cc##a.w-full[data-ad-index]
 vip.diaoyu18.com##.container > a[target="_blank"]
 vip.diaoyu18.com##.huadong > div[style="text-align: center;margin-bottom: 10px;"]

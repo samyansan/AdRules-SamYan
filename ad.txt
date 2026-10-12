@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-10-12 12:04:05
-! Total count: 29236
+! Version: 2026-10-12 22:16:32
+! Total count: 29254
 
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -251,6 +251,7 @@ $websocket,domain=wap.yushuwu.cloud
 .icu/biyys*.js$third-party
 .icu/pssbk?$third-party
 .in/js/ads/
+.in^$domain=wnacg.com|wn001.cfd|wn002.cfd|wnacg.ru
 .info/ad.js
 .info/ad/
 .info/js/ads/
@@ -2322,10 +2323,13 @@ $websocket,domain=wap.yushuwu.cloud
 91hs.top,hsex.men##.col-xs-12 > a[target="_blank"]
 91porn.com##.preroll-blocker
 91porn.com#@#.vjs-preroll
+91porna.com##.ad-dialog
 91porna.com##.carousel-container-bottom
 91porna.com##.carousel-container:has(#carouselExampleInterval)
 91porna.com##.checkNum[target="_blank"]:not([href*="91porna.com"])
+91porna.com##.dx-banner-item
 91porna.com##.h-full.swiper
+91porna.com##.modal-backdrop
 91porna.com##.row > div.flex-container:has(> a[href][target="_blank"] > img)
 91porna.com##.row > div[class^="col"]:has(> .video-wrap > a.checkNum)
 91porna.com##div[class^="col"] div.filters:has(a.checkNum)
@@ -2867,6 +2871,8 @@ acfun.cn##a[href^="https://click.dsp.com/"]
 acg.d1dm.top##.module-adslist + a[target="_blank"] + i.gg-icon
 acg.d1dm.top##.module-adslist + a[target="_blank"] > img
 acg17.com##.yhq
+acgcbk55.vip##.ajax-post:has(a[href*="/tag/%e5%b9%bf%e5%91%8a"])
+acgcbk55.vip##.post:has(a[title*="广告"])
 acgdoge.net,acglala.cc,chinalawedu.com,douyu.com,gmgard.com,hggard.com,iqiyi.com,jinti.com##a[href*=".tmall.com"]
 acgfta.com##a[href^="https://ifift.com/"]
 acgking.com,dbtmn.com##.asst
@@ -10562,7 +10568,9 @@ vikacg.com##+js(json-prune, data.item data.ads)
 vikacg.com##+js(no-window-open-if, !/external)
 vikacg.com##.arco-carousel
 vikacg.com##.contents:has(> a[class="w-full"][href^="http"][target="_blank"] > img[src*="/assets/moonlight/"])
+vikacg.com##a[href^="http"] > img[src*="/assets/moonlight/"]
 vikacg.com##a[href^="https://acg01.com/]"]
+vikacg.com##div[role="link"] > img[src*="/assets/moonlight/"]
 vikacg.com#%#//scriptlet('json-prune', 'data.item data.ads')
 vikacg.com#%#//scriptlet('prevent-window-open', '!/external')
 vikacg.com,vikacg.cc##a.w-full[data-ad-index]
@@ -12269,6 +12277,7 @@ zzzyk.com###Tinfo
 ||2lcdjyf37f.com^
 ||2lj9n8sz0w.com^
 ||2lpwji3xr.com^
+||2mlt7jkbob.com^
 ||2nbg86d2x.com^
 ||2nl6sgd9c.com^
 ||2nvd5j7iv0.com^
@@ -13022,6 +13031,7 @@ zzzyk.com###Tinfo
 ||6park.com/parks/$script
 ||6park.com^$subdocument,badfilter
 ||6pctuhriw.com^
+||6px1vsaq0h.com^
 ||6q77vsjez1.com^
 ||6qcvth5fb.com^
 ||6ql83wy90f.com^
@@ -13362,6 +13372,7 @@ zzzyk.com###Tinfo
 ||91mjw.com/hy-66-90.php
 ||91p20.space/fans/
 ||91p20.space^
+||91porna.com/static/web/js/ad-sdk-
 ||91pz9so28w.com^
 ||91rb.com/fc/$image
 ||91rb.net/fc/
@@ -16459,6 +16470,7 @@ zzzyk.com###Tinfo
 ||cslbahf.top^
 ||cslpf.cn^
 ||csnsqykc0.com^
+||csom844jkc.com^
 ||cspb1.5w5w.com^
 ||css.juqingba.cn^
 ||css.mangabz.com/*/mangabz/js/mobile/newyb.js
@@ -17042,6 +17054,7 @@ zzzyk.com###Tinfo
 ||dmdcstsyv3.com^
 ||dmeia.xyz^
 ||dmfjeu.xyz^
+||dmlenpksrndflu.com^
 ||dmm.aizhan.com^
 ||dmr.cnhoney.com^
 ||dms.fx678.com^
@@ -19394,6 +19407,7 @@ zzzyk.com###Tinfo
 ||hriy.cn^
 ||hrjg.com.cn^$3p
 ||hrjg.com.cn^$third-party
+||hrmwxu.com^
 ||hrngmf.com^
 ||hrro55g56.com^
 ||hrxphjcj.icu^
@@ -20048,6 +20062,7 @@ zzzyk.com###Tinfo
 ||ir3f1x3aet.com^
 ||irc.qubiankeji.com^
 ||iremnazae.com^
+||irgo28nc8b.com^
 ||irp37bmmt.com^
 ||irq0ql8or.com^
 ||irr7idq6i.com^
@@ -20756,6 +20771,7 @@ zzzyk.com###Tinfo
 ||k366.com/images/smxs^
 ||k3vgy6hf7.com^
 ||k42kw.top^
+||k56y7oxb3x.com^
 ||k5705bn39u.com^
 ||k5ggua.xyz^
 ||k5qdqwgjit.com^
@@ -24544,6 +24560,7 @@ zzzyk.com###Tinfo
 ||rszkhn.xyz^
 ||rt.applovin.com^
 ||rt.applvn.com^
+||rt36a6gqfk.com^
 ||rt5x78mhcq.com^
 ||rta4z4ncsl.com^
 ||rtb.adxsenmeng.com^
@@ -26785,6 +26802,7 @@ zzzyk.com###Tinfo
 ||venator.link^
 ||venetrigni.com^
 ||venienceilo.fun^
+||ventriloquist46.com^
 ||veq8qbwjh.com^
 ||veqekuph.com^
 ||verboten84.top^
