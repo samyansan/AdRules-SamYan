@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-10-13 21:26:19
-! Total count: 29265
+! Version: 2026-10-14 06:13:50
+! Total count: 29276
 
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -8547,9 +8547,18 @@ newsmth.net##.b-content > #sogou_banner:nth-child(3)
 newsmth.net##.ns-ad
 newtalk.tw###_popIn_recommend
 newtalk.tw##.ad-half
+newtalk.tw##.app-idle-ad-overlay
+newtalk.tw##.article-end-popin
 newtalk.tw##.dable_response
 newtalk.tw##.extend_ad
+newtalk.tw##.gam-slot
+newtalk.tw##.gliaplayer-slot
+newtalk.tw##.grid > div[class^="h-"]:has(> div[id^="compass-fit-"])
+newtalk.tw##.news-article-body__ad-slot
+newtalk.tw##aside div.relative:has(> div.gam-slot)
+newtalk.tw##div[class^="min-h-"]:has(> div.gam-slot)
 newtalk.tw##div[id^="ATS_"]
+newtalk.tw,ifoodie.tw,pansci.asia##.ad-container
 newtalk.tw,phbzj.com##.ad-container
 newxue.com##.bd500
 newxue.com##.dashuggtop
@@ -20340,6 +20349,7 @@ zzzyk.com###Tinfo
 ||jghklz.xyz^
 ||jgid.cn^
 ||jgo1pcbx9.com^
+||jgp0ohuv2.com^
 ||jgpo1zqhj.com^
 ||jgsajfggv.xyz^
 ||jgstny.com^$3p
@@ -27702,6 +27712,7 @@ zzzyk.com###Tinfo
 ||x6d93mku0.com^
 ||x6img.com^$domain=picturedata.org
 ||x6kd8l204b.com^
+||x70wk5e54.com^
 ||x7qhjjryf1.com^
 ||x7weiubb2f.com^
 ||x8kwcr3l.xyz^
