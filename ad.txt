@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-10-16 18:34:35
-! Total count: 28649
+! Version: 2026-10-16 23:58:33
+! Total count: 28616
 
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -116,7 +116,6 @@ $websocket,domain=wap.yushuwu.cloud
 .cn:*/vh5$third-party
 .cn:8005/cc/*?is_not=
 .co/js/ads/
-.com*/ps/psCreat.js
 .com/00*00*00*_*c*p*v*.js$~third-party
 .com/0gg/gg*.js
 .com/11*11*11*_*c*p*v*.js$~third-party
@@ -129,9 +128,6 @@ $websocket,domain=wap.yushuwu.cloud
 .com/66*66*66*_*c*p*v*.js$~third-party
 .com/?Intr=$popup,3p
 .com/?aff=$popup,3p
-.com/Public/js/duileft.js
-.com/Public/js/duiright.js
-.com/Runtime/js/psCreat.js
 .com/a_d/
 .com/adv1/?q=
 .com/c.php?s=*=*=$third-party
@@ -139,12 +135,9 @@ $websocket,domain=wap.yushuwu.cloud
 .com/click/object.js$~third-party
 .com/code.php?a=index&z=$script,3p,xhr
 .com/config/v7.js
-.com/core/js/the_pf.js
 .com/cpc/*.ashx?$script,3p
 .com/cpv/*.ashx?$script,3p
-.com/dibudaohang/dibudaohang.js
 .com/discor_list.js
-.com/dongcidaci/
 .com/gg.js
 .com/gg/*?x=$script,3p
 .com/hm/*?*=*$third-party
@@ -162,23 +155,13 @@ $websocket,domain=wap.yushuwu.cloud
 .com/js/discor_list.js
 .com/js/g.js
 .com/js/indextop.js
-.com/js/youlian.js
 .com/jsbjl/zhanqun
-.com/logo/ad.js
-.com/logo/logo.js
-.com/logo/logoxia.js
 .com/m.aspx?action=$3p,script
 .com/mediaController.php?pid=$script,3p
 .com/myjs/alljs.js
-.com/myjs/mys_alljs.js
 .com/pc/ad/
-.com/piaozi/*.js
 .com/qq.js$third-party
 .com/qxads/
-.com/rmb/bofang*.js
-.com/rmb/daohang*.js
-.com/rmb/dl.js
-.com/rmb/palyyoubian.js
 .com/rs/in/*?n=$script,3p
 .com/rs/shto/$3p
 .com/sh/*.js$third-party
@@ -186,7 +169,6 @@ $websocket,domain=wap.yushuwu.cloud
 .com/sitejs/hansan.js
 .com/stat-qq.html?*&click_url_final=$all
 .com/static/js/ad.js
-.com/style/vue.js?v=
 .com/tonglan.js
 .com/tonglan2.js
 .com/topjs/
@@ -209,7 +191,6 @@ $websocket,domain=wap.yushuwu.cloud
 .com:8007/sc/*?n=$3p,script
 .com:8008/sc/*?n=$third-party
 .com:8010/cc/
-.com:91/Runtime/js/psCreat.js
 .com:9120/discor_list.js
 .cyou/redbaiduct.com
 .cyou/xling_*_$third-party
@@ -221,7 +202,6 @@ $websocket,domain=wap.yushuwu.cloud
 .gif|$3p,domain=91xx133.cc
 .gif|$domain=/87[0-9]{2}ck\.cc/
 .gif|$domain=18j.tv
-.gif|$domain=7mshipin.org
 .gif|$domain=8727ck.cc|8726ck.cc
 .gif|$domain=99re.com
 .gif|$image,3p,domain=25img.com
@@ -252,7 +232,6 @@ $websocket,domain=wap.yushuwu.cloud
 .js?ssid=_$script,3p
 .k618.cn/sytab/
 .k618.cn/zbggw/
-.la/style/vue.js?v=
 .land/ad/*.gif
 .life/ads/
 .live/hm.js$third-party
@@ -316,7 +295,6 @@ $websocket,domain=wap.yushuwu.cloud
 .tor*/js/jquery.bpopup.
 .tv/gg/
 .tv/js/ads/
-.tv/style/vue.js?v=
 .tw/ads/
 .us/js/ads/
 .vip/ads/
@@ -329,7 +307,6 @@ $websocket,domain=wap.yushuwu.cloud
 .vip/html/zbxx.js
 .vip/js/ads/
 .vip/shenshang.js
-.vip/style/vue.js?v=
 .wap.x4399.com^
 .work/ads/
 .xn--fiqs8s:7385/
@@ -341,7 +318,6 @@ $websocket,domain=wap.yushuwu.cloud
 .xyz/*?16$third-party
 .xyz/*_*_1_*.js?$third-party
 .xyz//qby_*.js$third-party
-.xyz/99x/
 .xyz/?channelCode=$csp=script-src
 .xyz/?token=
 .xyz/ack?s=$third-party
@@ -420,7 +396,6 @@ $websocket,domain=wap.yushuwu.cloud
 /Distribute/Distribute_g/butterfly/*
 /EZ-YAHOO/*$domain=ezvivi.com
 /Images/ak47/*$domain=hanzify.net|hanzify.org
-/N-960x60.
 /Public/wap/zymk/js/guanggao.js
 /PushSystem/attached/image/*
 /QidianAdClient.
@@ -550,7 +525,6 @@ $websocket,domain=wap.yushuwu.cloud
 /banner468x60_live173.
 /banners/pr_advertising_ads_banner
 /bbhd_*_kkis.js
-/bcgg/*
 /bigREDcat.js?$third-party
 /bigREDdog.css?
 /biyys*hh.js$third-party
@@ -607,7 +581,6 @@ $websocket,domain=wap.yushuwu.cloud
 /cpro.$popup,3p
 /cpro/ui/*
 /crifan_com/padaili.png
-/css/78dfj/*.js
 /css/ad.
 /css/gg.js
 /css_js/*$domain=aiyangedu.com|duanmeiwen.com|jy135.com|oh100.com|qunzou.com|ruiwen.com|unjs.com|yjbys.com|yuwenmi.com
@@ -646,13 +619,9 @@ $websocket,domain=wap.yushuwu.cloud
 /float_r.js
 /floatad.$domain=~fwxgx.com
 /floatad2.
-/floatcaopron.js
 /floatingcontent/*$3p
 /frm_adv.aspx
 /front/adv/getpmadvlist
-/frontend-jiucao/img/banner.jpg
-/frontend-jiucao/ps/*.gif
-/frontend-jiucao/ps/psCreat.js
 /fshow.php?id=$script,3p
 /fsjghgwyegh_f.js
 /fuliba/js/n1.js
@@ -669,7 +638,6 @@ $websocket,domain=wap.yushuwu.cloud
 /getcode.jsp?uid=$script,3p
 /gg.php
 /gg/gg.js
-/gg7f5kv/*
 /gg_d.php
 /gg_details_
 /gg_t.php
@@ -933,7 +901,6 @@ $websocket,domain=wap.yushuwu.cloud
 /qqlive/conf/playerlottery/*
 /r/*?_r=$object,subdocument,3p
 /r/video/*$domain=youxi.baidu.com
-/red2/ad/*
 /redbaiduct.com?s=
 /release100009ts?$script,3p
 /remix_banner.gif
@@ -985,7 +952,6 @@ $websocket,domain=wap.yushuwu.cloud
 /static/fushuba/js/wap.js
 /static/idingdian/idd.
 /static/jietiandixs/jtd.js$~third-party
-/static/js/aall.js
 /static/js/miniyyrtv-config.js
 /static/js/pages/dialogAd.js
 /static/js/pop_promotion.js?v=
@@ -1006,7 +972,6 @@ $websocket,domain=wap.yushuwu.cloud
 /sxgg/13
 /tanad.js
 /tanchuan.htm$popup,3p
-/td_ads_ckbeck.js
 /template/*/adm/*
 /template/*/ads/*
 /template/*/lele36.html
@@ -1016,7 +981,6 @@ $websocket,domain=wap.yushuwu.cloud
 /template/jable/angular.min.js$~3p
 /template/jable/angular.min.js$~third-party
 /template/jable/tj.js$~3p
-/template/jiejiesao/aaaa/*
 /template/mytheme/statics/js/listing.js
 /template/paody/aaaa/all-top.js
 /template/piankuwap/js/afixed.js
@@ -1050,7 +1014,6 @@ $websocket,domain=wap.yushuwu.cloud
 /u/_sponsor/*
 /uc123_no/*/index/js/activity.
 /uniontgm.cmb.
-/upload/vod/2018-08-05/201808051533458526.png
 /uploadfile/ad/*
 /uploads/setting/ad/*
 /uu114/ad/*
@@ -1060,7 +1023,6 @@ $websocket,domain=wap.yushuwu.cloud
 /vbvb_*_pmpm.js
 /vh2/*$third-party
 /vhyoydie_*_*.js$third-party
-/videoJS/video-conrtib-ads.js
 /view/image/ngps1.gif
 /vipgg/*
 /vj1/*$third-party
@@ -1081,7 +1043,6 @@ $websocket,domain=wap.yushuwu.cloud
 /webAdvert.php?ad_name=
 /webcam.mp4$domain=91porn.com
 /webcam600.mp4$domain=91porn.com
-/websales_push_*_big.php?id=
 /wp-content/themes/iMovies/js/tc_
 /wscdn/*$subdocument
 /wxh_asy.js
@@ -1115,7 +1076,6 @@ $websocket,domain=wap.yushuwu.cloud
 /youziks\.com\/[0-9]+\.js/$domain=youziks.com,script
 /ys_77jjss/*
 /ysm.ezprice.net/*
-/yunfile/offline_banner/*
 /yy_transv/js/cmp.js
 /zzzz/assets/js/common/discor_list.js
 012.tw#@#.ad728
@@ -1492,6 +1452,7 @@ $websocket,domain=wap.yushuwu.cloud
 1ting.com###tingx_5
 1ting.com##div[style="position:fixed;bottom:0;z-index:999"]
 1x6666.com,528500.com,52jscn.com,58cam.com,5imx.com,7sqq.com,99nets.com,99nets.me,bbs.52life.cc,bestcclm.com,cm868.com,cnyw.net,discuzlab.com,gebi1.com,hh010.com,im286.net,kugz.com,ld0766.com,luanren.com,mahoupao.com,qinzhou8.com,suizhoushi.com,susongbbs.com,txahz.com,wishct.com,xsool.com,xydai.cn,ybvv.com###diy1
+1x6666.com,528500.com,52jscn.com,58cam.com,5imx.com,7sqq.com,99nets.com,99nets.me,bbs.52life.cc,bestcclm.com,cm868.com,cnyw.net,discuzlab.com,gebi1.com,hh010.com,im286.net,kugz.com,ld0766.com,luanren.com,mahoupao.com,qinzhou8.com,suizhoushi.com,susongbbs.com,txahz.com,xsool.com,xydai.cn,ybvv.com###diy1
 1x6666.com,52ch.net,bbs.qbaobei.com,chinafix.com,cnyw.net,gz0668.com,hcbbs.com,mahoupao.com,susongbbs.com,xsool.com,xydai.cn###diynavtop
 1ydt.com###head
 2.taobao.com##.download-layer
@@ -4109,6 +4070,7 @@ cilimao.co,cilimao.one##div[class^="FixBanner"]
 cjjjs.com,cnblogs.com,fastadmin.net,ziqiangxuetang.com##a[href^="https://promotion.aliyun.com/"]
 cjn.cn###slidelr
 cjn.cn##.sidebar
+cjw123.com##.copy
 cjw123.com##a[href="http://tb.cjw123.com"]
 cjw123.com,weike87.com##.copy
 ck101.com###threadlisttableid > tbody:not([class]):not([id]):has(> tr > td[id^="popin_"])
@@ -8621,6 +8583,7 @@ olevod.com##.L4A
 olevod.com##.ad1
 olevod.com##.ads-bg
 olevod.com##.pc-ads
+olevod.com##.swiper
 olevod.com##.swiper-wrapper > div.swiper-slide:has(> img[src^="https://static.olelive.com/uploads/file/"])
 olevod.com##.swiper-wrapper > li.swiper-slide:has(> a[target="_blank"]:not([href^="/"])):remove()
 olevod.com##div[class^="ad"][style="margin-top: 0.05rem;"]
@@ -14184,6 +14147,7 @@ zzzyk.com###Tinfo
 ||alicdn.com/tps/*-950-90.
 ||alicdn.com/tps/i3/T19NaCFKFaXXckTCTS-300-100.jpg
 ||alicdn.com^$domain=1avlang.com|51dll.com|52kpop.com|63ef.com|69t41.com|7mav2.com|99a21.com|aotu101.com|ccxx99.com|dytt.com|hanfan.cc|jb51.net|jitapu.com|junying.com|jvhao.com|magnet2048.com|qingmanyong.com|supfree.net|thztv.cc|wenkuxiazai.com|xiaomingming.org
+||alicdn.com^$domain=1avlang.com|51dll.com|52kpop.com|63ef.com|69t41.com|7mav2.com|aotu101.com|dytt.com|hanfan.cc|jb51.net|jitapu.com|junying.com|jvhao.com|magnet2048.com|qingmanyong.com|supfree.net|thztv.cc|wenkuxiazai.com|xiaomingming.org
 ||alicdn.com^$domain=2c2.website|2p8.space|adultgao.com|caopop.com|caoporn.com|caouoo.com|caox.cc|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|se88.space|t2p.space|tb001.xyz|te88.pw|vwan.xyz|xhao1.com
 ||alicdn.com^$domain=99re.com
 ||alicdn.com^$domain=pianba.net
@@ -16834,6 +16798,7 @@ zzzyk.com###Tinfo
 ||dnxtc.net^*/xiaobing
 ||dnyzbp.cn^
 ||dnzmhr.xyz^
+||do7gsv4xsf.com^
 ||dobiez.com/statics/wap_v1/js/qwd.
 ||doc88.com^*/count.js
 ||doccd.xyz^
@@ -21944,6 +21909,7 @@ zzzyk.com###Tinfo
 ||mputq031w.com^
 ||mq82ovaqu.com^
 ||mqaae0c7m1.com^
+||mqgxw8ng75.com^
 ||mql5.com/rq?
 ||mqndhoceat.com^
 ||mqo60hadqz.com^
@@ -24600,6 +24566,7 @@ zzzyk.com###Tinfo
 ||sinaimg.cn/wap/project/blog_to_news_banner/
 ||sinaimg.cn^$domain=04stream.tv|11luba.com|46bk.com|500xxxx.com|522dy.com|63ef.com|7mav2.com|7mshipin.org|94xxmm.com|99a21.com|abminbuy.com|aotu101.com|blz105.com|blz20.com|blz24.com|caibaojian.com|cangjige.net|ccxx99.com|cnmysoft.com|ems183.cn|fdzone.org|kccdk.com|kiees.cn|kisssub.org|lifan.moe|llj22.com|pianyuan.org|rarbt.cc|sbme.me|se533.com|supfree.net|thztv.cc|tiantianzhibo.com|vx666.com|yaoshe1.com
 ||sinaimg.cn^$domain=04stream.tv|11luba.com|46bk.com|500xxxx.com|522dy.com|63ef.com|7mav2.com|7mshipin.org|99a21.com|abminbuy.com|aotu101.com|blz105.com|blz20.com|blz24.com|caibaojian.com|cangjige.net|ccxx99.com|cnmysoft.com|ems183.cn|fdzone.org|kccdk.com|kiees.cn|kisssub.org|lifan.moe|llj22.com|pianyuan.org|rarbt.cc|sbme.me|se533.com|supfree.net|thztv.cc|tiantianzhibo.com|vx666.com|yaoshe1.com
+||sinaimg.cn^$domain=04stream.tv|11luba.com|46bk.com|500xxxx.com|522dy.com|63ef.com|7mav2.com|abminbuy.com|aotu101.com|blz105.com|blz20.com|blz24.com|caibaojian.com|cangjige.net|cnmysoft.com|ems183.cn|fdzone.org|kiees.cn|kisssub.org|lifan.moe|llj22.com|pianyuan.org|rarbt.cc|sbme.me|se533.com|supfree.net|thztv.cc|tiantianzhibo.com|vx666.com
 ||sinaimg.cn^$domain=2c2.website|2p8.space|adultgao.com|caopop.com|caoporn.com|caouoo.com|caox.cc|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|se88.space|t2p.space|tb001.xyz|te88.pw|vwan.xyz|xhao1.com
 ||sinaimg.cn^$domain=88files.net|aotu43.com
 ||sinaimg.cn^$domain=99re.com
