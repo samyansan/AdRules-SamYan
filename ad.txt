@@ -3,7 +3,7 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-10-30 12:08:01
+! Version: 2026-10-30 20:01:11
 ! Total count: 28613
 
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
@@ -1808,7 +1808,6 @@ $websocket,domain=wap.yushuwu.cloud
 4gtv.tv##+js(prevent-fetch, pagead2.googlesyndication.com)
 4gtv.tv#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 4hu.tv##.couplet-left
-4hu.tv##.kkm-content
 4hu.tv##.wrap > div.mod > div.row > dl:has(> dt > a[target="_blank"]:not([href^="/html/"]) > img)
 4spaces.org,fuliba.net,fuliba2023.net,fuliba2025.net,laozuo.org,ypojie.com##.widget_ui_orbui
 500.com###live_top_ad
@@ -27903,6 +27902,7 @@ zzzyk.com###Tinfo
 ||ysxs8.vip/js/bd_top.js
 ||ysxs8.vip/js/play_db.js
 ||ysxs8.vip/ysgg/
+||ysy5uobifs.com^
 ||yszpegh.xyz^
 ||yszzq.com/Style/js/date.
 ||yt-adp.nosdn.127.net^
