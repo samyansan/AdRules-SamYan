@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-11-02 12:05:07
-! Total count: 28657
+! Version: 2026-11-02 22:38:20
+! Total count: 28666
 
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -10622,6 +10622,7 @@ wenku.baidu.com##div[id^="html-reader-banner-"]
 wenku8.net###adv300
 wenku8.net#@##adtop
 wenmi114.com###xiezuo
+wenshushu.cn##.cont-right .mer-item
 wenxuecity.com###adt
 wenxuecity.com###marquee
 wenxuecity.com##+js(set-constant, adsbygoogle, noopFunc)
@@ -10793,6 +10794,8 @@ www.zhihu.com##A.MHotFeedAd,.MRelateFeedAd,.WeiboAd-wrap,.AdvertImg.AdvertImg--i
 www.zol.com.cn#@##search_ad
 wx.sina.com.cn###artibody > .article-video
 wxredian.com##+js(set-constant, checkAdScript, noopFunc)
+wxredian.com##.adblock-warning:style(display: none !important;)
+wxredian.com##body:style(overflow: auto !important;)
 wxredian.com#%#//scriptlet('set-constant', 'checkAdScript', 'noopFunc')
 wxsck.com###content > div[style^="clear:"]
 wxsck.com##.fixed-btn ~ div[style^="position:fixed; bottom:"]
@@ -11941,6 +11944,7 @@ zzzyk.com###Tinfo
 ||223qu6jnqv.com^
 ||224oztn8dq.com^
 ||22eo9qlbpt.com^
+||22n5xlc6n0.com^
 ||22qcvn8hq.com^
 ||22svkcdbyp.com^
 ||22vie9ula.com^
@@ -22773,6 +22777,7 @@ zzzyk.com###Tinfo
 ||p.zol-img.com.cn^
 ||p.zol.com.cn/download/detail.js
 ||p0h1nfzc2.com^
+||p0m1qlvawp.com^
 ||p0pn18sxvh.com^
 ||p0y.cn^
 ||p0y.cn^$image,domain=~ipinyou.com.cn
@@ -26133,6 +26138,7 @@ zzzyk.com###Tinfo
 ||uxb030ku4s.com^
 ||uxbd4id.xyz^
 ||uxcnhsf.cn^
+||uxee5bmf1k.com^
 ||uxfe.cn^
 ||uxjw.cn^
 ||uxkjxzq7wh.com^
@@ -27229,6 +27235,7 @@ zzzyk.com###Tinfo
 ||xfidfuxidr.in^
 ||xfjy2fh28b.com^
 ||xflsj.com^
+||xfvod.pro*/images/ad/
 ||xfvod.pro/images/ad/
 ||xfxtqjg.com^
 ||xfztgxt.com^
@@ -27385,6 +27392,7 @@ zzzyk.com###Tinfo
 ||xkblzuz.com^
 ||xkcxh.com^
 ||xkmwxwy.cn^
+||xkp30u4pxh.com^
 ||xkqit.com^
 ||xktoy8fub.com^
 ||xkum.cn^
@@ -28030,6 +28038,7 @@ zzzyk.com###Tinfo
 ||yxtmums.com^
 ||yxvoud.com^
 ||yxwg21lyyn.com^
+||yxxq59.cc/static/images/ads/
 ||yxzp.net/left.js
 ||yy17173.dtime.com^
 ||yy18.info/yyads/
