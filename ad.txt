@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-11-03 08:24:42
-! Total count: 28667
+! Version: 2026-11-03 21:30:41
+! Total count: 28679
 
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -10623,6 +10623,7 @@ wenku8.net###adv300
 wenku8.net#@##adtop
 wenmi114.com###xiezuo
 wenshushu.cn##.cont-right .mer-item
+wenshushu.cn##.not-tree > .mer-item
 wenxuecity.com###adt
 wenxuecity.com###marquee
 wenxuecity.com##+js(set-constant, adsbygoogle, noopFunc)
@@ -10796,6 +10797,8 @@ wx.sina.com.cn###artibody > .article-video
 wxredian.com##+js(set-constant, checkAdScript, noopFunc)
 wxredian.com##.adblock-warning:style(display: none !important;)
 wxredian.com##body:style(overflow: auto !important;)
+wxredian.com#$#.adblock-warning { display: none !important; }
+wxredian.com#$#body { overflow: auto !important; }
 wxredian.com#%#//scriptlet('set-constant', 'checkAdScript', 'noopFunc')
 wxsck.com###content > div[style^="clear:"]
 wxsck.com##.fixed-btn ~ div[style^="position:fixed; bottom:"]
@@ -11513,6 +11516,7 @@ zzzyk.com###Tinfo
 ||0wpfe0duo.com^
 ||0x79jjyph7.com^
 ||0xr7ii3df.com^
+||0xxbtt1ov.com^
 ||0xzxwnkqdu.com^
 ||0yfqg4qm0.com^
 ||0yjeii25x4.com^
@@ -13420,6 +13424,7 @@ zzzyk.com###Tinfo
 ||a78lx5fbd.com^
 ||a85t9mxnj.com^
 ||a8age.com^
+||a8ougj16a.com^
 ||a8qwjt7dwi.com^
 ||a8wqu3fbmk.com^
 ||a962m.xyz^
@@ -17238,6 +17243,7 @@ zzzyk.com###Tinfo
 ||elecfans.com/skin-*ad_
 ||elecfans.com/static/home_ad/
 ||elecfans.com/webapi/advertisement/
+||electrician25.com^
 ||electrode28.com^
 ||electronic23.com^
 ||elegant-creator.com^
@@ -17553,6 +17559,7 @@ zzzyk.com###Tinfo
 ||fdk6z2l7jt.com^
 ||fdluoxnn.com^
 ||fds-1230.cc^
+||fdseb8s0y.com^
 ||fdtarpaueilvrs.com^
 ||fe7xxmtg3.com^
 ||fedoq.com^
@@ -18387,6 +18394,7 @@ zzzyk.com###Tinfo
 ||gsnlc.cn^
 ||gsp0.kj-gov.cn^
 ||gspwpr0ox.com^
+||gssaga13g.com^
 ||gsxbxvd.cn^
 ||gt.duowan.com^
 ||gt.yy.com^
@@ -20472,6 +20480,7 @@ zzzyk.com###Tinfo
 ||kbr23k89xz.com^
 ||kc-valves.com^
 ||kc30leutua.top^
+||kca7afgqg.com^
 ||kcnwe.xyz^
 ||kd5anwumy.com^
 ||kdcl.pchome.com.tw^
@@ -21134,6 +21143,7 @@ zzzyk.com###Tinfo
 ||lmtjapi.com^
 ||lmtruueagl.com^
 ||lmx7.com^
+||lmxnthoobcznvu.com^
 ||lmxxxz.com^
 ||ln3v4pjf1h.com^
 ||lnaevr.fun^
@@ -24039,6 +24049,7 @@ zzzyk.com###Tinfo
 ||roi.soulapp.cn^
 ||roj7ah16d.com^
 ||romiyee.icu^
+||romwdc1mv.com^
 ||ronbbf.xyz^
 ||ronfjvonmo.com^
 ||rongedui.com^
@@ -26205,6 +26216,7 @@ zzzyk.com###Tinfo
 ||v53groc9v.com^
 ||v5rv8mnfk.com^
 ||v6-be-pack.pglstatp-toutiao.com^
+||v62hjyw4o.com^
 ||v6jt.cn^
 ||v700rtlhd.com^
 ||v7mf6q1mx.com^
@@ -26284,6 +26296,7 @@ zzzyk.com###Tinfo
 ||veuf2obzc8.com^
 ||vexilorath.com^
 ||veybl6f3o.com^
+||vfbbxi2ap.com^
 ||vfbwcfej.icu^
 ||vfcv.cn^
 ||vfie3ximi3elx4uw.cfd^
@@ -27237,7 +27250,6 @@ zzzyk.com###Tinfo
 ||xfjy2fh28b.com^
 ||xflsj.com^
 ||xfvod.pro*/images/ad/
-||xfvod.pro/images/ad/
 ||xfxtqjg.com^
 ||xfztgxt.com^
 ||xggdrks.icu^

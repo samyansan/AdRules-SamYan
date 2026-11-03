@@ -8823,6 +8823,7 @@ wenku8.net###adv300
 wenku8.net#@##adtop
 wenmi114.com###xiezuo
 wenshushu.cn##.cont-right .mer-item
+wenshushu.cn##.not-tree > .mer-item
 wenxuecity.com###adt
 wenxuecity.com###marquee
 wenxuecity.com##+js(set-constant, adsbygoogle, noopFunc)
@@ -8978,6 +8979,8 @@ wx.sina.com.cn###artibody > .article-video
 wxredian.com##+js(set-constant, checkAdScript, noopFunc)
 wxredian.com##.adblock-warning:style(display: none !important;)
 wxredian.com##body:style(overflow: auto !important;)
+wxredian.com#$#.adblock-warning { display: none !important; }
+wxredian.com#$#body { overflow: auto !important; }
 wxsck.com###content > div[style^="clear:"]
 wxsck.com##.fixed-btn ~ div[style^="position:fixed; bottom:"]
 wxsck.com##.footer:style(margin-top: 0px !important;)
