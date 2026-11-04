@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-11-04 12:38:25
-! Total count: 28691
+! Version: 2026-11-04 21:41:43
+! Total count: 28699
 
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -7422,6 +7422,8 @@ league-funny.com##div[class*="h-[250px]"]:has(> div[id^="div-gpt-"]:only-child)
 league-funny.com##div[class^="dan_pmp"]
 league-funny.com##section.w-full > .border-b:has(> .hidden > div[id^="div-gpt-"]:only-child)
 league-funny.com#%#//scriptlet("prevent-setTimeout", "ad_num_show")
+league-funny.com#%#//scriptlet('json-prune', 'pageProps.adSystem props.pageProps.adSystem')
+league-funny.com#%#//scriptlet('set-constant', '__NEXT_DATA__.props.pageProps.adSystem', 'emptyArr')
 league-funny.com,coco01.net##.scupioadslot
 leiling.org##.ad__single-double-rectangle-wrap
 lenniu.com##.caClass
@@ -11912,6 +11914,7 @@ zzzyk.com###Tinfo
 ||1weorpu.com^
 ||1wkg.cn^
 ||1wo2fytcws.com^
+||1wxj1q0wo5.com^
 ||1x6666.com/img/
 ||1y55vfy87.com^
 ||1zdywcgmlt.com^
@@ -12358,6 +12361,7 @@ zzzyk.com###Tinfo
 ||47f9jdixm7.com^
 ||480ipil.com^
 ||484r.com/images/flash/gallery_
+||487wlz7nbc.com^
 ||48dswtxkw.com^
 ||48r3l2u5l2.com^
 ||490i1rrbd.com^
@@ -12668,6 +12672,7 @@ zzzyk.com###Tinfo
 ||5nj.com/js/cnzz33.js
 ||5ntq14y5y.com^
 ||5p35xkp1p.com^
+||5p478n58i9.com^
 ||5qnyx6k5w.com^
 ||5s98.com/img/
 ||5sghirlr5b.com^
@@ -13277,6 +13282,7 @@ zzzyk.com###Tinfo
 ||9mdg9cu59.com^
 ||9miwo.com^
 ||9mnmzh506.com^
+||9nvj3swk9l.com^
 ||9nwplq7y2o.com^
 ||9nzrfglryy.com^
 ||9obmf866d.com^
@@ -20167,6 +20173,7 @@ zzzyk.com###Tinfo
 ||jpfans.com/jpfans.jpg
 ||jpg1.oss-cn-beijing.aliyuncs.com^
 ||jpqed.xyz^
+||jptifzvqhanvha.com^
 ||jpush.cn^
 ||jpush.html5.qq.com^
 ||jpush.io^
@@ -23430,6 +23437,7 @@ zzzyk.com###Tinfo
 ||q643s5wiiz.com^
 ||q6iw41lkk.com^
 ||q6zikgclq9.com^
+||q70t79hxor.com^
 ||q7vnwa1ma7.com^
 ||q8pmxabng9.com^
 ||q9cu7eok92.com^
