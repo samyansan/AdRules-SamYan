@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-11-13 12:50:21
-! Total count: 28733
+! Version: 2026-11-13 21:50:24
+! Total count: 28735
 
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -7310,6 +7310,10 @@ kubb.tv,yfsp.tv,aiyifan.tv,iyf.tv##+js(remove-class, publicplay, #main-player)
 kubb.tv,yfsp.tv,aiyifan.tv,iyf.tv##.bg-overlayer:style(pointer-events: unset !important;)
 kubb.tv,yfsp.tv,aiyifan.tv,iyf.tv##.video-player + div.ps > div:has(> div.bb)
 kubb.tv,yfsp.tv,aiyifan.tv,iyf.tv##.video-player > .dabc > .ng-star-inserted[style="position: relative;"]
+kubb.tv,yfsp.tv,aiyifan.tv,iyf.tv#$#.bg-overlayer { pointer-events: unset !important; }
+kubb.tv,yfsp.tv,aiyifan.tv,iyf.tv#%#//scriptlet('abort-on-property-read', 'Object.prototype.ShouldLoadAds')
+kubb.tv,yfsp.tv,aiyifan.tv,iyf.tv#%#//scriptlet('abort-on-stack-trace', 'Object.prototype.pgmp', 'invokeInterstitial')
+kubb.tv,yfsp.tv,aiyifan.tv,iyf.tv#%#//scriptlet('remove-class', 'publicplay', '#main-player')
 kuke99.com##.index-dialog-mask
 kukuo.tw##article > aside.left > .adsbygoogle:upward(1)
 kukuo.tw#?#article > aside.left > .adsbygoogle:upward(1)
@@ -11045,12 +11049,6 @@ yesky.com##.rightGg
 yesky.com##div[class^="ad1"]
 yesky.com##div[class^="ad7"]
 yeyemo4.com,yeyemo5.com,yeyemo6.com,yeyemo7.com,yeyemo8.com,yeyemo9.com##center > a[target="_blank"] > img
-yfsp.tv,aiyifan.tv,iyf.tv##.video-player + div.ps > div:has(> div.bb)
-yfsp.tv,aiyifan.tv,iyf.tv##.video-player > .dabc > .ng-star-inserted[style="position: relative;"]
-yfsp.tv,aiyifan.tv,iyf.tv#$#.bg-overlayer { pointer-events: unset !important; }
-yfsp.tv,aiyifan.tv,iyf.tv#%#//scriptlet('abort-on-property-read', 'Object.prototype.ShouldLoadAds')
-yfsp.tv,aiyifan.tv,iyf.tv#%#//scriptlet('abort-on-stack-trace', 'Object.prototype.pgmp', 'invokeInterstitial')
-yfsp.tv,aiyifan.tv,iyf.tv#%#//scriptlet('remove-class', 'publicplay', '#main-player')
 ygdy8.cc##.container > a[href^="/"]
 ygdy8.cc##body > a[href^="/"]
 yhdm*.com/js/wap2-jm-ms.js?ver=
@@ -14473,6 +14471,7 @@ zzzyk.com###Tinfo
 ||atanx.alicdn.com^
 ||atbdkmt.xyz^
 ||atiws.aipai.com^
+||atl0g02nj.com^
 ||atm.youku.com^
 ||atnnf.xyz^
 ||ato.tooopen.com^
@@ -19996,6 +19995,7 @@ zzzyk.com###Tinfo
 ||jdpbpd.icu^
 ||jdpm.net.cn^
 ||jds4i5gcfv.com^
+||jdzxdlmc3.com^
 ||je3zdrcua.com^
 ||jeepyy.com^$3p
 ||jeepyy.com^$third-party
@@ -21805,6 +21805,7 @@ zzzyk.com###Tinfo
 ||miguyu.com/AD/
 ||mihoutao1868.github.io^
 ||mikanani.me/images/Masha/
+||mikasang.xyz^
 ||mikongdd.top^
 ||mikuclub.*/pub/
 ||mil.news.sina.com.cn/iframe/109/2012/1024/photo.html
@@ -23257,6 +23258,7 @@ zzzyk.com###Tinfo
 ||porqbb.icu^
 ||porthole58.top^
 ||pos.baidu.com^
+||pos23t6jw.com^
 ||position66.top^
 ||poster.weather.com.cn^
 ||postimg.cc^*-960x60.
