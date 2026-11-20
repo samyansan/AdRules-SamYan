@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2026-11-20 22:48:47
-! Total count: 28839
+! Version: 2026-11-21 07:37:09
+! Total count: 28846
 
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -6178,7 +6178,10 @@ huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('trusted-re
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('trusted-set-constant', 'ConFig.config.ads', '{"pause":{"state":{}}}')
 huavod.com###player-vip
 huavod.com##a[href^="https://lesi198.com"]
+huavod.com,huavod.net##div[style="margin:2px 0;"] > a.item > img[src^="https://static.okokserver.com/uploads/"]
 huavod.net##.hr-slot-box
+huavod.net,huavod.com##.ec-ad:style(position: fixed !important; left: -99999px !important; top: -99999px !important; width: 1px !important; height: 1px !important; opacity: 0.01 !important; visibility: visible !important;)
+huavod.net,huavod.com##.hr-banner-stack:style(position: fixed !important; left: -99999px !important; top: -99999px !important; width: 1px !important; height: 1px !important; opacity: 0.01 !important; visibility: visible !important;)
 huawei.com#@#.ad-section
 huawei.com#@#.ad-wrap:not(#google_ads_iframe_checktag)
 hubei.gov.cn#@##ad-side
@@ -8638,6 +8641,8 @@ ouyaoxiazai.com##div[id^="cs_"] > *
 p2peye.com###article_content a[ref="nofollow"]
 p2peye.com##.red-box
 p9.com.tw##.contentRightAd
+pa1151.top##a[href="https://dage.top/"]
+pa1151.top##a[href="https://dagexxx.com"]
 pabopa.com##DIV[style='width: 100%;'],DIV[carousel-item],#slide.layui-carousel,.closeable
 pan.baidu.com###share_ad_info_panl
 pan.baidu.com##.decrease-active
@@ -19206,6 +19211,8 @@ zzzyk.com###Tinfo
 ||huaren.us/bbs_ads/
 ||huarenjie.com/attachment/myfiles/
 ||huatuo.qq.com^
+||huavod.com/static/js/ntc.js
+||huavod.net/static/js/ntc.js
 ||huaweinnd.top^
 ||huaxia.name^
 ||hubcloud.com.cn^
